@@ -1,0 +1,12 @@
+QA/
+node_modules/
+*.zip
+*.log
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
