@@ -33,14 +33,15 @@ assert.equal(manifest.stone.files.length,0,"Stone public release is not currentl
 assert.equal(manifest.stone.release,null);
 
 assert.ok(Array.isArray(p));
-assert.equal(p.length,11,"The public catalog must contain 11 products");
-assert.equal(new Set(p.map(x=>x.id)).size,11);
+assert.equal(p.length,10,"The public catalog must contain 10 products");
+assert.equal(new Set(p.map(x=>x.id)).size,10);
 const published=["stone","marble","reports","hr","download"].sort();
 assert.deepEqual(Array.from(p.filter(x=>x.status==="public"),x=>x.id).sort(),published);
-assert.equal(p.filter(x=>x.status==="dev").length,6);
-assert.ok(!p.some(x=>["omar","reem"].includes(x.id)));
+assert.equal(p.filter(x=>x.status==="dev").length,5);
+assert.ok(!p.some(x=>["omar","reem","recorder"].includes(x.id)));
+assert.ok(!fs.existsSync(path.join(root,"assets/previews/recorder.svg")),"Removed preview must not ship");
 const allIds=new Set(p.map(x=>x.id));
-for(const id of ["kitchen","care","recorder","porcelain","quotes","tv"])assert.ok(allIds.has(id));
+for(const id of ["kitchen","care","porcelain","quotes","tv"])assert.ok(allIds.has(id));
 for(const item of p){
   for(const field of ["id","title","english","description","details","category","version","preview","previewAlt","displayStatus"]){
     assert.equal(typeof item[field],"string",item.id+":"+field);
@@ -68,7 +69,7 @@ const html=read("index.html");
 assert.match(html,/<html lang="ar" dir="rtl">/);
 for(const key of ['id="catalog"','id="search"','id="featured-cards"','id="stat-upcoming"',
                   'id="product-modal"','data-filter="public"','data-filter="dev"'])assert.ok(html.includes(key),key);
-for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/v3_1.css","assets/v3_1.js","assets/downloads.css","assets/downloads.js","assets/downloads-ui.js","assets/v3_3.js","assets/v3_3.css",".well-known/security.txt","assets/app.js","assets/products.js",
+for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/v3_1.css","assets/v3_1.js","assets/downloads.css","assets/downloads.js","assets/downloads-ui.js","assets/v3_3.js","assets/v3_3.css","assets/v3_4.js","assets/v3_4.css",".well-known/security.txt","assets/app.js","assets/products.js",
                 "favicon.svg","CNAME","robots.txt","sitemap.xml"])assert.ok(fs.existsSync(path.join(root,f)),f);
 assert.equal(read("CNAME").trim(),"alghad.digital");
 const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/v3_1.js"),read("assets/downloads-ui.js"),read("assets/downloads.js"),read("assets/downloads.css"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css"),read("assets/v3_1.css")].join("\n");
@@ -82,6 +83,11 @@ assert.ok(html.includes('href="#contact"'));
 assert.ok(html.includes("assets/v3_1.css") && html.includes("assets/v3_1.js"));
 for(const key of ["assets/v3_3.js","assets/v3_3.css",'id="release-showcase"','id="security"','id="trust-current-connection"','href="#downloads"'])assert.ok(html.includes(key),key);
 assert.ok(read("assets/v3_3.js").includes("isSecureContext"));
+assert.ok(html.includes('id="gallery-portfolio-count"') && html.includes('id="back-to-top-floating"'));
+assert.ok(html.includes("assets/products.js?v=3.4.0"));
+assert.ok(html.includes("assets/v3_4.js") && html.includes("assets/v3_4.css"));
+assert.ok(read("assets/v3_4.js").includes("history.replaceState"));
+assert.doesNotMatch(read("assets/products.js"),/Call Recorder PRO|CALL RECORDER|recorder\.svg/);
 assert.ok(read(".well-known/security.txt").includes("Contact: mailto:protech.2025.2026@gmail.com"));
 for(const key of ["assets/downloads.js","assets/downloads-ui.js","assets/downloads.css","Content-Security-Policy","upgrade-insecure-requests"])assert.ok(html.includes(key),key);
 assert.ok(read("assets/downloads-ui.js").includes("https:") && read("assets/downloads-ui.js").includes('url.hostname !== "github.com"'));
@@ -90,4 +96,4 @@ for(const key of ['id="sort-products"','id="compare-tray"','id="compare-dialog"'
 for(const word of ["hydrateCompareButtons","renderComparison","?app","selected.size"])assert.ok(read("assets/v3.js").includes(word)||word==="?app",word);
 const js=read("assets/app.js");
 for(const word of ['"مكتمل"','"قريبًا جدًا"',"renderFeatured","aria-label"])assert.ok(js.includes(word));
-console.log("PASS: 11 projects, 5 public repos, 4 verified public download releases, no fake Stone asset, HTTPS-only GitHub links, CSP, no excluded apps.");
+console.log("PASS: 10 projects, 5 public repos, 5 upcoming, 4 verified public release downloads, recorder excluded, HTTPS and CSP.");

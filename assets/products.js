@@ -236,39 +236,6 @@ window.AL_GHAD_PRODUCTS = [
     "release": null
   },
   {
-    "id": "recorder",
-    "title": "Call Recorder PRO",
-    "english": "CALL RECORDER",
-    "category": "الاتصالات",
-    "description": "تنظيم التسجيلات الصوتية على Android وتشغيلها ومشاركتها عندما تسمح المنصة.",
-    "details": "تطبيق Android لتجارب تسجيل المكالمات وإدارة الملفات المرتبطة، مع تفاوت الإمكانات بحسب الجهاز وإصدار النظام والأذونات والقوانين المحلية.",
-    "platforms": [
-      "Android"
-    ],
-    "version": "1.1.0",
-    "status": "dev",
-    "github": null,
-    "features": [
-      "تنظيم السجلات الصوتية وتصنيفها",
-      "استعراض التسجيلات والتشغيل المحلي",
-      "مشاركة الملفات وإدارة المكتبة",
-      "دعم ميزات حسب أذونات Android",
-      "التجارب والاختبارات قيد التطوير"
-    ],
-    "emblem": "◉",
-    "colors": [
-      "#3b486b",
-      "#1b2846",
-      "#9da9ff"
-    ],
-    "keywords": "recorder call android phone مسجل مكالمات",
-    "summary": "مساحة منظمة للملفات الصوتية",
-    "preview": "assets/previews/recorder.svg",
-    "previewAlt": "تصميم توضيحي لواجهة Call Recorder PRO",
-    "displayStatus": "قريبًا جدًا",
-    "release": null
-  },
-  {
     "id": "porcelain",
     "title": "Porcelain Manager",
     "english": "PORCELAIN MANAGER",

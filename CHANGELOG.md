@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.4.0 — 2026-11-07
+- Removed Call Recorder PRO and its public SVG preview from the website.
+- Reconciled published product counts: 10 entries (5 published repositories, 5 upcoming).
+- Added regression guards so the removed app cannot reappear in catalog, search, cards or direct links.
+- Updated the publisher to stage deletions of old preview assets.
+- Refined mobile navigation, cards and back-to-top controls for a cleaner browsing experience.
+
+
 ## v3.3.0 — 2026-11-07
 - Verified TLS 1.3 directly inside a clean Chrome session with the same URL from the screenshot.
 - Verified valid certificate subjects for alghad.digital and www.alghad.digital, and a secure browser context.

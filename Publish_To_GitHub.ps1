@@ -58,13 +58,17 @@ try {
         "assets/products.js", "assets/app.js", "assets/style.css", "assets/v2.css",
         "assets/v3.js", "assets/v3.css", "assets/v3_1.js", "assets/v3_1.css",
         "assets/downloads.js", "assets/downloads-ui.js", "assets/downloads.css",
-        "assets/v3_3.js", "assets/v3_3.css", ".well-known/security.txt",
+        "assets/v3_3.js", "assets/v3_3.css", "assets/v3_4.js", "assets/v3_4.css", ".well-known/security.txt",
         "tests/smoke-test.cjs", "tests/browser-test.cjs", "CHANGELOG.md"
     )
     $previewFiles = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\previews") -File -Filter "*.svg" | ForEach-Object { "assets/previews/" + $_.Name })
-    if ($previewFiles.Count -ne 11) { throw "Expected exactly 11 public program illustrations before publication." }
+    if ($previewFiles.Count -ne 10) { throw "Expected exactly 10 public program illustrations before publication." }
     $safeFiles += $previewFiles
     & git add -- $safeFiles
+    if ($LASTEXITCODE -ne 0) { throw "Git add failed" }
+    # Track deletion of previously published preview files as well.
+    & git add -u -- assets/previews
+    if ($LASTEXITCODE -ne 0) { throw "Failed to stage preview deletions" }
     if ($LASTEXITCODE -ne 0) { throw "git add failed" }
     $staged = (& git diff --cached --name-only)
     if ($staged) {

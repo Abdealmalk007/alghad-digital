@@ -77,10 +77,10 @@ async function main() {
     let count=0;
     for(let i=0;i<60;i++){
       count=await evaluate('document.querySelectorAll(".product-card").length');
-      if(count===11)break;
+      if(count===10)break;
       await delay(100);
     }
-    assert.equal(count,11,"All project cards should be rendered");
+    assert.equal(count,10,"All allowed project cards should be rendered");
     const showcase=await evaluate('({cards:document.querySelectorAll(".showcase-release").length,downloads:document.querySelectorAll(".showcase-release-cta").length,security:!!document.getElementById("security"),navDownloads:!!document.querySelector(\'.nav a[href="#downloads"]\'),title:document.getElementById("downloads-title")?.textContent})');
     assert.equal(showcase.cards,5,"Four public release cards plus unavailable Stone Manager");
     assert.equal(showcase.downloads,4,"Four official GitHub downloads");
@@ -95,6 +95,16 @@ async function main() {
       await delay(100);
     }
     assert.equal(downloadCount,4,"Four publicly downloadable cards");
+    assert.equal(await evaluate('window.AL_GHAD_PRODUCTS.some(p=>p.id==="recorder")'),false);
+    assert.equal(await evaluate('document.querySelector(\'[data-id="recorder"]\')===null'),true);
+    assert.equal(await evaluate('document.getElementById("stat-apps").textContent'),"10");
+    assert.equal(await evaluate('document.getElementById("stat-upcoming").textContent'),"05");
+    assert.equal(await evaluate('document.getElementById("gallery-portfolio-count").textContent'),"10");
+    const hiddenRemoved = await evaluate('(() => { const s=document.querySelector("#search"); s.value="Call Recorder PRO";s.dispatchEvent(new Event("input",{bubbles:true}));return document.querySelectorAll(".product-card").length; })()');
+    assert.equal(hiddenRemoved,0,"Removed app must not appear in search");
+    await evaluate('(() => { const s=document.querySelector("#search");s.value="";s.dispatchEvent(new Event("input",{bubbles:true})); })()');
+    assert.ok(await evaluate('Boolean(document.getElementById("back-to-top-floating"))'));
+
     for(const [id,expected] of Object.entries({download:2,hr:2,marble:2,reports:1,stone:0})){
       const hrefs=await evaluate('([...document.querySelectorAll(".direct-download-card")].map(a=>a.getAttribute("href")) )');
       for(const href of hrefs) assert.match(href,/^https:\/\/github\.com\/Abdealmalk007\//);
@@ -116,7 +126,7 @@ async function main() {
     assert.equal(await evaluate('document.querySelectorAll("#product-modal .download-section").length'),0);
     await evaluate('document.getElementById("modal-close").click()');
     await delay(80);
-    assert.equal(await evaluate('document.querySelectorAll(".compare-toggle").length'),11);
+    assert.equal(await evaluate('document.querySelectorAll(".compare-toggle").length'),10);
     const initial=await evaluate('document.querySelector(".product-card .card-title").textContent');
     await evaluate('document.querySelector("#sort-products").value="name";document.querySelector("#sort-products").dispatchEvent(new Event("change"))');
     const sorted=await evaluate('document.querySelector(".product-card .card-title").textContent');
