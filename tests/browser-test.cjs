@@ -19,7 +19,7 @@ async function main() {
     "--headless=new", "--disable-gpu", "--no-first-run", "--no-default-browser-check",
     "--disable-background-networking", "--disable-extensions", "--remote-debugging-port=0",
     "--remote-allow-origins=*", "--user-data-dir=" + profile, "--window-size=1440,900",
-    fileUrl
+    "about:blank"
   ], {stdio:"ignore", windowsHide:true});
   let socket;
   try {
@@ -74,8 +74,9 @@ async function main() {
     }
     await send("Page.enable");
     await send("Runtime.enable");
+    await send("Page.navigate",{url:fileUrl});
     let count=0;
-    for(let i=0;i<60;i++){
+    for(let i=0;i<120;i++){
       count=await evaluate('document.querySelectorAll(".product-card").length');
       if(count===10)break;
       await delay(100);
