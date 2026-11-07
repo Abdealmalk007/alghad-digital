@@ -81,6 +81,13 @@ async function main() {
       await delay(100);
     }
     assert.equal(count,11,"All project cards should be rendered");
+    const showcase=await evaluate('({cards:document.querySelectorAll(".showcase-release").length,downloads:document.querySelectorAll(".showcase-release-cta").length,security:!!document.getElementById("security"),navDownloads:!!document.querySelector(\'.nav a[href="#downloads"]\'),title:document.getElementById("downloads-title")?.textContent})');
+    assert.equal(showcase.cards,5,"Four public release cards plus unavailable Stone Manager");
+    assert.equal(showcase.downloads,4,"Four official GitHub downloads");
+    assert.equal(showcase.security,true,"Security information section should exist");
+    assert.equal(showcase.navDownloads,true,"Downloads should be discoverable in navigation");
+    const unsafe=await evaluate('([...document.querySelectorAll(".showcase-release-cta")].filter(a=>!a.href.startsWith("https://github.com/Abdealmalk007/")).length)');
+    assert.equal(unsafe,0,"Releases can link only to official GitHub asset URLs");
     let downloadCount=0;
     for(let i=0;i<40;i++){
       downloadCount=await evaluate('document.querySelectorAll(".direct-download-card").length');
@@ -160,6 +167,20 @@ async function main() {
     const shot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
     const mobilePath=path.join(qaDir,"mobile-emulated.png");
     fs.writeFileSync(mobilePath,Buffer.from(shot.data,"base64"));
+    await evaluate('document.getElementById("downloads").scrollIntoView({behavior:"instant"})');
+    await delay(240);
+    const releasesMetrics=await evaluate('({vw:innerWidth,page:document.documentElement.scrollWidth,sectionLeft:document.getElementById("downloads").getBoundingClientRect().left,sectionRight:document.getElementById("downloads").getBoundingClientRect().right,cardCount:document.querySelectorAll(".showcase-release").length})');
+    assert.equal(releasesMetrics.cardCount,5);
+    assert.ok(releasesMetrics.page<=392,"Release section overflow: "+JSON.stringify(releasesMetrics));
+    const releaseShot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+    const releaseShotPath=path.join(qaDir,"releases-mobile-v33.png");
+    fs.writeFileSync(releaseShotPath,Buffer.from(releaseShot.data,"base64"));
+    await evaluate('document.getElementById("security").scrollIntoView({behavior:"instant"})');
+    await delay(240);
+    const securityShot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+    const securityShotPath=path.join(qaDir,"security-mobile-v33.png");
+    fs.writeFileSync(securityShotPath,Buffer.from(securityShot.data,"base64"));
+
     await evaluate('document.getElementById("contact").scrollIntoView({behavior:"instant"})');
     await delay(260);
     const contactShot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
@@ -176,7 +197,7 @@ async function main() {
       viewports.push(value);
     }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {

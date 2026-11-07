@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.3.0 — 2026-11-07
+- Verified TLS 1.3 directly inside a clean Chrome session with the same URL from the screenshot.
+- Verified valid certificate subjects for alghad.digital and www.alghad.digital, and a secure browser context.
+- Added a responsive releases showcase for verified public GitHub assets and a clear security center.
+- Added security.txt for responsible security reports and made downloads discoverable in the header.
+- Reduced whitespace between about/FAQ; kept all product data and download links.
+- Preserved CSP, HTTPS enforcement and GitHub-only release URL allowlist.
+
+
 ## v3.2.0 — 2026-11-07
 - Verified official public GitHub Releases for 4 software projects; mapped direct installers/APKs and ZIP variants.
 - Displayed prominent direct-download buttons on published product cards and safe release option panels inside product dialogs.

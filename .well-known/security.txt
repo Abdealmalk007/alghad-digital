@@ -1,0 +1,4 @@
+Contact: mailto:protech.2025.2026@gmail.com
+Expires: 2027-11-07T00:00:00Z
+Preferred-Languages: ar, en
+Canonical: https://alghad.digital/.well-known/security.txt

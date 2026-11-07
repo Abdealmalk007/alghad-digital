@@ -68,7 +68,7 @@ const html=read("index.html");
 assert.match(html,/<html lang="ar" dir="rtl">/);
 for(const key of ['id="catalog"','id="search"','id="featured-cards"','id="stat-upcoming"',
                   'id="product-modal"','data-filter="public"','data-filter="dev"'])assert.ok(html.includes(key),key);
-for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/v3_1.css","assets/v3_1.js","assets/downloads.css","assets/downloads.js","assets/downloads-ui.js","assets/app.js","assets/products.js",
+for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/v3_1.css","assets/v3_1.js","assets/downloads.css","assets/downloads.js","assets/downloads-ui.js","assets/v3_3.js","assets/v3_3.css",".well-known/security.txt","assets/app.js","assets/products.js",
                 "favicon.svg","CNAME","robots.txt","sitemap.xml"])assert.ok(fs.existsSync(path.join(root,f)),f);
 assert.equal(read("CNAME").trim(),"alghad.digital");
 const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/v3_1.js"),read("assets/downloads-ui.js"),read("assets/downloads.js"),read("assets/downloads.css"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css"),read("assets/v3_1.css")].join("\n");
@@ -80,6 +80,9 @@ assert.ok(html.includes('id="copy-protech-email"'));
 assert.ok(html.includes('id="contact"'));
 assert.ok(html.includes('href="#contact"'));
 assert.ok(html.includes("assets/v3_1.css") && html.includes("assets/v3_1.js"));
+for(const key of ["assets/v3_3.js","assets/v3_3.css",'id="release-showcase"','id="security"','id="trust-current-connection"','href="#downloads"'])assert.ok(html.includes(key),key);
+assert.ok(read("assets/v3_3.js").includes("isSecureContext"));
+assert.ok(read(".well-known/security.txt").includes("Contact: mailto:protech.2025.2026@gmail.com"));
 for(const key of ["assets/downloads.js","assets/downloads-ui.js","assets/downloads.css","Content-Security-Policy","upgrade-insecure-requests"])assert.ok(html.includes(key),key);
 assert.ok(read("assets/downloads-ui.js").includes("https:") && read("assets/downloads-ui.js").includes('url.hostname !== "github.com"'));
 assert.ok(read("assets/v3_1.js").includes(officialEmail));

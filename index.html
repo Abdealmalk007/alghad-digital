@@ -26,6 +26,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/v3_1.css">
   <link rel="stylesheet" href="assets/downloads.css">
+  <link rel="stylesheet" href="assets/v3_3.css">
   <title>Alghad Digital | برامج وحلول رقمية</title>
   <script defer src="assets/products.js"></script>
   <script defer src="assets/downloads.js"></script>
@@ -33,6 +34,7 @@
   <script defer src="assets/v3.js"></script>
   <script defer src="assets/v3_1.js"></script>
   <script defer src="assets/downloads-ui.js"></script>
+  <script defer src="assets/v3_3.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">تجاوز إلى المحتوى</a>
@@ -48,11 +50,11 @@
         <a href="#about" class="nav-link">عن المنصة</a>
         <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
         <a href="#contact" class="nav-link">تواصل معنا</a>
-        <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub ↗</a>
+        <a href="#downloads" class="nav-link">التحميلات</a>
       </nav>
       <div class="header-actions">
         <button class="icon-button theme-toggle" id="theme-toggle" aria-label="تبديل المظهر" title="تبديل المظهر"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 15.5A8 8 0 0 1 8.5 4a8.5 8.5 0 1 0 11.5 11.5Z"/></svg></button>
-        <a href="#products" class="button button-sm button-primary header-cta">استكشف البرامج <span aria-hidden="true">↗</span></a>
+        <a href="#downloads" class="button button-sm button-primary header-cta">تحميل البرامج <span aria-hidden="true">↗</span></a>
         <button class="icon-button menu-toggle" id="menu-toggle" aria-controls="nav" aria-expanded="false" aria-label="فتح القائمة"><span></span><span></span><span></span></button>
       </div>
     </div>
@@ -139,6 +141,28 @@
       </div>
     </section>
 
+    <section class="release-showcase-section" id="downloads" aria-labelledby="downloads-title">
+      <div class="shell">
+        <div class="release-showcase-intro">
+          <div>
+            <span class="section-kicker">PUBLIC SOFTWARE RELEASES / 02</span>
+            <h2 id="downloads-title">برامج جاهزة <em>للتنزيل.</em></h2>
+            <p>اختر إصدارك مباشرة من GitHub الرسمي. تتوفر ملفات Setup وPortable وAPK بحسب كل برنامج؛ وتظهر الإصدارات التجريبية بوضوح دون إخفاء حالتها.</p>
+          </div>
+          <span id="release-showcase-count" class="release-showcase-counter">إصدارات متاحة للتنزيل</span>
+        </div>
+        <div id="release-showcase" class="release-showcase-grid" aria-label="البرامج وروابط الإصدارات المتاحة">
+          <p>تظهر ملفات الإصدارات المتاحة هنا بعد تحميل صفحة الموقع.</p>
+        </div>
+        <p class="release-showcase-note">تاريخ مراجعة الروابط: 7 نوفمبر 2026. علامة Preview تعني إصدارًا تجريبيًا؛ ولا تعني أن ملف البرنامج موقّع رقميًا أو خاليًا من تنبيهات التثبيت.</p>
+        <div class="release-showcase-cta">
+          <a href="#products">شاهد جميع البرامج ↗</a>
+          <a href="#security">كيف تتحقق من أمان الاتصال والملفات؟ ↗</a>
+          <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer">مشاريع المطور على GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
     <section class="about-section section" id="about" aria-labelledby="about-title">
       <div class="shell about-layout">
         <div class="about-copy"><span class="section-kicker">02 / OUR APPROACH</span><h2 id="about-title">التقنية ليست مجرد كود.<br><span class="accent-text">إنها حل لمشكلة حقيقية.</span></h2><p>Alghad Digital مساحة تجمع مشاريع برمجية متخصصة في الإنتاجية، وإدارة الأعمال، والتصميم، والتطبيقات اليومية. نركز على وضوح التجربة وتطوير الميزات التي يحتاجها المستخدم فعلًا.</p><a href="#products" class="text-link">شاهد مجموعة البرامج <span aria-hidden="true">↗</span></a></div>
@@ -160,6 +184,37 @@
           <details><summary>هل جميع البرامج مجانية ومفتوحة المصدر؟ <span>+</span></summary><p>لا. تختلف حالة وحقوق نشر كل مشروع؛ وجود مستودع عام لا يعني أن جميع الإصدارات نهائية أو أن جميع التبعيات مجانية. راجع LICENSE وملاحظات الإصدار في GitHub.</p></details>
           <details><summary>هل البرامج متوافقة مع Windows وAndroid؟ <span>+</span></summary><p>تختلف المتطلبات بحسب البرنامج. يظهر النظام المستهدف في بطاقة كل تطبيق، ويمكن فتح التفاصيل للاطلاع على إصدار المشروع وميزاته وملاحظات النشر.</p></details>
         </div>
+      </div>
+    </section>
+
+    <section class="trust-section" id="security" aria-labelledby="security-title">
+      <div class="shell">
+        <div class="trust-intro">
+          <div>
+            <span class="section-kicker">TRUST / SECURITY</span>
+            <h2 id="security-title">الشفافية والأمان <em>أولًا.</em></h2>
+          </div>
+          <p>نميز بين أمان الاتصال بالموقع وأمان تثبيت البرامج: موقع مشفّر لا يعني بالضرورة أن كل ملف EXE أو APK موقّع رقميًا أو معتمد من نظام التشغيل.</p>
+        </div>
+        <div class="trust-grid">
+          <article class="trust-card">
+            <span class="trust-card-symbol" aria-hidden="true">◇</span>
+            <h3>اتصال الموقع</h3>
+            <p>نعتمد HTTPS على النطاق الرسمي، ونعرض الروابط من نفس المصدر. لا تطلب الصفحة كلمات مرور أو بيانات حساسة لتحميل البرامج.</p>
+            <span class="trust-current-connection" id="trust-current-connection">الاتصال عبر HTTPS</span>
+          </article>
+          <article class="trust-card">
+            <span class="trust-card-symbol" aria-hidden="true">↗</span>
+            <h3>مصدر ملفات التحميل</h3>
+            <p>تنتقل مباشرة إلى ملفات GitHub Releases الخاصة بحساب المطور. لا نستخدم روابط مختصرة أو مواقع تنزيل مجهولة أو إعلانات تحميل مضللة.</p>
+          </article>
+          <article class="trust-card">
+            <span class="trust-card-symbol" aria-hidden="true">✓</span>
+            <h3>تحقق من سلامة الإصدار</h3>
+            <p>عند توفر SHA-256، قارن قيمة بصمة الملف مع ملف التحقق المنشور. وقد تظهر تنبيهات SmartScreen للملفات غير الموقعة؛ لا تعطل الحماية لتجاوزها.</p>
+          </article>
+        </div>
+        <p class="trust-disclaimer">إذا ظهر في Chrome شريط «غير آمن»، تحقق من تفاصيل الشهادة في المتصفح وافتح الموقع من رابط HTTPS جديد. لا يُصلح التحذير تغيير شكل الصفحة أو إخفاء الرسالة؛ يجب معالجة السبب في الاتصال نفسه.</p>
       </div>
     </section>
 
