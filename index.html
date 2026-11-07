@@ -7,6 +7,8 @@
   <meta name="author" content="ProTech">
   <meta property="og:site_name" content="Alghad Digital">
   <meta name="color-scheme" content="dark light">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
   <meta name="description" content="Alghad Digital — حلول وبرامج رقمية لأجهزة Windows وAndroid. اكتشف التطبيقات، تفاصيل الميزات، وأحدث المستودعات البرمجية.">
   <meta name="robots" content="index,follow">
   <meta property="og:type" content="website">
@@ -23,11 +25,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/v3_1.css">
+  <link rel="stylesheet" href="assets/downloads.css">
   <title>Alghad Digital | برامج وحلول رقمية</title>
   <script defer src="assets/products.js"></script>
+  <script defer src="assets/downloads.js"></script>
   <script defer src="assets/app.js"></script>
   <script defer src="assets/v3.js"></script>
   <script defer src="assets/v3_1.js"></script>
+  <script defer src="assets/downloads-ui.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">تجاوز إلى المحتوى</a>
@@ -114,7 +119,7 @@
     <section class="products-section section" id="products" aria-labelledby="products-title">
       <div class="shell">
         <div class="section-head">
-          <div><span class="section-kicker">01 / SOFTWARE LIBRARY</span><h2 id="products-title">اكتشف <span class="accent-text">برامجنا</span></h2><p>كل مشروع له صورته، وخصائصه، وتفاصيله، وحالة نشره وروابط GitHub المؤكدة.</p></div>
+          <div><span class="section-kicker">01 / SOFTWARE LIBRARY</span><h2 id="products-title">اكتشف <span class="accent-text">برامجنا</span></h2><p>اختر برنامجًا لعرض ميزاته وخيارات التحميل المباشر من GitHub Releases عند توفرها، مع توضيح حالة كل إصدار.</p></div>
           <div class="section-counter"><span id="visible-count">—</span> برنامج معروض</div>
         </div>
         <div class="catalog-toolbar">
@@ -150,7 +155,8 @@
       <div class="shell faq-layout">
         <div><span class="section-kicker">03 / FAQ</span><h2 id="faq-title">أسئلة <span class="accent-text">شائعة</span></h2><p>معلومات سريعة قبل استعراض أي برنامج.</p></div>
         <div class="faq-list">
-          <details><summary>كيف أحصل على نسخة من أحد البرامج؟ <span>+</span></summary><p>اضغط على «اكتشف البرنامج» لعرض ميزاته، ثم رابط المستودع على GitHub. إن توفر إصدار منشور، ستظهر لك صفحة GitHub Releases، مع توضيح حالة النسخة إذا كانت Preview.</p></details>
+          <details><summary>كيف أحصل على نسخة من أحد البرامج؟ <span>+</span></summary><p>اختر «تفاصيل البرنامج» لتظهر نسخ التحميل المباشر من GitHub Releases عند توفرها، أو استخدم زر «تحميل مباشر» في بطاقة البرنامج. إذا لم تتوفر نسخة عامة، سنوضح ذلك بدل عرض رابط غير صالح.</p></details>
+          <details><summary>لماذا قد يظهر تحذير عند تثبيت بعض برامج Windows أو Android؟ <span>+</span></summary><p>الموقع يستخدم HTTPS وروابط GitHub الرسمية، لكن Windows SmartScreen أو Android قد ينبهان بشأن ملفات غير موقعة رقميًا أو تطبيقات لم تكتسب سمعة ناشر بعد. لا تعطل الحماية؛ راجع جهة الإصدار والتوقيع وملف SHA-256 عند توفره. لا يمكن لموقع الويب وحده إزالة تحذيرات تثبيت الملفات التنفيذية.</p></details>
           <details><summary>هل جميع البرامج مجانية ومفتوحة المصدر؟ <span>+</span></summary><p>لا. تختلف حالة وحقوق نشر كل مشروع؛ وجود مستودع عام لا يعني أن جميع الإصدارات نهائية أو أن جميع التبعيات مجانية. راجع LICENSE وملاحظات الإصدار في GitHub.</p></details>
           <details><summary>هل البرامج متوافقة مع Windows وAndroid؟ <span>+</span></summary><p>تختلف المتطلبات بحسب البرنامج. يظهر النظام المستهدف في بطاقة كل تطبيق، ويمكن فتح التفاصيل للاطلاع على إصدار المشروع وميزاته وملاحظات النشر.</p></details>
         </div>

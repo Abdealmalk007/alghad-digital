@@ -1,0 +1,116 @@
+/* Alghad Digital 3.2 — public releases and premium download experience */
+:root {
+  --downloads-tint: color-mix(in srgb,var(--teal) 12%,var(--panel));
+}
+.direct-download-card {
+  display:inline-flex;align-items:center;justify-content:center;
+  border:1px solid color-mix(in srgb,var(--teal) 60%,transparent);
+  background:color-mix(in srgb,var(--teal) 13%,var(--panel));
+  color:var(--teal);border-radius:10px;padding:10px 14px;
+  min-height:38px;font-size:12px;font-weight:850;line-height:1.25;
+  text-decoration:none;white-space:nowrap;
+  transition:background .2s ease,transform .2s ease,box-shadow .2s ease;
+}
+.direct-download-card:hover {
+  background:color-mix(in srgb,var(--teal) 24%,var(--panel));
+  transform:translateY(-1px);box-shadow:0 8px 20px #27bba321;
+}
+.direct-download-card:focus-visible,
+.download-variant-link:focus-visible,
+.download-text-link:focus-visible {
+  outline:3px solid var(--teal);outline-offset:3px;
+}
+.card-actions:has(.direct-download-card) {
+  gap:9px 10px;justify-content:space-between;
+}
+.card-actions:has(.direct-download-card) .card-detail {
+  flex:1 1 100%;text-align:right;
+}
+.card-actions:has(.direct-download-card) .card-link {
+  display:inline-flex;align-items:center;
+}
+.download-section {
+  position:relative;isolation:isolate;
+  background:linear-gradient(142deg,
+    color-mix(in srgb,var(--teal) 8%,var(--panel)),
+    var(--panel) 65%);
+  border:1px solid color-mix(in srgb,var(--teal) 33%,var(--line));
+  border-radius:21px;padding:22px;margin:23px 0 27px;overflow:hidden;
+}
+.download-section:before{
+  content:"";position:absolute;pointer-events:none;left:-80px;top:-100px;
+  width:230px;height:230px;border-radius:50%;z-index:-1;
+  background:radial-gradient(circle,#5ce4d411,transparent 65%);
+}
+.download-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:13px;flex-wrap:wrap}
+.download-eyebrow {
+  display:block;font:800 9px/1.5 "Segoe UI",Arial,sans-serif;
+  color:var(--teal);letter-spacing:1.45px;direction:ltr;text-align:right;
+  margin-bottom:6px;
+}
+.download-heading h3{font-size:clamp(18px,2vw,23px);line-height:1.5;font-weight:850;margin:0;color:var(--text)}
+.download-release-tag {
+  font:800 11px/1.3 "Segoe UI",Arial,sans-serif;
+  background:color-mix(in srgb,var(--teal) 11%,var(--panel));
+  color:var(--teal);border:1px solid color-mix(in srgb,var(--teal) 38%,var(--line));
+  border-radius:99px;padding:7px 12px;white-space:nowrap;direction:ltr;
+}
+.download-release-tag.unavailable {
+  font:750 11px/1.4 "IBM Plex Sans Arabic","Segoe UI",sans-serif;
+  color:var(--sub);background:var(--bg-2);border-color:var(--line);direction:rtl;
+}
+.download-intro{font-size:12px;color:var(--sub);line-height:1.95;margin:11px 0 17px}
+.download-variants{display:grid;gap:10px;margin-top:11px}
+.download-variant{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  background:color-mix(in srgb,var(--bg) 53%,var(--panel));
+  border:1px solid var(--line);border-radius:14px;padding:15px;
+  transition:border-color .2s ease,background .2s ease;
+}
+.download-variant:hover{border-color:color-mix(in srgb,var(--teal) 55%,var(--line))}
+.download-variant-info{min-width:0;display:flex;flex-direction:column;gap:5px;align-items:flex-start}
+.download-variant-info strong{color:var(--text);font-size:13px;line-height:1.55;font-weight:800}
+.download-variant-info small{color:var(--sub);font-size:11px;line-height:1.7;word-break:break-word}
+.recommended-download{display:inline-flex;align-items:center;border-radius:99px;
+  font-size:10px;font-weight:800;color:var(--teal);
+  background:color-mix(in srgb,var(--teal) 12%,var(--panel));padding:3px 9px}
+.recommended-download:before{content:"✓";margin-inline-end:5px}
+.download-variant-link{
+  display:inline-flex;align-items:center;justify-content:center;
+  white-space:nowrap;flex-shrink:0;min-width:95px;min-height:43px;padding:10px 17px;
+  text-decoration:none;border-radius:11px;border:1px solid color-mix(in srgb,var(--teal) 40%,var(--line));
+  background:color-mix(in srgb,var(--teal) 11%,var(--panel));
+  color:var(--teal);font-size:12px;font-weight:850;transition:background .2s ease;
+}
+.download-variant-link:hover{background:color-mix(in srgb,var(--teal) 24%,var(--panel))}
+.download-variant-link.download-primary{background:var(--teal);color:#041f28;border-color:transparent}
+.download-variant-link.download-primary:hover{filter:brightness(1.1)}
+.download-footer{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:17px}
+.download-text-link{font-size:11.5px;font-weight:750;text-decoration:none;color:var(--teal)}
+.download-text-link:hover{text-decoration:underline}
+.download-caution{
+  border-top:1px solid var(--line);padding-top:14px;margin:17px 0 0;
+  font-size:11.5px;line-height:1.9;color:var(--sub);
+}
+.download-trust-note{
+  padding:11px 14px;background:color-mix(in srgb,var(--bg) 55%,var(--panel));
+  border-inline-start:3px solid color-mix(in srgb,var(--teal) 65%,var(--line));
+  border-radius:9px;margin:13px 0 0;
+  font-size:11px;line-height:1.9;color:var(--sub);
+}
+.download-unavailable{font-size:12px;line-height:2;color:var(--sub);
+  padding:14px;border:1px dashed var(--line);border-radius:12px;margin-top:15px}
+@media(max-width:590px) {
+  .download-section{padding:17px 14px;border-radius:17px;margin-block:18px}
+  .download-heading{gap:9px}
+  .download-release-tag{font-size:10px}
+  .download-variant{gap:10px;padding:13px 11px;align-items:flex-start;flex-direction:column}
+  .download-variant-link{width:100%;min-height:44px}
+  .download-variant-info strong{font-size:12.5px}
+  .download-footer{gap:12px 15px}
+  .card-actions:has(.direct-download-card) .direct-download-card{flex:1 1 auto}
+}
+@media(prefers-reduced-motion:reduce) {
+  .download-variant,.direct-download-card{transition:none}
+  .direct-download-card:hover{transform:none}
+}

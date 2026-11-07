@@ -57,6 +57,7 @@ try {
         "Start_Preview.cmd", "Publish_To_GitHub.ps1",
         "assets/products.js", "assets/app.js", "assets/style.css", "assets/v2.css",
         "assets/v3.js", "assets/v3.css", "assets/v3_1.js", "assets/v3_1.css",
+        "assets/downloads.js", "assets/downloads-ui.js", "assets/downloads.css",
         "tests/smoke-test.cjs", "tests/browser-test.cjs", "CHANGELOG.md"
     )
     $previewFiles = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\previews") -File -Filter "*.svg" | ForEach-Object { "assets/previews/" + $_.Name })

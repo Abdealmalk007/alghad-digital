@@ -8,7 +8,30 @@ const root=path.resolve(__dirname,"..");
 const read=p=>fs.readFileSync(path.join(root,p),"utf8");
 const ctx={window:{}};
 vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
+vm.runInNewContext(read("assets/downloads.js"),ctx,{timeout:1000});
+const manifest=ctx.window.AL_GHAD_DOWNLOADS;
 const p=ctx.window.AL_GHAD_PRODUCTS;
+assert.equal(Object.keys(manifest).length,5,"Five published projects must have release records");
+const four=["download","hr","marble","reports"];
+for(const id of four){
+  const d=manifest[id];
+  const product=p.find(x=>x.id===id);
+  assert.ok(product && product.status==="public",id);
+  assert.equal(d.repository,product.github.split("/").pop());
+  assert.ok(d.release.startsWith(product.github+"/releases/tag/"),id);
+  assert.equal(d.channel,"preview",id);
+  assert.ok(Array.isArray(d.files) && d.files.length>0,id);
+  assert.equal(d.files.filter(x=>x.recommended).length,1,"One default choice per release: "+id);
+  for(const asset of d.files){
+    assert.match(asset.url,/^https:\/\/github\.com\/Abdealmalk007\/[A-Za-z0-9._-]+\/releases\/download\/[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+\.(?:apk|exe|zip)$/);
+    assert.ok(asset.url.startsWith(product.github+"/releases/download/"));
+    assert.ok(asset.bytes>100000,"Asset appears too small: "+asset.url);
+    assert.ok(!/debug/i.test(asset.url),"Never promote a Debug binary: "+asset.url);
+  }
+}
+assert.equal(manifest.stone.files.length,0,"Stone public release is not currently available");
+assert.equal(manifest.stone.release,null);
+
 assert.ok(Array.isArray(p));
 assert.equal(p.length,11,"The public catalog must contain 11 products");
 assert.equal(new Set(p.map(x=>x.id)).size,11);
@@ -45,10 +68,10 @@ const html=read("index.html");
 assert.match(html,/<html lang="ar" dir="rtl">/);
 for(const key of ['id="catalog"','id="search"','id="featured-cards"','id="stat-upcoming"',
                   'id="product-modal"','data-filter="public"','data-filter="dev"'])assert.ok(html.includes(key),key);
-for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/v3_1.css","assets/v3_1.js","assets/app.js","assets/products.js",
+for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/v3_1.css","assets/v3_1.js","assets/downloads.css","assets/downloads.js","assets/downloads-ui.js","assets/app.js","assets/products.js",
                 "favicon.svg","CNAME","robots.txt","sitemap.xml"])assert.ok(fs.existsSync(path.join(root,f)),f);
 assert.equal(read("CNAME").trim(),"alghad.digital");
-const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/v3_1.js"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css"),read("assets/v3_1.css")].join("\n");
+const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/v3_1.js"),read("assets/downloads-ui.js"),read("assets/downloads.js"),read("assets/downloads.css"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css"),read("assets/v3_1.css")].join("\n");
 assert.doesNotMatch(publicSources,/مطبخ ريم|عالم الصغار|Omar Kids|Reem Kitchen|عُمر/);
 assert.doesNotMatch(publicSources,/0503276927|966503276927/);
 const officialEmail="protech.2025.2026@gmail.com";
@@ -57,9 +80,11 @@ assert.ok(html.includes('id="copy-protech-email"'));
 assert.ok(html.includes('id="contact"'));
 assert.ok(html.includes('href="#contact"'));
 assert.ok(html.includes("assets/v3_1.css") && html.includes("assets/v3_1.js"));
+for(const key of ["assets/downloads.js","assets/downloads-ui.js","assets/downloads.css","Content-Security-Policy","upgrade-insecure-requests"])assert.ok(html.includes(key),key);
+assert.ok(read("assets/downloads-ui.js").includes("https:") && read("assets/downloads-ui.js").includes('url.hostname !== "github.com"'));
 assert.ok(read("assets/v3_1.js").includes(officialEmail));
 for(const key of ['id="sort-products"','id="compare-tray"','id="compare-dialog"','assets/v3.js"','assets/v3.css"'])assert.ok(html.includes(key),key);
 for(const word of ["hydrateCompareButtons","renderComparison","?app","selected.size"])assert.ok(read("assets/v3.js").includes(word)||word==="?app",word);
 const js=read("assets/app.js");
 for(const word of ['"مكتمل"','"قريبًا جدًا"',"renderFeatured","aria-label"])assert.ok(js.includes(word));
-console.log("PASS: 11 projects, 11 previews, 5 published, 6 upcoming, ProTech email contact, no excluded apps or private phone.");
+console.log("PASS: 11 projects, 5 public repos, 4 verified public download releases, no fake Stone asset, HTTPS-only GitHub links, CSP, no excluded apps.");

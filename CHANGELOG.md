@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.2.0 — 2026-11-07
+- Verified official public GitHub Releases for 4 software projects; mapped direct installers/APKs and ZIP variants.
+- Displayed prominent direct-download buttons on published product cards and safe release option panels inside product dialogs.
+- Distinguished Preview builds from final releases and explained unavailable Stone Manager public binaries.
+- Added SHA-256 manifests where officially published and security notes about code signing / SmartScreen.
+- Added CSP, safe URL allowlist and extended browser/security test coverage.
+
+
 ## v3.1.0 — 2026-11-07
 - Added the approved ProTech support email to a modern contact section, footer and navigation.
 - Added a mailto inquiry action and robust copy-email fallback with status feedback.

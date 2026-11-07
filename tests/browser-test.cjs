@@ -81,6 +81,34 @@ async function main() {
       await delay(100);
     }
     assert.equal(count,11,"All project cards should be rendered");
+    let downloadCount=0;
+    for(let i=0;i<40;i++){
+      downloadCount=await evaluate('document.querySelectorAll(".direct-download-card").length');
+      if(downloadCount===4) break;
+      await delay(100);
+    }
+    assert.equal(downloadCount,4,"Four publicly downloadable cards");
+    for(const [id,expected] of Object.entries({download:2,hr:2,marble:2,reports:1,stone:0})){
+      const hrefs=await evaluate('([...document.querySelectorAll(".direct-download-card")].map(a=>a.getAttribute("href")) )');
+      for(const href of hrefs) assert.match(href,/^https:\/\/github\.com\/Abdealmalk007\//);
+      await evaluate('document.querySelector(\'[data-detail="'+id+'"]\').click()');
+      await delay(100);
+      assert.equal(await evaluate('document.getElementById("product-modal").open'),true);
+      assert.equal(await evaluate('document.querySelectorAll("#product-modal .download-section").length'),1);
+      const countLinks=await evaluate('document.querySelectorAll("#product-modal .download-variant-link").length');
+      assert.equal(countLinks,expected,"Download variants for "+id);
+      if(expected>0){
+        const bad=await evaluate('([...document.querySelectorAll("#product-modal .download-variant-link")].filter(a=>!a.href.startsWith("https://github.com/Abdealmalk007/")).length)');
+        assert.equal(bad,0,"Only official GitHub binaries");
+        assert.equal(await evaluate('document.querySelectorAll("#product-modal .download-caution").length'),1);
+      } else assert.equal(await evaluate('document.querySelectorAll("#product-modal .download-unavailable").length'),1);
+      await evaluate('document.getElementById("modal-close").click()');
+      await delay(80);
+    }
+    await evaluate('document.querySelector(\'[data-detail="kitchen"]\').click()');
+    assert.equal(await evaluate('document.querySelectorAll("#product-modal .download-section").length'),0);
+    await evaluate('document.getElementById("modal-close").click()');
+    await delay(80);
     assert.equal(await evaluate('document.querySelectorAll(".compare-toggle").length'),11);
     const initial=await evaluate('document.querySelector(".product-card .card-title").textContent');
     await evaluate('document.querySelector("#sort-products").value="name";document.querySelector("#sort-products").dispatchEvent(new Event("change"))');
@@ -88,6 +116,7 @@ async function main() {
     assert.notEqual(initial,sorted,"Sorting must rearrange cards");
     await evaluate('document.querySelector("[data-filter=public]").click()');
     assert.equal(await evaluate('document.querySelectorAll(".product-card").length'),5);
+    assert.equal(await evaluate('document.querySelectorAll(".direct-download-card").length'),4);
     await evaluate('document.querySelector("[data-filter=all]").click()');
     await evaluate('Array.from(document.querySelectorAll(".compare-toggle")).slice(0,2).forEach(b=>b.click());document.getElementById("compare-open").click()');
     assert.equal(await evaluate('document.getElementById("compare-dialog").open'),true);
@@ -118,6 +147,16 @@ async function main() {
     assert.ok(contactMetrics.left>=-2 && contactMetrics.right<=392,"Contact panel clipped: "+JSON.stringify(contactMetrics));
     assert.ok(contactMetrics.emailWidth>150,"Email contact link missing on mobile");
 
+    await evaluate('document.querySelector(\'[data-detail="download"]\').click()');
+    await delay(150);
+    const modalViewport=await evaluate('({vw:innerWidth,left:document.getElementById("product-modal").getBoundingClientRect().left,right:document.getElementById("product-modal").getBoundingClientRect().right,contentWidth:document.getElementById("product-modal").scrollWidth,clientWidth:document.getElementById("product-modal").clientWidth})');
+    assert.ok(modalViewport.left>=-2 && modalViewport.right<=392,"Modal viewport clipping: "+JSON.stringify(modalViewport));
+    assert.ok(modalViewport.contentWidth<=modalViewport.clientWidth+2,"Modal contents overflow: "+JSON.stringify(modalViewport));
+    const modalShot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+    const modalShotPath=path.join(qaDir,"download-modal-mobile.png");
+    fs.writeFileSync(modalShotPath,Buffer.from(modalShot.data,"base64"));
+    await evaluate('document.getElementById("modal-close").click()');
+    await delay(90);
     const shot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
     const mobilePath=path.join(qaDir,"mobile-emulated.png");
     fs.writeFileSync(mobilePath,Buffer.from(shot.data,"base64"));
@@ -137,7 +176,7 @@ async function main() {
       viewports.push(value);
     }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={result:"PASS",cards:count,published:5,compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {
