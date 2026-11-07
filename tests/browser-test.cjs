@@ -26,7 +26,17 @@ async function main() {
     const active = path.join(profile,"DevToolsActivePort");
     for(let i=0; i<120 && !fs.existsSync(active); i++) await delay(100);
     assert.ok(fs.existsSync(active), "Chrome debugging endpoint did not start");
-    const port = fs.readFileSync(active,"utf8").split(/\r?\n/)[0];
+    let port;
+    for (let attempt=0; attempt<50; attempt++) {
+      try {
+        port=fs.readFileSync(active,"utf8").split(/\r?\n/)[0];
+        if (/^\d+$/.test(port)) break;
+      } catch (error) {
+        if (!["EBUSY","ENOENT","EACCES"].includes(error.code)) throw error;
+      }
+      await delay(100);
+    }
+    assert.match(port||"",/^\d+$/,"Chrome debugging port unavailable");
     let pages;
     for(let i=0;i<40;i++) {
       try { pages=await (await fetch("http://127.0.0.1:"+port+"/json/list")).json(); if(pages.length)break; } catch (_) {}
@@ -91,17 +101,43 @@ async function main() {
     await evaluate('document.querySelector("#modal-close").click()');
     await delay(120);
     assert.equal(await evaluate('new URL(location.href).searchParams.has("app")'),false);
+    const contactAddress = "protech.2025.2026@gmail.com";
+    assert.equal(await evaluate('document.querySelector(".contact-email-link").textContent.trim()'),contactAddress);
+    assert.equal(await evaluate('document.querySelector(".contact-email-link").getAttribute("href")'),"mailto:"+contactAddress);
+    assert.equal(await evaluate('document.querySelectorAll(\'a[href="#contact"]\').length'),1);
+    await evaluate('document.getElementById("copy-protech-email").click()');
+    await delay(150);
+    assert.ok((await evaluate('document.getElementById("contact-copy-note").textContent')).length>0);
     await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
     await delay(250);
     const metrics=await evaluate('({width:innerWidth,scroll:document.documentElement.scrollWidth,header:document.querySelector(".site-header").getBoundingClientRect().width,heading:({left:document.querySelector("#hero-title").getBoundingClientRect().left,right:document.querySelector("#hero-title").getBoundingClientRect().right})})');
     assert.equal(metrics.width,390,"Phone viewport width");
     assert.ok(metrics.scroll<=392,"Mobile horizontal overflow: "+JSON.stringify(metrics));
     assert.ok(metrics.heading.left>=-2 && metrics.heading.right<=392,"Hero heading clipped on mobile");
+    const contactMetrics=await evaluate('({left:document.querySelector(".contact-panel").getBoundingClientRect().left,right:document.querySelector(".contact-panel").getBoundingClientRect().right,emailWidth:document.querySelector(".contact-email-link").getBoundingClientRect().width})');
+    assert.ok(contactMetrics.left>=-2 && contactMetrics.right<=392,"Contact panel clipped: "+JSON.stringify(contactMetrics));
+    assert.ok(contactMetrics.emailWidth>150,"Email contact link missing on mobile");
+
     const shot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
     const mobilePath=path.join(qaDir,"mobile-emulated.png");
     fs.writeFileSync(mobilePath,Buffer.from(shot.data,"base64"));
+    await evaluate('document.getElementById("contact").scrollIntoView({behavior:"instant"})');
+    await delay(260);
+    const contactShot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+    const contactPath=path.join(qaDir,"contact-mobile.png");
+    fs.writeFileSync(contactPath,Buffer.from(contactShot.data,"base64"));
+
+    const viewports=[];
+    for(const width of [320,768,1440]){
+      await send("Emulation.setDeviceMetricsOverride",{width,height:900,deviceScaleFactor:1,mobile:width<820});
+      await delay(180);
+      const value=await evaluate('({viewport:innerWidth,page:document.documentElement.scrollWidth,contactRight:document.querySelector(".contact-panel").getBoundingClientRect().right,contactLeft:document.querySelector(".contact-panel").getBoundingClientRect().left})');
+      assert.ok(value.page<=width+2,"Overflow at "+width+"px: "+JSON.stringify(value));
+      assert.ok(value.contactLeft>=-2 && value.contactRight<=width+2,"Contact clipping at "+width+"px");
+      viewports.push(value);
+    }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={result:"PASS",cards:count,published:5,compared:2,sorted:true,share:true,deepLink:true,mobile:metrics,screenshot:mobilePath};
+    const report={result:"PASS",cards:count,published:5,compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {

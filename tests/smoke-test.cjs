@@ -45,14 +45,21 @@ const html=read("index.html");
 assert.match(html,/<html lang="ar" dir="rtl">/);
 for(const key of ['id="catalog"','id="search"','id="featured-cards"','id="stat-upcoming"',
                   'id="product-modal"','data-filter="public"','data-filter="dev"'])assert.ok(html.includes(key),key);
-for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/app.js","assets/products.js",
+for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/v3_1.css","assets/v3_1.js","assets/app.js","assets/products.js",
                 "favicon.svg","CNAME","robots.txt","sitemap.xml"])assert.ok(fs.existsSync(path.join(root,f)),f);
 assert.equal(read("CNAME").trim(),"alghad.digital");
-const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css")].join("\n");
+const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/v3_1.js"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css"),read("assets/v3_1.css")].join("\n");
 assert.doesNotMatch(publicSources,/مطبخ ريم|عالم الصغار|Omar Kids|Reem Kitchen|عُمر/);
-assert.doesNotMatch(publicSources,/0503276927|966503276927|protech\.2025\.2026@gmail\.com/);
+assert.doesNotMatch(publicSources,/0503276927|966503276927/);
+const officialEmail="protech.2025.2026@gmail.com";
+assert.ok(html.includes('href="mailto:'+officialEmail+'"'));
+assert.ok(html.includes('id="copy-protech-email"'));
+assert.ok(html.includes('id="contact"'));
+assert.ok(html.includes('href="#contact"'));
+assert.ok(html.includes("assets/v3_1.css") && html.includes("assets/v3_1.js"));
+assert.ok(read("assets/v3_1.js").includes(officialEmail));
 for(const key of ['id="sort-products"','id="compare-tray"','id="compare-dialog"','assets/v3.js"','assets/v3.css"'])assert.ok(html.includes(key),key);
 for(const word of ["hydrateCompareButtons","renderComparison","?app","selected.size"])assert.ok(read("assets/v3.js").includes(word)||word==="?app",word);
 const js=read("assets/app.js");
 for(const word of ['"مكتمل"','"قريبًا جدًا"',"renderFeatured","aria-label"])assert.ok(js.includes(word));
-console.log("PASS: 11 project cards, 11 unique preview images, 5 published, 6 coming soon, no excluded apps, safe public metadata.");
+console.log("PASS: 11 projects, 11 previews, 5 published, 6 upcoming, ProTech email contact, no excluded apps or private phone.");

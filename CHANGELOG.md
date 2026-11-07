@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.1.0 — 2026-11-07
+- Added the approved ProTech support email to a modern contact section, footer and navigation.
+- Added a mailto inquiry action and robust copy-email fallback with status feedback.
+- Refreshed Arabic typography, cards, hero surfaces, section spacing and responsive styling.
+- Added a section ribbon and unobtrusive scroll progress indicator.
+- Preserved all eleven catalog items, original media, public source links and exclusions.
+- Updated publishing allowlist, privacy assertions and QA.
+
 ## v3.0.0 — 2026-11-07
 - Added an image-led premium hero gallery with three project illustrations.
 - Added sorting by project name and repository publication status.

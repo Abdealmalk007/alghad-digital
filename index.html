@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#071522">
+  <meta name="author" content="ProTech">
+  <meta property="og:site_name" content="Alghad Digital">
   <meta name="color-scheme" content="dark light">
   <meta name="description" content="Alghad Digital — حلول وبرامج رقمية لأجهزة Windows وAndroid. اكتشف التطبيقات، تفاصيل الميزات، وأحدث المستودعات البرمجية.">
   <meta name="robots" content="index,follow">
@@ -17,10 +19,15 @@
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="assets/v2.css">
   <link rel="stylesheet" href="assets/v3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/v3_1.css">
   <title>Alghad Digital | برامج وحلول رقمية</title>
   <script defer src="assets/products.js"></script>
   <script defer src="assets/app.js"></script>
   <script defer src="assets/v3.js"></script>
+  <script defer src="assets/v3_1.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">تجاوز إلى المحتوى</a>
@@ -35,6 +42,7 @@
         <a href="#products" class="nav-link">البرامج</a>
         <a href="#about" class="nav-link">عن المنصة</a>
         <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
+        <a href="#contact" class="nav-link">تواصل معنا</a>
         <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub ↗</a>
       </nav>
       <div class="header-actions">
@@ -43,6 +51,7 @@
         <button class="icon-button menu-toggle" id="menu-toggle" aria-controls="nav" aria-expanded="false" aria-label="فتح القائمة"><span></span><span></span><span></span></button>
       </div>
     </div>
+    <div id="page-progress" aria-hidden="true"></div>
   </header>
 
   <main id="main">
@@ -84,6 +93,13 @@
         <div class="stat stat-message"><span class="stat-star">✦</span><span>حلول تتطور مع احتياجاتك</span></div>
       </div>
     </section>
+
+    <div class="micro-strip" aria-label="مجالات أعمالنا">
+      <span class="micro-item"><b>01</b> حلول الأعمال</span><span class="micro-divider" aria-hidden="true"></span>
+      <span class="micro-item"><b>02</b> التصميم والهندسة</span><span class="micro-divider" aria-hidden="true"></span>
+      <span class="micro-item"><b>03</b> تطبيقات Android</span><span class="micro-divider" aria-hidden="true"></span>
+      <span class="micro-item"><b>04</b> أدوات الإنتاجية</span>
+    </div>
 
     <section class="spotlight-section" id="featured" aria-labelledby="featured-title">
       <div class="shell">
@@ -141,10 +157,51 @@
       </div>
     </section>
 
-    <section class="cta-section"><div class="shell"><div class="cta-panel"><span class="cta-orb" aria-hidden="true"></span><div><span class="section-kicker">WHAT'S NEXT?</span><h2>فكرتك القادمة تبدأ من هنا.</h2><p>استعرض البرامج والمشاريع واطلع على ما أُنجز وما زال قيد التطوير.</p></div><a href="#products" class="button button-light button-lg">استكشف المكتبة <span aria-hidden="true">↗</span></a></div></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-layout">
+        <div class="contact-intro">
+          <span class="section-kicker">04 / LET'S CONNECT</span>
+          <h2 id="contact-title">لديك فكرة أو استفسار؟<br><em>نحن هنا لنتواصل.</em></h2>
+          <p>سواء كنت تستفسر عن أحد برامجنا، أو ترغب في اقتراح ميزة جديدة، أو تبحث عن تعاون تقني، يسعدنا استقبال رسالتك عبر البريد الإلكتروني الرسمي لـ ProTech.</p>
+          <div class="contact-points" aria-label="مواضيع التواصل">
+            <span>استفسارات البرامج</span>
+            <span>الاقتراحات والتحسينات</span>
+            <span>التعاون والمشاريع</span>
+          </div>
+        </div>
+        <div class="contact-panel">
+          <div class="contact-panel-top">
+            <span class="contact-channel">PROTECH / DIRECT CONTACT</span>
+            <span class="contact-status">بريد التواصل</span>
+          </div>
+          <div class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="m3.5 7 8.5 6.4L20.5 7"/><path d="M3.5 18l5.4-4.2M20.5 18l-5.4-4.2"/></svg></div>
+          <h3>تواصل مع ProTech</h3>
+          <p class="panel-desc">العنوان الرسمي للتواصل بشأن البرامج والخدمات.</p>
+          <a class="contact-email-link" href="mailto:protech.2025.2026@gmail.com" aria-label="مراسلة ProTech عبر البريد الإلكتروني" dir="ltr">protech.2025.2026@gmail.com</a>
+          <div class="contact-actions">
+            <a href="mailto:protech.2025.2026@gmail.com?subject=Alghad%20Digital%20-%20Inquiry" class="button button-primary">إرسال رسالة <span aria-hidden="true">↗</span></a>
+            <button id="copy-protech-email" type="button" class="button button-secondary">نسخ البريد</button>
+          </div>
+          <p id="contact-copy-note" class="contact-copy-note" role="status" aria-live="polite"></p>
+          <p class="contact-note">يُفتح تطبيق البريد المثبّت لديك عند الضغط على «إرسال رسالة». لا نجمع رسائلك أو نخزنها عبر الموقع.</p>
+          <div class="contact-footer-row"><span><strong>ProTech</strong> — تطوير برمجيات وحلول رقمية</span><span>ALGHAD.DIGITAL</span></div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer"><div class="shell footer-top"><a class="logo" href="#top"><span class="logo-mark" aria-hidden="true">△</span><span class="logo-wordmark"><strong>الغد <em>الرقمي</em></strong><small>ALGHAD DIGITAL</small></span></a><p>برامج وتجارب رقمية تُطوّر لتخدم احتياجاتك. <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer" class="accent-text">مشاريعنا على GitHub ↗</a></p><a href="#top" class="back-to-top" aria-label="العودة إلى الأعلى">↑</a></div><div class="shell footer-bottom"><span>© <span id="year">2026</span> Alghad Digital. جميع الحقوق محفوظة.</span><span>صُنع بشغف للتقنية والتطوير</span></div></footer>
+  <footer class="footer">
+    <div class="shell footer-top">
+      <a class="logo" href="#top" aria-label="العودة إلى الصفحة الرئيسية"><span class="logo-mark" aria-hidden="true">△</span><span class="logo-wordmark"><strong>الغد <em>الرقمي</em></strong><small>ALGHAD DIGITAL</small></span></a>
+      <p>برامج رقمية تُصمّم لتخدم احتياجاتك. <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer" class="accent-text">مشاريعنا على GitHub ↗</a></p>
+      <a class="footer-contact" href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>
+      <a href="#top" class="back-to-top" aria-label="العودة إلى الأعلى">↑</a>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© <span id="year">2026</span> Alghad Digital. جميع الحقوق محفوظة.</span>
+      <span class="footer-protech">تطوير وتصميم ProTech</span>
+    </div>
+  </footer>
 
   <dialog id="product-modal" class="product-modal" aria-labelledby="modal-title"><div id="modal-body"></div><button class="modal-close" id="modal-close" aria-label="إغلاق نافذة التفاصيل">✕</button></dialog>
   <aside class="compare-tray" id="compare-tray" hidden aria-label="البرامج المحددة للمقارنة">
@@ -152,5 +209,6 @@
     <div class="compare-tray-actions"><button class="button button-primary" type="button" id="compare-open" disabled>عرض المقارنة</button><button class="button button-secondary" type="button" id="compare-clear">مسح الاختيار</button></div>
   </aside>
   <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"></dialog>
+  <div id="contact-email-toast" hidden role="status" aria-live="polite"></div>
 </body>
 </html>
