@@ -32,6 +32,13 @@ for url in urls:
     assert script,document
     structured=json.loads(script.group(1))
     assert structured.get("@context")=="https://schema.org"
+    assert '<meta property="og:image" content="https://alghad.digital/assets/social/alghad-digital.png">' in raw,document
+    assert '<meta name="twitter:card" content="summary_large_image">' in raw,document
+    schemas=[json.loads(a) for a in re.findall(r'<script type="application/ld\+json">(.*?)</script>',raw,re.S)]
+    breadcrumbs=[a for a in schemas if a.get("@type")=="BreadcrumbList"]
+    if document != ROOT/"index.html":
+        assert len(breadcrumbs)==1,document
+        assert breadcrumbs[0]["itemListElement"][-1]["item"]==url,document
     all_pages.append(raw)
 text="\n".join(all_pages)
 assert "الغد ديجتال" in all_pages[0]
@@ -43,4 +50,9 @@ assert '<a href="programs/download/">' in all_pages[0]
 assert (ROOT/"robots.txt").read_text(encoding="utf8").strip().endswith("Sitemap: https://alghad.digital/sitemap.xml")
 assert (ROOT/"assets/seo-pages.css").is_file()
 assert (ROOT/"assets/seo-home.css").is_file()
+import struct
+image_data=(ROOT/"assets/social/alghad-digital.png").read_bytes()
+assert image_data[:8]==bytes.fromhex("89504e470d0a1a0a")
+assert struct.unpack(">II",image_data[16:24])==(1200,630)
+assert not any(("Call Recorder PRO" in s or 'instagram.com/ProTechAlghad' in s) for s in all_pages)
 print(f"SEO_TEST_PASS INDEXABLE_PAGES={len(urls)} PROGRAM_PAGES=10 GENERATOR=OK")

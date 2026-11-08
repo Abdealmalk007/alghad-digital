@@ -74,6 +74,7 @@ try {
         "assets/v3_3.js", "assets/v3_3.css", "assets/v3_4.js", "assets/v3_4.css", "assets/editorial.js", "assets/editorial.css", "assets/seo-pages.css", "assets/seo-home.css",
         "assets/news.json", "assets/news-data.js", "assets/tools.json", "assets/tools-data.js",
         "scripts/update_news.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
+        "scripts/generate_social_preview.py", "assets/social/alghad-digital.png",
         ".github/workflows/update-tech-news.yml", ".well-known/security.txt",
         "tests/smoke-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "CHANGELOG.md"
     )

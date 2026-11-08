@@ -16,6 +16,20 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 DOMAIN = "https://alghad.digital"
 PAGES_DIR = ROOT / "programs"
+SOCIAL_IMAGE = DOMAIN + "/assets/social/alghad-digital.png"
+
+
+def breadcrumbs_schema(canonical: str, title: str) -> dict:
+    segments = canonical.removeprefix(DOMAIN).strip("/").split("/")
+    items = [{"@type": "ListItem", "position": 1, "name": "الغد ديجتال", "item": DOMAIN + "/"}]
+    if segments and segments[0] == "programs" and len(segments) == 2:
+        items.append({"@type": "ListItem", "position": 2, "name": "برامج ProTech",
+                      "item": DOMAIN + "/programs/"})
+    items.append({"@type": "ListItem", "position": len(items) + 1,
+                  "name": title.split("|")[0].strip(), "item": canonical})
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": items}
+
 
 
 def esc(v: object) -> str:
@@ -80,7 +94,18 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <meta property="og:url" content="{esc(canonical)}">
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
+  <meta property="og:image" content="{SOCIAL_IMAGE}">
+  <meta property="og:image:secure_url" content="{SOCIAL_IMAGE}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Alghad Digital — ProTech Software">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{esc(title)}">
+  <meta name="twitter:description" content="{esc(description)}">
+  <meta name="twitter:image" content="{SOCIAL_IMAGE}">
   {schema_script(schema)}
+  {schema_script(breadcrumbs_schema(canonical, title))}
 </head>
 <body>
   <a href="#main" class="skip">تجاوز إلى المحتوى</a>
@@ -259,6 +284,22 @@ def update_home(products: list) -> None:
         '<meta property="og:title" content="الغد ديجتال | Alghad Digital — البرامج والأخبار التقنية">')
     replace(r'<meta property="og:description" content="[^"]*">',
         '<meta property="og:description" content="برامج ProTech مع صفحات مستقلة للتحميل، أخبار التقنية اليومية، ومكتبة برامج Windows المجانية.">')
+    social_meta = f"""<!-- SOCIAL PREVIEW START -->
+  <meta property="og:image" content="{SOCIAL_IMAGE}">
+  <meta property="og:image:secure_url" content="{SOCIAL_IMAGE}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Alghad Digital — ProTech Software">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="الغد ديجتال | Alghad Digital">
+  <meta name="twitter:description" content="برامج ProTech وأخبار التقنية ومكتبة برامج Windows.">
+  <meta name="twitter:image" content="{SOCIAL_IMAGE}">
+<!-- SOCIAL PREVIEW END -->"""
+    if "<!-- SOCIAL PREVIEW START -->" in html_text:
+        replace(r"<!-- SOCIAL PREVIEW START -->.*?<!-- SOCIAL PREVIEW END -->", social_meta)
+    else:
+        replace(r"</head>", social_meta + "\n</head>")
 
     cards = ''.join(f'<a href="programs/{esc(p["id"])}/">{esc(p["title"])}</a>' for p in products)
     directory = f"""<!-- SEO DIRECTORY START -->

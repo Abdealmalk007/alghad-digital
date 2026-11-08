@@ -97,3 +97,11 @@
 - Site adds internal links to program pages and news, and keeps all download links pointing only to supported official releases.
 - Google Search Console and Bing Webmaster Tools verification/submission require access to the appropriate owner accounts. Sitemaps and schema do not guarantee indexing or rank.
 - Daily autonomous site improvement is managed by a separate ChatGPT scheduled task with tests and guarded publishing.
+
+## v3.7.0 — Search and link previews
+- Original 1200×630 Open Graph image for sharing official website links on messaging and social platforms.
+- Added og:image, og:image:alt, twitter:card to the homepage and 13 static pages; all values use the verified HTTPS site host.
+- Added accurate BreadcrumbList structured data to program and directory pages.
+- Static schema avoids invented reviews, star ratings, downloads or software prices.
+- Kept social-media handles unlinked until confirmed; registration statuses are stored privately outside the public repository.
+- Verified the publicly accessible property and Google HTML ownership token. The Search Console Sitemaps report still requires the owner to submit sitemap.xml in the correct property.

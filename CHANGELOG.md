@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.7.0 — 2026-11-08
+- Added original Open Graph link-preview artwork and Twitter Card metadata.
+- Added accurate BreadcrumbList schema to 13 static landing pages.
+- Strengthened automated metadata validation without fabricated ratings or installer signatures.
+- Kept pending social handles out of public structured data; confirmed Search Console Sitemaps submission still required.
+
+
 ## v3.6.0 — 2026-11-08
 - Switched public RSS update to a once-daily cron (07:37 Asia/Riyadh).
 - Added static search-engine-readable landing pages for all ten ProTech programs and two editorial sections.
