@@ -92,3 +92,10 @@ h2{font-size:21px;line-height:1.5}
 .content details{padding:13px 17px;margin:10px 0;background:var(--panel);border:1px solid var(--line);border-radius:10px}
 .content details summary{cursor:pointer;font-weight:800}
 .content details[open] summary{color:var(--mint)}
+
+.brand-product-card h2 a{color:var(--text);text-decoration:none}
+.brand-product-card h2 a:hover{color:var(--mint)}
+.brand-product-card p{line-height:1.8}
+.brand-product-status{font-size:11px;color:var(--sub);font-weight:750}
+.brand-card-link{font-size:12px;font-weight:850;display:inline-block;margin-top:10px}
+.program-purpose{line-height:1.95;color:var(--sub);max-width:850px}

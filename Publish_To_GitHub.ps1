@@ -44,7 +44,9 @@ try {
     if (Get-Command node -ErrorAction SilentlyContinue) {
         & node (Join-Path $site "tests/favicon-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Favicon asset integrity tests failed" }
-        & node (Join-Path $site "tests/product-first-test.cjs")
+        & node (Join-Path $site "tests/brand-seo-test.cjs")
+    if ($LASTEXITCODE -ne 0) { throw "Brand SEO validation failed" }
+    & node (Join-Path $site "tests/product-first-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Product-first redesign integrity tests failed" }
         & node (Join-Path $site "tests/smoke-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Site smoke tests failed" }
@@ -96,7 +98,7 @@ try {
         "scripts/prerender_home.py", "scripts/build_support_pages.py", "scripts/update_release_facts.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
         "scripts/generate_social_preview.py", "scripts/generate_brand_icons.py", "assets/social/alghad-digital.png",
         ".github/workflows/update-tech-news.yml", ".well-known/security.txt",
-        "tests/smoke-test.cjs", "tests/product-first-test.cjs", "tests/nojs-browser-test.cjs", "tests/favicon-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "tests/translation-test.cjs", "CHANGELOG.md"
+        "tests/smoke-test.cjs", "tests/brand-seo-test.cjs", "tests/product-first-test.cjs", "tests/nojs-browser-test.cjs", "tests/favicon-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "tests/translation-test.cjs", "CHANGELOG.md"
     )
     $previewFiles = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\previews") -File -Filter "*.svg" | ForEach-Object { "assets/previews/" + $_.Name })
     if ($previewFiles.Count -ne 10) { throw "Expected exactly 10 public program illustrations before publication." }
@@ -108,9 +110,9 @@ try {
         Get-ChildItem -LiteralPath (Join-Path $site "programs") -Recurse -File -Filter "index.html" |
         ForEach-Object { $_.FullName.Substring($site.Length + 1).Replace("\", "/") }
     )
-    $seoPages += @("news/index.html", "free-windows-tools/index.html", "ai-news/index.html", "tech-companies/index.html", "cars/index.html", "about/index.html", "security/index.html", "privacy/index.html")
-    if ($seoPages.Count -ne 19) {
-        throw "Expected 19 searchable pages including program and support pages."
+    $seoPages += @("news/index.html", "free-windows-tools/index.html", "ai-news/index.html", "tech-companies/index.html", "cars/index.html", "protech/index.html", "about/index.html", "security/index.html", "privacy/index.html")
+    if ($seoPages.Count -ne 20) {
+        throw "Expected 20 searchable program, developer, news and support pages."
     }
     $safeFiles += $seoPages
     & git add -- $safeFiles

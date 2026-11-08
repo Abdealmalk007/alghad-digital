@@ -55,7 +55,7 @@ for(const icon of manifest.icons){
   assert.ok(fs.existsSync(path.join(root,icon.src.slice(1))));
 }
 const pageNames=["index.html","programs/index.html","news/index.html",
- "free-windows-tools/index.html","ai-news/index.html","tech-companies/index.html","cars/index.html","about/index.html","security/index.html","privacy/index.html"];
+ "free-windows-tools/index.html","ai-news/index.html","tech-companies/index.html","cars/index.html","protech/index.html","about/index.html","security/index.html","privacy/index.html"];
 for(const slug of ["stone","marble","reports","hr","download",
                    "kitchen","care","porcelain","quotes","tv"]){
  pageNames.push("programs/"+slug+"/index.html");

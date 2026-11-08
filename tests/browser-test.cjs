@@ -285,7 +285,7 @@ async function main() {
     // tested as accessible independent pages in the crawlability loop below.
     const seoPages=[];
     await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
-    for(const target of ["/programs/download/","/programs/kitchen/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/about/","/security/","/privacy/"]){
+    for(const target of ["/programs/download/","/programs/kitchen/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/protech/","/about/","/security/","/privacy/"]){
       await send("Page.navigate",{url:new URL(target,fileUrl).href});
       let value;
       for(let i=0;i<50;i++){

@@ -151,3 +151,10 @@
 - FAQPage JSON-LD is assembled from the visible homepage FAQ and validated against its exact four questions and answers.
 - The product-first structure remains in place; official news remains secondary and updated daily at 07:30 Riyadh.
 - A private implementation gap report is retained in AlghadDigitalSite_QA; external-service tasks are not represented as completed.
+
+## v4.1.0 — ProTech brand search SEO
+- One preferred WebSite identity: الغد ديجتال, and search phrase جيل الغد visibly explained; developer Organization ProTech separated from the WebSite entity.
+- Dedicated /protech/ landing page with all ten projects, accurate published/download availability and links.
+- Unique Arabic search-intent titles and visible copy for ten program landing pages; no invented ratings or prices.
+- Site map now has 21 URLs, with brand SEO integrity tests incorporated into publish and daily update pipelines.
+- Avoid obsolete meta keywords: Google does not use them for SEO.

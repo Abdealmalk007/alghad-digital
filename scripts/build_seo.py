@@ -18,6 +18,20 @@ ROOT = Path(__file__).resolve().parents[1]
 DOMAIN = "https://alghad.digital"
 PAGES_DIR = ROOT / "programs"
 SOCIAL_IMAGE = DOMAIN + "/assets/social/alghad-digital.png"
+DEVELOPER_URL = DOMAIN + "/protech/"
+PROGRAM_SEARCH_INTENTS = {
+    "stone": "برنامج إدارة الرخام والبورسلان",
+    "marble": "برنامج إدارة وتسليم أعمال الرخام",
+    "reports": "برنامج تقارير العمل اليومية",
+    "hr": "برنامج إدارة الموارد البشرية والموظفين",
+    "download": "تطبيق تحميل الفيديو والصوت للأندرويد",
+    "kitchen": "برنامج تصميم المطابخ ثنائي وثلاثي الأبعاد",
+    "care": "برنامج صيانة وتحسين نظام Windows",
+    "porcelain": "برنامج إدارة أعمال البورسلان",
+    "quotes": "برنامج عروض الأسعار والعقود",
+    "tv": "واجهة مخصصة لأجهزة Android TV",
+}
+
 
 
 def breadcrumbs_schema(canonical: str, title: str) -> dict:
@@ -119,13 +133,14 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <header class="site-header">
     <nav class="shell header-inner" aria-label="التنقل الرئيسي">
       <a class="brand" href="{home}"><span class="brand-logo"><img src="{home}icon-192.png?v=4" alt="" width="38" height="38"></span><span>الغد <strong>ديجتال</strong><small>ALGHAD DIGITAL</small></span></a>
-      <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}news/">أخبار التقنية</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a></div>
+      <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}protech/">عن Pro Tech</a><a href="{home}news/">أخبار التقنية</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a></div>
     </nav>
   </header>
   <main id="main" class="shell content">{content}</main>
   <footer class="site-footer">
     <div class="shell"><strong>الغد ديجتال — Alghad Digital</strong>
       <span>برامج وحلول تقنية وأخبار من مصادرها الأصلية.</span>
+      <a href="{home}protech/">مطوّر البرامج Pro Tech</a>
       <a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>
     </div>
   </footer>
@@ -191,9 +206,10 @@ def render_product(product: dict, downloads: dict) -> None:
     else:
         release_details='<section class="more"><h2>حالة الإتاحة</h2><p>لا يتوفر ملف تثبيت عام مؤكَّد لهذا البرنامج حاليًا؛ تابع حالة المشروع في مستودعه عند نشره.</p></section>'
 
+    intent = PROGRAM_SEARCH_INTENTS[slug]
     info = ("Beta / Preview" if preferred else "مستودع منشور بلا تنزيل" if status else "قريبًا")
     keywords = ", ".join([title, "الغد ديجتال", "ProTech", platform, str(product.get("category", ""))])
-    meta = f'{title} من برامج ProTech على الغد ديجتال. {desc} المنصات: {platform}. الحالة: {info}.'
+    meta = f'{title}، {intent} من ProTech (بروتك) على الغد ديجتال. {desc} الحالة: {info}.'
     content = f"""
       <div class="breadcrumbs"><a href="../../">الغد ديجتال</a> / <a href="../">برامج ProTech</a> / {esc(title)}</div>
       <div class="product-layout">
@@ -201,6 +217,7 @@ def render_product(product: dict, downloads: dict) -> None:
           <span class="eyebrow">PROTECH SOFTWARE / {esc(product.get("category", "برامج"))}</span>
           <h1>{esc(title)}</h1>
           <p class="hero-desc">{esc(desc)}</p>
+          <p class="program-purpose">من يبحث عن {esc(intent)} يمكنه هنا التعرف على ميزات {esc(title)} وحالة إصداره الفعلية وروابطه الرسمية، دون عرض نسخ غير متاحة.</p>
           <div class="chips"><span>{esc(info)}</span><span>{esc(platform)}</span><span>الإصدار: {esc(product.get("version", "غير محدد"))}</span></div>
           <p class="long-description">{esc(details)}</p>
           <h2>مميزات {esc(title)}</h2>
@@ -232,7 +249,7 @@ def render_product(product: dict, downloads: dict) -> None:
         "description": desc,
         "url": canonical,
         "image": DOMAIN + "/" + image,
-        "publisher": {"@type": "Organization", "name": "ProTech", "url": DOMAIN},
+        "publisher": {"@type": "Organization", "name": "ProTech", "alternateName": ["Pro Tech", "بروتك"], "url": DEVELOPER_URL},
         "operatingSystem": platform,
         "applicationCategory": "BusinessApplication" if slug in {"stone", "marble", "reports", "hr", "porcelain", "quotes"} else "UtilitiesApplication",
     }
@@ -242,7 +259,7 @@ def render_product(product: dict, downloads: dict) -> None:
         app_schema["downloadUrl"] = release_url
     target = PAGES_DIR / slug / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(page(title=f"{title} | الغد ديجتال — Alghad Digital",
+    target.write_text(page(title=f"{title} — {intent} | ProTech",
         description=meta, canonical=canonical, content=content,
         schema=app_schema, asset_prefix="../../"), encoding="utf-8", newline="\n")
 
@@ -378,6 +395,72 @@ def render_industry(data: dict, topic: str) -> None:
         encoding="utf-8",newline="\n")
 
 
+def render_brand(products: list[dict], downloads: dict) -> None:
+    cards=[]
+    public_downloads=0
+    for product in products:
+        slug=product["id"]
+        title=str(product["title"])
+        intent=PROGRAM_SEARCH_INTENTS[slug]
+        item=downloads.get(slug,{})
+        released=product["status"]=="public"
+        has_download=released and safe_release(item.get("release"),item.get("repository",""))
+        if has_download:
+            availability="إصدار Beta/Preview متاح للتنزيل"
+            public_downloads+=1
+        elif released:
+            availability="المستودع منشور؛ لا يوجد تنزيل عام مؤكد"
+        else:
+            availability="قيد التطوير — قريبًا"
+        cards.append(
+            '<article class="directory-card brand-product-card">'
+            +'<h2><a href="../programs/'+esc(slug)+'/">'+esc(title)+'</a></h2>'
+            +'<p>'+esc(intent)+'</p>'
+            +'<p class="brand-product-status">'+esc(availability)+'</p>'
+            +'<a class="brand-card-link" href="../programs/'+esc(slug)+'/">المميزات والإصدارات الرسمية ←</a>'
+            +'</article>'
+        )
+    assert len(cards)==10 and public_downloads==4
+    body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / Pro Tech</div>
+      <span class="eyebrow">PRO TECH / PROTECH SOFTWARE</span>
+      <h1>Pro Tech (بروتك) — برامج الغد ديجتال</h1>
+      <p class="hero-desc">ProTech، ويُكتب أيضًا Pro Tech أو بروتك، هو اسم مطوّر البرامج التي يعرضها موقع الغد ديجتال (Alghad Digital). تتخصص المشاريع في إدارة الأعمال والتصميم والإنتاجية وتطبيقات Windows وAndroid.</p>
+      <section class="more"><h2>أين أجد الموقع الرسمي؟</h2>
+      <p>الموقع الرسمي للبرامج هو <a href="../">alghad.digital — الغد ديجتال</a>. ولمن يبحث بعبارة «جيل الغد» للوصول إلى برامج Pro Tech: الاسم المعتمد للموقع هو «الغد ديجتال» وعنوانه <strong>alghad.digital</strong>، ولا توجد حاجة للانتقال إلى نطاق آخر.</p>
+      <p>يمكنك الاطلاع على <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer">حساب GitHub المرتبط بالمطور</a>، ومقارنة الإصدارات وملفات التنزيل المعتمدة على صفحات البرامج الرسمية.</p></section>
+      <section class="more"><h2>برامج ProTech للأعمال والتصميم والإنتاجية</h2>
+      <p>تُعرض البرامج حسب حالتها الفعلية: أربعة برامج لها ملفات تنزيل Beta/Preview مؤكدة، ومشروع منشور من دون تنزيل عام مؤكد، وخمسة مشاريع قيد التطوير. لا يعني نشر ملف تجريبي أنه إصدار مستقر.</p>
+      <div class="directory-grid brand-products">{''.join(cards)}</div></section>
+      <section class="more"><h2>برامج للأعمال والأفراد</h2>
+      <p>تخدم بعض مشاريع ProTech المصانع والمعارض وفرق التصميم والإدارة، بما فيها برامج الرخام والموارد البشرية والتقارير وتصميم المطابخ. كما توجد مشاريع للأفراد مثل Download Anything PRO وأدوات Windows، مع توضيح حالة التطوير لكل مشروع.</p>
+      <p>للتعرّف على آخر النسخ المتاحة، افتح <a href="../#downloads">قسم التنزيلات الرسمية</a> أو اقرأ <a href="../security/">إرشادات التحقق من SHA-256</a>.</p></section>
+      <section class="more"><h2>تواصل مع مطور ProTech</h2>
+      <p>للاستفسار عن أحد البرامج أو دعم التثبيت: <a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>. البريد المعروض هو وسيلة التواصل الحالية، ولا ندّعي امتلاك عنوان بريد على نطاق الموقع لم يتم إعداده.</p></section>"""
+    schema={
+      "@context":"https://schema.org",
+      "@type":"AboutPage",
+      "name":"Pro Tech — مطور برامج الغد ديجتال",
+      "url":DEVELOPER_URL,
+      "inLanguage":"ar",
+      "mainEntity":{
+        "@type":"Organization",
+        "@id":DOMAIN+"/#protech",
+        "name":"ProTech",
+        "alternateName":["Pro Tech","بروتك"],
+        "url":DEVELOPER_URL,
+        "logo":DOMAIN+"/icon-512.png",
+        "sameAs":["https://github.com/Abdealmalk007"]
+      }
+    }
+    out=ROOT/"protech"/"index.html"
+    out.parent.mkdir(parents=True,exist_ok=True)
+    out.write_text(page(
+      title="Pro Tech (بروتك) — مطور برامج إدارة الأعمال والتصميم | الغد ديجتال",
+      description="ProTech أو Pro Tech (بروتك): المطور الرسمي لبرامج الرخام والمطابخ والموارد البشرية والتقارير وأدوات Windows وAndroid على موقع الغد ديجتال alghad.digital.",
+      canonical=DEVELOPER_URL,content=body,schema=schema
+    ),encoding="utf-8",newline="\n")
+
+
 def render_tools(tools: dict) -> None:
     items = []
     for tool in tools.get("items", [])[:20]:
@@ -411,13 +494,13 @@ def update_home(products: list) -> None:
         if count != 1:raise RuntimeError("Could not find unique homepage SEO target: "+pattern[:70])
 
     replace(r'<title>.*?</title>',
-        '<title>برامج ProTech للأعمال والتصميم | الغد ديجتال - Alghad Digital</title>')
+        '<title>الغد ديجتال | برامج Pro Tech (بروتك) للأعمال والتصميم</title>')
     replace(r'<meta name="description" content="[^"]*">',
-        '<meta name="description" content="الغد ديجتال: برامج ProTech لإدارة الرخام والمطابخ والموارد البشرية والتقارير، مع روابط الإصدارات الرسمية وتنزيلات تجريبية موثقة. أخبار التقنية قسم إضافي.">')
+        '<meta name="description" content="الغد ديجتال (Alghad Digital) يعرض برامج Pro Tech وبروتك للأعمال والرخام والمطابخ. لمن يبحث عن جيل الغد: الموقع الرسمي alghad.digital.">')
     replace(r'<meta property="og:title" content="[^"]*">',
-        '<meta property="og:title" content="الغد ديجتال | Alghad Digital — البرامج والأخبار التقنية">')
+        '<meta property="og:title" content="الغد ديجتال — برامج ProTech | Alghad Digital">')
     replace(r'<meta property="og:description" content="[^"]*">',
-        '<meta property="og:description" content="برامج ProTech مع صفحات مستقلة للتحميل، أخبار التقنية اليومية، ومكتبة برامج Windows المجانية.">')
+        '<meta property="og:description" content="الموقع الرسمي لبرامج Pro Tech وبروتك على الغد ديجتال، مع روابط التنزيل المعتمدة ومشاريع التصميم والإدارة.">')
     social_meta = f"""<!-- SOCIAL PREVIEW START -->
   <meta property="og:image" content="{SOCIAL_IMAGE}">
   <meta property="og:image:secure_url" content="{SOCIAL_IMAGE}">
@@ -426,8 +509,8 @@ def update_home(products: list) -> None:
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Alghad Digital — ProTech Software">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="الغد ديجتال | Alghad Digital">
-  <meta name="twitter:description" content="برامج ProTech وأخبار التقنية ومكتبة برامج Windows.">
+  <meta name="twitter:title" content="الغد ديجتال | برامج Pro Tech">
+  <meta name="twitter:description" content="الغد ديجتال: برامج Pro Tech وبروتك للأعمال والتصميم.">
   <meta name="twitter:image" content="{SOCIAL_IMAGE}">
 <!-- SOCIAL PREVIEW END -->"""
     if "<!-- SOCIAL PREVIEW START -->" in html_text:
@@ -440,12 +523,12 @@ def update_home(products: list) -> None:
     <section class="seo-home-directory" aria-labelledby="seo-directory-title">
       <div class="shell">
         <span class="section-kicker">PROTECH / SOFTWARE INDEX</span>
-        <h2 id="seo-directory-title">دليل برامج الغد ديجتال</h2>
-        <p>صفحات مستقلة لكل برنامج تساعدك على العثور على المميزات وحالة التطوير وروابط التنزيل المعتمدة.</p>
+        <h2 id="seo-directory-title">برامج Pro Tech من الغد ديجتال</h2>
+        <p>الغد ديجتال (Alghad Digital) يعرض برامج Pro Tech (بروتك). ولمن يبحث باسم «جيل الغد» عن هذه البرامج: العنوان الرسمي هو alghad.digital. استكشف صفحات البرامج وروابط الإصدارات الفعلية.</p>
         <nav class="seo-directory-links" aria-label="صفحات برامج ProTech">
           {cards}
         </nav>
-        <div class="seo-directory-extras"><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="ai-news/">أخبار الذكاء الاصطناعي</a><a href="tech-companies/">أخبار الشركات</a><a href="cars/">أخبار السيارات</a><a href="free-windows-tools/">برامج Windows المجانية</a></div>
+        <div class="seo-directory-extras"><a href="protech/">تعرف على مطور Pro Tech</a><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="ai-news/">أخبار الذكاء الاصطناعي</a><a href="tech-companies/">أخبار الشركات</a><a href="cars/">أخبار السيارات</a><a href="free-windows-tools/">برامج Windows المجانية</a></div>
       </div>
     </section>
 <!-- SEO DIRECTORY END -->"""
@@ -454,16 +537,30 @@ def update_home(products: list) -> None:
     else:
         replace(r"</main>",directory+"\n</main>")
     organization={
-        "@context":"https://schema.org",
-        "@graph":[
-          {"@type":"Organization","name":"الغد ديجتال — Alghad Digital",
-           "alternateName":["الغد الرقمي","Alghad Digital","ProTech"],
-           "url":DOMAIN+"/","email":"protech.2025.2026@gmail.com",
-           "sameAs":["https://github.com/Abdealmalk007"]},
-          {"@type":"WebSite","name":"الغد ديجتال | Alghad Digital",
-           "inLanguage":"ar","url":DOMAIN+"/",
-           "description":"برامج تقنية وأخبار تكنولوجيا عربية وأدوات Windows"}
-        ]}
+      "@context":"https://schema.org",
+      "@graph":[
+        {
+          "@type":"Organization",
+          "@id":DOMAIN+"/#protech",
+          "name":"ProTech",
+          "alternateName":["Pro Tech","بروتك"],
+          "url":DEVELOPER_URL,
+          "description":"مطور برامج إدارة الأعمال والتصميم وتطبيقات Windows وAndroid.",
+          "logo":DOMAIN+"/icon-512.png",
+          "email":"protech.2025.2026@gmail.com",
+          "sameAs":["https://github.com/Abdealmalk007"]
+        },
+        {
+          "@type":"WebSite",
+          "@id":DOMAIN+"/#website",
+          "name":"الغد ديجتال",
+          "alternateName":["Alghad Digital","جيل الغد","alghad.digital"],
+          "url":DOMAIN+"/",
+          "inLanguage":"ar",
+          "description":"الموقع الرسمي لبرامج ProTech وروابط الإصدارات المتاحة وأخبار التقنية.",
+          "publisher":{"@id":DOMAIN+"/#protech"}
+        }
+      ]}
     script = "<!-- SEO JSONLD START -->"+schema_script(organization)+"<!-- SEO JSONLD END -->"
     if "<!-- SEO JSONLD START -->" in html_text:
         replace(r"<!-- SEO JSONLD START -->.*?<!-- SEO JSONLD END -->",script)
@@ -513,7 +610,7 @@ def update_home(products: list) -> None:
 
 
 def update_sitemap(products: list) -> None:
-    urls=["/","/programs/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/about/","/security/","/privacy/"]+[
+    urls=["/","/programs/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/"]+[
         "/programs/"+p["id"]+"/" for p in products]
     ns="http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("",ns)
@@ -539,13 +636,14 @@ def main() -> None:
     assert not {"recorder","omar","reem"} & {x["id"] for x in products}
     for product in products:render_product(product,downloads)
     render_catalog(products)
+    render_brand(products,downloads)
     render_news(news)
     for topic in ("ai","companies","cars"):
         render_industry(industry,topic)
     render_tools(tools)
     update_home(products)
     update_sitemap(products)
-    print("SEO_PAGES="+str(9+len(products))+" PROGRAMS="+str(len(products)))
+    print("SEO_PAGES="+str(10+len(products))+" PROGRAMS="+str(len(products)))
 
 
 if __name__=="__main__":

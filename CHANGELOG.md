@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.1.0 — 2026-11-08
+- Improved brand search identity for Alghad Digital and Pro Tech / بروتك while clarifying the جيل الغد search term.
+- Added /protech/ developer page and factual search-intent copy on ten program landing pages.
+- Updated structured data and site map to 21 URLs, including CI tests for brand identity and crawlability.
+
+
 ## v4.0.1 — 2026-11-08
 - Added accurate FAQPage structured data, generated from four visible homepage questions and answers.
 - Strengthened SEO tests to verify structured data always matches rendered FAQ markup.
