@@ -304,8 +304,54 @@ async function main() {
         fs.writeFileSync(path.join(qaDir,"seo-program-mobile-v36.png"),Buffer.from(img.data,"base64"));
       }
     }
+    // English static edition: real Chrome navigation, LTR, responsive layout,
+    // same-page Arabic switch and optional search/filter enhancement.
+    const enPages=[];
+    await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
+    for(const target of ["/en/","/en/programs/","/en/programs/download/","/en/programs/kitchen/",
+                         "/en/news/","/en/ai-news/","/en/cars/","/en/about/","/en/security/","/en/privacy/"]){
+      await send("Page.navigate",{url:new URL(target,fileUrl).href});
+      let value;
+      for(let i=0;i<75;i++){
+        await delay(100);
+        value=await evaluate('({path:location.pathname,ready:document.readyState,h1:document.querySelector("h1")?.innerText,viewport:innerWidth,scroll:document.documentElement.scrollWidth,lang:document.documentElement.lang,dir:document.documentElement.dir,ar:document.querySelector(".en-lang-switch")?.getAttribute("href"),navbar:document.querySelector(".en-header")?.getBoundingClientRect().width})');
+        if(value.path===target&&value.ready==="complete"&&value.h1)break;
+      }
+      assert.equal(value.path,target,"English route "+target);
+      assert.equal(value.lang,"en","English document language "+target);
+      assert.equal(value.dir,"ltr","LTR layout "+target);
+      assert.ok(value.h1.length>=6,"English heading "+target);
+      assert.ok(value.scroll<=392,"English mobile overflow "+target+" "+JSON.stringify(value));
+      assert.ok(value.navbar<=392,"English header overflow "+target);
+      assert.equal(value.ar,"https://alghad.digital"+(target.replace(/^\/en/,"")||"/"),"English AR switch "+target);
+      enPages.push(value);
+      if(target==="/en/"){
+        const count=await evaluate('document.querySelectorAll(".en-product-card[data-product]").length');
+        assert.equal(count,10,"English cards visible");
+        const filters=await evaluate('({hasSearch:!!document.querySelector("#en-search"),count:document.querySelectorAll(".en-release-card").length})');
+        assert.equal(filters.hasSearch,true);
+        assert.equal(filters.count,4,"Verified preview releases");
+        await evaluate('document.querySelector("#en-search").value="Kitchen";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}))');
+        assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),1,"English search works");
+        await evaluate('document.querySelector("#en-search").value="";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}));document.querySelector("[data-en-filter=public]").click()');
+        assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),5,"English published filter");
+        const shot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+        fs.writeFileSync(path.join(qaDir,"english-home-mobile-v42.png"),Buffer.from(shot.data,"base64"));
+      }
+    }
+    for(const width of [320,768,1440]){
+      await send("Page.navigate",{url:new URL("/en/",fileUrl).href});
+      for(let attempt=0;attempt<40;attempt++){
+        if(await evaluate('document.readyState==="complete"&&document.querySelectorAll(".en-product-card").length===10'))break;
+        await delay(100);
+      }
+      await send("Emulation.setDeviceMetricsOverride",{width,height:900,deviceScaleFactor:1,mobile:width<820});
+      await delay(150);
+      const layout=await evaluate('({viewport:innerWidth,documentWidth:document.documentElement.scrollWidth,header:document.querySelector(".en-header")?.getBoundingClientRect().width})');
+      assert.ok(layout.documentWidth<=width+2,"EN responsive overflow at "+width+"px: "+JSON.stringify(layout));
+    }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={seoPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {

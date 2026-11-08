@@ -158,3 +158,13 @@
 - Unique Arabic search-intent titles and visible copy for ten program landing pages; no invented ratings or prices.
 - Site map now has 21 URLs, with brand SEO integrity tests incorporated into publish and daily update pipelines.
 - Avoid obsolete meta keywords: Google does not use them for SEO.
+
+## v4.2.0 — Arabic-first bilingual English edition
+- Arabic remains the default at /; English pages are available at /en/ with a visible EN/AR link on every corresponding page.
+- Complete 21-page static English website covering the home, all 10 products, downloads, developer, news, tools, about, privacy and software safety.
+- Both editions use the same verified product/release/news data; no replicated or invented installers.
+- HTML lang and dir are accurate: ar/rtl by default, en/ltr in English.
+- Reciprocal hreflang ar/en/x-default and canonical tags; 42 URL bilingual sitemap.
+- No machine-translation network requirement: existing program metadata is interpreted with reviewed English product descriptions. News headlines from official English-language publishers remain in their original wording.
+- Both versions work without JS; a lightweight English product filter enhances the English homepage when JS is enabled.
+- The 07:30 Riyadh GitHub Actions news workflow regenerates both editions and runs bilingual QA.

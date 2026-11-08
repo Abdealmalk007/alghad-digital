@@ -1,0 +1,16 @@
+/* AR / EN switch at the same location as the site's existing actions. */
+.lang-toggle{display:inline-flex;align-items:center;justify-content:center;flex:none;
+  min-width:48px;min-height:40px;border:1px solid #53e6c5a8;border-radius:11px;
+  background:#103a41;color:#60ebcf!important;text-decoration:none;font:900 13px/1 "Segoe UI",Arial,sans-serif;
+  letter-spacing:.6px;direction:ltr;unicode-bidi:isolate;padding:9px 12px}
+.lang-toggle:hover{background:#155b5a;color:#fff!important;border-color:#8affdf}
+.lang-toggle:focus-visible{outline:3px solid #5defd0;outline-offset:3px}
+@media(max-width:520px){.lang-toggle{min-width:41px;min-height:39px;padding:8px 10px}}
+
+@media(max-width:480px){
+  #top .header-inner{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between}
+  #top .header-actions{gap:7px;flex-shrink:0}
+  #top .header-cta{display:none}
+  #top .logo{min-width:0}
+  #top .logo-wordmark strong{font-size:16px}
+}

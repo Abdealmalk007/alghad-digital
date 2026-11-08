@@ -91,6 +91,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
          schema: dict | list, asset_prefix: str = "../") -> str:
     description = description.strip()[:205]
     home = asset_prefix
+    english_url = DOMAIN + "/en/" + canonical.removeprefix(DOMAIN).lstrip("/")
     return f"""<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
@@ -101,6 +102,9 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <meta name="theme-color" content="#071522">
   <title>{esc(title)}</title>
   <link rel="canonical" href="{esc(canonical)}">
+  <link rel="alternate" hreflang="ar" href="{esc(canonical)}">
+  <link rel="alternate" hreflang="en" href="{esc(english_url)}">
+  <link rel="alternate" hreflang="x-default" href="{esc(canonical)}">
   <link rel="icon" href="/favicon.ico?v=4" sizes="any">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=4">
@@ -133,7 +137,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <header class="site-header">
     <nav class="shell header-inner" aria-label="التنقل الرئيسي">
       <a class="brand" href="{home}"><span class="brand-logo"><img src="{home}icon-192.png?v=4" alt="" width="38" height="38"></span><span>الغد <strong>ديجتال</strong><small>ALGHAD DIGITAL</small></span></a>
-      <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}protech/">عن Pro Tech</a><a href="{home}news/">أخبار التقنية</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a></div>
+      <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}protech/">عن Pro Tech</a><a href="{home}news/">أخبار التقنية</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a><a class="lang-toggle" lang="en" dir="ltr" hreflang="en" href="{esc(english_url)}" aria-label="Switch to English">EN</a></div>
     </nav>
   </header>
   <main id="main" class="shell content">{content}</main>

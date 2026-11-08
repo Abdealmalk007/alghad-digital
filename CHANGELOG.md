@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.2.0 — 2026-11-08
+- Added a full English edition at /en/ with EN/AR switches on all 42 paired Arabic and English pages.
+- Published static English program profiles, real release details, news summaries, free tools, about/privacy/security and ProTech profile.
+- Added hreflang, reciprocal canonicals and a 42-URL bilingual sitemap; preserved Arabic RTL as the default.
+- Wired bilingual generation into GitHub Pages deployment and the 07:30 Riyadh news refresh workflow.
+
+
 ## v4.1.0 — 2026-11-08
 - Improved brand search identity for Alghad Digital and Pro Tech / بروتك while clarifying the جيل الغد search term.
 - Added /protech/ developer page and factual search-intent copy on ten program landing pages.

@@ -99,3 +99,10 @@ h2{font-size:21px;line-height:1.5}
 .brand-product-status{font-size:11px;color:var(--sub);font-weight:750}
 .brand-card-link{font-size:12px;font-weight:850;display:inline-block;margin-top:10px}
 .program-purpose{line-height:1.95;color:var(--sub);max-width:850px}
+
+/* Visible keyboard-accessible English edition toggle on Arabic static pages. */
+.nav-links .lang-toggle{display:inline-flex;align-items:center;justify-content:center;
+  border:1px solid #53e6c5a8;border-radius:10px;background:#113a43;color:#64ebca;
+  min-width:48px;min-height:37px;padding:8px 12px;font:900 13px/1 "Segoe UI",Arial,sans-serif;
+  text-decoration:none;direction:ltr;unicode-bidi:isolate}
+.nav-links .lang-toggle:hover{background:#1a5558;color:white}

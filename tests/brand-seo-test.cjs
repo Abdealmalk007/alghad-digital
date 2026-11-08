@@ -73,7 +73,8 @@ for(const [slug,intent] of Object.entries(intents)){
 }
 const sitemap=read("sitemap.xml");
 const total=(sitemap.match(/<loc>/g)||[]).length;
-assert.equal(total,21,"All 21 canonical pages included in sitemap");
+assert.equal(total,42,"21 Arabic and 21 English canonical pages included in sitemap");
+assert.ok(sitemap.includes("<loc>https://alghad.digital/en/protech/</loc>"));
 assert.ok(sitemap.includes("<loc>https://alghad.digital/protech/</loc>"));
 const workflow=read(".github/workflows/update-tech-news.yml");
 assert.ok(workflow.includes('cron: "30 4 * * *"'),"Preserve 7:30 Riyadh news update");

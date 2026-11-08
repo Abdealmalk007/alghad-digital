@@ -41,9 +41,12 @@ jobs:
         run: python scripts/build_seo.py
       - name: Generate factual security, about and privacy pages
         run: python scripts/build_support_pages.py
+      - name: Build complete English edition and bilingual sitemap
+        run: python scripts/build_en.py
       - name: Verify indexable pages and editorial integrity
         run: |
           python scripts/test_seo.py
+          node tests/bilingual-test.cjs
           node tests/editorial-test.cjs
           node tests/favicon-test.cjs
           node tests/industry-news-test.cjs
@@ -65,6 +68,7 @@ jobs:
           git config user.name "alghad-news-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- assets/news.json assets/news-data.js news/index.html sitemap.xml index.html
+          git add -- en/
           git add -- about/index.html security/index.html privacy/index.html protech/index.html
           git add -- assets/release-facts-data.js
           git add -- assets/industry-news.json assets/industry-news-data.js

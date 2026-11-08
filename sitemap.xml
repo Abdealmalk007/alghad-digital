@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alghad.digital/</loc>
@@ -62,5 +62,68 @@
   </url>
   <url>
     <loc>https://alghad.digital/programs/tv/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/news/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/free-windows-tools/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/ai-news/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/tech-companies/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/cars/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/about/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/security/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/protech/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/stone/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/marble/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/reports/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/hr/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/kitchen/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/download/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/care/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/porcelain/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/quotes/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/tv/</loc>
   </url>
 </urlset>
