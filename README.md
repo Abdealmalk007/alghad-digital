@@ -87,3 +87,13 @@
 - Eight Windows utility cards with original vector illustrations, features, license conditions and official vendor download pages.
 - Files: assets/editorial.js, assets/editorial.css, assets/news-data.js, assets/news.json, assets/tools-data.js, assets/tools.json, assets/tools/*.svg.
 - Existing ten ProTech programs, exclusions and direct GitHub release links are preserved.
+
+## v3.6.0 — Daily News + Search Discoverability (SEO)
+- News ingestion runs automatically once per day at 07:37 Asia/Riyadh (GitHub Actions, 04:37 UTC), only if repo Actions and write permissions work.
+- The workflow safely rebuilds a human-readable static /news/ page and validates indexable pages before committing the daily snapshot.
+- 10 unique crawlable /programs/<slug>/ pages plus /programs/, /news/, /free-windows-tools/.
+- 14 canonical URLs listed in sitemap.xml, and sitemap referenced by robots.txt.
+- Proper Arabic and English names of the platform and program names included in title/description, visible content, and structured metadata.
+- Site adds internal links to program pages and news, and keeps all download links pointing only to supported official releases.
+- Google Search Console and Bing Webmaster Tools verification/submission require access to the appropriate owner accounts. Sitemaps and schema do not guarantee indexing or rank.
+- Daily autonomous site improvement is managed by a separate ChatGPT scheduled task with tests and guarded publishing.

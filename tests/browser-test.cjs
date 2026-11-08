@@ -18,7 +18,7 @@ async function startLocalPreview() {
     try{
       const target=new URL(req.url,"http://127.0.0.1");
       const pathname=decodeURIComponent(target.pathname);
-      const local=path.resolve(root,"."+(pathname==="/"?"/index.html":pathname));
+      const local=path.resolve(root,"."+(pathname==="/"?"/index.html":pathname.endsWith("/")?pathname+"index.html":pathname));
       if(!local.startsWith(root+path.sep) || !fs.existsSync(local) || !fs.statSync(local).isFile()){
         res.writeHead(404);res.end("Not Found");return;
       }
@@ -261,8 +261,29 @@ async function main() {
       assert.ok(value.contactLeft>=-2 && value.contactRight<=width+2,"Contact clipping at "+width+"px");
       viewports.push(value);
     }
+    const seoPages=[];
+    await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
+    for(const target of ["/programs/download/","/programs/kitchen/","/news/","/free-windows-tools/"]){
+      await send("Page.navigate",{url:new URL(target,fileUrl).href});
+      let value;
+      for(let i=0;i<50;i++){
+        await delay(100);
+        value=await evaluate('({path:location.pathname,ready:document.readyState,h1:document.querySelector("h1")?.textContent,viewport:innerWidth,page:document.documentElement.scrollWidth,headerWidth:document.querySelector(".site-header")?.getBoundingClientRect().width,lang:document.documentElement.lang})');
+        if(value.path===target&&value.ready==="complete"&&value.h1)break;
+      }
+      assert.equal(value.path,target,"SEO page navigation: "+target);
+      assert.equal(value.lang,"ar","Arabic SEO page: "+target);
+      assert.ok(value.h1.length>6,"Visible SEO page heading: "+target);
+      assert.ok(value.page<=392,"SEO page horizontal overflow: "+target+" "+JSON.stringify(value));
+      assert.ok(value.headerWidth<=392,"SEO page header overflow: "+target);
+      seoPages.push(value);
+      if(target==="/programs/download/"){
+        const img=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+        fs.writeFileSync(path.join(qaDir,"seo-program-mobile-v36.png"),Buffer.from(img.data,"base64"));
+      }
+    }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={seoPages,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {

@@ -1,0 +1,14 @@
+/* Readable, crawlable links to Alghad Digital product pages. */
+.seo-home-directory{position:relative;padding:70px 0 74px;background:radial-gradient(ellipse at 85% 0,#268c8133,transparent 52%),#081a29;border-block-start:1px solid #25505a}
+.seo-home-directory h2{font-size:clamp(26px,3vw,40px);font-weight:900;color:#f3ffff;margin:12px 0 8px;letter-spacing:-.8px}
+.seo-home-directory p{font-size:13px;color:#b7cbd5;line-height:1.95;margin:0 0 25px}
+.seo-directory-links{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px}
+.seo-directory-links a{border:1px solid #315663;border-radius:12px;min-height:58px;display:flex;align-items:center;justify-content:center;padding:11px 10px;text-align:center;text-decoration:none;color:#dcefeb;background:#11293a;font-size:12px;font-weight:800;line-height:1.5;transition:border-color .2s,background .2s,transform .2s;word-break:break-word}
+.seo-directory-links a:hover{border-color:#61e9cd;background:#164039;transform:translateY(-2px);color:#abffe9}
+.seo-directory-links a:focus-visible{outline:3px solid #66ecd0;outline-offset:3px}
+.seo-directory-extras{margin-top:20px;display:flex;flex-wrap:wrap;gap:12px 22px}
+.seo-directory-extras a{color:#61e9cd;font-size:12px;font-weight:750;text-decoration:none}
+.seo-directory-extras a:hover{text-decoration:underline}
+@media(max-width:950px){.seo-directory-links{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.seo-home-directory{padding:55px 0}.seo-directory-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.seo-directory-links a{font-size:11px;min-height:64px}}
+@media(prefers-reduced-motion:reduce){.seo-directory-links a{transition:none}.seo-directory-links a:hover{transform:none}}

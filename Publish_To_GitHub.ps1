@@ -30,6 +30,13 @@ try {
 Push-Location $site
 try {
     Write-Host "[2/5] Running integrity checks..." -ForegroundColor Cyan
+    if (-not (Get-Command python -ErrorAction SilentlyContinue)) {
+        throw "Python is required for SEO page generation and publication."
+    }
+    & python (Join-Path $site "scripts/build_seo.py")
+    if ($LASTEXITCODE -ne 0) { throw "SEO generation failed" }
+    & python (Join-Path $site "scripts/test_seo.py")
+    if ($LASTEXITCODE -ne 0) { throw "SEO integrity checks failed" }
     if (Get-Command node -ErrorAction SilentlyContinue) {
         & node (Join-Path $site "tests/smoke-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Site smoke tests failed" }
@@ -64,9 +71,9 @@ try {
         "assets/products.js", "assets/app.js", "assets/style.css", "assets/v2.css",
         "assets/v3.js", "assets/v3.css", "assets/v3_1.js", "assets/v3_1.css",
         "assets/downloads.js", "assets/downloads-ui.js", "assets/downloads.css",
-        "assets/v3_3.js", "assets/v3_3.css", "assets/v3_4.js", "assets/v3_4.css", "assets/editorial.js", "assets/editorial.css",
+        "assets/v3_3.js", "assets/v3_3.css", "assets/v3_4.js", "assets/v3_4.css", "assets/editorial.js", "assets/editorial.css", "assets/seo-pages.css", "assets/seo-home.css",
         "assets/news.json", "assets/news-data.js", "assets/tools.json", "assets/tools-data.js",
-        "scripts/update_news.py", "scripts/generate_tool_art.py",
+        "scripts/update_news.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
         ".github/workflows/update-tech-news.yml", ".well-known/security.txt",
         "tests/smoke-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "CHANGELOG.md"
     )
@@ -76,6 +83,15 @@ try {
     $toolImages = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\tools") -File -Filter "*.svg" | ForEach-Object { "assets/tools/" + $_.Name })
     if ($toolImages.Count -ne 8) { throw "Expected exactly 8 original Windows utilities illustrations." }
     $safeFiles += $toolImages
+    $seoPages = @(
+        Get-ChildItem -LiteralPath (Join-Path $site "programs") -Recurse -File -Filter "index.html" |
+        ForEach-Object { $_.FullName.Substring($site.Length + 1).Replace("\", "/") }
+    )
+    $seoPages += @("news/index.html", "free-windows-tools/index.html")
+    if ($seoPages.Count -ne 13) {
+        throw "Expected 13 searchable directory and program pages."
+    }
+    $safeFiles += $seoPages
     & git add -- $safeFiles
     if ($LASTEXITCODE -ne 0) { throw "Git add failed" }
     # Track deletion of previously published preview files as well.

@@ -2,8 +2,8 @@ name: Refresh Arabic Tech Headlines
 on:
   workflow_dispatch:
   schedule:
-    # Every four hours; GitHub schedules may start later than the cron minute.
-    - cron: "23 */4 * * *"
+    # Daily at 07:37 Asia/Riyadh (04:37 UTC). GitHub may queue delayed runs.
+    - cron: "37 4 * * *"
 
 permissions:
   contents: write
@@ -25,8 +25,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - name: Collect and verify public RSS headlines
         run: python scripts/update_news.py
+      - name: Rebuild canonical pages and sitemap
+        run: python scripts/build_seo.py
+      - name: Verify indexable pages and editorial integrity
+        run: |
+          python scripts/test_seo.py
+          node tests/editorial-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'
@@ -41,7 +51,7 @@ jobs:
         run: |
           git config user.name "alghad-news-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- assets/news.json assets/news-data.js
+          git add -- assets/news.json assets/news-data.js news/index.html sitemap.xml
           if git diff --cached --quiet; then
             echo "News snapshot unchanged."
             exit 0

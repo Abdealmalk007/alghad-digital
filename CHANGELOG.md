@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.6.0 — 2026-11-08
+- Switched public RSS update to a once-daily cron (07:37 Asia/Riyadh).
+- Added static search-engine-readable landing pages for all ten ProTech programs and two editorial sections.
+- Expanded sitemap to 14 canonical URLs and added dedicated Arabic/English titles and structured data.
+- Added generator and automated SEO validation to publishing and GitHub Actions.
+- Added visible homepage software-directory links, avoiding JavaScript-only discovery.
+- Preserved excluded projects and official release link security constraints.
+
+
 ## v3.5.0 — 2026-11-08
 - Added Arabic tech news editorial section with filters and original publisher links.
 - Added GitHub Actions news refresh every four hours, subject to repo Actions permission.

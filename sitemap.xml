@@ -1,2 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://alghad.digital/</loc></url></urlset>
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://alghad.digital/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/news/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/free-windows-tools/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/stone/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/marble/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/reports/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/hr/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/kitchen/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/download/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/care/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/porcelain/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/quotes/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/tv/</loc>
+  </url>
+</urlset>
