@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T09:00:07Z",
+  "generated_at": "2026-11-08T09:17:38Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -600,19 +600,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "When a passion for Porsche turns into friendship",
-          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-kirk-gittens-mnd-43610.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-02T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "عندما يتحول شغف بورش إلى صداقة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Notice Regarding the Status of Share Repurchase",
           "url": "https://www.subaru.co.jp/news-en/2026_11_02_181354/",
           "source": "subaru",
@@ -639,58 +626,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Porsche congratulates Derek Bell on his 85th birthday",
-          "url": "https://newsroom.porsche.com/en/2026/history/porsche-derek-bell-85th-birthday-43597.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-10-31T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "بورش تهنئ ديريك بيل في عيد ميلاده الخامس والثمانين",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Engineer at heart: Dr Michael Steiner is ending his tenure on the Executive Board of Porsche",
-          "url": "https://newsroom.porsche.com/en/2026/company/porsche-dr-michael-steiner-ending-tenure-on-executive-board-43625.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-10-30T13:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "مهندس في القلب: الدكتور مايكل شتاينر ينهي فترة ولايته في المجلس التنفيذي لبورشه",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "New ‘Raceborn Moments’ episode: Two RS Spyders, countless memories",
-          "url": "https://newsroom.porsche.com/en/2026/history/porsche-raceborn-moments-rs-sypder-43612.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-10-30T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "حلقة \"Raceborn Moments\" الجديدة: اثنان من RS Spyders، ذكريات لا حصر لها",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche and La Marzocco unveil the 911 Carrera RS 2.7 Collection",
-          "url": "https://newsroom.porsche.com/en/2026/company/porsche-911-carrera-rs-2-7-collection-la-marzocco-43603.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-10-30T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "بورشه ولا مارزوكو تكشفان النقاب عن مجموعة 911 Carrera RS 2.7",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Toyota and Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
           "url": "https://global.toyota/en/newsroom/corporate/44960881.html",
           "source": "toyotaglobal",
@@ -713,6 +648,71 @@
           "official": true,
           "topic": "cars",
           "title_ar": "مجموعة سوبارو تصدر التقرير المتكامل 2026 وشبكة الاستدامة 2026",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Subaru Corporation Announces Production, Japan Sales and Export Results for September 2026 and First Half of FYE 2027",
+          "url": "https://www.subaru.co.jp/news-en/2026_10_29_130029/",
+          "source": "subaru",
+          "source_name": "Subaru",
+          "published_at": "2026-10-29T06:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تعلن شركة سوبارو عن نتائج الإنتاج والمبيعات والتصدير اليابانية لشهر سبتمبر 2026 والنصف الأول من السنة المالية 2027",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Sales, Production, and Export Results for the First Half (April-September) of FY2027",
+          "url": "https://global.toyota/en/company/profile/production-sales-figures/202609.html",
+          "source": "toyotaglobal",
+          "source_name": "Toyota Global",
+          "published_at": "2026-10-29T04:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "نتائج المبيعات والإنتاج والتصدير للنصف الأول (أبريل - سبتمبر) من السنة المالية 2020",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Porsche Engineering and Porsche Digital combine their expertise",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-engineering-digital-combine-expertise-porsche-technologies-43556.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-21T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تجمع بورش إنجنيرنج وبورش ديجيتال بين خبراتهما",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Subaru Launches the “SUBARU Share the Love Event” in Japan",
+          "url": "https://www.subaru.co.jp/news-en/2026_10_21_152116/",
+          "source": "subaru",
+          "source_name": "Subaru",
+          "published_at": "2026-10-21T06:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "سوبارو تطلق \"سوبارو مشاركة حدث الحب\" في اليابان",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "HONDA SHOWCASES MULTIPLE MOBILITY INNOVATIONS AT JAPAN MOBILITY SHOW BIZWEEK AND CEATEC 2026",
+          "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/591488/honda-showcases-multiple-mobility-innovations-at-japan-mobility-show-bizweek-and-ceatec-2026",
+          "source": "honda",
+          "source_name": "Honda",
+          "published_at": "2026-10-19T12:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تعرض هوندا العديد من ابتكارات التنقل في معرض التنقل الياباني BIZWEEK و CEATEC 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
