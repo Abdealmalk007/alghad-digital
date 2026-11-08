@@ -42,6 +42,8 @@ try {
         if ($LASTEXITCODE -ne 0) { throw "Site smoke tests failed" }
         & node (Join-Path $site "tests/editorial-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Editorial data integrity tests failed" }
+        & node (Join-Path $site "tests/industry-news-test.cjs")
+        if ($LASTEXITCODE -ne 0) { throw "Official industry news validation failed" }
         if (Test-Path "C:\Program Files\Google\Chrome\Application\chrome.exe") {
             & node (Join-Path $site "tests/browser-test.cjs")
             if ($LASTEXITCODE -ne 0) { throw "Live Chrome integration tests failed" }
@@ -73,10 +75,11 @@ try {
         "assets/downloads.js", "assets/downloads-ui.js", "assets/downloads.css",
         "assets/v3_3.js", "assets/v3_3.css", "assets/v3_4.js", "assets/v3_4.css", "assets/editorial.js", "assets/editorial.css", "assets/seo-pages.css", "assets/seo-home.css",
         "assets/news.json", "assets/news-data.js", "assets/tools.json", "assets/tools-data.js",
-        "scripts/update_news.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
+        "assets/industry-news.json", "assets/industry-news-data.js", "assets/industry-news.js", "assets/industry-news.css",
+        "scripts/update_news.py", "scripts/update_industry_news.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
         "scripts/generate_social_preview.py", "assets/social/alghad-digital.png",
         ".github/workflows/update-tech-news.yml", ".well-known/security.txt",
-        "tests/smoke-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "CHANGELOG.md"
+        "tests/smoke-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "CHANGELOG.md"
     )
     $previewFiles = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\previews") -File -Filter "*.svg" | ForEach-Object { "assets/previews/" + $_.Name })
     if ($previewFiles.Count -ne 10) { throw "Expected exactly 10 public program illustrations before publication." }
@@ -88,9 +91,9 @@ try {
         Get-ChildItem -LiteralPath (Join-Path $site "programs") -Recurse -File -Filter "index.html" |
         ForEach-Object { $_.FullName.Substring($site.Length + 1).Replace("\", "/") }
     )
-    $seoPages += @("news/index.html", "free-windows-tools/index.html")
-    if ($seoPages.Count -ne 13) {
-        throw "Expected 13 searchable directory and program pages."
+    $seoPages += @("news/index.html", "free-windows-tools/index.html", "ai-news/index.html", "tech-companies/index.html", "cars/index.html")
+    if ($seoPages.Count -ne 16) {
+        throw "Expected 16 searchable directory, program and news pages."
     }
     $safeFiles += $seoPages
     & git add -- $safeFiles

@@ -11,7 +11,7 @@ BASE="https://alghad.digital"
 ns={"s":"http://www.sitemaps.org/schemas/sitemap/0.9"}
 root=ET.parse(ROOT/"sitemap.xml").getroot()
 urls=[x.text for x in root.findall("s:url/s:loc",ns)]
-assert len(urls)==14,urls
+assert len(urls)==17,urls
 assert len(set(urls))==len(urls)
 assert urls[0]==BASE+"/"
 assert all(urlsplit(url).scheme=="https" and urlsplit(url).netloc=="alghad.digital" for url in urls)
@@ -43,6 +43,9 @@ for url in urls:
 text="\n".join(all_pages)
 assert "الغد ديجتال" in all_pages[0]
 assert "Download Anything PRO" in text and "Kitchen CAD Pro" in text
+for slug in ("ai-news","tech-companies","cars"):
+    assert BASE+"/"+slug+"/" in urls,slug
+    assert (ROOT/slug/"index.html").is_file(),slug
 assert "ProTech HR" in text and "ProTech Stone Manager" in text
 assert "Everything" in text and "Microsoft PowerToys" in text
 assert "التقنية" in text

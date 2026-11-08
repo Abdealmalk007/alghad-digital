@@ -105,3 +105,13 @@
 - Static schema avoids invented reviews, star ratings, downloads or software prices.
 - Kept social-media handles unlinked until confirmed; registration statuses are stored privately outside the public repository.
 - Verified the publicly accessible property and Google HTML ownership token. The Search Console Sitemaps report still requires the owner to submit sitemap.xml in the correct property.
+
+## v3.8.0 — Official AI, major-company and automotive news
+- Three official-news editorial sections: artificial intelligence, technology companies, cars.
+- 54 dated headlines initially (18 per topic) from publishers' public official RSS sources.
+- Direct official feeds include OpenAI, Google, NVIDIA, AMD, Apple, Samsung, Microsoft, Toyota, Honda, Porsche and Subaru.
+- Official site directory links include Claude / Anthropic, DeepSeek, Huawei, Tesla, BMW, Mercedes-Benz, Hyundai and Kia where no verified public RSS was available. These links must NOT be described as automated feeds.
+- The daily GitHub Actions job fetches official feeds, rejects unsafe links, checks article dates and counts, regenerates three static SEO pages, and publishes only after validation. It retains the prior snapshot if a section has too little trustworthy information.
+- Publication uses ONLY official original-language headlines and links, with publisher attribution. It does not reproduce full articles, photographs, or claim independent reporting.
+- New indexable pages: /ai-news/, /tech-companies/, /cars/. Sitemap now has 17 URLs.
+- The user's previously approved ProTech programs (10) and excluded apps remain unchanged.

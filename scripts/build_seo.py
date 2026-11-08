@@ -244,6 +244,57 @@ def render_news(news: dict) -> None:
         canonical=DOMAIN+"/news/",content=text,schema=schema), encoding="utf-8", newline="\n")
 
 
+def render_industry(data: dict, topic: str) -> None:
+    mapping={
+      "ai":("ai-news","أخبار الذكاء الاصطناعي الرسمية","ChatGPT وOpenAI وClaude وDeepSeek وGemini",
+            "أخبار الذكاء الاصطناعي من OpenAI وGoogle وغيرها، مع روابط المصدر الرسمي وتاريخ نشر الخبر."),
+      "companies":("tech-companies","أخبار الشركات التقنية الكبرى","NVIDIA وAMD وApple وSamsung وHuawei",
+            "أحدث أخبار شركات NVIDIA وAMD وApple وSamsung وGoogle وMicrosoft، وأخبار الشركات من مصادرها الرسمية."),
+      "cars":("cars","أخبار السيارات والتقنيات الحديثة","Toyota وHonda وPorsche وSubaru",
+            "عناوين أخبار السيارات الجديدة والكهربائية والقيادة الذكية من المواقع الرسمية لشركات السيارات.")
+    }
+    slug,title,brands,description=mapping[topic]
+    canonical=DOMAIN+"/"+slug+"/"
+    content_data=data["topics"][topic]
+    news=[]
+    for item in content_data["articles"][:18]:
+        link=item["url"]
+        assert link.startswith("https://") and item["official"] is True
+        news.append(
+            '<article class="directory-card news-article">'
+            '<span>'+esc(item["source_name"])+" · "+esc(item["published_at"][:10])+" · رسمي</span>"
+            '<h2><a lang="en" dir="auto" target="_blank" rel="noopener noreferrer" href="'+esc(link)+'">'
+            +esc(item["title"])+" ↗</a></h2></article>"
+        )
+    sites=[]
+    for source in data["sources"]:
+        if topic not in source["topics"]:continue
+        text=source["name"]+("" if source["feed_available"] else " (رابط متابعة فقط)")
+        sites.append('<a href="'+esc(source["url"])+'" target="_blank" rel="noopener noreferrer">'+esc(text)+" ↗</a>")
+    body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / {esc(title)}</div>
+      <span class="eyebrow">OFFICIAL NEWSROOM HEADLINES / ALGHAD DIGITAL</span>
+      <h1>{esc(title)}</h1>
+      <p class="hero-desc">{esc(description)} نحتفظ بالعناوين بلغتها الأصلية؛ قراءة التفاصيل تتم عبر موقع الناشر.</p>
+      <p class="updated">آخر فحص للخلاصات: {esc(data["generated_at"][:16].replace("T"," "))} UTC</p>
+      <div class="directory-grid news-grid">{''.join(news) if news else '<p>لا تتوفر أخبار حديثة مؤكدة لهذا القسم حاليًا.</p>'}</div>
+      <section class="more"><h2>غرف الأخبار والمصادر الرسمية</h2>
+      <p>المصادر التي لا تتوفر منها تغذية RSS معتمدة تظهر كرابط متابعة، دون اختلاق أخبار أو نسبها إلى الشركة.</p>
+      <nav class="industry-static-source-list" aria-label="روابط المصادر الرسمية">{' '.join(sites)}</nav></section>
+      <section class="more"><h2>أقسام إخبارية أخرى</h2>
+      <p><a href="../ai-news/">أخبار الذكاء الاصطناعي</a> · <a href="../tech-companies/">أخبار الشركات التقنية</a> ·
+      <a href="../cars/">أخبار السيارات</a> · <a href="../news/">الأخبار التقنية العربية</a></p></section>
+    """
+    schema={"@context":"https://schema.org","@type":"CollectionPage",
+        "name":title,"description":description,
+        "url":canonical,"inLanguage":"ar"}
+    out=ROOT/slug/"index.html"
+    out.parent.mkdir(parents=True,exist_ok=True)
+    out.write_text(page(title=title+" | الغد ديجتال — Alghad Digital",
+        description=description+" "+brands,
+        canonical=canonical,content=body,schema=schema),
+        encoding="utf-8",newline="\n")
+
+
 def render_tools(tools: dict) -> None:
     items = []
     for tool in tools.get("items", [])[:20]:
@@ -311,7 +362,7 @@ def update_home(products: list) -> None:
         <nav class="seo-directory-links" aria-label="صفحات برامج ProTech">
           {cards}
         </nav>
-        <div class="seo-directory-extras"><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="free-windows-tools/">برامج Windows المجانية</a></div>
+        <div class="seo-directory-extras"><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="ai-news/">أخبار الذكاء الاصطناعي</a><a href="tech-companies/">أخبار الشركات</a><a href="cars/">أخبار السيارات</a><a href="free-windows-tools/">برامج Windows المجانية</a></div>
       </div>
     </section>
 <!-- SEO DIRECTORY END -->"""
@@ -339,7 +390,7 @@ def update_home(products: list) -> None:
 
 
 def update_sitemap(products: list) -> None:
-    urls=["/","/programs/","/news/","/free-windows-tools/"]+[
+    urls=["/","/programs/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/"]+[
         "/programs/"+p["id"]+"/" for p in products]
     ns="http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("",ns)
@@ -360,15 +411,18 @@ def main() -> None:
     downloads=read_javascript_data("assets/downloads.js","AL_GHAD_DOWNLOADS")
     news=read_json("assets/news.json")
     tools=read_json("assets/tools.json")
+    industry=read_json("assets/industry-news.json")
     assert len(products)==10 and len(set(x["id"] for x in products))==10
     assert not {"recorder","omar","reem"} & {x["id"] for x in products}
     for product in products:render_product(product,downloads)
     render_catalog(products)
     render_news(news)
+    for topic in ("ai","companies","cars"):
+        render_industry(industry,topic)
     render_tools(tools)
     update_home(products)
     update_sitemap(products)
-    print("SEO_PAGES="+str(3+len(products))+" PROGRAMS="+str(len(products)))
+    print("SEO_PAGES="+str(6+len(products))+" PROGRAMS="+str(len(products)))
 
 
 if __name__=="__main__":

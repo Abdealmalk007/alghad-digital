@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="assets/v3_3.css">
   <link rel="stylesheet" href="assets/v3_4.css">
   <link rel="stylesheet" href="assets/editorial.css">
+  <link rel="stylesheet" href="assets/industry-news.css">
   <link rel="stylesheet" href="assets/seo-home.css">
   <title>الغد ديجتال | Alghad Digital — برامج Windows وAndroid وأخبار التقنية</title>
   <script defer src="assets/products.js?v=3.4.0"></script>
@@ -40,6 +41,8 @@
   <script defer src="assets/news-data.js"></script>
   <script defer src="assets/tools-data.js"></script>
   <script defer src="assets/editorial.js"></script>
+  <script defer src="assets/industry-news-data.js"></script>
+  <script defer src="assets/industry-news.js"></script>
 <!-- SEO JSONLD START --><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"الغد ديجتال — Alghad Digital","alternateName":["الغد الرقمي","Alghad Digital","ProTech"],"url":"https://alghad.digital/","email":"protech.2025.2026@gmail.com","sameAs":["https://github.com/Abdealmalk007"]},{"@type":"WebSite","name":"الغد ديجتال | Alghad Digital","inLanguage":"ar","url":"https://alghad.digital/","description":"برامج تقنية وأخبار تكنولوجيا عربية وأدوات Windows"}]}</script><!-- SEO JSONLD END -->
 <!-- SOCIAL PREVIEW START -->
   <meta property="og:image" content="https://alghad.digital/assets/social/alghad-digital.png">
@@ -158,6 +161,100 @@
           <h3>مواقع الأخبار التقنية ومصادر المتابعة</h3>
           <div id="news-source-links" class="editorial-sources" aria-label="المصادر الرسمية للأخبار"></div>
           <p>بعض المصادر تُعرض كرابط متابعة فقط إذا لم تسمح بخلاصة RSS متاحة. جميع الحقوق والعناوين محفوظة لناشريها، وقراءة الخبر الكامل تتم عبر موقع الناشر.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="industry-news-section industry-ai" id="ai-news" data-industry-topic="ai" aria-labelledby="ai-news-title">
+      <div class="shell">
+        <nav class="industry-topic-switcher" aria-label="أقسام الأخبار المتخصصة">
+  <a href="#ai-news">الذكاء الاصطناعي</a>
+  <a href="#tech-companies">الشركات التقنية</a>
+  <a href="#car-news">أخبار السيارات</a>
+</nav>
+        <div class="industry-news-intro">
+          <div>
+            <span class="editorial-kicker">OFFICIAL ARTIFICIAL INTELLIGENCE NEWS</span>
+            <h2 id="ai-news-title">أخبار <em>الذكاء الاصطناعي</em></h2>
+            <p>ChatGPT وOpenAI وGemini وClaude وDeepSeek وأحدث النماذج. تُجلب العناوين تلقائيًا من الخلاصات الرسمية المتاحة؛ وللشركات التي لا توفر خلاصة متحقَّقًا منها نعرض رابط غرفة أخبارها الرسمية فقط.</p>
+          </div>
+          <div class="industry-news-status" aria-live="polite">
+            <span class="editorial-live">أخبار رسمية</span>
+            <strong data-industry-count>التحقق من العناوين...</strong>
+            <span data-industry-updated>عرض آخر فحص للمصادر</span>
+          </div>
+        </div>
+        <div class="industry-list" data-industry-list aria-live="polite">
+          <p class="industry-empty">جارٍ تحميل العناوين من الأرشيف الإخباري اليومي...</p>
+        </div>
+        <div class="industry-footer">
+          <button type="button" class="industry-more" data-industry-more hidden>عرض المزيد من الأخبار</button>
+          <a class="industry-page-link" href="ai-news/">جميع الأخبار والروابط الرسمية لهذا القسم ↗</a>
+        </div>
+        <div class="industry-sources">
+          <h3>غرف الأخبار والمصادر الرسمية</h3>
+          <div class="industry-source-list" data-industry-sources></div>
+          <p class="industry-legal">المصادر ذات الإطار المتقطع روابط متابعة رسمية فقط، ولا تعني وجود تغذية آلية مؤكدة. العناوين تُعرض بلغتها الأصلية؛ الحقوق والمقالات الكاملة لناشريها.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="industry-news-section industry-companies" id="tech-companies" data-industry-topic="companies" aria-labelledby="tech-companies-title">
+      <div class="shell">
+
+        <div class="industry-news-intro">
+          <div>
+            <span class="editorial-kicker">TECHNOLOGY LEADERS / OFFICIAL NEWS</span>
+            <h2 id="tech-companies-title">أخبار <em>شركات التقنية الكبرى</em></h2>
+            <p>NVIDIA وAMD وApple وSamsung وMicrosoft وGoogle وHuawei وغيرها، مع تاريخ النشر الحقيقي ورابط البيان أو الخبر الأصلي.</p>
+          </div>
+          <div class="industry-news-status" aria-live="polite">
+            <span class="editorial-live">أخبار رسمية</span>
+            <strong data-industry-count>التحقق من العناوين...</strong>
+            <span data-industry-updated>عرض آخر فحص للمصادر</span>
+          </div>
+        </div>
+        <div class="industry-list" data-industry-list aria-live="polite">
+          <p class="industry-empty">جارٍ تحميل العناوين من الأرشيف الإخباري اليومي...</p>
+        </div>
+        <div class="industry-footer">
+          <button type="button" class="industry-more" data-industry-more hidden>عرض المزيد من الأخبار</button>
+          <a class="industry-page-link" href="tech-companies/">جميع الأخبار والروابط الرسمية لهذا القسم ↗</a>
+        </div>
+        <div class="industry-sources">
+          <h3>غرف الأخبار والمصادر الرسمية</h3>
+          <div class="industry-source-list" data-industry-sources></div>
+          <p class="industry-legal">المصادر ذات الإطار المتقطع روابط متابعة رسمية فقط، ولا تعني وجود تغذية آلية مؤكدة. العناوين تُعرض بلغتها الأصلية؛ الحقوق والمقالات الكاملة لناشريها.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="industry-news-section industry-cars" id="car-news" data-industry-topic="cars" aria-labelledby="car-news-title">
+      <div class="shell">
+
+        <div class="industry-news-intro">
+          <div>
+            <span class="editorial-kicker">AUTO INDUSTRY / OFFICIAL NEWSROOMS</span>
+            <h2 id="car-news-title">أخبار <em>السيارات والتقنيات الحديثة</em></h2>
+            <p>السيارات الجديدة والكهربائية والقيادة الذكية من Toyota وHonda وPorsche وSubaru، وروابط غرف أخبار Tesla وBMW والشركات الأخرى.</p>
+          </div>
+          <div class="industry-news-status" aria-live="polite">
+            <span class="editorial-live">أخبار رسمية</span>
+            <strong data-industry-count>التحقق من العناوين...</strong>
+            <span data-industry-updated>عرض آخر فحص للمصادر</span>
+          </div>
+        </div>
+        <div class="industry-list" data-industry-list aria-live="polite">
+          <p class="industry-empty">جارٍ تحميل العناوين من الأرشيف الإخباري اليومي...</p>
+        </div>
+        <div class="industry-footer">
+          <button type="button" class="industry-more" data-industry-more hidden>عرض المزيد من الأخبار</button>
+          <a class="industry-page-link" href="cars/">جميع الأخبار والروابط الرسمية لهذا القسم ↗</a>
+        </div>
+        <div class="industry-sources">
+          <h3>غرف الأخبار والمصادر الرسمية</h3>
+          <div class="industry-source-list" data-industry-sources></div>
+          <p class="industry-legal">المصادر ذات الإطار المتقطع روابط متابعة رسمية فقط، ولا تعني وجود تغذية آلية مؤكدة. العناوين تُعرض بلغتها الأصلية؛ الحقوق والمقالات الكاملة لناشريها.</p>
         </div>
       </div>
     </section>
@@ -342,7 +439,7 @@
         <nav class="seo-directory-links" aria-label="صفحات برامج ProTech">
           <a href="programs/stone/">ProTech Stone Manager</a><a href="programs/marble/">Marble Delivery Pro</a><a href="programs/reports/">Daily Work Reports</a><a href="programs/hr/">ProTech HR</a><a href="programs/kitchen/">Kitchen CAD Pro</a><a href="programs/download/">Download Anything PRO</a><a href="programs/care/">ProTech Windows Care</a><a href="programs/porcelain/">Porcelain Manager</a><a href="programs/quotes/">Quotes &amp; Contracts</a><a href="programs/tv/">TV Clean Launcher</a>
         </nav>
-        <div class="seo-directory-extras"><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="free-windows-tools/">برامج Windows المجانية</a></div>
+        <div class="seo-directory-extras"><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="ai-news/">أخبار الذكاء الاصطناعي</a><a href="tech-companies/">أخبار الشركات</a><a href="cars/">أخبار السيارات</a><a href="free-windows-tools/">برامج Windows المجانية</a></div>
       </div>
     </section>
 <!-- SEO DIRECTORY END -->

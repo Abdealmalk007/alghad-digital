@@ -1,0 +1,49 @@
+/* Alghad Digital v3.8: three editorial zones sourced from official publisher feeds. */
+.industry-news-section{padding:82px 0 87px;border-top:1px solid var(--line);scroll-margin-top:90px;position:relative;overflow:hidden}
+.industry-news-section:before{content:"";position:absolute;top:0;inset-inline-start:12%;width:60%;height:1px;background:linear-gradient(90deg,transparent,var(--teal),transparent);opacity:.5}
+.industry-news-section.industry-ai{background:radial-gradient(ellipse at 87% 0%,#11d8a31b,transparent 50%),var(--bg)}
+.industry-news-section.industry-companies{background:radial-gradient(ellipse at 5% 15%,#4b9de327,transparent 42%),var(--bg-2)}
+.industry-news-section.industry-cars{background:radial-gradient(ellipse at 90% 20%,#f1aa5623,transparent 48%),var(--bg)}
+.industry-news-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:25px}
+.industry-news-intro h2{font-size:clamp(29px,3.6vw,46px);line-height:1.35;font-weight:900;letter-spacing:-1px;margin:11px 0 9px;color:var(--text);text-wrap:balance}
+.industry-news-intro h2 em{color:var(--teal);font-style:normal}
+.industry-companies .industry-news-intro h2 em{color:#86bfff}
+.industry-cars .industry-news-intro h2 em{color:#ffcb8a}
+.industry-news-intro p{max-width:720px;color:var(--sub);font-size:13px;line-height:2;margin:0}
+.industry-news-status{display:flex;flex-direction:column;gap:9px;align-items:flex-end;color:var(--sub);font-size:11px}
+.industry-news-status strong{font-size:12px;color:var(--text)}
+.industry-topic-switcher{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 32px;padding:12px;border:1px solid var(--line);border-radius:17px;background:var(--panel)}
+.industry-topic-switcher a{font-size:12px;min-height:38px;display:flex;align-items:center;gap:7px;padding:7px 14px;border:1px solid var(--line);border-radius:10px;color:var(--text);text-decoration:none;font-weight:850;background:var(--bg);transition:background .2s,border-color .2s}
+.industry-topic-switcher a:hover{border-color:var(--teal);background:color-mix(in srgb,var(--teal) 12%,var(--panel))}
+.industry-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.industry-story{display:flex;flex-direction:column;min-width:0;position:relative;border:1px solid var(--line);border-radius:18px;padding:23px;background:linear-gradient(145deg,color-mix(in srgb,var(--panel) 91%,var(--teal)),var(--panel));box-shadow:0 12px 35px #0001;transition:transform .2s,border-color .2s}
+.industry-story:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--teal) 44%,var(--line))}
+.industry-story-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:10px;line-height:1.7;margin-bottom:14px}
+.industry-story-counter{color:var(--teal);font-weight:850;direction:ltr;letter-spacing:1px}
+.industry-story-source{color:var(--text);font-weight:800}
+.industry-verified{margin-inline-start:auto;background:color-mix(in srgb,var(--teal) 12%,var(--panel));color:var(--teal);padding:3px 8px;border-radius:30px;font-size:9px;font-weight:800;border:1px solid color-mix(in srgb,var(--teal) 29%,var(--line))}
+.industry-story-title{font-size:clamp(15px,1.7vw,19px);font-weight:850;line-height:1.78;margin:0 0 23px;flex:1;overflow-wrap:anywhere}
+.industry-title-link{color:var(--text);text-decoration:none}
+.industry-title-link:hover{color:var(--teal)}
+.industry-title-link[lang=en]{font-family:"Segoe UI",Arial,sans-serif;letter-spacing:-.15px;display:block;direction:ltr;text-align:start;unicode-bidi:plaintext}
+.industry-story-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:1px solid var(--line);padding-top:14px;font-size:11px}
+.industry-time{color:var(--sub);font-variant-numeric:tabular-nums}
+.industry-story-link{color:var(--teal);font-weight:850;text-decoration:none}
+.industry-story-link:hover{text-decoration:underline}
+.industry-footer{margin-top:21px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.industry-more{cursor:pointer;min-height:41px;padding:9px 20px;border-radius:11px;background:color-mix(in srgb,var(--teal) 13%,var(--panel));color:var(--teal);border:1px solid color-mix(in srgb,var(--teal) 41%,var(--line));font:850 12px/1.7 inherit}
+.industry-more:hover{background:color-mix(in srgb,var(--teal) 23%,var(--panel))}
+.industry-more[hidden]{display:none}
+.industry-page-link{color:var(--teal);font-size:12px;font-weight:850}
+.industry-sources{margin-top:23px;border:1px solid var(--line);border-radius:17px;background:color-mix(in srgb,var(--panel) 82%,transparent);padding:19px 20px}
+.industry-sources h3{color:var(--text);font-size:13px;font-weight:850;margin:0 0 14px}
+.industry-source-list{display:flex;gap:8px;flex-wrap:wrap}
+.industry-source-link{color:var(--text);border-radius:99px;border:1px solid var(--line);text-decoration:none;font-size:11px;font-weight:750;padding:7px 12px;background:var(--bg)}
+.industry-source-link:hover{border-color:var(--teal);color:var(--teal)}
+.industry-source-link.is-directory-only{border-style:dashed;color:var(--sub)}
+.industry-legal{font-size:11px;line-height:2;color:var(--sub);margin:14px 0 0}
+.industry-empty{padding:32px 20px;border:1px dashed var(--line);border-radius:15px;color:var(--sub);background:var(--panel);grid-column:1/-1;line-height:2}
+.industry-news-section a:focus-visible,.industry-more:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+@media(max-width:1050px){.industry-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.industry-news-section{padding:62px 0 68px}.industry-list{grid-template-columns:1fr}.industry-news-status{align-items:flex-start}.industry-story{padding:19px}.industry-news-intro h2{font-size:32px}.industry-topic-switcher{padding:10px;gap:8px}.industry-topic-switcher a{font-size:11px;padding:7px 10px}.industry-sources{padding:18px}}
+@media(prefers-reduced-motion:reduce){.industry-story,.industry-topic-switcher a{transition:none}.industry-story:hover{transform:none}}

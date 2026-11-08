@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.8.0 — 2026-11-08
+- Added three daily updated official news sections for AI, major technology companies and vehicles.
+- Aggregated 54 recent dated official headlines; original titles and links are preserved.
+- Added official source directory for providers without a verified RSS feed.
+- Added strict URL/date checks and daily GitHub Actions refresh for the new sections.
+- Generated three new indexable static category pages; sitemap expanded to 17 URLs.
+- Preserved existing apps, downloads, Google ownership verification and security settings.
+
+
 ## v3.7.0 — 2026-11-08
 - Added original Open Graph link-preview artwork and Twitter Card metadata.
 - Added accurate BreadcrumbList schema to 13 static landing pages.

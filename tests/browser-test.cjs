@@ -112,6 +112,21 @@ async function main() {
     assert.equal(editorialCounts.tools,8,"All eight free Windows tools should be displayed");
     assert.ok(editorialCounts.sources>=10,"Official news source directory");
     assert.ok(editorialCounts.headlineCount>=5);
+    const industry=await evaluate('([...document.querySelectorAll("[data-industry-topic]")].map(root=>({topic:root.dataset.industryTopic,cards:root.querySelectorAll(".industry-story").length,sources:root.querySelectorAll(".industry-source-link").length,headlines:window.AL_GHAD_INDUSTRY_NEWS?.topics?.[root.dataset.industryTopic]?.articles.length,firstUrl:root.querySelector(".industry-title-link")?.href})))');
+    assert.equal(industry.length,3,"Three dedicated industry news sections");
+    assert.deepEqual(industry.map(x=>x.topic),["ai","companies","cars"]);
+    for(const group of industry){
+      assert.equal(group.cards,6,group.topic+" initial cards");
+      assert.ok(group.headlines>=6,group.topic+" complete official snapshot");
+      assert.ok(group.sources>=4,group.topic+" official newsroom links");
+      assert.ok(group.firstUrl.startsWith("https://"),group.topic+" safe link");
+    }
+    await evaluate('document.querySelector("#ai-news [data-industry-more]").click()');
+    assert.equal(await evaluate('document.querySelectorAll("#ai-news .industry-story").length'),12);
+    const sourceOnly=await evaluate('([...document.querySelectorAll(".industry-source-link.is-directory-only")].map(a=>a.href))');
+    assert.ok(sourceOnly.some(u=>u.includes("anthropic.com/news")));
+    assert.ok(sourceOnly.some(u=>u.includes("deepseek.com")));
+    assert.ok(sourceOnly.some(u=>u.includes("huawei.com")));
     const badNewsLinks=await evaluate('([...document.querySelectorAll(".editorial-headline-link")].filter(a=>a.protocol!=="https:").length)');
     assert.equal(badNewsLinks,0,"All article links should use HTTPS");
     const badVendorLinks=await evaluate('([...document.querySelectorAll(".windows-tool-button")].filter(a=>a.protocol!=="https:").length)');
@@ -262,9 +277,18 @@ async function main() {
       assert.ok(value.contactLeft>=-2 && value.contactRight<=width+2,"Contact clipping at "+width+"px");
       viewports.push(value);
     }
+    for(const [section,file] of [["ai-news","industry-ai-mobile-v38.png"],["tech-companies","industry-companies-mobile-v38.png"],["car-news","industry-cars-mobile-v38.png"]]){
+      await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
+      await evaluate('document.getElementById("'+section+'").scrollIntoView({behavior:"instant"})');
+      await delay(270);
+      const metrics=await evaluate('({width:document.documentElement.scrollWidth,viewport:innerWidth})');
+      assert.ok(metrics.width<=392,section+" mobile horizontal overflow");
+      const snap=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+      fs.writeFileSync(path.join(qaDir,file),Buffer.from(snap.data,"base64"));
+    }
     const seoPages=[];
     await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
-    for(const target of ["/programs/download/","/programs/kitchen/","/news/","/free-windows-tools/"]){
+    for(const target of ["/programs/download/","/programs/kitchen/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/"]){
       await send("Page.navigate",{url:new URL(target,fileUrl).href});
       let value;
       for(let i=0;i<50;i++){
@@ -284,7 +308,7 @@ async function main() {
       }
     }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={seoPages,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={seoPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {

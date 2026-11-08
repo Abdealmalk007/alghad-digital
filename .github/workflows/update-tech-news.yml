@@ -1,4 +1,4 @@
-name: Refresh Arabic Tech Headlines
+name: Refresh Arabic and Official Technology News
 on:
   workflow_dispatch:
   schedule:
@@ -31,12 +31,15 @@ jobs:
           node-version: "22"
       - name: Collect and verify public RSS headlines
         run: python scripts/update_news.py
+      - name: Fetch original news releases from official technology and car makers
+        run: python scripts/update_industry_news.py
       - name: Rebuild canonical pages and sitemap
         run: python scripts/build_seo.py
       - name: Verify indexable pages and editorial integrity
         run: |
           python scripts/test_seo.py
           node tests/editorial-test.cjs
+          node tests/industry-news-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'
@@ -52,10 +55,12 @@ jobs:
           git config user.name "alghad-news-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- assets/news.json assets/news-data.js news/index.html sitemap.xml
+          git add -- assets/industry-news.json assets/industry-news-data.js
+          git add -- ai-news/index.html tech-companies/index.html cars/index.html
           if git diff --cached --quiet; then
             echo "News snapshot unchanged."
             exit 0
           fi
-          git commit -m "content: refresh attributed Arabic technology headlines"
+          git commit -m "content: daily refresh Arabic, AI, tech-company and automotive news"
           git pull --rebase origin main
           git push origin HEAD:main
