@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "everything",
+      "name": "Everything",
+      "english": "EVERYTHING",
+      "category": "بحث وملفات",
+      "license": "مجاني",
+      "url": "https://www.voidtools.com/downloads/",
+      "description": "محرك بحث فوري عن الملفات والمجلدات في Windows، مع تصفية النتائج بسرعة وبواجهة خفيفة.",
+      "features": [
+        "فهرسة سريعة لأسماء الملفات",
+        "بحث متقدم وفلاتر",
+        "استهلاك منخفض للموارد"
+      ],
+      "image": "assets/tools/everything.svg"
+    },
+    {
+      "id": "ventoy",
+      "name": "Ventoy",
+      "english": "VENTOY",
+      "category": "USB وأنظمة",
+      "license": "مفتوح المصدر",
+      "url": "https://www.ventoy.net/en/download.html",
+      "description": "لإعداد USB متعدد الإقلاع: انسخ ملفات ISO وWIM إلى وحدة واحدة واستخدم قائمة الإقلاع.",
+      "features": [
+        "عدة أنظمة على USB واحد",
+        "إضافة ISO دون إعادة التهيئة كل مرة",
+        "دعم UEFI وLegacy"
+      ],
+      "image": "assets/tools/ventoy.svg"
+    },
+    {
+      "id": "rufus",
+      "name": "Rufus",
+      "english": "RUFUS",
+      "category": "USB وأنظمة",
+      "license": "مفتوح المصدر",
+      "url": "https://rufus.ie/ar/",
+      "description": "أداة صغيرة لإنشاء وسائط USB قابلة للإقلاع لتثبيت Windows أو Linux من صور ISO.",
+      "features": [
+        "إنشاء USB من ISO",
+        "خيارات GPT/MBR وUEFI",
+        "إصدار محمول متاح"
+      ],
+      "image": "assets/tools/rufus.svg"
+    },
+    {
+      "id": "irfanview",
+      "name": "IrfanView",
+      "english": "IRFANVIEW",
+      "category": "صور ووسائط",
+      "license": "مجاني للاستخدام غير التجاري",
+      "url": "https://www.irfanview.com/",
+      "description": "عارض صور سريع وخفيف مع تحرير أساسي وتحويل صيغ ومعالجة مجموعات من الصور.",
+      "features": [
+        "عرض سريع للصيغ الشائعة",
+        "Batch Rename وBatch Convert",
+        "مجاني للاستخدام الشخصي غير التجاري"
+      ],
+      "image": "assets/tools/irfanview.svg"
+    },
+    {
+      "id": "fileconverter",
+      "name": "File Converter",
+      "english": "FILE CONVERTER",
+      "category": "صور ووسائط",
+      "license": "مفتوح المصدر GPL-3.0",
+      "url": "https://file-converter.io/",
+      "description": "تحويل وضغط الملفات من قائمة النقر بالزر الأيمن في File Explorer مع دعم عدة تنسيقات.",
+      "features": [
+        "تكامل مع قائمة Windows",
+        "تحويل صور وصوت وفيديو",
+        "إعدادات تحويل قابلة للتخصيص"
+      ],
+      "image": "assets/tools/fileconverter.svg"
+    },
+    {
+      "id": "vlc",
+      "name": "VLC media player",
+      "english": "VLC MEDIA PLAYER",
+      "category": "صور ووسائط",
+      "license": "مفتوح المصدر",
+      "url": "https://www.videolan.org/vlc/",
+      "description": "مشغّل وسائط متعدد الصيغ للتسجيلات والصوت والفيديو، دون الحاجة إلى حزم ترميز إضافية غالبًا.",
+      "features": [
+        "تشغيل غالبية صيغ الوسائط",
+        "قوائم تشغيل وترجمة",
+        "متاح لعدة أنظمة"
+      ],
+      "image": "assets/tools/vlc.svg"
+    },
+    {
+      "id": "fdm",
+      "name": "Free Download Manager",
+      "english": "FREE DOWNLOAD MANAGER",
+      "category": "إنترنت وإنتاجية",
+      "license": "برنامج مجاني",
+      "url": "https://www.freedownloadmanager.org/",
+      "description": "مدير لتنزيل الملفات مع استكمال التحميل وتنظيم التنزيلات وإدارة سرعة الاتصال.",
+      "features": [
+        "استئناف عمليات التنزيل",
+        "تنظيم قوائم الملفات",
+        "إدارة وتحديد السرعة"
+      ],
+      "image": "assets/tools/fdm.svg"
+    },
+    {
+      "id": "powertoys",
+      "name": "Microsoft PowerToys",
+      "english": "MICROSOFT POWERTOYS",
+      "category": "إنترنت وإنتاجية",
+      "license": "مفتوح المصدر",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "مجموعة أدوات مجانية من Microsoft لرفع إنتاجية Windows مثل إدارة النوافذ وإعادة تسمية الملفات.",
+      "features": [
+        "FancyZones لتنظيم النوافذ",
+        "PowerRename لإعادة التسمية",
+        "PowerToys Run وKeyboard Manager"
+      ],
+      "image": "assets/tools/powertoys.svg"
+    }
+  ]
+}

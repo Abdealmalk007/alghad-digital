@@ -33,6 +33,8 @@ try {
     if (Get-Command node -ErrorAction SilentlyContinue) {
         & node (Join-Path $site "tests/smoke-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Site smoke tests failed" }
+        & node (Join-Path $site "tests/editorial-test.cjs")
+        if ($LASTEXITCODE -ne 0) { throw "Editorial data integrity tests failed" }
     } else {
         Write-Warning "Node is unavailable; static checks were skipped."
     }
@@ -58,12 +60,18 @@ try {
         "assets/products.js", "assets/app.js", "assets/style.css", "assets/v2.css",
         "assets/v3.js", "assets/v3.css", "assets/v3_1.js", "assets/v3_1.css",
         "assets/downloads.js", "assets/downloads-ui.js", "assets/downloads.css",
-        "assets/v3_3.js", "assets/v3_3.css", "assets/v3_4.js", "assets/v3_4.css", ".well-known/security.txt",
-        "tests/smoke-test.cjs", "tests/browser-test.cjs", "CHANGELOG.md"
+        "assets/v3_3.js", "assets/v3_3.css", "assets/v3_4.js", "assets/v3_4.css", "assets/editorial.js", "assets/editorial.css",
+        "assets/news.json", "assets/news-data.js", "assets/tools.json", "assets/tools-data.js",
+        "scripts/update_news.py", "scripts/generate_tool_art.py",
+        ".github/workflows/update-tech-news.yml", ".well-known/security.txt",
+        "tests/smoke-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "CHANGELOG.md"
     )
     $previewFiles = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\previews") -File -Filter "*.svg" | ForEach-Object { "assets/previews/" + $_.Name })
     if ($previewFiles.Count -ne 10) { throw "Expected exactly 10 public program illustrations before publication." }
     $safeFiles += $previewFiles
+    $toolImages = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\tools") -File -Filter "*.svg" | ForEach-Object { "assets/tools/" + $_.Name })
+    if ($toolImages.Count -ne 8) { throw "Expected exactly 8 original Windows utilities illustrations." }
+    $safeFiles += $toolImages
     & git add -- $safeFiles
     if ($LASTEXITCODE -ne 0) { throw "Git add failed" }
     # Track deletion of previously published preview files as well.

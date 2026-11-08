@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.5.0 — 2026-11-08
+- Added Arabic tech news editorial section with filters and original publisher links.
+- Added GitHub Actions news refresh every four hours, subject to repo Actions permission.
+- Added eight free Windows utilities with original SVG images, descriptions and official download URLs.
+- Improved RTL news, mobile layout, source directory and licensing notices.
+- Preserved all ten existing programs, exclusions and release links.
+
+
 ## v3.4.0 — 2026-11-07
 - Removed Call Recorder PRO and its public SVG preview from the website.
 - Reconciled published product counts: 10 entries (5 published repositories, 5 upcoming).

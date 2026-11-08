@@ -78,3 +78,12 @@
 - إزالة Call Recorder PRO نهائيًا من واجهة الموقع والكتالوج والصورة المنشورة (مع الاحتفاظ بنسخة احتياطية محلية خارج موقع النشر).
 - إجمالي الكتالوج الآن: 10 برامج؛ 5 بمستودعات عامة، و5 قادمة قريبًا، مع الاحتفاظ بروابط التحميل الأربعة المتاحة.
 - تحديث العدادات وتحسين تجربة البحث والتنقل للأجهزة الصغيرة.
+
+## v3.5.0 — Tech News + Free Windows Utilities
+- Arabic news section with direct credited news links, Gregorian dates, category filters and source directory.
+- Technology headlines sourced as limited metadata from publishers' RSS, never cloned article bodies or photos.
+- scripts/update_news.py refreshes JSON plus prebuilt JS safely; a GitHub Actions workflow schedules requests every four hours. Actual scheduling depends on repo settings and GitHub queues.
+- Source-only links for Al Arabiya, Asharq and Arageek when feed access is unavailable.
+- Eight Windows utility cards with original vector illustrations, features, license conditions and official vendor download pages.
+- Files: assets/editorial.js, assets/editorial.css, assets/news-data.js, assets/news.json, assets/tools-data.js, assets/tools.json, assets/tools/*.svg.
+- Existing ten ProTech programs, exclusions and direct GitHub release links are preserved.

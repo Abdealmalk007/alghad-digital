@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="رسمة توضيحية لبرنامج FILE CONVERTER">
+ <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#164c53"/><stop offset="1" stop-color="#11283e"/></linearGradient><radialGradient id="r"><stop stop-color="#93f1d7" stop-opacity=".21"/><stop offset="1" stop-color="#93f1d7" stop-opacity="0"/></radialGradient></defs>
+ <rect width="960" height="540" fill="url(#g)"/><circle cx="760" cy="105" r="320" fill="url(#r)"/>
+ <g stroke="#93f1d7" opacity=".12" stroke-width="1"><path d="M0 108h960M0 216h960M0 324h960M0 432h960M160 0v540M320 0v540M480 0v540M640 0v540M800 0v540"/></g>
+ <rect x="260" y="72" width="410" height="356" rx="50" fill="#071420" fill-opacity=".26" stroke="#93f1d7" stroke-opacity=".28"/>
+ <g fill="none" stroke="#93f1d7" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"><rect x="334" y="153" width="127" height="183" rx="15"/><rect x="510" y="153" width="127" height="183" rx="15"/><path d="M442 198h100l-31-30m31 30-31 31M531 294H431l30 30m-30-30 30-30"/></g>
+ <text x="56" y="474" fill="#f0fafc" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="4">FILE CONVERTER</text>
+ <text x="906" y="475" fill="#93f1d7" font-family="Arial,sans-serif" font-size="12" text-anchor="end" letter-spacing="2">WINDOWS UTILITIES</text>
+ </svg>

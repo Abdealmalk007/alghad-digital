@@ -1,0 +1,51 @@
+name: Refresh Arabic Tech Headlines
+on:
+  workflow_dispatch:
+  schedule:
+    # Every four hours; GitHub schedules may start later than the cron minute.
+    - cron: "23 */4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-arabic-tech-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Check out public website
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect and verify public RSS headlines
+        run: python scripts/update_news.py
+      - name: Validate generated news data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path("assets/news.json").read_text(encoding="utf-8"))
+          assert len(data["articles"]) >= 5
+          assert all(a["url"].startswith("https://") for a in data["articles"])
+          print("Verified",len(data["articles"]),"attributed headlines")
+          PY
+      - name: Commit snapshot when headlines change
+        run: |
+          git config user.name "alghad-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- assets/news.json assets/news-data.js
+          if git diff --cached --quiet; then
+            echo "News snapshot unchanged."
+            exit 0
+          fi
+          git commit -m "content: refresh attributed Arabic technology headlines"
+          git pull --rebase origin main
+          git push origin HEAD:main

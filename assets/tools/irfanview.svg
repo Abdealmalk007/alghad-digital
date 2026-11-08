@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="رسمة توضيحية لبرنامج IRFANVIEW">
+ <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#574365"/><stop offset="1" stop-color="#1a1c34"/></linearGradient><radialGradient id="r"><stop stop-color="#e0b0ff" stop-opacity=".21"/><stop offset="1" stop-color="#e0b0ff" stop-opacity="0"/></radialGradient></defs>
+ <rect width="960" height="540" fill="url(#g)"/><circle cx="760" cy="105" r="320" fill="url(#r)"/>
+ <g stroke="#e0b0ff" opacity=".12" stroke-width="1"><path d="M0 108h960M0 216h960M0 324h960M0 432h960M160 0v540M320 0v540M480 0v540M640 0v540M800 0v540"/></g>
+ <rect x="260" y="72" width="410" height="356" rx="50" fill="#071420" fill-opacity=".26" stroke="#e0b0ff" stroke-opacity=".28"/>
+ <g fill="none" stroke="#e0b0ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"><rect x="329" y="138" width="272" height="228" rx="24"/><circle cx="518" cy="197" r="25"/><path d="M359 328l67-79 54 56 35-36 55 59"/><path d="M350 110h220"/></g>
+ <text x="56" y="474" fill="#f0fafc" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="4">IRFANVIEW</text>
+ <text x="906" y="475" fill="#e0b0ff" font-family="Arial,sans-serif" font-size="12" text-anchor="end" letter-spacing="2">WINDOWS UTILITIES</text>
+ </svg>

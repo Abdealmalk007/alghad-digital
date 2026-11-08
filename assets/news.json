@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-08T05:23:52Z",
+  "articles": [
+    {
+      "title": "تسريب في Claude Code يكشف كلمات مرور ومفاتيح API على GitHub",
+      "url": "https://3arrafni.com/tech-news/claude-code-secrets-leak-github",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-08T05:04:58Z",
+      "category": "الذكاء الاصطناعي"
+    },
+    {
+      "title": "كيف نحمي مستخدمي الإنترنت الجدد من المحتالين الإلكترونيين؟",
+      "url": "https://www.bbc.com/arabic/articles/cm98zzzk4kdlo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-08T04:47:10Z",
+      "category": "البرامج والإنترنت"
+    },
+    {
+      "title": "الكونغرس الأمريكي يطلب إيضاحات من رئيس إنفيديا بشأن مزاعم تجسس صيني",
+      "url": "https://aitnews.com/2026/11/08/%d8%a7%d9%84%d9%83%d9%88%d9%86%d8%ba%d8%b1%d8%b3-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d9%8a%d8%b7%d9%84%d8%a8-%d8%a5%d9%8a%d8%b6%d8%a7%d8%ad%d8%a7%d8%aa-%d9%85%d9%86-%d8%b1%d8%a6%d9%8a/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-08T04:17:39Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "تعطل Live View في Nest Doorbell الأصلي دون إصلاح من Google",
+      "url": "https://3arrafni.com/tech-news/nest-doorbell-live-view-not-working",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-08T04:09:58Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "مزاعم ارتباط جنسن هوانغ بسيدة يُشتبه في تجسسها لصالح الصين!",
+      "url": "https://arabhardware.net/post-55114",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-08T03:23:19Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "الكشف رسميًا عن حجم تحميل GTA 6 وموعد التحميل المسبق على أجهزة Xbox",
+      "url": "https://arabhardware.net/post-55113",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-08T03:08:33Z",
+      "category": "الهواتف والأجهزة"
+    },
+    {
+      "title": "تسريبات تكشف عن لعبة Assassin's Creed جديدة تقع في روما القديمة",
+      "url": "https://arabhardware.net/post-55112",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-08T03:02:51Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "AMD تثير غضب اللاعبين وتتوقع تراجع مبيعات الحواسيب",
+      "url": "https://arabhardware.net/post-55111",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-08T02:55:29Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "إذا انقطعت الكهرباء لـ 72 ساعة أو أكثر.. هل أنت مستعد؟",
+      "url": "https://techvoicearabia.com/how-to-survive-long-term-power-blackout/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-07T20:10:11Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "ماسك يخطط لإطلاق حواسيب عملاقة إلى الفضاء في 2027",
+      "url": "https://techvoicearabia.com/spacex-starmind-orbital-supercomputers-2027/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-07T19:40:31Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "الصين تكشف مذيعين روبوتيين ببشرة بشرية.. هل يدخلان غرف الأخبار؟",
+      "url": "https://techvoicearabia.com/china-xinhua-bionic-humanoid-robot/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-07T19:25:13Z",
+      "category": "الذكاء الاصطناعي"
+    },
+    {
+      "title": "واتساب يمنحك قرار إظهار رقم هاتفك عند استخدام اسم المستخدم",
+      "url": "https://arabhardware.net/post-55109",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-07T15:49:57Z",
+      "category": "الهواتف والأجهزة"
+    },
+    {
+      "title": "Honor 700 Pro يأتي بميزات رصد معدل ضربات القلب والأكسجين في الدم",
+      "url": "https://www.tech-wd.com/wd/2026/11/07/honor-700-pro-%d9%8a%d8%a3%d8%aa%d9%8a-%d8%a8%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%b1%d8%b5%d8%af-%d9%85%d8%b9%d8%af%d9%84-%d8%b6%d8%b1%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d9%84%d8%a8-%d9%88%d8%a7%d9%84/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-07T12:38:40Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "هواوي تجهز لإطلاق ساعة Watch Air فائقة النحافة وهواتف OSTA الأسبوع المقبل",
+      "url": "https://www.tech-wd.com/wd/2026/11/07/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%ac%d9%87%d8%b2-%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%b3%d8%a7%d8%b9%d8%a9-watch-air-%d9%81%d8%a7%d8%a6%d9%82%d8%a9-%d8%a7%d9%84%d9%86%d8%ad%d8%a7%d9%81/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-07T12:34:58Z",
+      "category": "الهواتف والأجهزة"
+    },
+    {
+      "title": "سامسونج تطرح Galaxy Buds On وSmartTag 3",
+      "url": "https://www.tech-wd.com/wd/2026/11/07/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%b7%d8%b1%d8%ad-galaxy-buds-on-%d9%88smarttag-3/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-07T12:23:39Z",
+      "category": "الهواتف والأجهزة"
+    },
+    {
+      "title": "Honor تكشف رسميا عن سلسلة Honor 700 بشاشة خلفية صغيرة وتفتح الحجز",
+      "url": "https://www.tech-wd.com/wd/2026/11/07/honor-%d8%aa%d9%83%d8%b4%d9%81-%d8%b1%d8%b3%d9%85%d9%8a%d8%a7-%d8%b9%d9%86-%d8%b3%d9%84%d8%b3%d9%84%d8%a9-honor-700-%d8%a8%d8%b4%d8%a7%d8%b4%d8%a9-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d8%b5%d8%ba%d9%8a/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-07T12:21:55Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "Huawei Watch Fit 4 تصل بلون وردي جديد مع دعم NFC في الأسواق العالمية",
+      "url": "https://www.tech-wd.com/wd/2026/11/07/huawei-watch-fit-4-%d8%aa%d8%b5%d9%84-%d8%a8%d9%84%d9%88%d9%86-%d9%88%d8%b1%d8%af%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-%d9%85%d8%b9-%d8%af%d8%b9%d9%85-nfc-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d9%88%d8%a7/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-07T12:21:21Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "سيارة BYD YANGWANG U9 Xtreme تسجل سرعة 503.17 كم/ساعة في أبوظبي",
+      "url": "https://aitnews.com/2026/11/07/byd-yangwang-u9-xtreme-503-17-abu-dhabi/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-07T10:15:55Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "تطبيقات iPhone Duo تتجاوز 100 ألف تطبيق مُحسّن فما الذي ينقصها؟",
+      "url": "https://3arrafni.com/tech-news/iphone-duo-optimized-apps",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-07T09:22:28Z",
+      "category": "الهواتف والأجهزة"
+    },
+    {
+      "title": "فتح الطلب المسبق لنظارات Android XR في 12 نوفمبر وإطلاقها ديسمبر",
+      "url": "https://3arrafni.com/tech-news/android-xr-glasses-preorders-november-12-december-launch",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-07T08:27:28Z",
+      "category": "الهواتف والأجهزة"
+    },
+    {
+      "title": "Windows 11 يتيح إدخال PIN فورًا في Windows Hello دون انتظار",
+      "url": "https://3arrafni.com/tech-news/windows-11-windows-hello-pin-sign-in",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-07T07:32:28Z",
+      "category": "البرامج والإنترنت"
+    },
+    {
+      "title": "AIQ تطور Genesis كنظام تشغيل مخصص لوكلاء الذكاء الاصطناعي في قطاع الطاقة",
+      "url": "https://techvoicearabia.com/aiq-genesis-ai-agent-operating-system-energy-sector/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-06T18:52:58Z",
+      "category": "الذكاء الاصطناعي"
+    },
+    {
+      "title": "روبوت داربا يبني أول هيكل في الفضاء.. والهدف منشآت بطول كيلومترات",
+      "url": "https://techvoicearabia.com/darpa-nom4d-robot-first-space-assembly/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-06T18:30:27Z",
+      "category": "الذكاء الاصطناعي"
+    },
+    {
+      "title": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
+      "url": "https://www.bbc.com/arabic/watch/cmlykq5k89djo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-06T07:04:21Z",
+      "category": "الأمن السيبراني"
+    },
+    {
+      "title": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
+      "url": "https://www.bbc.com/arabic/articles/c3j47kvlnnq2o?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-06T06:41:30Z",
+      "category": "الذكاء الاصطناعي"
+    },
+    {
+      "title": "HONOR X9e Pro Puts Everyday Durability at the Centre of Smartphone Value",
+      "url": "https://technologyarabia.com/archives/17854/honor-x9e-pro-everyday-durability-drop-protection/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-05T16:21:53Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "كراودسترايك تطلق سحابة سيادية في السعودية وتستضيف بيانات فالكون محليًا",
+      "url": "https://aitnews.com/2026/11/05/crowdstrike-sovereign-cloud-saudi-arabia/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-05T15:18:09Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "كاسبرسكي: تنامي التعاون بين نشطاء الاختراق ومزودي هجمات DDoS",
+      "url": "https://technologyarabia.com/archives/17851/%d9%83%d8%a7%d8%b3%d8%a8%d8%b1%d8%b3%d9%83%d9%8a-%d8%aa%d9%86%d8%a7%d9%85%d9%8a-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d8%a8%d9%8a%d9%86-%d9%86%d8%b4%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%ae/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-05T12:35:18Z",
+      "category": "الأمن السيبراني"
+    },
+    {
+      "title": "غرفة الشارقة و”المصرف” يوقعان مذكرة تفاهم استراتيجية لتعزيز التعاون في قطاع الأعمال",
+      "url": "https://technologyarabia.com/archives/17848/%d9%85%d8%b0%d9%83%d8%b1%d8%a9-%d8%aa%d9%81%d8%a7%d9%87%d9%85-%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-05T08:41:02Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "Petro Middle East Highlights UAE Manufacturing and Energy Technology at ADIPEC 2026",
+      "url": "https://technologyarabia.com/archives/17844/petro-middle-east-uae-manufacturing-energy-technology-adipec-2026/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-03T10:55:32Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "ألف للتعليم تتعاون مع Soro AI لتقديم حلول ذكاء اصطناعي لأكثر من 250 ألف طالب",
+      "url": "https://technologyarabia.com/archives/17841/alef-education-soro-ai-tajikistan-250000-students/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-03T08:55:54Z",
+      "category": "الذكاء الاصطناعي"
+    },
+    {
+      "title": "أدوبي تطوّر وكيلًا ذكيًا لتحرير الصور مثل خبراء فوتوشوب",
+      "url": "https://aitnews.com/2026/11/03/%d8%a3%d8%af%d9%88%d8%a8%d9%8a-%d8%aa%d8%b7%d9%88%d9%91%d8%b1-%d9%88%d9%83%d9%8a%d9%84%d9%8b%d8%a7-%d8%b0%d9%83%d9%8a%d9%8b%d8%a7-%d9%84%d8%aa%d8%ad%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%b5%d9%88%d8%b1/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-02T23:10:00Z",
+      "category": "أخبار التقنية"
+    },
+    {
+      "title": "هجمات سيبرانية تستهدف ثلاجات المتاجر الكُبرى في دول أوروبية",
+      "url": "https://aitnews.com/2026/11/02/%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%b3%d9%8a%d8%a8%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%ab%d9%84%d8%a7%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%ac%d8%b1/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-02T18:08:27Z",
+      "category": "الأمن السيبراني"
+    },
+    {
+      "title": "روبوت بلا أقدام لخدمة رواد الفضاء.. كيف؟",
+      "url": "https://www.bbc.com/arabic/watch/c5398evl9227o?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-02T16:06:09Z",
+      "category": "الذكاء الاصطناعي"
+    }
+  ],
+  "sources": [
+    {
+      "id": "aitnews",
+      "name": "البوابة التقنية",
+      "url": "https://aitnews.com/",
+      "active": true
+    },
+    {
+      "id": "techwd",
+      "name": "عالم التقنية",
+      "url": "https://www.tech-wd.com/wd/",
+      "active": true
+    },
+    {
+      "id": "hardware",
+      "name": "عرب هاردوير",
+      "url": "https://arabhardware.net/",
+      "active": true
+    },
+    {
+      "id": "techvoice",
+      "name": "تيك فويس عربية",
+      "url": "https://techvoicearabia.com/",
+      "active": true
+    },
+    {
+      "id": "technologyarabia",
+      "name": "مجلة التقنية العربية",
+      "url": "https://technologyarabia.com/",
+      "active": true
+    },
+    {
+      "id": "arrafni",
+      "name": "عرفني دوت كوم",
+      "url": "https://3arrafni.com/",
+      "active": true
+    },
+    {
+      "id": "almohtraf",
+      "name": "مدونة المحترف",
+      "url": "https://www.th3professional.com/",
+      "active": false
+    },
+    {
+      "id": "aljazeera",
+      "name": "الجزيرة نت",
+      "url": "https://www.aljazeera.net/",
+      "active": false
+    },
+    {
+      "id": "bbc",
+      "name": "BBC عربي",
+      "url": "https://www.bbc.com/arabic",
+      "active": true
+    },
+    {
+      "id": "unlimit",
+      "name": "التقنية بلا حدود",
+      "url": "https://www.unlimit-tech.com/",
+      "active": false
+    }
+  ],
+  "copyright": "Headlines, dates, attribution and links only; read full articles on original publishers."
+}

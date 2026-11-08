@@ -10,7 +10,7 @@ const qaDir = path.resolve(root, "..", "AlghadDigitalSite_QA");
 const chromePath = process.env.CHROME_PATH ||
   "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-const fileUrl = new URL("file:///" + path.join(root, "index.html").replace(/\\/g, "/")).href;
+const fileUrl = process.env.ALGHAD_TEST_URL || new URL("file:///" + path.join(root, "index.html").replace(/\\/g, "/")).href;
 async function main() {
   assert.ok(fs.existsSync(chromePath), "Chrome is required for browser integration test");
   fs.mkdirSync(qaDir, {recursive: true});
@@ -19,7 +19,7 @@ async function main() {
     "--headless=new", "--disable-gpu", "--no-first-run", "--no-default-browser-check",
     "--disable-background-networking", "--disable-extensions", "--remote-debugging-port=0",
     "--remote-allow-origins=*", "--user-data-dir=" + profile, "--window-size=1440,900",
-    "about:blank"
+    fileUrl
   ], {stdio:"ignore", windowsHide:true});
   let socket;
   try {
@@ -64,7 +64,7 @@ async function main() {
         const id=++seq;
         pending.set(id,{resolve,reject});
         socket.send(JSON.stringify({id,method,params}));
-        setTimeout(()=>{if(pending.has(id)){pending.delete(id);reject(Error("CDP timeout: "+method));}},12000);
+        setTimeout(()=>{if(pending.has(id)){pending.delete(id);reject(Error("CDP timeout: "+method));}},40000);
       });
     }
     async function evaluate(expression) {
@@ -74,14 +74,32 @@ async function main() {
     }
     await send("Page.enable");
     await send("Runtime.enable");
-    await send("Page.navigate",{url:fileUrl});
+    // Chrome initially navigates to the target URL; no second CDP navigation.
     let count=0;
     for(let i=0;i<120;i++){
       count=await evaluate('document.querySelectorAll(".product-card").length');
       if(count===10)break;
       await delay(100);
     }
+    if(count!==10) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
     assert.equal(count,10,"All allowed project cards should be rendered");
+    const editorialCounts=await evaluate('({news:document.querySelectorAll(".editorial-story").length,tools:document.querySelectorAll(".windows-tool-card").length,sources:document.querySelectorAll(".source-directory-link").length,headlineCount:window.AL_GHAD_NEWS?.articles.length})');
+    assert.ok(editorialCounts.news>=5,"News cards should render from attributed headlines");
+    assert.equal(editorialCounts.tools,8,"All eight free Windows tools should be displayed");
+    assert.ok(editorialCounts.sources>=10,"Official news source directory");
+    assert.ok(editorialCounts.headlineCount>=5);
+    const badNewsLinks=await evaluate('([...document.querySelectorAll(".editorial-headline-link")].filter(a=>a.protocol!=="https:").length)');
+    assert.equal(badNewsLinks,0,"All article links should use HTTPS");
+    const badVendorLinks=await evaluate('([...document.querySelectorAll(".windows-tool-button")].filter(a=>a.protocol!=="https:").length)');
+    assert.equal(badVendorLinks,0,"All vendor links should use HTTPS");
+    await evaluate('document.querySelector(\'[data-news-category="الذكاء الاصطناعي"]\').click()');
+    assert.equal(await evaluate('document.querySelector(\'[data-news-category="الذكاء الاصطناعي"]\').getAttribute("aria-pressed")'),"true");
+    await evaluate('document.querySelector(\'[data-news-category="الكل"]\').click()');
+    await evaluate('(() => {const field=document.getElementById("windows-tools-search");field.value="Ventoy";field.dispatchEvent(new Event("input",{bubbles:true}));})()');
+    assert.equal(await evaluate('document.querySelectorAll(".windows-tool-card").length'),1,"Utility search must filter tools");
+    await evaluate('(() => {const field=document.getElementById("windows-tools-search");field.value="";field.dispatchEvent(new Event("input",{bubbles:true}));})()');
+    assert.equal(await evaluate('document.querySelectorAll(".windows-tool-card").length'),8);
+
     const showcase=await evaluate('({cards:document.querySelectorAll(".showcase-release").length,downloads:document.querySelectorAll(".showcase-release-cta").length,security:!!document.getElementById("security"),navDownloads:!!document.querySelector(\'.nav a[href="#downloads"]\'),title:document.getElementById("downloads-title")?.textContent})');
     assert.equal(showcase.cards,5,"Four public release cards plus unavailable Stone Manager");
     assert.equal(showcase.downloads,4,"Four official GitHub downloads");
@@ -175,6 +193,19 @@ async function main() {
     fs.writeFileSync(modalShotPath,Buffer.from(modalShot.data,"base64"));
     await evaluate('document.getElementById("modal-close").click()');
     await delay(90);
+    await evaluate('document.getElementById("news").scrollIntoView({behavior:"instant"})');
+    await delay(340);
+    const newsMobile=await evaluate('({cards:document.querySelectorAll(".editorial-story").length,overflow:document.documentElement.scrollWidth,sectionWidth:document.getElementById("news").getBoundingClientRect().width})');
+    assert.ok(newsMobile.overflow<=392,"News section mobile overflow");
+    const newsImage=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+    fs.writeFileSync(path.join(qaDir,"editorial-news-mobile.png"),Buffer.from(newsImage.data,"base64"));
+    await evaluate('document.getElementById("free-tools").scrollIntoView({behavior:"instant"})');
+    await delay(340);
+    const toolsMobile=await evaluate('({cards:document.querySelectorAll(".windows-tool-card").length,overflow:document.documentElement.scrollWidth,sectionWidth:document.getElementById("free-tools").getBoundingClientRect().width})');
+    assert.equal(toolsMobile.cards,8);
+    assert.ok(toolsMobile.overflow<=392,"Windows tools section mobile overflow");
+    const toolsImage=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
+    fs.writeFileSync(path.join(qaDir,"editorial-tools-mobile.png"),Buffer.from(toolsImage.data,"base64"));
     const shot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
     const mobilePath=path.join(qaDir,"mobile-emulated.png");
     fs.writeFileSync(mobilePath,Buffer.from(shot.data,"base64"));
@@ -208,7 +239,7 @@ async function main() {
       viewports.push(value);
     }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {
