@@ -72,6 +72,7 @@ for(const key of ['id="catalog"','id="search"','id="featured-cards"','id="stat-u
 for(const f of ["index.html","assets/style.css","assets/v2.css","assets/v3.css","assets/v3.js","assets/v3_1.css","assets/v3_1.js","assets/downloads.css","assets/downloads.js","assets/downloads-ui.js","assets/v3_3.js","assets/v3_3.css","assets/v3_4.js","assets/v3_4.css",".well-known/security.txt","assets/app.js","assets/products.js",
                 "favicon.svg","CNAME","robots.txt","sitemap.xml"])assert.ok(fs.existsSync(path.join(root,f)),f);
 assert.equal(read("CNAME").trim(),"alghad.digital");
+assert.equal(read("google3f39246447a165d6.html"),"google-site-verification: google3f39246447a165d6.html","Google Search Console verification must match original file exactly");
 const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/v3_1.js"),read("assets/downloads-ui.js"),read("assets/downloads.js"),read("assets/downloads.css"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css"),read("assets/v3_1.css")].join("\n");
 assert.doesNotMatch(publicSources,/مطبخ ريم|عالم الصغار|Omar Kids|Reem Kitchen|عُمر/);
 assert.doesNotMatch(publicSources,/0503276927|966503276927/);

@@ -66,7 +66,7 @@ try {
     if ($LASTEXITCODE -ne 0) { throw "git checkout failed" }
     $safeFiles = @(
         ".gitignore", ".nojekyll", "CNAME", "index.html", "favicon.svg",
-        "robots.txt", "sitemap.xml", "README.md", "DEPLOYMENT_AR.md",
+        "robots.txt", "sitemap.xml", "google3f39246447a165d6.html", "README.md", "DEPLOYMENT_AR.md",
         "Start_Preview.cmd", "Publish_To_GitHub.ps1",
         "assets/products.js", "assets/app.js", "assets/style.css", "assets/v2.css",
         "assets/v3.js", "assets/v3.css", "assets/v3_1.js", "assets/v3_1.css",
