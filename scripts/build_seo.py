@@ -10,6 +10,7 @@ import json
 import re
 import subprocess
 from pathlib import Path
+from html import unescape
 from urllib.parse import quote
 from xml.etree import ElementTree as ET
 
@@ -468,6 +469,46 @@ def update_home(products: list) -> None:
         replace(r"<!-- SEO JSONLD START -->.*?<!-- SEO JSONLD END -->",script)
     else:
         replace(r"</head>", script+"\n</head>")
+    # Schema must always match real, visible FAQ questions and answers.
+    faq_match = re.search(
+        r'<section class="faq-section[^"]*"\s+id="faq".*?</section>',
+        html_text, flags=re.S,
+    )
+    if faq_match is None:
+        raise RuntimeError("Homepage visible FAQ is missing")
+    qa_list = re.findall(
+        r'<details>\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>',
+        faq_match.group(0), flags=re.S,
+    )
+    if not 3 <= len(qa_list) <= 12:
+        raise RuntimeError("Unexpected FAQ entry count")
+    faq_entities = []
+    for question_html, answer_html in qa_list:
+        question = unescape(re.sub(r'<[^>]*>', ' ', question_html)).replace('+', ' ')
+        answer = unescape(re.sub(r'<[^>]*>', ' ', answer_html))
+        question = re.sub(r'\s+', ' ', question).strip()
+        answer = re.sub(r'\s+', ' ', answer).strip()
+        if len(question) < 15 or len(answer) < 30:
+            raise RuntimeError("FAQ entry is too short for accurate structured data")
+        faq_entities.append({
+            "@type": "Question",
+            "name": question,
+            "acceptedAnswer": {"@type": "Answer", "text": answer},
+        })
+    faq_schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faq_entities,
+    }
+    faq_script = (
+        "<!-- FAQ JSONLD START -->"
+        + schema_script(faq_schema)
+        + "<!-- FAQ JSONLD END -->"
+    )
+    if "<!-- FAQ JSONLD START -->" in html_text:
+        replace(r"<!-- FAQ JSONLD START -->.*?<!-- FAQ JSONLD END -->", faq_script)
+    else:
+        replace(r"</head>", faq_script + "\n</head>")
     path.write_text(html_text,encoding="utf-8",newline="\n")
 
 

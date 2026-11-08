@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.0.1 — 2026-11-08
+- Added accurate FAQPage structured data, generated from four visible homepage questions and answers.
+- Strengthened SEO tests to verify structured data always matches rendered FAQ markup.
+- Preserved program-first layout and secondary news sections, without inventing search ranking or performance metrics.
+
+
 ## v4.0.0 — 2026-11-08
 - Promoted all ProTech software and verified release downloads ahead of news in the homepage.
 - Added HTML prerendering for 10 programs, 4 official Beta downloads, 4 attributed headlines; no-JS Chrome verified.

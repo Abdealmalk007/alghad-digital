@@ -146,3 +146,8 @@
 - Verified in real Chrome that disabling JavaScript leaves all ten program cards, four official downloads and four news links functional.
 - Domain-specific info@alghad.digital email is **not** displayed until mail routing actually works; the verified contact email remains protech.2025.2026@gmail.com. Personal telephone numbers are not disclosed on the website.
 - Follow-up work requiring owner assets/accounts: real app screenshots and sanitized demo videos; production mail routing; independent code signing; live Search Console and PageSpeed baselines; consent-based testimonials; measurement provider setup.
+
+## v4.0.1 — Factual FAQ schema for program-first landing page
+- FAQPage JSON-LD is assembled from the visible homepage FAQ and validated against its exact four questions and answers.
+- The product-first structure remains in place; official news remains secondary and updated daily at 07:30 Riyadh.
+- A private implementation gap report is retained in AlghadDigitalSite_QA; external-service tasks are not represented as completed.

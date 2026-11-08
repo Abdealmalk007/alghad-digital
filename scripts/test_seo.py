@@ -58,4 +58,26 @@ image_data=(ROOT/"assets/social/alghad-digital.png").read_bytes()
 assert image_data[:8]==bytes.fromhex("89504e470d0a1a0a")
 assert struct.unpack(">II",image_data[16:24])==(1200,630)
 assert not any(("Call Recorder PRO" in s or 'instagram.com/ProTechAlghad' in s) for s in all_pages)
+# FAQPage must describe the same real questions/answers visible to visitors.
+from html import unescape
+faq_markup=all_pages[0]
+block=re.search(r'<!-- FAQ JSONLD START --><script type="application/ld\+json">(.*?)</script><!-- FAQ JSONLD END -->',faq_markup,re.S)
+assert block,"Missing factual homepage FAQ schema"
+schema=json.loads(block.group(1))
+assert schema["@context"]=="https://schema.org"
+assert schema["@type"]=="FAQPage"
+visible_section=re.search(r'<section class="faq-section[^"]*"\s+id="faq".*?</section>',faq_markup,re.S)
+assert visible_section,"Missing user-visible FAQ"
+visible_entries=re.findall(r'<details>\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>',visible_section.group(0),re.S)
+assert len(visible_entries)==len(schema["mainEntity"])
+assert len(visible_entries)>=3
+def plain(markup):
+    return re.sub(r'\s+',' ',unescape(re.sub(r'<[^>]+>',' ',markup)).replace('+',' ')).strip()
+for (question_html,answer_html),question in zip(visible_entries,schema["mainEntity"]):
+    assert question["@type"]=="Question"
+    assert question["name"]==plain(question_html)
+    assert question["acceptedAnswer"]["@type"]=="Answer"
+    assert question["acceptedAnswer"]["text"]==plain(answer_html)
+assert faq_markup.count("<!-- FAQ JSONLD START -->")==1
+print("FAQ_SCHEMA_PASS VISIBLE_QUESTIONS="+str(len(visible_entries)))
 print(f"SEO_TEST_PASS INDEXABLE_PAGES={len(urls)} PROGRAM_PAGES=10 GENERATOR=OK")
