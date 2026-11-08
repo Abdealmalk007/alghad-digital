@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T09:17:35Z",
+  "generated_at": "2026-11-08T11:01:36Z",
   "articles": [
+    {
+      "title": "تطبيق Xbox على الحاسوب يصبح أسرع وتجربة السحابة تتوسع إلى شاشات أكثر",
+      "url": "https://arabhardware.net/post-55116",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-08T10:58:26Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تطبيق Xbox على الحاسوب يصبح أسرع وتجربة السحابة تتوسع إلى شاشات أكثر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سوني تطرح سماعات الرأس السلكية MDR-3R بمنفذ iUSB-C®️ وتصميم عصري وفريد في المملكة العربية السعودية",
+      "url": "https://technologyarabia.com/archives/17861/%d8%b3%d9%88%d9%86%d9%8a-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a3%d8%b3-%d8%a7%d9%84%d8%b3%d9%84%d9%83%d9%8a%d8%a9-mdr-3r-%d8%a8%d9%85%d9%86%d9%81%d8%b0-i/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-08T10:53:55Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سوني تطرح سماعات الرأس السلكية MDR-3R بمنفذ iUSB-C®️ وتصميم عصري وفريد في المملكة العربية السعودية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Microsoft تستخدم الذكاء الاصطناعي لاكتشاف ثغرات Windows وتسريع إصلاحها",
+      "url": "https://arabhardware.net/post-55115",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-08T10:36:20Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "Microsoft تستخدم الذكاء الاصطناعي لاكتشاف ثغرات Windows وتسريع إصلاحها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "QNAP تحذر من هجمات Plex2Shell على أجهزة NAS: ما يجب فعله الآن",
+      "url": "https://3arrafni.com/tech-news/qnap-nas-plex2shell-attacks",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-08T09:39:58Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "QNAP تحذر من هجمات Plex2Shell على أجهزة NAS: ما يجب فعله الآن",
+      "translation_status": "original_ar"
+    },
     {
       "title": "Meta تضيف Spaces إلى Muse لإنشاء تطبيقات مصغرة عبر الدردشة",
       "url": "https://3arrafni.com/tech-news/meta-muse-spaces-mini-apps",
@@ -63,16 +103,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "تعطل Live View في Nest Doorbell الأصلي دون إصلاح من Google",
-      "url": "https://3arrafni.com/tech-news/nest-doorbell-live-view-not-working",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-08T04:09:58Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تعطل Live View في Nest Doorbell الأصلي دون إصلاح من Google",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "مزاعم ارتباط جنسن هوانغ بسيدة يُشتبه في تجسسها لصالح الصين!",
       "url": "https://arabhardware.net/post-55114",
       "source": "hardware",
@@ -100,16 +130,6 @@
       "published_at": "2026-11-08T03:02:51Z",
       "category": "أخبار التقنية",
       "title_ar": "تسريبات تكشف عن لعبة Assassin's Creed جديدة تقع في روما القديمة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "AMD تثير غضب اللاعبين وتتوقع تراجع مبيعات الحواسيب",
-      "url": "https://arabhardware.net/post-55111",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-08T02:55:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "AMD تثير غضب اللاعبين وتتوقع تراجع مبيعات الحواسيب",
       "translation_status": "original_ar"
     },
     {
@@ -190,16 +210,6 @@
       "published_at": "2026-11-07T19:25:13Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "الصين تكشف مذيعين روبوتيين ببشرة بشرية.. هل يدخلان غرف الأخبار؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "واتساب يمنحك قرار إظهار رقم هاتفك عند استخدام اسم المستخدم",
-      "url": "https://arabhardware.net/post-55109",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-07T15:49:57Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "واتساب يمنحك قرار إظهار رقم هاتفك عند استخدام اسم المستخدم",
       "translation_status": "original_ar"
     },
     {
@@ -353,16 +363,6 @@
       "title_ar": "بترو الشرق الأوسط تسلط الضوء على التصنيع وتكنولوجيا الطاقة في دولة الإمارات العربية المتحدة في أديبك 2026",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "ألف للتعليم تتعاون مع Soro AI لتقديم حلول ذكاء اصطناعي لأكثر من 250 ألف طالب",
-      "url": "https://technologyarabia.com/archives/17841/alef-education-soro-ai-tajikistan-250000-students/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-03T08:55:54Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ألف للتعليم تتعاون مع Soro AI لتقديم حلول ذكاء اصطناعي لأكثر من 250 ألف طالب",
-      "translation_status": "original_ar"
     }
   ],
   "sources": [
