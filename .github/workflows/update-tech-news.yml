@@ -2,8 +2,8 @@ name: Refresh Arabic and Official Technology News
 on:
   workflow_dispatch:
   schedule:
-    # Daily at 07:37 Asia/Riyadh (04:37 UTC). GitHub may queue delayed runs.
-    - cron: "37 4 * * *"
+    # Daily at 07:30 Asia/Riyadh (04:30 UTC). GitHub may queue delayed runs.
+    - cron: "30 4 * * *"
 
 permissions:
   contents: write
