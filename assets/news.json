@@ -1,7 +1,67 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T11:01:36Z",
+  "generated_at": "2026-11-08T12:48:45Z",
   "articles": [
+    {
+      "title": "هواوي تكشف عن سماعات لاسلكية بسعر 56 دولارًا وبطارية تصل إلى 80 ساعة ودعم LDAC",
+      "url": "https://www.unlimit-tech.com/2026/11/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-%d9%84%d8%a7%d8%b3%d9%84%d9%83%d9%8a%d8%a9-%d8%a8%d8%b3%d8%b9%d8%b1-56-%d8%af%d9%88%d9%84/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-08T11:55:44Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هواوي تكشف عن سماعات لاسلكية بسعر 56 دولارًا وبطارية تصل إلى 80 ساعة ودعم LDAC",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Kobo Stack: مزامنة الكتب الإلكترونية والملفات بين الأجهزة باشتراك شهري",
+      "url": "https://3arrafni.com/tech-news/kobo-stack-ebook-sync-subscription",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-08T11:29:58Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "Kobo Stack: مزامنة الكتب الإلكترونية والملفات بين الأجهزة باشتراك شهري",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Ooredoo تقدم إنترنت لامحدود وترقيات لسرعات الإنترنت المنزلي بمناسبة اليوم الوطني",
+      "url": "https://technologyarabia.com/archives/17870/ooredoo-%d8%aa%d9%82%d8%af%d9%85-%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d9%84%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af-%d9%88%d8%aa%d8%b1%d9%82%d9%8a%d8%a7%d8%aa-%d9%84%d8%b3%d8%b1%d8%b9%d8%a7%d8%aa-%d8%a7/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-08T11:18:02Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "Ooredoo تقدم إنترنت لامحدود وترقيات لسرعات الإنترنت المنزلي بمناسبة اليوم الوطني",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "النسخ الاحتياطي للبيانات: كيف تحمي صورك وملفاتك من الفقدان؟",
+      "url": "https://technologyarabia.com/archives/17858/data-backup-guide-phone-computer-cloud/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-08T11:09:47Z",
+      "category": "أخبار التقنية",
+      "title_ar": "النسخ الاحتياطي للبيانات: كيف تحمي صورك وملفاتك من الفقدان؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ما هو الذكاء الاصطناعي التوليدي؟ وكيف ينتج النصوص والصور؟",
+      "url": "https://technologyarabia.com/archives/17859/what-is-generative-ai-how-it-works-arabic-guide/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-08T11:07:14Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "ما هو الذكاء الاصطناعي التوليدي؟ وكيف ينتج النصوص والصور؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كيف تحمي شبكة الواي فاي المنزلية؟ دليل عملي لتأمين الراوتر والأجهزة المتصلة",
+      "url": "https://technologyarabia.com/archives/17857/protect-home-wifi-network-router-security-guide/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-08T11:04:28Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "كيف تحمي شبكة الواي فاي المنزلية؟ دليل عملي لتأمين الراوتر والأجهزة المتصلة",
+      "translation_status": "original_ar"
+    },
     {
       "title": "تطبيق Xbox على الحاسوب يصبح أسرع وتجربة السحابة تتوسع إلى شاشات أكثر",
       "url": "https://arabhardware.net/post-55116",
@@ -33,6 +93,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "اختراق WorkOS ناتج عن وكيل قرصنة بالذكاء الاصطناعي أفلت من بيئته",
+      "url": "https://3arrafni.com/tech-news/workos-ai-agent-data-breach",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-08T10:34:58Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق WorkOS ناتج عن وكيل قرصنة بالذكاء الاصطناعي أفلت من بيئته",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "QNAP تحذر من هجمات Plex2Shell على أجهزة NAS: ما يجب فعله الآن",
       "url": "https://3arrafni.com/tech-news/qnap-nas-plex2shell-attacks",
       "source": "arrafni",
@@ -40,6 +110,16 @@
       "published_at": "2026-11-08T09:39:58Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "QNAP تحذر من هجمات Plex2Shell على أجهزة NAS: ما يجب فعله الآن",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "قمة الويب 2026.. الذكاء الاصطناعي والروبوتات يتصدران المشهد في لشبونة",
+      "url": "https://www.aljazeera.net/tech/2026/11/8/%d9%82%d9%85%d8%a9-%d8%a7%d9%84%d9%88%d9%8a%d8%a8-2026-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-08T09:18:20Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "قمة الويب 2026.. الذكاء الاصطناعي والروبوتات يتصدران المشهد في لشبونة",
       "translation_status": "original_ar"
     },
     {
@@ -60,36 +140,6 @@
       "published_at": "2026-11-08T06:54:58Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "دبي تربط جميع إشارات المرور بمركز تحكم بالذكاء الاصطناعي بحلول 2027",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Galaxy SmartTag3: السعر والمزايا ودعم iPhone بالتفصيل",
-      "url": "https://3arrafni.com/tech-news/galaxy-smarttag3-price-features-iphone-support",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-08T05:59:58Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Galaxy SmartTag3: السعر والمزايا ودعم iPhone بالتفصيل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب في Claude Code يكشف كلمات مرور ومفاتيح API على GitHub",
-      "url": "https://3arrafni.com/tech-news/claude-code-secrets-leak-github",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-08T05:04:58Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تسريب في Claude Code يكشف كلمات مرور ومفاتيح API على GitHub",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كيف نحمي مستخدمي الإنترنت الجدد من المحتالين الإلكترونيين؟",
-      "url": "https://www.bbc.com/arabic/articles/cm98zzzk4kdlo?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-08T04:47:10Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "كيف نحمي مستخدمي الإنترنت الجدد من المحتالين الإلكترونيين؟",
       "translation_status": "original_ar"
     },
     {
@@ -190,16 +240,6 @@
       "published_at": "2026-11-07T19:40:31Z",
       "category": "أخبار التقنية",
       "title_ar": "ماسك يخطط لإطلاق حواسيب عملاقة إلى الفضاء في 2027",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أسوس تطرح حاسوبها المكتبي المدمج Ascent QN10 بدول إضافية مع معالج Snapdragon X2 Elite وذاكرة 32GB",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%a3%d8%b3%d9%88%d8%b3-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%ad%d8%a7%d8%b3%d9%88%d8%a8%d9%87%d8%a7-%d8%a7%d9%84%d9%85%d9%83%d8%aa%d8%a8%d9%8a-%d8%a7%d9%84%d9%85%d8%af%d9%85%d8%ac-ascent-qn10-%d8%a8%d8%af/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-07T19:30:19Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "أسوس تطرح حاسوبها المكتبي المدمج Ascent QN10 بدول إضافية مع معالج Snapdragon X2 Elite وذاكرة 32GB",
       "translation_status": "original_ar"
     },
     {
@@ -313,17 +353,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "HONOR X9e Pro Puts Everyday Durability at the Centre of Smartphone Value",
-      "url": "https://technologyarabia.com/archives/17854/honor-x9e-pro-everyday-durability-drop-protection/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-05T16:21:53Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يضع HONOR X9e Pro المتانة اليومية في صميم قيمة الهاتف الذكي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "كراودسترايك تطلق سحابة سيادية في السعودية وتستضيف بيانات فالكون محليًا",
       "url": "https://aitnews.com/2026/11/05/crowdstrike-sovereign-cloud-saudi-arabia/",
       "source": "aitnews",
@@ -332,37 +361,6 @@
       "category": "أخبار التقنية",
       "title_ar": "كراودسترايك تطلق سحابة سيادية في السعودية وتستضيف بيانات فالكون محليًا",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "كاسبرسكي: تنامي التعاون بين نشطاء الاختراق ومزودي هجمات DDoS",
-      "url": "https://technologyarabia.com/archives/17851/%d9%83%d8%a7%d8%b3%d8%a8%d8%b1%d8%b3%d9%83%d9%8a-%d8%aa%d9%86%d8%a7%d9%85%d9%8a-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d8%a8%d9%8a%d9%86-%d9%86%d8%b4%d8%b7%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%ae/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-05T12:35:18Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "كاسبرسكي: تنامي التعاون بين نشطاء الاختراق ومزودي هجمات DDoS",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "غرفة الشارقة و”المصرف” يوقعان مذكرة تفاهم استراتيجية لتعزيز التعاون في قطاع الأعمال",
-      "url": "https://technologyarabia.com/archives/17848/%d9%85%d8%b0%d9%83%d8%b1%d8%a9-%d8%aa%d9%81%d8%a7%d9%87%d9%85-%d8%a7%d8%b3%d8%aa%d8%b1%d8%a7%d8%aa%d9%8a%d8%ac%d9%8a%d8%a9/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-05T08:41:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "غرفة الشارقة و”المصرف” يوقعان مذكرة تفاهم استراتيجية لتعزيز التعاون في قطاع الأعمال",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Petro Middle East Highlights UAE Manufacturing and Energy Technology at ADIPEC 2026",
-      "url": "https://technologyarabia.com/archives/17844/petro-middle-east-uae-manufacturing-energy-technology-adipec-2026/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-03T10:55:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بترو الشرق الأوسط تسلط الضوء على التصنيع وتكنولوجيا الطاقة في دولة الإمارات العربية المتحدة في أديبك 2026",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     }
   ],
   "sources": [
@@ -412,7 +410,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",
