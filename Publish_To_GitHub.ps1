@@ -38,6 +38,8 @@ try {
     & python (Join-Path $site "scripts/test_seo.py")
     if ($LASTEXITCODE -ne 0) { throw "SEO integrity checks failed" }
     if (Get-Command node -ErrorAction SilentlyContinue) {
+        & node (Join-Path $site "tests/favicon-test.cjs")
+        if ($LASTEXITCODE -ne 0) { throw "Favicon asset integrity tests failed" }
         & node (Join-Path $site "tests/smoke-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Site smoke tests failed" }
         & node (Join-Path $site "tests/editorial-test.cjs")
@@ -69,7 +71,9 @@ try {
     & git checkout -B main
     if ($LASTEXITCODE -ne 0) { throw "git checkout failed" }
     $safeFiles = @(
-        ".gitignore", ".nojekyll", "CNAME", "index.html", "favicon.svg",
+        ".gitignore", ".nojekyll", "CNAME", "index.html", "favicon.svg", "favicon.ico",
+        "favicon-16.png", "favicon-32.png", "favicon-48.png",
+        "apple-touch-icon.png", "icon-192.png", "icon-512.png", "site.webmanifest",
         "robots.txt", "sitemap.xml", "google3f39246447a165d6.html", "README.md", "DEPLOYMENT_AR.md",
         "Start_Preview.cmd", "Publish_To_GitHub.ps1",
         "assets/products.js", "assets/app.js", "assets/style.css", "assets/v2.css",
@@ -80,9 +84,9 @@ try {
         "assets/industry-news.json", "assets/industry-news-data.js", "assets/industry-news.js", "assets/industry-news.css",
         "assets/translation-cache.json",
         "scripts/update_news.py", "scripts/update_industry_news.py", "scripts/translate_news.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
-        "scripts/generate_social_preview.py", "assets/social/alghad-digital.png",
+        "scripts/generate_social_preview.py", "scripts/generate_brand_icons.py", "assets/social/alghad-digital.png",
         ".github/workflows/update-tech-news.yml", ".well-known/security.txt",
-        "tests/smoke-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "tests/translation-test.cjs", "CHANGELOG.md"
+        "tests/smoke-test.cjs", "tests/favicon-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "tests/translation-test.cjs", "CHANGELOG.md"
     )
     $previewFiles = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\previews") -File -Filter "*.svg" | ForEach-Object { "assets/previews/" + $_.Name })
     if ($previewFiles.Count -ne 10) { throw "Expected exactly 10 public program illustrations before publication." }

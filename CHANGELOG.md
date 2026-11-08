@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.10.0 — 2026-11-08
+- Replaced the old favicon with the approved Alghad A brand icon.
+- Generated browser SVG/ICO/PNG sizes, Apple Touch and Android PNG icons, plus site.webmanifest.
+- Updated the top navigation brand mark and all canonical program/news pages for a consistent identity.
+- Added favicon integrity tests to the safe GitHub Pages publisher and daily news CI workflow.
+
+
 ## v3.9.0 — 2026-11-08
 - Automatic Arabic machine translation for English official news headlines after the daily RSS refresh.
 - Preserved original English headline, official publisher, date and article URL beneath each machine translation.

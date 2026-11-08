@@ -86,7 +86,13 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <meta name="theme-color" content="#071522">
   <title>{esc(title)}</title>
   <link rel="canonical" href="{esc(canonical)}">
-  <link rel="icon" type="image/svg+xml" href="{home}favicon.svg">
+  <link rel="icon" href="/favicon.ico?v=4" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=4">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="{home}assets/seo-pages.css">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar_SA">
@@ -111,7 +117,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <a href="#main" class="skip">تجاوز إلى المحتوى</a>
   <header class="site-header">
     <nav class="shell header-inner" aria-label="التنقل الرئيسي">
-      <a class="brand" href="{home}"><span class="brand-logo">△</span><span>الغد <strong>ديجتال</strong><small>ALGHAD DIGITAL</small></span></a>
+      <a class="brand" href="{home}"><span class="brand-logo"><img src="{home}icon-192.png?v=4" alt="" width="38" height="38"></span><span>الغد <strong>ديجتال</strong><small>ALGHAD DIGITAL</small></span></a>
       <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}news/">أخبار التقنية</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a></div>
     </nav>
   </header>

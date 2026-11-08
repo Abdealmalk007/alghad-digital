@@ -124,3 +124,11 @@
 - Fail-safe: if an item cannot be accurately translated or the API rate-limit/availability fails, its original English title remains visible with a translation-unavailable notice. A failed translator does not invent an Arabic title.
 - Translation quality is automated and can be imperfect; these translations are not authored or endorsed by the original publishers.
 - New files: scripts/translate_news.py, assets/translation-cache.json, tests/translation-test.cjs.
+
+## v3.10.0 — Alghad A visual identity and favicon package
+- Approved icon concept #1: refined Alghad A monogram in mint and white on a midnight-navy rounded square.
+- Standalone SVG favicon plus 16/32/48px PNG fallbacks, true multi-size favicon.ico, Apple Touch 180px, and 192/512px icons for Android and browsers.
+- Manifest at site.webmanifest, using the main domain's brand and theme colors; no service worker or unrelated install behavior added.
+- Homepage header and all generated program/news landing pages use the same Alghad A icon.
+- All icon asset references are cache-busted at v=4 to force refresh across the website while preserving the canonical URLs.
+- Added deterministic Pillow-only generator scripts/generate_brand_icons.py and tests/favicon-test.cjs to deployment QA.
