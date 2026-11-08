@@ -109,7 +109,7 @@ async function main() {
     assert.equal(count,10,"All allowed project cards should be rendered");
     // Product cards can render before independent editorial scripts finish loading.
     for(let attempt=0;attempt<80;attempt++){
-      const done=await evaluate('document.readyState==="complete" && document.querySelectorAll(".editorial-story").length>=5 && document.querySelectorAll(".windows-tool-card").length===8 && document.querySelectorAll(".industry-story").length>=18');
+      const done=await evaluate('document.readyState==="complete" && document.querySelectorAll(".editorial-story").length>=5 && document.querySelectorAll(".windows-tool-card").length===8');
       if(done)break;
       await delay(100);
     }
@@ -118,24 +118,16 @@ async function main() {
     assert.equal(editorialCounts.tools,8,"All eight free Windows tools should be displayed");
     assert.ok(editorialCounts.sources>=10,"Official news source directory");
     assert.ok(editorialCounts.headlineCount>=5);
-    const industry=await evaluate('([...document.querySelectorAll("[data-industry-topic]")].map(root=>({topic:root.dataset.industryTopic,cards:root.querySelectorAll(".industry-story").length,sources:root.querySelectorAll(".industry-source-link").length,headlines:window.AL_GHAD_INDUSTRY_NEWS?.topics?.[root.dataset.industryTopic]?.articles.length,firstUrl:root.querySelector(".industry-title-link")?.href})))');
-    assert.equal(industry.length,3,"Three dedicated industry news sections");
-    const translations=await evaluate('({arabic:document.querySelectorAll(".industry-title-link[lang=ar]").length,englishOriginals:document.querySelectorAll(".industry-original-headline[lang=en]").length,labels:document.querySelectorAll(".industry-machine-note").length})');
-    assert.ok(translations.arabic>=1,"Translated Arabic headlines must render on the homepage");
-    assert.equal(translations.arabic,translations.englishOriginals,"Every translated headline must preserve its original English text");
-    assert.deepEqual(industry.map(x=>x.topic),["ai","companies","cars"]);
-    for(const group of industry){
-      assert.equal(group.cards,6,group.topic+" initial cards");
-      assert.ok(group.headlines>=6,group.topic+" complete official snapshot");
-      assert.ok(group.sources>=4,group.topic+" official newsroom links");
-      assert.ok(group.firstUrl.startsWith("https://"),group.topic+" safe link");
-    }
-    await evaluate('document.querySelector("#ai-news [data-industry-more]").click()');
-    assert.equal(await evaluate('document.querySelectorAll("#ai-news .industry-story").length'),12);
-    const sourceOnly=await evaluate('([...document.querySelectorAll(".industry-source-link.is-directory-only")].map(a=>a.href))');
-    assert.ok(sourceOnly.some(u=>u.includes("anthropic.com/news")));
-    assert.ok(sourceOnly.some(u=>u.includes("deepseek.com")));
-    assert.ok(sourceOnly.some(u=>u.includes("huawei.com")));
+    const industry=await evaluate('({heavyHomeSections:document.querySelectorAll("[data-industry-topic]").length,hubs:document.querySelectorAll(".home-news-category-links a").length})');
+    assert.equal(industry.heavyHomeSections,0,"Full industry news must remain off primary software homepage");
+    assert.equal(industry.hubs,4,"Dedicated newsroom links remain available");
+    const mainOrder=await evaluate('([...document.querySelectorAll("main > section[id]")].map(s=>s.id))');
+    assert.ok(mainOrder.indexOf("products")<mainOrder.indexOf("downloads"));
+    assert.ok(mainOrder.indexOf("downloads")<mainOrder.indexOf("news"));
+    const badges=await evaluate('([...document.querySelectorAll(".product-card .status")].map(s=>s.textContent.trim()))');
+    assert.ok(badges.some(s=>s.includes("Beta")),"Preview releases must be marked Beta");
+    assert.ok(badges.some(s=>s.includes("مستودع منشور")),"Repository only is not a signed installer");
+    assert.ok(badges.some(s=>s.includes("قريبًا")),"Upcoming products must be honest");
     const badNewsLinks=await evaluate('([...document.querySelectorAll(".editorial-headline-link")].filter(a=>a.protocol!=="https:").length)');
     assert.equal(badNewsLinks,0,"All article links should use HTTPS");
     const badVendorLinks=await evaluate('([...document.querySelectorAll(".windows-tool-button")].filter(a=>a.protocol!=="https:").length)');
@@ -220,7 +212,7 @@ async function main() {
     const contactAddress = "protech.2025.2026@gmail.com";
     assert.equal(await evaluate('document.querySelector(".contact-email-link").textContent.trim()'),contactAddress);
     assert.equal(await evaluate('document.querySelector(".contact-email-link").getAttribute("href")'),"mailto:"+contactAddress);
-    assert.equal(await evaluate('document.querySelectorAll(\'a[href="#contact"]\').length'),1);
+    assert.equal(await evaluate('document.querySelectorAll(\'a[href="#contact"]\').length'),2,"Header contact CTA and hero support CTA");
     await evaluate('document.getElementById("copy-protech-email").click()');
     await delay(150);
     assert.ok((await evaluate('document.getElementById("contact-copy-note").textContent')).length>0);
@@ -289,18 +281,11 @@ async function main() {
       assert.ok(value.contactLeft>=-2 && value.contactRight<=width+2,"Contact clipping at "+width+"px");
       viewports.push(value);
     }
-    for(const [section,file] of [["ai-news","industry-ai-mobile-v38.png"],["tech-companies","industry-companies-mobile-v38.png"],["car-news","industry-cars-mobile-v38.png"]]){
-      await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
-      await evaluate('document.getElementById("'+section+'").scrollIntoView({behavior:"instant"})');
-      await delay(270);
-      const metrics=await evaluate('({width:document.documentElement.scrollWidth,viewport:innerWidth})');
-      assert.ok(metrics.width<=392,section+" mobile horizontal overflow");
-      const snap=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
-      fs.writeFileSync(path.join(qaDir,file),Buffer.from(snap.data,"base64"));
-    }
+    // Full industry news are intentionally omitted from the homepage, and
+    // tested as accessible independent pages in the crawlability loop below.
     const seoPages=[];
     await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:1,mobile:true});
-    for(const target of ["/programs/download/","/programs/kitchen/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/"]){
+    for(const target of ["/programs/download/","/programs/kitchen/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/about/","/security/","/privacy/"]){
       await send("Page.navigate",{url:new URL(target,fileUrl).href});
       let value;
       for(let i=0;i<50;i++){

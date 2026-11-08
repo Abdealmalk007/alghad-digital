@@ -31,7 +31,18 @@
     } catch (_) { return ""; }
   };
   const isComplete = p => p.status === "public" && !!urlFor(p.github);
-  const tag = p => '<span class="status ' + (isComplete(p) ? 'status-public' : 'status-dev') + '"><span class="status-dot" aria-hidden="true"></span>' + (isComplete(p) ? "مكتمل" : "قريبًا جدًا") + "</span>";
+  const releases = window.AL_GHAD_DOWNLOADS || {};
+  const publicPreview = p => {
+    const item = releases[p.id];
+    return p.status==="public" && item?.channel==="preview" &&
+      Array.isArray(item.files) && item.files.some(f=>f.recommended &&
+        typeof f.url==="string" &&
+        f.url.startsWith("https://github.com/Abdealmalk007/"+item.repository+"/releases/download/"));
+  };
+  const readinessText = p => publicPreview(p) ? "Beta · نسخة تجريبية" :
+    isComplete(p) ? "مستودع منشور" : "قريبًا";
+  const tag = p => '<span class="status ' + (isComplete(p) ? 'status-public' : 'status-dev') +
+    '"><span class="status-dot" aria-hidden="true"></span>' + readinessText(p) + "</span>";
   const previewFor = p => {
     const path = String(p.preview || "");
     return /^assets\/previews\/[a-z0-9_-]+\.svg$/.test(path) ? path : "favicon.svg";
@@ -117,7 +128,7 @@
         '<span class="spotlight-text"><span class="spotlight-index">0'+(index+1)+' / SELECTED WORK</span>'+
         '<span class="spotlight-name">'+tx(p.title)+'</span>'+
         '<span class="spotlight-sub">'+tx(p.summary||p.description)+'</span>'+
-        '<span class="spotlight-open"><span>'+ (isComplete(p)?"مكتمل على GitHub":"قريبًا جدًا") +'</span><span aria-hidden="true">↗</span></span></span></button>';
+        '<span class="spotlight-open"><span>'+ (publicPreview(p)?"نسخة Beta للتجربة":isComplete(p)?"مستودع منشور":"قريبًا") +'</span><span aria-hidden="true">↗</span></span></span></button>';
     }).join("");
   }
   document.addEventListener("click",event=>{

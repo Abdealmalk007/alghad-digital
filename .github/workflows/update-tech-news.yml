@@ -35,8 +35,12 @@ jobs:
         run: python scripts/update_industry_news.py
       - name: Translate new English news headlines into Arabic with cached results
         run: python scripts/translate_news.py
+      - name: Prerender software, safe release links, and a short news digest
+        run: python scripts/prerender_home.py
       - name: Rebuild canonical pages and sitemap
         run: python scripts/build_seo.py
+      - name: Generate factual security, about and privacy pages
+        run: python scripts/build_support_pages.py
       - name: Verify indexable pages and editorial integrity
         run: |
           python scripts/test_seo.py
@@ -44,6 +48,7 @@ jobs:
           node tests/favicon-test.cjs
           node tests/industry-news-test.cjs
           node tests/translation-test.cjs
+          node tests/product-first-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'
@@ -58,7 +63,9 @@ jobs:
         run: |
           git config user.name "alghad-news-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- assets/news.json assets/news-data.js news/index.html sitemap.xml
+          git add -- assets/news.json assets/news-data.js news/index.html sitemap.xml index.html
+          git add -- about/index.html security/index.html privacy/index.html
+          git add -- assets/release-facts-data.js
           git add -- assets/industry-news.json assets/industry-news-data.js
           git add -- assets/translation-cache.json
           git add -- ai-news/index.html tech-companies/index.html cars/index.html
@@ -66,6 +73,6 @@ jobs:
             echo "News snapshot unchanged."
             exit 0
           fi
-          git commit -m "content: refresh daily news and verified Arabic headline translations"
+          git commit -m "content: refresh secondary news and primary software landing pages"
           git pull --rebase origin main
           git push origin HEAD:main

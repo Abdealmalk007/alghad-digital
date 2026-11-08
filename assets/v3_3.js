@@ -5,6 +5,7 @@
   if (!root || !Array.isArray(window.AL_GHAD_PRODUCTS)) return;
 
   const releases = window.AL_GHAD_DOWNLOADS || {};
+  const releaseFacts = window.AL_GHAD_RELEASE_FACTS?.releases || {};
   const products = window.AL_GHAD_PRODUCTS;
   const owner = "Abdealmalk007";
   const featured = ["download", "hr", "marble", "reports", "stone"];
@@ -77,6 +78,15 @@
     meta.appendChild(el("span", "", primary
       ? "v" + config.version + " · " + assets.length + (assets.length === 1 ? " نسخة" : " خيارات")
       : "لم تُنشر نسخة تثبيت عامة"));
+    const facts=releaseFacts[id];
+    if(primary && facts?.version===config.version && facts?.repository===config.repository){
+      const match=Array.isArray(facts.assets)?facts.assets.find(x=>x.url===primary.safeUrl && x.bytes===primary.bytes):null;
+      if(match && /^[a-f0-9]{64}$/.test(match.sha256)){
+        meta.appendChild(el("span","showcase-release-date","تاريخ النشر: "+facts.published_at.slice(0,10)));
+        const digest=el("code","showcase-release-sha","SHA-256: "+match.sha256);
+        digest.dir="ltr";meta.appendChild(digest);
+      }
+    }
     body.appendChild(meta);
 
     const actions = el("div", "showcase-release-actions");

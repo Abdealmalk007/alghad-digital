@@ -9,9 +9,9 @@
   <meta name="color-scheme" content="dark light">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
-  <meta name="description" content="الغد ديجتال Alghad Digital: برامج ProTech لويندوز وأندرويد، روابط تنزيل رسمية، أخبار التقنية العربية المحدثة يوميًا، وأفضل برامج Windows المجانية.">
+  <meta name="description" content="الغد ديجتال: برامج ProTech لإدارة الرخام والمطابخ والموارد البشرية والتقارير، مع روابط الإصدارات الرسمية وتنزيلات تجريبية موثقة. أخبار التقنية قسم إضافي.">
   <meta name="robots" content="index,follow">
-  <meta name="keywords" content="أخبار التقنية, أخبار التكنولوجيا, برامج ويندوز مجانية, برامج ProTech, أدوات Windows, الذكاء الاصطناعي">
+
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar_SA">
   <meta property="og:title" content="الغد ديجتال | Alghad Digital — البرامج والأخبار التقنية">
@@ -33,11 +33,12 @@
   <link rel="stylesheet" href="assets/v3_3.css">
   <link rel="stylesheet" href="assets/v3_4.css">
   <link rel="stylesheet" href="assets/editorial.css">
-  <link rel="stylesheet" href="assets/industry-news.css">
   <link rel="stylesheet" href="assets/seo-home.css">
-  <title>الغد ديجتال | Alghad Digital — برامج Windows وAndroid وأخبار التقنية</title>
+  <link rel="stylesheet" href="assets/product-first.css">
+  <title>برامج ProTech للأعمال والتصميم | الغد ديجتال - Alghad Digital</title>
   <script defer src="assets/products.js?v=3.4.0"></script>
   <script defer src="assets/downloads.js"></script>
+  <script defer src="assets/release-facts-data.js"></script>
   <script defer src="assets/app.js"></script>
   <script defer src="assets/v3.js"></script>
   <script defer src="assets/v3_1.js"></script>
@@ -47,8 +48,6 @@
   <script defer src="assets/news-data.js"></script>
   <script defer src="assets/tools-data.js"></script>
   <script defer src="assets/editorial.js"></script>
-  <script defer src="assets/industry-news-data.js"></script>
-  <script defer src="assets/industry-news.js"></script>
 <!-- SEO JSONLD START --><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"الغد ديجتال — Alghad Digital","alternateName":["الغد الرقمي","Alghad Digital","ProTech"],"url":"https://alghad.digital/","email":"protech.2025.2026@gmail.com","sameAs":["https://github.com/Abdealmalk007"]},{"@type":"WebSite","name":"الغد ديجتال | Alghad Digital","inLanguage":"ar","url":"https://alghad.digital/","description":"برامج تقنية وأخبار تكنولوجيا عربية وأدوات Windows"}]}</script><!-- SEO JSONLD END -->
 <!-- SOCIAL PREVIEW START -->
   <meta property="og:image" content="https://alghad.digital/assets/social/alghad-digital.png">
@@ -69,21 +68,18 @@
     <div class="shell header-inner">
       <a class="logo" href="#top" aria-label="Alghad Digital - الرئيسية">
         <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none"><path d="M13.5 44.5 32 12l18.5 32.5H13.5Z" stroke="#53e6c5" stroke-width="4.5" stroke-linejoin="round"/><path d="m23 44.5 9-17 9 17M18 52h28" stroke="#fff" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <span class="logo-wordmark"><strong>الغد <em>الرقمي</em></strong><small>ALGHAD DIGITAL</small></span>
+        <span class="logo-wordmark"><strong>الغد <em>ديجتال</em></strong><small>ALGHAD DIGITAL</small></span>
       </a>
       <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
         <a href="#home" class="nav-link active">الرئيسية</a>
-        <a href="#news" class="nav-link">الأخبار التقنية</a>
-        <a href="#products" class="nav-link">البرامج</a>
-
-
-        <a href="#contact" class="nav-link">تواصل معنا</a>
-        <a href="#free-tools" class="nav-link">برامج ويندوز</a>
+        <a href="#products" class="nav-link">برامجنا</a>
         <a href="#downloads" class="nav-link">التحميلات</a>
+        <a href="#security" class="nav-link">الأمان</a>
+        <a href="#news" class="nav-link">الأخبار</a>
       </nav>
       <div class="header-actions">
         <button class="icon-button theme-toggle" id="theme-toggle" aria-label="تبديل المظهر" title="تبديل المظهر"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 15.5A8 8 0 0 1 8.5 4a8.5 8.5 0 1 0 11.5 11.5Z"/></svg></button>
-        <a href="#downloads" class="button button-sm button-primary header-cta">تحميل البرامج <span aria-hidden="true">↗</span></a>
+        <a href="#contact" class="button button-sm button-primary header-cta">تواصل معنا <span aria-hidden="true">↗</span></a>
         <button class="icon-button menu-toggle" id="menu-toggle" aria-controls="nav" aria-expanded="false" aria-label="فتح القائمة"><span></span><span></span><span></span></button>
       </div>
     </div>
@@ -91,16 +87,17 @@
   </header>
 
   <main id="main">
+<!-- PRODUCT_FIRST_REDESIGN_V4: Products and official releases are primary. News is a brief secondary digest; full AI/company/auto feeds remain on their own pages. -->
     <section class="hero" id="home" aria-labelledby="hero-title">
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="shell hero-layout">
         <div class="hero-copy">
           <div class="eyebrow"><span class="pulse-dot"></span> نطوّر اليوم أدوات تصنع فارق الغد <span class="eyebrow-line"></span></div>
-          <h1 id="hero-title">برامج ذكية.<br><span class="gradient-text">لإنجاز بلا حدود.</span></h1>
-          <p class="hero-description">من تصميم المطابخ ثلاثي الأبعاد إلى إدارة الأعمال وتطبيقات Android؛ استكشف مشاريعنا المرفوعة على GitHub، وتعرّف على البرامج القادمة قريبًا جدًا.</p>
+          <h1 id="hero-title">برامج لإدارة الأعمال وتصميم المطابخ.<br><span class="gradient-text">حلول عملية لفرق العمل.</span></h1>
+          <p class="hero-description">نطوّر برامج Windows وAndroid للمصانع والمعارض وفرق التصميم والإدارة، من تخطيط المطابخ وإدارة الرخام إلى الموارد البشرية والتقارير. اطّلع على المنتجات والإصدارات المتاحة، واعرف حالة كل برنامج بوضوح.</p>
           <div class="hero-buttons">
-            <a class="button button-primary button-lg" href="#products">تصفح جميع البرامج <span aria-hidden="true">↗</span></a>
-            <a class="button button-secondary button-lg" href="#about">تعرّف على المنصة <span aria-hidden="true">←</span></a>
+            <a class="button button-primary button-lg" href="#downloads">حمّل النسخة التجريبية <span aria-hidden="true">←</span></a>
+            <a class="button button-secondary button-lg" href="#contact">اطلب عرضًا أو دعمًا <span aria-hidden="true">↗</span></a>
           </div>
           <div class="hero-proofs">
             <div class="proof"><span class="proof-icon">✓</span><span>تطوير مستمر</span></div>
@@ -119,13 +116,14 @@
             </div>
             <div class="hero-gallery-foot"><span><span class="gallery-live-dot"></span> <span id="gallery-portfolio-count">10</span> SOFTWARE EXPERIENCES</span><span>EXPLORE / 01 ↗</span></div>
           </div>
+          <p class="hero-preview-note">الصور المعروضة توضيحية وليست لقطات شاشة فعلية.</p>
           <div class="floating-tag tag-top"><span class="small-orb orb-green"></span> تجربة تفاعلية متجددة</div>
         </div>
       </div>
       <div class="shell hero-stats" aria-label="نظرة سريعة">
-        <div class="stat"><strong id="stat-apps">—</strong><span>مشروع وبرنامج</span></div>
-        <div class="stat"><strong id="stat-github">—</strong><span>مستودعات عامة مرتبطة</span></div>
-        <div class="stat"><strong id="stat-upcoming">—</strong><span>قريبًا جدًا</span></div>
+        <div class="stat"><strong id="stat-apps">10</strong><span>مشروع وبرنامج</span></div>
+        <div class="stat"><strong id="stat-github">5</strong><span>مستودعات عامة مرتبطة</span></div>
+        <div class="stat"><strong id="stat-upcoming">5</strong><span>قريبًا جدًا</span></div>
         <div class="stat stat-message"><span class="stat-star">✦</span><span>حلول تتطور مع احتياجاتك</span></div>
       </div>
     </section>
@@ -137,149 +135,11 @@
       <span class="micro-item"><b>04</b> أدوات الإنتاجية</span>
     </div>
 
-    <section class="editorial-news-section" id="news" aria-labelledby="news-title">
-      <div class="shell">
-        <div class="editorial-section-top">
-          <div>
-            <span class="editorial-kicker">ALGHAD TECH NEWS / أخبار التكنولوجيا</span>
-            <h2 id="news-title">آخر الأخبار <em>التقنية.</em></h2>
-            <p class="editorial-section-intro">تغطية إخبارية مختارة من مصادر تقنية عربية وصحف دولية. نعرض العناوين والتواريخ وروابط المقالات الأصلية، دون إعادة نشر محتوى الجهات الإخبارية.</p>
-          </div>
-          <div class="editorial-section-meta">
-            <span class="editorial-live" id="news-freshness">الأخبار التقنية</span>
-            <strong id="news-count-label">جارٍ تحميل العناوين</strong>
-            <span id="news-last-updated">تاريخ آخر تحديث</span>
-          </div>
-        </div>
-        <div class="editorial-controls" aria-label="تصفية الأخبار حسب الموضوع">
-          <button type="button" class="editorial-control is-selected" data-news-category="الكل" aria-pressed="true">جميع الأخبار</button>
-          <button type="button" class="editorial-control" data-news-category="الذكاء الاصطناعي" aria-pressed="false">الذكاء الاصطناعي</button>
-          <button type="button" class="editorial-control" data-news-category="الأمن السيبراني" aria-pressed="false">الأمن السيبراني</button>
-          <button type="button" class="editorial-control" data-news-category="الهواتف والأجهزة" aria-pressed="false">الهواتف والأجهزة</button>
-          <button type="button" class="editorial-control" data-news-category="البرامج والإنترنت" aria-pressed="false">البرامج والإنترنت</button>
-          <button type="button" class="editorial-control" data-news-category="أخبار التقنية" aria-pressed="false">أخبار التقنية</button>
-        </div>
-        <div id="technology-news-grid" class="editorial-news-grid" aria-live="polite" aria-label="العناوين الإخبارية التقنية">
-          <div class="editorial-empty">تحميل الأخبار التقنية من الملفات المحدثة...</div>
-        </div>
-        <div class="editorial-news-more"><button id="news-more" class="editorial-more-btn" type="button" hidden>عرض المزيد من الأخبار ↓</button></div>
-        <div class="editorial-source-directory">
-          <h3>مواقع الأخبار التقنية ومصادر المتابعة</h3>
-          <div id="news-source-links" class="editorial-sources" aria-label="المصادر الرسمية للأخبار"></div>
-          <p>بعض المصادر تُعرض كرابط متابعة فقط إذا لم تسمح بخلاصة RSS متاحة. جميع الحقوق والعناوين محفوظة لناشريها، وقراءة الخبر الكامل تتم عبر موقع الناشر.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="industry-news-section industry-ai" id="ai-news" data-industry-topic="ai" aria-labelledby="ai-news-title">
-      <div class="shell">
-        <nav class="industry-topic-switcher" aria-label="أقسام الأخبار المتخصصة">
-  <a href="#ai-news">الذكاء الاصطناعي</a>
-  <a href="#tech-companies">الشركات التقنية</a>
-  <a href="#car-news">أخبار السيارات</a>
-</nav>
-        <div class="industry-news-intro">
-          <div>
-            <span class="editorial-kicker">OFFICIAL ARTIFICIAL INTELLIGENCE NEWS</span>
-            <h2 id="ai-news-title">أخبار <em>الذكاء الاصطناعي</em></h2>
-            <p>ChatGPT وOpenAI وGemini وClaude وDeepSeek وأحدث النماذج. تُجلب العناوين تلقائيًا من الخلاصات الرسمية المتاحة؛ وللشركات التي لا توفر خلاصة متحقَّقًا منها نعرض رابط غرفة أخبارها الرسمية فقط.</p>
-          </div>
-          <div class="industry-news-status" aria-live="polite">
-            <span class="editorial-live">أخبار رسمية</span>
-            <strong data-industry-count>التحقق من العناوين...</strong>
-            <span data-industry-updated>عرض آخر فحص للمصادر</span>
-          </div>
-        </div>
-        <div class="industry-list" data-industry-list aria-live="polite">
-          <p class="industry-empty">جارٍ تحميل العناوين من الأرشيف الإخباري اليومي...</p>
-        </div>
-        <div class="industry-footer">
-          <button type="button" class="industry-more" data-industry-more hidden>عرض المزيد من الأخبار</button>
-          <a class="industry-page-link" href="ai-news/">جميع الأخبار والروابط الرسمية لهذا القسم ↗</a>
-        </div>
-        <div class="industry-sources">
-          <h3>غرف الأخبار والمصادر الرسمية</h3>
-          <div class="industry-source-list" data-industry-sources></div>
-          <p class="industry-legal">تظهر الترجمة العربية الآلية للعنوان عند توفرها، مع الاحتفاظ بالعنوان الإنجليزي الأصلي ورابط الناشر وتاريخ النشر. قد تتضمن الترجمة أخطاء، وهي من الغد ديجتال وليست ترجمة رسمية من الناشر. المصادر ذات الإطار المتقطع روابط متابعة فقط، ولا تعني وجود تغذية آلية مؤكدة.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="industry-news-section industry-companies" id="tech-companies" data-industry-topic="companies" aria-labelledby="tech-companies-title">
-      <div class="shell">
-
-        <div class="industry-news-intro">
-          <div>
-            <span class="editorial-kicker">TECHNOLOGY LEADERS / OFFICIAL NEWS</span>
-            <h2 id="tech-companies-title">أخبار <em>شركات التقنية الكبرى</em></h2>
-            <p>NVIDIA وAMD وApple وSamsung وMicrosoft وGoogle وHuawei وغيرها، مع تاريخ النشر الحقيقي ورابط البيان أو الخبر الأصلي.</p>
-          </div>
-          <div class="industry-news-status" aria-live="polite">
-            <span class="editorial-live">أخبار رسمية</span>
-            <strong data-industry-count>التحقق من العناوين...</strong>
-            <span data-industry-updated>عرض آخر فحص للمصادر</span>
-          </div>
-        </div>
-        <div class="industry-list" data-industry-list aria-live="polite">
-          <p class="industry-empty">جارٍ تحميل العناوين من الأرشيف الإخباري اليومي...</p>
-        </div>
-        <div class="industry-footer">
-          <button type="button" class="industry-more" data-industry-more hidden>عرض المزيد من الأخبار</button>
-          <a class="industry-page-link" href="tech-companies/">جميع الأخبار والروابط الرسمية لهذا القسم ↗</a>
-        </div>
-        <div class="industry-sources">
-          <h3>غرف الأخبار والمصادر الرسمية</h3>
-          <div class="industry-source-list" data-industry-sources></div>
-          <p class="industry-legal">تظهر الترجمة العربية الآلية للعنوان عند توفرها، مع الاحتفاظ بالعنوان الإنجليزي الأصلي ورابط الناشر وتاريخ النشر. قد تتضمن الترجمة أخطاء، وهي من الغد ديجتال وليست ترجمة رسمية من الناشر. المصادر ذات الإطار المتقطع روابط متابعة فقط، ولا تعني وجود تغذية آلية مؤكدة.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="industry-news-section industry-cars" id="car-news" data-industry-topic="cars" aria-labelledby="car-news-title">
-      <div class="shell">
-
-        <div class="industry-news-intro">
-          <div>
-            <span class="editorial-kicker">AUTO INDUSTRY / OFFICIAL NEWSROOMS</span>
-            <h2 id="car-news-title">أخبار <em>السيارات والتقنيات الحديثة</em></h2>
-            <p>السيارات الجديدة والكهربائية والقيادة الذكية من Toyota وHonda وPorsche وSubaru، وروابط غرف أخبار Tesla وBMW والشركات الأخرى.</p>
-          </div>
-          <div class="industry-news-status" aria-live="polite">
-            <span class="editorial-live">أخبار رسمية</span>
-            <strong data-industry-count>التحقق من العناوين...</strong>
-            <span data-industry-updated>عرض آخر فحص للمصادر</span>
-          </div>
-        </div>
-        <div class="industry-list" data-industry-list aria-live="polite">
-          <p class="industry-empty">جارٍ تحميل العناوين من الأرشيف الإخباري اليومي...</p>
-        </div>
-        <div class="industry-footer">
-          <button type="button" class="industry-more" data-industry-more hidden>عرض المزيد من الأخبار</button>
-          <a class="industry-page-link" href="cars/">جميع الأخبار والروابط الرسمية لهذا القسم ↗</a>
-        </div>
-        <div class="industry-sources">
-          <h3>غرف الأخبار والمصادر الرسمية</h3>
-          <div class="industry-source-list" data-industry-sources></div>
-          <p class="industry-legal">تظهر الترجمة العربية الآلية للعنوان عند توفرها، مع الاحتفاظ بالعنوان الإنجليزي الأصلي ورابط الناشر وتاريخ النشر. قد تتضمن الترجمة أخطاء، وهي من الغد ديجتال وليست ترجمة رسمية من الناشر. المصادر ذات الإطار المتقطع روابط متابعة فقط، ولا تعني وجود تغذية آلية مؤكدة.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="spotlight-section" id="featured" aria-labelledby="featured-title">
-      <div class="shell">
-        <div class="spotlight-head">
-          <div><span class="section-kicker">CURATED / 01</span><h2 id="featured-title">أعمال تستحق <span class="accent-text">الاكتشاف</span></h2></div>
-          <p>ثلاثة مشاريع من عوالم مختلفة — تعرّف عليها من خلال عروض بصرية مخصصة توضح طبيعة كل منتج.</p>
-        </div>
-        <div class="spotlight-grid" id="featured-cards"></div>
-      </div>
-    </section>
-
     <section class="products-section section" id="products" aria-labelledby="products-title">
       <div class="shell">
         <div class="section-head">
           <div><span class="section-kicker">01 / SOFTWARE LIBRARY</span><h2 id="products-title">اكتشف <span class="accent-text">برامجنا</span></h2><p>اختر برنامجًا لعرض ميزاته وخيارات التحميل المباشر من GitHub Releases عند توفرها، مع توضيح حالة كل إصدار.</p></div>
-          <div class="section-counter"><span id="visible-count">—</span> برنامج معروض</div>
+          <div class="section-counter"><span id="visible-count">10</span> برنامج معروض</div>
         </div>
         <div class="catalog-toolbar">
           <div class="filter-tabs" id="filters" role="group" aria-label="تصفية البرامج">
@@ -292,7 +152,128 @@
           <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg><span class="sr-only">ابحث عن برنامج</span><input id="search" type="search" placeholder="ابحث عن برنامج أو مجال..." autocomplete="off"><kbd>/</kbd></label>
           <label class="sort-wrap"><span>ترتيب البرامج</span><select id="sort-products" class="sort-select" aria-label="ترتيب قائمة البرامج"><option value="featured">الترتيب المقترح</option><option value="published">المنشورة أولًا</option><option value="upcoming">القادمة أولًا</option><option value="name">حسب الاسم</option></select></label>
         </div>
-        <div id="catalog" class="catalog" aria-live="polite"></div>
+        <div id="catalog" class="catalog" aria-live="polite"><!-- PRE_RENDER_PRODUCTS_START -->
+<article class="pre-product-card" data-prerender-product="marble">
+      <div class="pre-product-cover">
+        <img src="assets/previews/marble.svg" alt="تصميم توضيحي لواجهة Marble Delivery Pro — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="eager">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">Beta · نسخة عامة للتجربة</span>
+        <h3><a href="programs/marble/" class="pre-product-title">Marble Delivery Pro</a></h3>
+        <p class="pre-product-description">تنظيم تسليم الرخام والطلبات والعقود والمرفقات والتقارير في واجهة عربية.</p>
+        <small>الإصدار 10.0.5 · تجريبي</small>
+        <div class="pre-product-actions"><a href="programs/marble/" class="pre-product-details">تفاصيل البرنامج</a><a href="https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/Setup_MarbleDeliveryPro_v10.0.5.exe" class="pre-product-download" target="_blank" rel="noopener noreferrer">تنزيل الإصدار الرسمي</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="hr">
+      <div class="pre-product-cover">
+        <img src="assets/previews/hr.svg" alt="تصميم توضيحي لواجهة ProTech HR — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="eager">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">Beta · نسخة عامة للتجربة</span>
+        <h3><a href="programs/hr/" class="pre-product-title">ProTech HR</a></h3>
+        <p class="pre-product-description">منصة Windows لإدارة شؤون الموظفين والحضور والإجازات والرواتب والتقارير.</p>
+        <small>الإصدار 23.0.1 · تجريبي</small>
+        <div class="pre-product-actions"><a href="programs/hr/" class="pre-product-details">تفاصيل البرنامج</a><a href="https://github.com/Abdealmalk007/HR/releases/download/v23.0.1/ProTech_HR_Setup_v23.0.1_MIT.exe" class="pre-product-download" target="_blank" rel="noopener noreferrer">تنزيل الإصدار الرسمي</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="reports">
+      <div class="pre-product-cover">
+        <img src="assets/previews/reports.svg" alt="تصميم توضيحي لواجهة Daily Work Reports — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="lazy">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">Beta · نسخة عامة للتجربة</span>
+        <h3><a href="programs/reports/" class="pre-product-title">Daily Work Reports</a></h3>
+        <p class="pre-product-description">إنشاء تقارير عمل يومية مخصصة بالكامل دون أسماء أو أقسام مفروضة مسبقًا.</p>
+        <small>الإصدار 15.5.0 · تجريبي</small>
+        <div class="pre-product-actions"><a href="programs/reports/" class="pre-product-details">تفاصيل البرنامج</a><a href="https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.5.0/DailyWorkReports_Public_v15.5.0.exe" class="pre-product-download" target="_blank" rel="noopener noreferrer">تنزيل الإصدار الرسمي</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="download">
+      <div class="pre-product-cover">
+        <img src="assets/previews/download.svg" alt="تصميم توضيحي لواجهة Download Anything PRO — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="lazy">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">Beta · نسخة عامة للتجربة</span>
+        <h3><a href="programs/download/" class="pre-product-title">Download Anything PRO</a></h3>
+        <p class="pre-product-description">إدارة تنزيل وتشغيل الفيديو والصوت على Android مع تنظيم ملفات الوسائط المحلية.</p>
+        <small>الإصدار 6.0.17 · تجريبي</small>
+        <div class="pre-product-actions"><a href="programs/download/" class="pre-product-details">تفاصيل البرنامج</a><a href="https://github.com/Abdealmalk007/Download-Anything-PRO/releases/download/v6.0.17/Download_Anything_PRO_6.0.17_Universal.apk" class="pre-product-download" target="_blank" rel="noopener noreferrer">تنزيل الإصدار الرسمي</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="stone">
+      <div class="pre-product-cover">
+        <img src="assets/previews/stone.svg" alt="تصميم توضيحي لواجهة ProTech Stone Manager — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="lazy">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">مستودع منشور · التنزيل غير متاح</span>
+        <h3><a href="programs/stone/" class="pre-product-title">ProTech Stone Manager</a></h3>
+        <p class="pre-product-description">إدارة احترافية لأعمال الرخام والبورسلان: العملاء والعقود والألواح والمخزون والتقارير.</p>
+        <small>المستودع منشور على GitHub</small>
+        <div class="pre-product-actions"><a href="programs/stone/" class="pre-product-details">تفاصيل البرنامج</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="kitchen">
+      <div class="pre-product-cover">
+        <img src="assets/previews/kitchen.svg" alt="تصميم توضيحي لواجهة Kitchen CAD Pro — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="lazy">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">قريبًا</span>
+        <h3><a href="programs/kitchen/" class="pre-product-title">Kitchen CAD Pro</a></h3>
+        <p class="pre-product-description">تصميم المطابخ من مخطط الغرفة والخزائن إلى معاينة 3D والتصنيع والتصدير.</p>
+        <small>قيد التطوير</small>
+        <div class="pre-product-actions"><a href="programs/kitchen/" class="pre-product-details">تفاصيل البرنامج</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="care">
+      <div class="pre-product-cover">
+        <img src="assets/previews/care.svg" alt="تصميم توضيحي لواجهة ProTech Windows Care — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="lazy">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">قريبًا</span>
+        <h3><a href="programs/care/" class="pre-product-title">ProTech Windows Care</a></h3>
+        <p class="pre-product-description">صيانة Windows وتشخيص الأعطال وتحسين الأداء وإدارة المكونات الاختيارية.</p>
+        <small>قيد التطوير</small>
+        <div class="pre-product-actions"><a href="programs/care/" class="pre-product-details">تفاصيل البرنامج</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="porcelain">
+      <div class="pre-product-cover">
+        <img src="assets/previews/porcelain.svg" alt="تصميم توضيحي لواجهة Porcelain Manager — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="lazy">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">قريبًا</span>
+        <h3><a href="programs/porcelain/" class="pre-product-title">Porcelain Manager</a></h3>
+        <p class="pre-product-description">نسخة سابقة لإدارة عملاء البورسلان والمستودع والمرفقات والتقارير.</p>
+        <small>قيد التطوير</small>
+        <div class="pre-product-actions"><a href="programs/porcelain/" class="pre-product-details">تفاصيل البرنامج</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="quotes">
+      <div class="pre-product-cover">
+        <img src="assets/previews/quotes.svg" alt="تصميم توضيحي لواجهة Quotes &amp; Contracts — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="lazy">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">قريبًا</span>
+        <h3><a href="programs/quotes/" class="pre-product-title">Quotes &amp; Contracts</a></h3>
+        <p class="pre-product-description">تنظيم عروض الأسعار والعقود ومعلومات المستندات في أدوات مكتبية عملية.</p>
+        <small>قيد التطوير</small>
+        <div class="pre-product-actions"><a href="programs/quotes/" class="pre-product-details">تفاصيل البرنامج</a></div>
+      </div>
+    </article>
+<article class="pre-product-card" data-prerender-product="tv">
+      <div class="pre-product-cover">
+        <img src="assets/previews/tv.svg" alt="تصميم توضيحي لواجهة TV Clean Launcher — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="lazy">
+      </div>
+      <div class="pre-product-content">
+        <span class="pre-product-badge">قريبًا</span>
+        <h3><a href="programs/tv/" class="pre-product-title">TV Clean Launcher</a></h3>
+        <p class="pre-product-description">واجهة Android TV مبسطة ومنظمة للوصول إلى تطبيقاتك المفضلة.</p>
+        <small>قيد التطوير</small>
+        <div class="pre-product-actions"><a href="programs/tv/" class="pre-product-details">تفاصيل البرنامج</a></div>
+      </div>
+    </article>
+<!-- PRE_RENDER_PRODUCTS_END --></div>
         <div id="empty-state" class="empty-state" hidden><span>⌕</span><h3>لا توجد نتائج مطابقة</h3><p>جرّب تغيير عبارة البحث أو اختيار تصنيف آخر.</p><button id="reset-filters" class="button button-secondary">عرض جميع البرامج</button></div>
         <p class="catalog-note"><span aria-hidden="true">ⓘ</span> علامة «مكتمل» تشير إلى وجود المستودع العام في GitHub، وليس اعتماد الاختبارات النهائية لكل تطبيق. الصور توضيحية وليست لقطات شاشة فعلية، وروابط الإصدارات التجريبية تُعرض بشفافية.</p>
       </div>
@@ -306,10 +287,14 @@
             <h2 id="downloads-title">برامج جاهزة <em>للتنزيل.</em></h2>
             <p>اختر إصدارك مباشرة من GitHub الرسمي. تتوفر ملفات Setup وPortable وAPK بحسب كل برنامج؛ وتظهر الإصدارات التجريبية بوضوح دون إخفاء حالتها.</p>
           </div>
-          <span id="release-showcase-count" class="release-showcase-counter">إصدارات متاحة للتنزيل</span>
+          <span id="release-showcase-count" class="release-showcase-counter">4 برامج بإصدارات عامة منشورة</span>
         </div>
-        <div id="release-showcase" class="release-showcase-grid" aria-label="البرامج وروابط الإصدارات المتاحة">
-          <p>تظهر ملفات الإصدارات المتاحة هنا بعد تحميل صفحة الموقع.</p>
+        <div id="release-showcase" class="release-showcase-grid" aria-label="البرامج وروابط الإصدارات المتاحة"><!-- PRE_RENDER_DOWNLOADS_START -->
+<article class="pre-release-card" data-prerender-release="marble"><span class="pre-release-status">Beta / Preview</span><h3>Marble Delivery Pro</h3><p>الإصدار 10.0.5 · Windows • Setup · 22.5 MB</p><div class="pre-release-actions"><a href="https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/Setup_MarbleDeliveryPro_v10.0.5.exe" class="pre-release-download" target="_blank" rel="noopener noreferrer">تحميل مباشر</a><a href="https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/tag/v10.0.5" class="pre-release-source" target="_blank" rel="noopener noreferrer">سجل الإصدار</a><a href="https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/SHA256SUMS.txt" class="pre-release-checksum" target="_blank" rel="noopener noreferrer">ملف SHA-256</a><div class="pre-release-verified"><span>تاريخ النشر: 2026-11-07</span><code dir="ltr" aria-label="SHA-256 من GitHub">SHA-256: 21195b80c787ec08cfe58f1d3123eed578a5c599b35c7fda59ed8b3200fe9441</code></div></div></article>
+<article class="pre-release-card" data-prerender-release="hr"><span class="pre-release-status">Beta / Preview</span><h3>ProTech HR</h3><p>الإصدار 23.0.1 · Windows • Setup · 28.0 MB</p><div class="pre-release-actions"><a href="https://github.com/Abdealmalk007/HR/releases/download/v23.0.1/ProTech_HR_Setup_v23.0.1_MIT.exe" class="pre-release-download" target="_blank" rel="noopener noreferrer">تحميل مباشر</a><a href="https://github.com/Abdealmalk007/HR/releases/tag/v23.0.1" class="pre-release-source" target="_blank" rel="noopener noreferrer">سجل الإصدار</a><a href="https://github.com/Abdealmalk007/HR/releases/download/v23.0.1/SHA256SUMS_v23.0.1_MIT.txt" class="pre-release-checksum" target="_blank" rel="noopener noreferrer">ملف SHA-256</a><div class="pre-release-verified"><span>تاريخ النشر: 2026-11-07</span><code dir="ltr" aria-label="SHA-256 من GitHub">SHA-256: 22cf0fb1429ff1f0fd3a88357006b71a51fa648aa37e9fb87e649f3983814991</code></div></div></article>
+<article class="pre-release-card" data-prerender-release="reports"><span class="pre-release-status">Beta / Preview</span><h3>Daily Work Reports</h3><p>الإصدار 15.5.0 · Windows • نسخة عامة تجريبية · 28.4 MB</p><div class="pre-release-actions"><a href="https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.5.0/DailyWorkReports_Public_v15.5.0.exe" class="pre-release-download" target="_blank" rel="noopener noreferrer">تحميل مباشر</a><a href="https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.5.0" class="pre-release-source" target="_blank" rel="noopener noreferrer">سجل الإصدار</a><div class="pre-release-verified"><span>تاريخ النشر: 2026-11-07</span><code dir="ltr" aria-label="SHA-256 من GitHub">SHA-256: 3a3a6959ccf09f522fe7b729ed790be7e3e85e8130412336b6e299a576f07811</code></div></div></article>
+<article class="pre-release-card" data-prerender-release="download"><span class="pre-release-status">Beta / Preview</span><h3>Download Anything PRO</h3><p>الإصدار 6.0.17 · Android • معظم الأجهزة المتوافقة · 217.9 MB</p><div class="pre-release-actions"><a href="https://github.com/Abdealmalk007/Download-Anything-PRO/releases/download/v6.0.17/Download_Anything_PRO_6.0.17_Universal.apk" class="pre-release-download" target="_blank" rel="noopener noreferrer">تحميل مباشر</a><a href="https://github.com/Abdealmalk007/Download-Anything-PRO/releases/tag/v6.0.17" class="pre-release-source" target="_blank" rel="noopener noreferrer">سجل الإصدار</a><a href="https://github.com/Abdealmalk007/Download-Anything-PRO/releases/download/v6.0.17/Download_Anything_PRO_v6.0.17_SHA256SUMS.txt" class="pre-release-checksum" target="_blank" rel="noopener noreferrer">ملف SHA-256</a><div class="pre-release-verified"><span>تاريخ النشر: 2026-11-07</span><code dir="ltr" aria-label="SHA-256 من GitHub">SHA-256: b216f1914d8730ec85c7009375520a2e4c4ba3d8c0096fbe98d51bfbb7d04e46</code></div></div></article>
+<!-- PRE_RENDER_DOWNLOADS_END -->
         </div>
         <p class="release-showcase-note">تاريخ مراجعة الروابط: 7 نوفمبر 2026. علامة Preview تعني إصدارًا تجريبيًا؛ ولا تعني أن ملف البرنامج موقّع رقميًا أو خاليًا من تنبيهات التثبيت.</p>
         <div class="release-showcase-cta">
@@ -317,6 +302,28 @@
           <a href="#security">كيف تتحقق من أمان الاتصال والملفات؟ ↗</a>
           <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer">مشاريع المطور على GitHub ↗</a>
         </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about" aria-labelledby="about-title">
+      <div class="shell about-layout">
+        <div class="about-copy"><span class="section-kicker">02 / OUR APPROACH</span><h2 id="about-title">التقنية ليست مجرد كود.<br><span class="accent-text">إنها حل لمشكلة حقيقية.</span></h2><p>Alghad Digital مساحة تجمع مشاريع برمجية متخصصة في الإنتاجية، وإدارة الأعمال، والتصميم، والتطبيقات اليومية. نركز على وضوح التجربة وتطوير الميزات التي يحتاجها المستخدم فعلًا.</p><a href="#products" class="text-link">شاهد مجموعة البرامج <span aria-hidden="true">↗</span></a></div>
+        <div class="values-grid">
+          <div class="value"><span class="value-index">01</span><span class="value-icon">◈</span><h3>حلول عملية</h3><p>تطبيقات تستهدف احتياجات فعلية بدل ميزات بلا فائدة.</p></div>
+          <div class="value"><span class="value-index">02</span><span class="value-icon">◎</span><h3>تطوير متواصل</h3><p>تحسينات وإصدارات تُضاف تدريجيًا بعد التحقق منها.</p></div>
+          <div class="value"><span class="value-index">03</span><span class="value-icon">⌘</span><h3>تنوع المنصات</h3><p>مشاريع لسطح المكتب والجوال والتلفزيون الذكي.</p></div>
+          <div class="value"><span class="value-index">04</span><span class="value-icon">◇</span><h3>شفافية الإصدار</h3><p>تمييز واضح بين المتاح للاطلاع وما زال قيد العمل.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spotlight-section" id="featured" aria-labelledby="featured-title">
+      <div class="shell">
+        <div class="spotlight-head">
+          <div><span class="section-kicker">CURATED / 01</span><h2 id="featured-title">أعمال تستحق <span class="accent-text">الاكتشاف</span></h2></div>
+          <p>ثلاثة مشاريع من عوالم مختلفة — تعرّف عليها من خلال عروض بصرية مخصصة توضح طبيعة كل منتج.</p>
+        </div>
+        <div class="spotlight-grid" id="featured-cards"></div>
       </div>
     </section>
 
@@ -343,34 +350,9 @@
             <input id="windows-tools-search" type="search" placeholder="ابحث عن برنامج أو ميزة..." aria-label="بحث ضمن البرامج المجانية" autocomplete="off">
           </label>
         </div>
-        <div id="windows-tools-grid" class="windows-tools-grid" aria-live="polite">
-          <div class="editorial-empty">جارٍ تحميل مكتبة البرامج...</div>
+        <div id="windows-tools-grid" class="windows-tools-grid" aria-live="polite"><p class="pre-tools-fallback">يمكنك تصفح <a href="/free-windows-tools/">قائمة برامج Windows المجانية وروابطها الرسمية</a> حتى عند تعطيل JavaScript.</p>
         </div>
         <p class="editorial-footnote">التراخيص تختلف: بعض الأدوات مفتوحة المصدر، وبعضها مجاني بشروط؛ IrfanView مجاني للاستخدام غير التجاري. روابط الأزرار تفتح الموقع الرسمي للتنزيل ولا تستضيف ملفات التثبيت على الغد الرقمي. احفظ بياناتك قبل تهيئة أي USB باستخدام Rufus أو Ventoy.</p>
-      </div>
-    </section>
-
-    <section class="about-section section" id="about" aria-labelledby="about-title">
-      <div class="shell about-layout">
-        <div class="about-copy"><span class="section-kicker">02 / OUR APPROACH</span><h2 id="about-title">التقنية ليست مجرد كود.<br><span class="accent-text">إنها حل لمشكلة حقيقية.</span></h2><p>Alghad Digital مساحة تجمع مشاريع برمجية متخصصة في الإنتاجية، وإدارة الأعمال، والتصميم، والتطبيقات اليومية. نركز على وضوح التجربة وتطوير الميزات التي يحتاجها المستخدم فعلًا.</p><a href="#products" class="text-link">شاهد مجموعة البرامج <span aria-hidden="true">↗</span></a></div>
-        <div class="values-grid">
-          <div class="value"><span class="value-index">01</span><span class="value-icon">◈</span><h3>حلول عملية</h3><p>تطبيقات تستهدف احتياجات فعلية بدل ميزات بلا فائدة.</p></div>
-          <div class="value"><span class="value-index">02</span><span class="value-icon">◎</span><h3>تطوير متواصل</h3><p>تحسينات وإصدارات تُضاف تدريجيًا بعد التحقق منها.</p></div>
-          <div class="value"><span class="value-index">03</span><span class="value-icon">⌘</span><h3>تنوع المنصات</h3><p>مشاريع لسطح المكتب والجوال والتلفزيون الذكي.</p></div>
-          <div class="value"><span class="value-index">04</span><span class="value-icon">◇</span><h3>شفافية الإصدار</h3><p>تمييز واضح بين المتاح للاطلاع وما زال قيد العمل.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="faq-section section" id="faq" aria-labelledby="faq-title">
-      <div class="shell faq-layout">
-        <div><span class="section-kicker">03 / FAQ</span><h2 id="faq-title">أسئلة <span class="accent-text">شائعة</span></h2><p>معلومات سريعة قبل استعراض أي برنامج.</p></div>
-        <div class="faq-list">
-          <details><summary>كيف أحصل على نسخة من أحد البرامج؟ <span>+</span></summary><p>اختر «تفاصيل البرنامج» لتظهر نسخ التحميل المباشر من GitHub Releases عند توفرها، أو استخدم زر «تحميل مباشر» في بطاقة البرنامج. إذا لم تتوفر نسخة عامة، سنوضح ذلك بدل عرض رابط غير صالح.</p></details>
-          <details><summary>لماذا قد يظهر تحذير عند تثبيت بعض برامج Windows أو Android؟ <span>+</span></summary><p>الموقع يستخدم HTTPS وروابط GitHub الرسمية، لكن Windows SmartScreen أو Android قد ينبهان بشأن ملفات غير موقعة رقميًا أو تطبيقات لم تكتسب سمعة ناشر بعد. لا تعطل الحماية؛ راجع جهة الإصدار والتوقيع وملف SHA-256 عند توفره. لا يمكن لموقع الويب وحده إزالة تحذيرات تثبيت الملفات التنفيذية.</p></details>
-          <details><summary>هل جميع البرامج مجانية ومفتوحة المصدر؟ <span>+</span></summary><p>لا. تختلف حالة وحقوق نشر كل مشروع؛ وجود مستودع عام لا يعني أن جميع الإصدارات نهائية أو أن جميع التبعيات مجانية. راجع LICENSE وملاحظات الإصدار في GitHub.</p></details>
-          <details><summary>هل البرامج متوافقة مع Windows وAndroid؟ <span>+</span></summary><p>تختلف المتطلبات بحسب البرنامج. يظهر النظام المستهدف في بطاقة كل تطبيق، ويمكن فتح التفاصيل للاطلاع على إصدار المشروع وميزاته وملاحظات النشر.</p></details>
-        </div>
       </div>
     </section>
 
@@ -405,6 +387,62 @@
       </div>
     </section>
 
+    <section class="faq-section section" id="faq" aria-labelledby="faq-title">
+      <div class="shell faq-layout">
+        <div><span class="section-kicker">03 / FAQ</span><h2 id="faq-title">أسئلة <span class="accent-text">شائعة</span></h2><p>معلومات سريعة قبل استعراض أي برنامج.</p></div>
+        <div class="faq-list">
+          <details><summary>كيف أحصل على نسخة من أحد البرامج؟ <span>+</span></summary><p>اختر «تفاصيل البرنامج» لتظهر نسخ التحميل المباشر من GitHub Releases عند توفرها، أو استخدم زر «تحميل مباشر» في بطاقة البرنامج. إذا لم تتوفر نسخة عامة، سنوضح ذلك بدل عرض رابط غير صالح.</p></details>
+          <details><summary>لماذا قد يظهر تحذير عند تثبيت بعض برامج Windows أو Android؟ <span>+</span></summary><p>الموقع يستخدم HTTPS وروابط GitHub الرسمية، لكن Windows SmartScreen أو Android قد ينبهان بشأن ملفات غير موقعة رقميًا أو تطبيقات لم تكتسب سمعة ناشر بعد. لا تعطل الحماية؛ راجع جهة الإصدار والتوقيع وملف SHA-256 عند توفره. لا يمكن لموقع الويب وحده إزالة تحذيرات تثبيت الملفات التنفيذية.</p></details>
+          <details><summary>هل جميع البرامج مجانية ومفتوحة المصدر؟ <span>+</span></summary><p>لا. تختلف حالة وحقوق نشر كل مشروع؛ وجود مستودع عام لا يعني أن جميع الإصدارات نهائية أو أن جميع التبعيات مجانية. راجع LICENSE وملاحظات الإصدار في GitHub.</p></details>
+          <details><summary>هل البرامج متوافقة مع Windows وAndroid؟ <span>+</span></summary><p>تختلف المتطلبات بحسب البرنامج. يظهر النظام المستهدف في بطاقة كل تطبيق، ويمكن فتح التفاصيل للاطلاع على إصدار المشروع وميزاته وملاحظات النشر.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="editorial-news-section" id="news" aria-labelledby="news-title">
+      <div class="shell">
+        <div class="editorial-section-top">
+          <div>
+            <span class="editorial-kicker">ALGHAD TECH NEWS / أخبار التكنولوجيا</span>
+            <h2 id="news-title">آخر الأخبار <em>التقنية.</em></h2>
+            <p class="editorial-section-intro">تغطية إخبارية مختارة من مصادر تقنية عربية وصحف دولية. نعرض العناوين والتواريخ وروابط المقالات الأصلية، دون إعادة نشر محتوى الجهات الإخبارية.</p>
+          </div>
+          <div class="editorial-section-meta">
+            <span class="editorial-live" id="news-freshness">الأخبار التقنية</span>
+            <strong id="news-count-label">جارٍ تحميل العناوين</strong>
+            <span id="news-last-updated">تاريخ آخر تحديث</span>
+          </div>
+        </div>
+        <div class="editorial-controls" aria-label="تصفية الأخبار حسب الموضوع">
+          <button type="button" class="editorial-control is-selected" data-news-category="الكل" aria-pressed="true">جميع الأخبار</button>
+          <button type="button" class="editorial-control" data-news-category="الذكاء الاصطناعي" aria-pressed="false">الذكاء الاصطناعي</button>
+          <button type="button" class="editorial-control" data-news-category="الأمن السيبراني" aria-pressed="false">الأمن السيبراني</button>
+          <button type="button" class="editorial-control" data-news-category="الهواتف والأجهزة" aria-pressed="false">الهواتف والأجهزة</button>
+          <button type="button" class="editorial-control" data-news-category="البرامج والإنترنت" aria-pressed="false">البرامج والإنترنت</button>
+          <button type="button" class="editorial-control" data-news-category="أخبار التقنية" aria-pressed="false">أخبار التقنية</button>
+        </div>
+        <div id="technology-news-grid" class="editorial-news-grid" aria-live="polite" aria-label="العناوين الإخبارية التقنية"><!-- PRE_RENDER_NEWS_START -->
+<article class="pre-news-row"><span class="pre-news-date">عرفني دوت كوم · 2026-11-08</span><h3><a href="https://3arrafni.com/tech-news/meta-muse-spaces-mini-apps" class="pre-news-link" target="_blank" rel="noopener noreferrer">Meta تضيف Spaces إلى Muse لإنشاء تطبيقات مصغرة عبر الدردشة</a></h3></article>
+<article class="pre-news-row"><span class="pre-news-date">عرفني دوت كوم · 2026-11-08</span><h3><a href="https://3arrafni.com/tech-news/dubai-ai-traffic-lights-2027" class="pre-news-link" target="_blank" rel="noopener noreferrer">دبي تربط جميع إشارات المرور بمركز تحكم بالذكاء الاصطناعي بحلول 2027</a></h3></article>
+<article class="pre-news-row"><span class="pre-news-date">عرفني دوت كوم · 2026-11-08</span><h3><a href="https://3arrafni.com/tech-news/galaxy-smarttag3-price-features-iphone-support" class="pre-news-link" target="_blank" rel="noopener noreferrer">Galaxy SmartTag3: السعر والمزايا ودعم iPhone بالتفصيل</a></h3></article>
+<article class="pre-news-row"><span class="pre-news-date">عرفني دوت كوم · 2026-11-08</span><h3><a href="https://3arrafni.com/tech-news/claude-code-secrets-leak-github" class="pre-news-link" target="_blank" rel="noopener noreferrer">تسريب في Claude Code يكشف كلمات مرور ومفاتيح API على GitHub</a></h3></article>
+<!-- PRE_RENDER_NEWS_END -->
+        </div>
+        <nav class="home-news-category-links" aria-label="الأخبار الكاملة">
+          <a href="/news/">كل الأخبار التقنية</a>
+          <a href="/ai-news/">الذكاء الاصطناعي</a>
+          <a href="/tech-companies/">الشركات التقنية</a>
+          <a href="/cars/">أخبار السيارات</a>
+        </nav>
+        <div class="editorial-news-more"><button id="news-more" class="editorial-more-btn" type="button" hidden>عرض المزيد من الأخبار ↓</button></div>
+        <div class="editorial-source-directory">
+          <h3>مواقع الأخبار التقنية ومصادر المتابعة</h3>
+          <div id="news-source-links" class="editorial-sources" aria-label="المصادر الرسمية للأخبار"></div>
+          <p>بعض المصادر تُعرض كرابط متابعة فقط إذا لم تسمح بخلاصة RSS متاحة. جميع الحقوق والعناوين محفوظة لناشريها، وقراءة الخبر الكامل تتم عبر موقع الناشر.</p>
+        </div>
+      </div>
+    </section>
+
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
       <div class="shell contact-layout">
         <div class="contact-intro">
@@ -436,6 +474,7 @@
         </div>
       </div>
     </section>
+
   <!-- SEO DIRECTORY START -->
     <section class="seo-home-directory" aria-labelledby="seo-directory-title">
       <div class="shell">
@@ -453,11 +492,18 @@
 
   <footer class="footer">
     <div class="shell footer-top">
-      <a class="logo" href="#top" aria-label="العودة إلى الصفحة الرئيسية"><span class="logo-mark" aria-hidden="true">△</span><span class="logo-wordmark"><strong>الغد <em>الرقمي</em></strong><small>ALGHAD DIGITAL</small></span></a>
+      <a class="logo" href="#top" aria-label="العودة إلى الصفحة الرئيسية"><span class="logo-mark" aria-hidden="true">△</span><span class="logo-wordmark"><strong>الغد <em>ديجتال</em></strong><small>ALGHAD DIGITAL</small></span></a>
       <p>برامج رقمية تُصمّم لتخدم احتياجاتك. <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer" class="accent-text">مشاريعنا على GitHub ↗</a></p>
       <a class="footer-contact" href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>
       <a href="#top" class="back-to-top" aria-label="العودة إلى الأعلى">↑</a>
     </div>
+    <nav class="shell product-first-footer-links" aria-label="صفحات الغد ديجتال">
+      <a href="/programs/">برامجنا</a>
+      <a href="/about/">من نحن</a>
+      <a href="/security/">الأمان والتحقق</a>
+      <a href="/privacy/">الخصوصية</a>
+      <a href="/news/">الأخبار التقنية</a>
+    </nav>
     <div class="shell footer-bottom">
       <span>© <span id="year">2026</span> Alghad Digital. جميع الحقوق محفوظة.</span>
       <span class="footer-protech">تطوير وتصميم ProTech</span>
@@ -470,7 +516,7 @@
     <div class="compare-tray-actions"><button class="button button-primary" type="button" id="compare-open" disabled>عرض المقارنة</button><button class="button button-secondary" type="button" id="compare-clear">مسح الاختيار</button></div>
   </aside>
   <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"></dialog>
-  <div id="contact-email-toast" hidden role="status" aria-live="polite"></div>
+    <div id="contact-email-toast" hidden role="status" aria-live="polite"></div>
   <button id="back-to-top-floating" class="back-to-top-floating" aria-label="العودة إلى بداية الموقع" title="العودة إلى الأعلى" type="button" hidden>↑</button>
 </body>
 </html>

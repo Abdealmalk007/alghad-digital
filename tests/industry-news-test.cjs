@@ -58,10 +58,13 @@ for(const topic of ["ai","companies","cars"]){
 }
 const html=fs.readFileSync(path.join(root,"index.html"),"utf8");
 for(const id of ["ai-news","tech-companies","car-news"]){
- assert.ok(html.includes('id="'+id+'"'),id+" absent");
+ assert.ok(!html.includes('id="'+id+'"'),id+" should not dominate the product-first homepage");
+}
+for(const href of ["/ai-news/","/tech-companies/","/cars/"]){
+ assert.ok(html.includes('href="'+href+'"'),href+" missing from secondary news links");
 }
 for(const f of ["assets/industry-news.js","assets/industry-news.css","assets/industry-news-data.js"]){
- assert.ok(html.includes(f),f+" not linked");
+ assert.ok(fs.existsSync(path.join(root,f)),f+" missing from news feed inventory");
 }
 for(const f of ["ai-news/index.html","tech-companies/index.html","cars/index.html"]){
  assert.ok(fs.existsSync(path.join(root,f)),f+" not generated");

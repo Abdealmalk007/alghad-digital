@@ -80,3 +80,15 @@ h2{font-size:21px;line-height:1.5}
 .translation-disclaimer{color:var(--muted);font-size:10px;line-height:1.7;
   margin:6px 0 0;font-weight:600}
 .news-article a[lang="ar"]{text-align:start;direction:rtl;unicode-bidi:plaintext}
+
+/* Avoid code samples pushing mobile support pages beyond the viewport. */
+.content pre{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;max-width:100%;overflow-x:auto;background:var(--panel);border:1px solid var(--line);padding:15px;border-radius:12px}
+.content pre code{font-size:12px;overflow-wrap:anywhere;word-break:break-word}
+.content p,.content li{overflow-wrap:break-word}
+
+/* Release facts from GitHub's official digest; avoid mobile overflow. */
+.release-facts pre{max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-all;font-size:12px}
+.release-facts .button{margin-block:9px}
+.content details{padding:13px 17px;margin:10px 0;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.content details summary{cursor:pointer;font-weight:800}
+.content details[open] summary{color:var(--mint)}

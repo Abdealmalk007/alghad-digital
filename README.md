@@ -132,3 +132,17 @@
 - Homepage header and all generated program/news landing pages use the same Alghad A icon.
 - All icon asset references are cache-busted at v=4 to force refresh across the website while preserving the canonical URLs.
 - Added deterministic Pillow-only generator scripts/generate_brand_icons.py and tests/favicon-test.cjs to deployment QA.
+
+## v4.0.0 — Product-first redesign
+- The site's identity remains Alghad Digital (الغد ديجتال), while ProTech is the software developer. Primary audience: factories, showrooms and design/admin teams; secondary audience: individual Windows/Android users.
+- Homepage priority: hero and software catalog -> four verified public Beta releases -> about/why us -> illustrative gallery -> free Windows tools -> security -> FAQ -> brief secondary technology news -> contact.
+- Removed three long specialized-news modules from the homepage; their full, attributed daily feeds remain accessible at /ai-news/, /tech-companies/ and /cars/.
+- True server-built no-JavaScript fallbacks: 10 product cards, four official downloadable releases, four dated source-attributed headlines. The interactive catalog enhancements remain intact.
+- All published binaries are labeled Beta/Preview; Stone Manager's source repository is public but its direct installer is not. Five in-development products remain clearly marked Coming Soon.
+- Verified seven GitHub Releases asset SHA-256 digests and four publication dates from GitHub's official API, displayed with official links on the site and the product pages.
+- Added canonical /about/, /security/, /privacy/ pages. All 20 canonical indexable URLs are in sitemap.xml.
+- Improved homepage RTL navigation, headlines, keyboard focus states and responsive layouts, including source code wrapping on narrow mobile screens.
+- Kept the original approved favicon and all prior programs/downloads, and preserved the daily 07:30 Asia/Riyadh news and Arabic translation job.
+- Verified in real Chrome that disabling JavaScript leaves all ten program cards, four official downloads and four news links functional.
+- Domain-specific info@alghad.digital email is **not** displayed until mail routing actually works; the verified contact email remains protech.2025.2026@gmail.com. Personal telephone numbers are not disclosed on the website.
+- Follow-up work requiring owner assets/accounts: real app screenshots and sanitized demo videos; production mail routing; independent code signing; live Search Console and PageSpeed baselines; consent-based testimonials; measurement provider setup.

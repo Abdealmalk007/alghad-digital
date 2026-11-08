@@ -146,7 +146,7 @@ def render_product(product: dict, downloads: dict) -> None:
     image = product.get("preview", "")
     assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.svg", image), image
     assert (ROOT / image).is_file(), image
-    feature_html = "".join("<li>" + esc(feature) + "</li>" for feature in features[:9])
+    feature_html = "".join("<li>" + esc(feature) + "</li>" for feature in features[:5])
     repo = product.get("github", "")
     links = ""
     item = downloads.get(slug, {})
@@ -160,7 +160,37 @@ def render_product(product: dict, downloads: dict) -> None:
     else:
         links += '<span class="muted">هذا البرنامج قيد التطوير — قريبًا جدًا. لا توجد نسخة عامة متاحة للتنزيل.</span>'
 
-    info = "منشور على GitHub" if status else "قريبًا جدًا"
+    preferred=next((file for file in item.get("files",[]) if file.get("recommended")
+                    and safe_release(file.get("url"),item.get("repository",""))),None)
+    verified={}
+    if preferred and (ROOT/"assets"/"release-facts.json").is_file():
+        store=json.loads((ROOT/"assets"/"release-facts.json").read_text(encoding="utf-8"))
+        release_fact=store.get("releases",{}).get(slug,{})
+        if release_fact.get("version")==item.get("version") and release_fact.get("repository")==item.get("repository"):
+            verified=next((x for x in release_fact.get("assets",[])
+                           if x["url"]==preferred["url"] and x["bytes"]==preferred["bytes"]),{})
+            if verified:
+                verified={**verified,"published_at":release_fact["published_at"]}
+    if preferred and verified.get("sha256") and re.fullmatch(r"[0-9a-f]{64}",verified["sha256"]):
+        release_details=(
+          '<section class="more release-facts">'
+          '<h2>تحميل النسخة التجريبية والتحقق منها</h2>'
+          '<p>حالة الإصدار: <strong>Beta / Preview</strong>. '
+          'تاريخ النشر: '+esc(verified["published_at"][:10])+
+          '. حجم ملف التحميل: '+str(round(preferred["bytes"]/1048576,1))+' MB.</p>'
+          '<p><a class="button" target="_blank" rel="noopener noreferrer" href="'+esc(preferred["url"])+'">تحميل مباشر من GitHub Releases</a></p>'
+          '<p>بصمة SHA-256 الصادرة من بيانات GitHub Releases:</p>'
+          '<pre><code dir="ltr">'+esc(verified["sha256"])+'</code></pre>'
+          + ('<p><a href="'+esc(item["checksum"])+'" rel="noopener noreferrer" target="_blank">ملف SHA256SUMS الرسمي</a></p>'
+             if safe_release(item.get("checksum"),item.get("repository","")) else '')
+          + '</section>'
+        )
+    elif preferred:
+        release_details='<section class="more"><h2>معلومات الإصدار</h2><p>النسخة Beta متاحة عبر GitHub، ولم نتحقق من بصمة SHA-256 رقمية لعرضها حاليًا.</p></section>'
+    else:
+        release_details='<section class="more"><h2>حالة الإتاحة</h2><p>لا يتوفر ملف تثبيت عام مؤكَّد لهذا البرنامج حاليًا؛ تابع حالة المشروع في مستودعه عند نشره.</p></section>'
+
+    info = ("Beta / Preview" if preferred else "مستودع منشور بلا تنزيل" if status else "قريبًا")
     keywords = ", ".join([title, "الغد ديجتال", "ProTech", platform, str(product.get("category", ""))])
     meta = f'{title} من برامج ProTech على الغد ديجتال. {desc} المنصات: {platform}. الحالة: {info}.'
     content = f"""
@@ -175,6 +205,20 @@ def render_product(product: dict, downloads: dict) -> None:
           <h2>مميزات {esc(title)}</h2>
           <ul class="features">{feature_html}</ul>
           <div class="actions">{links}</div>
+          {release_details}
+          <section class="more">
+            <h2>متطلبات التشغيل</h2>
+            <p>المنصات المعلنة: {esc(platform)}. تحقق من صفحة الإصدار الرسمية لمعرفة توافق الإصدار مع جهازك؛ لم يتم تأكيد الحد الأدنى لإصدارات النظام هنا.</p>
+          </section>
+          <section class="more">
+            <h2>الأسئلة الشائعة</h2>
+            <details><summary>هل النسخة جاهزة للاستخدام النهائي؟</summary>
+              <p>{"الإصدار الحالي تجريبي (Beta/Preview)، وليس إصدارًا مستقرًا معتمدًا." if preferred else "لا يتوفر تنزيل عام موثَّق حاليًا."}</p></details>
+            <details><summary>من أين أحمل البرنامج؟</summary>
+              <p>{"اتبع رابط GitHub Releases المعروض أعلاه وتحقق من اسم الملف قبل تشغيله." if preferred else "انتظر نشر رابط الإصدار العام عبر صفحة المشروع الرسمية."}</p></details>
+            <details><summary>كيف أتحقق من سلامة الملف؟</summary>
+              <p>قارن قيمة SHA-256 عندما تتوفر، واطّلع على <a href="../../security/">إرشادات الأمان والتوقيع الرقمي</a>.</p></details>
+          </section>
         </section>
         <aside><img class="cover" width="960" height="540" src="../../{esc(image)}" alt="رسم توضيحي لبرنامج {esc(title)}"><p>الصورة توضيحية وليست لقطة فعلية من التطبيق.</p></aside>
       </div>
@@ -366,9 +410,9 @@ def update_home(products: list) -> None:
         if count != 1:raise RuntimeError("Could not find unique homepage SEO target: "+pattern[:70])
 
     replace(r'<title>.*?</title>',
-        '<title>الغد ديجتال | Alghad Digital — برامج Windows وAndroid وأخبار التقنية</title>')
+        '<title>برامج ProTech للأعمال والتصميم | الغد ديجتال - Alghad Digital</title>')
     replace(r'<meta name="description" content="[^"]*">',
-        '<meta name="description" content="الغد ديجتال Alghad Digital: برامج ProTech لويندوز وأندرويد، روابط تنزيل رسمية، أخبار التقنية العربية المحدثة يوميًا، وأفضل برامج Windows المجانية.">')
+        '<meta name="description" content="الغد ديجتال: برامج ProTech لإدارة الرخام والمطابخ والموارد البشرية والتقارير، مع روابط الإصدارات الرسمية وتنزيلات تجريبية موثقة. أخبار التقنية قسم إضافي.">')
     replace(r'<meta property="og:title" content="[^"]*">',
         '<meta property="og:title" content="الغد ديجتال | Alghad Digital — البرامج والأخبار التقنية">')
     replace(r'<meta property="og:description" content="[^"]*">',
@@ -428,7 +472,7 @@ def update_home(products: list) -> None:
 
 
 def update_sitemap(products: list) -> None:
-    urls=["/","/programs/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/"]+[
+    urls=["/","/programs/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/about/","/security/","/privacy/"]+[
         "/programs/"+p["id"]+"/" for p in products]
     ns="http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("",ns)
@@ -460,7 +504,7 @@ def main() -> None:
     render_tools(tools)
     update_home(products)
     update_sitemap(products)
-    print("SEO_PAGES="+str(6+len(products))+" PROGRAMS="+str(len(products)))
+    print("SEO_PAGES="+str(9+len(products))+" PROGRAMS="+str(len(products)))
 
 
 if __name__=="__main__":

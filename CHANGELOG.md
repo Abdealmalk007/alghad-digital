@@ -1,5 +1,14 @@
 # Changelog
 
+## v4.0.0 — 2026-11-08
+- Promoted all ProTech software and verified release downloads ahead of news in the homepage.
+- Added HTML prerendering for 10 programs, 4 official Beta downloads, 4 attributed headlines; no-JS Chrome verified.
+- Displayed official GitHub Releases SHA-256 digests for 7 binary assets across 4 releases.
+- Added About, Security and Privacy pages; sitemap expanded to 20 verified canonical URLs.
+- Preserved specialized news in three standalone pages and the 07:30 daily refresh workflow.
+- Updated accessibility, footer navigation, labels and CSS mobile performance; retained excluded projects and protected personal phone data.
+
+
 ## v3.10.0 — 2026-11-08
 - Replaced the old favicon with the approved Alghad A brand icon.
 - Generated browser SVG/ICO/PNG sizes, Apple Touch and Android PNG icons, plus site.webmanifest.
