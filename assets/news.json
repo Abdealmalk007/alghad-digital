@@ -1,7 +1,31 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T06:01:10Z",
+  "generated_at": "2026-11-08T08:54:17Z",
   "articles": [
+    {
+      "title": "Meta تضيف Spaces إلى Muse لإنشاء تطبيقات مصغرة عبر الدردشة",
+      "url": "https://3arrafni.com/tech-news/meta-muse-spaces-mini-apps",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-08T07:49:58Z",
+      "category": "البرامج والإنترنت"
+    },
+    {
+      "title": "دبي تربط جميع إشارات المرور بمركز تحكم بالذكاء الاصطناعي بحلول 2027",
+      "url": "https://3arrafni.com/tech-news/dubai-ai-traffic-lights-2027",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-08T06:54:58Z",
+      "category": "الذكاء الاصطناعي"
+    },
+    {
+      "title": "Galaxy SmartTag3: السعر والمزايا ودعم iPhone بالتفصيل",
+      "url": "https://3arrafni.com/tech-news/galaxy-smarttag3-price-features-iphone-support",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-08T05:59:58Z",
+      "category": "الهواتف والأجهزة"
+    },
     {
       "title": "تسريب في Claude Code يكشف كلمات مرور ومفاتيح API على GitHub",
       "url": "https://3arrafni.com/tech-news/claude-code-secrets-leak-github",
@@ -185,30 +209,6 @@
       "source_name": "البوابة التقنية",
       "published_at": "2026-11-07T10:15:55Z",
       "category": "أخبار التقنية"
-    },
-    {
-      "title": "تطبيقات iPhone Duo تتجاوز 100 ألف تطبيق مُحسّن فما الذي ينقصها؟",
-      "url": "https://3arrafni.com/tech-news/iphone-duo-optimized-apps",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-07T09:22:28Z",
-      "category": "الهواتف والأجهزة"
-    },
-    {
-      "title": "فتح الطلب المسبق لنظارات Android XR في 12 نوفمبر وإطلاقها ديسمبر",
-      "url": "https://3arrafni.com/tech-news/android-xr-glasses-preorders-november-12-december-launch",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-07T08:27:28Z",
-      "category": "الهواتف والأجهزة"
-    },
-    {
-      "title": "Windows 11 يتيح إدخال PIN فورًا في Windows Hello دون انتظار",
-      "url": "https://3arrafni.com/tech-news/windows-11-windows-hello-pin-sign-in",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-07T07:32:28Z",
-      "category": "البرامج والإنترنت"
     },
     {
       "title": "AIQ تطور Genesis كنظام تشغيل مخصص لوكلاء الذكاء الاصطناعي في قطاع الطاقة",
