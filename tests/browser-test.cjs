@@ -87,7 +87,8 @@ async function main() {
         const id=++seq;
         pending.set(id,{resolve,reject});
         socket.send(JSON.stringify({id,method,params}));
-        setTimeout(()=>{if(pending.has(id)){pending.delete(id);reject(Error("CDP timeout: "+method));}},40000);
+        const timeout=setTimeout(()=>{if(pending.has(id)){pending.delete(id);reject(Error("CDP timeout: "+method));}},40000);
+        timeout.unref();
       });
     }
     async function evaluate(expression) {
