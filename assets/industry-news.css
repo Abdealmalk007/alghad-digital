@@ -47,3 +47,12 @@
 @media(max-width:1050px){.industry-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.industry-news-section{padding:62px 0 68px}.industry-list{grid-template-columns:1fr}.industry-news-status{align-items:flex-start}.industry-story{padding:19px}.industry-news-intro h2{font-size:32px}.industry-topic-switcher{padding:10px;gap:8px}.industry-topic-switcher a{font-size:11px;padding:7px 10px}.industry-sources{padding:18px}}
 @media(prefers-reduced-motion:reduce){.industry-story,.industry-topic-switcher a{transition:none}.industry-story:hover{transform:none}}
+
+/* Machine translation is visibly distinguished from the original publisher title. */
+.industry-original-headline{display:block;margin-top:10px;padding-top:9px;
+  border-top:1px dashed var(--line);font-family:"Segoe UI",Arial,sans-serif;
+  font-size:12px;line-height:1.65;color:var(--sub);font-weight:500;
+  text-align:start;unicode-bidi:plaintext;overflow-wrap:anywhere}
+.industry-machine-note{display:block;margin-top:7px;font-size:10px;
+  font-weight:650;line-height:1.6;color:var(--sub)}
+.industry-title-link[lang="ar"]{text-align:start;direction:rtl;unicode-bidi:plaintext}

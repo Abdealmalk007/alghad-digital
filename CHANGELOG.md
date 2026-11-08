@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.9.0 — 2026-11-08
+- Automatic Arabic machine translation for English official news headlines after the daily RSS refresh.
+- Preserved original English headline, official publisher, date and article URL beneath each machine translation.
+- Added stable shared translation cache, safe fallback and strict validation of translated text.
+- Added translated Arabic headlines to static SEO news pages and interactive homepage news cards.
+- Kept the 07:30 Riyadh daily GitHub Actions schedule and existing ProTech program catalog intact.
+
+
 ## v3.8.0 — 2026-11-08
 - Added three daily updated official news sections for AI, major technology companies and vehicles.
 - Aggregated 54 recent dated official headlines; original titles and links are preserved.

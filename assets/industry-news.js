@@ -51,9 +51,21 @@
         elt("span","industry-story-source",entry.source_name),
         elt("span","industry-verified","مصدر رسمي"));
       const title=elt("h3","industry-story-title");
-      const a=link(entry.title,entry.url,"industry-title-link");
-      a.dir="auto";a.lang=entry.language==="en"?"en":"ar";
+      const translated=entry.translation_status==="machine" &&
+        typeof entry.title_ar==="string" && entry.title_ar.length>=4;
+      const translatedTitle=translated?entry.title_ar:entry.title;
+      const a=link(translatedTitle,entry.url,"industry-title-link");
+      a.dir=translated?"rtl":"auto";
+      a.lang=translated?"ar":entry.language==="en"?"en":"ar";
       title.appendChild(a);
+      if(translated){
+        const original=elt("span","industry-original-headline",entry.title);
+        original.lang="en";original.dir="ltr";
+        title.appendChild(original);
+        title.appendChild(elt("span","industry-machine-note","ترجمة آلية · العنوان الأصلي معروض للمراجعة"));
+      }else if(entry.translation_status==="unavailable"){
+        title.appendChild(elt("span","industry-machine-note","الترجمة العربية غير متاحة حاليًا"));
+      }
       const footer=elt("div","industry-story-bottom");
       const date=elt("time","industry-time",stamp(entry.published_at));
       date.dateTime=entry.published_at;

@@ -44,6 +44,8 @@ try {
         if ($LASTEXITCODE -ne 0) { throw "Editorial data integrity tests failed" }
         & node (Join-Path $site "tests/industry-news-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Official industry news validation failed" }
+        & node (Join-Path $site "tests/translation-test.cjs")
+        if ($LASTEXITCODE -ne 0) { throw "News translation validation failed" }
         if (Test-Path "C:\Program Files\Google\Chrome\Application\chrome.exe") {
             & node (Join-Path $site "tests/browser-test.cjs")
             if ($LASTEXITCODE -ne 0) { throw "Live Chrome integration tests failed" }
@@ -76,10 +78,11 @@ try {
         "assets/v3_3.js", "assets/v3_3.css", "assets/v3_4.js", "assets/v3_4.css", "assets/editorial.js", "assets/editorial.css", "assets/seo-pages.css", "assets/seo-home.css",
         "assets/news.json", "assets/news-data.js", "assets/tools.json", "assets/tools-data.js",
         "assets/industry-news.json", "assets/industry-news-data.js", "assets/industry-news.js", "assets/industry-news.css",
-        "scripts/update_news.py", "scripts/update_industry_news.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
+        "assets/translation-cache.json",
+        "scripts/update_news.py", "scripts/update_industry_news.py", "scripts/translate_news.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
         "scripts/generate_social_preview.py", "assets/social/alghad-digital.png",
         ".github/workflows/update-tech-news.yml", ".well-known/security.txt",
-        "tests/smoke-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "CHANGELOG.md"
+        "tests/smoke-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "tests/translation-test.cjs", "CHANGELOG.md"
     )
     $previewFiles = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\previews") -File -Filter "*.svg" | ForEach-Object { "assets/previews/" + $_.Name })
     if ($previewFiles.Count -ne 10) { throw "Expected exactly 10 public program illustrations before publication." }

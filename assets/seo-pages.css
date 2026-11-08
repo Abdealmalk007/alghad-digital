@@ -71,3 +71,12 @@ h2{font-size:21px;line-height:1.5}
 .industry-static-source-list a{display:inline-block;padding:7px 12px;border:1px solid var(--line);border-radius:99px;text-decoration:none;font-weight:750;font-size:12px;background:var(--panel)}
 .industry-static-source-list a:hover{border-color:var(--mint)}
 .news-article h2 a[lang="en"]{display:block;direction:ltr;text-align:start;unicode-bidi:plaintext}
+
+/* Arabic news headline first, English original retained below it. */
+.original-news-title{direction:ltr;text-align:start;unicode-bidi:plaintext;
+  font:500 12px/1.7 "Segoe UI",Arial,sans-serif;color:var(--muted);
+  border-top:1px dashed var(--line);padding-top:10px;margin:11px 0 0;
+  overflow-wrap:anywhere}
+.translation-disclaimer{color:var(--muted);font-size:10px;line-height:1.7;
+  margin:6px 0 0;font-weight:600}
+.news-article a[lang="ar"]{text-align:start;direction:rtl;unicode-bidi:plaintext}

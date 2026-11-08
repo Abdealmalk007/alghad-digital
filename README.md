@@ -115,3 +115,12 @@
 - Publication uses ONLY official original-language headlines and links, with publisher attribution. It does not reproduce full articles, photographs, or claim independent reporting.
 - New indexable pages: /ai-news/, /tech-companies/, /cars/. Sitemap now has 17 URLs.
 - The user's previously approved ProTech programs (10) and excluded apps remain unchanged.
+
+## v3.9.0 — Daily Automatic Arabic News Translations
+- English headlines from the verified publisher feeds are machine-translated to Arabic at the same daily 07:30 Asia/Riyadh GitHub Actions update.
+- The unmodified original source title, publisher attribution, date and official HTTPS link are retained alongside the Arabic translation on the homepage and all four crawlable news category pages.
+- Translation provider: MyMemory Translation API, free service with published quota. Only public source headlines are sent for translation, using the site's already-public contact email. No API token or password stored.
+- An on-repo translation cache avoids repeating API requests for unchanged headlines. The daily job uses the cache automatically.
+- Fail-safe: if an item cannot be accurately translated or the API rate-limit/availability fails, its original English title remains visible with a translation-unavailable notice. A failed translator does not invent an Arabic title.
+- Translation quality is automated and can be imperfect; these translations are not authored or endorsed by the original publishers.
+- New files: scripts/translate_news.py, assets/translation-cache.json, tests/translation-test.cjs.

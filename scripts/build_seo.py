@@ -221,6 +221,31 @@ def render_catalog(products: list) -> None:
         canonical=DOMAIN+"/programs/", content=text, schema=schema), encoding="utf-8", newline="\n")
 
 
+def translated_article_html(item: dict, url: str) -> str:
+    """Use a translated headline when verified; retain original for transparency."""
+    original = str(item.get("title", ""))
+    translated = (
+        item.get("translation_status") == "machine"
+        and isinstance(item.get("title_ar"), str)
+        and len(item["title_ar"]) >= 4
+    )
+    title = item["title_ar"] if translated else original
+    language = "ar" if translated else ("en" if item.get("language") == "en" else "ar")
+    result = ('<h2><a lang="' + language + '" dir="auto" '
+              'rel="noopener noreferrer" target="_blank" href="' + esc(url) + '">'
+              + esc(title) + ' ↗</a></h2>')
+    if translated:
+        result += ('<p class="original-news-title" lang="en" dir="ltr">'
+                   + esc(original) + '</p><p class="translation-disclaimer">'
+                   + "ترجمة آلية من الغد ديجتال، والعنوان الأصلي أعلاه للمراجعة."
+                   + '</p>')
+    elif item.get("translation_status") == "unavailable":
+        result += ('<p class="translation-disclaimer">'
+                   + "الترجمة العربية غير متاحة، ويظهر العنوان الأصلي."
+                   + '</p>')
+    return result
+
+
 def render_news(news: dict) -> None:
     items = []
     for item in news.get("articles", [])[:25]:
@@ -228,7 +253,13 @@ def render_news(news: dict) -> None:
         url = item.get("url", "")
         if not re.fullmatch(r"https://[^\s<>\"']+", url or ""):
             continue
-        items.append(f'<article class="directory-card news-article"><span>{esc(item.get("source_name", ""))} · {esc(item.get("published_at", "")[:10])} · {esc(item.get("category", ""))}</span><h2><a href="{esc(url)}" rel="noopener noreferrer" target="_blank">{esc(title)} ↗</a></h2></article>')
+        items.append(
+            '<article class="directory-card news-article"><span>'
+            + esc(item.get("source_name", "")) + " · "
+            + esc(item.get("published_at", "")[:10]) + " · "
+            + esc(item.get("category", "")) + "</span>"
+            + translated_article_html(item, url) + "</article>"
+        )
     text = f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / الأخبار التقنية</div>
       <span class="eyebrow">TECH NEWS / ARABIC SOURCES</span>
       <h1>آخر الأخبار التقنية والتكنولوجيا</h1>
@@ -261,10 +292,11 @@ def render_industry(data: dict, topic: str) -> None:
         link=item["url"]
         assert link.startswith("https://") and item["official"] is True
         news.append(
-            '<article class="directory-card news-article">'
-            '<span>'+esc(item["source_name"])+" · "+esc(item["published_at"][:10])+" · رسمي</span>"
-            '<h2><a lang="en" dir="auto" target="_blank" rel="noopener noreferrer" href="'+esc(link)+'">'
-            +esc(item["title"])+" ↗</a></h2></article>"
+            '<article class="directory-card news-article"><span>'
+            + esc(item["source_name"]) + " · "
+            + esc(item["published_at"][:10]) + " · "
+            + "مصدر رسمي</span>"
+            + translated_article_html(item, link) + "</article>"
         )
     sites=[]
     for source in data["sources"]:

@@ -107,6 +107,12 @@ async function main() {
     }
     if(count!==10) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
     assert.equal(count,10,"All allowed project cards should be rendered");
+    // Product cards can render before independent editorial scripts finish loading.
+    for(let attempt=0;attempt<80;attempt++){
+      const done=await evaluate('document.readyState==="complete" && document.querySelectorAll(".editorial-story").length>=5 && document.querySelectorAll(".windows-tool-card").length===8 && document.querySelectorAll(".industry-story").length>=18');
+      if(done)break;
+      await delay(100);
+    }
     const editorialCounts=await evaluate('({news:document.querySelectorAll(".editorial-story").length,tools:document.querySelectorAll(".windows-tool-card").length,sources:document.querySelectorAll(".source-directory-link").length,headlineCount:window.AL_GHAD_NEWS?.articles.length})');
     assert.ok(editorialCounts.news>=5,"News cards should render from attributed headlines");
     assert.equal(editorialCounts.tools,8,"All eight free Windows tools should be displayed");
@@ -114,6 +120,9 @@ async function main() {
     assert.ok(editorialCounts.headlineCount>=5);
     const industry=await evaluate('([...document.querySelectorAll("[data-industry-topic]")].map(root=>({topic:root.dataset.industryTopic,cards:root.querySelectorAll(".industry-story").length,sources:root.querySelectorAll(".industry-source-link").length,headlines:window.AL_GHAD_INDUSTRY_NEWS?.topics?.[root.dataset.industryTopic]?.articles.length,firstUrl:root.querySelector(".industry-title-link")?.href})))');
     assert.equal(industry.length,3,"Three dedicated industry news sections");
+    const translations=await evaluate('({arabic:document.querySelectorAll(".industry-title-link[lang=ar]").length,englishOriginals:document.querySelectorAll(".industry-original-headline[lang=en]").length,labels:document.querySelectorAll(".industry-machine-note").length})');
+    assert.ok(translations.arabic>=1,"Translated Arabic headlines must render on the homepage");
+    assert.equal(translations.arabic,translations.englishOriginals,"Every translated headline must preserve its original English text");
     assert.deepEqual(industry.map(x=>x.topic),["ai","companies","cars"]);
     for(const group of industry){
       assert.equal(group.cards,6,group.topic+" initial cards");
@@ -203,7 +212,10 @@ async function main() {
     assert.equal(await evaluate('!!document.querySelector("[data-share-app=stone]")'),true);
     assert.equal(await evaluate('new URL(location.href).searchParams.get("app")'),"stone");
     await evaluate('document.querySelector("#modal-close").click()');
-    await delay(120);
+    for(let i=0;i<20;i++){
+      if(!await evaluate('new URL(location.href).searchParams.has("app")'))break;
+      await delay(100);
+    }
     assert.equal(await evaluate('new URL(location.href).searchParams.has("app")'),false);
     const contactAddress = "protech.2025.2026@gmail.com";
     assert.equal(await evaluate('document.querySelector(".contact-email-link").textContent.trim()'),contactAddress);

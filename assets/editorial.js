@@ -59,7 +59,21 @@
     const date=node("time","editorial-date",localizedDate(item.published_at));
     date.dateTime=item.published_at;meta.append(date);
     const headline=node("h3","editorial-headline");
-    headline.appendChild(externalLink(item.title,item.url,"editorial-headline-link"));
+    const translated=item.translation_status==="machine" &&
+      typeof item.title_ar==="string" && item.title_ar.length>=4;
+    const headlineLink=externalLink(translated?item.title_ar:item.title,
+      item.url,"editorial-headline-link");
+    headlineLink.lang=translated?"ar":"auto";
+    headlineLink.dir="auto";
+    headline.appendChild(headlineLink);
+    if(translated){
+      const original=node("span","editorial-original-headline",item.title);
+      original.lang="en";original.dir="ltr";
+      headline.appendChild(original);
+      headline.appendChild(node("span","editorial-translation-label","ترجمة آلية"));
+    }else if(item.translation_status==="unavailable"){
+      headline.appendChild(node("span","editorial-translation-label","النص الأصلي؛ الترجمة غير متاحة"));
+    }
     const footer=node("div","editorial-story-footer");
     footer.append(node("span","editorial-category",item.category),
       externalLink("اقرأ الخبر من المصدر ↗",item.url,"editorial-read"));

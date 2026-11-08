@@ -33,6 +33,8 @@ jobs:
         run: python scripts/update_news.py
       - name: Fetch original news releases from official technology and car makers
         run: python scripts/update_industry_news.py
+      - name: Translate new English news headlines into Arabic with cached results
+        run: python scripts/translate_news.py
       - name: Rebuild canonical pages and sitemap
         run: python scripts/build_seo.py
       - name: Verify indexable pages and editorial integrity
@@ -40,6 +42,7 @@ jobs:
           python scripts/test_seo.py
           node tests/editorial-test.cjs
           node tests/industry-news-test.cjs
+          node tests/translation-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'
@@ -56,11 +59,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- assets/news.json assets/news-data.js news/index.html sitemap.xml
           git add -- assets/industry-news.json assets/industry-news-data.js
+          git add -- assets/translation-cache.json
           git add -- ai-news/index.html tech-companies/index.html cars/index.html
           if git diff --cached --quiet; then
             echo "News snapshot unchanged."
             exit 0
           fi
-          git commit -m "content: daily refresh Arabic, AI, tech-company and automotive news"
+          git commit -m "content: refresh daily news and verified Arabic headline translations"
           git pull --rebase origin main
           git push origin HEAD:main
