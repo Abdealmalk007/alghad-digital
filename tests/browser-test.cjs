@@ -4,16 +4,39 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
+const http = require("node:http");
 const {spawn} = require("node:child_process");
 const root = path.resolve(__dirname, "..");
 const qaDir = path.resolve(root, "..", "AlghadDigitalSite_QA");
 const chromePath = process.env.CHROME_PATH ||
   "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-const fileUrl = process.env.ALGHAD_TEST_URL || new URL("file:///" + path.join(root, "index.html").replace(/\\/g, "/")).href;
+async function startLocalPreview() {
+  const mime={".html":"text/html; charset=utf-8",".css":"text/css; charset=utf-8",
+    ".js":"text/javascript; charset=utf-8",".svg":"image/svg+xml",".json":"application/json; charset=utf-8"};
+  const server=http.createServer((req,res)=>{
+    try{
+      const target=new URL(req.url,"http://127.0.0.1");
+      const pathname=decodeURIComponent(target.pathname);
+      const local=path.resolve(root,"."+(pathname==="/"?"/index.html":pathname));
+      if(!local.startsWith(root+path.sep) || !fs.existsSync(local) || !fs.statSync(local).isFile()){
+        res.writeHead(404);res.end("Not Found");return;
+      }
+      res.writeHead(200,{"Content-Type":mime[path.extname(local)]||"application/octet-stream"});
+      fs.createReadStream(local).pipe(res);
+    }catch(_){res.writeHead(400);res.end("Invalid Request")}
+  });
+  await new Promise((resolve,reject)=>{
+    server.once("error",reject);
+    server.listen(0,"127.0.0.1",resolve);
+  });
+  return {server,url:"http://127.0.0.1:"+server.address().port+"/"};
+}
 async function main() {
   assert.ok(fs.existsSync(chromePath), "Chrome is required for browser integration test");
   fs.mkdirSync(qaDir, {recursive: true});
+  const preview=process.env.ALGHAD_TEST_URL?null:await startLocalPreview();
+  const fileUrl=process.env.ALGHAD_TEST_URL||preview.url;
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), "alghad-cdp-"));
   const chrome = spawn(chromePath, [
     "--headless=new", "--disable-gpu", "--no-first-run", "--no-default-browser-check",
@@ -245,6 +268,7 @@ async function main() {
   } finally {
     if(socket) socket.close();
     chrome.kill();
+    if(preview) await new Promise(resolve=>preview.server.close(resolve));
   }
 }
 main().catch(e => {console.error("BROWSER_QA_FAILED:",e.stack||e.message);process.exitCode=1;});

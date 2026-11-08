@@ -35,6 +35,10 @@ try {
         if ($LASTEXITCODE -ne 0) { throw "Site smoke tests failed" }
         & node (Join-Path $site "tests/editorial-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Editorial data integrity tests failed" }
+        if (Test-Path "C:\Program Files\Google\Chrome\Application\chrome.exe") {
+            & node (Join-Path $site "tests/browser-test.cjs")
+            if ($LASTEXITCODE -ne 0) { throw "Live Chrome integration tests failed" }
+        }
     } else {
         Write-Warning "Node is unavailable; static checks were skipped."
     }
