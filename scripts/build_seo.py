@@ -27,7 +27,6 @@ PROGRAM_SEARCH_INTENTS = {
     "download": "تطبيق تحميل الفيديو والصوت للأندرويد",
     "kitchen": "برنامج تصميم المطابخ ثنائي وثلاثي الأبعاد",
     "care": "برنامج صيانة وتحسين نظام Windows",
-    "porcelain": "برنامج إدارة أعمال البورسلان",
     "quotes": "برنامج عروض الأسعار والعقود",
     "tv": "واجهة مخصصة لأجهزة Android TV",
 }
@@ -445,7 +444,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             +'<a class="brand-card-link" href="../programs/'+esc(slug)+'/">المميزات والإصدارات الرسمية ←</a>'
             +'</article>'
         )
-    assert len(cards)==10 and public_downloads==5
+    assert len(cards)==9 and public_downloads==5
     body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / Pro Tech</div>
       <span class="eyebrow">PRO TECH / PROTECH SOFTWARE</span>
       <h1>Pro Tech (بروتك) — برامج الغد ديجتال</h1>
@@ -454,7 +453,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
       <p>الموقع الرسمي للبرامج هو <a href="../">alghad.digital — الغد ديجتال</a>. ولمن يبحث بعبارة «جيل الغد» للوصول إلى برامج Pro Tech: الاسم المعتمد للموقع هو «الغد ديجتال» وعنوانه <strong>alghad.digital</strong>، ولا توجد حاجة للانتقال إلى نطاق آخر.</p>
       <p>يمكنك الاطلاع على <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer">حساب GitHub المرتبط بالمطور</a>، ومقارنة الإصدارات وملفات التنزيل المعتمدة على صفحات البرامج الرسمية.</p></section>
       <section class="more"><h2>برامج ProTech للأعمال والتصميم والإنتاجية</h2>
-      <p>تُعرض البرامج حسب حالتها الفعلية: أربعة برامج لها ملفات تنزيل Beta/Preview مؤكدة، ومشروع منشور من دون تنزيل عام مؤكد، وخمسة مشاريع قيد التطوير. لا يعني نشر ملف تجريبي أنه إصدار مستقر.</p>
+      <p>تُعرض البرامج حسب حالتها الفعلية: أربعة برامج لها ملفات تنزيل Beta/Preview مؤكدة، ومشروع منشور من دون تنزيل عام مؤكد، وأربعة مشاريع قيد التطوير. لا يعني نشر ملف تجريبي أنه إصدار مستقر.</p>
       <div class="directory-grid brand-products">{''.join(cards)}</div></section>
       <section class="more"><h2>برامج للأعمال والأفراد</h2>
       <p>تخدم بعض مشاريع ProTech المصانع والمعارض وفرق التصميم والإدارة، بما فيها برامج الرخام والموارد البشرية والتقارير وتصميم المطابخ. كما توجد مشاريع للأفراد مثل Download Anything PRO وأدوات Windows، مع توضيح حالة التطوير لكل مشروع.</p>
@@ -657,7 +656,7 @@ def main() -> None:
     news=read_json("assets/news.json")
     tools=read_json("assets/tools.json")
     industry=read_json("assets/industry-news.json")
-    assert len(products)==10 and len(set(x["id"] for x in products))==10
+    assert len(products)==9 and len(set(x["id"] for x in products))==9
     assert not {"recorder","omar","reem"} & {x["id"] for x in products}
     for product in products:render_product(product,downloads)
     render_catalog(products)

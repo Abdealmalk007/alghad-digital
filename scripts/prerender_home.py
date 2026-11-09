@@ -37,12 +37,12 @@ assert release_facts["version"]==1 and set(release_facts["releases"])=={"stone",
 (ROOT/"assets"/"release-facts-data.js").write_text(
     "window.AL_GHAD_RELEASE_FACTS = "+json.dumps(release_facts,ensure_ascii=True,separators=(",",":"))+";\n",
     encoding="utf-8")
-assert len(products)==10
+assert len(products)==9
 byid={p["id"]:p for p in products}
-assert len(byid)==10
+assert len(byid)==9
 live_order=["marble","hr","reports","download","stone"]
 ids=live_order+[p["id"] for p in products if p["id"] not in live_order]
-assert len(ids)==10
+assert len(ids)==9
 
 def esc(s)->str:
     return html.escape(str(s if s is not None else ""),quote=True)
@@ -94,7 +94,7 @@ for i,id in enumerate(ids):
       </div>
     </article>'''
     catalog.append(card)
-assert len(catalog)==10
+assert len(catalog)==9
 
 release_cards=[]
 for id in ["stone","marble","hr","reports","download"]:

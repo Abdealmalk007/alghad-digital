@@ -236,39 +236,6 @@ window.AL_GHAD_PRODUCTS = [
     "release": null
   },
   {
-    "id": "porcelain",
-    "title": "Porcelain Manager",
-    "english": "PORCELAIN MANAGER",
-    "category": "إدارة الرخام والبورسلان",
-    "description": "نسخة سابقة لإدارة عملاء البورسلان والمستودع والمرفقات والتقارير.",
-    "details": "مشروع سابق لإدارة عمليات البورسلان والرخام، وتتوفر في مجموعة المشاريع نسخة أحدث متخصصة باسم ProTech Stone Manager.",
-    "platforms": [
-      "Windows"
-    ],
-    "version": "1.5.4",
-    "status": "dev",
-    "github": null,
-    "features": [
-      "سجلات العملاء والطلبات",
-      "المواد والألوان وأنواع البورسلان",
-      "المرفقات وحركات المستودع",
-      "تصدير تقارير PDF وExcel",
-      "خصائص متقدمة في النسخة الأحدث Stone Manager"
-    ],
-    "emblem": "▥",
-    "colors": [
-      "#635449",
-      "#2a3130",
-      "#d1c0a2"
-    ],
-    "keywords": "porcelain manager بورسلان مستودع",
-    "summary": "متابعة المخزون والتقارير",
-    "preview": "assets/previews/porcelain.svg",
-    "previewAlt": "تصميم توضيحي لواجهة Porcelain Manager",
-    "displayStatus": "قريبًا جدًا",
-    "release": null
-  },
-  {
     "id": "quotes",
     "title": "Quotes & Contracts",
     "english": "QUOTES & CONTRACTS",
