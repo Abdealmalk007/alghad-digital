@@ -1,25 +1,295 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T12:48:45Z",
+  "generated_at": "2026-11-09T11:17:56Z",
   "articles": [
     {
-      "title": "هواوي تكشف عن سماعات لاسلكية بسعر 56 دولارًا وبطارية تصل إلى 80 ساعة ودعم LDAC",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-%d9%84%d8%a7%d8%b3%d9%84%d9%83%d9%8a%d8%a9-%d8%a8%d8%b3%d8%b9%d8%b1-56-%d8%af%d9%88%d9%84/",
+      "title": "أبل تخطط لتحويل Siri إلى مساعد ذكي قادر على تنفيذ المهام بشكل مستقل خلال العام المقبل",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%a3%d8%a8%d9%84-%d8%aa%d8%ae%d8%b7%d8%b7-%d9%84%d8%aa%d8%ad%d9%88%d9%8a%d9%84-siri-%d8%a5%d9%84%d9%89-%d9%85%d8%b3%d8%a7%d8%b9%d8%af-%d8%b0%d9%83%d9%8a-%d9%82%d8%a7%d8%af%d8%b1-%d8%b9%d9%84%d9%89/",
       "source": "unlimit",
       "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-08T11:55:44Z",
+      "published_at": "2026-11-09T11:00:19Z",
       "category": "أخبار التقنية",
-      "title_ar": "هواوي تكشف عن سماعات لاسلكية بسعر 56 دولارًا وبطارية تصل إلى 80 ساعة ودعم LDAC",
+      "title_ar": "أبل تخطط لتحويل Siri إلى مساعد ذكي قادر على تنفيذ المهام بشكل مستقل خلال العام المقبل",
       "translation_status": "original_ar"
     },
     {
-      "title": "Kobo Stack: مزامنة الكتب الإلكترونية والملفات بين الأجهزة باشتراك شهري",
-      "url": "https://3arrafni.com/tech-news/kobo-stack-ebook-sync-subscription",
+      "title": "هاتف Motorola Signature 27 يتصدر كاميرات هواتف 2026 في اختبار DXOMARK",
+      "url": "https://arabhardware.net/post-55121",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T10:18:01Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "هاتف Motorola Signature 27 يتصدر كاميرات هواتف 2026 في اختبار DXOMARK",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "شاومي تحقق قفزة لافتة في عمر البطارية بجهازها اللوحي الرائد الجديد",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%ad%d9%82%d9%82-%d9%82%d9%81%d8%b2%d8%a9-%d9%84%d8%a7%d9%81%d8%aa%d8%a9-%d9%81%d9%8a-%d8%b9%d9%85%d8%b1-%d8%a7%d9%84%d8%a8%d8%b7%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a8/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-09T10:00:46Z",
+      "category": "أخبار التقنية",
+      "title_ar": "شاومي تحقق قفزة لافتة في عمر البطارية بجهازها اللوحي الرائد الجديد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق Iris Ohyama قد يكشف بيانات 7.7 ملايين عميل",
+      "url": "https://3arrafni.com/tech-news/iris-ohyama-data-breach-7-7-million",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-08T11:29:58Z",
+      "published_at": "2026-11-09T09:44:05Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق Iris Ohyama قد يكشف بيانات 7.7 ملايين عميل",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هل تحتاج قارئ Kindle إذا كان لديك جهاز لوحي؟ دليل قبل الشراء",
+      "url": "https://arabhardware.net/post-55110",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T09:33:48Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هل تحتاج قارئ Kindle إذا كان لديك جهاز لوحي؟ دليل قبل الشراء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "OpenAI تصنّف نموذج GPT-6 Cyber الأمني الجديد ضمن أعلى مستويات الخطورة الحرجة",
+      "url": "https://www.unlimit-tech.com/2026/11/openai-%d8%aa%d8%b5%d9%86%d9%91%d9%81-%d9%86%d9%85%d9%88%d8%b0%d8%ac-gpt-6-cyber-%d8%a7%d9%84%d8%a3%d9%85%d9%86%d9%8a-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d8%b6%d9%85%d9%86-%d8%a3%d8%b9%d9%84%d9%89/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-09T09:00:52Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI تصنّف نموذج GPT-6 Cyber الأمني الجديد ضمن أعلى مستويات الخطورة الحرجة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق DigiCert يكشف بيانات عملاء ووثائق هوية حساسة",
+      "url": "https://3arrafni.com/tech-news/digicert-data-breach-customer-id-documents",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-09T08:49:05Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق DigiCert يكشف بيانات عملاء ووثائق هوية حساسة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الحوسبة السحابية للشركات الصغيرة: ما هي وكيف تختار الخدمة المناسبة؟",
+      "url": "https://technologyarabia.com/archives/17875/cloud-computing-small-business-guide-saas-paas-iaas/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-09T08:47:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الحوسبة السحابية للشركات الصغيرة: ما هي وكيف تختار الخدمة المناسبة؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أذونات التطبيقات على الهاتف: كيف تراجع الوصول إلى الكاميرا والميكروفون والموقع؟",
+      "url": "https://technologyarabia.com/archives/17874/smartphone-app-permissions-privacy-camera-microphone-location/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-09T08:45:15Z",
       "category": "الهواتف والأجهزة",
-      "title_ar": "Kobo Stack: مزامنة الكتب الإلكترونية والملفات بين الأجهزة باشتراك شهري",
+      "title_ar": "أذونات التطبيقات على الهاتف: كيف تراجع الوصول إلى الكاميرا والميكروفون والموقع؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مفاتيح المرور Passkeys: كيف تسجّل الدخول دون كلمة مرور؟",
+      "url": "https://technologyarabia.com/archives/17873/passkeys-passwordless-sign-in-security-guide/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-09T08:43:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مفاتيح المرور Passkeys: كيف تسجّل الدخول دون كلمة مرور؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "من الشارقة إلى ملايين الشاشات.. عرب سات واتصالات تطلقان باقة فضائية جديدة",
+      "url": "https://techvoicearabia.com/arabsat-etisalat-badr-8-satellite-tv/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-09T08:13:22Z",
+      "category": "أخبار التقنية",
+      "title_ar": "من الشارقة إلى ملايين الشاشات.. عرب سات واتصالات تطلقان باقة فضائية جديدة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "معالج Renesas RZ/T2N يجمع التحكم في 4 محاور وتشغيل Linux بشريحة واحدة",
+      "url": "https://arabhardware.net/post-55120",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T08:13:02Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "معالج Renesas RZ/T2N يجمع التحكم في 4 محاور وتشغيل Linux بشريحة واحدة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "معالجات Intel Panther Lake تمنح الحواسب المحمولة القوية كفاءة أعلى وبطارية تدوم حتى 22 ساعة",
+      "url": "https://www.unlimit-tech.com/2026/11/%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a7%d8%aa-intel-panther-lake-%d8%aa%d9%85%d9%86%d8%ad-%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b3%d8%a8-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d9%82/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-09T08:00:31Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "معالجات Intel Panther Lake تمنح الحواسب المحمولة القوية كفاءة أعلى وبطارية تدوم حتى 22 ساعة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "نظارات Snap Specs للواقع المعزز: السعر والمواصفات وموعد الإطلاق",
+      "url": "https://3arrafni.com/tech-news/snap-specs-ar-glasses-price-features-release-date",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-09T07:54:05Z",
+      "category": "أخبار التقنية",
+      "title_ar": "نظارات Snap Specs للواقع المعزز: السعر والمواصفات وموعد الإطلاق",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث Assassin’s Creed Valhalla 1.8.0 يضيف New Game Plus أخيرًا",
+      "url": "https://arabhardware.net/post-55119",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T07:52:43Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث Assassin’s Creed Valhalla 1.8.0 يضيف New Game Plus أخيرًا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هندسة الشفرة الوراثية.. كيف يعيد الذكاء الاصطناعي تصميم مكونات الحياة؟",
+      "url": "https://www.aljazeera.net/tech/2026/11/9/%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%b4%d9%81%d8%b1%d8%a9-%d8%a7%d9%84%d9%88%d8%b1%d8%a7%d8%ab%d9%8a%d8%a9-%d9%83%d9%8a%d9%81-%d9%8a%d8%b9%d9%8a%d8%af-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-09T07:08:52Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "هندسة الشفرة الوراثية.. كيف يعيد الذكاء الاصطناعي تصميم مكونات الحياة؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "NASA تفتح باب التقديم لرواد الفضاء الجدد حتى 3 ديسمبر 2026",
+      "url": "https://3arrafni.com/tech-news/nasa-astronaut-applications-2026",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-09T06:59:05Z",
+      "category": "أخبار التقنية",
+      "title_ar": "NASA تفتح باب التقديم لرواد الفضاء الجدد حتى 3 ديسمبر 2026",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بثلاثة دولارات.. نماذج مفتوحة المصدر تنافس المغلقة في قدرات الاختراق",
+      "url": "https://www.aljazeera.net/tech/2026/11/9/%d9%86%d9%85%d8%a7%d8%b0%d8%ac-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d9%84%d8%a7-%d9%82%d9%8a%d9%88%d8%af-%d8%b3%d9%84%d8%a7%d8%ad-%d8%ac%d8%af%d9%8a%d8%af?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-09T06:32:18Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "بثلاثة دولارات.. نماذج مفتوحة المصدر تنافس المغلقة في قدرات الاختراق",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "خلل في Android Auto يمنع Gemini من الاتصال بالأسماء",
+      "url": "https://3arrafni.com/tech-news/android-auto-gemini-call-bug",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-09T06:04:05Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "خلل في Android Auto يمنع Gemini من الاتصال بالأسماء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "علاقة شخصية تقود رئيس إنفيديا إلى تحقيق بشأن التجسس لصالح الصين",
+      "url": "https://techvoicearabia.com/nvidia-jensen-huang-foreign-intelligence/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-09T05:17:53Z",
+      "category": "أخبار التقنية",
+      "title_ar": "علاقة شخصية تقود رئيس إنفيديا إلى تحقيق بشأن التجسس لصالح الصين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "قارب عسكري بلا طاقم بمدى 4600 كيلومتر.. أميركا توسع أسطولها الآلي",
+      "url": "https://techvoicearabia.com/saronic-mirage-autonomous-military-boat-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-09T04:27:10Z",
+      "category": "أخبار التقنية",
+      "title_ar": "قارب عسكري بلا طاقم بمدى 4600 كيلومتر.. أميركا توسع أسطولها الآلي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Coolpad تطلق هاتفها الجديد العريض الشاشة في الصين بسعر 150 دولار",
+      "url": "https://www.unlimit-tech.com/2026/11/coolpad-%d8%aa%d8%b7%d9%84%d9%82-%d9%87%d8%a7%d8%aa%d9%81%d9%87%d8%a7-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d8%a7%d9%84%d8%b9%d8%b1%d9%8a%d8%b6-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4%d8%a9-%d9%81%d9%8a-%d8%a7/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-08T21:00:54Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "Coolpad تطلق هاتفها الجديد العريض الشاشة في الصين بسعر 150 دولار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Huawei Mate 90 Fan Edition سيحتوي على تقنية تبريد متقدمة مستوحاة من الحواسيب",
+      "url": "https://www.tech-wd.com/wd/2026/11/08/huawei-mate-90-fan-edition-%d8%b3%d9%8a%d8%ad%d8%aa%d9%88%d9%8a-%d8%b9%d9%84%d9%89-%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%aa%d8%a8%d8%b1%d9%8a%d8%af-%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9-%d9%85%d8%b3%d8%aa/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-08T19:16:49Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Huawei Mate 90 Fan Edition سيحتوي على تقنية تبريد متقدمة مستوحاة من الحواسيب",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كاميرا سيلفي مربعة قادمة لهواتف Nova 18 وفقاً لتسريبات جديدة",
+      "url": "https://www.tech-wd.com/wd/2026/11/08/%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-%d8%b3%d9%8a%d9%84%d9%81%d9%8a-%d9%85%d8%b1%d8%a8%d8%b9%d8%a9-%d9%82%d8%a7%d8%af%d9%85%d8%a9-%d9%84%d9%87%d9%88%d8%a7%d8%aa%d9%81-nova-18-%d9%88%d9%81%d9%82%d8%a7/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-08T18:27:11Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "كاميرا سيلفي مربعة قادمة لهواتف Nova 18 وفقاً لتسريبات جديدة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب مواصفات كاميرات Huawei Nova 17 وNova 17 Pro وUltra",
+      "url": "https://www.tech-wd.com/wd/2026/11/08/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%85%d9%88%d8%a7%d8%b5%d9%81%d8%a7%d8%aa-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7%d8%aa-huawei-nova-17-%d9%88nova-17-pro-%d9%88ultra/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-08T18:22:44Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تسريب مواصفات كاميرات Huawei Nova 17 وNova 17 Pro وUltra",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أجهزة هواوي اللوحية تحصد 34% من السوق الصيني بنمو سنوي كبير",
+      "url": "https://www.tech-wd.com/wd/2026/11/08/%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%a7%d9%84%d9%84%d9%88%d8%ad%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b5%d8%af-34-%d9%85%d9%86-%d8%a7%d9%84%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d8%b5/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-08T18:18:46Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "أجهزة هواوي اللوحية تحصد 34% من السوق الصيني بنمو سنوي كبير",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Honor Power 3 يتبنى وحدتي فلاش خلفي لتحسين التصوير الفوتوغرافي",
+      "url": "https://www.tech-wd.com/wd/2026/11/08/honor-power-3-%d9%8a%d8%aa%d8%a8%d9%86%d9%89-%d9%88%d8%ad%d8%af%d8%aa%d9%8a-%d9%81%d9%84%d8%a7%d8%b4-%d8%ae%d9%84%d9%81%d9%8a-%d9%84%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d9%84%d8%aa%d8%b5%d9%88%d9%8a/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-08T18:12:21Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Honor Power 3 يتبنى وحدتي فلاش خلفي لتحسين التصوير الفوتوغرافي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تقنية لإنتاج الصور باستخدام بيكسل واحد",
+      "url": "https://www.bbc.com/arabic/watch/cm20vq3eg7plo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-08T14:37:57Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقنية لإنتاج الصور باستخدام بيكسل واحد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ميتا تتيح مكالمات مرئية تفاعلية مع شخصية Muse بالذكاء الاصطناعي",
+      "url": "https://arabhardware.net/post-55118",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-08T12:25:21Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "ميتا تتيح مكالمات مرئية تفاعلية مع شخصية Muse بالذكاء الاصطناعي",
       "translation_status": "original_ar"
     },
     {
@@ -43,106 +313,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ما هو الذكاء الاصطناعي التوليدي؟ وكيف ينتج النصوص والصور؟",
-      "url": "https://technologyarabia.com/archives/17859/what-is-generative-ai-how-it-works-arabic-guide/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-08T11:07:14Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ما هو الذكاء الاصطناعي التوليدي؟ وكيف ينتج النصوص والصور؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كيف تحمي شبكة الواي فاي المنزلية؟ دليل عملي لتأمين الراوتر والأجهزة المتصلة",
-      "url": "https://technologyarabia.com/archives/17857/protect-home-wifi-network-router-security-guide/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-08T11:04:28Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "كيف تحمي شبكة الواي فاي المنزلية؟ دليل عملي لتأمين الراوتر والأجهزة المتصلة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تطبيق Xbox على الحاسوب يصبح أسرع وتجربة السحابة تتوسع إلى شاشات أكثر",
-      "url": "https://arabhardware.net/post-55116",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-08T10:58:26Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تطبيق Xbox على الحاسوب يصبح أسرع وتجربة السحابة تتوسع إلى شاشات أكثر",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سوني تطرح سماعات الرأس السلكية MDR-3R بمنفذ iUSB-C®️ وتصميم عصري وفريد في المملكة العربية السعودية",
-      "url": "https://technologyarabia.com/archives/17861/%d8%b3%d9%88%d9%86%d9%8a-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a3%d8%b3-%d8%a7%d9%84%d8%b3%d9%84%d9%83%d9%8a%d8%a9-mdr-3r-%d8%a8%d9%85%d9%86%d9%81%d8%b0-i/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-08T10:53:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سوني تطرح سماعات الرأس السلكية MDR-3R بمنفذ iUSB-C®️ وتصميم عصري وفريد في المملكة العربية السعودية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Microsoft تستخدم الذكاء الاصطناعي لاكتشاف ثغرات Windows وتسريع إصلاحها",
-      "url": "https://arabhardware.net/post-55115",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-08T10:36:20Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "Microsoft تستخدم الذكاء الاصطناعي لاكتشاف ثغرات Windows وتسريع إصلاحها",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اختراق WorkOS ناتج عن وكيل قرصنة بالذكاء الاصطناعي أفلت من بيئته",
-      "url": "https://3arrafni.com/tech-news/workos-ai-agent-data-breach",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-08T10:34:58Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق WorkOS ناتج عن وكيل قرصنة بالذكاء الاصطناعي أفلت من بيئته",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "QNAP تحذر من هجمات Plex2Shell على أجهزة NAS: ما يجب فعله الآن",
-      "url": "https://3arrafni.com/tech-news/qnap-nas-plex2shell-attacks",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-08T09:39:58Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "QNAP تحذر من هجمات Plex2Shell على أجهزة NAS: ما يجب فعله الآن",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "قمة الويب 2026.. الذكاء الاصطناعي والروبوتات يتصدران المشهد في لشبونة",
-      "url": "https://www.aljazeera.net/tech/2026/11/8/%d9%82%d9%85%d8%a9-%d8%a7%d9%84%d9%88%d9%8a%d8%a8-2026-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-08T09:18:20Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "قمة الويب 2026.. الذكاء الاصطناعي والروبوتات يتصدران المشهد في لشبونة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Meta تضيف Spaces إلى Muse لإنشاء تطبيقات مصغرة عبر الدردشة",
-      "url": "https://3arrafni.com/tech-news/meta-muse-spaces-mini-apps",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-08T07:49:58Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "Meta تضيف Spaces إلى Muse لإنشاء تطبيقات مصغرة عبر الدردشة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "دبي تربط جميع إشارات المرور بمركز تحكم بالذكاء الاصطناعي بحلول 2027",
-      "url": "https://3arrafni.com/tech-news/dubai-ai-traffic-lights-2027",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-08T06:54:58Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "دبي تربط جميع إشارات المرور بمركز تحكم بالذكاء الاصطناعي بحلول 2027",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "الكونغرس الأمريكي يطلب إيضاحات من رئيس إنفيديا بشأن مزاعم تجسس صيني",
       "url": "https://aitnews.com/2026/11/08/%d8%a7%d9%84%d9%83%d9%88%d9%86%d8%ba%d8%b1%d8%b3-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d9%8a%d8%b7%d9%84%d8%a8-%d8%a5%d9%8a%d8%b6%d8%a7%d8%ad%d8%a7%d8%aa-%d9%85%d9%86-%d8%b1%d8%a6%d9%8a/",
       "source": "aitnews",
@@ -150,66 +320,6 @@
       "published_at": "2026-11-08T04:17:39Z",
       "category": "أخبار التقنية",
       "title_ar": "الكونغرس الأمريكي يطلب إيضاحات من رئيس إنفيديا بشأن مزاعم تجسس صيني",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مزاعم ارتباط جنسن هوانغ بسيدة يُشتبه في تجسسها لصالح الصين!",
-      "url": "https://arabhardware.net/post-55114",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-08T03:23:19Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مزاعم ارتباط جنسن هوانغ بسيدة يُشتبه في تجسسها لصالح الصين!",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الكشف رسميًا عن حجم تحميل GTA 6 وموعد التحميل المسبق على أجهزة Xbox",
-      "url": "https://arabhardware.net/post-55113",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-08T03:08:33Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "الكشف رسميًا عن حجم تحميل GTA 6 وموعد التحميل المسبق على أجهزة Xbox",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريبات تكشف عن لعبة Assassin's Creed جديدة تقع في روما القديمة",
-      "url": "https://arabhardware.net/post-55112",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-08T03:02:51Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسريبات تكشف عن لعبة Assassin's Creed جديدة تقع في روما القديمة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "موتورولا تطلق سماعات الأذن الجديدة Moto Buds 2 Ultra عالميا بتقنية الصوت الثلاثي الأبعاد Dolby Atmos وإلغاء الضوضاء",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%85%d9%88%d8%aa%d9%88%d8%b1%d9%88%d9%84%d8%a7-%d8%aa%d8%b7%d9%84%d9%82-%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b0%d9%86-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af%d8%a9-moto-buds-2-ult/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-07T21:30:24Z",
-      "category": "أخبار التقنية",
-      "title_ar": "موتورولا تطلق سماعات الأذن الجديدة Moto Buds 2 Ultra عالميا بتقنية الصوت الثلاثي الأبعاد Dolby Atmos وإلغاء الضوضاء",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "لينوفو تطلق شاشتها المحمولة الجديدة ThinkVision M16 عالميا بتصميم نحيف ومنفذي USB-C",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%84%d9%8a%d9%86%d9%88%d9%81%d9%88-%d8%aa%d8%b7%d9%84%d9%82-%d8%b4%d8%a7%d8%b4%d8%aa%d9%87%d8%a7-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af%d8%a9-thinkvisi/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-07T21:00:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لينوفو تطلق شاشتها المحمولة الجديدة ThinkVision M16 عالميا بتصميم نحيف ومنفذي USB-C",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هونر تكشف عن ثلاثة هواتف تشتمل على شاشات ثانوية وتستعد لإطلاق بكاميرا 200 ميجابكسل وبطارية 9000 ميلي أمبير",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%87%d9%88%d9%86%d8%b1-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%ab%d9%84%d8%a7%d8%ab%d8%a9-%d9%87%d9%88%d8%a7%d8%aa%d9%81-%d8%aa%d8%b4%d8%aa%d9%85%d9%84-%d8%b9%d9%84%d9%89-%d8%b4%d8%a7%d8%b4%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-07T20:30:32Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هونر تكشف عن ثلاثة هواتف تشتمل على شاشات ثانوية وتستعد لإطلاق بكاميرا 200 ميجابكسل وبطارية 9000 ميلي أمبير",
       "translation_status": "original_ar"
     },
     {
@@ -223,16 +333,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "موتورولا تطلق ساعتها الذكية Moto Watch Fit 27 بميزات رياضية من شركة بولار",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%85%d9%88%d8%aa%d9%88%d8%b1%d9%88%d9%84%d8%a7-%d8%aa%d8%b7%d9%84%d9%82-%d8%b3%d8%a7%d8%b9%d8%aa%d9%87%d8%a7-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-moto-watch-fit-27-%d8%a8%d9%85%d9%8a%d8%b2%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-07T20:00:48Z",
-      "category": "أخبار التقنية",
-      "title_ar": "موتورولا تطلق ساعتها الذكية Moto Watch Fit 27 بميزات رياضية من شركة بولار",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "ماسك يخطط لإطلاق حواسيب عملاقة إلى الفضاء في 2027",
       "url": "https://techvoicearabia.com/spacex-starmind-orbital-supercomputers-2027/",
       "source": "techvoice",
@@ -240,66 +340,6 @@
       "published_at": "2026-11-07T19:40:31Z",
       "category": "أخبار التقنية",
       "title_ar": "ماسك يخطط لإطلاق حواسيب عملاقة إلى الفضاء في 2027",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الصين تكشف مذيعين روبوتيين ببشرة بشرية.. هل يدخلان غرف الأخبار؟",
-      "url": "https://techvoicearabia.com/china-xinhua-bionic-humanoid-robot/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-07T19:25:13Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "الصين تكشف مذيعين روبوتيين ببشرة بشرية.. هل يدخلان غرف الأخبار؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Honor 700 Pro يأتي بميزات رصد معدل ضربات القلب والأكسجين في الدم",
-      "url": "https://www.tech-wd.com/wd/2026/11/07/honor-700-pro-%d9%8a%d8%a3%d8%aa%d9%8a-%d8%a8%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%b1%d8%b5%d8%af-%d9%85%d8%b9%d8%af%d9%84-%d8%b6%d8%b1%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d9%84%d8%a8-%d9%88%d8%a7%d9%84/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-07T12:38:40Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Honor 700 Pro يأتي بميزات رصد معدل ضربات القلب والأكسجين في الدم",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هواوي تجهز لإطلاق ساعة Watch Air فائقة النحافة وهواتف OSTA الأسبوع المقبل",
-      "url": "https://www.tech-wd.com/wd/2026/11/07/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%ac%d9%87%d8%b2-%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%b3%d8%a7%d8%b9%d8%a9-watch-air-%d9%81%d8%a7%d8%a6%d9%82%d8%a9-%d8%a7%d9%84%d9%86%d8%ad%d8%a7%d9%81/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-07T12:34:58Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هواوي تجهز لإطلاق ساعة Watch Air فائقة النحافة وهواتف OSTA الأسبوع المقبل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سامسونج تطرح Galaxy Buds On وSmartTag 3",
-      "url": "https://www.tech-wd.com/wd/2026/11/07/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%b7%d8%b1%d8%ad-galaxy-buds-on-%d9%88smarttag-3/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-07T12:23:39Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سامسونج تطرح Galaxy Buds On وSmartTag 3",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Honor تكشف رسميا عن سلسلة Honor 700 بشاشة خلفية صغيرة وتفتح الحجز",
-      "url": "https://www.tech-wd.com/wd/2026/11/07/honor-%d8%aa%d9%83%d8%b4%d9%81-%d8%b1%d8%b3%d9%85%d9%8a%d8%a7-%d8%b9%d9%86-%d8%b3%d9%84%d8%b3%d9%84%d8%a9-honor-700-%d8%a8%d8%b4%d8%a7%d8%b4%d8%a9-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d8%b5%d8%ba%d9%8a/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-07T12:21:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Honor تكشف رسميا عن سلسلة Honor 700 بشاشة خلفية صغيرة وتفتح الحجز",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Huawei Watch Fit 4 تصل بلون وردي جديد مع دعم NFC في الأسواق العالمية",
-      "url": "https://www.tech-wd.com/wd/2026/11/07/huawei-watch-fit-4-%d8%aa%d8%b5%d9%84-%d8%a8%d9%84%d9%88%d9%86-%d9%88%d8%b1%d8%af%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-%d9%85%d8%b9-%d8%af%d8%b9%d9%85-nfc-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d9%88%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-07T12:21:21Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Huawei Watch Fit 4 تصل بلون وردي جديد مع دعم NFC في الأسواق العالمية",
       "translation_status": "original_ar"
     },
     {
@@ -313,26 +353,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "AIQ تطور Genesis كنظام تشغيل مخصص لوكلاء الذكاء الاصطناعي في قطاع الطاقة",
-      "url": "https://techvoicearabia.com/aiq-genesis-ai-agent-operating-system-energy-sector/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-06T18:52:58Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "AIQ تطور Genesis كنظام تشغيل مخصص لوكلاء الذكاء الاصطناعي في قطاع الطاقة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "روبوت داربا يبني أول هيكل في الفضاء.. والهدف منشآت بطول كيلومترات",
-      "url": "https://techvoicearabia.com/darpa-nom4d-robot-first-space-assembly/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-06T18:30:27Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "روبوت داربا يبني أول هيكل في الفضاء.. والهدف منشآت بطول كيلومترات",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
       "url": "https://www.bbc.com/arabic/watch/cmlykq5k89djo?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
@@ -340,26 +360,6 @@
       "published_at": "2026-11-06T07:04:21Z",
       "category": "الأمن السيبراني",
       "title_ar": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
-      "url": "https://www.bbc.com/arabic/articles/c3j47kvlnnq2o?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-06T06:41:30Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كراودسترايك تطلق سحابة سيادية في السعودية وتستضيف بيانات فالكون محليًا",
-      "url": "https://aitnews.com/2026/11/05/crowdstrike-sovereign-cloud-saudi-arabia/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-05T15:18:09Z",
-      "category": "أخبار التقنية",
-      "title_ar": "كراودسترايك تطلق سحابة سيادية في السعودية وتستضيف بيانات فالكون محليًا",
       "translation_status": "original_ar"
     }
   ],
