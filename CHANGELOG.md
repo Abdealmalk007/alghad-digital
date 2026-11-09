@@ -126,3 +126,10 @@
 - Added 11 dedicated illustration previews, a featured showcase, searchable filters and product modals.
 
 Publication note: "مكتمل" denotes repository publication, not certified production QA for binary releases.
+
+## 2026-11-09 — ProTech Stone Manager + sharing
+- Enabled a verified public GitHub source ZIP download for ProTech Stone Manager on the Arabic/English homepage, software catalogs, and product detail pages.
+- Explicitly marked Windows Setup.exe as pending trusted code-signing; no unpublished or draft executable links.
+- Added accessible native and desktop-fallback sharing for software and news: WhatsApp, Telegram, X, copy link; news shares original publisher URLs.
+- Updated the Arabic SEO generator, English page generator, and prerendered homepage to retain these actions during future automatic rebuilds.
+- Passed source-link HTTP 200, cross-page Chrome interaction tests, and bilingual/static regressions.

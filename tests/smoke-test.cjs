@@ -49,7 +49,7 @@ for(const item of p){
   }
   assert.ok(Array.isArray(item.features)&&item.features.length>=3,item.id+": insufficient features");
   assert.ok(Array.isArray(item.platforms)&&item.platforms.length>=1);
-  assert.equal(item.displayStatus,item.status==="public"?"مكتمل":"قريبًا جدًا");
+  assert.equal(item.displayStatus,item.id==="stone"?"المصدر متاح · المثبت بانتظار التوقيع":item.status==="public"?"مكتمل":"قريبًا جدًا");
   assert.match(item.preview,/^assets\/previews\/[a-z0-9_-]+\.svg$/);
   const svg=read(item.preview);
   assert.match(svg,/<svg\b/);assert.match(svg,/<\/svg>/);

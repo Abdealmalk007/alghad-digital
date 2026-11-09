@@ -113,6 +113,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="{home}assets/seo-pages.css">
+  <link rel="stylesheet" href="/assets/share.css?v=1">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar_SA">
   <meta property="og:site_name" content="الغد ديجتال | Alghad Digital">
@@ -148,6 +149,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
       <a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>
     </div>
   </footer>
+  <script defer src="/assets/share.js?v=1"></script>
 </body>
 </html>
 """
@@ -169,6 +171,9 @@ def render_product(product: dict, downloads: dict) -> None:
     feature_html = "".join("<li>" + esc(feature) + "</li>" for feature in features[:5])
     repo = product.get("github", "")
     links = ""
+    if slug == "stone":
+        links += '<a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer" download>↓ تنزيل المصدر ZIP</a>'
+        links += '<span class="stone-release-pending">ملف تثبيت Windows (Setup.exe) بانتظار توقيع رقمي موثوق. لا يتوفر تنزيل عام للمثبت حاليًا.</span>'
     item = downloads.get(slug, {})
     release_url = item.get("release")
     if status and safe_repo(repo):
@@ -176,7 +181,8 @@ def render_product(product: dict, downloads: dict) -> None:
     if status and safe_release(release_url, item.get("repository", "")):
         links += f'<a class="button" href="{esc(release_url)}" rel="noopener noreferrer" target="_blank">الإصدار الرسمي وروابط التنزيل ↗</a>'
     elif status:
-        links += '<span class="muted">المستودع منشور، لكن لا تتوفر نسخة تحميل عامة مؤكدة لهذا البرنامج حاليًا.</span>'
+        if slug != 'stone':
+            links += '<span class="muted">المستودع منشور، لكن لا تتوفر نسخة تحميل عامة مؤكدة لهذا البرنامج حاليًا.</span>'
     else:
         links += '<span class="muted">هذا البرنامج قيد التطوير — قريبًا جدًا. لا توجد نسخة عامة متاحة للتنزيل.</span>'
 
@@ -207,11 +213,17 @@ def render_product(product: dict, downloads: dict) -> None:
         )
     elif preferred:
         release_details='<section class="more"><h2>معلومات الإصدار</h2><p>النسخة Beta متاحة عبر GitHub، ولم نتحقق من بصمة SHA-256 رقمية لعرضها حاليًا.</p></section>'
+    elif slug == 'stone':
+        release_details=('<section class="more"><h2>تنزيل المصدر وإتاحة Windows</h2>'
+          '<p>إصدار الرخام والبورسلان 2.0.0 جاهز للاختبار المحلي، والمصدر متاح للجمهور. '
+          'نسخة التثبيت العامة تنتظر توقيع Code Signing ولن نعرض رابطًا لمسودة غير متاحة.</p>'
+          '<p><a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">تنزيل المصدر المفتوح ZIP ↗</a></p>'
+          '<p>يمكن البناء من المصدر باتباع ملف README في المستودع. </p></section>')
     else:
         release_details='<section class="more"><h2>حالة الإتاحة</h2><p>لا يتوفر ملف تثبيت عام مؤكَّد لهذا البرنامج حاليًا؛ تابع حالة المشروع في مستودعه عند نشره.</p></section>'
 
     intent = PROGRAM_SEARCH_INTENTS[slug]
-    info = ("Beta / Preview" if preferred else "مستودع منشور بلا تنزيل" if status else "قريبًا")
+    info = ("المصدر متاح · المثبت بانتظار التوقيع" if slug == "stone" else "Beta / Preview" if preferred else "مستودع منشور بلا تنزيل" if status else "قريبًا")
     keywords = ", ".join([title, "الغد ديجتال", "ProTech", platform, str(product.get("category", ""))])
     meta = f'{title}، {intent} من ProTech (بروتك) على الغد ديجتال. {desc} الحالة: {info}.'
     content = f"""
@@ -275,7 +287,8 @@ def render_catalog(products: list) -> None:
         name = product["title"]
         category = product.get("category", "")
         state = "منشور" if product["status"] == "public" else "قريبًا جدًا"
-        items.append(f'<article class="directory-card"><h2><a href="{esc(slug)}/">{esc(name)}</a></h2><p>{esc(product.get("description", ""))}</p><span>{esc(category)} · {esc(state)}</span></article>')
+        link=('<p><a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">↓ تنزيل المصدر ZIP</a></p>' if slug=="stone" else "")
+        items.append(f'<article class="directory-card"><h2><a href="{esc(slug)}/">{esc(name)}</a></h2><p>{esc(product.get("description", ""))}</p><span>{esc(category)} · {esc(state)}</span>{link}</article>')
     text = f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / برامج ProTech</div>
       <span class="eyebrow">ALGHAD DIGITAL / PROTECH SOFTWARE</span>
       <h1>برامج ProTech على الغد ديجتال</h1>

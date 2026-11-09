@@ -49,7 +49,9 @@ const productBlock=html.slice(html.indexOf("<!-- PRE_RENDER_PRODUCTS_START -->")
 const releaseBlock=html.slice(html.indexOf("<!-- PRE_RENDER_DOWNLOADS_START -->"),
                               html.indexOf("<!-- PRE_RENDER_DOWNLOADS_END -->"));
 assert.ok(productBlock.includes('Beta · نسخة عامة للتجربة'));
-assert.ok(productBlock.includes('مستودع منشور · التنزيل غير متاح'));
+assert.ok(productBlock.includes('المصدر متاح · المثبت بانتظار التوقيع'));
+assert.ok(productBlock.includes('تنزيل المصدر ZIP'));
+assert.ok(productBlock.includes('https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip'));
 assert.ok(productBlock.includes('قريبًا'));
 assert.ok(releaseBlock.includes('SHA-256'));
 assert.equal((releaseBlock.match(/https:\/\/github\.com\/Abdealmalk007\//g)||[]).length>=8,true);

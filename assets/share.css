@@ -1,0 +1,86 @@
+/* Alghad Digital — accessible share controls, mobile-native and desktop fallback. */
+.alghad-share-button {
+  appearance: none;
+  background: rgba(233,247,248,.95);
+  color: #103e52;
+  border: 1px solid #77b3bc;
+  border-radius: 10px;
+  padding: .62rem .85rem;
+  font: 700 .88rem/1.25 inherit;
+  font-family: inherit;
+  font-weight: 750;
+  font-size: .9rem;
+  line-height: 1.35;
+  cursor: pointer;
+  min-height: 40px;
+  white-space: normal;
+  text-align: center;
+  transition: background .15s, border-color .15s;
+}
+.alghad-share-button:hover, .alghad-share-button[aria-expanded="true"] {
+  color: #08283b;
+  background: #d1eef1;
+  border-color: #3f9aa5;
+}
+.alghad-share-button:focus-visible, .alghad-share-option:focus-visible {
+  outline: 3px solid #2f95a7;
+  outline-offset: 3px;
+}
+.alghad-share-panel {
+  position: fixed !important;
+  z-index: 2147483640;
+  width: 230px;
+  max-width: calc(100vw - 24px);
+  border: 1px solid #a3c4cc;
+  background: #ffffff;
+  color: #172b40;
+  box-shadow: 0 15px 38px rgba(6,27,48,.24);
+  border-radius: 12px;
+  padding: 7px;
+  direction: rtl;
+  text-align: right;
+}
+.alghad-share-panel[hidden] { display: none !important; }
+.alghad-share-option {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  background: transparent;
+  color: #173a52 !important;
+  text-align: right;
+  text-decoration: none !important;
+  border: 0;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: .94rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+.alghad-share-option:hover { background: #e7f3f6; }
+.alghad-share-status { display: block; min-height: 1em; color: #116c4d; font-size: .82rem; padding: 0 10px; }
+.editorial-story-footer .alghad-share-button,
+.news-article .alghad-share-button,
+.en-news-card .alghad-share-button {
+  margin-block-start: 10px;
+  font-size: .83rem;
+}
+.pre-product-actions .alghad-share-button,
+.card-actions .alghad-share-button,
+.en-product-actions .alghad-share-button { flex-shrink: 0; }
+.stone-source-download,
+.stone-source-download:visited { background: #087e78 !important; color: #ffffff !important; border-color: #087e78 !important; }
+.stone-source-download:hover { background: #09635f !important; color: #ffffff !important; }
+.stone-release-pending {
+  display: inline-block; padding: .65rem .85rem; border-radius: 9px;
+  background: rgba(240,247,248,.12); border: 1px solid #759ba6;
+  color: inherit; font-size: .85rem; line-height: 1.55;
+}
+@media (max-width:600px) {
+  .alghad-share-button { min-height: 44px; }
+  .alghad-share-panel { width: min(230px,calc(100vw - 24px)); }
+}
+
+html[lang="en"] .alghad-share-panel { direction: ltr; text-align: left; }
+html[lang="en"] .alghad-share-option { text-align: left; }
+

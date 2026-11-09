@@ -55,6 +55,6 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
     release: null,
     checksum: null,
     files: [],
-    note:"المستودع منشور، لكن لا يوجد إصدار تنزيل عام متاح حاليًا. رابط untagged الذي قد يظهر للمالك ليس رابط تنزيل عامًا."
+    note:"المصدر متاح للتنزيل كملف ZIP من المستودع العام. مثبت Windows Setup.exe بانتظار توقيع Code Signing؛ لا رابط تثبيت عام بعد."
   }
 });

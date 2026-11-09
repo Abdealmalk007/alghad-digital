@@ -31,7 +31,7 @@ window.AL_GHAD_PRODUCTS = [
     "release": null,
     "preview": "assets/previews/stone.svg",
     "previewAlt": "تصميم توضيحي لواجهة ProTech Stone Manager",
-    "displayStatus": "مكتمل"
+    "displayStatus": "المصدر متاح · المثبت بانتظار التوقيع"
   },
   {
     "id": "marble",

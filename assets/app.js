@@ -39,7 +39,7 @@
         typeof f.url==="string" &&
         f.url.startsWith("https://github.com/Abdealmalk007/"+item.repository+"/releases/download/"));
   };
-  const readinessText = p => publicPreview(p) ? "Beta · نسخة تجريبية" :
+  const readinessText = p => p.id==="stone" ? "المصدر متاح · المثبت قيد التوقيع" : publicPreview(p) ? "Beta · نسخة تجريبية" :
     isComplete(p) ? "مستودع منشور" : "قريبًا";
   const tag = p => '<span class="status ' + (isComplete(p) ? 'status-public' : 'status-dev') +
     '"><span class="status-dot" aria-hidden="true"></span>' + readinessText(p) + "</span>";
@@ -73,6 +73,7 @@
       '<div class="card-actions"><button class="card-detail" type="button" data-detail="',tx(p.id),'" aria-label="تفاصيل ',tx(p.title),'">اكتشف البرنامج <span aria-hidden="true">↗</span></button>',
       gh ? '<a class="card-link" href="'+gh+'" target="_blank" rel="noopener noreferrer" aria-label="مستودع GitHub لـ '+tx(p.title)+'">GitHub <span aria-hidden="true">↗</span></a>' :
         '<span class="card-unavailable">الإطلاق قريبًا</span>',
+      p.id==="stone" ? '<a class="card-link stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">↓ تنزيل المصدر ZIP</a>' : '',
       '</div></article>'
     ].join("");
   }

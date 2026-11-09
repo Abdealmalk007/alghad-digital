@@ -94,7 +94,8 @@ def brand_card(product:dict,download:dict,wide:bool=False)->str:
     preferred=next((f for f in release.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),repo)),None)
     published=product["status"]=="public"
     badge="Preview download" if preferred and published else ("Repository published" if published else "Coming soon")
-    action=(external(preferred["url"],"Download preview","en-btn en-btn-primary")
+    action=(external("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","Download source ZIP","en-btn en-btn-primary stone-source-download") if slug=="stone" else
+            external(preferred["url"],"Download preview","en-btn en-btn-primary")
             if preferred and published else internal("/en/programs/"+slug+"/","View product","en-btn en-btn-outline"))
     preview=product.get("preview","")
     assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.svg",preview)
@@ -114,6 +115,9 @@ def release_info(product:dict,download:dict,facts:dict)->str:
     repo=entry.get("repository","")
     files=[x for x in entry.get("files",[]) if seo.safe_release(x.get("url",""),repo)]
     if not files:
+        if slug=="stone":
+            return ('<section class="en-detail-block"><h2>Source download and Windows installer</h2><p>Download the public source ZIP from GitHub. The Windows Setup.exe is awaiting trusted Code Signing and is not publicly available yet.</p>'
+                    '<p><a class="en-btn en-btn-primary stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">Download source ZIP</a></p></section>')
         if product["status"]=="public":
             return '<section class="en-detail-block"><h2>Download availability</h2><p>The repository is public, but a downloadable public release has not been verified. Visit the repository for updates.</p></section>'
         return '<section class="en-detail-block"><h2>Development status</h2><p>This product is still in development. A verified public installer or APK is not available.</p></section>'
@@ -173,6 +177,7 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/assets/en.css">
+  <link rel="stylesheet" href="/assets/share.css?v=1">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Alghad Digital">
   <meta property="og:locale" content="en_US">
@@ -202,7 +207,8 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
     <div><strong>Alghad Digital</strong><p>ProTech software for business, design and productivity.</p></div>
     <nav aria-label="Footer navigation">{internal("/en/about/","About")} {internal("/en/privacy/","Privacy")} {internal("/en/security/","Software safety")} {internal("/en/protech/","Developer")} {internal("/","العربية (AR)")}</nav>
     <a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>
-  </div></footer>
+  </footer>
+  <script defer src="/assets/share.js?v=1"></script>
 </body>
 </html>
 """
@@ -281,16 +287,17 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
     image=product["preview"]
     facts_html=release_info(product,downloads,facts)
     state="Published — preview release" if downloads.get(slug,{}).get("files") else "In development" if product["status"]=="dev" else "Published repository; no verified public installer"
-    if slug=="stone":state="Published repository; no verified public installer"
+    if slug=="stone":state="Source ZIP available; Windows installer awaiting code-signing"
     features_html="".join(f"<li>{esc(v)}</li>" for v in features)
     github=external(product.get("github",""),"GitHub repository","en-btn en-btn-outline") if seo.safe_repo(product.get("github","")) else ""
+    source_button=external("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","Download source ZIP","en-btn en-btn-primary stone-source-download") if slug=="stone" else ""
     content=f"""
       <div class="en-breadcrumbs">{internal("/en/","Home")} / {internal("/en/programs/","Software")} / {esc(product['title'])}</div>
       <div class="en-detail-layout"><div>{hero("PROTECH SOFTWARE · "+", ".join(product["platforms"]),product["title"],summary)}
         <div class="en-chips"><span>{esc(state)}</span><span>{esc(", ".join(product["platforms"]))}</span></div>
         <h2>What it does</h2><p>{esc(tagline)} — {esc(summary)}</p>
         <h2>Key capabilities</h2><ul class="en-features">{features_html}</ul>
-        <div class="en-actions">{github}{internal("/en/programs/","Browse all software","en-btn en-btn-outline")}</div>
+        <div class="en-actions">{github}{source_button}{internal("/en/programs/","Browse all software","en-btn en-btn-outline")}</div>
       </div><aside class="en-detail-image"><img src="/{esc(image)}" alt="Illustration of {esc(product['title'])}" width="960" height="540" loading="lazy"><p>Illustrative project artwork; not a verified application screenshot.</p></aside></div>
       {facts_html}
       <section class="en-info-block"><h2>Questions and release information</h2>

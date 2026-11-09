@@ -73,9 +73,12 @@ for i,id in enumerate(ids):
     entry,featured=recommended(id)
     status=("Beta · نسخة عامة للتجربة" if featured else
             "مستودع منشور · التنزيل غير متاح" if p["status"]=="public" else "قريبًا")
+    if id=="stone": status="المصدر متاح · المثبت بانتظار التوقيع"
     label=(f"الإصدار {entry['version']} · تجريبي" if featured else
            "المستودع منشور على GitHub" if p["status"]=="public" else "قيد التطوير")
     links=anchor(f"programs/{id}/","تفاصيل البرنامج","pre-product-details")
+    if id=="stone":
+        links+=anchor("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","↓ تنزيل المصدر ZIP","pre-product-download stone-source-download",True)
     if featured:
         links+=anchor(featured["url"],"تنزيل الإصدار الرسمي","pre-product-download",True)
     card=f'''<article class="pre-product-card" data-prerender-product="{esc(id)}">
