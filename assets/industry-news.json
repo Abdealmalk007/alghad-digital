@@ -1,10 +1,36 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T11:17:59Z",
+  "generated_at": "2026-11-09T13:09:19Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "AMD EPYC Expands Its Leadership at the Foundation of AI",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
+          "source": "amd",
+          "source_name": "AMD",
+          "published_at": "2026-11-09T13:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "AMD EPYC توسع ريادتها في تأسيس الذكاء الاصطناعي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-09T13:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "أحدث TPUs لدينا: 8tx و 8i Max، المصممة للعصر الوكيل",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
           "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
@@ -201,19 +227,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "We’re providing funding for organizations building AI for teachers.",
-          "url": "https://blog.google/products-and-platforms/products/education/google-org-funding-ai-education/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-03T14:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "نحن نقدم التمويل للمنظمات التي تبني الذكاء الاصطناعي للمعلمين.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "The latest AI news we announced in October 2026",
           "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
           "source": "googleai",
@@ -225,25 +238,51 @@
           "title_ar": "آخر أخبار الذكاء الاصطناعي التي أعلناها في أكتوبر 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
-          "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
-          "source": "microsoft",
-          "source_name": "Microsoft",
-          "published_at": "2026-10-28T16:51:35Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "تقديم تسخير Microsoft Copilot: إطلاق العنان لإمكانات العمل الوكيل متعدد النماذج حقًا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "AMD EPYC Expands Its Leadership at the Foundation of AI",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
+          "source": "amd",
+          "source_name": "AMD",
+          "published_at": "2026-11-09T13:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "AMD EPYC توسع ريادتها في تأسيس الذكاء الاصطناعي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-09T13:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "أحدث TPUs لدينا: 8tx و 8i Max، المصممة للعصر الوكيل",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Holiday 100: Your guide to this year’s top trending gifts",
+          "url": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-09T12:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "عطلة 100: دليلك لأفضل الهدايا لهذا العام",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
           "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
@@ -349,32 +388,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Transform a quick drawing into a live app with Gemini.",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-05T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "حوّل الرسم السريع إلى تطبيق مباشر باستخدام Gemini.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Check out our free livestream during National Veterans Small Business Week.",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/national-veterans-small-business-week-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-05T14:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "ألقِ نظرة على بثنا المباشر المجاني خلال أسبوع الأعمال الصغيرة للمحاربين القدامى الوطنيين.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Beyond the Medal: Samsung Helps Young Athletes Explore What Comes Next at Dakar 2026",
           "url": "https://news.samsung.com/global/beyond-the-medal-samsung-helps-young-athletes-explore-what-comes-next-at-dakar-2026",
           "source": "samsung",
@@ -462,19 +475,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "أبطال سامسونج الأولمبيون الشباب في داكار 2026، أول حدث أولمبي على الإطلاق في القارة الأفريقية",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Samsung Electronics Announces Third Quarter 2026 Results",
-          "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
-          "source": "samsung",
-          "source_name": "Samsung",
-          "published_at": "2026-10-29T10:10:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "سامسونج للإلكترونيات تعلن عن نتائج الربع الثالث من عام 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
