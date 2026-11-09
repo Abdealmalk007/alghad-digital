@@ -21,13 +21,17 @@ for(const filename of pages){
   assert.doesNotMatch(html,/releases\/tag\/untagged|releases\/download\/v2\.0\.0\/Setup\.exe/);
 }
 for(const filename of ["index.html","programs/index.html","programs/stone/index.html",
-                        "en/index.html","en/programs/index.html","en/programs/stone/index.html"]){
+                        "en/programs/stone/index.html"]){
   assert.ok(read(filename).includes(archive),filename+" missing active source download");
 }
 assert.ok(arabic.includes('data-prerender-product="stone"'));
-assert.ok(english.includes("Download source ZIP"));
-assert.ok(read("programs/stone/index.html").includes("Setup.exe"));
+assert.ok(english.includes("Download UNSIGNED preview"));
+assert.ok(read("programs/stone/index.html").includes("ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe"));
 assert.ok(read("programs/stone/index.html").includes("توقيع"));
+for(const file of ["index.html","en/index.html","programs/index.html","en/programs/index.html","programs/stone/index.html","en/programs/stone/index.html"]){
+  assert.ok(read(file).includes("https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe"),file+" missing unsigned preview download");
+}
+assert.ok(read("assets/downloads.js").includes("UNSIGNED Preview"));
 const js=read("assets/share.js");
 assert.ok(js.includes("navigator.share"));
 for(const destination of ["api.whatsapp.com","t.me/share/url","twitter.com/intent/tweet","navigator.clipboard"]) {

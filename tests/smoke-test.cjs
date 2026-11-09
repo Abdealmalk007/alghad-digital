@@ -12,8 +12,8 @@ vm.runInNewContext(read("assets/downloads.js"),ctx,{timeout:1000});
 const manifest=ctx.window.AL_GHAD_DOWNLOADS;
 const p=ctx.window.AL_GHAD_PRODUCTS;
 assert.equal(Object.keys(manifest).length,5,"Five published projects must have release records");
-const four=["download","hr","marble","reports"];
-for(const id of four){
+const five=["stone","download","hr","marble","reports"];
+for(const id of five){
   const d=manifest[id];
   const product=p.find(x=>x.id===id);
   assert.ok(product && product.status==="public",id);
@@ -29,8 +29,8 @@ for(const id of four){
     assert.ok(!/debug/i.test(asset.url),"Never promote a Debug binary: "+asset.url);
   }
 }
-assert.equal(manifest.stone.files.length,0,"Stone public release is not currently available");
-assert.equal(manifest.stone.release,null);
+assert.equal(manifest.stone.files.length,1,"Unsigned preview is publicly available");
+assert.match(manifest.stone.release,/v2\.0\.0-unsigned-preview$/);
 
 assert.ok(Array.isArray(p));
 assert.equal(p.length,10,"The public catalog must contain 10 products");
@@ -49,7 +49,7 @@ for(const item of p){
   }
   assert.ok(Array.isArray(item.features)&&item.features.length>=3,item.id+": insufficient features");
   assert.ok(Array.isArray(item.platforms)&&item.platforms.length>=1);
-  assert.equal(item.displayStatus,item.id==="stone"?"المصدر متاح · المثبت بانتظار التوقيع":item.status==="public"?"مكتمل":"قريبًا جدًا");
+  assert.equal(item.displayStatus,item.id==="stone"?"Preview · مُثبّت Windows غير موقّع رقميًا":item.status==="public"?"مكتمل":"قريبًا جدًا");
   assert.match(item.preview,/^assets\/previews\/[a-z0-9_-]+\.svg$/);
   const svg=read(item.preview);
   assert.match(svg,/<svg\b/);assert.match(svg,/<\/svg>/);
@@ -100,4 +100,4 @@ for(const key of ['id="sort-products"','id="compare-tray"','id="compare-dialog"'
 for(const word of ["hydrateCompareButtons","renderComparison","?app","selected.size"])assert.ok(read("assets/v3.js").includes(word)||word==="?app",word);
 const js=read("assets/app.js");
 for(const word of ['"مكتمل"','"قريبًا جدًا"',"renderFeatured","aria-label"])assert.ok(js.includes(word));
-console.log("PASS: 10 projects, 5 public repos, 5 upcoming, 4 verified public release downloads, recorder excluded, HTTPS and CSP.");
+console.log("PASS: 10 projects, 5 public repos, 5 upcoming, 5 verified public release downloads, recorder excluded, HTTPS and CSP.");

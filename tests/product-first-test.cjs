@@ -34,7 +34,7 @@ assert.ok(html.includes('href="#contact" class="button button-sm button-primary 
 assert.ok(!html.includes('info@alghad.digital'),"Do not publicize unconfigured domain email");
 const marks=[
  ["PRODUCTS",10,"data-prerender-product"],
- ["DOWNLOADS",4,"data-prerender-release"],
+ ["DOWNLOADS",5,"data-prerender-release"],
  ["NEWS",4,'class="pre-news-row"']
 ];
 for(const [part,count,needle] of marks){
@@ -49,7 +49,7 @@ const productBlock=html.slice(html.indexOf("<!-- PRE_RENDER_PRODUCTS_START -->")
 const releaseBlock=html.slice(html.indexOf("<!-- PRE_RENDER_DOWNLOADS_START -->"),
                               html.indexOf("<!-- PRE_RENDER_DOWNLOADS_END -->"));
 assert.ok(productBlock.includes('Beta · نسخة عامة للتجربة'));
-assert.ok(productBlock.includes('المصدر متاح · المثبت بانتظار التوقيع'));
+assert.ok(productBlock.includes('Preview · مثبت Windows غير موقّع'));
 assert.ok(productBlock.includes('تنزيل المصدر ZIP'));
 assert.ok(productBlock.includes('https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip'));
 assert.ok(productBlock.includes('قريبًا'));
@@ -83,7 +83,7 @@ if(fs.existsSync(facts)){
  const f=JSON.parse(fs.readFileSync(facts,"utf8"));
  assert.equal(f.version,1);
  for(const [id,entry] of Object.entries(f.releases)){
-  assert.ok(["marble","hr","reports","download"].includes(id));
+  assert.ok(["stone","marble","hr","reports","download"].includes(id));
   assert.equal(entry.prerelease,true);
   assert.ok(Number.isFinite(Date.parse(entry.published_at)));
   for(const asset of entry.assets){

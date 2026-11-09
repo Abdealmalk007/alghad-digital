@@ -65,7 +65,7 @@ async function main(){
     dynamicProductCards:(outer.match(/class="product-card neo-card"/g)||[]).length,
   };
   assert.equal(counts.preRenderedProducts,10,JSON.stringify(counts));
-  assert.equal(counts.preRenderedDownloads,4,JSON.stringify(counts));
+  assert.equal(counts.preRenderedDownloads,5,JSON.stringify(counts));
   assert.equal(counts.preRenderedNews,4,JSON.stringify(counts));
   assert.equal(counts.dynamicProductCards,0,JSON.stringify(counts));
   assert.ok(outer.indexOf('id="products"')<outer.indexOf('id="news"'));

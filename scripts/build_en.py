@@ -94,8 +94,8 @@ def brand_card(product:dict,download:dict,wide:bool=False)->str:
     preferred=next((f for f in release.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),repo)),None)
     published=product["status"]=="public"
     badge="Preview download" if preferred and published else ("Repository published" if published else "Coming soon")
-    action=(external("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","Download source ZIP","en-btn en-btn-primary stone-source-download") if slug=="stone" else
-            external(preferred["url"],"Download preview","en-btn en-btn-primary")
+    action=(external("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","Download source ZIP","en-btn en-btn-primary stone-source-download") if slug=="stone" and not preferred else
+            external(preferred["url"],"Download UNSIGNED preview" if slug=="stone" else "Download preview","en-btn en-btn-primary")
             if preferred and published else internal("/en/programs/"+slug+"/","View product","en-btn en-btn-outline"))
     preview=product.get("preview","")
     assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.svg",preview)
@@ -245,7 +245,7 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
         preferred=next((f for f in entry.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),entry.get("repository",""))),None)
         if preferred:
             releases.append(f'<article class="en-release-card"><div><strong>{esc(p["title"])}</strong><p>Preview v{esc(entry.get("version",""))} · {esc(", ".join(p.get("platforms",[])))}</p></div>{external(preferred["url"],"Download preview","en-btn en-btn-primary")}</article>')
-    assert len(releases)==4
+    assert len(releases)==5
     from_news=industry["topics"]["ai"]["articles"][:3]+industry["topics"]["companies"]["articles"][:3]
     home=f"""
     <section class="en-hero">
@@ -253,7 +253,7 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
         <h1>Software that helps you <span>work smarter.</span></h1>
         <p>Discover ProTech applications for business management, kitchen design, materials, productivity and Android. Explore their features and verified release availability in one place.</p>
         <div class="en-actions">{internal("/en/programs/","Explore our software","en-btn en-btn-primary")}{internal("#downloads","Official downloads","en-btn en-btn-outline")}</div>
-        <p class="en-hero-note">10 software projects · 4 verified preview downloads · official GitHub links</p>
+        <p class="en-hero-note">10 software projects · 5 verified preview downloads · official GitHub links</p>
       </div>
       <div class="en-hero-visual"><img src="/assets/previews/kitchen.svg" alt="Kitchen CAD Pro illustrative preview" width="960" height="540"><div><strong>Kitchen CAD Pro</strong><span>DESIGN · PLANNING · 3D</span></div></div>
     </section>

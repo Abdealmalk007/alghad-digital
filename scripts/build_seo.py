@@ -173,7 +173,8 @@ def render_product(product: dict, downloads: dict) -> None:
     links = ""
     if slug == "stone":
         links += '<a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer" download>↓ تنزيل المصدر ZIP</a>'
-        links += '<span class="stone-release-pending">ملف تثبيت Windows (Setup.exe) بانتظار توقيع رقمي موثوق. لا يتوفر تنزيل عام للمثبت حاليًا.</span>'
+        links += '<a class="button stone-unsigned-preview" href="https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe" target="_blank" rel="noopener noreferrer">↓ تنزيل مثبت Windows EXE (Preview غير موقّع)</a>'
+        links += '<span class="stone-release-pending">تنبيه: هذه نسخة Preview غير موقّعة رقميًا؛ قد يظهر Windows SmartScreen. تحقّق من SHA256 واختبرها أولًا.</span>'
     item = downloads.get(slug, {})
     release_url = item.get("release")
     if status and safe_repo(repo):
@@ -223,7 +224,7 @@ def render_product(product: dict, downloads: dict) -> None:
         release_details='<section class="more"><h2>حالة الإتاحة</h2><p>لا يتوفر ملف تثبيت عام مؤكَّد لهذا البرنامج حاليًا؛ تابع حالة المشروع في مستودعه عند نشره.</p></section>'
 
     intent = PROGRAM_SEARCH_INTENTS[slug]
-    info = ("المصدر متاح · المثبت بانتظار التوقيع" if slug == "stone" else "Beta / Preview" if preferred else "مستودع منشور بلا تنزيل" if status else "قريبًا")
+    info = ("Preview · مثبت Windows غير موقّع" if slug == "stone" and preferred else "المصدر متاح · المثبت بانتظار التوقيع" if slug == "stone" else "Beta / Preview" if preferred else "مستودع منشور بلا تنزيل" if status else "قريبًا")
     keywords = ", ".join([title, "الغد ديجتال", "ProTech", platform, str(product.get("category", ""))])
     meta = f'{title}، {intent} من ProTech (بروتك) على الغد ديجتال. {desc} الحالة: {info}.'
     content = f"""
@@ -287,7 +288,14 @@ def render_catalog(products: list) -> None:
         name = product["title"]
         category = product.get("category", "")
         state = "منشور" if product["status"] == "public" else "قريبًا جدًا"
-        link=('<p><a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">↓ تنزيل المصدر ZIP</a></p>' if slug=="stone" else "")
+        if slug == "stone":
+            link = (
+                '<p><a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">↓ تنزيل المصدر ZIP</a> '
+                '<a class="button stone-unsigned-preview" href="https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe" target="_blank" rel="noopener noreferrer">↓ تنزيل مثبت Windows EXE (Preview غير موقّع)</a></p>'
+                '<p class="muted">نسخة تجريبية غير موقّعة رقميًا، وقد يظهر تحذير Windows SmartScreen؛ تحقّق من بصمة SHA256.</p>'
+            )
+        else:
+            link = ""
         items.append(f'<article class="directory-card"><h2><a href="{esc(slug)}/">{esc(name)}</a></h2><p>{esc(product.get("description", ""))}</p><span>{esc(category)} · {esc(state)}</span>{link}</article>')
     text = f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / برامج ProTech</div>
       <span class="eyebrow">ALGHAD DIGITAL / PROTECH SOFTWARE</span>
@@ -437,7 +445,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             +'<a class="brand-card-link" href="../programs/'+esc(slug)+'/">المميزات والإصدارات الرسمية ←</a>'
             +'</article>'
         )
-    assert len(cards)==10 and public_downloads==4
+    assert len(cards)==10 and public_downloads==5
     body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / Pro Tech</div>
       <span class="eyebrow">PRO TECH / PROTECH SOFTWARE</span>
       <h1>Pro Tech (بروتك) — برامج الغد ديجتال</h1>

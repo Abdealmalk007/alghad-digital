@@ -126,7 +126,7 @@ async function main() {
     assert.ok(mainOrder.indexOf("downloads")<mainOrder.indexOf("news"));
     const badges=await evaluate('([...document.querySelectorAll(".product-card .status")].map(s=>s.textContent.trim()))');
     assert.ok(badges.some(s=>s.includes("Beta")),"Preview releases must be marked Beta");
-    assert.ok(badges.some(s=>s.includes("مستودع منشور")),"Repository only is not a signed installer");
+    assert.ok(badges.some(s=>s.includes("مثبت غير موقّع")),"Repository only is not a signed installer");
     assert.ok(badges.some(s=>s.includes("قريبًا")),"Upcoming products must be honest");
     const badNewsLinks=await evaluate('([...document.querySelectorAll(".editorial-headline-link")].filter(a=>a.protocol!=="https:").length)');
     assert.equal(badNewsLinks,0,"All article links should use HTTPS");
@@ -141,8 +141,8 @@ async function main() {
     assert.equal(await evaluate('document.querySelectorAll(".windows-tool-card").length'),8);
 
     const showcase=await evaluate('({cards:document.querySelectorAll(".showcase-release").length,downloads:document.querySelectorAll(".showcase-release-cta").length,security:!!document.getElementById("security"),navDownloads:!!document.querySelector(\'.nav a[href="#downloads"]\'),title:document.getElementById("downloads-title")?.textContent})');
-    assert.equal(showcase.cards,5,"Four public release cards plus unavailable Stone Manager");
-    assert.equal(showcase.downloads,4,"Four official GitHub downloads");
+    assert.equal(showcase.cards,5,"Five verified release cards including unsigned Stone Manager");
+    assert.equal(showcase.downloads,5,"Five official GitHub downloads");
     assert.equal(showcase.security,true,"Security information section should exist");
     assert.equal(showcase.navDownloads,true,"Downloads should be discoverable in navigation");
     const unsafe=await evaluate('([...document.querySelectorAll(".showcase-release-cta")].filter(a=>!a.href.startsWith("https://github.com/Abdealmalk007/")).length)');
@@ -150,10 +150,10 @@ async function main() {
     let downloadCount=0;
     for(let i=0;i<40;i++){
       downloadCount=await evaluate('document.querySelectorAll(".direct-download-card").length');
-      if(downloadCount===4) break;
+      if(downloadCount===5) break;
       await delay(100);
     }
-    assert.equal(downloadCount,4,"Four publicly downloadable cards");
+    assert.equal(downloadCount,5,"Five publicly downloadable cards");
     assert.equal(await evaluate('window.AL_GHAD_PRODUCTS.some(p=>p.id==="recorder")'),false);
     assert.equal(await evaluate('document.querySelector(\'[data-id="recorder"]\')===null'),true);
     assert.equal(await evaluate('document.getElementById("stat-apps").textContent'),"10");
@@ -164,7 +164,7 @@ async function main() {
     await evaluate('(() => { const s=document.querySelector("#search");s.value="";s.dispatchEvent(new Event("input",{bubbles:true})); })()');
     assert.ok(await evaluate('Boolean(document.getElementById("back-to-top-floating"))'));
 
-    for(const [id,expected] of Object.entries({download:2,hr:2,marble:2,reports:1,stone:0})){
+    for(const [id,expected] of Object.entries({download:2,hr:2,marble:2,reports:1,stone:1})){
       const hrefs=await evaluate('([...document.querySelectorAll(".direct-download-card")].map(a=>a.getAttribute("href")) )');
       for(const href of hrefs) assert.match(href,/^https:\/\/github\.com\/Abdealmalk007\//);
       await evaluate('document.querySelector(\'[data-detail="'+id+'"]\').click()');
@@ -192,7 +192,7 @@ async function main() {
     assert.notEqual(initial,sorted,"Sorting must rearrange cards");
     await evaluate('document.querySelector("[data-filter=public]").click()');
     assert.equal(await evaluate('document.querySelectorAll(".product-card").length'),5);
-    assert.equal(await evaluate('document.querySelectorAll(".direct-download-card").length'),4);
+    assert.equal(await evaluate('document.querySelectorAll(".direct-download-card").length'),5);
     await evaluate('document.querySelector("[data-filter=all]").click()');
     await evaluate('Array.from(document.querySelectorAll(".compare-toggle")).slice(0,2).forEach(b=>b.click());document.getElementById("compare-open").click()');
     assert.equal(await evaluate('document.getElementById("compare-dialog").open'),true);
@@ -330,7 +330,7 @@ async function main() {
         assert.equal(count,10,"English cards visible");
         const filters=await evaluate('({hasSearch:!!document.querySelector("#en-search"),count:document.querySelectorAll(".en-release-card").length})');
         assert.equal(filters.hasSearch,true);
-        assert.equal(filters.count,4,"Verified preview releases");
+        assert.equal(filters.count,5,"Verified preview releases");
         await evaluate('document.querySelector("#en-search").value="Kitchen";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}))');
         assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),1,"English search works");
         await evaluate('document.querySelector("#en-search").value="";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}));document.querySelector("[data-en-filter=public]").click()');

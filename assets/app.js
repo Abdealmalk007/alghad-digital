@@ -39,7 +39,7 @@
         typeof f.url==="string" &&
         f.url.startsWith("https://github.com/Abdealmalk007/"+item.repository+"/releases/download/"));
   };
-  const readinessText = p => p.id==="stone" ? "المصدر متاح · المثبت قيد التوقيع" : publicPreview(p) ? "Beta · نسخة تجريبية" :
+  const readinessText = p => p.id==="stone" ? (publicPreview(p) ? "Preview · مثبت غير موقّع" : "المصدر متاح · المثبت قيد التوقيع") : publicPreview(p) ? "Beta · نسخة تجريبية" :
     isComplete(p) ? "مستودع منشور" : "قريبًا";
   const tag = p => '<span class="status ' + (isComplete(p) ? 'status-public' : 'status-dev') +
     '"><span class="status-dot" aria-hidden="true"></span>' + readinessText(p) + "</span>";

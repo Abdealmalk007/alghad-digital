@@ -40,7 +40,7 @@ assert.ok(title.length<80);
 assert.match(brand,/<h1>Pro Tech \(بروتك\) — برامج الغد ديجتال<\/h1>/);
 assert.match(brand,/<link rel="canonical" href="https:\/\/alghad\.digital\/protech\/">/);
 assert.equal((brand.match(/class="directory-card brand-product-card"/g)||[]).length,10);
-assert.equal((brand.match(/إصدار Beta\/Preview متاح للتنزيل/g)||[]).length,4);
+assert.equal((brand.match(/إصدار Beta\/Preview متاح للتنزيل/g)||[]).length,5);
 assert.ok(brand.includes("جيل الغد"));
 assert.ok(brand.includes("mailto:protech.2025.2026@gmail.com"));
 const brandMarkup=brand.match(/<script type="application\/ld\+json">(.*?)<\/script>/s);

@@ -1,8 +1,24 @@
 {
   "version": 1,
-  "verified_at": "2026-11-08",
-  "source": "GitHub Releases API digest (SHA-256) verified against the approved public asset names",
+  "verified_at": "2026-11-09T10:36:20Z",
+  "source": "Official GitHub Releases API; SHA-256 digest fields are supplied by GitHub",
   "releases": {
+    "stone": {
+      "repository": "ProTechStoneManager",
+      "version": "2.0.0",
+      "published_at": "2026-11-09T10:21:56Z",
+      "tag_url": "https://github.com/Abdealmalk007/ProTechStoneManager/releases/tag/v2.0.0-unsigned-preview",
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe",
+          "url": "https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe",
+          "bytes": 47967221,
+          "sha256": "8c7dccb61320bf220875a248b6938e01cdfe6c3fe8a75524bf4c40c52f1a84b0",
+          "recommended": true
+        }
+      ]
+    },
     "marble": {
       "repository": "MarbleDeliveryPro",
       "version": "10.0.5",

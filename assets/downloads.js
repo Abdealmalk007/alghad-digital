@@ -51,10 +51,12 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
   stone: {
     repository: "ProTechStoneManager",
     version: "2.0.0",
-    channel: "unavailable",
-    release: null,
-    checksum: null,
-    files: [],
-    note:"المصدر متاح للتنزيل كملف ZIP من المستودع العام. مثبت Windows Setup.exe بانتظار توقيع Code Signing؛ لا رابط تثبيت عام بعد."
+    channel: "preview",
+    release: "https://github.com/Abdealmalk007/ProTechStoneManager/releases/tag/v2.0.0-unsigned-preview",
+    checksum: "https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/SHA256SUMS.txt",
+    files: [
+      {label:"تنزيل مثبت Windows EXE — غير موقّع", platform:"Windows x64 • UNSIGNED Preview", recommended:true, bytes:47967221, url:"https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe"}
+    ],
+    note:"نسخة Preview عامة للتجربة فقط، غير موقّعة رقميًا (NotSigned). قد يظهر Windows SmartScreen؛ تحقق من SHA256 واختبر على جهاز تجريبي قبل الاستخدام الفعلي."
   }
 });

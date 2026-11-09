@@ -28,10 +28,10 @@ window.AL_GHAD_PRODUCTS = [
     ],
     "keywords": "stone porcelain marble manager مخزون فواتير رخام بورسلان",
     "summary": "نظام متكامل للرخام والبورسلان",
-    "release": null,
+    "release": "https://github.com/Abdealmalk007/ProTechStoneManager/releases/tag/v2.0.0-unsigned-preview",
     "preview": "assets/previews/stone.svg",
     "previewAlt": "تصميم توضيحي لواجهة ProTech Stone Manager",
-    "displayStatus": "المصدر متاح · المثبت بانتظار التوقيع"
+    "displayStatus": "Preview · مُثبّت Windows غير موقّع رقميًا"
   },
   {
     "id": "marble",

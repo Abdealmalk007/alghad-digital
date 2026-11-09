@@ -45,13 +45,13 @@ def fetch(repo,version):
 def main():
     manifest=read_manifest()
     result={}
-    for id in ("marble","hr","reports","download"):
+    for id in ("stone","marble","hr","reports","download"):
         approved=manifest[id]
         assert approved["channel"]=="preview"
         response=None
         for attempt in range(2):
             try:
-                response=fetch(approved["repository"],approved["version"])
+                response=fetch(approved["repository"],approved["release"].rsplit("/",1)[-1][1:])
                 break
             except Exception as error:
                 print("OFFICIAL_RELEASE_FETCH_RETRY="+id+" "+type(error).__name__,file=sys.stderr,flush=True)
@@ -60,7 +60,7 @@ def main():
             print("SKIPPED_UNVERIFIED_RELEASE="+id,file=sys.stderr,flush=True)
             continue
         assert response.get("draft") is False and response.get("prerelease") is True
-        assert response.get("tag_name")=="v"+str(approved["version"])
+        assert response.get("tag_name")==approved["release"].rsplit("/",1)[-1]
         records={asset["browser_download_url"]:asset for asset in response.get("assets",[])}
         assets=[]
         for entry in approved["files"]:

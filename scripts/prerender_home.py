@@ -32,7 +32,7 @@ products=manifest["products"]
 downloads=manifest["downloads"]
 news=json.loads((ROOT/"assets"/"news.json").read_text(encoding="utf-8"))
 release_facts=json.loads((ROOT/"assets"/"release-facts.json").read_text(encoding="utf-8"))
-assert release_facts["version"]==1 and set(release_facts["releases"])=={"marble","hr","reports","download"}
+assert release_facts["version"]==1 and set(release_facts["releases"])=={"stone","marble","hr","reports","download"}
 # The browser only receives already-approved public release information.
 (ROOT/"assets"/"release-facts-data.js").write_text(
     "window.AL_GHAD_RELEASE_FACTS = "+json.dumps(release_facts,ensure_ascii=True,separators=(",",":"))+";\n",
@@ -73,14 +73,14 @@ for i,id in enumerate(ids):
     entry,featured=recommended(id)
     status=("Beta · نسخة عامة للتجربة" if featured else
             "مستودع منشور · التنزيل غير متاح" if p["status"]=="public" else "قريبًا")
-    if id=="stone": status="المصدر متاح · المثبت بانتظار التوقيع"
+    if id=="stone": status="Preview · مثبت Windows غير موقّع"
     label=(f"الإصدار {entry['version']} · تجريبي" if featured else
            "المستودع منشور على GitHub" if p["status"]=="public" else "قيد التطوير")
     links=anchor(f"programs/{id}/","تفاصيل البرنامج","pre-product-details")
     if id=="stone":
         links+=anchor("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","↓ تنزيل المصدر ZIP","pre-product-download stone-source-download",True)
     if featured:
-        links+=anchor(featured["url"],"تنزيل الإصدار الرسمي","pre-product-download",True)
+        links+=anchor(featured["url"],"↓ تنزيل مثبت غير موقّع (Preview)" if id=="stone" else "تنزيل الإصدار الرسمي","pre-product-download",True)
     card=f'''<article class="pre-product-card" data-prerender-product="{esc(id)}">
       <div class="pre-product-cover">
         <img src="{esc(p["preview"])}" alt="{esc(p["previewAlt"])} — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="{'eager' if i<2 else 'lazy'}">
@@ -97,7 +97,7 @@ for i,id in enumerate(ids):
 assert len(catalog)==10
 
 release_cards=[]
-for id in ["marble","hr","reports","download"]:
+for id in ["stone","marble","hr","reports","download"]:
     p=byid[id]
     entry,file=recommended(id)
     assert entry.get("channel")=="preview" and file
@@ -121,7 +121,7 @@ for id in ["marble","hr","reports","download"]:
       +f'<div class="pre-release-verified"><span>تاريخ النشر: {published}</span>'
       +f'<code dir="ltr" aria-label="SHA-256 من GitHub">SHA-256: {digest}</code></div>'
       +'</div></article>')
-assert len(release_cards)==4
+assert len(release_cards)==5
 
 trusted=["aitnews.com","tech-wd.com","arabhardware.net","techvoicearabia.com",
          "technologyarabia.com","3arrafni.com","th3professional.com",
