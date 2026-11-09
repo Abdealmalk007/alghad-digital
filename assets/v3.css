@@ -239,3 +239,12 @@ body { text-rendering:optimizeLegibility; }
   .hero-gallery:hover { transform:none; }
   .hero-gallery { transition:none; }
 }
+
+/* Two-action catalog: download + sharing. Product title remains a detail entry point. */
+.card-title-open { appearance:none;background:none;border:0;padding:0;color:inherit;font:inherit;font-weight:inherit;line-height:inherit;text-align:inherit;cursor:pointer; }
+.card-title-open:hover { text-decoration:underline; }
+.card-title-open:focus-visible {outline:3px solid #1b91ae;outline-offset:4px;border-radius:4px;}
+.card-actions .direct-download-card,.card-actions .alghad-share-button,
+.pre-product-actions .pre-product-download,.pre-product-actions .alghad-share-button,
+.en-product-actions .en-btn,.en-product-actions .alghad-share-button { flex:1 1 110px;justify-content:center;text-align:center; }
+.pre-product-unavailable,.en-download-unavailable { display:inline-flex;align-items:center;min-height:40px;padding:.5rem .8rem;border-radius:9px;border:1px solid #94a3b8;color:inherit;opacity:.8; }

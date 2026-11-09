@@ -64,9 +64,7 @@
       const a = link("↓ تحميل مباشر", validLink(primary.url, config, "asset"),
         "direct-download-card", "تحميل " + byId.get(card.dataset.id).title + " — " + primary.label);
       a.title = primary.platform + " — " + megabytes(primary.bytes);
-      const detail = actions.querySelector("[data-detail]");
-      if (detail && detail.nextSibling) actions.insertBefore(a, detail.nextSibling);
-      else actions.appendChild(a);
+      actions.prepend(a);
     });
   }
   function node(tag, className, text) {
@@ -115,12 +113,6 @@
         list.appendChild(row);
       });
       section.appendChild(list);
-      const tools = node("div", "download-footer");
-      const release = validLink(config.release, config, "release");
-      const checksum = validLink(config.checksum, config, "asset");
-      if (release) tools.appendChild(link("تفاصيل الإصدار ↗", release, "download-text-link"));
-      if (checksum) tools.appendChild(link("ملف التحقق SHA-256 ↗", checksum, "download-text-link"));
-      if (tools.children.length) section.appendChild(tools);
       section.appendChild(node("p", "download-caution",
         config.note || "هذه نسخة معاينة. تحقق من التوافق قبل التثبيت."));
       section.appendChild(node("p", "download-trust-note",
@@ -129,10 +121,6 @@
     const before = content.querySelector(".modal-section-title");
     if (before) content.insertBefore(section, before);
     else content.appendChild(section);
-    content.querySelectorAll(".modal-actions a").forEach(anchor => {
-      if (anchor.href === product.github) anchor.textContent = "عرض المستودع على GitHub ↗";
-      else if (config.release && anchor.href === config.release) anchor.textContent = "صفحة الإصدار على GitHub ↗";
-    });
   }
 
   new MutationObserver(updateCardDownloads).observe(catalog, {childList: true});

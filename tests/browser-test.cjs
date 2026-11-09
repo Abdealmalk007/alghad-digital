@@ -134,7 +134,7 @@ async function main() {
     assert.ok(mainOrder.indexOf("downloads")<mainOrder.indexOf("news"));
     const badges=await evaluate('([...document.querySelectorAll(".product-card .status")].map(s=>s.textContent.trim()))');
     assert.ok(badges.some(s=>s.includes("Beta")),"Preview releases must be marked Beta");
-    assert.ok(badges.some(s=>s.includes("مثبت غير موقّع")),"Repository only is not a signed installer");
+    assert.ok(fs.readFileSync(path.join(root,"programs/stone/index.html"),"utf8").includes("غير موقّع"),"Stone installer remains clearly unsigned");
     assert.ok(badges.some(s=>s.includes("قريبًا")),"Upcoming products must be honest");
     const badNewsLinks=await evaluate('([...document.querySelectorAll(".editorial-headline-link")].filter(a=>a.protocol!=="https:").length)');
     assert.equal(badNewsLinks,0,"All article links should use HTTPS");
@@ -151,6 +151,12 @@ async function main() {
     const showcase=await evaluate('({cards:document.querySelectorAll(".showcase-release").length,downloads:document.querySelectorAll(".showcase-release-cta").length,security:!!document.getElementById("security"),navDownloads:!!document.querySelector(\'.nav a[href="#downloads"]\'),title:document.getElementById("downloads-title")?.textContent})');
     assert.equal(showcase.cards,5,"Five verified release cards including unsigned Stone Manager");
     assert.equal(showcase.downloads,5,"Five official GitHub downloads");
+    for(let attempt=0;attempt<25;attempt++){
+      if(await evaluate('document.querySelectorAll(".showcase-release .alghad-share-button").length===5'))break;
+      await delay(100);
+    }
+    assert.equal(await evaluate('document.querySelectorAll(".showcase-release .alghad-share-button").length'),5,"Showcase cards need share buttons");
+    assert.equal(await evaluate('document.querySelectorAll(".showcase-release-details").length'),0,"Extra details shortcuts removed");
     assert.equal(showcase.security,true,"Security information section should exist");
     assert.equal(showcase.navDownloads,true,"Downloads should be discoverable in navigation");
     const unsafe=await evaluate('([...document.querySelectorAll(".showcase-release-cta")].filter(a=>!a.href.startsWith("https://github.com/Abdealmalk007/")).length)');
@@ -193,7 +199,11 @@ async function main() {
     assert.equal(await evaluate('document.querySelectorAll("#product-modal .download-section").length'),0);
     await evaluate('document.getElementById("modal-close").click()');
     await delay(80);
-    assert.equal(await evaluate('document.querySelectorAll(".compare-toggle").length'),9);
+    assert.equal(await evaluate('document.querySelectorAll(".compare-toggle").length'),0,"Compare controls removed");
+    assert.equal(await evaluate('document.getElementById("compare-tray")===null'),true);
+    assert.equal(await evaluate('document.querySelectorAll(".product-card .alghad-share-button").length'),9);
+    assert.equal(await evaluate('document.querySelectorAll(".product-card .direct-download-card").length'),5);
+    assert.equal(await evaluate('document.querySelectorAll(".product-card .card-link").length'),0,"GitHub shortcuts removed");
     const initial=await evaluate('document.querySelector(".product-card .card-title").textContent');
     await evaluate('document.querySelector("#sort-products").value="name";document.querySelector("#sort-products").dispatchEvent(new Event("change"))');
     const sorted=await evaluate('document.querySelector(".product-card .card-title").textContent');
@@ -202,14 +212,15 @@ async function main() {
     assert.equal(await evaluate('document.querySelectorAll(".product-card").length'),5);
     assert.equal(await evaluate('document.querySelectorAll(".direct-download-card").length'),5);
     await evaluate('document.querySelector("[data-filter=all]").click()');
-    await evaluate('Array.from(document.querySelectorAll(".compare-toggle")).slice(0,2).forEach(b=>b.click());document.getElementById("compare-open").click()');
-    assert.equal(await evaluate('document.getElementById("compare-dialog").open'),true);
-    assert.equal(await evaluate('document.querySelectorAll(".compare-panel").length'),2);
-    await evaluate('document.querySelector(".compare-close").click();document.querySelector("#compare-clear").click()');
+    assert.equal(await evaluate('document.querySelectorAll(".compare-panel").length'),0);
     await evaluate('document.querySelector("[data-detail=stone]").click()');
     await delay(100);
     assert.equal(await evaluate('document.querySelector("#product-modal").open'),true);
-    assert.equal(await evaluate('!!document.querySelector("[data-share-app=stone]")'),true);
+    for(let i=0;i<25;i++){
+      if(await evaluate('!!document.querySelector("#product-modal .alghad-share-button")'))break;
+      await delay(100);
+    }
+    assert.equal(await evaluate('!!document.querySelector("#product-modal .alghad-share-button")'),true);
     assert.equal(await evaluate('new URL(location.href).searchParams.get("app")'),"stone");
     await evaluate('document.querySelector("#modal-close").click()');
     for(let i=0;i<20;i++){
@@ -359,7 +370,7 @@ async function main() {
       assert.ok(layout.documentWidth<=width+2,"EN responsive overflow at "+width+"px: "+JSON.stringify(layout));
     }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:4,verifiedDownloadVariants:7,stonePublicDownload:"unavailable",compared:2,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:5,directDownloadCards:5,verifiedDownloadVariants:8,stonePublicDownload:"unsigned-beta-preview",compared:0,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {

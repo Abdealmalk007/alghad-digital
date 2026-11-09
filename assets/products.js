@@ -31,7 +31,7 @@ window.AL_GHAD_PRODUCTS = [
     "release": "https://github.com/Abdealmalk007/ProTechStoneManager/releases/tag/v2.0.0-unsigned-preview",
     "preview": "assets/previews/stone.svg",
     "previewAlt": "تصميم توضيحي لواجهة ProTech Stone Manager",
-    "displayStatus": "Preview · مُثبّت Windows غير موقّع رقميًا"
+    "displayStatus": "Beta · نسخة تجريبية"
   },
   {
     "id": "marble",

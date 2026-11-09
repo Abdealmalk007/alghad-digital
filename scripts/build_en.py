@@ -91,10 +91,9 @@ def brand_card(product:dict,download:dict,wide:bool=False)->str:
     repo=release.get("repository","")
     preferred=next((f for f in release.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),repo)),None)
     published=product["status"]=="public"
-    badge="Preview download" if preferred and published else ("Repository published" if published else "Coming soon")
-    action=(external("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","Download source ZIP","en-btn en-btn-primary stone-source-download") if slug=="stone" and not preferred else
-            external(preferred["url"],"Download UNSIGNED preview" if slug=="stone" else "Download preview","en-btn en-btn-primary")
-            if preferred and published else internal("/en/programs/"+slug+"/","View product","en-btn en-btn-outline"))
+    badge="Beta / Preview" if preferred and published else ("Repository published" if published else "Coming soon")
+    action=(external(preferred["url"],"Download" if slug!="stone" else "Download Beta (UNSIGNED)","en-btn en-btn-primary")
+            if preferred and published else '<span class="en-download-unavailable">Download coming soon</span>')
     preview=product.get("preview","")
     assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.svg",preview)
     version=esc(release.get("version") or product.get("version") or "")
@@ -104,7 +103,7 @@ def brand_card(product:dict,download:dict,wide:bool=False)->str:
       <div class="en-product-meta"><span class="en-state {'en-state-preview' if preferred else ''}">{esc(badge)}</span>{version_text}<span>{esc(", ".join(product.get("platforms",[])))}</span></div>
       <h3>{internal('/en/programs/'+slug+'/',product['title'])}</h3>
       <p class="en-product-tagline">{esc(tagline)}</p><p>{esc(summary)}</p>
-      <div class="en-product-actions">{internal('/en/programs/'+slug+'/','Features and details','en-inline-link')}{action}</div>
+      <div class="en-product-actions">{action}</div>
     </article>"""
 
 def release_info(product:dict,download:dict,facts:dict)->str:
@@ -113,9 +112,6 @@ def release_info(product:dict,download:dict,facts:dict)->str:
     repo=entry.get("repository","")
     files=[x for x in entry.get("files",[]) if seo.safe_release(x.get("url",""),repo)]
     if not files:
-        if slug=="stone":
-            return ('<section class="en-detail-block"><h2>Source download and Windows installer</h2><p>Download the public source ZIP from GitHub. The Windows Setup.exe is awaiting trusted Code Signing and is not publicly available yet.</p>'
-                    '<p><a class="en-btn en-btn-primary stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">Download source ZIP</a></p></section>')
         if product["status"]=="public":
             return '<section class="en-detail-block"><h2>Download availability</h2><p>The repository is public, but a downloadable public release has not been verified. Visit the repository for updates.</p></section>'
         return '<section class="en-detail-block"><h2>Development status</h2><p>This product is still in development. A verified public installer or APK is not available.</p></section>'
@@ -285,17 +281,18 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
     image=product["preview"]
     facts_html=release_info(product,downloads,facts)
     state="Published — preview release" if downloads.get(slug,{}).get("files") else "In development" if product["status"]=="dev" else "Published repository; no verified public installer"
-    if slug=="stone":state="Source ZIP available; Windows installer awaiting code-signing"
+    if slug=="stone" and downloads.get(slug,{}).get("files"):state="Beta / Preview — UNSIGNED Windows installer"
     features_html="".join(f"<li>{esc(v)}</li>" for v in features)
-    github=external(product.get("github",""),"GitHub repository","en-btn en-btn-outline") if seo.safe_repo(product.get("github","")) else ""
-    source_button=external("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","Download source ZIP","en-btn en-btn-primary stone-source-download") if slug=="stone" else ""
+    entry=downloads.get(slug,{})
+    preferred=next((f for f in entry.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),entry.get("repository",""))),None)
+    direct=external(preferred["url"],"Download Beta (UNSIGNED)" if slug=="stone" else "Download","en-btn en-btn-primary") if preferred else '<span class="en-download-unavailable">Download coming soon</span>'
     content=f"""
       <div class="en-breadcrumbs">{internal("/en/","Home")} / {internal("/en/programs/","Software")} / {esc(product['title'])}</div>
       <div class="en-detail-layout"><div>{hero("PROTECH SOFTWARE · "+", ".join(product["platforms"]),product["title"],summary)}
         <div class="en-chips"><span>{esc(state)}</span><span>{esc(", ".join(product["platforms"]))}</span></div>
         <h2>What it does</h2><p>{esc(tagline)} — {esc(summary)}</p>
         <h2>Key capabilities</h2><ul class="en-features">{features_html}</ul>
-        <div class="en-actions">{github}{source_button}{internal("/en/programs/","Browse all software","en-btn en-btn-outline")}</div>
+        <div class="en-actions">{direct}</div>
       </div><aside class="en-detail-image"><img src="/{esc(image)}" alt="Illustration of {esc(product['title'])}" width="960" height="540" loading="lazy"><p>Illustrative project artwork; not a verified application screenshot.</p></aside></div>
       {facts_html}
       <section class="en-info-block"><h2>Questions and release information</h2>

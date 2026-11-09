@@ -22,10 +22,10 @@ for(const filename of pages){
 }
 for(const filename of ["index.html","programs/index.html","programs/stone/index.html",
                         "en/programs/stone/index.html"]){
-  assert.ok(read(filename).includes(archive),filename+" missing active source download");
+  assert.ok(!read(filename).includes(archive),filename+" must not expose source ZIP");
 }
 assert.ok(arabic.includes('data-prerender-product="stone"'));
-assert.ok(english.includes("Download UNSIGNED preview"));
+assert.ok(english.includes("Download Beta (UNSIGNED)"));
 assert.ok(read("programs/stone/index.html").includes("ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe"));
 assert.ok(read("programs/stone/index.html").includes("توقيع"));
 for(const file of ["index.html","en/index.html","programs/index.html","en/programs/index.html","programs/stone/index.html","en/programs/stone/index.html"]){
@@ -41,6 +41,6 @@ assert.ok(js.includes("MutationObserver"),"Newly rendered news and product cards
 for(const route of ["scripts/build_seo.py","scripts/build_en.py"]){
   assert.ok(read(route).includes("/assets/share.js?v=1"),route+" generator must persist share script");
 }
-assert.ok(read("scripts/prerender_home.py").includes(archive));
-assert.ok(read("assets/app.js").includes(archive));
-console.log("SITE_SOURCE_DOWNLOAD_AND_SHARING_PASS PAGES="+pages.length+" DOWNLOAD_CTA=6 BROWSER_BACKED=yes");
+assert.ok(!read("scripts/prerender_home.py").includes(archive));
+assert.ok(!read("assets/app.js").includes(archive));
+console.log("SITE_DIRECT_DOWNLOAD_AND_SHARING_PASS PAGES="+pages.length+" DOWNLOAD_CTA=6 BROWSER_BACKED=yes");

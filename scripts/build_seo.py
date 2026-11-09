@@ -169,25 +169,15 @@ def render_product(product: dict, downloads: dict) -> None:
     assert (ROOT / image).is_file(), image
     feature_html = "".join("<li>" + esc(feature) + "</li>" for feature in features[:5])
     repo = product.get("github", "")
-    links = ""
-    if slug == "stone":
-        links += '<a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer" download>↓ تنزيل المصدر ZIP</a>'
-        links += '<a class="button stone-unsigned-preview" href="https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe" target="_blank" rel="noopener noreferrer">↓ تنزيل مثبت Windows EXE (Preview غير موقّع)</a>'
-        links += '<span class="stone-release-pending">تنبيه: هذه نسخة Preview غير موقّعة رقميًا؛ قد يظهر Windows SmartScreen. تحقّق من SHA256 واختبرها أولًا.</span>'
     item = downloads.get(slug, {})
-    release_url = item.get("release")
-    if status and safe_repo(repo):
-        links += f'<a class="button outline" href="{esc(repo)}" rel="noopener noreferrer" target="_blank">المستودع الرسمي على GitHub ↗</a>'
-    if status and safe_release(release_url, item.get("repository", "")):
-        links += f'<a class="button" href="{esc(release_url)}" rel="noopener noreferrer" target="_blank">الإصدار الرسمي وروابط التنزيل ↗</a>'
-    elif status:
-        if slug != 'stone':
-            links += '<span class="muted">المستودع منشور، لكن لا تتوفر نسخة تحميل عامة مؤكدة لهذا البرنامج حاليًا.</span>'
-    else:
-        links += '<span class="muted">هذا البرنامج قيد التطوير — قريبًا جدًا. لا توجد نسخة عامة متاحة للتنزيل.</span>'
-
     preferred=next((file for file in item.get("files",[]) if file.get("recommended")
                     and safe_release(file.get("url"),item.get("repository",""))),None)
+    if preferred:
+        links='<a class="button" href="'+esc(preferred["url"])+'" target="_blank" rel="noopener noreferrer">↓ تنزيل مباشر</a>'
+    else:
+        links='<span class="muted">التنزيل قريبًا — لا يوجد إصدار عام متاح</span>'
+    if slug=="stone" and preferred:
+        links+='<span class="stone-release-pending">نسخة Beta تجريبية غير موقّعة رقميًا. قد يظهر تحذير Windows SmartScreen؛ تحقّق من SHA-256.</span>'
     verified={}
     if preferred and (ROOT/"assets"/"release-facts.json").is_file():
         store=json.loads((ROOT/"assets"/"release-facts.json").read_text(encoding="utf-8"))
@@ -204,26 +194,17 @@ def render_product(product: dict, downloads: dict) -> None:
           '<p>حالة الإصدار: <strong>Beta / Preview</strong>. '
           'تاريخ النشر: '+esc(verified["published_at"][:10])+
           '. حجم ملف التحميل: '+str(round(preferred["bytes"]/1048576,1))+' MB.</p>'
-          '<p><a class="button" target="_blank" rel="noopener noreferrer" href="'+esc(preferred["url"])+'">تحميل مباشر من GitHub Releases</a></p>'
           '<p>بصمة SHA-256 الصادرة من بيانات GitHub Releases:</p>'
           '<pre><code dir="ltr">'+esc(verified["sha256"])+'</code></pre>'
-          + ('<p><a href="'+esc(item["checksum"])+'" rel="noopener noreferrer" target="_blank">ملف SHA256SUMS الرسمي</a></p>'
-             if safe_release(item.get("checksum"),item.get("repository","")) else '')
           + '</section>'
         )
     elif preferred:
         release_details='<section class="more"><h2>معلومات الإصدار</h2><p>النسخة Beta متاحة عبر GitHub، ولم نتحقق من بصمة SHA-256 رقمية لعرضها حاليًا.</p></section>'
-    elif slug == 'stone':
-        release_details=('<section class="more"><h2>تنزيل المصدر وإتاحة Windows</h2>'
-          '<p>إصدار الرخام والبورسلان 2.0.0 جاهز للاختبار المحلي، والمصدر متاح للجمهور. '
-          'نسخة التثبيت العامة تنتظر توقيع Code Signing ولن نعرض رابطًا لمسودة غير متاحة.</p>'
-          '<p><a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">تنزيل المصدر المفتوح ZIP ↗</a></p>'
-          '<p>يمكن البناء من المصدر باتباع ملف README في المستودع. </p></section>')
     else:
         release_details='<section class="more"><h2>حالة الإتاحة</h2><p>لا يتوفر ملف تثبيت عام مؤكَّد لهذا البرنامج حاليًا؛ تابع حالة المشروع في مستودعه عند نشره.</p></section>'
 
     intent = PROGRAM_SEARCH_INTENTS[slug]
-    info = ("Preview · مثبت Windows غير موقّع" if slug == "stone" and preferred else "المصدر متاح · المثبت بانتظار التوقيع" if slug == "stone" else "Beta / Preview" if preferred else "مستودع منشور بلا تنزيل" if status else "قريبًا")
+    info = "Beta / Preview" if preferred else "مستودع منشور بلا تنزيل" if status else "قريبًا"
     keywords = ", ".join([title, "الغد ديجتال", "ProTech", platform, str(product.get("category", ""))])
     meta = f'{title}، {intent} من ProTech (بروتك) على الغد ديجتال. {desc} الحالة: {info}.'
     content = f"""
@@ -271,8 +252,8 @@ def render_product(product: dict, downloads: dict) -> None:
     }
     if product.get("version") and product["version"] != "—":
         app_schema["softwareVersion"] = product["version"]
-    if status and safe_release(release_url, item.get("repository", "")):
-        app_schema["downloadUrl"] = release_url
+    if preferred:
+        app_schema["downloadUrl"] = preferred["url"]
     target = PAGES_DIR / slug / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(page(title=f"{title} — {intent} | ProTech",
@@ -280,21 +261,21 @@ def render_product(product: dict, downloads: dict) -> None:
         schema=app_schema, asset_prefix="../../"), encoding="utf-8", newline="\n")
 
 
-def render_catalog(products: list) -> None:
+def render_catalog(products: list, downloads: dict) -> None:
     items = []
     for product in products:
         slug = product["id"]
         name = product["title"]
         category = product.get("category", "")
         state = "منشور" if product["status"] == "public" else "قريبًا جدًا"
-        if slug == "stone":
-            link = (
-                '<p><a class="button stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">↓ تنزيل المصدر ZIP</a> '
-                '<a class="button stone-unsigned-preview" href="https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe" target="_blank" rel="noopener noreferrer">↓ تنزيل مثبت Windows EXE (Preview غير موقّع)</a></p>'
-                '<p class="muted">نسخة تجريبية غير موقّعة رقميًا، وقد يظهر تحذير Windows SmartScreen؛ تحقّق من بصمة SHA256.</p>'
-            )
-        else:
-            link = ""
+        item=downloads.get(slug,{})
+        preferred=next((x for x in item.get("files",[]) if x.get("recommended") and
+                        safe_release(x.get("url",""),item.get("repository",""))),None)
+        link=('<a class="button" href="'+esc(preferred["url"])+'" rel="noopener noreferrer" target="_blank">↓ تنزيل مباشر</a>'
+              if preferred else '<span class="muted">التنزيل قريبًا</span>')
+        link='<div class="directory-actions">'+link+'</div>'
+        if slug=="stone" and preferred:
+            link+='<p class="muted">Beta · مُثبّت Windows غير موقّع رقميًا. تحقق من SHA-256 قبل الاستخدام.</p>'
         items.append(f'<article class="directory-card"><h2><a href="{esc(slug)}/">{esc(name)}</a></h2><p>{esc(product.get("description", ""))}</p><span>{esc(category)} · {esc(state)}</span>{link}</article>')
     text = f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / برامج ProTech</div>
       <span class="eyebrow">ALGHAD DIGITAL / PROTECH SOFTWARE</span>
@@ -436,12 +417,17 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             availability="المستودع منشور؛ لا يوجد تنزيل عام مؤكد"
         else:
             availability="قيد التطوير — قريبًا"
+        preferred=next((x for x in item.get("files",[]) if x.get("recommended") and
+                        safe_release(x.get("url",""),item.get("repository",""))),None)
+        action=('<a class="button" href="'+esc(preferred["url"])+'" target="_blank" rel="noopener noreferrer">↓ تنزيل مباشر</a>'
+                if preferred else '<span class="muted">التنزيل قريبًا</span>')
         cards.append(
             '<article class="directory-card brand-product-card">'
+
             +'<h2><a href="../programs/'+esc(slug)+'/">'+esc(title)+'</a></h2>'
             +'<p>'+esc(intent)+'</p>'
             +'<p class="brand-product-status">'+esc(availability)+'</p>'
-            +'<a class="brand-card-link" href="../programs/'+esc(slug)+'/">المميزات والإصدارات الرسمية ←</a>'
+            +'<div class="brand-card-actions">'+action+'</div>'
             +'</article>'
         )
     assert len(cards)==9 and public_downloads==5
@@ -453,7 +439,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
       <p>الموقع الرسمي للبرامج هو <a href="../">alghad.digital — الغد ديجتال</a>. ولمن يبحث بعبارة «جيل الغد» للوصول إلى برامج Pro Tech: الاسم المعتمد للموقع هو «الغد ديجتال» وعنوانه <strong>alghad.digital</strong>، ولا توجد حاجة للانتقال إلى نطاق آخر.</p>
       <p>يمكنك الاطلاع على <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer">حساب GitHub المرتبط بالمطور</a>، ومقارنة الإصدارات وملفات التنزيل المعتمدة على صفحات البرامج الرسمية.</p></section>
       <section class="more"><h2>برامج ProTech للأعمال والتصميم والإنتاجية</h2>
-      <p>تُعرض البرامج حسب حالتها الفعلية: أربعة برامج لها ملفات تنزيل Beta/Preview مؤكدة، ومشروع منشور من دون تنزيل عام مؤكد، وأربعة مشاريع قيد التطوير. لا يعني نشر ملف تجريبي أنه إصدار مستقر.</p>
+      <p>تُعرض البرامج حسب حالتها الفعلية: خمسة برامج لها ملفات تنزيل Beta/Preview مؤكدة، وأربعة مشاريع قيد التطوير. لا يعني نشر ملف تجريبي أنه إصدار مستقر.</p>
       <div class="directory-grid brand-products">{''.join(cards)}</div></section>
       <section class="more"><h2>برامج للأعمال والأفراد</h2>
       <p>تخدم بعض مشاريع ProTech المصانع والمعارض وفرق التصميم والإدارة، بما فيها برامج الرخام والموارد البشرية والتقارير وتصميم المطابخ. كما توجد مشاريع للأفراد مثل Download Anything PRO وأدوات Windows، مع توضيح حالة التطوير لكل مشروع.</p>
@@ -659,7 +645,7 @@ def main() -> None:
     assert len(products)==9 and len(set(x["id"] for x in products))==9
     assert not {"recorder","omar","reem"} & {x["id"] for x in products}
     for product in products:render_product(product,downloads)
-    render_catalog(products)
+    render_catalog(products,downloads)
     render_brand(products,downloads)
     render_news(news)
     for topic in ("ai","companies","cars"):

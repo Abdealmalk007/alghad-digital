@@ -96,11 +96,6 @@
     } else {
       actions.appendChild(el("span", "showcase-release-unavailable", "ملف التثبيت غير متاح"));
     }
-    const details = el("button", "showcase-release-details", "خيارات البرنامج");
-    details.type = "button";
-    details.dataset.detail = id;
-    details.setAttribute("aria-label", "عرض تفاصيل " + product.title + " وخيارات التنزيل");
-    actions.appendChild(details);
     body.appendChild(actions);
     article.appendChild(body);
     frag.appendChild(article);

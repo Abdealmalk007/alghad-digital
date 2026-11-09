@@ -55,6 +55,7 @@ jobs:
           node tests/brand-seo-test.cjs
           node tests/no-duplicate-program-test.cjs
           node tests/share-download-test.cjs
+          node tests/two-actions-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'

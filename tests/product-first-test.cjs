@@ -49,12 +49,12 @@ const productBlock=html.slice(html.indexOf("<!-- PRE_RENDER_PRODUCTS_START -->")
 const releaseBlock=html.slice(html.indexOf("<!-- PRE_RENDER_DOWNLOADS_START -->"),
                               html.indexOf("<!-- PRE_RENDER_DOWNLOADS_END -->"));
 assert.ok(productBlock.includes('Beta · نسخة عامة للتجربة'));
-assert.ok(productBlock.includes('Preview · مثبت Windows غير موقّع'));
-assert.ok(productBlock.includes('تنزيل المصدر ZIP'));
-assert.ok(productBlock.includes('https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip'));
+assert.ok(productBlock.includes('Beta · نسخة عامة للتجربة'));
+assert.ok(!productBlock.includes('تنزيل المصدر ZIP'));
+assert.ok(productBlock.includes('ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe'));
 assert.ok(productBlock.includes('قريبًا'));
 assert.ok(releaseBlock.includes('SHA-256'));
-assert.equal((releaseBlock.match(/https:\/\/github\.com\/Abdealmalk007\//g)||[]).length>=8,true);
+assert.equal((releaseBlock.match(/https:\/\/github\.com\/Abdealmalk007\//g)||[]).length,5);
 assert.ok(!/\/releases\/tag\/untagged/.test(html),"No draft links");
 assert.ok(!/\.apk[^"]*Debug/i.test(html),"Debug APK must not be promoted");
 const appJS=load("assets/app.js");
@@ -92,4 +92,4 @@ if(fs.existsSync(facts)){
   }
  }
 }
-console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=9 NO_JS_RELEASES=4 NO_JS_NEWS=4 SUPPORT=3");
+console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=9 NO_JS_RELEASES=5 NO_JS_NEWS=4 SUPPORT=3");

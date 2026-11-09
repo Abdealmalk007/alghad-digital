@@ -21,7 +21,7 @@
   const reduceMotion = window.matchMedia &&
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const refresh = () => {
-    const modalOpen = ["product-modal", "compare-dialog"].some(id => {
+    const modalOpen = ["product-modal"].some(id => {
       const dialog = document.getElementById(id);
       return dialog && dialog.open;
     });
@@ -36,10 +36,10 @@
   window.addEventListener("scroll", onScroll, {passive:true});
   window.addEventListener("resize", onScroll, {passive:true});
   document.addEventListener("click", event => {
-    const button = event.target.closest("[data-detail],[data-compare]");
+    const button = event.target.closest("[data-detail]");
     if (button) requestAnimationFrame(refresh);
   });
-  for (const id of ["product-modal", "compare-dialog"]) {
+  for (const id of ["product-modal"]) {
     const dialog = document.getElementById(id);
     if (dialog) dialog.addEventListener("close", refresh);
   }

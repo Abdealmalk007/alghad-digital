@@ -54,6 +54,8 @@ try {
         if ($LASTEXITCODE -ne 0) { throw "Product-first redesign integrity tests failed" }
         & node (Join-Path $site "tests/smoke-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Site smoke tests failed" }
+        & node (Join-Path $site "tests/two-actions-test.cjs")
+        if ($LASTEXITCODE -ne 0) { throw "Download/share-only program actions validation failed" }
         & node (Join-Path $site "tests/editorial-test.cjs")
         if ($LASTEXITCODE -ne 0) { throw "Editorial data integrity tests failed" }
         & node (Join-Path $site "tests/industry-news-test.cjs")
@@ -103,7 +105,7 @@ try {
         "scripts/prerender_home.py", "scripts/build_support_pages.py", "scripts/build_en.py", "scripts/update_release_facts.py", "scripts/generate_tool_art.py", "scripts/build_seo.py", "scripts/test_seo.py",
         "scripts/generate_social_preview.py", "scripts/generate_brand_icons.py", "assets/social/alghad-digital.png",
         ".github/workflows/update-tech-news.yml", ".well-known/security.txt",
-        "tests/smoke-test.cjs", "tests/bilingual-test.cjs", "tests/brand-seo-test.cjs", "tests/product-first-test.cjs", "tests/nojs-browser-test.cjs", "tests/favicon-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "tests/translation-test.cjs", "CHANGELOG.md"
+        "tests/smoke-test.cjs", "tests/bilingual-test.cjs", "tests/brand-seo-test.cjs", "tests/product-first-test.cjs", "tests/nojs-browser-test.cjs", "tests/favicon-test.cjs", "tests/browser-test.cjs", "tests/editorial-test.cjs", "tests/industry-news-test.cjs", "tests/translation-test.cjs", "tests/share-download-test.cjs", "tests/no-duplicate-program-test.cjs", "tests/two-actions-test.cjs", "CHANGELOG.md"
     )
     $previewFiles = @(Get-ChildItem -LiteralPath (Join-Path $site "assets\previews") -File -Filter "*.svg" | ForEach-Object { "assets/previews/" + $_.Name })
     if ($previewFiles.Count -ne 10) { throw "Expected exactly 10 public program illustrations before publication." }

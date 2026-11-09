@@ -49,7 +49,7 @@ for(const item of p){
   }
   assert.ok(Array.isArray(item.features)&&item.features.length>=3,item.id+": insufficient features");
   assert.ok(Array.isArray(item.platforms)&&item.platforms.length>=1);
-  assert.equal(item.displayStatus,item.id==="stone"?"Preview · مُثبّت Windows غير موقّع رقميًا":item.status==="public"?"مكتمل":"قريبًا جدًا");
+  assert.equal(item.displayStatus,item.id==="stone"?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
   assert.match(item.preview,/^assets\/previews\/[a-z0-9_-]+\.svg$/);
   const svg=read(item.preview);
   assert.match(svg,/<svg\b/);assert.match(svg,/<\/svg>/);
@@ -96,8 +96,10 @@ assert.ok(read(".well-known/security.txt").includes("Contact: mailto:protech.202
 for(const key of ["assets/downloads.js","assets/downloads-ui.js","assets/downloads.css","Content-Security-Policy","upgrade-insecure-requests"])assert.ok(html.includes(key),key);
 assert.ok(read("assets/downloads-ui.js").includes("https:") && read("assets/downloads-ui.js").includes('url.hostname !== "github.com"'));
 assert.ok(read("assets/v3_1.js").includes(officialEmail));
-for(const key of ['id="sort-products"','id="compare-tray"','id="compare-dialog"','assets/v3.js"','assets/v3.css"'])assert.ok(html.includes(key),key);
-for(const word of ["hydrateCompareButtons","renderComparison","?app","selected.size"])assert.ok(read("assets/v3.js").includes(word)||word==="?app",word);
+for(const key of ['id="sort-products"','assets/v3.js"','assets/v3.css"'])assert.ok(html.includes(key),key);
+assert.ok(!html.includes('id="compare-tray"')&&!html.includes('id="compare-dialog"'));
+assert.ok(!read("assets/v3.js").includes("hydrateCompareButtons"));
+assert.ok(read("assets/v3.js").includes('searchParams.set("app"'));
 const js=read("assets/app.js");
 for(const word of ['"مكتمل"','"قريبًا جدًا"',"renderFeatured","aria-label"])assert.ok(js.includes(word));
 console.log("PASS: 9 projects, 5 public repos, 4 upcoming, 5 verified public release downloads, recorder excluded, HTTPS and CSP.");

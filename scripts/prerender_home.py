@@ -73,14 +73,10 @@ for i,id in enumerate(ids):
     entry,featured=recommended(id)
     status=("Beta · نسخة عامة للتجربة" if featured else
             "مستودع منشور · التنزيل غير متاح" if p["status"]=="public" else "قريبًا")
-    if id=="stone": status="Preview · مثبت Windows غير موقّع"
     label=(f"الإصدار {entry['version']} · تجريبي" if featured else
            "المستودع منشور على GitHub" if p["status"]=="public" else "قيد التطوير")
-    links=anchor(f"programs/{id}/","تفاصيل البرنامج","pre-product-details")
-    if id=="stone":
-        links+=anchor("https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip","↓ تنزيل المصدر ZIP","pre-product-download stone-source-download",True)
-    if featured:
-        links+=anchor(featured["url"],"↓ تنزيل مثبت غير موقّع (Preview)" if id=="stone" else "تنزيل الإصدار الرسمي","pre-product-download",True)
+    links=(anchor(featured["url"],"↓ تنزيل مباشر" if id!="stone" else "↓ تنزيل مباشر (Beta · غير موقّع)","pre-product-download",True)
+           if featured else '<span class="pre-product-unavailable">التنزيل قريبًا</span>')
     card=f'''<article class="pre-product-card" data-prerender-product="{esc(id)}">
       <div class="pre-product-cover">
         <img src="{esc(p["preview"])}" alt="{esc(p["previewAlt"])} — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="{'eager' if i<2 else 'lazy'}">
@@ -117,7 +113,7 @@ for id in ["stone","marble","hr","reports","download"]:
       '<h3>'+esc(p["title"])+'</h3>'
       f'<p>الإصدار {esc(entry["version"])} · {label} · {size} MB</p>'
       '<div class="pre-release-actions">'+anchor(file["url"],"تحميل مباشر","pre-release-download",True)
-      +anchor(entry["release"],"سجل الإصدار","pre-release-source",True)+checksum
+      +''
       +f'<div class="pre-release-verified"><span>تاريخ النشر: {published}</span>'
       +f'<code dir="ltr" aria-label="SHA-256 من GitHub">SHA-256: {digest}</code></div>'
       +'</div></article>')

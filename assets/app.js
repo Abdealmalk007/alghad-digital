@@ -39,7 +39,7 @@
         typeof f.url==="string" &&
         f.url.startsWith("https://github.com/Abdealmalk007/"+item.repository+"/releases/download/"));
   };
-  const readinessText = p => p.id==="stone" ? (publicPreview(p) ? "Preview · مثبت غير موقّع" : "المصدر متاح · المثبت قيد التوقيع") : publicPreview(p) ? "Beta · نسخة تجريبية" :
+  const readinessText = p => publicPreview(p) ? "Beta · نسخة تجريبية" :
     isComplete(p) ? "مستودع منشور" : "قريبًا";
   const tag = p => '<span class="status ' + (isComplete(p) ? 'status-public' : 'status-dev') +
     '"><span class="status-dot" aria-hidden="true"></span>' + readinessText(p) + "</span>";
@@ -58,7 +58,6 @@
     return inGroup && (!term || searchable(p).includes(term));
   };
   function card(p, index) {
-    const gh = urlFor(p.github);
     const chips = p.features.slice(0, 2).map(feature => '<li>' + tx(feature) + "</li>").join("");
     return [
       '<article class="product-card neo-card" data-id="', tx(p.id),'" style="--item-index:', index, '">',
@@ -66,14 +65,12 @@
       '<span class="image-disclaimer">تصميم توضيحي</span><span class="card-top-badge">',tag(p),'</span></div>',
       '<div class="card-main"><div class="card-serial"><span>ALGHAD / ',tx(p.english),'</span><span class="card-serial-number">',String(index+1).padStart(2,"0"),'</span></div>',
       '<span class="card-category">',tx(p.category),'</span>',
-      '<h3 class="card-title">',tx(p.title),'</h3><p class="card-description">',tx(p.description),'</p>',
+      '<h3 class="card-title"><button class="card-title-open" type="button" data-detail="',tx(p.id),'" aria-label="تفاصيل ',tx(p.title),'">',tx(p.title),'</button></h3><p class="card-description">',tx(p.description),'</p>',
       '<ul class="card-highlights">',chips,'</ul>',
       '<div class="card-meta">',p.platforms.map(x=>'<span class="meta-chip" dir="auto">'+tx(x)+'</span>').join(""),
       '<span class="meta-chip">',tx(p.version==="—"?"قيد التحديد":"v"+p.version),'</span></div></div>',
-      '<div class="card-actions"><button class="card-detail" type="button" data-detail="',tx(p.id),'" aria-label="تفاصيل ',tx(p.title),'">اكتشف البرنامج <span aria-hidden="true">↗</span></button>',
-      gh ? '<a class="card-link" href="'+gh+'" target="_blank" rel="noopener noreferrer" aria-label="مستودع GitHub لـ '+tx(p.title)+'">GitHub <span aria-hidden="true">↗</span></a>' :
-        '<span class="card-unavailable">الإطلاق قريبًا</span>',
-      p.id==="stone" ? '<a class="card-link stone-source-download" href="https://github.com/Abdealmalk007/ProTechStoneManager/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">↓ تنزيل المصدر ZIP</a>' : '',
+      '<div class="card-actions">',publicPreview(p) ? '' :
+        '<span class="card-unavailable">' + (p.status==="public" ? 'التنزيل غير متاح' : 'التنزيل قريبًا') + '</span>',
       '</div></article>'
     ].join("");
   }
@@ -88,8 +85,8 @@
     const p=data.find(item=>item.id===id);
     if(!p)return;
     lastFocus=document.activeElement;
-    const gh=urlFor(p.github);
-    const release=urlFor(p.release);
+    const config=releases[p.id] || {};
+    const primary=publicPreview(p) ? config.files.find(f=>f.recommended) : null;
     modalBody.innerHTML=[
       '<div class="modal-hero"><img src="',previewFor(p),'" alt="',label(p),'" width="960" height="540"><span class="modal-image-note">صورة توضيحية للتصميم</span></div>',
       '<div class="modal-content"><div class="modal-breadcrumb"><span>ALGHAD DIGITAL</span><span>/</span><span>',tx(p.category),'</span></div>',
@@ -99,16 +96,14 @@
       p.features.map(feature=>'<li><span aria-hidden="true">✓</span>'+tx(feature)+'</li>').join(""),'</ul>',
       '<div class="modal-facts"><span>المنصة: ',tx(p.platforms.join(" / ")),'</span><span>الإصدار: ',tx(p.version),'</span><span>',isComplete(p)?"المصدر منشور على GitHub":"الإطلاق قريبًا جدًا",'</span></div>',
       '<div class="modal-actions">',
-      gh?'<a class="button button-primary" href="'+gh+'" target="_blank" rel="noopener noreferrer">زيارة مستودع GitHub ↗</a>':'',
-      release?'<a class="button button-secondary" href="'+release+'" target="_blank" rel="noopener noreferrer">استعراض الإصدار المنشور ↗</a>':'',
-      '<button class="button button-secondary" id="modal-back" type="button">العودة للبرامج</button>',
+      primary ? '<a class="button button-primary" href="'+tx(primary.url)+'" target="_blank" rel="noopener noreferrer">↓ تنزيل مباشر</a>' :
+        '<span class="card-unavailable">التنزيل غير متاح حاليًا</span>',
       '</div><p class="modal-disclaimer">',
       isComplete(p)?
         'تعني علامة «مكتمل» اكتمال رفع المشروع إلى GitHub، وليس اجتياز جميع اختبارات الإنتاج. تحقق من تعليمات الإصدار قبل التثبيت.' :
         'هذا المشروع قيد التطوير ولم يُنشر مستودعه العام بعد.',
       '</p></div>'
     ].join("");
-    get("modal-back").addEventListener("click",closeDetails);
     if(typeof modal.showModal==="function")modal.showModal();
     else modal.setAttribute("open","");
     modalClose.focus();
