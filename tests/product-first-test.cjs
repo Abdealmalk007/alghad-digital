@@ -33,7 +33,7 @@ assert.ok(!html.includes("wa.me/966503276927"),"Do not expose private phone in p
 assert.ok(html.includes('href="#contact" class="button button-sm button-primary header-cta"'));
 assert.ok(!html.includes('info@alghad.digital'),"Do not publicize unconfigured domain email");
 const marks=[
- ["PRODUCTS",9,"data-prerender-product"],
+ ["PRODUCTS",8,"data-prerender-product"],
  ["DOWNLOADS",5,"data-prerender-release"],
  ["NEWS",4,'class="pre-news-row"']
 ];
@@ -92,4 +92,4 @@ if(fs.existsSync(facts)){
   }
  }
 }
-console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=9 NO_JS_RELEASES=5 NO_JS_NEWS=4 SUPPORT=3");
+console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=8 NO_JS_RELEASES=5 NO_JS_NEWS=4 SUPPORT=3");

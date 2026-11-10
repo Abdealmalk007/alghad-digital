@@ -46,8 +46,6 @@ CATALOG={
    ["System information","Maintenance tools","Performance diagnostics","Optional Windows app cleanup","Recovery guidance"]),
  "quotes":("Quotations and contracts","Create and manage business quotations and contract documentation.",
    ["Quotation templates","Customer records","Project pricing","Document management","Export tools"]),
- "tv":("Android TV launcher","A lightweight TV launcher concept focused on a simple interface and customization.",
-   ["TV-friendly navigation","Customizable home screen","App shortcuts","Simplified layouts","Launcher settings"]),
 }
 TOOLS={
  "everything":"Instant file and folder search for Windows.",
@@ -69,7 +67,7 @@ PAGES=[
  "/","/programs/","/news/","/free-windows-tools/","/ai-news/",
  "/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/",
 ]+["/programs/"+slug+"/" for slug in CATALOG]
-assert len(PAGES)==20
+assert len(PAGES)==19
 
 def safe(url:str)->bool:
     parsed=urllib.parse.urlsplit(url)
@@ -247,7 +245,7 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
         <h1>Software that helps you <span>work smarter.</span></h1>
         <p>Discover ProTech applications for business management, kitchen design, materials, productivity and Android. Explore their features and verified release availability in one place.</p>
         <div class="en-actions">{internal("/en/programs/","Explore our software","en-btn en-btn-primary")}{internal("#downloads","Official downloads","en-btn en-btn-outline")}</div>
-        <p class="en-hero-note">9 software projects · 5 verified preview downloads · official GitHub links</p>
+        <p class="en-hero-note">8 software projects · 5 verified preview downloads · official GitHub links</p>
       </div>
       <div class="en-hero-visual"><img src="/assets/previews/kitchen.svg" alt="Kitchen CAD Pro illustrative preview" width="960" height="540"><div><strong>Kitchen CAD Pro</strong><span>DESIGN · PLANNING · 3D</span></div></div>
     </section>
@@ -377,21 +375,21 @@ def extend_sitemap()->None:
     assert top.tag=="{"+ns+"}urlset"
     original=[e.findtext("{"+ns+"}loc") for e in top.findall("{"+ns+"}url")]
     expected_ar={DOMAIN+x for x in PAGES}
-    if set(original)!=expected_ar or len(original)!=20:
-        raise ValueError("Expected exactly 20 canonical Arabic URLs before adding English")
+    if set(original)!=expected_ar or len(original)!=19:
+        raise ValueError("Expected exactly 19 canonical Arabic URLs before adding English")
     for path in PAGES:
         sub=ET.SubElement(top,"{"+ns+"}url")
         ET.SubElement(sub,"{"+ns+"}loc").text=DOMAIN+"/en/"+path.lstrip("/")
     ET.indent(tree,space="  ")
     tree.write(file,encoding="utf8",xml_declaration=True)
-    print("BILINGUAL_SITEMAP_URLS=40")
+    print("BILINGUAL_SITEMAP_URLS=38")
 
 def main()->None:
     global products,downloads
     products=seo.read_javascript_data("assets/products.js","AL_GHAD_PRODUCTS")
     downloads=seo.read_javascript_data("assets/downloads.js","AL_GHAD_DOWNLOADS")
     assert set(p["id"] for p in products)==set(CATALOG)
-    assert len(products)==9 and set(downloads)=={"stone","marble","reports","hr","download"}
+    assert len(products)==8 and set(downloads)=={"stone","marble","reports","hr","download"}
     industry=json.loads((ROOT/"assets/industry-news.json").read_text(encoding="utf8"))
     tools=json.loads((ROOT/"assets/tools.json").read_text(encoding="utf8"))
     facts=json.loads((ROOT/"assets/release-facts.json").read_text(encoding="utf8"))
@@ -402,7 +400,7 @@ def main()->None:
     render_tools(tools)
     render_support()
     created=[p for p in EN.rglob("index.html") if p != EN/"programs"/"porcelain"/"index.html"]
-    assert len(created)==20,(len(created),created)
+    assert len(created)==19,(len(created),created)
     extend_sitemap()
     print("ENGLISH_PAGES="+str(len(created))+" ARABIC_DEFAULT=True")
 

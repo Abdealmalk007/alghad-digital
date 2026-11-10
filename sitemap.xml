@@ -58,9 +58,6 @@
     <loc>https://alghad.digital/programs/quotes/</loc>
   </url>
   <url>
-    <loc>https://alghad.digital/programs/tv/</loc>
-  </url>
-  <url>
     <loc>https://alghad.digital/en/</loc>
   </url>
   <url>
@@ -116,8 +113,5 @@
   </url>
   <url>
     <loc>https://alghad.digital/en/programs/quotes/</loc>
-  </url>
-  <url>
-    <loc>https://alghad.digital/en/programs/tv/</loc>
   </url>
 </urlset>

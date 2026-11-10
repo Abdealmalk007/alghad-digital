@@ -102,11 +102,11 @@ async function main() {
     let count=0;
     for(let i=0;i<120;i++){
       count=await evaluate('document.querySelectorAll(".product-card").length');
-      if(count===9)break;
+      if(count===8)break;
       await delay(100);
     }
-    if(count!==9) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
-    assert.equal(count,9,"All allowed project cards should be rendered");
+    if(count!==8) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
+    assert.equal(count,8,"All allowed project cards should be rendered");
     // Product cards can render before independent editorial scripts finish loading.
     for(let attempt=0;attempt<80;attempt++){
       const done=await evaluate('document.readyState==="complete" && document.querySelectorAll(".editorial-story").length>=5 && document.querySelectorAll(".windows-tool-card").length===8');
@@ -120,10 +120,10 @@ async function main() {
     assert.ok(editorialCounts.headlineCount>=5);
     for(let attempt=0;attempt<30;attempt++){
       const shares=await evaluate('({products:document.querySelectorAll(".product-card .alghad-share-button").length,news:document.querySelectorAll(".editorial-story .alghad-share-button").length})');
-      if(shares.products===9 && shares.news>=5)break;
+      if(shares.products===8 && shares.news>=5)break;
       await delay(100);
     }
-    assert.equal(await evaluate('document.querySelectorAll(".product-card .alghad-share-button").length'),9,"Each product needs a visible share action");
+    assert.equal(await evaluate('document.querySelectorAll(".product-card .alghad-share-button").length'),8,"Each product needs a visible share action");
     assert.ok(await evaluate('document.querySelectorAll(".editorial-story .alghad-share-button").length>=5'),"Share actions must appear for news");
     assert.equal(await evaluate('document.querySelector(\'.product-card[data-id="stone"] .alghad-share-button\').dataset.shareUrl'),"https://alghad.digital/programs/stone/");
     const industry=await evaluate('({heavyHomeSections:document.querySelectorAll("[data-industry-topic]").length,hubs:document.querySelectorAll(".home-news-category-links a").length})');
@@ -170,9 +170,9 @@ async function main() {
     assert.equal(downloadCount,5,"Five publicly downloadable cards");
     assert.equal(await evaluate('window.AL_GHAD_PRODUCTS.some(p=>p.id==="recorder")'),false);
     assert.equal(await evaluate('document.querySelector(\'[data-id="recorder"]\')===null'),true);
-    assert.equal(await evaluate('document.getElementById("stat-apps").textContent'),"09");
-    assert.equal(await evaluate('document.getElementById("stat-upcoming").textContent'),"04");
-    assert.equal(await evaluate('document.getElementById("gallery-portfolio-count").textContent'),"09");
+    assert.equal(await evaluate('document.getElementById("stat-apps").textContent'),"08");
+    assert.equal(await evaluate('document.getElementById("stat-upcoming").textContent'),"03");
+    assert.equal(await evaluate('document.getElementById("gallery-portfolio-count").textContent'),"08");
     const hiddenRemoved = await evaluate('(() => { const s=document.querySelector("#search"); s.value="Call Recorder PRO";s.dispatchEvent(new Event("input",{bubbles:true}));return document.querySelectorAll(".product-card").length; })()');
     assert.equal(hiddenRemoved,0,"Removed app must not appear in search");
     await evaluate('(() => { const s=document.querySelector("#search");s.value="";s.dispatchEvent(new Event("input",{bubbles:true})); })()');
@@ -201,7 +201,7 @@ async function main() {
     await delay(80);
     assert.equal(await evaluate('document.querySelectorAll(".compare-toggle").length'),0,"Compare controls removed");
     assert.equal(await evaluate('document.getElementById("compare-tray")===null'),true);
-    assert.equal(await evaluate('document.querySelectorAll(".product-card .alghad-share-button").length'),9);
+    assert.equal(await evaluate('document.querySelectorAll(".product-card .alghad-share-button").length'),8);
     assert.equal(await evaluate('document.querySelectorAll(".product-card .direct-download-card").length'),5);
     assert.equal(await evaluate('document.querySelectorAll(".product-card .card-link").length'),0,"GitHub shortcuts removed");
     const initial=await evaluate('document.querySelector(".product-card .card-title").textContent');
@@ -346,7 +346,7 @@ async function main() {
       enPages.push(value);
       if(target==="/en/"){
         const count=await evaluate('document.querySelectorAll(".en-product-card[data-product]").length');
-        assert.equal(count,9,"English cards visible");
+        assert.equal(count,8,"English cards visible");
         const filters=await evaluate('({hasSearch:!!document.querySelector("#en-search"),count:document.querySelectorAll(".en-release-card").length})');
         assert.equal(filters.hasSearch,true);
         assert.equal(filters.count,5,"Verified preview releases");
@@ -361,7 +361,7 @@ async function main() {
     for(const width of [320,768,1440]){
       await send("Page.navigate",{url:new URL("/en/",fileUrl).href});
       for(let attempt=0;attempt<40;attempt++){
-        if(await evaluate('document.readyState==="complete"&&document.querySelectorAll(".en-product-card").length===9'))break;
+        if(await evaluate('document.readyState==="complete"&&document.querySelectorAll(".en-product-card").length===8'))break;
         await delay(100);
       }
       await send("Emulation.setDeviceMetricsOverride",{width,height:900,deviceScaleFactor:1,mobile:width<820});

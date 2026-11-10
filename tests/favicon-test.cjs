@@ -57,7 +57,7 @@ for(const icon of manifest.icons){
 const pageNames=["index.html","programs/index.html","news/index.html",
  "free-windows-tools/index.html","ai-news/index.html","tech-companies/index.html","cars/index.html","protech/index.html","about/index.html","security/index.html","privacy/index.html"];
 for(const slug of ["stone","marble","reports","hr","download",
-                   "kitchen","care","quotes","tv"]){
+                   "kitchen","care","quotes"]){
  pageNames.push("programs/"+slug+"/index.html");
 }
 for(const p of pageNames){

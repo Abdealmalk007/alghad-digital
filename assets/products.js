@@ -267,38 +267,5 @@ window.AL_GHAD_PRODUCTS = [
     "previewAlt": "تصميم توضيحي لواجهة Quotes & Contracts",
     "displayStatus": "قريبًا جدًا",
     "release": null
-  },
-  {
-    "id": "tv",
-    "title": "TV Clean Launcher",
-    "english": "ANDROID TV LAUNCHER",
-    "category": "التلفزيون الذكي",
-    "description": "واجهة Android TV مبسطة ومنظمة للوصول إلى تطبيقاتك المفضلة.",
-    "details": "فكرة مشروع لواجهة تلفزيون قابلة للتخصيص وتخفيف العناصر غير الضرورية، دون ادعاء وجود إصدار عام ناجح حتى الآن.",
-    "platforms": [
-      "Android TV"
-    ],
-    "version": "—",
-    "status": "dev",
-    "github": null,
-    "features": [
-      "واجهة رئيسية خفيفة وواضحة",
-      "تصنيف التطبيقات الأكثر استخدامًا",
-      "تنظيم الاختصارات والمفضلة",
-      "تجربة مناسبة للتحكم عن بعد",
-      "التوافق مع الأجهزة قيد التجربة"
-    ],
-    "emblem": "▣",
-    "colors": [
-      "#354f67",
-      "#14283d",
-      "#72aedd"
-    ],
-    "keywords": "android tv launcher التلفزيون شاشة",
-    "summary": "واجهة أكثر بساطة لتلفزيونك",
-    "preview": "assets/previews/tv.svg",
-    "previewAlt": "تصميم توضيحي لواجهة TV Clean Launcher",
-    "displayStatus": "قريبًا جدًا",
-    "release": null
   }
 ];

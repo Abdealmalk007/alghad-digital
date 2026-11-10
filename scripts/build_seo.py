@@ -28,7 +28,6 @@ PROGRAM_SEARCH_INTENTS = {
     "kitchen": "برنامج تصميم المطابخ ثنائي وثلاثي الأبعاد",
     "care": "برنامج صيانة وتحسين نظام Windows",
     "quotes": "برنامج عروض الأسعار والعقود",
-    "tv": "واجهة مخصصة لأجهزة Android TV",
 }
 
 
@@ -430,7 +429,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             +'<div class="brand-card-actions">'+action+'</div>'
             +'</article>'
         )
-    assert len(cards)==9 and public_downloads==5
+    assert len(cards)==8 and public_downloads==5
     body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / Pro Tech</div>
       <span class="eyebrow">PRO TECH / PROTECH SOFTWARE</span>
       <h1>Pro Tech (بروتك) — برامج الغد ديجتال</h1>
@@ -642,7 +641,7 @@ def main() -> None:
     news=read_json("assets/news.json")
     tools=read_json("assets/tools.json")
     industry=read_json("assets/industry-news.json")
-    assert len(products)==9 and len(set(x["id"] for x in products))==9
+    assert len(products)==8 and len(set(x["id"] for x in products))==8
     assert not {"recorder","omar","reem"} & {x["id"] for x in products}
     for product in products:render_product(product,downloads)
     render_catalog(products,downloads)

@@ -33,15 +33,15 @@ assert.equal(manifest.stone.files.length,1,"Unsigned preview is publicly availab
 assert.match(manifest.stone.release,/v2\.0\.0-unsigned-preview$/);
 
 assert.ok(Array.isArray(p));
-assert.equal(p.length,9,"The public catalog must contain 9 products");
-assert.equal(new Set(p.map(x=>x.id)).size,9);
+assert.equal(p.length,8,"The public catalog must contain 9 products");
+assert.equal(new Set(p.map(x=>x.id)).size,8);
 const published=["stone","marble","reports","hr","download"].sort();
 assert.deepEqual(Array.from(p.filter(x=>x.status==="public"),x=>x.id).sort(),published);
-assert.equal(p.filter(x=>x.status==="dev").length,4);
-assert.ok(!p.some(x=>["omar","reem","recorder"].includes(x.id)));
+assert.equal(p.filter(x=>x.status==="dev").length,3);
+assert.ok(!p.some(x=>["omar","reem","recorder","tv"].includes(x.id)));
 assert.ok(!fs.existsSync(path.join(root,"assets/previews/recorder.svg")),"Removed preview must not ship");
 const allIds=new Set(p.map(x=>x.id));
-for(const id of ["kitchen","care","quotes","tv"])assert.ok(allIds.has(id));
+for(const id of ["kitchen","care","quotes"])assert.ok(allIds.has(id));
 for(const item of p){
   for(const field of ["id","title","english","description","details","category","version","preview","previewAlt","displayStatus"]){
     assert.equal(typeof item[field],"string",item.id+":"+field);
@@ -102,4 +102,4 @@ assert.ok(!read("assets/v3.js").includes("hydrateCompareButtons"));
 assert.ok(read("assets/v3.js").includes('searchParams.set("app"'));
 const js=read("assets/app.js");
 for(const word of ['"مكتمل"','"قريبًا جدًا"',"renderFeatured","aria-label"])assert.ok(js.includes(word));
-console.log("PASS: 9 projects, 5 public repos, 4 upcoming, 5 verified public release downloads, recorder excluded, HTTPS and CSP.");
+console.log("PASS: 8 projects, 5 public repos, 3 upcoming, 5 verified public release downloads, recorder excluded, HTTPS and CSP.");

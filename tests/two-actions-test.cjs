@@ -10,7 +10,7 @@ vm.runInNewContext(read("assets/products.js"),context,{timeout:1000});
 vm.runInNewContext(read("assets/downloads.js"),context,{timeout:1000});
 const products=context.window.AL_GHAD_PRODUCTS;
 const downloads=context.window.AL_GHAD_DOWNLOADS;
-assert.equal(products.length,9);
+assert.equal(products.length,8);
 const allowed=new Map(products.map(p=>{
   const m=downloads[p.id];
   const recommended=m?.files?.find(f=>f.recommended);
@@ -32,7 +32,7 @@ function actionBlocks(file,cardMarker,actionsMarker){
  const html=read(file);
  const expressions=new RegExp('<article class="[^"]*'+cardMarker+'[^"]*"[^>]*[\\s\\S]*?<\\/article>','g');
  const blocks=[...html.matchAll(expressions)].map(m=>m[0]);
- assert.equal(blocks.length,9,file+" requires nine cards");
+ assert.equal(blocks.length,8,file+" requires eight cards");
  for(const block of blocks){
    const id=block.match(/(?:data-prerender-product|data-product)="([a-z-]+)"/)?.[1]||
             block.match(/href="(?:\.\.\/)?(?:\/en\/)?programs\/([a-z-]+)\//)?.[1];
@@ -51,14 +51,14 @@ function actionBlocks(file,cardMarker,actionsMarker){
 actionBlocks("index.html","pre-product-card","pre-product-actions");
 actionBlocks("en/index.html","en-product-card","en-product-actions");
 const arCatalog=read("programs/index.html");
-assert.equal((arCatalog.match(/class="directory-actions"/g)||[]).length,9);
+assert.equal((arCatalog.match(/class="directory-actions"/g)||[]).length,8);
 assert.equal((arCatalog.match(/href="https:\/\/github\.com\/Abdealmalk007\/[^"]+\/releases\/download\//g)||[]).length,5);
 const brand=read("protech/index.html");
-assert.equal((brand.match(/class="brand-card-actions"/g)||[]).length,9);
+assert.equal((brand.match(/class="brand-card-actions"/g)||[]).length,8);
 assert.ok(!read("assets/v3.js").includes("hydrateCompareButtons"));
 assert.ok(!read("assets/app.js").includes("stone-source-download"));
 const share=read("assets/share.js");
 assert.ok(share.includes("showcase-release[data-release-id]"));
 assert.ok(share.includes("brand-card-actions,.directory-actions"));
 assert.ok(share.includes("navigator.share")&&share.includes("navigator.clipboard"));
-console.log("TWO_ACTIONS_PASS: 9 program cards, 5 official direct downloads, 4 honest unavailable states, share support, no compare/GitHub shortcut/Stone ZIP");
+console.log("TWO_ACTIONS_PASS: 8 program cards, 5 official direct downloads, 3 honest unavailable states, share support, no compare/GitHub shortcut/Stone ZIP");
