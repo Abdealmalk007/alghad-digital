@@ -1,10 +1,36 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T07:39:43Z",
+  "generated_at": "2026-11-10T12:50:50Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "Helping caregivers use AI in everyday life",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-10T12:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "مساعدة مقدمي الرعاية على استخدام الذكاء الاصطناعي في الحياة اليومية",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Closing the AI guidance gap in education",
+          "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-10T09:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "سد فجوة توجيه الذكاء الاصطناعي في التعليم",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "ChatGPT Enterprise now available in AWS Marketplace",
           "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
@@ -97,19 +123,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Kuken Industries searches 70 years of drawings in minutes",
-          "url": "https://openai.com/index/kuken",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-09T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "تبحث صناعات كوكين في 70 عامًا من الرسومات في دقائق",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Korea Advances Physical AI Across Industries With NVIDIA",
           "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
           "source": "nvidia",
@@ -158,19 +171,6 @@
           "official": true,
           "topic": "ai",
           "title_ar": "تعلن NVIDIA و Rebellions و SK Telecom عن تعاونها لتعزيز البنية التحتية للذكاء الاصطناعي السيادي مع NVIDIA NVLink Fusion",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-          "url": "https://openai.com/index/partnering-with-hacktron",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-06T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "الشراكة مع Hacktron للعثور على نقاط الضعف في أنظمة OpenAI",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -244,6 +244,19 @@
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "Waze and Garmin team up to boost driver awareness of cyclists.",
+          "url": "https://blog.google/waze/garmin-safety-cyclists/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-10T12:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تتعاون Waze وGarmin لتعزيز وعي السائقين براكبي الدراجات.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Developers can now build with Google Maps Platform in AI Studio.",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/",
@@ -384,19 +397,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "أنشئ مقاطع فيديو أطول للذكاء الاصطناعي باستخدام Omni 1.2 Flash في Google Vids دون أي تكلفة.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-05T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "Gemini Omni 1.2 Flash: سريع وفعال من حيث التكلفة مع مشابك أطول",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },

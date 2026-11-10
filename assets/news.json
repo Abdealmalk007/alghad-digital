@@ -1,45 +1,175 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T07:39:40Z",
+  "generated_at": "2026-11-10T12:50:48Z",
   "articles": [
     {
-      "title": "تابي كاش تتجاوز مليون مستخدم في الإمارات وتختبر حساب أعمال",
-      "url": "https://3arrafni.com/tech-news/tabby-cash-one-million-uae-users",
+      "title": "Claude Fable 5.2: نموذج Anthropic الجديد أسرع وأقل تكلفة للمطورين",
+      "url": "https://3arrafni.com/tech-news/claude-fable-5-2-anthropic-ai-model",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-10T06:12:34Z",
+      "published_at": "2026-11-10T12:37:34Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Claude Fable 5.2: نموذج Anthropic الجديد أسرع وأقل تكلفة للمطورين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "البحرين تعزز شبكات الجيل الخامس بالذكاء الاصطناعي.. وشراكة جديدة بين Batelco وإريكسون تمهد للجيل السادس",
+      "url": "https://technologyarabia.com/archives/17896/%d8%a7%d9%84%d8%a8%d8%ad%d8%b1%d9%8a%d9%86-%d8%aa%d8%b9%d8%b2%d8%b2-%d8%b4%d8%a8%d9%83%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%8a%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d9%85%d8%b3-%d8%a8%d8%a7%d9%84%d8%b0%d9%83/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-10T12:27:46Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "البحرين تعزز شبكات الجيل الخامس بالذكاء الاصطناعي.. وشراكة جديدة بين Batelco وإريكسون تمهد للجيل السادس",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ريولينك تتسوع في الشرق الأوسط وشمال أفريقيا مع كاميرا آرجوس ماجيكام",
+      "url": "https://arabhardware.net/post-55125",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-10T12:13:35Z",
       "category": "أخبار التقنية",
-      "title_ar": "تابي كاش تتجاوز مليون مستخدم في الإمارات وتختبر حساب أعمال",
+      "title_ar": "ريولينك تتسوع في الشرق الأوسط وشمال أفريقيا مع كاميرا آرجوس ماجيكام",
       "translation_status": "original_ar"
     },
     {
-      "title": "ثغرة أمنية في Microsoft Paint تتطلب تحديثه من Microsoft Store",
-      "url": "https://3arrafni.com/tech-news/microsoft-paint-security-flaw-store-update",
+      "title": "تسريب يكشف مواصفات كاميرات سلسلة Galaxy S27 مع تراجع دقة التقريب في إصدار Pro عن المتوقع",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%8a%d9%83%d8%b4%d9%81-%d9%85%d9%88%d8%a7%d8%b5%d9%81%d8%a7%d8%aa-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7%d8%aa-%d8%b3%d9%84%d8%b3%d9%84%d8%a9-galaxy-s27-%d9%85%d8%b9/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-10T12:00:15Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تسريب يكشف مواصفات كاميرات سلسلة Galaxy S27 مع تراجع دقة التقريب في إصدار Pro عن المتوقع",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث Dune: Awakening يضيف اللعب دون اتصال على جميع المنصات",
+      "url": "https://arabhardware.net/post-55128",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-10T11:43:26Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث Dune: Awakening يضيف اللعب دون اتصال على جميع المنصات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Apple تطرح Usage Packs مقابل 49.99 دولاراً لميزات AI في Logic Pro",
+      "url": "https://3arrafni.com/tech-news/apple-intelligence-usage-packs-logic-pro",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-10T05:17:34Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ثغرة أمنية في Microsoft Paint تتطلب تحديثه من Microsoft Store",
+      "published_at": "2026-11-10T11:42:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Apple تطرح Usage Packs مقابل 49.99 دولاراً لميزات AI في Logic Pro",
       "translation_status": "original_ar"
     },
     {
-      "title": "الذهب يتراجع مع ترقب بيانات التضخم الأمريكية",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/10/%d8%a7%d9%84%d8%b0%d9%87%d8%a8-%d9%8a%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d9%85%d8%b9-%d8%aa%d8%b1%d9%82%d8%a8-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b6%d8%ae%d9%85?traffic_source=rss",
+      "title": "مصر تعرض 3 تطبيقات ذكاء اصطناعي للقانون والتعليم وصحة الأطفال",
+      "url": "https://arabhardware.net/post-55127",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-10T11:25:34Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "مصر تعرض 3 تطبيقات ذكاء اصطناعي للقانون والتعليم وصحة الأطفال",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث One UI 9.5 يعزز قدرات Bixby لتنفيذ المهام اليومية بذكاء أكبر",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-one-ui-9-5-%d9%8a%d8%b9%d8%b2%d8%b2-%d9%82%d8%af%d8%b1%d8%a7%d8%aa-bixby-%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d9%85%d9%87%d8%a7%d9%85-%d8%a7%d9%84%d9%8a/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-10T11:00:39Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث One UI 9.5 يعزز قدرات Bixby لتنفيذ المهام اليومية بذكاء أكبر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "خلل في AMD Adrenalin يسبب كتابة متواصلة على أقراص SSD",
+      "url": "https://3arrafni.com/tech-news/amd-adrenalin-ssd-writes-bug",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-10T10:47:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "خلل في AMD Adrenalin يسبب كتابة متواصلة على أقراص SSD",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هاتف HONOR Magic9 Pro Max يدعم تقنيات تصوير سينمائية من ARRI",
+      "url": "https://arabhardware.net/post-55124",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-10T10:32:12Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "هاتف HONOR Magic9 Pro Max يدعم تقنيات تصوير سينمائية من ARRI",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "رسميًا: شاومي تستعد لإطلاق هاتفي Xiaomi 18 Pro و18 Pro Max عالميًا الأسبوع المقبل",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%b1%d8%b3%d9%85%d9%8a%d9%8b%d8%a7-%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b9%d8%af-%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%87%d8%a7%d8%aa%d9%81%d9%8a-xiaomi-18-pro-%d9%8818-pro-max/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-10T10:00:35Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "رسميًا: شاومي تستعد لإطلاق هاتفي Xiaomi 18 Pro و18 Pro Max عالميًا الأسبوع المقبل",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ثغرة في تطبيقات سيارات سمحت بفتحها وتشغيلها عن بُعد",
+      "url": "https://3arrafni.com/tech-news/car-app-default-admin-password-hack",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-10T09:52:34Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "ثغرة في تطبيقات سيارات سمحت بفتحها وتشغيلها عن بُعد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "من علاقة غرامية إلى قضية أمن قومي.. فضيحة إنفيديا تهز عالم الرقائق",
+      "url": "https://www.aljazeera.net/politics/2026/11/10/%d9%81%d8%b6%d9%8a%d8%ad%d8%a9-%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%ba%d8%b1%d8%a7%d9%85-%d9%88%d8%aa%d8%ac%d8%b3%d8%b3-%d9%8a%d9%87%d8%b2%d8%a7%d9%86-%d8%b9%d8%a7%d9%84%d9%85?traffic_source=rss",
       "source": "aljazeera",
       "source_name": "الجزيرة نت",
-      "published_at": "2026-11-10T04:32:08Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الذهب يتراجع مع ترقب بيانات التضخم الأمريكية",
+      "published_at": "2026-11-10T09:26:00Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "من علاقة غرامية إلى قضية أمن قومي.. فضيحة إنفيديا تهز عالم الرقائق",
       "translation_status": "original_ar"
     },
     {
-      "title": "تحديث One UI 9 Watch يصل إلى Galaxy Watch 8: الميزات وطريقة التثبيت",
-      "url": "https://3arrafni.com/tech-news/one-ui-9-watch-galaxy-watch-8-update",
+      "title": "تسريبات: iPhone 18 وiPhone 18e سيأتيان بالشاشة نفسها وسعة البطارية ذاتها",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-iphone-18-%d9%88iphone-18e-%d8%b3%d9%8a%d8%a3%d8%aa%d9%8a%d8%a7%d9%86-%d8%a8%d8%a7%d9%84%d8%b4%d8%a7%d8%b4%d8%a9-%d9%86%d9%81%d8%b3%d9%87%d8%a7-%d9%88%d8%b3/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-10T09:08:43Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تسريبات: iPhone 18 وiPhone 18e سيأتيان بالشاشة نفسها وسعة البطارية ذاتها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق بيانات SEGA يسرّب 2.2 مليون عنوان بريد إلكتروني",
+      "url": "https://3arrafni.com/tech-news/sega-data-breach-email-leak",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-10T04:22:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث One UI 9 Watch يصل إلى Galaxy Watch 8: الميزات وطريقة التثبيت",
+      "published_at": "2026-11-10T08:57:34Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق بيانات SEGA يسرّب 2.2 مليون عنوان بريد إلكتروني",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب يكشف خطط سامسونج لتطوير Galaxy AI وإضافة مزايا جديدة للفئتين المجانية والمدفوعة",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%8a%d9%83%d8%b4%d9%81-%d8%ae%d8%b7%d8%b7-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d9%84%d8%aa%d8%b7%d9%88%d9%8a%d8%b1-galaxy-ai-%d9%88%d8%a5%d8%b6%d8%a7%d9%81/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-10T08:00:43Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تسريب يكشف خطط سامسونج لتطوير Galaxy AI وإضافة مزايا جديدة للفئتين المجانية والمدفوعة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هواوي تعلن صناعة حاسوب صيني بالكامل.. وبكين تدعمها",
+      "url": "https://www.aljazeera.net/tech/2026/11/10/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%b9%d9%84%d9%86-%d8%b5%d9%86%d8%a7%d8%b9%d8%a9-%d9%83%d9%85%d8%a8%d9%8a%d9%88%d8%aa%d8%b1-%d8%b5%d9%8a%d9%86%d9%8a-%d8%a8%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-10T07:48:05Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "هواوي تعلن صناعة حاسوب صيني بالكامل.. وبكين تدعمها",
       "translation_status": "original_ar"
     },
     {
@@ -63,26 +193,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Android Auto يوقف دعم هواتف Android 9 وAndroid 10",
-      "url": "https://3arrafni.com/tech-news/android-auto-drops-android-9-10-support",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-10T03:27:34Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Android Auto يوقف دعم هواتف Android 9 وAndroid 10",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "NASA تمنح عقوداً بـ10 مليارات دولار لقاعدة القمر ومركبة نووية",
-      "url": "https://3arrafni.com/tech-news/nasa-moon-base-contract-promise-rover",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-10T02:32:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "NASA تمنح عقوداً بـ10 مليارات دولار لقاعدة القمر ومركبة نووية",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "ميتا توسّع عالمياً تقنية الذكاء الاصطناعي للكشف عن حسابات المراهقين",
       "url": "https://aitnews.com/2026/11/10/meta-ai-teen-account-protections-global/",
       "source": "aitnews",
@@ -103,16 +213,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "لينوفو تطرح شاشة مدمجة جديدة يدعم طرازها المزود باللمس معدل تحديث 120Hz ومحور توصيل USB عالميا",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%84%d9%8a%d9%86%d9%88%d9%81%d9%88-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%b4%d8%a7%d8%b4%d8%a9-%d9%85%d8%af%d9%85%d8%ac%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%8a%d8%af%d8%b9%d9%85-%d8%b7%d8%b1%d8%a7%d8%b2/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T21:30:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لينوفو تطرح شاشة مدمجة جديدة يدعم طرازها المزود باللمس معدل تحديث 120Hz ومحور توصيل USB عالميا",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "«لِف» يعلن دمج العملة المستقرة USDU في تطبيقه المصرفي بالإمارات",
       "url": "https://aitnews.com/2026/11/10/liv-usdu-stablecoin-uae-digital-banking/",
       "source": "aitnews",
@@ -123,63 +223,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "أسهم إنفيديا تتراجع 5% وجنسن هوانغ يعتذر عن الخيانة",
+      "title": "أسهم NVIDIA تتراجع 5% وجنسن هوانغ يعتذر عن الخيانة",
       "url": "https://arabhardware.net/post-55123",
       "source": "hardware",
       "source_name": "عرب هاردوير",
       "published_at": "2026-11-09T21:29:09Z",
       "category": "أخبار التقنية",
-      "title_ar": "أسهم إنفيديا تتراجع 5% وجنسن هوانغ يعتذر عن الخيانة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تصميم مختلف وأداء مميز| مراجعة سماعة Fractal Scape",
-      "url": "https://arabhardware.net/post-55122",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-09T21:11:40Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تصميم مختلف وأداء مميز| مراجعة سماعة Fractal Scape",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "شاومي تحدد 17 نوفمبر موعدا للإطلاق العالمي لهاتفي Xiaomi 18 Pro وXiaomi 18 Pro Max وتكشف عن هدايا حجز مسبق ضخمة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%ad%d8%af%d8%af-17-%d9%86%d9%88%d9%81%d9%85%d8%a8%d8%b1-%d9%85%d9%88%d8%b9%d8%af%d8%a7-%d9%84%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%b9%d8%a7%d9%84/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T21:00:11Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "شاومي تحدد 17 نوفمبر موعدا للإطلاق العالمي لهاتفي Xiaomi 18 Pro وXiaomi 18 Pro Max وتكشف عن هدايا حجز مسبق ضخمة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مشغل الأقراص المحمول Gadhouse Eric يجمع بين التصميم الكلاسيكي والتقنيات الحديثة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%85%d8%b4%d8%ba%d9%84-%d8%a7%d9%84%d8%a3%d9%82%d8%b1%d8%a7%d8%b5-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84-gadhouse-eric-%d9%8a%d8%ac%d9%85%d8%b9-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d8%aa%d8%b5%d9%85/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T20:30:22Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مشغل الأقراص المحمول Gadhouse Eric يجمع بين التصميم الكلاسيكي والتقنيات الحديثة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أنكر تطلق ملحق شحن سفر نحيف جديد في المزيد من الدول",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%a3%d9%86%d9%83%d8%b1-%d8%aa%d8%b7%d9%84%d9%82-%d9%85%d9%84%d8%ad%d9%82-%d8%b4%d8%ad%d9%86-%d8%b3%d9%81%d8%b1-%d9%86%d8%ad%d9%8a%d9%81-%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%b2/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T20:00:36Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أنكر تطلق ملحق شحن سفر نحيف جديد في المزيد من الدول",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريبات تكتشف هاتف Motorola Razr Flex 2027 القادم لمنافسة هواتف iPhone Duo وGalaxy Z Fold8",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%aa%d8%b4%d9%81-%d9%87%d8%a7%d8%aa%d9%81-motorola-razr-flex-2027-%d8%a7%d9%84%d9%82%d8%a7%d8%af%d9%85-%d9%84%d9%85%d9%86%d8%a7%d9%81%d8%b3/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T19:00:11Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريبات تكتشف هاتف Motorola Razr Flex 2027 القادم لمنافسة هواتف iPhone Duo وGalaxy Z Fold8",
+      "title_ar": "أسهم NVIDIA تتراجع 5% وجنسن هوانغ يعتذر عن الخيانة",
       "translation_status": "original_ar"
     },
     {
@@ -190,36 +240,6 @@
       "published_at": "2026-11-09T18:57:02Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "نهاية التعليم التقليدي.. الذكاء الاصطناعي يهدد الدكتوراه",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "فرنسا تتهم إيران باختراق أنظمة التبريد في عدد من المتاجر الكبرى",
-      "url": "https://www.bbc.com/arabic/articles/c54g1g2gylx9o?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-09T18:52:50Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "فرنسا تتهم إيران باختراق أنظمة التبريد في عدد من المتاجر الكبرى",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هاتف Motorola Signature 27 يتصدر كاميرات هواتف 2026 في اختبار DXOMARK",
-      "url": "https://arabhardware.net/post-55121",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-09T10:18:01Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هاتف Motorola Signature 27 يتصدر كاميرات هواتف 2026 في اختبار DXOMARK",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هل تحتاج قارئ Kindle إذا كان لديك جهاز لوحي؟ دليل قبل الشراء",
-      "url": "https://arabhardware.net/post-55110",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-09T09:33:48Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هل تحتاج قارئ Kindle إذا كان لديك جهاز لوحي؟ دليل قبل الشراء",
       "translation_status": "original_ar"
     },
     {
@@ -260,16 +280,6 @@
       "published_at": "2026-11-09T08:13:22Z",
       "category": "أخبار التقنية",
       "title_ar": "من الشارقة إلى ملايين الشاشات.. عرب سات واتصالات تطلقان باقة فضائية جديدة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "معالج Renesas RZ/T2N يجمع التحكم في 4 محاور وتشغيل Linux بشريحة واحدة",
-      "url": "https://arabhardware.net/post-55120",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-09T08:13:02Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "معالج Renesas RZ/T2N يجمع التحكم في 4 محاور وتشغيل Linux بشريحة واحدة",
       "translation_status": "original_ar"
     },
     {
@@ -350,16 +360,6 @@
       "published_at": "2026-11-08T14:37:57Z",
       "category": "أخبار التقنية",
       "title_ar": "تقنية لإنتاج الصور باستخدام بيكسل واحد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Ooredoo تقدم إنترنت لامحدود وترقيات لسرعات الإنترنت المنزلي بمناسبة اليوم الوطني",
-      "url": "https://technologyarabia.com/archives/17870/ooredoo-%d8%aa%d9%82%d8%af%d9%85-%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d9%84%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af-%d9%88%d8%aa%d8%b1%d9%82%d9%8a%d8%a7%d8%aa-%d9%84%d8%b3%d8%b1%d8%b9%d8%a7%d8%aa-%d8%a7/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-08T11:18:02Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "Ooredoo تقدم إنترنت لامحدود وترقيات لسرعات الإنترنت المنزلي بمناسبة اليوم الوطني",
       "translation_status": "original_ar"
     }
   ],
