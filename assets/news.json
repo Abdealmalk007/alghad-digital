@@ -1,125 +1,225 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T13:09:15Z",
+  "generated_at": "2026-11-10T07:39:40Z",
   "articles": [
     {
-      "title": "تسريبات تكشف الاسم المتوقع لأول كاميرا من vivo مزودة بنظام تثبيت ميكانيكي للصورة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%b4%d9%81-%d8%a7%d9%84%d8%a7%d8%b3%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d9%88%d9%82%d8%b9-%d9%84%d8%a3%d9%88%d9%84-%d9%83%d8%a7%d9%85%d9%8a%d8%b1/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T13:00:01Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسريبات تكشف الاسم المتوقع لأول كاميرا من vivo مزودة بنظام تثبيت ميكانيكي للصورة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إيقاف نافذة Sticky Keys في Windows 11 نهائياً من داخلها",
-      "url": "https://3arrafni.com/tech-news/windows-11-sticky-keys-popup-turn-off",
+      "title": "تابي كاش تتجاوز مليون مستخدم في الإمارات وتختبر حساب أعمال",
+      "url": "https://3arrafni.com/tech-news/tabby-cash-one-million-uae-users",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-09T12:29:05Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "إيقاف نافذة Sticky Keys في Windows 11 نهائياً من داخلها",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أوبو تكشف رسميًا عن جهازها اللوحي Pad Air6 وتحدد موعد بدء بيعه الأسبوع المقبل",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%a3%d9%88%d8%a8%d9%88-%d8%aa%d9%83%d8%b4%d9%81-%d8%b1%d8%b3%d9%85%d9%8a%d9%8b%d8%a7-%d8%b9%d9%86-%d8%ac%d9%87%d8%a7%d8%b2%d9%87%d8%a7-%d8%a7%d9%84%d9%84%d9%88%d8%ad%d9%8a-pad-air6-%d9%88%d8%aa/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T12:08:13Z",
+      "published_at": "2026-11-10T06:12:34Z",
       "category": "أخبار التقنية",
-      "title_ar": "أوبو تكشف رسميًا عن جهازها اللوحي Pad Air6 وتحدد موعد بدء بيعه الأسبوع المقبل",
+      "title_ar": "تابي كاش تتجاوز مليون مستخدم في الإمارات وتختبر حساب أعمال",
       "translation_status": "original_ar"
     },
     {
-      "title": "إتاحة Instagram Edits لأجهزة Mac مجاناً مع تصدير 4K ووكلاء AI",
-      "url": "https://3arrafni.com/tech-news/instagram-edits-mac-4k-ai-agents",
+      "title": "ثغرة أمنية في Microsoft Paint تتطلب تحديثه من Microsoft Store",
+      "url": "https://3arrafni.com/tech-news/microsoft-paint-security-flaw-store-update",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-09T11:34:05Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "إتاحة Instagram Edits لأجهزة Mac مجاناً مع تصدير 4K ووكلاء AI",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أبل تخطط لتحويل Siri إلى مساعد ذكي قادر على تنفيذ المهام بشكل مستقل خلال العام المقبل",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%a3%d8%a8%d9%84-%d8%aa%d8%ae%d8%b7%d8%b7-%d9%84%d8%aa%d8%ad%d9%88%d9%8a%d9%84-siri-%d8%a5%d9%84%d9%89-%d9%85%d8%b3%d8%a7%d8%b9%d8%af-%d8%b0%d9%83%d9%8a-%d9%82%d8%a7%d8%af%d8%b1-%d8%b9%d9%84%d9%89/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T11:00:19Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أبل تخطط لتحويل Siri إلى مساعد ذكي قادر على تنفيذ المهام بشكل مستقل خلال العام المقبل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "WhatsApp يختبر إخفاء رقم الهاتف عن الآخرين عبر أسماء المستخدمين",
-      "url": "https://3arrafni.com/tech-news/whatsapp-phone-number-privacy-usernames",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-09T10:39:05Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "WhatsApp يختبر إخفاء رقم الهاتف عن الآخرين عبر أسماء المستخدمين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "شاومي تحقق قفزة لافتة في عمر البطارية بجهازها اللوحي الرائد الجديد",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%ad%d9%82%d9%82-%d9%82%d9%81%d8%b2%d8%a9-%d9%84%d8%a7%d9%81%d8%aa%d8%a9-%d9%81%d9%8a-%d8%b9%d9%85%d8%b1-%d8%a7%d9%84%d8%a8%d8%b7%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a8/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T10:00:46Z",
-      "category": "أخبار التقنية",
-      "title_ar": "شاومي تحقق قفزة لافتة في عمر البطارية بجهازها اللوحي الرائد الجديد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "لماذا قررت \"تسلا\" إغلاق ملف شاحنة المستقبل \"سايبرترك\"؟",
-      "url": "https://www.aljazeera.net/motors/2026/11/9/%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%82%d8%b1%d8%b1%d8%aa-%d8%aa%d8%b3%d9%84%d8%a7-%d8%a5%d8%ba%d9%84%d8%a7%d9%82-%d9%85%d9%84%d9%81-%d8%b4%d8%a7%d8%ad%d9%86%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-09T09:48:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لماذا قررت \"تسلا\" إغلاق ملف شاحنة المستقبل \"سايبرترك\"؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اختراق Iris Ohyama قد يكشف بيانات 7.7 ملايين عميل",
-      "url": "https://3arrafni.com/tech-news/iris-ohyama-data-breach-7-7-million",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-09T09:44:05Z",
+      "published_at": "2026-11-10T05:17:34Z",
       "category": "الأمن السيبراني",
-      "title_ar": "اختراق Iris Ohyama قد يكشف بيانات 7.7 ملايين عميل",
+      "title_ar": "ثغرة أمنية في Microsoft Paint تتطلب تحديثه من Microsoft Store",
       "translation_status": "original_ar"
     },
     {
-      "title": "من مواقيت الصلاة إلى الطقس.. كيف تتعقب أدوات إسرائيلية هاتفك؟",
-      "url": "https://www.aljazeera.net/tech/2026/11/9/%d9%85%d9%86-%d9%85%d9%88%d8%a7%d9%82%d9%8a%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a7%d8%a9-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%b7%d9%82%d8%b3-%d9%83%d9%8a%d9%81-%d8%aa%d8%aa%d8%b9%d9%82%d8%a8?traffic_source=rss",
+      "title": "الذهب يتراجع مع ترقب بيانات التضخم الأمريكية",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/10/%d8%a7%d9%84%d8%b0%d9%87%d8%a8-%d9%8a%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d9%85%d8%b9-%d8%aa%d8%b1%d9%82%d8%a8-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b6%d8%ae%d9%85?traffic_source=rss",
       "source": "aljazeera",
       "source_name": "الجزيرة نت",
-      "published_at": "2026-11-09T09:18:28Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "من مواقيت الصلاة إلى الطقس.. كيف تتعقب أدوات إسرائيلية هاتفك؟",
+      "published_at": "2026-11-10T04:32:08Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الذهب يتراجع مع ترقب بيانات التضخم الأمريكية",
       "translation_status": "original_ar"
     },
     {
-      "title": "OpenAI تصنّف نموذج GPT-6 Cyber الأمني الجديد ضمن أعلى مستويات الخطورة الحرجة",
-      "url": "https://www.unlimit-tech.com/2026/11/openai-%d8%aa%d8%b5%d9%86%d9%91%d9%81-%d9%86%d9%85%d9%88%d8%b0%d8%ac-gpt-6-cyber-%d8%a7%d9%84%d8%a3%d9%85%d9%86%d9%8a-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d8%b6%d9%85%d9%86-%d8%a3%d8%b9%d9%84%d9%89/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-09T09:00:52Z",
+      "title": "تحديث One UI 9 Watch يصل إلى Galaxy Watch 8: الميزات وطريقة التثبيت",
+      "url": "https://3arrafni.com/tech-news/one-ui-9-watch-galaxy-watch-8-update",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-10T04:22:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث One UI 9 Watch يصل إلى Galaxy Watch 8: الميزات وطريقة التثبيت",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أستراليا تتجه لتشديد رقابة الذكاء الاصطناعي بعد حادثة OpenAI",
+      "url": "https://aitnews.com/2026/11/10/%d8%a3%d8%b3%d8%aa%d8%b1%d8%a7%d9%84%d9%8a%d8%a7-%d8%aa%d8%aa%d8%ac%d9%87-%d9%84%d8%aa%d8%b4%d8%af%d9%8a%d8%af-%d8%b1%d9%82%d8%a7%d8%a8%d8%a9-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-10T03:49:50Z",
       "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تصنّف نموذج GPT-6 Cyber الأمني الجديد ضمن أعلى مستويات الخطورة الحرجة",
+      "title_ar": "أستراليا تتجه لتشديد رقابة الذكاء الاصطناعي بعد حادثة OpenAI",
       "translation_status": "original_ar"
     },
     {
-      "title": "اختراق DigiCert يكشف بيانات عملاء ووثائق هوية حساسة",
-      "url": "https://3arrafni.com/tech-news/digicert-data-breach-customer-id-documents",
+      "title": "ترامب: FBI ينظر في قضية مزاعم التجسس المرتبطة برئيس إنفيديا",
+      "url": "https://aitnews.com/2026/11/10/trump-fbi-nvidia-jensen-huang-china-spy-allegations/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-10T03:32:39Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ترامب: FBI ينظر في قضية مزاعم التجسس المرتبطة برئيس إنفيديا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Android Auto يوقف دعم هواتف Android 9 وAndroid 10",
+      "url": "https://3arrafni.com/tech-news/android-auto-drops-android-9-10-support",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-09T08:49:05Z",
+      "published_at": "2026-11-10T03:27:34Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "Android Auto يوقف دعم هواتف Android 9 وAndroid 10",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "NASA تمنح عقوداً بـ10 مليارات دولار لقاعدة القمر ومركبة نووية",
+      "url": "https://3arrafni.com/tech-news/nasa-moon-base-contract-promise-rover",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-10T02:32:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "NASA تمنح عقوداً بـ10 مليارات دولار لقاعدة القمر ومركبة نووية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ميتا توسّع عالمياً تقنية الذكاء الاصطناعي للكشف عن حسابات المراهقين",
+      "url": "https://aitnews.com/2026/11/10/meta-ai-teen-account-protections-global/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-09T21:35:47Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "ميتا توسّع عالمياً تقنية الذكاء الاصطناعي للكشف عن حسابات المراهقين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سنوفليك تعلن أدوات لحوكمة وكلاء الذكاء الاصطناعي وتنفيذ مهام المؤسسات",
+      "url": "https://aitnews.com/2026/11/10/snowflake-ai-agents-business-ontology-cortex/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-09T21:32:26Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "سنوفليك تعلن أدوات لحوكمة وكلاء الذكاء الاصطناعي وتنفيذ مهام المؤسسات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "لينوفو تطرح شاشة مدمجة جديدة يدعم طرازها المزود باللمس معدل تحديث 120Hz ومحور توصيل USB عالميا",
+      "url": "https://www.unlimit-tech.com/2026/11/%d9%84%d9%8a%d9%86%d9%88%d9%81%d9%88-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%b4%d8%a7%d8%b4%d8%a9-%d9%85%d8%af%d9%85%d8%ac%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%8a%d8%af%d8%b9%d9%85-%d8%b7%d8%b1%d8%a7%d8%b2/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-09T21:30:38Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لينوفو تطرح شاشة مدمجة جديدة يدعم طرازها المزود باللمس معدل تحديث 120Hz ومحور توصيل USB عالميا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "«لِف» يعلن دمج العملة المستقرة USDU في تطبيقه المصرفي بالإمارات",
+      "url": "https://aitnews.com/2026/11/10/liv-usdu-stablecoin-uae-digital-banking/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-09T21:29:52Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "«لِف» يعلن دمج العملة المستقرة USDU في تطبيقه المصرفي بالإمارات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أسهم إنفيديا تتراجع 5% وجنسن هوانغ يعتذر عن الخيانة",
+      "url": "https://arabhardware.net/post-55123",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T21:29:09Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أسهم إنفيديا تتراجع 5% وجنسن هوانغ يعتذر عن الخيانة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تصميم مختلف وأداء مميز| مراجعة سماعة Fractal Scape",
+      "url": "https://arabhardware.net/post-55122",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T21:11:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تصميم مختلف وأداء مميز| مراجعة سماعة Fractal Scape",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "شاومي تحدد 17 نوفمبر موعدا للإطلاق العالمي لهاتفي Xiaomi 18 Pro وXiaomi 18 Pro Max وتكشف عن هدايا حجز مسبق ضخمة",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%ad%d8%af%d8%af-17-%d9%86%d9%88%d9%81%d9%85%d8%a8%d8%b1-%d9%85%d9%88%d8%b9%d8%af%d8%a7-%d9%84%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%b9%d8%a7%d9%84/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-09T21:00:11Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "شاومي تحدد 17 نوفمبر موعدا للإطلاق العالمي لهاتفي Xiaomi 18 Pro وXiaomi 18 Pro Max وتكشف عن هدايا حجز مسبق ضخمة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مشغل الأقراص المحمول Gadhouse Eric يجمع بين التصميم الكلاسيكي والتقنيات الحديثة",
+      "url": "https://www.unlimit-tech.com/2026/11/%d9%85%d8%b4%d8%ba%d9%84-%d8%a7%d9%84%d8%a3%d9%82%d8%b1%d8%a7%d8%b5-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84-gadhouse-eric-%d9%8a%d8%ac%d9%85%d8%b9-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d8%aa%d8%b5%d9%85/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-09T20:30:22Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مشغل الأقراص المحمول Gadhouse Eric يجمع بين التصميم الكلاسيكي والتقنيات الحديثة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أنكر تطلق ملحق شحن سفر نحيف جديد في المزيد من الدول",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%a3%d9%86%d9%83%d8%b1-%d8%aa%d8%b7%d9%84%d9%82-%d9%85%d9%84%d8%ad%d9%82-%d8%b4%d8%ad%d9%86-%d8%b3%d9%81%d8%b1-%d9%86%d8%ad%d9%8a%d9%81-%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%b2/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-09T20:00:36Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أنكر تطلق ملحق شحن سفر نحيف جديد في المزيد من الدول",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريبات تكتشف هاتف Motorola Razr Flex 2027 القادم لمنافسة هواتف iPhone Duo وGalaxy Z Fold8",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%aa%d8%b4%d9%81-%d9%87%d8%a7%d8%aa%d9%81-motorola-razr-flex-2027-%d8%a7%d9%84%d9%82%d8%a7%d8%af%d9%85-%d9%84%d9%85%d9%86%d8%a7%d9%81%d8%b3/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-09T19:00:11Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تسريبات تكتشف هاتف Motorola Razr Flex 2027 القادم لمنافسة هواتف iPhone Duo وGalaxy Z Fold8",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "نهاية التعليم التقليدي.. الذكاء الاصطناعي يهدد الدكتوراه",
+      "url": "https://techvoicearabia.com/google-scientisttwo-ai-future-education/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-09T18:57:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "نهاية التعليم التقليدي.. الذكاء الاصطناعي يهدد الدكتوراه",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "فرنسا تتهم إيران باختراق أنظمة التبريد في عدد من المتاجر الكبرى",
+      "url": "https://www.bbc.com/arabic/articles/c54g1g2gylx9o?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-09T18:52:50Z",
       "category": "الأمن السيبراني",
-      "title_ar": "اختراق DigiCert يكشف بيانات عملاء ووثائق هوية حساسة",
+      "title_ar": "فرنسا تتهم إيران باختراق أنظمة التبريد في عدد من المتاجر الكبرى",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هاتف Motorola Signature 27 يتصدر كاميرات هواتف 2026 في اختبار DXOMARK",
+      "url": "https://arabhardware.net/post-55121",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T10:18:01Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "هاتف Motorola Signature 27 يتصدر كاميرات هواتف 2026 في اختبار DXOMARK",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هل تحتاج قارئ Kindle إذا كان لديك جهاز لوحي؟ دليل قبل الشراء",
+      "url": "https://arabhardware.net/post-55110",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T09:33:48Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هل تحتاج قارئ Kindle إذا كان لديك جهاز لوحي؟ دليل قبل الشراء",
       "translation_status": "original_ar"
     },
     {
@@ -153,26 +253,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "تصاعد العنف الرقمي ضد الصحفيات.. 45% ضحية للتشهير والابتزاز",
-      "url": "https://www.aljazeera.net/media/2026/11/9/%d8%aa%d8%b5%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%b9%d9%86%d9%81-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d8%b6%d8%af-%d8%a7%d9%84%d8%b5%d8%ad%d9%81%d9%8a%d8%a7%d8%aa-45-%d8%b6%d8%ad%d9%8a%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-09T08:39:51Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تصاعد العنف الرقمي ضد الصحفيات.. 45% ضحية للتشهير والابتزاز",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كهنة المعبد الجدد.. كيف يموّل الإيمان خسائر الذكاء الاصطناعي؟",
-      "url": "https://www.aljazeera.net/tech/2026/11/9/%d9%83%d9%87%d9%86%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d8%a8%d8%af-%d8%a7%d9%84%d8%ac%d8%af%d8%af-%d9%83%d9%8a%d9%81-%d9%8a%d9%85%d9%88%d9%84-%d8%a7%d9%84%d8%a5%d9%8a%d9%85%d8%a7%d9%86?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-09T08:31:54Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "كهنة المعبد الجدد.. كيف يموّل الإيمان خسائر الذكاء الاصطناعي؟",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "من الشارقة إلى ملايين الشاشات.. عرب سات واتصالات تطلقان باقة فضائية جديدة",
       "url": "https://techvoicearabia.com/arabsat-etisalat-badr-8-satellite-tv/",
       "source": "techvoice",
@@ -183,13 +263,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "صناعة النفط في عصر الذكاء الاصطناعي.. تقنيات تعيد رسم مستقبل الطاقة",
-      "url": "https://www.aljazeera.net/tech/2026/11/9/%d8%b5%d9%86%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d9%86%d9%81%d8%b7-%d9%81%d9%8a-%d8%b9%d8%b5%d8%b1-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-09T08:06:47Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "صناعة النفط في عصر الذكاء الاصطناعي.. تقنيات تعيد رسم مستقبل الطاقة",
+      "title": "معالج Renesas RZ/T2N يجمع التحكم في 4 محاور وتشغيل Linux بشريحة واحدة",
+      "url": "https://arabhardware.net/post-55120",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-09T08:13:02Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "معالج Renesas RZ/T2N يجمع التحكم في 4 محاور وتشغيل Linux بشريحة واحدة",
       "translation_status": "original_ar"
     },
     {
@@ -281,86 +361,6 @@
       "category": "البرامج والإنترنت",
       "title_ar": "Ooredoo تقدم إنترنت لامحدود وترقيات لسرعات الإنترنت المنزلي بمناسبة اليوم الوطني",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "النسخ الاحتياطي للبيانات: كيف تحمي صورك وملفاتك من الفقدان؟",
-      "url": "https://technologyarabia.com/archives/17858/data-backup-guide-phone-computer-cloud/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-08T11:09:47Z",
-      "category": "أخبار التقنية",
-      "title_ar": "النسخ الاحتياطي للبيانات: كيف تحمي صورك وملفاتك من الفقدان؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الكونغرس الأمريكي يطلب إيضاحات من رئيس إنفيديا بشأن مزاعم تجسس صيني",
-      "url": "https://aitnews.com/2026/11/08/%d8%a7%d9%84%d9%83%d9%88%d9%86%d8%ba%d8%b1%d8%b3-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d9%8a%d8%b7%d9%84%d8%a8-%d8%a5%d9%8a%d8%b6%d8%a7%d8%ad%d8%a7%d8%aa-%d9%85%d9%86-%d8%b1%d8%a6%d9%8a/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-08T04:17:39Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الكونغرس الأمريكي يطلب إيضاحات من رئيس إنفيديا بشأن مزاعم تجسس صيني",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إذا انقطعت الكهرباء لـ 72 ساعة أو أكثر.. هل أنت مستعد؟",
-      "url": "https://techvoicearabia.com/how-to-survive-long-term-power-blackout/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-07T20:10:11Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إذا انقطعت الكهرباء لـ 72 ساعة أو أكثر.. هل أنت مستعد؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ماسك يخطط لإطلاق حواسيب عملاقة إلى الفضاء في 2027",
-      "url": "https://techvoicearabia.com/spacex-starmind-orbital-supercomputers-2027/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-07T19:40:31Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ماسك يخطط لإطلاق حواسيب عملاقة إلى الفضاء في 2027",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سيارة BYD YANGWANG U9 Xtreme تسجل سرعة 503.17 كم/ساعة في أبوظبي",
-      "url": "https://aitnews.com/2026/11/07/byd-yangwang-u9-xtreme-503-17-abu-dhabi/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-07T10:15:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سيارة BYD YANGWANG U9 Xtreme تسجل سرعة 503.17 كم/ساعة في أبوظبي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
-      "url": "https://www.bbc.com/arabic/watch/cmlykq5k89djo?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-06T07:04:21Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
-      "url": "https://www.bbc.com/arabic/articles/c3j47kvlnnq2o?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-06T06:41:30Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كراودسترايك تطلق سحابة سيادية في السعودية وتستضيف بيانات فالكون محليًا",
-      "url": "https://aitnews.com/2026/11/05/crowdstrike-sovereign-cloud-saudi-arabia/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-05T15:18:09Z",
-      "category": "أخبار التقنية",
-      "title_ar": "كراودسترايك تطلق سحابة سيادية في السعودية وتستضيف بيانات فالكون محليًا",
-      "translation_status": "original_ar"
     }
   ],
   "sources": [
@@ -380,7 +380,7 @@
       "id": "hardware",
       "name": "عرب هاردوير",
       "url": "https://arabhardware.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "techvoice",
