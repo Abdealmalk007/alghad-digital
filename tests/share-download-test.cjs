@@ -43,4 +43,4 @@ for(const route of ["scripts/build_seo.py","scripts/build_en.py"]){
 }
 assert.ok(!read("scripts/prerender_home.py").includes(archive));
 assert.ok(!read("assets/app.js").includes(archive));
-console.log("SITE_DIRECT_DOWNLOAD_AND_SHARING_PASS PAGES="+pages.length+" DOWNLOAD_CTA=6 BROWSER_BACKED=yes");
+console.log("SITE_DIRECT_DOWNLOAD_AND_SHARING_PASS PAGES="+pages.length+" DOWNLOAD_CTA=7 BROWSER_BACKED=yes");

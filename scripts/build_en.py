@@ -42,7 +42,7 @@ CATALOG={
    ["Room layout and openings","Cabinet catalogues","Countertops and appliances","2D and 3D visualizations","Manufacturing documents"]),
  "download":("Android video and audio downloader","An Android media download and playback project with its release status shown transparently.",
    ["Video and audio downloads","Playback controls","Playlists and favorites","Format and quality options","Media library organization"]),
- "care":("Windows maintenance utility","A Windows diagnostics, maintenance and optimization project under development.",
+ "care":("Portable Windows maintenance preview","Runs without installation on tested Windows 11 x64. WinGet/AppX updates, removal and app-data recovery are experimental and not fully VM-validated. This preview is unsigned.",
    ["System information","Maintenance tools","Performance diagnostics","Optional Windows app cleanup","Recovery guidance"]),
  "quotes":("Quotations and contracts","Create and manage business quotations and contract documentation.",
    ["Quotation templates","Customer records","Project pricing","Document management","Export tools"]),
@@ -239,7 +239,7 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
         preferred=next((f for f in entry.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),entry.get("repository",""))),None)
         if preferred:
             releases.append(f'<article class="en-release-card"><div><strong>{esc(p["title"])}</strong><p>Preview v{esc(entry.get("version",""))} · {esc(", ".join(p.get("platforms",[])))}</p></div>{external(preferred["url"],"Download preview","en-btn en-btn-primary")}</article>')
-    assert len(releases)==6
+    assert len(releases)==7
     from_news=industry["topics"]["ai"]["articles"][:3]+industry["topics"]["companies"]["articles"][:3]
     home=f"""
     <section class="en-hero">
@@ -247,7 +247,7 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
         <h1>Software that helps you <span>work smarter.</span></h1>
         <p>Discover ProTech applications for business management, kitchen design, materials, productivity and Android. Explore their features and verified release availability in one place.</p>
         <div class="en-actions">{internal("/en/programs/","Explore our software","en-btn en-btn-primary")}{internal("#downloads","Official downloads","en-btn en-btn-outline")}</div>
-        <p class="en-hero-note">8 software projects · 6 verified preview downloads · official GitHub links</p>
+        <p class="en-hero-note">8 software projects · 7 verified preview downloads · official GitHub links</p>
       </div>
       <div class="en-hero-visual"><img src="/assets/previews/kitchen.svg" alt="Kitchen CAD Pro illustrative preview" width="960" height="540"><div><strong>Kitchen CAD Pro</strong><span>DESIGN · PLANNING · 3D</span></div></div>
     </section>
@@ -281,11 +281,11 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
     image=product["preview"]
     facts_html=release_info(product,downloads,facts)
     state="Published — preview release" if downloads.get(slug,{}).get("files") else "In development" if product["status"]=="dev" else "Published repository; no verified public installer"
-    if slug in ("stone","quotes") and downloads.get(slug,{}).get("files"):state="Beta / Preview — UNSIGNED Windows installer"
+    if slug in ("stone","quotes","care") and downloads.get(slug,{}).get("files"):state="Beta / Preview — UNSIGNED Windows installer"
     features_html="".join(f"<li>{esc(v)}</li>" for v in features)
     entry=downloads.get(slug,{})
     preferred=next((f for f in entry.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),entry.get("repository",""))),None)
-    direct=external(preferred["url"],"Download Beta (UNSIGNED)" if slug in ("stone","quotes") else "Download","en-btn en-btn-primary") if preferred else '<span class="en-download-unavailable">Download coming soon</span>'
+    direct=external(preferred["url"],"Download Beta (UNSIGNED)" if slug in ("stone","quotes","care") else "Download","en-btn en-btn-primary") if preferred else '<span class="en-download-unavailable">Download coming soon</span>'
     content=f"""
       <div class="en-breadcrumbs">{internal("/en/","Home")} / {internal("/en/programs/","Software")} / {esc(product['title'])}</div>
       <div class="en-detail-layout"><div>{hero("PROTECH SOFTWARE · "+", ".join(product["platforms"]),product["title"],summary)}
@@ -397,7 +397,7 @@ def main()->None:
     products=seo.read_javascript_data("assets/products.js","AL_GHAD_PRODUCTS")
     downloads=seo.read_javascript_data("assets/downloads.js","AL_GHAD_DOWNLOADS")
     assert set(p["id"] for p in products)==set(CATALOG)
-    assert len(products)==8 and set(downloads)=={"stone","marble","reports","hr","download","quotes"}
+    assert len(products)==8 and set(downloads)=={"stone","marble","reports","hr","download","quotes","care"}
     industry=json.loads((ROOT/"assets/industry-news.json").read_text(encoding="utf8"))
     tools=json.loads((ROOT/"assets/tools.json").read_text(encoding="utf8"))
     facts=json.loads((ROOT/"assets/release-facts.json").read_text(encoding="utf8"))

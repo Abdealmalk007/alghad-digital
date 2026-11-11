@@ -190,7 +190,7 @@ def render_product(product: dict, downloads: dict) -> None:
         links='<a class="button" href="'+esc(preferred["url"])+'" target="_blank" rel="noopener noreferrer">↓ تنزيل مباشر</a>'
     else:
         links='<span class="muted">التنزيل قريبًا — لا يوجد إصدار عام متاح</span>'
-    if slug=="stone" and preferred:
+    if slug in ("stone","quotes","care") and preferred:
         links+='<span class="stone-release-pending">نسخة Beta تجريبية غير موقّعة رقميًا. قد يظهر تحذير Windows SmartScreen؛ تحقّق من SHA-256.</span>'
     verified={}
     if preferred and (ROOT/"assets"/"release-facts.json").is_file():
@@ -298,7 +298,7 @@ def render_catalog(products: list, downloads: dict) -> None:
         link=('<a class="button" href="'+esc(preferred["url"])+'" rel="noopener noreferrer" target="_blank">↓ تنزيل مباشر</a>'
               if preferred else '<span class="muted">التنزيل قريبًا</span>')
         link='<div class="directory-actions"><a class="program-details" href="'+esc(slug)+'/">تفاصيل</a>'+link+'</div>'
-        if slug=="stone" and preferred:
+        if slug in ("stone","quotes","care") and preferred:
             link+='<p class="muted">Beta · مُثبّت Windows غير موقّع رقميًا. تحقق من SHA-256 قبل الاستخدام.</p>'
         items.append(f'<article class="directory-card"><h2><a href="{esc(slug)}/">{esc(name)}</a></h2><p>{esc(product.get("description", ""))}</p><span>{esc(category)} · {esc(state)}</span>{link}</article>')
     text = f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / برامج ProTech</div>
@@ -454,7 +454,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             +'<div class="brand-card-actions"><a class="program-details" href="../programs/'+esc(slug)+'/">تفاصيل</a>'+action+'</div>'
             +'</article>'
         )
-    assert len(cards)==8 and public_downloads==6
+    assert len(cards)==8 and public_downloads==7
     body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / Pro Tech</div>
       <span class="eyebrow">PRO TECH / PROTECH SOFTWARE</span>
       <h1>Pro Tech (بروتك) — برامج الغد ديجتال</h1>

@@ -207,20 +207,20 @@ window.AL_GHAD_PRODUCTS = [
     "title": "ProTech Windows Care",
     "english": "WINDOWS CARE",
     "category": "الصيانة والأداء",
-    "description": "صيانة Windows وتشخيص الأعطال وتحسين الأداء وإدارة المكونات الاختيارية.",
-    "details": "برنامج قيد التطوير لصيانة Windows وتحسين الأداء وإدارة العناصر الاختيارية والفحص، مع مراعاة نسخ الاستعادة وسلامة البيانات.",
+    "description": "أداة Portable لصيانة Windows 11 وفحص النظام، مع تحديد دفعات WinGet وAppX ومعاينة المخاطر قبل التنفيذ. نسخة تجريبية غير موقّعة.",
+    "details": "ProTech Windows Care v3.3.0 أداة محمولة تعمل مباشرة دون تثبيت، مع واجهة عربية وإنجليزية، تحديد الكل للعناصر المسموحة، سجل ونسخة احتياطية وفحص نقطة استعادة جديدة قبل تنفيذ عمليات PowerShell. الإصدار Preview: عمليات تثبيت وتحديث وحذف WinGet وAppX الفعلية واستعادة بيانات البرامج لم تُختبر بعد اختبارًا نهائيًا داخل VM، فلا يُنصح بتجربتها على جهاز إنتاج. الاختبارات المسجلة على Windows 11 Pro x64 فقط؛ Windows 10 وARM64 غير معتمَدين. الملف غير موقّع رقميًا وقد يظهر تحذير SmartScreen.",
     "platforms": [
       "Windows"
     ],
-    "version": "3.0",
-    "status": "dev",
-    "github": null,
+    "version": "3.3.0",
+    "status": "public",
+    "github": "https://github.com/Abdealmalk007/ProTechWindowsCare",
     "features": [
-      "فحص أعطال النظام الشائعة",
-      "تحسين الأداء وإدارة بدء التشغيل",
-      "إدارة التطبيقات المدمجة بصورة اختيارية",
-      "أدوات صيانة ونسخ استعادة وحماية البيانات",
-      "لوحة معلومات الجهاز والصحة التشغيلية"
+      "Portable: تشغيل مباشر من EXE دون تثبيت",
+      "تحديد الكل والاختيار المتعدد والمعاينة قبل التنفيذ",
+      "تشغيل WinGet وAppX عبر PowerShell مع موافقات وأذونات UAC",
+      "نسخة احتياطية واشتراط نقطة استعادة Windows جديدة ومتحقق منها",
+      "تقارير ونتائج مفصلة وواجهة عربية/إنجليزية"
     ],
     "emblem": "⚙",
     "colors": [
@@ -229,11 +229,11 @@ window.AL_GHAD_PRODUCTS = [
       "#52b4f1"
     ],
     "keywords": "windows care optimization repair صيانة ويندوز",
-    "summary": "أدوات صيانة Windows في واجهة واحدة",
+    "summary": "أداة Windows 11 Portable Preview — دون تثبيت، وعمليات WinGet/AppX تجريبية",
     "preview": "assets/previews/care.svg",
     "previewAlt": "تصميم توضيحي لواجهة ProTech Windows Care",
-    "displayStatus": "قريبًا جدًا",
-    "release": null
+    "displayStatus": "Portable Preview · غير موقّع",
+    "release": "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/tag/v3.3.0-portable-preview"
   },
   {
     "id": "quotes",

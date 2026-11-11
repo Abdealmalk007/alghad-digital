@@ -48,6 +48,17 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
     ],
     note:"توفرت نسخة Windows تجريبية. ملف Android Debug الموجود في GitHub غير مخصص للتوزيع العام."
   },
+  care: {
+    repository: "ProTechWindowsCare",
+    version: "3.3.0",
+    channel: "preview",
+    release: "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/tag/v3.3.0-portable-preview",
+    checksum: "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.0-portable-preview/SHA256SUMS.txt",
+    files: [
+      {label:"تنزيل EXE المحمول مباشرة — Portable Preview غير موقّع", platform:"Windows 11 x64 (اختُبر فقط) • Portable • UNSIGNED Preview", recommended:true, bytes:97792, url:"https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.0-portable-preview/ProTech_Windows_Care_Setup.exe"}
+    ],
+    note:"Portable دون تثبيت، والإعداد الاختياري عبر --setup-ui. هذا الإصدار v3.3.0 Preview غير موقّع رقميًا (NotSigned). قد يظهر SmartScreen. قبل الحذف أو تحديث البرامج: اختبر داخل جهاز افتراضي، واحتفظ بنسخة احتياطية. عمليات WinGet/AppX الحقيقية واستعادة البيانات لم تجتز اختبار VM شاملًا. Windows 10 وARM64 غير متحقق منهما. الحقوق محفوظة ProTech."
+  },
   quotes: {
     repository: "ProTechQuotesContracts",
     version: "2.0.0-beta.2",

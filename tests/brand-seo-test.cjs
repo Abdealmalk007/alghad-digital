@@ -40,7 +40,7 @@ assert.ok(title.length<80);
 assert.match(brand,/<h1>Pro Tech \(بروتك\) — برامج الغد ديجتال<\/h1>/);
 assert.match(brand,/<link rel="canonical" href="https:\/\/alghad\.digital\/protech\/">/);
 assert.equal((brand.match(/class="directory-card brand-product-card"/g)||[]).length,8);
-assert.equal((brand.match(/إصدار Beta\/Preview متاح للتنزيل/g)||[]).length,6);
+assert.equal((brand.match(/إصدار Beta\/Preview متاح للتنزيل/g)||[]).length,7);
 assert.ok(brand.includes("جيل الغد"));
 assert.ok(brand.includes("mailto:protech.2025.2026@gmail.com"));
 const brandMarkup=brand.match(/<script type="application\/ld\+json">(.*?)<\/script>/s);
@@ -81,4 +81,4 @@ assert.ok(workflow.includes("protech/index.html"),"Automated brand page update")
 const publisher=read("Publish_To_GitHub.ps1");
 assert.ok(publisher.includes("protech/index.html"));
 assert.ok(publisher.includes("tests/brand-seo-test.cjs"));
-console.log("BRAND_SEARCH_SEO_PASS PAGES="+total+" BRAND_LINKS=10 VERIFIED_DOWNLOADS=6 ALIASES=ProTech,Pro Tech,بروتك,جيل الغد");
+console.log("BRAND_SEARCH_SEO_PASS PAGES="+total+" BRAND_LINKS=10 VERIFIED_DOWNLOADS=7 ALIASES=ProTech,Pro Tech,بروتك,جيل الغد");

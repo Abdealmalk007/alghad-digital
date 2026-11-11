@@ -166,13 +166,13 @@ async function main() {
     assert.equal(await evaluate('document.querySelectorAll(".windows-tool-card").length'),8);
 
     const showcase=await evaluate('({cards:document.querySelectorAll(".showcase-release").length,downloads:document.querySelectorAll(".showcase-release-cta").length,security:!!document.getElementById("security"),navDownloads:!!document.querySelector(\'.nav a[href="#downloads"]\'),title:document.getElementById("downloads-title")?.textContent})');
-    assert.equal(showcase.cards,6,"Six verified release cards including unsigned Stone and Quotes");
-    assert.equal(showcase.downloads,6,"Six official GitHub downloads");
+    assert.equal(showcase.cards,7,"Seven verified release cards including unsigned Portable Windows Care");
+    assert.equal(showcase.downloads,7,"Seven official GitHub downloads");
     for(let attempt=0;attempt<25;attempt++){
-      if(await evaluate('document.querySelectorAll(".showcase-release .alghad-share-button").length===6'))break;
+      if(await evaluate('document.querySelectorAll(".showcase-release .alghad-share-button").length===7'))break;
       await delay(100);
     }
-    assert.equal(await evaluate('document.querySelectorAll(".showcase-release .alghad-share-button").length'),6,"Showcase cards need share buttons");
+    assert.equal(await evaluate('document.querySelectorAll(".showcase-release .alghad-share-button").length'),7,"Showcase cards need share buttons");
     assert.equal(await evaluate('document.querySelectorAll(".showcase-release-details").length'),0,"Extra details shortcuts removed");
     assert.equal(showcase.security,true,"Security information section should exist");
     assert.equal(showcase.navDownloads,true,"Downloads should be discoverable in navigation");
@@ -181,14 +181,14 @@ async function main() {
     let downloadCount=0;
     for(let i=0;i<40;i++){
       downloadCount=await evaluate('document.querySelectorAll(".direct-download-card").length');
-      if(downloadCount===6) break;
+      if(downloadCount===7) break;
       await delay(100);
     }
-    assert.equal(downloadCount,6,"Six publicly downloadable cards");
+    assert.equal(downloadCount,7,"Seven publicly downloadable cards");
     assert.equal(await evaluate('window.AL_GHAD_PRODUCTS.some(p=>p.id==="recorder")'),false);
     assert.equal(await evaluate('document.querySelector(\'[data-id="recorder"]\')===null'),true);
     assert.equal(await evaluate('document.getElementById("stat-apps").textContent'),"08");
-    assert.equal(await evaluate('document.getElementById("stat-upcoming").textContent'),"02");
+    assert.equal(await evaluate('document.getElementById("stat-upcoming").textContent'),"01");
     assert.equal(await evaluate('document.getElementById("gallery-portfolio-count").textContent'),"08");
     const hiddenRemoved = await evaluate('(() => { const s=document.querySelector("#search"); s.value="Call Recorder PRO";s.dispatchEvent(new Event("input",{bubbles:true}));return document.querySelectorAll(".product-card").length; })()');
     assert.equal(hiddenRemoved,0,"Removed app must not appear in search");
@@ -219,15 +219,15 @@ async function main() {
     assert.equal(await evaluate('document.querySelectorAll(".compare-toggle").length'),0,"Compare controls removed");
     assert.equal(await evaluate('document.getElementById("compare-tray")===null'),true);
     assert.equal(await evaluate('document.querySelectorAll(".product-card .alghad-share-button").length'),8);
-    assert.equal(await evaluate('document.querySelectorAll(".product-card .direct-download-card").length'),6);
+    assert.equal(await evaluate('document.querySelectorAll(".product-card .direct-download-card").length'),7);
     assert.equal(await evaluate('document.querySelectorAll(".product-card .card-link").length'),0,"GitHub shortcuts removed");
     const initial=await evaluate('document.querySelector(".product-card .card-title").textContent');
     await evaluate('document.querySelector("#sort-products").value="name";document.querySelector("#sort-products").dispatchEvent(new Event("change"))');
     const sorted=await evaluate('document.querySelector(".product-card .card-title").textContent');
     assert.notEqual(initial,sorted,"Sorting must rearrange cards");
     await evaluate('document.querySelector("[data-filter=public]").click()');
-    assert.equal(await evaluate('document.querySelectorAll(".product-card").length'),6);
-    assert.equal(await evaluate('document.querySelectorAll(".direct-download-card").length'),6);
+    assert.equal(await evaluate('document.querySelectorAll(".product-card").length'),7);
+    assert.equal(await evaluate('document.querySelectorAll(".direct-download-card").length'),7);
     await evaluate('document.querySelector("[data-filter=all]").click()');
     assert.equal(await evaluate('document.querySelectorAll(".compare-panel").length'),0);
     await evaluate('document.querySelector("[data-detail=stone]").click()');
@@ -295,7 +295,7 @@ async function main() {
     await evaluate('document.getElementById("downloads").scrollIntoView({behavior:"instant"})');
     await delay(240);
     const releasesMetrics=await evaluate('({vw:innerWidth,page:document.documentElement.scrollWidth,sectionLeft:document.getElementById("downloads").getBoundingClientRect().left,sectionRight:document.getElementById("downloads").getBoundingClientRect().right,cardCount:document.querySelectorAll(".showcase-release").length})');
-    assert.equal(releasesMetrics.cardCount,6);
+    assert.equal(releasesMetrics.cardCount,7);
     assert.ok(releasesMetrics.page<=392,"Release section overflow: "+JSON.stringify(releasesMetrics));
     const releaseShot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
     const releaseShotPath=path.join(qaDir,"releases-mobile-v33.png");
@@ -370,11 +370,11 @@ async function main() {
         assert.equal(count,8,"English cards visible");
         const filters=await evaluate('({hasSearch:!!document.querySelector("#en-search"),count:document.querySelectorAll(".en-release-card").length})');
         assert.equal(filters.hasSearch,true);
-        assert.equal(filters.count,6,"Verified preview releases");
+        assert.equal(filters.count,7,"Verified preview releases");
         await evaluate('document.querySelector("#en-search").value="Kitchen";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}))');
         assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),1,"English search works");
         await evaluate('document.querySelector("#en-search").value="";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}));document.querySelector("[data-en-filter=public]").click()');
-        assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),6,"English published filter");
+        assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),7,"English published filter");
         const shot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
         fs.writeFileSync(path.join(qaDir,"english-home-mobile-v42.png"),Buffer.from(shot.data,"base64"));
       }
@@ -391,7 +391,7 @@ async function main() {
       assert.ok(layout.documentWidth<=width+2,"EN responsive overflow at "+width+"px: "+JSON.stringify(layout));
     }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:6,directDownloadCards:6,verifiedDownloadVariants:9,stonePublicDownload:"unsigned-beta-preview",compared:0,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:7,directDownloadCards:7,verifiedDownloadVariants:10,stonePublicDownload:"unsigned-beta-preview",compared:0,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {

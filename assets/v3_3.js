@@ -8,7 +8,7 @@
   const releaseFacts = window.AL_GHAD_RELEASE_FACTS?.releases || {};
   const products = window.AL_GHAD_PRODUCTS;
   const owner = "Abdealmalk007";
-  const featured = ["quotes", "download", "hr", "marble", "reports", "stone"];
+  const featured = ["care", "quotes", "download", "hr", "marble", "reports", "stone"];
   const byId = new Map(products.map(item => [item.id, item]));
 
   function safeAsset(raw, config, extension) {

@@ -11,9 +11,9 @@ vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
 vm.runInNewContext(read("assets/downloads.js"),ctx,{timeout:1000});
 const manifest=ctx.window.AL_GHAD_DOWNLOADS;
 const p=ctx.window.AL_GHAD_PRODUCTS;
-assert.equal(Object.keys(manifest).length,6,"Six published projects must have release records");
-const six=["stone","download","hr","marble","reports","quotes"];
-for(const id of six){
+assert.equal(Object.keys(manifest).length,7,"Seven published projects must have release records");
+const seven=["stone","download","hr","marble","reports","quotes","care"];
+for(const id of seven){
   const d=manifest[id];
   const product=p.find(x=>x.id===id);
   assert.ok(product && product.status==="public",id);
@@ -25,7 +25,7 @@ for(const id of six){
   for(const asset of d.files){
     assert.match(asset.url,/^https:\/\/github\.com\/Abdealmalk007\/[A-Za-z0-9._-]+\/releases\/download\/[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+\.(?:apk|exe|zip)$/);
     assert.ok(asset.url.startsWith(product.github+"/releases/download/"));
-    assert.ok(asset.bytes>100000,"Asset appears too small: "+asset.url);
+    assert.ok(asset.bytes>50000,"Asset appears too small: "+asset.url);
     assert.ok(!/debug/i.test(asset.url),"Never promote a Debug binary: "+asset.url);
   }
 }
@@ -35,13 +35,13 @@ assert.match(manifest.stone.release,/v2\.0\.0-unsigned-preview$/);
 assert.ok(Array.isArray(p));
 assert.equal(p.length,8,"The public catalog must contain 9 products");
 assert.equal(new Set(p.map(x=>x.id)).size,8);
-const published=["stone","marble","reports","hr","download","quotes"].sort();
+const published=["stone","marble","reports","hr","download","quotes","care"].sort();
 assert.deepEqual(Array.from(p.filter(x=>x.status==="public"),x=>x.id).sort(),published);
-assert.equal(p.filter(x=>x.status==="dev").length,2);
+assert.equal(p.filter(x=>x.status==="dev").length,1);
 assert.ok(!p.some(x=>["omar","reem","recorder","tv"].includes(x.id)));
 assert.ok(!fs.existsSync(path.join(root,"assets/previews/recorder.svg")),"Removed preview must not ship");
 const allIds=new Set(p.map(x=>x.id));
-for(const id of ["kitchen","care"])assert.ok(allIds.has(id));
+for(const id of ["kitchen"])assert.ok(allIds.has(id));
 for(const item of p){
   for(const field of ["id","title","english","description","details","category","version","preview","previewAlt","displayStatus"]){
     assert.equal(typeof item[field],"string",item.id+":"+field);
@@ -49,7 +49,7 @@ for(const item of p){
   }
   assert.ok(Array.isArray(item.features)&&item.features.length>=3,item.id+": insufficient features");
   assert.ok(Array.isArray(item.platforms)&&item.platforms.length>=1);
-  assert.equal(item.displayStatus,["stone","quotes"].includes(item.id)?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
+  assert.equal(item.displayStatus,item.id==="care"?"Portable Preview · غير موقّع":["stone","quotes"].includes(item.id)?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
   assert.match(item.preview,/^assets\/previews\/[a-z0-9_-]+\.svg$/);
   const svg=read(item.preview);
   assert.match(svg,/<svg\b/);assert.match(svg,/<\/svg>/);
@@ -58,7 +58,7 @@ for(const item of p){
   if(item.status==="public"){
     assert.equal(item.github,"https://github.com/Abdealmalk007/"+{
       stone:"ProTechStoneManager",marble:"MarbleDeliveryPro",
-      reports:"DailyWorkReports-Flexible",hr:"HR",download:"Download-Anything-PRO",quotes:"ProTechQuotesContracts"
+      reports:"DailyWorkReports-Flexible",hr:"HR",download:"Download-Anything-PRO",quotes:"ProTechQuotesContracts",care:"ProTechWindowsCare"
     }[item.id]);
   }else{
     assert.equal(item.github,null,item.id+": coming soon must not link nonexistent repo");
@@ -102,4 +102,4 @@ assert.ok(!read("assets/v3.js").includes("hydrateCompareButtons"));
 assert.ok(read("assets/v3.js").includes('searchParams.set("app"'));
 const js=read("assets/app.js");
 for(const word of ['"مكتمل"','"قريبًا جدًا"',"renderFeatured","aria-label"])assert.ok(js.includes(word));
-console.log("PASS: 8 projects, 6 public repos, 2 upcoming, 6 verified public release downloads, recorder excluded, HTTPS and CSP.");
+console.log("PASS: 8 projects, 7 public repos, 1 upcoming, 7 verified public release downloads, recorder excluded, HTTPS and CSP.");

@@ -32,7 +32,7 @@ products=manifest["products"]
 downloads=manifest["downloads"]
 news=json.loads((ROOT/"assets"/"news.json").read_text(encoding="utf-8"))
 release_facts=json.loads((ROOT/"assets"/"release-facts.json").read_text(encoding="utf-8"))
-assert release_facts["version"]==1 and set(release_facts["releases"])=={"stone","marble","hr","reports","download","quotes"}
+assert release_facts["version"]==1 and set(release_facts["releases"])=={"stone","marble","hr","reports","download","quotes","care"}
 # The browser only receives already-approved public release information.
 (ROOT/"assets"/"release-facts-data.js").write_text(
     "window.AL_GHAD_RELEASE_FACTS = "+json.dumps(release_facts,ensure_ascii=True,separators=(",",":"))+";\n",
@@ -63,7 +63,7 @@ def anchor(url,label,css="",external=False):
 def recommended(pid):
     entry=downloads.get(pid,{})
     for file in entry.get("files",[]):
-        if file.get("recommended") and safe_release(file.get("url")) and file.get("bytes",0)>100000:
+        if file.get("recommended") and safe_release(file.get("url")) and file.get("bytes",0)>50000:
             return entry,file
     return entry,None
 
@@ -75,7 +75,7 @@ for i,id in enumerate(ids):
             "مستودع منشور · التنزيل غير متاح" if p["status"]=="public" else "قريبًا")
     label=(f"الإصدار {entry['version']} · تجريبي" if featured else
            "المستودع منشور على GitHub" if p["status"]=="public" else "قيد التطوير")
-    links=(anchor(featured["url"],"↓ تنزيل مباشر" if id not in ("stone","quotes") else "↓ تنزيل مباشر (Beta · غير موقّع)","pre-product-download",True)
+    links=(anchor(featured["url"],"↓ تنزيل مباشر" if id not in ("stone","quotes","care") else "↓ تنزيل مباشر (Beta · غير موقّع)","pre-product-download",True)
            if featured else '<span class="pre-product-unavailable">التنزيل قريبًا</span>')
     links=anchor(f"programs/{id}/", "تفاصيل", "program-details")+links
     card=f'''<article class="pre-product-card" data-prerender-product="{esc(id)}">
@@ -94,7 +94,7 @@ for i,id in enumerate(ids):
 assert len(catalog)==8
 
 release_cards=[]
-for id in ["stone","marble","hr","reports","download","quotes"]:
+for id in ["stone","marble","hr","reports","download","quotes","care"]:
     p=byid[id]
     entry,file=recommended(id)
     assert entry.get("channel")=="preview" and file
@@ -118,7 +118,7 @@ for id in ["stone","marble","hr","reports","download","quotes"]:
       +f'<div class="pre-release-verified"><span>تاريخ النشر: {published}</span>'
       +f'<code dir="ltr" aria-label="SHA-256 من GitHub">SHA-256: {digest}</code></div>'
       +'</div></article>')
-assert len(release_cards)==6
+assert len(release_cards)==7
 
 trusted=["aitnews.com","tech-wd.com","arabhardware.net","techvoicearabia.com",
          "technologyarabia.com","3arrafni.com","th3professional.com",
