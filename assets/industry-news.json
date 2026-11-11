@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T09:27:09Z",
+  "generated_at": "2026-11-11T11:59:28Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -484,6 +484,19 @@
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
         {
+          "title": "Toyota Powers What’s Next in Mobility and Manufacturing",
+          "url": "https://pressroom.toyota.com/toyota-powers-whats-next-in-mobility-and-manufacturing/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-11T11:58:37Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تويوتا تدعم ما هو التالي في التنقل والتصنيع",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Toyota Says ‘Okei’ to America: Introducing the Scion by Toyota Brand and KEI-01",
           "url": "https://pressroom.toyota.com/toyota-says-okei-to-america-introducing-the-scion-by-toyota-brand-and-kei-01/",
           "source": "toyota",
@@ -559,19 +572,6 @@
           "topic": "cars",
           "title_ar": null,
           "translation_status": "unavailable"
-        },
-        {
-          "title": "Toyota Financial Services Brings Auto Finance Edutainment to TikTok",
-          "url": "https://pressroom.toyota.com/toyota-financial-services-brings-auto-finance-edutainment-to-tiktok/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-09T14:58:45Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا للخدمات المالية تجلب الترفيه التعليمي لتمويل السيارات إلى تيك توك",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         },
         {
           "title": "Live Now: TMC's FY2027 2Q Financial Results Press Briefing",
