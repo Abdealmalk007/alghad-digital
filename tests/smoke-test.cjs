@@ -75,7 +75,10 @@ assert.equal(read("CNAME").trim(),"alghad.digital");
 assert.equal(read("google3f39246447a165d6.html"),"google-site-verification: google3f39246447a165d6.html","Google Search Console verification must match original file exactly");
 const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/v3_1.js"),read("assets/downloads-ui.js"),read("assets/downloads.js"),read("assets/downloads.css"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css"),read("assets/v3_1.css")].join("\n");
 assert.doesNotMatch(publicSources,/مطبخ ريم|عالم الصغار|Omar Kids|Reem Kitchen|عُمر/);
-assert.doesNotMatch(publicSources,/0503276927|966503276927/);
+// The owner explicitly authorized WhatsApp contact; the number may appear only in that CTA.
+const approvedWhatsApp=/https:\/\/wa\.me\/966503276927\?text=[A-Za-z0-9%._~-]+/g;
+assert.match(html,/<a class="protech-whatsapp-float" href="https:\/\/wa\.me\/966503276927\?text=/);
+assert.doesNotMatch(publicSources.replace(approvedWhatsApp,"AUTHORIZED_WHATSAPP_CONTACT"),/0503276927|966503276927/);
 const officialEmail="protech.2025.2026@gmail.com";
 assert.ok(html.includes('href="mailto:'+officialEmail+'"'));
 assert.ok(html.includes('id="copy-protech-email"'));

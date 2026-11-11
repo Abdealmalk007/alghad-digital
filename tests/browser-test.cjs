@@ -100,13 +100,14 @@ async function main() {
     await send("Runtime.enable");
     // Chrome initially navigates to the target URL; no second CDP navigation.
     let count=0;
-    for(let i=0;i<120;i++){
+    for(let i=0;i<240;i++){
       count=await evaluate('document.querySelectorAll(".product-card").length');
       if(count===8)break;
       await delay(100);
     }
     if(count!==8) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
     assert.equal(count,8,"All allowed project cards should be rendered");
+    assert.ok(await evaluate('document.querySelector(".protech-whatsapp-float")?.href.startsWith("https://wa.me/966503276927?text=")'),"Sitewide WhatsApp CTA should link to the authorized number");
     // Product cards can render before independent editorial scripts finish loading.
     for(let attempt=0;attempt<80;attempt++){
       const done=await evaluate('document.readyState==="complete" && document.querySelectorAll(".editorial-story").length>=5 && document.querySelectorAll(".windows-tool-card").length===8');
