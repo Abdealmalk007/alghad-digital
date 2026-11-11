@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T09:03:55Z",
+  "generated_at": "2026-11-11T09:26:58Z",
   "articles": [
     {
       "title": "تسريب يكشف تصميمًا متوقعًا لهواتف سلسلة Samsung Galaxy S27 عبر مجسمات تجريبية جديدة",
@@ -73,16 +73,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Google تطرح Gemini 4 Carbon مع ميزة أسراب وكلاء الذكاء الاصطناعي",
-      "url": "https://3arrafni.com/tech-news/google-gemini-4-carbon-swarm-agents-api-pricing",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T07:57:16Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Google تطرح Gemini 4 Carbon مع ميزة أسراب وكلاء الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
       "url": "https://aitnews.com/2026/11/11/%d8%b3%d9%8a%d8%ac%d9%8a%d8%aa-%d8%aa%d8%b7%d9%84%d9%82-firecuda-forge-%d8%a8%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d9%85%d8%a4%d9%82%d8%aa-%d8%b0%d9%83%d9%8a-%d9%88%d8%b3%d8%b9%d8%a9-%d8%aa%d8%b5%d9%84/",
       "source": "aitnews",
@@ -90,16 +80,6 @@
       "published_at": "2026-11-11T07:47:38Z",
       "category": "أخبار التقنية",
       "title_ar": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Anthropic تضيف Claude إلى مكالمات Google Meet مع أدوات جديدة للعمل",
-      "url": "https://3arrafni.com/tech-news/claude-meetings-google-meet-whiteboards-sheets",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T07:02:16Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Anthropic تضيف Claude إلى مكالمات Google Meet مع أدوات جديدة للعمل",
       "translation_status": "original_ar"
     },
     {
@@ -113,23 +93,23 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "هيوماين تحصل على 667 مليون دولار لتوسعة مراكز بيانات الذكاء الاصطناعي",
-      "url": "https://3arrafni.com/tech-news/humain-667m-saudi-ai-data-centers",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T06:07:16Z",
+      "title": "كيرو إيه آي.. محاولة أمازون لدخول معركة وكلاء الذكاء الاصطناعي",
+      "url": "https://www.aljazeera.net/tech/2026/11/11/%d9%83%d9%8a%d8%b1%d9%88-%d8%a5%d9%8a%d9%87-%d8%a2%d9%8a-%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a9-%d8%a3%d9%85%d8%a7%d8%b2%d9%88%d9%86-%d9%84%d8%af%d8%ae%d9%88%d9%84-%d9%85%d8%b9%d8%b1%d9%83%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-11T06:08:45Z",
       "category": "الذكاء الاصطناعي",
-      "title_ar": "هيوماين تحصل على 667 مليون دولار لتوسعة مراكز بيانات الذكاء الاصطناعي",
+      "title_ar": "كيرو إيه آي.. محاولة أمازون لدخول معركة وكلاء الذكاء الاصطناعي",
       "translation_status": "original_ar"
     },
     {
-      "title": "ميزة Auto SR تصل إلى أجهزة Xbox Ally X لتحسين الألعاب بالذكاء الاصطناعي",
-      "url": "https://3arrafni.com/auto-sr-xbox-ally-x-windows-11",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T05:12:16Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ميزة Auto SR تصل إلى أجهزة Xbox Ally X لتحسين الألعاب بالذكاء الاصطناعي",
+      "title": "صنعها لجماهيره ثم باعها للآخرين.. كيف حوّل آينتراخت فرانكفورت التكنولوجيا إلى منجم للأرباح؟",
+      "url": "https://www.aljazeera.net/sport/2026/11/11/%d8%a2%d9%8a%d9%86%d8%aa%d8%b1%d8%a7%d8%ae%d8%aa-%d9%81%d8%b1%d8%a7%d9%86%d9%83%d9%81%d9%88%d8%b1%d8%aa-%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-%d9%83%d8%b1%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-11T05:59:52Z",
+      "category": "أخبار التقنية",
+      "title_ar": "صنعها لجماهيره ثم باعها للآخرين.. كيف حوّل آينتراخت فرانكفورت التكنولوجيا إلى منجم للأرباح؟",
       "translation_status": "original_ar"
     },
     {
@@ -140,16 +120,6 @@
       "published_at": "2026-11-11T04:30:10Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "سامسونج تدرس تزويد هواتف Galaxy الاقتصادية بشاشات OLED بدلًا من LCD",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Starlink Mini 2: بطارية قابلة للاستبدال وسعر 999 دولار وموعد الشحن",
-      "url": "https://3arrafni.com/tech-news/starlink-mini-2-price-swappable-battery-release-date",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T04:17:16Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Starlink Mini 2: بطارية قابلة للاستبدال وسعر 999 دولار وموعد الشحن",
       "translation_status": "original_ar"
     },
     {
@@ -210,16 +180,6 @@
       "published_at": "2026-11-10T20:43:45Z",
       "category": "الأمن السيبراني",
       "title_ar": "إيران ترفض الاتهامات الفرنسية بالوقوف وراء اختراق ثلاجات متاجر السوبرماركت",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ساعات سامسونج Galaxy الذكية قد تقيس دهون البطن العميقة بدقة في المستقبل",
-      "url": "https://www.tech-wd.com/wd/2026/11/10/%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-galaxy-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-%d9%82%d8%af-%d8%aa%d9%82%d9%8a%d8%b3-%d8%af%d9%87%d9%88%d9%86-%d8%a7%d9%84%d8%a8/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-10T18:03:22Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "ساعات سامسونج Galaxy الذكية قد تقيس دهون البطن العميقة بدقة في المستقبل",
       "translation_status": "original_ar"
     },
     {
@@ -333,33 +293,23 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Huawei Mate 90 Fan Edition سيحتوي على تقنية تبريد متقدمة مستوحاة من الحواسيب",
-      "url": "https://www.tech-wd.com/wd/2026/11/08/huawei-mate-90-fan-edition-%d8%b3%d9%8a%d8%ad%d8%aa%d9%88%d9%8a-%d8%b9%d9%84%d9%89-%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%aa%d8%a8%d8%b1%d9%8a%d8%af-%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9-%d9%85%d8%b3%d8%aa/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-08T19:16:49Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Huawei Mate 90 Fan Edition سيحتوي على تقنية تبريد متقدمة مستوحاة من الحواسيب",
+      "title": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
+      "url": "https://www.bbc.com/arabic/watch/cmlykq5k89djo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-06T07:04:21Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
       "translation_status": "original_ar"
     },
     {
-      "title": "كاميرا سيلفي مربعة قادمة لهواتف Nova 18 وفقاً لتسريبات جديدة",
-      "url": "https://www.tech-wd.com/wd/2026/11/08/%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-%d8%b3%d9%8a%d9%84%d9%81%d9%8a-%d9%85%d8%b1%d8%a8%d8%b9%d8%a9-%d9%82%d8%a7%d8%af%d9%85%d8%a9-%d9%84%d9%87%d9%88%d8%a7%d8%aa%d9%81-nova-18-%d9%88%d9%81%d9%82%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-08T18:27:11Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "كاميرا سيلفي مربعة قادمة لهواتف Nova 18 وفقاً لتسريبات جديدة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب مواصفات كاميرات Huawei Nova 17 وNova 17 Pro وUltra",
-      "url": "https://www.tech-wd.com/wd/2026/11/08/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%85%d9%88%d8%a7%d8%b5%d9%81%d8%a7%d8%aa-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7%d8%aa-huawei-nova-17-%d9%88nova-17-pro-%d9%88ultra/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-08T18:22:44Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسريب مواصفات كاميرات Huawei Nova 17 وNova 17 Pro وUltra",
+      "title": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
+      "url": "https://www.bbc.com/arabic/articles/c3j47kvlnnq2o?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-06T06:41:30Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
       "translation_status": "original_ar"
     }
   ],
@@ -374,7 +324,7 @@
       "id": "techwd",
       "name": "عالم التقنية",
       "url": "https://www.tech-wd.com/wd/",
-      "active": true
+      "active": false
     },
     {
       "id": "hardware",
@@ -398,7 +348,7 @@
       "id": "arrafni",
       "name": "عرفني دوت كوم",
       "url": "https://3arrafni.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "almohtraf",
@@ -410,7 +360,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",
