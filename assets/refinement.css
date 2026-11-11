@@ -4,7 +4,12 @@ body { background-image: none; }
 .hero, .products-section, .release-showcase-section, .about-section { background-image: none; }
 .hero { padding-block: 64px 44px; }
 .hero #hero-title { font-size: clamp(30px, 4vw, 58px); line-height: 1.35; letter-spacing: -.025em; }
-.hero .gradient-text { color: var(--catalog-accent); background: none; -webkit-text-fill-color: currentColor; }
+.hero .gradient-text {
+  color: var(--catalog-accent); background: none !important;
+  background-clip: border-box; -webkit-background-clip: border-box;
+  -webkit-text-fill-color: currentColor;
+}
+html[data-theme="light"] .hero .gradient-text { color: #087d70; }
 .hero-description { max-width: 58ch; line-height: 1.9; }
 .section { padding-block: 64px; }
 .card-serial, .section-kicker, .spotlight-index { display: none; }
