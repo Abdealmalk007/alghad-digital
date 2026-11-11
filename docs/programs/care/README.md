@@ -1,12 +1,13 @@
 # ProTech Windows Care
 
-أداة Portable لصيانة Windows 11 وفحص النظام، مع تحديد دفعات WinGet وAppX ومعاينة المخاطر قبل التنفيذ. نسخة تجريبية غير موقّعة.
+ProTech Windows Care 3.3.1 لصيانة Windows 11 بواجهة محسنة متجاوبة، وتصحيح الأزرار المخفية والنص العربي؛ نسخة Portable وSetup تجريبيتان وغير موقعتين.
 
-ProTech Windows Care v3.3.0 أداة محمولة تعمل مباشرة دون تثبيت، مع واجهة عربية وإنجليزية، تحديد الكل للعناصر المسموحة، سجل ونسخة احتياطية وفحص نقطة استعادة جديدة قبل تنفيذ عمليات PowerShell. الإصدار Preview: عمليات تثبيت وتحديث وحذف WinGet وAppX الفعلية واستعادة بيانات البرامج لم تُختبر بعد اختبارًا نهائيًا داخل VM، فلا يُنصح بتجربتها على جهاز إنتاج. الاختبارات المسجلة على Windows 11 Pro x64 فقط؛ Windows 10 وARM64 غير معتمَدين. الملف غير موقّع رقميًا وقد يظهر تحذير SmartScreen.
+إصدار 3.3.1 Responsive Portable Preview يحسن الأزرار والقائمة الجانبية العربية وGDI+ والأداء المرئي بأحجام مختلفة. يتوفر Portable مباشر دون تثبيت، ونسخة Setup منفصلة تفتح واجهة التثبيت الاختياري باستخدام --setup-ui؛ لم تُختبر عملية التثبيت الفعلية داخل VM. اجتاز 14 مجموعة اختبار و40 فحص واجهة على Windows 11 Pro x64؛ تبقى عمليات WinGet/AppX المؤثرة واستعادة بيانات البرامج غير معتمدة على VM، وWindows 10 وARM64 غير متحقق منهما. الملفان غير موقعين وقد يظهر SmartScreen، لذا استخدم نسخة احتياطية واختبر قبل التطبيق على أجهزة العمل.
 
 ## المزايا الرئيسية
 
-- Portable: تشغيل مباشر من EXE دون تثبيت
+- Portable: تشغيل مباشر من EXE دون تثبيت، مع Setup اختياري منفصل
+- واجهة متجاوبة وأزرار مرتبة وأيقونات GDI+ ونص عربي سليم
 - تحديد الكل والاختيار المتعدد والمعاينة قبل التنفيذ
 - تشغيل WinGet وAppX عبر PowerShell مع موافقات وأذونات UAC
 - نسخة احتياطية واشتراط نقطة استعادة Windows جديدة ومتحقق منها
@@ -14,14 +15,16 @@ ProTech Windows Care v3.3.0 أداة محمولة تعمل مباشرة دون �
 
 ## الإصدار والمنصات
 
-- الإصدار المعلن: 3.3.0.
+- الإصدار المعلن: 3.3.1.
 - المنصات المعلنة: Windows.
 - حالة الإتاحة: Beta / Preview — إصدار تجريبي.
 - الحد الأدنى لإصدار النظام والذاكرة: غير متحقق؛ راجع ملاحظات الإصدار.
 
 ## التثبيت والتشغيل
 
-- [تنزيل EXE المحمول مباشرة — Portable Preview غير موقّع](https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.0-portable-preview/ProTech_Windows_Care_Setup.exe)
+- [Portable EXE مباشر — دون تثبيت (v3.3.1)](https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Setup.exe)
+- [Setup EXE — واجهة التثبيت الاختياري (v3.3.1)](https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Installer_v3.3.1.exe)
+- [Portable ZIP — البرنامج والشرح (v3.3.1)](https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Portable.zip)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 

@@ -42,7 +42,7 @@ CATALOG={
    ["Room layout and openings","Cabinet catalogues","Countertops and appliances","2D and 3D visualizations","Manufacturing documents"]),
  "download":("Android video and audio downloader","An Android media download and playback project with its release status shown transparently.",
    ["Video and audio downloads","Playback controls","Playlists and favorites","Format and quality options","Media library organization"]),
- "care":("Portable Windows maintenance preview","Runs without installation on tested Windows 11 x64. WinGet/AppX updates, removal and app-data recovery are experimental and not fully VM-validated. This preview is unsigned.",
+ "care":("Portable Windows maintenance preview","v3.3.1 fixes responsive toolbar, RTL sidebar and Arabic labels. Includes a no-install Portable download and separate Setup launcher; neither is digitally signed. Setup installation and WinGet/AppX destructive actions remain unverified in a disposable VM.",
    ["System information","Maintenance tools","Performance diagnostics","Optional Windows app cleanup","Recovery guidance"]),
  "quotes":("Quotations and contracts","Create and manage business quotations and contract documentation.",
    ["Quotation templates","Customer records","Project pricing","Document management","Export tools"]),
@@ -122,7 +122,19 @@ def release_info(product:dict,download:dict,facts:dict)->str:
         digest=(verified or {}).get("sha256")
         sha=(f'<p class="en-sha"><strong>SHA-256</strong><code>{esc(digest)}</code></p>'
              if digest and re.fullmatch("[a-f0-9]{64}",digest) else '')
-        listings.append(f'<div class="en-download-item"><div><strong>{esc(item.get("name","Release file"))}</strong><p>{size:.1f} MiB · Preview / Beta</p>{sha}</div>{external(item["url"],"Get file","en-btn en-btn-primary")}</div>')
+        filename=item["url"].rsplit("/",1)[-1]
+        if slug=="care":
+            labels={
+                "ProTech_Windows_Care_Setup.exe":"Portable EXE — no installation",
+                "ProTech_Windows_Care_Installer_v3.3.1.exe":"Setup EXE — optional installation",
+                "ProTech_Windows_Care_Portable.zip":"Portable ZIP — app and documentation",
+            }
+            if filename not in labels:
+                raise ValueError("Unexpected Windows Care asset: "+filename)
+            display_label=labels[filename]
+        else:
+            display_label=item.get("name") or "Release file"
+        listings.append(f'<div class="en-download-item"><div><strong>{esc(display_label)}</strong><p>{size:.1f} MiB · Preview / Beta</p>{sha}</div>{external(item["url"],"Get file","en-btn en-btn-primary")}</div>')
     if not listings:return ""
     checksum=external(entry.get("checksum",""),"Official checksums") if seo.safe_release(entry.get("checksum",""),repo) else ""
     return f'<section class="en-detail-block"><h2>Official preview downloads</h2><p>These are preview releases, not guaranteed stable versions. Verify file hashes when provided. A release file does not imply code-signing or malware certification.</p>{"".join(listings)}{checksum}</section>'
@@ -281,11 +293,12 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
     image=product["preview"]
     facts_html=release_info(product,downloads,facts)
     state="Published — preview release" if downloads.get(slug,{}).get("files") else "In development" if product["status"]=="dev" else "Published repository; no verified public installer"
-    if slug in ("stone","quotes","care") and downloads.get(slug,{}).get("files"):state="Beta / Preview — UNSIGNED Windows installer"
+    if slug in ("stone","quotes") and downloads.get(slug,{}).get("files"):state="Beta / Preview — UNSIGNED Windows installer"
+    if slug=="care" and downloads.get(slug,{}).get("files"):state="Portable + Setup — UNSIGNED Preview"
     features_html="".join(f"<li>{esc(v)}</li>" for v in features)
     entry=downloads.get(slug,{})
     preferred=next((f for f in entry.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),entry.get("repository",""))),None)
-    direct=external(preferred["url"],"Download Beta (UNSIGNED)" if slug in ("stone","quotes","care") else "Download","en-btn en-btn-primary") if preferred else '<span class="en-download-unavailable">Download coming soon</span>'
+    direct=external(preferred["url"],"Download Beta (UNSIGNED)" if slug in ("stone","quotes") else "Download Portable EXE" if slug=="care" else "Download","en-btn en-btn-primary") if preferred else '<span class="en-download-unavailable">Download coming soon</span>'
     content=f"""
       <div class="en-breadcrumbs">{internal("/en/","Home")} / {internal("/en/programs/","Software")} / {esc(product['title'])}</div>
       <div class="en-detail-layout"><div>{hero("PROTECH SOFTWARE · "+", ".join(product["platforms"]),product["title"],summary)}

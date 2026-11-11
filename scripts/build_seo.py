@@ -190,6 +190,18 @@ def render_product(product: dict, downloads: dict) -> None:
         links='<a class="button" href="'+esc(preferred["url"])+'" target="_blank" rel="noopener noreferrer">↓ تنزيل مباشر</a>'
     else:
         links='<span class="muted">التنزيل قريبًا — لا يوجد إصدار عام متاح</span>'
+    if slug=="care" and preferred:
+        # Explicit, separate first-party downloads for both Portable and optional Setup.
+        links=links.replace("↓ تنزيل مباشر","↓ تنزيل Portable EXE (دون تثبيت)",1)
+        for f in item.get("files",[]):
+            name=f.get("url","").rsplit("/",1)[-1]
+            if f.get("recommended") or not safe_release(f.get("url"),item.get("repository","")):
+                continue
+            label=("↓ تنزيل Setup EXE (تثبيت اختياري)" if name=="ProTech_Windows_Care_Installer_v3.3.1.exe"
+                   else "↓ تنزيل Portable ZIP" if name=="ProTech_Windows_Care_Portable.zip" else None)
+            if label is None:
+                raise ValueError("Unexpected Windows Care download: "+name)
+            links+='<a class="button care-download-option" href="'+esc(f["url"])+'" target="_blank" rel="noopener noreferrer">'+label+'</a>'
     if slug in ("stone","quotes","care") and preferred:
         links+='<span class="stone-release-pending">نسخة Beta تجريبية غير موقّعة رقميًا. قد يظهر تحذير Windows SmartScreen؛ تحقّق من SHA-256.</span>'
     verified={}

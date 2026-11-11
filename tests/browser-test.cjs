@@ -391,7 +391,7 @@ async function main() {
       assert.ok(layout.documentWidth<=width+2,"EN responsive overflow at "+width+"px: "+JSON.stringify(layout));
     }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:7,directDownloadCards:7,verifiedDownloadVariants:10,stonePublicDownload:"unsigned-beta-preview",compared:0,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:7,directDownloadCards:7,verifiedDownloadVariants:12,stonePublicDownload:"unsigned-beta-preview",compared:0,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {

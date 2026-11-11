@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "verified_at": "2026-11-11T11:51:01Z",
+  "verified_at": "2026-11-11T12:49:09Z",
   "source": "Official GitHub Releases API; SHA-256 digest fields are supplied by GitHub",
   "releases": {
     "stone": {
@@ -122,17 +122,31 @@
     },
     "care": {
       "repository": "ProTechWindowsCare",
-      "version": "3.3.0",
-      "published_at": "2026-11-11T11:45:52Z",
-      "tag_url": "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/tag/v3.3.0-portable-preview",
+      "version": "3.3.1",
+      "published_at": "2026-11-11T12:41:20Z",
+      "tag_url": "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/tag/v3.3.1-responsive-portable-preview",
       "prerelease": true,
       "assets": [
         {
           "name": "ProTech_Windows_Care_Setup.exe",
-          "url": "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.0-portable-preview/ProTech_Windows_Care_Setup.exe",
-          "bytes": 97792,
-          "sha256": "e140fe0e9eaf38497d613aa03ab6009e8fd3d71b51f085edc0b2290077beecaf",
+          "url": "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Setup.exe",
+          "bytes": 99328,
+          "sha256": "1eb1e61542c99a1a623177b63b10de47d4ea69e0e572e60453cf88aee903d419",
           "recommended": true
+        },
+        {
+          "name": "ProTech_Windows_Care_Installer_v3.3.1.exe",
+          "url": "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Installer_v3.3.1.exe",
+          "bytes": 270336,
+          "sha256": "0898f8de8d0db6f1f1b6ff540ccb9d0cfec7cfc1622239a2a10e2f98bf615e10",
+          "recommended": false
+        },
+        {
+          "name": "ProTech_Windows_Care_Portable.zip",
+          "url": "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Portable.zip",
+          "bytes": 89461,
+          "sha256": "272d2b353a1527bcb51ebbcccbb3c95ab64fdfcfdb247b20fed21c3d2cabb339",
+          "recommended": false
         }
       ]
     }

@@ -50,14 +50,16 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
   },
   care: {
     repository: "ProTechWindowsCare",
-    version: "3.3.0",
+    version: "3.3.1",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/tag/v3.3.0-portable-preview",
-    checksum: "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.0-portable-preview/SHA256SUMS.txt",
+    release: "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/tag/v3.3.1-responsive-portable-preview",
+    checksum: "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/SHA256SUMS.txt",
     files: [
-      {label:"تنزيل EXE المحمول مباشرة — Portable Preview غير موقّع", platform:"Windows 11 x64 (اختُبر فقط) • Portable • UNSIGNED Preview", recommended:true, bytes:97792, url:"https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.0-portable-preview/ProTech_Windows_Care_Setup.exe"}
+      {label:"Portable EXE مباشر — دون تثبيت (v3.3.1)", platform:"Windows 11 x64 • Portable • UNSIGNED Preview", recommended:true, bytes:99328, url:"https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Setup.exe"},
+      {label:"Setup EXE — واجهة التثبيت الاختياري (v3.3.1)", platform:"Windows 11 x64 • Setup • UNSIGNED Preview", recommended:false, bytes:270336, url:"https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Installer_v3.3.1.exe"},
+      {label:"Portable ZIP — البرنامج والشرح (v3.3.1)", platform:"Windows 11 x64 • Portable ZIP • UNSIGNED Preview", recommended:false, bytes:89461, url:"https://github.com/Abdealmalk007/ProTechWindowsCare/releases/download/v3.3.1-responsive-portable-preview/ProTech_Windows_Care_Portable.zip"}
     ],
-    note:"Portable دون تثبيت، والإعداد الاختياري عبر --setup-ui. هذا الإصدار v3.3.0 Preview غير موقّع رقميًا (NotSigned). قد يظهر SmartScreen. قبل الحذف أو تحديث البرامج: اختبر داخل جهاز افتراضي، واحتفظ بنسخة احتياطية. عمليات WinGet/AppX الحقيقية واستعادة البيانات لم تجتز اختبار VM شاملًا. Windows 10 وARM64 غير متحقق منهما. الحقوق محفوظة ProTech."
+    note:"الإصدار 3.3.1 Responsive Portable Preview. نسخة Portable EXE تعمل مباشرة دون تثبيت؛ وملف Setup المستقل يفتح وضع التثبيت الاختياري (--setup-ui) باستخدام IExpress. اختبارات الواجهة 14/14 ومطالبات GUI 40/40. لم يُختبر التثبيت الفعلي ولا عمليات حذف/تحديث WinGet وAppX على VM اعتمادًا نهائيًا؛ Windows 10 وARM64 غير معتمدين. كلا الملفين غير موقّع رقميًا (NotSigned)، وقد يعرض SmartScreen تحذيرًا. احتفظ بنسخة احتياطية واختبر على جهاز غير إنتاجي. جميع الحقوق محفوظة لـ ProTech."
   },
   quotes: {
     repository: "ProTechQuotesContracts",
