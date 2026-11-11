@@ -48,21 +48,21 @@ assert.ok(homepage.indexOf('id="programs"')<homepage.indexOf('id="news"'),"Produ
 assert.ok(homepage.includes('id="downloads"'));
 assert.ok(homepage.indexOf('id="downloads"')<homepage.indexOf('id="news"'),"Downloads before news");
 assert.equal((homepage.match(/class="en-product-card" data-product=/g)||[]).length,8,"8 full English product cards");
-assert.equal((homepage.match(/class="en-release-card"/g)||[]).length,5,"5 verified preview download choices");
+assert.equal((homepage.match(/class="en-release-card"/g)||[]).length,6,"6 verified preview download choices");
 assert.equal((english[10].match(/class="en-product-card" data-product=/g)||[]).length,8,"All programs on EN ProTech profile");
 assert.ok(homepage.includes('id="en-search"'),"English search");
 assert.ok(homepage.includes('data-en-filter="public"'),"English filter");
 assert.ok(!english.some(s=>s.includes("href=\"#"))||homepage.includes('href="#downloads"'));
 // Validate all EN release assets are official and approved. Never publish guessed files.
 const releaseUrls=(homepage.match(/https:\/\/github\.com\/Abdealmalk007\/[^" ]+\/releases\/download\/[^"]+/g)||[]);
-assert.equal(new Set(releaseUrls).size,5,"Five unique verified download files; release links may be repeated in cards");
+assert.equal(new Set(releaseUrls).size,6,"Six unique verified download files; release links may be repeated in cards");
 for(const u of releaseUrls)assert.match(u,/^https:\/\/github\.com\/Abdealmalk007\/[A-Za-z0-9_.-]+\/releases\/download\/[^"<> ]+$/);
 // Product pages with no release must not offer made-up buttons.
-for(const slug of ["kitchen","care","quotes"]){
+for(const slug of ["kitchen","care"]){
   const page=read("en/programs/"+slug+"/index.html");
   assert.ok(!page.includes('class="en-download-item"'),"No fake downloads "+slug);
 }
-for(const slug of ["stone","download","hr","marble","reports"]){
+for(const slug of ["stone","download","hr","marble","reports","quotes"]){
   const page=read("en/programs/"+slug+"/index.html");
   assert.ok(page.includes('class="en-download-item"'),"Real release variants "+slug);
 }
@@ -85,4 +85,4 @@ const css=read("assets/en.css");
 assert.ok(css.includes(".en-lang-switch"));
 const src=read("assets/en.js");
 assert.ok(src.includes('data-en-filter')||src.includes("dataset.enFilter"));
-console.log("BILINGUAL_QA_PASS AR=19 EN=19 TOTAL_SITEMAP=38 REAL_DOWNLOADS=4 ARABIC_DEFAULT=yes");
+console.log("BILINGUAL_QA_PASS AR=19 EN=19 TOTAL_SITEMAP=38 REAL_DOWNLOADS=6 ARABIC_DEFAULT=yes");

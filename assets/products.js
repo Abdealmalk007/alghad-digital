@@ -237,23 +237,23 @@ window.AL_GHAD_PRODUCTS = [
   },
   {
     "id": "quotes",
-    "title": "Quotes & Contracts",
+    "title": "ProTech Quotes & Contracts",
     "english": "QUOTES & CONTRACTS",
     "category": "إدارة الأعمال",
-    "description": "تنظيم عروض الأسعار والعقود ومعلومات المستندات في أدوات مكتبية عملية.",
-    "details": "مجموعة أدوات داخلية لتجهيز عروض الأسعار والعقود ومتابعة معلومات المستندات بطريقة منظمة.",
+    "description": "برنامج Windows لإدارة عروض الأسعار والعقود والعملاء والمشاريع والمخزون والدفعات والتقارير.",
+    "details": "إصدار Beta تجريبي يدعم قوالب عربية قابلة للتخصيص وعقودًا ومقاسات وتسعيرًا وتقارير PDF وDOCX وXLSX وCSV؛ لا يدعم الفواتير الضريبية المعتمدة من ZATCA حاليًا.",
     "platforms": [
       "Windows"
     ],
-    "version": "—",
-    "status": "dev",
-    "github": null,
+    "version": "2.0.0-beta.2",
+    "status": "public",
+    "github": "https://github.com/Abdealmalk007/ProTechQuotesContracts",
     "features": [
-      "إنشاء وإدارة عروض الأسعار",
-      "أرشفة العقود والمستندات",
-      "تنظيم سجلات العملاء والمشاريع",
-      "مسارات حفظ المستندات",
-      "تطوير أدوات الطباعة والتصدير"
+      "قوالب عروض أسعار وعقود عربية قابلة للتعديل",
+      "إدارة العقود والمشاريع والمقاسات والعملاء",
+      "إدارة التسعير والمخزون والدفعات",
+      "معاينة وطباعة وتصدير PDF وWord وExcel وCSV",
+      "نسخ احتياطي موثق واستعادة موضع العمل"
     ],
     "emblem": "≡",
     "colors": [
@@ -265,7 +265,7 @@ window.AL_GHAD_PRODUCTS = [
     "summary": "من العرض الأول إلى توقيع العقد",
     "preview": "assets/previews/quotes.svg",
     "previewAlt": "تصميم توضيحي لواجهة Quotes & Contracts",
-    "displayStatus": "قريبًا جدًا",
-    "release": null
+    "displayStatus": "Beta · نسخة تجريبية",
+    "release": "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.2"
   }
 ];

@@ -454,7 +454,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             +'<div class="brand-card-actions"><a class="program-details" href="../programs/'+esc(slug)+'/">تفاصيل</a>'+action+'</div>'
             +'</article>'
         )
-    assert len(cards)==8 and public_downloads==5
+    assert len(cards)==8 and public_downloads==6
     body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / Pro Tech</div>
       <span class="eyebrow">PRO TECH / PROTECH SOFTWARE</span>
       <h1>Pro Tech (بروتك) — برامج الغد ديجتال</h1>
@@ -686,6 +686,16 @@ def program_documentation(product: dict, english: bool = False) -> str:
         mcp = 'لم يتم التحقق من وجود خادم MCP أو تكامل ChatGPT لهذا البرنامج. لا يتطلب هذا الموقع أوامر تشغيل خادم أو إدخال مفاتيح API.'
         docs = 'قراءة دليل البرنامج (Markdown)'
         contact = 'للاستفسار عن التثبيت أو التراخيص أو الدعم، تواصل عبر بريد ProTech الرسمي أدناه.'
+    if product["id"] == "quotes":
+        if english:
+            license_text = ("ProTech-owned source: All Rights Reserved. Users may download, install and run "
+                            "the official beta under the public binary usage terms in the GitHub repository. "
+                            "Repackaging, redistribution and modification require permission; third-party "
+                            "licenses and earlier MIT grants, if any, remain in force.")
+        else:
+            license_text = ("جميع الحقوق محفوظة لكود ProTech الأصلي. يُسمح بتنزيل النسخة التجريبية الرسمية "
+                            "وتثبيتها وتشغيلها وفق شروط استخدام الملف التنفيذي المنشورة بالمستودع. "
+                            "إعادة التوزيع أو تعديل كود ProTech تتطلب إذنًا كتابيًا؛ وتبقى تراخيص الأطراف الثالثة سارية.")
     source = (f'<p><a href="{esc(repo)}" target="_blank" rel="noopener noreferrer">GitHub · README / LICENSE</a></p>'
               if public and safe_repo(repo) else '')
     return (f'<section class="more en-info-block program-documentation" id="documentation">'
@@ -710,7 +720,11 @@ def write_program_guides(products: list, downloads: dict) -> None:
         repo = product.get("github", "")
         features = '\n'.join('- ' + feature for feature in product["features"])
         links = '\n'.join(f'- [{f["label"]}]({f["url"]})' for f in files) or 'لا يتوفر تنزيل عام موثّق حاليًا.'
-        license_text = ('All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ راجع LICENSE وإشعارات التبعيات. '
+        license_text = ('All Rights Reserved لكود ProTech الأصلي. النسخة التنفيذية الرسمية مسموح بتنزيلها '
+                        'واستخدامها وفق BINARY_USAGE_TERMS.md، دون ترخيص إعادة توزيع المصدر أو تعديله. '
+                        'تراخيص الطرف الثالث تبقى مستقلة.'
+                        if slug == "quotes" else
+                        'All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ راجع LICENSE وإشعارات التبعيات. '
                         'الإصدارات السابقة المنشورة تحت MIT تحتفظ بشروطها الأصلية. يلزم إذن كتابي للاستخدام أو النسخ أو التعديل أو التوزيع بموجب الترخيص الحالي.'
                         if product["status"] == "public" else
                         'All Rights Reserved — ملكية خاصة. يلزم إذن كتابي من ProTech للاستخدام أو النسخ أو التعديل أو التوزيع.')

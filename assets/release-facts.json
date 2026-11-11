@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "verified_at": "2026-11-09T10:36:20Z",
+  "verified_at": "2026-11-11T06:32:57Z",
   "source": "Official GitHub Releases API; SHA-256 digest fields are supplied by GitHub",
   "releases": {
     "stone": {
@@ -101,6 +101,22 @@
           "bytes": 68074679,
           "sha256": "07497e101a43e1a926ae617b4251e7ffdc53bb4c06d177011283474443724785",
           "recommended": false
+        }
+      ]
+    },
+    "quotes": {
+      "repository": "ProTechQuotesContracts",
+      "version": "2.0.0-beta.2",
+      "published_at": "2026-11-11T06:29:53Z",
+      "tag_url": "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.2",
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "Setup.exe",
+          "url": "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/download/v2.0.0-beta.2/Setup.exe",
+          "bytes": 58110165,
+          "sha256": "fe5243b1f82fcff7d7f8c5bbf6b1b3603276841b122febcb0423c386eb474269",
+          "recommended": true
         }
       ]
     }

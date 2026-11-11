@@ -45,7 +45,7 @@ def fetch(repo,version):
 def main():
     manifest=read_manifest()
     result={}
-    for id in ("stone","marble","hr","reports","download"):
+    for id in ("stone","marble","hr","reports","download","quotes"):
         approved=manifest[id]
         assert approved["channel"]=="preview"
         response=None
