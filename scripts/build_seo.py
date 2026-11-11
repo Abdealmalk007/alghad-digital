@@ -112,6 +112,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="{home}assets/seo-pages.css">
   <link rel="stylesheet" href="/assets/share.css?v=1">
+  <link rel="stylesheet" href="/assets/refinement.css?v=1">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar_SA">
   <meta property="og:site_name" content="الغد ديجتال | Alghad Digital">
@@ -143,6 +144,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <footer class="site-footer">
     <div class="shell"><strong>الغد ديجتال — Alghad Digital</strong>
       <span>برامج وحلول تقنية وأخبار من مصادرها الأصلية.</span>
+      <p class="program-rights">© 2026 ProTech · Alghad Digital. All Rights Reserved — جميع الحقوق محفوظة. تبقى تراخيص المكونات مفتوحة المصدر سارية.</p>
       <a href="{home}protech/">مطوّر البرامج Pro Tech</a>
       <a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>
     </div>
@@ -220,6 +222,7 @@ def render_product(product: dict, downloads: dict) -> None:
           <ul class="features">{feature_html}</ul>
           <div class="actions">{links}</div>
           {release_details}
+          {program_documentation(product)}
           <section class="more">
             <h2>متطلبات التشغيل</h2>
             <p>المنصات المعلنة: {esc(platform)}. تحقق من صفحة الإصدار الرسمية لمعرفة توافق الإصدار مع جهازك؛ لم يتم تأكيد الحد الأدنى لإصدارات النظام هنا.</p>
@@ -272,7 +275,7 @@ def render_catalog(products: list, downloads: dict) -> None:
                         safe_release(x.get("url",""),item.get("repository",""))),None)
         link=('<a class="button" href="'+esc(preferred["url"])+'" rel="noopener noreferrer" target="_blank">↓ تنزيل مباشر</a>'
               if preferred else '<span class="muted">التنزيل قريبًا</span>')
-        link='<div class="directory-actions">'+link+'</div>'
+        link='<div class="directory-actions"><a class="program-details" href="'+esc(slug)+'/">تفاصيل</a>'+link+'</div>'
         if slug=="stone" and preferred:
             link+='<p class="muted">Beta · مُثبّت Windows غير موقّع رقميًا. تحقق من SHA-256 قبل الاستخدام.</p>'
         items.append(f'<article class="directory-card"><h2><a href="{esc(slug)}/">{esc(name)}</a></h2><p>{esc(product.get("description", ""))}</p><span>{esc(category)} · {esc(state)}</span>{link}</article>')
@@ -426,7 +429,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             +'<h2><a href="../programs/'+esc(slug)+'/">'+esc(title)+'</a></h2>'
             +'<p>'+esc(intent)+'</p>'
             +'<p class="brand-product-status">'+esc(availability)+'</p>'
-            +'<div class="brand-card-actions">'+action+'</div>'
+            +'<div class="brand-card-actions"><a class="program-details" href="../programs/'+esc(slug)+'/">تفاصيل</a>'+action+'</div>'
             +'</article>'
         )
     assert len(cards)==8 and public_downloads==5
@@ -635,6 +638,113 @@ def update_sitemap(products: list) -> None:
     print("SITEMAP_URLS="+str(len(urls)))
 
 
+def program_documentation(product: dict, english: bool = False) -> str:
+    """Publish factual support and rights information without claiming an MCP server."""
+    public = product["status"] == "public"
+    repo = product.get("github", "")
+    if english:
+        license_text = (
+            'All Rights Reserved for the current ProTech-owned source. Written permission is required for use, copying, modification or distribution. '
+            'Earlier releases published under MIT retain their original terms. Third-party licenses remain applicable.'
+            if public else 'This private project is under development. All Rights Reserved. '
+            'Contact ProTech for written permission to use, copy, modify or distribute it.'
+        )
+        title, mcp_title, support_title = 'License and ownership', 'MCP and AI integrations', 'Documentation and support'
+        mcp = 'An MCP server or ChatGPT integration has not been verified for this program. No server commands or API credentials are required by this website.'
+        docs = 'Read the project guide (Markdown)'
+        contact = 'For installation, licensing or support, contact ProTech using the official email below.'
+    else:
+        license_text = (
+            'All Rights Reserved — جميع الحقوق محفوظة للمصدر الحالي المملوك لـ ProTech. يلزم إذن كتابي للاستخدام أو النسخ أو التعديل أو التوزيع. '
+            'الإصدارات السابقة المنشورة بترخيص MIT تحتفظ بشروطها الأصلية، وتبقى تراخيص المكونات الخارجية سارية.'
+            if public else 'هذا المشروع خاص وقيد التطوير. All Rights Reserved — جميع الحقوق محفوظة. '
+            'يتطلب استخدامه أو نسخه أو تعديله أو توزيعه إذنًا كتابيًا من ProTech.'
+        )
+        title, mcp_title, support_title = 'الترخيص وحقوق الملكية', 'الربط مع MCP والمساعدات الذكية', 'التوثيق والدعم'
+        mcp = 'لم يتم التحقق من وجود خادم MCP أو تكامل ChatGPT لهذا البرنامج. لا يتطلب هذا الموقع أوامر تشغيل خادم أو إدخال مفاتيح API.'
+        docs = 'قراءة دليل البرنامج (Markdown)'
+        contact = 'للاستفسار عن التثبيت أو التراخيص أو الدعم، تواصل عبر بريد ProTech الرسمي أدناه.'
+    source = (f'<p><a href="{esc(repo)}" target="_blank" rel="noopener noreferrer">GitHub · README / LICENSE</a></p>'
+              if public and safe_repo(repo) else '')
+    return (f'<section class="more en-info-block program-documentation" id="documentation">'
+            f'<h2>{support_title}</h2><p>{contact}</p>'
+            f'<p><a href="/docs/programs/{esc(product["id"])}/README.md">{docs}</a></p>{source}'
+            '<a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>'
+            f'<h2>{mcp_title}</h2><p>{mcp}</p>'
+            f'<h2>{title}</h2><p>{license_text}</p>'
+            '<p class="program-rights">© 2026 ProTech · Alghad Digital. All Rights Reserved.</p>'
+            '</section>')
+
+
+def write_program_guides(products: list, downloads: dict) -> None:
+    """Generate one guide per catalog product from the same verified website data."""
+    for product in products:
+        slug = product["id"]
+        target = ROOT / "docs" / "programs" / slug / "README.md"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        release = downloads.get(slug, {})
+        files = [f for f in release.get("files", [])
+                 if safe_release(f.get("url"), release.get("repository", ""))]
+        repo = product.get("github", "")
+        features = '\n'.join('- ' + feature for feature in product["features"])
+        links = '\n'.join(f'- [{f["label"]}]({f["url"]})' for f in files) or 'لا يتوفر تنزيل عام موثّق حاليًا.'
+        license_text = ('All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ راجع LICENSE وإشعارات التبعيات. '
+                        'الإصدارات السابقة المنشورة تحت MIT تحتفظ بشروطها الأصلية. يلزم إذن كتابي للاستخدام أو النسخ أو التعديل أو التوزيع بموجب الترخيص الحالي.'
+                        if product["status"] == "public" else
+                        'All Rights Reserved — ملكية خاصة. يلزم إذن كتابي من ProTech للاستخدام أو النسخ أو التعديل أو التوزيع.')
+        source = f'[README وLICENSE في المستودع الرسمي]({repo})' if safe_repo(repo) else 'المستودع الخاص غير منشور.'
+        content = f'''# {product["title"]}
+
+{product["description"]}
+
+{product["details"]}
+
+## المزايا الرئيسية
+
+{features}
+
+## الإصدار والمنصات
+
+- الإصدار المعلن: {product["version"]}.
+- المنصات المعلنة: {" / ".join(product["platforms"])}.
+- حالة الإتاحة: {"Beta / Preview — إصدار تجريبي" if files else "قيد التطوير — لا يوجد تنزيل عام موثّق"}.
+- الحد الأدنى لإصدار النظام والذاكرة: غير متحقق؛ راجع ملاحظات الإصدار.
+
+## التثبيت والتشغيل
+
+{links}
+
+اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
+
+## المصدر ومتطلبات البناء
+
+{source}
+
+هذا دليل للمنتج، وليس إثباتًا لبناء مصدر البرنامج أو اجتياز اختباراته. اتبع تعليمات المستودع الخاصة بإصداره؛ لم يُفحص بناء هذا البرنامج ضمن تحسين الموقع.
+
+## MCP وChatGPT
+
+لم يتم التحقق من وجود خادم MCP أو تكامل ChatGPT لهذا البرنامج. لا توجد أوامر `start:mcp` أو أسماء tools موثّقة هنا. أدوات MCP المستخدمة لصيانة الموقع ليست ميزة مضمّنة في البرنامج.
+
+## الصور والعرض
+
+[صفحة التفاصيل العربية](https://alghad.digital/programs/{slug}/) · [English details](https://alghad.digital/en/programs/{slug}/)
+
+الصور الموجودة على الموقع رسوم توضيحية؛ ليست لقطات شاشة فعلية معتمدة للتطبيق.
+
+## الترخيص وحقوق الملكية
+
+© 2026 ProTech · Alghad Digital. All Rights Reserved للمحتوى والأعمال الخاصة، مع احترام التراخيص المنشورة سابقًا وحقوق المكونات الخارجية.
+
+{license_text}
+
+## التواصل والدعم
+
+[protech.2025.2026@gmail.com](mailto:protech.2025.2026@gmail.com) · [alghad.digital](https://alghad.digital/)
+'''
+        target.write_text(content, encoding="utf-8", newline="\n")
+
+
 def main() -> None:
     products = read_javascript_data("assets/products.js","AL_GHAD_PRODUCTS")
     downloads=read_javascript_data("assets/downloads.js","AL_GHAD_DOWNLOADS")
@@ -643,6 +753,7 @@ def main() -> None:
     industry=read_json("assets/industry-news.json")
     assert len(products)==8 and len(set(x["id"] for x in products))==8
     assert not {"recorder","omar","reem"} & {x["id"] for x in products}
+    write_program_guides(products, downloads)
     for product in products:render_product(product,downloads)
     render_catalog(products,downloads)
     render_brand(products,downloads)

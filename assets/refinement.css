@@ -1,0 +1,74 @@
+/* Product library: quiet surfaces, consistent actions, Arabic and English parity. */
+:root { --catalog-accent: #65e5c2; --catalog-ink: #0b242d; }
+body { background-image: none; }
+.hero, .products-section, .release-showcase-section, .about-section { background-image: none; }
+.hero { padding-block: 64px 44px; }
+.hero #hero-title { font-size: clamp(30px, 4vw, 58px); line-height: 1.35; letter-spacing: -.025em; }
+.hero .gradient-text { color: var(--catalog-accent); background: none; -webkit-text-fill-color: currentColor; }
+.hero-description { max-width: 58ch; line-height: 1.9; }
+.section { padding-block: 64px; }
+.card-serial, .section-kicker, .spotlight-index { display: none; }
+.product-card.neo-card, .pre-product-card, .en-product-card {
+  border-radius: 12px; box-shadow: none; overflow: hidden;
+  transition: border-color .18s ease, transform .18s ease;
+}
+.product-card.neo-card:hover, .pre-product-card:hover, .en-product-card:hover {
+  transform: translateY(-3px); box-shadow: none; border-color: #65e5c2;
+}
+.card-cover { aspect-ratio: 16 / 9; }
+.card-preview { width: 100%; height: 100%; object-fit: cover; }
+.card-main { padding: 24px; }
+.card-category { font-size: 13px; margin-block-end: 12px; }
+.card-title { font-size: clamp(21px, 2vw, 27px); line-height: 1.3; margin-block: 8px 14px; }
+.card-title-open { text-decoration: none; }
+.search { height: 52px; min-height: 52px; max-height: 52px; }
+.card-description, .card-highlights { font-size: 16px; line-height: 1.8; }
+.card-description { min-height: 0; }
+.card-highlights { margin-block: 18px; }
+.card-meta { margin-block-start: 20px; }
+.card-actions, .pre-product-actions, .en-product-actions, .directory-actions, .brand-card-actions {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+}
+.card-actions { padding: 18px 24px 24px; }
+.program-details, .program-details:visited {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 44px; padding: 10px 18px; border: 1px solid transparent;
+  border-radius: 8px; font: inherit; font-size: 15px; font-weight: 750;
+  line-height: 1.4; text-decoration: none; cursor: pointer;
+  color: var(--catalog-ink); background: var(--catalog-accent);
+}
+.program-details:hover { color: #071a20; background: #98f2db; }
+.program-details:focus-visible { outline: 3px solid #e2fff7; outline-offset: 4px; }
+.card-actions > *, .pre-product-actions > *, .en-product-actions > * {
+  flex: 1 1 auto; min-height: 44px; border-radius: 8px; text-align: center;
+}
+.card-actions .alghad-share-button, .en-product-actions .alghad-share-button,
+.pre-product-actions .alghad-share-button {
+  flex: 0 0 auto; background: transparent; color: inherit; border-color: #597982;
+}
+.program-documentation { padding-block: 28px; }
+.program-documentation h2:not(:first-child) { margin-block-start: 32px; }
+.program-documentation p { max-width: 78ch; line-height: 1.9; }
+.program-rights { font-size: 13px; line-height: 1.8; opacity: .85; overflow-wrap: anywhere; }
+.modal-content .program-rights { margin-block-start: 24px; }
+.modal-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.modal-features { line-height: 1.8; }
+.site-footer .program-rights, .en-footer .program-rights { flex-basis: 100%; }
+html[data-theme="light"] .program-details:focus-visible { outline-color: #075b57; }
+@media (min-width: 1050px) {
+  #catalog { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+}
+@media (max-width: 700px) {
+  .hero { padding-block: 32px; }
+  .section { padding-block: 42px; }
+  .card-main { padding: 20px; }
+  .search { flex: 0 0 auto; width: 100%; }
+  .card-actions { padding: 16px 20px 20px; }
+  .card-actions .program-details { flex: 1 1 100%; }
+  .modal-actions > * { flex: 1 1 100%; white-space: normal; text-align: center; }
+  .card-description, .card-highlights { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .product-card.neo-card, .pre-product-card, .en-product-card { transition: none; }
+  .product-card.neo-card:hover, .pre-product-card:hover, .en-product-card:hover { transform: none; }
+}

@@ -77,6 +77,7 @@ for i,id in enumerate(ids):
            "المستودع منشور على GitHub" if p["status"]=="public" else "قيد التطوير")
     links=(anchor(featured["url"],"↓ تنزيل مباشر" if id!="stone" else "↓ تنزيل مباشر (Beta · غير موقّع)","pre-product-download",True)
            if featured else '<span class="pre-product-unavailable">التنزيل قريبًا</span>')
+    links=anchor(f"programs/{id}/", "تفاصيل", "program-details")+links
     card=f'''<article class="pre-product-card" data-prerender-product="{esc(id)}">
       <div class="pre-product-cover">
         <img src="{esc(p["preview"])}" alt="{esc(p["previewAlt"])} — صورة توضيحية للبرنامج" width="960" height="540" decoding="async" loading="{'eager' if i<2 else 'lazy'}">

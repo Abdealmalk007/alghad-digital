@@ -68,8 +68,8 @@
       '<h3 class="card-title"><button class="card-title-open" type="button" data-detail="',tx(p.id),'" aria-label="تفاصيل ',tx(p.title),'">',tx(p.title),'</button></h3><p class="card-description">',tx(p.description),'</p>',
       '<ul class="card-highlights">',chips,'</ul>',
       '<div class="card-meta">',p.platforms.map(x=>'<span class="meta-chip" dir="auto">'+tx(x)+'</span>').join(""),
-      '<span class="meta-chip">',tx(p.version==="—"?"قيد التحديد":"v"+p.version),'</span></div></div>',
-      '<div class="card-actions">',publicPreview(p) ? '' :
+      '<span class="meta-chip">',tx(p.version==="—"?"قيد التحديد":/^v/i.test(p.version)?p.version:"v"+p.version),'</span></div></div>',
+      '<div class="card-actions"><button class="program-details" type="button" data-detail="',tx(p.id),'" aria-label="تفاصيل ',tx(p.title),'">تفاصيل</button>',publicPreview(p) ? '' :
         '<span class="card-unavailable">' + (p.status==="public" ? 'التنزيل غير متاح' : 'التنزيل قريبًا') + '</span>',
       '</div></article>'
     ].join("");
@@ -96,12 +96,15 @@
       p.features.map(feature=>'<li><span aria-hidden="true">✓</span>'+tx(feature)+'</li>').join(""),'</ul>',
       '<div class="modal-facts"><span>المنصة: ',tx(p.platforms.join(" / ")),'</span><span>الإصدار: ',tx(p.version),'</span><span>',isComplete(p)?"المصدر منشور على GitHub":"الإطلاق قريبًا جدًا",'</span></div>',
       '<div class="modal-actions">',
+      '<a class="button button-secondary program-details" href="programs/',tx(p.id),'/">صفحة البرنامج والتوثيق</a>',
       primary ? '<a class="button button-primary" href="'+tx(primary.url)+'" target="_blank" rel="noopener noreferrer">↓ تنزيل مباشر</a>' :
         '<span class="card-unavailable">التنزيل غير متاح حاليًا</span>',
       '</div><p class="modal-disclaimer">',
       isComplete(p)?
         'تعني علامة «مكتمل» اكتمال رفع المشروع إلى GitHub، وليس اجتياز جميع اختبارات الإنتاج. تحقق من تعليمات الإصدار قبل التثبيت.' :
         'هذا المشروع قيد التطوير ولم يُنشر مستودعه العام بعد.',
+      '</p><p class="program-rights">© 2026 ProTech · Alghad Digital. All Rights Reserved — جميع الحقوق محفوظة للمحتوى والأعمال الخاصة. ',
+      p.status === 'public' ? 'ترخيص المصدر الحالي: All Rights Reserved. الإصدارات السابقة المنشورة تحت MIT تحتفظ بشروطها الأصلية؛ راجع LICENSE.' : 'هذا البرنامج خاص وقيد التطوير؛ تواصل معنا لطلب ترخيص الاستخدام.',
       '</p></div>'
     ].join("");
     if(typeof modal.showModal==="function")modal.showModal();

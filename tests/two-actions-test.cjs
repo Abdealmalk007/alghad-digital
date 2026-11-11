@@ -40,7 +40,8 @@ function actionBlocks(file,cardMarker,actionsMarker){
    assert.ok(action,file+" missing actions");
    assert.ok(!/source-download|source ZIP|compare|brand-card-link|pre-product-details|Features and details|Visit GitHub|GitHub repository/i.test(action),
              file+" contains forbidden shortcut");
-   const hrefs=[...action.matchAll(/href="([^"]+)"/g)].map(x=>x[1]);
+   assert.match(action,/class="program-details"/ ,file+" missing explicit details action");
+   const hrefs=[...action.matchAll(/href="([^"]+)"/g)].map(x=>x[1]).filter(url=>url.startsWith("https://github.com/"));
    assert.ok(hrefs.length<=1,file+" more than one download action");
    if(id && allowed.has(id)){
      if(allowed.get(id)) assert.ok(hrefs.includes(allowed.get(id)),file+" missing direct download "+id);
@@ -61,4 +62,4 @@ const share=read("assets/share.js");
 assert.ok(share.includes("showcase-release[data-release-id]"));
 assert.ok(share.includes("brand-card-actions,.directory-actions"));
 assert.ok(share.includes("navigator.share")&&share.includes("navigator.clipboard"));
-console.log("TWO_ACTIONS_PASS: 8 program cards, 5 official direct downloads, 3 honest unavailable states, share support, no compare/GitHub shortcut/Stone ZIP");
+console.log("PROGRAM_ACTIONS_PASS: 8 explicit details links, 5 official downloads, 3 unavailable states, sharing preserved");

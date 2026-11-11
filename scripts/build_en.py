@@ -101,7 +101,7 @@ def brand_card(product:dict,download:dict,wide:bool=False)->str:
       <div class="en-product-meta"><span class="en-state {'en-state-preview' if preferred else ''}">{esc(badge)}</span>{version_text}<span>{esc(", ".join(product.get("platforms",[])))}</span></div>
       <h3>{internal('/en/programs/'+slug+'/',product['title'])}</h3>
       <p class="en-product-tagline">{esc(tagline)}</p><p>{esc(summary)}</p>
-      <div class="en-product-actions">{action}</div>
+      <div class="en-product-actions"><a class="program-details" href="/en/programs/{slug}/" aria-label="Details for {esc(product['title'])}">Details</a>{action}</div>
     </article>"""
 
 def release_info(product:dict,download:dict,facts:dict)->str:
@@ -170,6 +170,7 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/assets/en.css">
   <link rel="stylesheet" href="/assets/share.css?v=1">
+  <link rel="stylesheet" href="/assets/refinement.css?v=1">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Alghad Digital">
   <meta property="og:locale" content="en_US">
@@ -199,6 +200,7 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
     <div><strong>Alghad Digital</strong><p>ProTech software for business, design and productivity.</p></div>
     <nav aria-label="Footer navigation">{internal("/en/about/","About")} {internal("/en/privacy/","Privacy")} {internal("/en/security/","Software safety")} {internal("/en/protech/","Developer")} {internal("/","العربية (AR)")}</nav>
     <a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>
+    <p class="program-rights">© 2026 ProTech · Alghad Digital. All Rights Reserved. Existing open-source licenses remain applicable.</p>
   </footer>
   <script defer src="/assets/share.js?v=1"></script>
 </body>
@@ -293,6 +295,7 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
         <div class="en-actions">{direct}</div>
       </div><aside class="en-detail-image"><img src="/{esc(image)}" alt="Illustration of {esc(product['title'])}" width="960" height="540" loading="lazy"><p>Illustrative project artwork; not a verified application screenshot.</p></aside></div>
       {facts_html}
+      {seo.program_documentation(product, english=True)}
       <section class="en-info-block"><h2>Questions and release information</h2>
         <details><summary>Is this a final stable release?</summary><p>Current publicly downloadable files are marked Preview/Beta. Check release notes and test before production use.</p></details>
         <details><summary>How can I verify the download?</summary><p>Read the <a href="/en/security/">software safety guide</a> for SHA-256 verification and release checks.</p></details>
