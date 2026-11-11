@@ -30,6 +30,17 @@ PROGRAM_SEARCH_INTENTS = {
     "quotes": "برنامج عروض الأسعار والعقود",
 }
 
+PROGRAM_USE_CASES = {
+    "stone": ["إدارة مخزون الرخام والبورسلان", "متابعة العقود والعملاء", "تقارير الألواح والمواد والفواتير"],
+    "marble": ["تنظيم تسليمات الرخام", "أرشفة الطلبات والعقود", "تصدير تقارير التسليم والمرفقات"],
+    "reports": ["إنشاء تقارير عمل يومية", "تخصيص حقول وأقسام التقارير", "متابعة أعمال الموظفين والفرق"],
+    "hr": ["إدارة بيانات الموظفين", "متابعة الحضور والإجازات", "إعداد الرواتب وتقارير الموارد البشرية"],
+    "download": ["تنظيم تنزيلات Android", "تشغيل ملفات الفيديو والصوت", "إدارة مكتبة الوسائط المحلية"],
+    "kitchen": ["تصميم المطابخ ثنائي وثلاثي الأبعاد", "تخطيط الخزائن والفتحات", "إعداد قوائم القص والتصنيع"],
+    "care": ["تشخيص مشكلات Windows", "إدارة بدء التشغيل والأداء", "أدوات الصيانة ونقاط الاستعادة"],
+    "quotes": ["إنشاء عروض الأسعار", "تنظيم العقود والمستندات", "متابعة سجلات العملاء والمشاريع"],
+}
+
 
 
 def breadcrumbs_schema(canonical: str, title: str) -> dict:
@@ -165,10 +176,12 @@ def render_product(product: dict, downloads: dict) -> None:
     desc = product.get("description", "")
     details = product.get("details", "")
     features = product.get("features", [])
+    use_cases = PROGRAM_USE_CASES[slug]
     image = product.get("preview", "")
     assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.svg", image), image
     assert (ROOT / image).is_file(), image
     feature_html = "".join("<li>" + esc(feature) + "</li>" for feature in features[:5])
+    use_case_html = "".join("<li>" + esc(use_case) + "</li>" for use_case in use_cases)
     repo = product.get("github", "")
     item = downloads.get(slug, {})
     preferred=next((file for file in item.get("files",[]) if file.get("recommended")
@@ -218,6 +231,11 @@ def render_product(product: dict, downloads: dict) -> None:
           <p class="program-purpose">من يبحث عن {esc(intent)} يمكنه هنا التعرف على ميزات {esc(title)} وحالة إصداره الفعلية وروابطه الرسمية، دون عرض نسخ غير متاحة.</p>
           <div class="chips"><span>{esc(info)}</span><span>{esc(platform)}</span><span>الإصدار: {esc(product.get("version", "غير محدد"))}</span></div>
           <p class="long-description">{esc(details)}</p>
+          <section class="more search-use-cases">
+            <h2>ماذا ينجز {esc(title)}؟</h2>
+            <p>صُممت صفحة البرنامج لتجيب بوضوح عن الاستخدامات التي يبحث عنها المستخدم قبل التنزيل أو طلب الدعم.</p>
+            <ul class="features">{use_case_html}</ul>
+          </section>
           <h2>مميزات {esc(title)}</h2>
           <ul class="features">{feature_html}</ul>
           <div class="actions">{links}</div>
@@ -251,11 +269,15 @@ def render_product(product: dict, downloads: dict) -> None:
         "publisher": {"@type": "Organization", "name": "ProTech", "alternateName": ["Pro Tech", "بروتك"], "url": DEVELOPER_URL},
         "operatingSystem": platform,
         "applicationCategory": "BusinessApplication" if slug in {"stone", "marble", "reports", "hr", "porcelain", "quotes"} else "UtilitiesApplication",
+        "featureList": features[:5],
+        "keywords": use_cases,
     }
     if product.get("version") and product["version"] != "—":
         app_schema["softwareVersion"] = product["version"]
     if preferred:
         app_schema["downloadUrl"] = preferred["url"]
+    if safe_repo(repo):
+        app_schema["sameAs"] = repo
     target = PAGES_DIR / slug / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(page(title=f"{title} — {intent} | ProTech",

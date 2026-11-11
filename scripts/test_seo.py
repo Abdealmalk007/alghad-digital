@@ -58,6 +58,27 @@ image_data=(ROOT/"assets/social/alghad-digital.png").read_bytes()
 assert image_data[:8]==bytes.fromhex("89504e470d0a1a0a")
 assert struct.unpack(">II",image_data[16:24])==(1200,630)
 assert not any(("Call Recorder PRO" in s or 'instagram.com/ProTechAlghad' in s) for s in all_pages)
+# Every software page must expose unique crawlable intent content and factual SoftwareApplication data.
+program_files=[path for path in sorted((ROOT/"programs").glob("*/index.html"))
+               if '"@type":"SoftwareApplication"' in path.read_text(encoding="utf8")]
+assert len(program_files)==8
+titles=set()
+descriptions=set()
+for program_file in program_files:
+    markup=program_file.read_text(encoding="utf8")
+    assert '<section class="more search-use-cases">' in markup,program_file
+    assert "ماذا ينجز" in markup,program_file
+    title_match=re.search(r"<title>(.*?)</title>",markup,re.S)
+    description_match=re.search(r'<meta name="description" content="([^"]+)">',markup)
+    app_match=re.search(r'<script type="application/ld\+json">(.*?)</script>',markup,re.S)
+    assert title_match and description_match and app_match,program_file
+    titles.add(title_match.group(1).strip())
+    descriptions.add(description_match.group(1))
+    app=json.loads(app_match.group(1))
+    assert app["@type"]=="SoftwareApplication",program_file
+    assert len(app.get("featureList",[]))==5,program_file
+    assert len(app.get("keywords",[]))==3,program_file
+assert len(titles)==8 and len(descriptions)==8
 # FAQPage must describe the same real questions/answers visible to visitors.
 from html import unescape
 faq_markup=all_pages[0]

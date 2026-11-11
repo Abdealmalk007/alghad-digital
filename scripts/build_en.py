@@ -303,7 +303,12 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
       </section>"""
     schema={"@context":"https://schema.org","@type":"SoftwareApplication","name":product["title"],
         "description":summary,"url":DOMAIN+"/en/programs/"+slug+"/","image":DOMAIN+"/"+image,
-        "publisher":{"@type":"Organization","name":"ProTech"},"operatingSystem":", ".join(product["platforms"])}
+        "publisher":{"@type":"Organization","name":"ProTech","url":DOMAIN+"/en/protech/"},
+        "operatingSystem":", ".join(product["platforms"]),
+        "applicationCategory":"BusinessApplication" if slug in {"stone","marble","reports","hr","quotes"} else "UtilitiesApplication",
+        "featureList":features}
+    if product.get("version") and product["version"]!="—":schema["softwareVersion"]=product["version"]
+    if seo.safe_repo(product.get("github","")):schema["sameAs"]=product["github"]
     release=downloads.get(slug,{})
     preferred=next((x for x in release.get("files",[]) if x.get("recommended") and seo.safe_release(x.get("url",""),release.get("repository",""))),None)
     if preferred:schema["downloadUrl"]=preferred["url"]
