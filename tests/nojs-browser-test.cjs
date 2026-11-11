@@ -22,7 +22,17 @@ async function main(){
   const active=path.join(profile,"DevToolsActivePort");
   for(let i=0;i<100&&!fs.existsSync(active);i++)await delay(100);
   assert.ok(fs.existsSync(active),"Chrome CDP unavailable");
-  const port=fs.readFileSync(active,"utf8").split(/\r?\n/)[0].trim();
+  let port="";
+  for(let retry=0;retry<65;retry++){
+    try {
+      port=fs.readFileSync(active,"utf8").split(/\r?\n/)[0].trim();
+      if(/^\d+$/.test(port))break;
+    } catch(error) {
+      if(!["EBUSY","ENOENT","EACCES"].includes(error.code))throw error;
+    }
+    await delay(120);
+  }
+  assert.match(port,/^\d+$/,"Chrome DevToolsActivePort unavailable after retries");
   const pages=await (await fetch("http://127.0.0.1:"+port+"/json/list")).json();
   const tab=pages.find(p=>p.type==="page");
   assert.ok(tab);

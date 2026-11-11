@@ -43,6 +43,8 @@ jobs:
         run: python scripts/build_support_pages.py
       - name: Build complete English edition and bilingual sitemap
         run: python scripts/build_en.py
+      - name: Refresh sitewide search over pages, software and latest news
+        run: python scripts/build_site_search.py
       - name: Verify indexable pages and editorial integrity
         run: |
           python scripts/test_seo.py
@@ -57,6 +59,7 @@ jobs:
           node tests/share-download-test.cjs
           node tests/two-actions-test.cjs
           node tests/program-documentation-test.cjs
+          node tests/site-search-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'
@@ -78,6 +81,7 @@ jobs:
           git add -- assets/release-facts-data.js
           git add -- assets/industry-news.json assets/industry-news-data.js
           git add -- assets/translation-cache.json
+          git add -- assets/site-search-index.js
           git add -- ai-news/index.html tech-companies/index.html cars/index.html
           if git diff --cached --quiet; then
             echo "News snapshot unchanged."

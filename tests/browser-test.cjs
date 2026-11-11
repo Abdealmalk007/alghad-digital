@@ -118,6 +118,23 @@ async function main() {
     assert.equal(editorialCounts.tools,8,"All eight free Windows tools should be displayed");
     assert.ok(editorialCounts.sources>=10,"Official news source directory");
     assert.ok(editorialCounts.headlineCount>=5);
+    // Verify real, first-party sitewide search across programs and refreshed news.
+    assert.equal(await evaluate('document.querySelectorAll("#sitewide-search-trigger").length'),1,"Search control should exist");
+    await evaluate('document.getElementById("sitewide-search-trigger").click()');
+    for(let attempt=0;attempt<70;attempt++){
+      if(await evaluate('window.AL_GHAD_SITE_SEARCH?.records?.length>=50')) break;
+      await delay(100);
+    }
+    assert.ok(await evaluate('window.AL_GHAD_SITE_SEARCH?.records?.length>=50'),"Search index must include pages and real news");
+    await evaluate('(() => { const i=document.querySelector(".sitewide-search-input");i.value="عقود";i.dispatchEvent(new Event("input",{bubbles:true})); })()');
+    await delay(230);
+    assert.ok(await evaluate('document.querySelectorAll(".sitewide-search-card").length>=1'),"Arabic sitewide search yields results");
+    assert.ok(await evaluate('!!document.querySelector(\'.sitewide-search-list a[href="/programs/quotes/"]\')'),"Quotes page found");
+    await evaluate('(() => { const i=document.querySelector(".sitewide-search-input");i.value="OpenAI";i.dispatchEvent(new Event("input",{bubbles:true})); document.querySelector(\'.sitewide-search-filter[data-kind="news"]\').click(); })()');
+    await delay(250);
+    assert.ok(await evaluate('document.querySelectorAll(".sitewide-search-card").length>=1'),"News search finds publisher headlines");
+    await evaluate('document.querySelector(".sitewide-search-close").click()');
+    assert.ok(await evaluate('document.getElementById("sitewide-search-layer").hidden'),"Search overlay closes cleanly");
     for(let attempt=0;attempt<30;attempt++){
       const shares=await evaluate('({products:document.querySelectorAll(".product-card .alghad-share-button").length,news:document.querySelectorAll(".editorial-story .alghad-share-button").length})');
       if(shares.products===8 && shares.news>=5)break;
@@ -221,6 +238,10 @@ async function main() {
       await delay(100);
     }
     assert.equal(await evaluate('!!document.querySelector("#product-modal .alghad-share-button")'),true);
+    for(let attempt=0;attempt<30;attempt++){
+      if(await evaluate('new URL(location.href).searchParams.get("app")')==="stone")break;
+      await delay(100);
+    }
     assert.equal(await evaluate('new URL(location.href).searchParams.get("app")'),"stone");
     await evaluate('document.querySelector("#modal-close").click()');
     for(let i=0;i<20;i++){

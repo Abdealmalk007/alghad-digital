@@ -1,0 +1,61 @@
+/* ProTech sitewide search: independent of legacy themes. */
+.sitewide-search-trigger {
+  position: fixed; inset-inline-end: max(16px, env(safe-area-inset-left)); bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 960; appearance: none; display: flex; align-items: center; gap: 9px;
+  border: 1px solid rgba(255,255,255,.32); border-radius: 999px;
+  padding: 11px 18px; background: #0a293a; color: #f4fcff;
+  box-shadow: 0 9px 29px rgba(0,0,0,.3); font-family: inherit; font-size: 14px;
+  font-weight: 750; line-height: 1.4; cursor: pointer;
+}
+.sitewide-search-trigger:hover, .sitewide-search-trigger:focus-visible { background:#11445a; outline:2px solid #60e0ce; outline-offset:2px; }
+.sitewide-search-trigger svg { height:19px; width:19px; fill:none; stroke:currentColor; stroke-width:2; flex:none; }
+.sitewide-search-layer[hidden], .sitewide-search-result[hidden] { display:none !important; }
+.sitewide-search-layer {
+  position:fixed; inset:0; z-index:1010; background:rgba(2,13,23,.83); backdrop-filter:blur(6px);
+  display:flex; justify-content:center; align-items:flex-start; padding: min(9vh,78px) 15px 22px;
+  box-sizing:border-box; font-family: system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.sitewide-search-dialog {
+  position:relative; width:min(850px,100%); max-height:min(82vh,780px); overflow:hidden;
+  display:flex; flex-direction:column; color:#eafcff; background:#102534;
+  border:1px solid #36586a; border-radius:19px; box-shadow:0 25px 70px rgba(0,0,0,.55);
+  direction:inherit; text-align:start; box-sizing:border-box;
+}
+.sitewide-search-top { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:17px 20px 4px; }
+.sitewide-search-title { margin:0; font-size:1.18rem; color:#f7ffff; font-weight:750; }
+.sitewide-search-close { border:1px solid #456376; color:#f0fbff; background:#1a3c4b; border-radius:10px; width:38px; height:38px; cursor:pointer; font-size:22px; line-height:1; }
+.sitewide-search-close:hover,.sitewide-search-close:focus-visible { background:#265163; outline:2px solid #66ead2; }
+.sitewide-search-searchbox { padding:14px 20px 10px; display:flex; align-items:center; gap:10px; }
+.sitewide-search-input {
+  width:100%; min-width:0; border:1px solid #6592a4; border-radius:12px; background:#071b29; color:white;
+  padding:13px 15px; font:inherit; font-size:16px; box-sizing:border-box; outline:none;
+}
+.sitewide-search-input:focus { border-color:#59e8cf; box-shadow:0 0 0 2px rgba(89,232,207,.15); }
+.sitewide-search-input::placeholder {color:#9cb5c4;}
+.sitewide-search-filters { padding:2px 20px 13px; display:flex; flex-wrap:wrap; gap:7px; }
+.sitewide-search-filter { border:1px solid #476675; border-radius:999px; background:#193646; color:#daebf5; padding:6px 12px; cursor:pointer; font:inherit; font-size:.84rem; }
+.sitewide-search-filter[aria-pressed="true"] { background:#126c69; border-color:#5ceacf; color:#fff; font-weight:750; }
+.sitewide-search-count { margin:0; padding:0 20px 10px; font-size:.85rem; color:#b9d0dd; }
+.sitewide-search-results { overflow:auto; overscroll-behavior:contain; padding:0 18px 18px; min-height:90px; }
+.sitewide-search-list { display:grid; gap:10px; padding:0; margin:0; list-style:none; }
+.sitewide-search-card { border:1px solid #294a59; background:#122d3d; padding:14px 15px; border-radius:12px; }
+.sitewide-search-card:hover { border-color:#58cfc5; background:#163849; }
+.sitewide-search-card a { color:#f0ffff; font-size:1rem; font-weight:750; text-decoration:none; overflow-wrap:anywhere; }
+.sitewide-search-card a:hover,.sitewide-search-card a:focus-visible { color:#67edda; text-decoration:underline; }
+.sitewide-search-meta { color:#8ddcd2; font-size:.8rem; margin:0 0 6px; }
+.sitewide-search-summary { color:#c4d8e1; font-size:.86rem; margin:8px 0 0; line-height:1.6; overflow-wrap:anywhere; }
+.sitewide-search-card mark { color:#10222f; background:#75efce; border-radius:3px; padding:0 .06em; }
+.sitewide-search-more { border:1px solid #5dcfba; background:#154a53; color:#fff; padding:9px 16px; border-radius:9px; cursor:pointer; font:inherit; margin:15px auto 0; display:block; }
+.sitewide-search-empty { margin:16px 0; text-align:center; color:#c7d8e0; line-height:1.7; }
+.sitewide-search-footer { border-top:1px solid #284b5a; padding:9px 19px; color:#9bbbc7; font-size:.75rem; }
+body.sitewide-search-open { overflow:hidden !important; }
+@media(max-width:600px) {
+  .sitewide-search-trigger { bottom: max(16px, env(safe-area-inset-bottom)); padding:11px 15px; }
+  .sitewide-search-layer { padding:4vh 8px 12px; }
+  .sitewide-search-dialog { max-height:90vh; border-radius:13px; }
+  .sitewide-search-top { padding:12px 14px 0; }
+  .sitewide-search-searchbox { padding:10px 14px; }
+  .sitewide-search-filters { padding:0 14px 10px; }
+  .sitewide-search-results { padding:0 10px 14px; }
+}
+@media print { .sitewide-search-trigger,.sitewide-search-layer {display:none !important;} }
