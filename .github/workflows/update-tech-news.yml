@@ -43,6 +43,8 @@ jobs:
         run: python scripts/build_support_pages.py
       - name: Build complete English edition and bilingual sitemap
         run: python scripts/build_en.py
+      - name: Add crawlable software and topic tags to both languages
+        run: python scripts/build_topic_tags.py
       - name: Refresh sitewide search over pages, software and latest news
         run: python scripts/build_site_search.py
       - name: Verify indexable pages and editorial integrity
@@ -60,6 +62,7 @@ jobs:
           node tests/two-actions-test.cjs
           node tests/program-documentation-test.cjs
           node tests/site-search-test.cjs
+          node tests/topic-tags-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'

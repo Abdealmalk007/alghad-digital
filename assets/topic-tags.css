@@ -1,0 +1,79 @@
+/* Crawlable topic navigation; all tags are ordinary links (no JavaScript dependency). */
+.protech-topic-section {
+  border: 1px solid rgba(109,190,188,.35);
+  background: rgba(20,52,68,.62);
+  color: #ecf6fa;
+  border-radius: 17px;
+  margin: 26px auto;
+  padding: clamp(17px, 2.8vw, 26px);
+  width: min(1150px, 100%);
+  box-sizing: border-box;
+  line-height: 1.75;
+  text-align: start;
+  font-family: inherit;
+}
+.protech-topic-section h2 {
+  margin: 0 0 9px;
+  font-size: clamp(1.1rem, 2.1vw, 1.5rem);
+  font-weight: 760;
+  color: #edffff;
+}
+.protech-topic-section > p {
+  margin: 0 0 14px;
+  color: #c1dee5;
+  max-width: 80ch;
+  font-size: .95rem;
+}
+.protech-topic-chips {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.protech-topic-chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #488d94;
+  background: #103847;
+  color: #d8fff8 !important;
+  text-decoration: none !important;
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-size: .91rem;
+  font-weight: 680;
+  line-height: 1.25;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.protech-topic-chip:hover,.protech-topic-chip:focus-visible {
+  background: #1b6866;
+  border-color: #80f3df;
+  color: #fff !important;
+  outline: 2px solid #80f3df;
+  outline-offset: 2px;
+}
+.protech-topic-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(min(310px,100%),1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+.protech-topic-categories > section {
+  border-radius: 11px;
+  border: 1px solid #426578;
+  background: rgba(10,27,41,.46);
+  padding: 16px;
+  min-width: 0;
+}
+.protech-topic-categories h3 { color: #def9f3; font-size: 1.09rem; margin: 0 0 9px; }
+.protech-topic-categories p { color: #ccdee5; margin: 0 0 10px; font-size:.91rem; }
+.protech-topic-links { margin: 0; padding-inline-start: 20px; color: #bfd4df; font-size:.89rem; }
+.protech-topic-links li { margin-bottom: 6px; }
+.protech-topic-links a { color: #94f2e1 !important; text-decoration: underline !important; }
+.protech-topic-links a:hover { color: #fff !important; }
+@media (max-width: 600px) {
+  .protech-topic-section { margin: 18px auto; padding: 14px; border-radius: 12px; }
+  .protech-topic-chips { gap: 7px; }
+  .protech-topic-chip { font-size: .86rem; padding: 7px 10px; }
+}
+@media print { .protech-topic-section { page-break-inside: avoid; } }
