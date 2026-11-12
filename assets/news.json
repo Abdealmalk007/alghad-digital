@@ -1,7 +1,207 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T13:21:39Z",
+  "generated_at": "2026-11-12T06:03:44Z",
   "articles": [
+    {
+      "title": "Apple تغلق Apple Support Community نهائياً في 20 نوفمبر",
+      "url": "https://3arrafni.com/tech-news/apple-support-community-closing-november-2026",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-12T05:19:09Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Apple تغلق Apple Support Community نهائياً في 20 نوفمبر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق Railway يكلف 740 ألف دولار ويكشف سوقًا سوداء لمفاتيح AI",
+      "url": "https://techvoicearabia.com/railway-ai-api-keys-740000-llmjacking-breach/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-12T00:41:40Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق Railway يكلف 740 ألف دولار ويكشف سوقًا سوداء لمفاتيح AI",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "لجنة بقيادة ديفيد غروس تتحقق من برهان OpenAI لـYang–Mills",
+      "url": "https://techvoicearabia.com/openai-yang-mills-proof-david-gross-lean-mass-gap/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-12T00:38:26Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "لجنة بقيادة ديفيد غروس تتحقق من برهان OpenAI لـYang–Mills",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google Pixel Tag: متعقب Android بسعر 29.99 دولاراً ومزاياه وأماكن شرائه",
+      "url": "https://3arrafni.com/tech-news/google-pixel-tag-price-features-availability",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-11T23:02:22Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "Google Pixel Tag: متعقب Android بسعر 29.99 دولاراً ومزاياه وأماكن شرائه",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "OpenAI تتيح للشركات إنشاء ملفات رسمية ووكلاء AI داخل ChatGPT",
+      "url": "https://3arrafni.com/tech-news/businesses-in-chatgpt-ai-agents",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-11T22:07:22Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI تتيح للشركات إنشاء ملفات رسمية ووكلاء AI داخل ChatGPT",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "MSI تطلق حاسوب مكتبي مدمج جديد بمنصة Nvidia RTX Spark وتضم 6144 نوات CUDA",
+      "url": "https://www.unlimit-tech.com/2026/11/msi-%d8%aa%d8%b7%d9%84%d9%82-%d8%ad%d8%a7%d8%b3%d9%88%d8%a8-%d9%85%d9%83%d8%aa%d8%a8%d9%8a-%d9%85%d8%af%d9%85%d8%ac-%d8%ac%d8%af%d9%8a%d8%af-%d8%a8%d9%85%d9%86%d8%b5%d8%a9-nvidia-rtx-spark-%d9%88/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-11T21:30:05Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "MSI تطلق حاسوب مكتبي مدمج جديد بمنصة Nvidia RTX Spark وتضم 6144 نوات CUDA",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تفعيل Memory Integrity تلقائياً في Windows 11 وتأثيره في الألعاب",
+      "url": "https://3arrafni.com/windows-11-memory-integrity-gaming-impact",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-11T21:12:22Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "تفعيل Memory Integrity تلقائياً في Windows 11 وتأثيره في الألعاب",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Infinix تطلق حاسوب XBook 14 Neo المحمول والاقتصادي بمفصلة تفتح بنسبة 180 درجة وبطارية بسعة 55Wh",
+      "url": "https://www.unlimit-tech.com/2026/11/infinix-%d8%aa%d8%b7%d9%84%d9%82-%d8%ad%d8%a7%d8%b3%d9%88%d8%a8-xbook-14-neo-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84-%d9%88%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a-%d8%a8%d9%85%d9%81/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-11T21:00:19Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "Infinix تطلق حاسوب XBook 14 Neo المحمول والاقتصادي بمفصلة تفتح بنسبة 180 درجة وبطارية بسعة 55Wh",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق بيانات شكرًا: ما الذي ينبغي لأعضاء برنامج Landmark فعله الآن؟",
+      "url": "https://3arrafni.com/tech-news/shukran-data-breach-landmark-members",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-11T20:17:22Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق بيانات شكرًا: ما الذي ينبغي لأعضاء برنامج Landmark فعله الآن؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "شاومي تطلف هاتف Poco X8s الجديد في 10 دول جديدة بشاشة AMOLED بسطوع 3500nits وشحن سريع بقدرة 100W",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%b7%d9%84%d9%81-%d9%87%d8%a7%d8%aa%d9%81-poco-x8s-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-10-%d8%af%d9%88%d9%84-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%a8/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-11T20:00:32Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "شاومي تطلف هاتف Poco X8s الجديد في 10 دول جديدة بشاشة AMOLED بسطوع 3500nits وشحن سريع بقدرة 100W",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سبيس إكس تطلب معدات شمسية بقدرة 100 غيغاواط لتشغيل الذكاء اصطناعي من الفضاء",
+      "url": "https://techvoicearabia.com/spacex-starmind-100gw-solar-orbital-ai/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-11T19:14:06Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "سبيس إكس تطلب معدات شمسية بقدرة 100 غيغاواط لتشغيل الذكاء اصطناعي من الفضاء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "لينوفو تعيد إطلاق الشاشة فائقة الاتساع ThinkVision P40WD-40 بأسعار مخفضة وتدعم الشحن عبر USB-C بقدرة 140W وشبكات 2.5GbE",
+      "url": "https://www.unlimit-tech.com/2026/11/%d9%84%d9%8a%d9%86%d9%88%d9%81%d9%88-%d8%aa%d8%b9%d9%8a%d8%af-%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4%d8%a9-%d9%81%d8%a7%d8%a6%d9%82%d8%a9-%d8%a7%d9%84%d8%a7%d8%aa%d8%b3%d8%a7/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-11T19:00:58Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لينوفو تعيد إطلاق الشاشة فائقة الاتساع ThinkVision P40WD-40 بأسعار مخفضة وتدعم الشحن عبر USB-C بقدرة 140W وشبكات 2.5GbE",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ألمانيا تستبعد المسيرات الصينية “DJI” من جيشها",
+      "url": "https://techvoicearabia.com/germany-military-chinese-drones-dji-security/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-11T18:21:06Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ألمانيا تستبعد المسيرات الصينية “DJI” من جيشها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "آبل تقترب من إطلاق نظارات ذكية وسماعات AirPods بكاميرات نهاية 2027",
+      "url": "https://www.tech-wd.com/wd/2026/11/11/%d8%a2%d8%a8%d9%84-%d8%aa%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%86%d8%b8%d8%a7%d8%b1%d8%a7%d8%aa-%d8%b0%d9%83%d9%8a%d8%a9-%d9%88%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-a/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-11T18:13:44Z",
+      "category": "أخبار التقنية",
+      "title_ar": "آبل تقترب من إطلاق نظارات ذكية وسماعات AirPods بكاميرات نهاية 2027",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "HP تطلق محطة العمل الفائقة ZGX Fury AI Station ببطاقة رسومات Nvidia GB300 وذاكرة عشوائية LPDDR5X بسعة 496 جيجابايت",
+      "url": "https://www.unlimit-tech.com/2026/11/hp-%d8%aa%d8%b7%d9%84%d9%82-%d9%85%d8%ad%d8%b7%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d9%81%d8%a7%d8%a6%d9%82%d8%a9-zgx-fury-ai-station-%d8%a8%d8%a8%d8%b7%d8%a7%d9%82%d8%a9-%d8%b1%d8%b3/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-11T18:00:35Z",
+      "category": "أخبار التقنية",
+      "title_ar": "HP تطلق محطة العمل الفائقة ZGX Fury AI Station ببطاقة رسومات Nvidia GB300 وذاكرة عشوائية LPDDR5X بسعة 496 جيجابايت",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "iPhone 18 Pro Max يتفوق في اختبار بطارية شمل 32 هاتف ذكي",
+      "url": "https://www.tech-wd.com/wd/2026/11/11/iphone-18-pro-max-%d9%8a%d8%aa%d9%81%d9%88%d9%82-%d9%81%d9%8a-%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1-%d8%a8%d8%b7%d8%a7%d8%b1%d9%8a%d8%a9-%d8%b4%d9%85%d9%84-32-%d9%87%d8%a7%d8%aa%d9%81-%d8%b0%d9%83/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-11T17:02:29Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "iPhone 18 Pro Max يتفوق في اختبار بطارية شمل 32 هاتف ذكي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "رئيس Nvidia يواجه تحقيقات بعد اتهامات بعلاقة مع جاسوسة صينية",
+      "url": "https://www.tech-wd.com/wd/2026/11/11/%d8%b1%d8%a6%d9%8a%d8%b3-nvidia-%d9%8a%d9%88%d8%a7%d8%ac%d9%87-%d8%aa%d8%ad%d9%82%d9%8a%d9%82%d8%a7%d8%aa-%d8%a8%d8%b9%d8%af-%d8%a7%d8%aa%d9%87%d8%a7%d9%85%d8%a7%d8%aa-%d8%a8%d8%b9%d9%84%d8%a7%d9%82/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-11T16:50:22Z",
+      "category": "أخبار التقنية",
+      "title_ar": "رئيس Nvidia يواجه تحقيقات بعد اتهامات بعلاقة مع جاسوسة صينية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أحمد الخلافي: الإمارات استعدت مبكرًا لعصر الذكاء الاصطناعي عبر الحوسبة والتبريد المتقدم",
+      "url": "https://techvoicearabia.com/ahmed-al-khalafi-hpe-uae-ai-infrastructure-liquid-cooling-khazna/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-11T16:40:48Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "أحمد الخلافي: الإمارات استعدت مبكرًا لعصر الذكاء الاصطناعي عبر الحوسبة والتبريد المتقدم",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "وصول Muse AI من ميتا إلى ساعات Wear OS وApple Watch",
+      "url": "https://www.tech-wd.com/wd/2026/11/11/%d9%88%d8%b5%d9%88%d9%84-muse-ai-%d9%85%d9%86-%d9%85%d9%8a%d8%aa%d8%a7-%d8%a5%d9%84%d9%89-%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-wear-os-%d9%88apple-watch/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-11T16:39:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": "وصول Muse AI من ميتا إلى ساعات Wear OS وApple Watch",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Galaxy Z Fold 8 يقود سامسونج لتحقيق أعلى حصة بتاريخها في الهواتف القابلة للطي",
+      "url": "https://www.tech-wd.com/wd/2026/11/11/galaxy-z-fold-8-%d9%8a%d9%82%d9%88%d8%af-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d9%84%d8%aa%d8%ad%d9%82%d9%8a%d9%82-%d8%a3%d8%b9%d9%84%d9%89-%d8%ad%d8%b5%d8%a9-%d8%a8%d8%aa%d8%a7%d8%b1%d9%8a/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-11T16:22:38Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "Galaxy Z Fold 8 يقود سامسونج لتحقيق أعلى حصة بتاريخها في الهواتف القابلة للطي",
+      "translation_status": "original_ar"
+    },
     {
       "title": "سيجا تكشف عن مميزات النسخة الفاخرة لعبة STRANGER THAN HEAVEN",
       "url": "https://arabhardware.net/post-55144",
@@ -10,26 +210,6 @@
       "published_at": "2026-11-11T12:28:54Z",
       "category": "أخبار التقنية",
       "title_ar": "سيجا تكشف عن مميزات النسخة الفاخرة لعبة STRANGER THAN HEAVEN",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هارمان تكشف عن تطبيق Drops لاكتشاف الموسيقى عبر مقاطع صوتية قصيرة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%87%d8%a7%d8%b1%d9%85%d8%a7%d9%86-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-drops-%d9%84%d8%a7%d9%83%d8%aa%d8%b4%d8%a7%d9%81-%d8%a7%d9%84%d9%85%d9%88%d8%b3%d9%8a%d9%82/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T12:00:05Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "هارمان تكشف عن تطبيق Drops لاكتشاف الموسيقى عبر مقاطع صوتية قصيرة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ستة أجيال و12 خط إنتاج وأكبر شاشة في العالم: قصة التصنيع والابتكار وراء تلفزيونات SQD-Mini LED",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b3%d8%aa%d8%a9-%d8%a3%d8%ac%d9%8a%d8%a7%d9%84-%d9%8812-%d8%ae%d8%b7-%d8%a5%d9%86%d8%aa%d8%a7%d8%ac-%d9%88%d8%a3%d9%83%d8%a8%d8%b1-%d8%b4%d8%a7%d8%b4%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T11:58:23Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستة أجيال و12 خط إنتاج وأكبر شاشة في العالم: قصة التصنيع والابتكار وراء تلفزيونات SQD-Mini LED",
       "translation_status": "original_ar"
     },
     {
@@ -63,16 +243,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "سامسونج تكشف رسميًا تفاصيل مزامنة معرض الصور مع خدمة التخزين السحابي من جوجل",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d9%83%d8%b4%d9%81-%d8%b1%d8%b3%d9%85%d9%8a%d9%8b%d8%a7-%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84-%d9%85%d8%b2%d8%a7%d9%85%d9%86%d8%a9-%d9%85%d8%b9%d8%b1/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T11:00:21Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سامسونج تكشف رسميًا تفاصيل مزامنة معرض الصور مع خدمة التخزين السحابي من جوجل",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "هاتف POCO X8s يصل الأسواق الأوروبية بكاميرا تقريب لأول مرة في السلسلة",
       "url": "https://arabhardware.net/post-55140",
       "source": "hardware",
@@ -80,16 +250,6 @@
       "published_at": "2026-11-11T10:56:15Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "هاتف POCO X8s يصل الأسواق الأوروبية بكاميرا تقريب لأول مرة في السلسلة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث Windows 11 لشهر نوفمبر 2026 يعالج ثغرة خطيرة في Outlook",
-      "url": "https://3arrafni.com/tech-news/windows-11-november-2026-kb5132061-update",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T10:42:16Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "تحديث Windows 11 لشهر نوفمبر 2026 يعالج ثغرة خطيرة في Outlook",
       "translation_status": "original_ar"
     },
     {
@@ -103,16 +263,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "سبوتيفاي تطور ميزة AI DJ بأصوات جديدة وخيار لإيقاف التعليقات الصوتية أثناء الاستماع",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b3%d8%a8%d9%88%d8%aa%d9%8a%d9%81%d8%a7%d9%8a-%d8%aa%d8%b7%d9%88%d8%b1-%d9%85%d9%8a%d8%b2%d8%a9-ai-dj-%d8%a8%d8%a3%d8%b5%d9%88%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%88%d8%ae%d9%8a%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T10:00:03Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سبوتيفاي تطور ميزة AI DJ بأصوات جديدة وخيار لإيقاف التعليقات الصوتية أثناء الاستماع",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "SUSE Solidifies Position as Platform for AI Workloads",
       "url": "https://technologyarabia.com/archives/17915/suse-solidifies-position-as-platform-for-ai-workloads/",
       "source": "technologyarabia",
@@ -122,36 +272,6 @@
       "title_ar": "تعمل SUSE على ترسيخ مكانتها كمنصة لأعباء عمل الذكاء الاصطناعي",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تحديث Pixel لشهر نوفمبر 2026 يجلب Android 17 QPR2 وميزات جديدة",
-      "url": "https://3arrafni.com/tech-news/november-2026-pixel-drop-android-17-qpr2",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T09:47:16Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تحديث Pixel لشهر نوفمبر 2026 يجلب Android 17 QPR2 وميزات جديدة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب يكشف تصميمًا متوقعًا لهواتف سلسلة Samsung Galaxy S27 عبر مجسمات تجريبية جديدة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%8a%d9%83%d8%b4%d9%81-%d8%aa%d8%b5%d9%85%d9%8a%d9%85%d9%8b%d8%a7-%d9%85%d8%aa%d9%88%d9%82%d8%b9%d9%8b%d8%a7-%d9%84%d9%87%d9%88%d8%a7%d8%aa%d9%81-%d8%b3%d9%84%d8%b3/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T09:00:53Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريب يكشف تصميمًا متوقعًا لهواتف سلسلة Samsung Galaxy S27 عبر مجسمات تجريبية جديدة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ثغرة worse_query في iOS قد تكشف مفاتيح محافظ العملات المشفرة على iPhone",
-      "url": "https://3arrafni.com/tech-news/ios-worse-query-binance-crypto-wallet-warning",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T08:52:16Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ثغرة worse_query في iOS قد تكشف مفاتيح محافظ العملات المشفرة على iPhone",
-      "translation_status": "original_ar"
     },
     {
       "title": "نموذج Gemini 4 Carbon متاح الآن وميزة swarm تدير فرقًا من الوكلاء",
@@ -194,16 +314,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Google تطرح Gemini 4 Carbon مع ميزة أسراب وكلاء الذكاء الاصطناعي",
-      "url": "https://3arrafni.com/tech-news/google-gemini-4-carbon-swarm-agents-api-pricing",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T07:57:16Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Google تطرح Gemini 4 Carbon مع ميزة أسراب وكلاء الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
       "url": "https://aitnews.com/2026/11/11/%d8%b3%d9%8a%d8%ac%d9%8a%d8%aa-%d8%aa%d8%b7%d9%84%d9%82-firecuda-forge-%d8%a8%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d9%85%d8%a4%d9%82%d8%aa-%d8%b0%d9%83%d9%8a-%d9%88%d8%b3%d8%b9%d8%a9-%d8%aa%d8%b5%d9%84/",
       "source": "aitnews",
@@ -214,16 +324,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Anthropic تضيف Claude إلى مكالمات Google Meet مع أدوات جديدة للعمل",
-      "url": "https://3arrafni.com/tech-news/claude-meetings-google-meet-whiteboards-sheets",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T07:02:16Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Anthropic تضيف Claude إلى مكالمات Google Meet مع أدوات جديدة للعمل",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "مصر تستهدف التحول إلى مركز إقليمي للذكاء الاصطناعي.. استثمارات تصل إلى مليار دولار لإنشاء أحد أكبر مراكز البيانات",
       "url": "https://technologyarabia.com/archives/17900/egypt-data-centers-ai-investment-vodafone/",
       "source": "technologyarabia",
@@ -231,26 +331,6 @@
       "published_at": "2026-11-11T07:00:14Z",
       "category": "أخبار التقنية",
       "title_ar": "مصر تستهدف التحول إلى مركز إقليمي للذكاء الاصطناعي.. استثمارات تصل إلى مليار دولار لإنشاء أحد أكبر مراكز البيانات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ساعات سامسونج Galaxy الذكية قد تقيس دهون البطن العميقة بدقة في المستقبل",
-      "url": "https://www.tech-wd.com/wd/2026/11/10/%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-galaxy-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-%d9%82%d8%af-%d8%aa%d9%82%d9%8a%d8%b3-%d8%af%d9%87%d9%88%d9%86-%d8%a7%d9%84%d8%a8/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-10T18:03:22Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "ساعات سامسونج Galaxy الذكية قد تقيس دهون البطن العميقة بدقة في المستقبل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسلا تنهي سايبرتراك بعد تراجع مبيعاتها.. لماذا أخفقت شاحنة المستقبل؟",
-      "url": "https://techvoicearabia.com/tesla-cybertruck-discontinued-2027/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-10T15:34:07Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسلا تنهي سايبرتراك بعد تراجع مبيعاتها.. لماذا أخفقت شاحنة المستقبل؟",
       "translation_status": "original_ar"
     },
     {
@@ -281,86 +361,6 @@
       "published_at": "2026-11-10T03:32:39Z",
       "category": "أخبار التقنية",
       "title_ar": "ترامب: FBI ينظر في قضية مزاعم التجسس المرتبطة برئيس إنفيديا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "نهاية التعليم التقليدي.. الذكاء الاصطناعي يهدد الدكتوراه",
-      "url": "https://techvoicearabia.com/google-scientisttwo-ai-future-education/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-09T18:57:02Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "نهاية التعليم التقليدي.. الذكاء الاصطناعي يهدد الدكتوراه",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "من الشارقة إلى ملايين الشاشات.. عرب سات واتصالات تطلقان باقة فضائية جديدة",
-      "url": "https://techvoicearabia.com/arabsat-etisalat-badr-8-satellite-tv/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-09T08:13:22Z",
-      "category": "أخبار التقنية",
-      "title_ar": "من الشارقة إلى ملايين الشاشات.. عرب سات واتصالات تطلقان باقة فضائية جديدة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "علاقة شخصية تقود رئيس إنفيديا إلى تحقيق بشأن التجسس لصالح الصين",
-      "url": "https://techvoicearabia.com/nvidia-jensen-huang-foreign-intelligence/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-09T05:17:53Z",
-      "category": "أخبار التقنية",
-      "title_ar": "علاقة شخصية تقود رئيس إنفيديا إلى تحقيق بشأن التجسس لصالح الصين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "قارب عسكري بلا طاقم بمدى 4600 كيلومتر.. أميركا توسع أسطولها الآلي",
-      "url": "https://techvoicearabia.com/saronic-mirage-autonomous-military-boat-2026/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-09T04:27:10Z",
-      "category": "أخبار التقنية",
-      "title_ar": "قارب عسكري بلا طاقم بمدى 4600 كيلومتر.. أميركا توسع أسطولها الآلي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Huawei Mate 90 Fan Edition سيحتوي على تقنية تبريد متقدمة مستوحاة من الحواسيب",
-      "url": "https://www.tech-wd.com/wd/2026/11/08/huawei-mate-90-fan-edition-%d8%b3%d9%8a%d8%ad%d8%aa%d9%88%d9%8a-%d8%b9%d9%84%d9%89-%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%aa%d8%a8%d8%b1%d9%8a%d8%af-%d9%85%d8%aa%d9%82%d8%af%d9%85%d8%a9-%d9%85%d8%b3%d8%aa/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-08T19:16:49Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Huawei Mate 90 Fan Edition سيحتوي على تقنية تبريد متقدمة مستوحاة من الحواسيب",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كاميرا سيلفي مربعة قادمة لهواتف Nova 18 وفقاً لتسريبات جديدة",
-      "url": "https://www.tech-wd.com/wd/2026/11/08/%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-%d8%b3%d9%8a%d9%84%d9%81%d9%8a-%d9%85%d8%b1%d8%a8%d8%b9%d8%a9-%d9%82%d8%a7%d8%af%d9%85%d8%a9-%d9%84%d9%87%d9%88%d8%a7%d8%aa%d9%81-nova-18-%d9%88%d9%81%d9%82%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-08T18:27:11Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "كاميرا سيلفي مربعة قادمة لهواتف Nova 18 وفقاً لتسريبات جديدة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب مواصفات كاميرات Huawei Nova 17 وNova 17 Pro وUltra",
-      "url": "https://www.tech-wd.com/wd/2026/11/08/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%85%d9%88%d8%a7%d8%b5%d9%81%d8%a7%d8%aa-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7%d8%aa-huawei-nova-17-%d9%88nova-17-pro-%d9%88ultra/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-08T18:22:44Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسريب مواصفات كاميرات Huawei Nova 17 وNova 17 Pro وUltra",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أجهزة هواوي اللوحية تحصد 34% من السوق الصيني بنمو سنوي كبير",
-      "url": "https://www.tech-wd.com/wd/2026/11/08/%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%a7%d9%84%d9%84%d9%88%d8%ad%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b5%d8%af-34-%d9%85%d9%86-%d8%a7%d9%84%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d8%b5/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-08T18:18:46Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "أجهزة هواوي اللوحية تحصد 34% من السوق الصيني بنمو سنوي كبير",
       "translation_status": "original_ar"
     }
   ],

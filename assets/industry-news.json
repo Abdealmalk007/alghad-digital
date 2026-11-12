@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T13:21:42Z",
+  "generated_at": "2026-11-12T06:03:47Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -15,6 +15,58 @@
           "official": true,
           "topic": "ai",
           "title_ar": "يعيد جيلبرت + توبين التفكير في عمل القانون مع الذكاء الاصطناعي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "source": "googleai",
+          "source_name": "Google AI · Gemini",
+          "published_at": "2026-11-11T18:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "واجهة برمجة تطبيقات Gemini Decisions: قرارات متعددة الوسائط سريعة ومعايرة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Talk it through with Gemini, now on Apple CarPlay",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-11T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "تحدّث عن الأمر مع Gemini، الآن على Apple CarPlay",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Get certified as a Google Cloud Professional Agentic Architect.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-11T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "احصل على شهادة مهندس وكيل محترف في Google Cloud.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+          "source": "googleai",
+          "source_name": "Google AI · Gemini",
+          "published_at": "2026-11-11T16:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "جرب Tabletop: مساحات قابلة للتخصيص وتعزز التعاون للمجموعات للتخطيط واللعب والقيام بالمزيد معًا.",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -54,6 +106,19 @@
           "official": true,
           "topic": "ai",
           "title_ar": "كيف يساعد الذكاء الاصطناعي القائمين على إعادة التدوير على تحويل النفايات المختلطة إلى مواد قابلة لإعادة الاستخدام",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "url": "https://openai.com/index/jiostar-vijay-seshadri",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-11T00:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "المهندس المعماري الرئيسي في JioStar حول اكتشاف الذكاء الاصطناعي على نطاق 500 مليون مستخدم",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -149,19 +214,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Google Cloud launches Gemini for healthcare.",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-          "source": "googleai",
-          "source_name": "Google AI · Gemini",
-          "published_at": "2026-11-10T13:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "تطلق Google Cloud Gemini للرعاية الصحية.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Helping caregivers use AI in everyday life",
           "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
           "source": "openai",
@@ -186,64 +238,90 @@
           "title_ar": "تقديم الشركات في ChatGPT",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Closing the AI guidance gap in education",
-          "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-10T09:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "سد فجوة توجيه الذكاء الاصطناعي في التعليم",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Developers can now build with Google Maps Platform in AI Studio.",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-09T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "يمكن للمطورين الآن البناء باستخدام منصة خرائط جوجل في استوديو الذكاء الاصطناعي.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "AMD EPYC Expands Its Leadership at the Foundation of AI",
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
-          "source": "amd",
-          "source_name": "AMD",
-          "published_at": "2026-11-09T13:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "AMD EPYC توسع ريادتها في تأسيس الذكاء الاصطناعي",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-09T13:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "أحدث TPUs لدينا: 8tx و 8i Max، المصممة للعصر الوكيل",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "Finding the Perfect TV: A Guide to Samsung TVs",
+          "url": "https://news.samsung.com/global/finding-the-perfect-tv-a-guide-to-samsung-tvs",
+          "source": "samsung",
+          "source_name": "Samsung",
+          "published_at": "2026-11-12T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "العثور على التلفزيون المثالي: دليل لأجهزة تلفزيون سامسونج",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-11T18:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "واجهة برمجة تطبيقات Gemini Decisions: قرارات متعددة الوسائط سريعة ومعايرة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Built on Googlebook: Play Henry Cavill’s video game to support Movember",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-mustache-protocol/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-11T18:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تم الإنشاء على Googlebook: العب لعبة الفيديو الخاصة بهنري كافيل لدعم حملة Movember",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Talk it through with Gemini, now on Apple CarPlay",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-11T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تحدّث عن الأمر مع Gemini، الآن على Apple CarPlay",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Google’s ongoing commitment to the veteran community",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-day-2026/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-11T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "التزام Google المستمر بمجتمع المحاربين القدامى",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Google Cloud leaders share what to expect in cybersecurity for 2027.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cybersecurity-2027/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-11T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "يشارك قادة Google Cloud ما يمكن توقعه في مجال الأمن السيبراني لعام 2027.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Samsung and IOC Back Young Innovators at Africa’s First Olympic Games",
           "url": "https://news.samsung.com/global/samsung-and-ioc-back-young-innovators-at-africas-first-olympic-games",
@@ -254,19 +332,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "سامسونج واللجنة الأولمبية الدولية تدعمان المبتكرين الشباب في أول دورة ألعاب أولمبية في أفريقيا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-11T09:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "جرب فن وإرث الدكتورة إستر ماهلانغو",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -306,58 +371,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "بيان من الأعضاء المستقلين في مجلس إدارة NVIDIA",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Gemini Intelligence: New features, on more devices",
-          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-10T19:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "ذكاء الجوزاء: ميزات جديدة، على المزيد من الأجهزة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Pixel 10 with Gemini Intelligence, custom widgets, and more in our November Pixel Drop",
-          "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-10T19:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "بكسل 10 مع ذكاء الجوزاء، وعناصر واجهة مستخدم مخصصة، والمزيد في قطرة بكسل لشهر نوفمبر",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Get step-by-step workout guidance on your Pixel Watch.",
-          "url": "https://blog.google/products-and-platforms/devices/pixel/step-by-step-workouts-watch/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-10T19:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "احصل على إرشادات التمرين خطوة بخطوة على ساعة بكسل الخاصة بك.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Introducing Google Fi’s new super network",
-          "url": "https://blog.google/products-and-platforms/products/google-fi-wireless/super-network/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-10T17:20:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تقديم الشبكة الفائقة الجديدة لـ Google Fi",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -464,25 +477,25 @@
           "title_ar": "NVIDIA تعلن عن استثمارات جديدة مخططة في الشركات الناشئة الكورية في منتدى شراكة MSIT - NVIDIA AI Startup",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Beyond the Medal: Samsung Helps Young Athletes Explore What Comes Next at Dakar 2026",
-          "url": "https://news.samsung.com/global/beyond-the-medal-samsung-helps-young-athletes-explore-what-comes-next-at-dakar-2026",
-          "source": "samsung",
-          "source_name": "Samsung",
-          "published_at": "2026-11-05T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "ما وراء الميدالية: سامسونج تساعد الرياضيين الشباب على استكشاف ما سيأتي بعد ذلك في داكار 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "cars": {
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
+        {
+          "title": "Beyond the Uniform: Honoring Toyota’s Heroes on Veterans Day",
+          "url": "https://pressroom.toyota.com/beyond-the-uniform-honoring-toyotas-heroes-on-veterans-day/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-11T14:58:54Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "ما وراء الزي الرسمي: تكريم أبطال تويوتا في يوم المحاربين القدامى",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Toyota Powers What’s Next in Mobility and Manufacturing",
           "url": "https://pressroom.toyota.com/toyota-powers-whats-next-in-mobility-and-manufacturing/",
@@ -560,18 +573,6 @@
           "title_ar": "تويوتا للسباقات تكسب 700 انتصار لناسكار",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Kaden Honeycutt Wins 2026 NASCAR CRAFTSMAN Truck Series Championship",
-          "url": "https://pressroom.toyota.com/kaden-honeycutt-wins-2026-nascar-craftsman-truck-series-championship/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-09T15:58:03Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": null,
-          "translation_status": "unavailable"
         },
         {
           "title": "Live Now: TMC's FY2027 2Q Financial Results Press Briefing",
