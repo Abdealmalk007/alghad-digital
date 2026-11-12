@@ -23,4 +23,4 @@ for (const product of context.window.AL_GHAD_PRODUCTS) {
 }
 assert.ok(read("LICENSE").startsWith("ProTech Proprietary License"));
 assert.ok(read("LICENSE").includes("does not revoke previously granted"));
-console.log("PROGRAM_DOCUMENTATION_PASS: 8 guides, 16 detail pages, 40 features, rights and MCP transparency");
+console.log("PROGRAM_DOCUMENTATION_PASS: 9 guides, 18 detail pages, 45 features, rights and MCP transparency");

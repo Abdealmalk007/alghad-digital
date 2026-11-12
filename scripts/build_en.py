@@ -30,6 +30,8 @@ def esc(v:object)->str:
     return html.escape(str(v if v is not None else ""),quote=True)
 
 CATALOG={
+ "smart-excel":("Excel data analytics","Analyze spreadsheet data and present findings using desktop reports and visualizations.",
+   ["Excel data import","Data analysis and statistics","Charts and reports","Integrated 30.7.2 setup","Local login screen removed in update"]),
  "stone":("Stone and porcelain operations","Manage stone and porcelain projects, customers, material selections and operational reports.",
    ["Customer and project records","Stone and porcelain selection","Inventory and production tracking","Invoices and job documents","Operational reports"]),
  "marble":("Marble delivery management","Track marble deliveries, project stages, client details and delivery documents.",
@@ -67,7 +69,7 @@ PAGES=[
  "/","/programs/","/news/","/free-windows-tools/","/ai-news/",
  "/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/",
 ]+["/programs/"+slug+"/" for slug in CATALOG]
-assert len(PAGES)==19
+assert len(PAGES)==20
 
 def safe(url:str)->bool:
     parsed=urllib.parse.urlsplit(url)
@@ -251,7 +253,7 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
         preferred=next((f for f in entry.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),entry.get("repository",""))),None)
         if preferred:
             releases.append(f'<article class="en-release-card"><div><strong>{esc(p["title"])}</strong><p>Preview v{esc(entry.get("version",""))} · {esc(", ".join(p.get("platforms",[])))}</p></div>{external(preferred["url"],"Download preview","en-btn en-btn-primary")}</article>')
-    assert len(releases)==7
+    assert len(releases)==8
     from_news=industry["topics"]["ai"]["articles"][:3]+industry["topics"]["companies"]["articles"][:3]
     home=f"""
     <section class="en-hero">
@@ -396,21 +398,21 @@ def extend_sitemap()->None:
     assert top.tag=="{"+ns+"}urlset"
     original=[e.findtext("{"+ns+"}loc") for e in top.findall("{"+ns+"}url")]
     expected_ar={DOMAIN+x for x in PAGES}
-    if set(original)!=expected_ar or len(original)!=19:
-        raise ValueError("Expected exactly 19 canonical Arabic URLs before adding English")
+    if set(original)!=expected_ar or len(original)!=20:
+        raise ValueError("Expected exactly 20 canonical Arabic URLs before adding English")
     for path in PAGES:
         sub=ET.SubElement(top,"{"+ns+"}url")
         ET.SubElement(sub,"{"+ns+"}loc").text=DOMAIN+"/en/"+path.lstrip("/")
     ET.indent(tree,space="  ")
     tree.write(file,encoding="utf8",xml_declaration=True)
-    print("BILINGUAL_SITEMAP_URLS=38")
+    print("BILINGUAL_SITEMAP_URLS=40")
 
 def main()->None:
     global products,downloads
     products=seo.read_javascript_data("assets/products.js","AL_GHAD_PRODUCTS")
     downloads=seo.read_javascript_data("assets/downloads.js","AL_GHAD_DOWNLOADS")
     assert set(p["id"] for p in products)==set(CATALOG)
-    assert len(products)==8 and set(downloads)=={"stone","marble","reports","hr","download","quotes","care"}
+    assert len(products)==9 and set(downloads)=={"stone","marble","reports","hr","download","quotes","care","smart-excel"}
     industry=json.loads((ROOT/"assets/industry-news.json").read_text(encoding="utf8"))
     tools=json.loads((ROOT/"assets/tools.json").read_text(encoding="utf8"))
     facts=json.loads((ROOT/"assets/release-facts.json").read_text(encoding="utf8"))
@@ -421,7 +423,7 @@ def main()->None:
     render_tools(tools)
     render_support()
     created=[p for p in EN.rglob("index.html") if p != EN/"programs"/"porcelain"/"index.html"]
-    assert len(created)==19,(len(created),created)
+    assert len(created)==20,(len(created),created)
     extend_sitemap()
     print("ENGLISH_PAGES="+str(len(created))+" ARABIC_DEFAULT=True")
 

@@ -1,5 +1,39 @@
 /* Alghad Digital v2.0 - verified public repositories as of 2026-11-07 */
 window.AL_GHAD_PRODUCTS = [
+{
+  "id": "smart-excel",
+  "title": "SmartExcelAnalyzer",
+  "english": "SMART EXCEL ANALYZER",
+  "category": "تحليل ملفات Excel والبيانات",
+  "description": "برنامج Windows لتحليل ملفات Excel وتنظيم البيانات وعرض النتائج والتقارير.",
+  "details": "منصة تحليل بيانات محلية للحاسب، تجمع أدوات معالجة جداول Excel والتحليل والإحصاءات وإخراج النتائج. النسخة 30.7.2 موحّدة مع تحديث إلغاء شاشة تسجيل الدخول، وهي نسخة تجريبية غير موقّعة رقميًا.",
+  "platforms": [
+    "Windows"
+  ],
+  "version": "30.7.2",
+  "status": "public",
+  "github": "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7",
+  "features": [
+    "استيراد الجداول والعمل على بيانات Excel",
+    "تحليل وإحصاءات تساعد على استكشاف البيانات",
+    "عرض المخططات ومخرجات التقارير",
+    "تثبيت موحّد يشمل التحديثين 30.7.1 و30.7.2",
+    "إلغاء شاشة تسجيل الدخول المحلية وفق تعليمات التحديث"
+  ],
+  "emblem": "▦",
+  "colors": [
+    "#0a5c48",
+    "#073d39",
+    "#26c894"
+  ],
+  "keywords": "excel data analytics smart excel analyzer تحليل البيانات اكسل جداول احصائيات",
+  "summary": "من الجداول إلى رؤى أوضح للبيانات",
+  "release": "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.2",
+  "releaseLabel": "نسخة تجريبية منشورة",
+  "preview": "assets/previews/smart-excel.svg",
+  "previewAlt": "رسم توضيحي لأدوات تحليل ملفات Excel والإحصاءات",
+  "displayStatus": "Beta · نسخة تجريبية"
+},
   {
     "id": "stone",
     "title": "ProTech Stone Manager",

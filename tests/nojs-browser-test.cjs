@@ -74,7 +74,7 @@ async function main(){
     preRenderedNews:(outer.match(/class="pre-news-row"/g)||[]).length,
     dynamicProductCards:(outer.match(/class="product-card neo-card"/g)||[]).length,
   };
-  assert.equal(counts.preRenderedProducts,8,JSON.stringify(counts));
+  assert.equal(counts.preRenderedProducts,9,JSON.stringify(counts));
   assert.equal(counts.preRenderedDownloads,7,JSON.stringify(counts));
   assert.equal(counts.preRenderedNews,4,JSON.stringify(counts));
   assert.equal(counts.dynamicProductCards,0,JSON.stringify(counts));

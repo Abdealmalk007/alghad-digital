@@ -33,7 +33,7 @@ assert.ok(html.includes('class="protech-whatsapp-float" href="https://wa.me/9665
 assert.ok(html.includes('href="#contact" class="button button-sm button-primary header-cta"'));
 assert.ok(!html.includes('info@alghad.digital'),"Do not publicize unconfigured domain email");
 const marks=[
- ["PRODUCTS",8,"data-prerender-product"],
+ ["PRODUCTS",9,"data-prerender-product"],
  ["DOWNLOADS",7,"data-prerender-release"],
  ["NEWS",4,'class="pre-news-row"']
 ];
@@ -92,4 +92,4 @@ if(fs.existsSync(facts)){
   }
  }
 }
-console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=8 NO_JS_RELEASES=7 NO_JS_NEWS=4 SUPPORT=3");
+console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=9 NO_JS_RELEASES=7 NO_JS_NEWS=4 SUPPORT=3");

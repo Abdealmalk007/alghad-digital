@@ -8,8 +8,8 @@ const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
 const context={window:{}};
 vm.runInNewContext(read("assets/products.js"),context,{timeout:1000});
 const products=context.window.AL_GHAD_PRODUCTS;
-assert.equal(products.length,8,"Exactly eight distinct programs");
-assert.equal(new Set(products.map(p=>p.id)).size,8,"No duplicate IDs");
+assert.equal(products.length,9,"Exactly eight distinct programs");
+assert.equal(new Set(products.map(p=>p.id)).size,9,"No duplicate IDs");
 assert.ok(products.some(p=>p.id==="stone"&&p.title==="ProTech Stone Manager"));
 assert.ok(!products.some(p=>["porcelain","recorder","omar","reem","tv"].includes(p.id)));
 for(const rel of ["programs/index.html","en/programs/index.html"]){
@@ -42,7 +42,7 @@ for(const n of ["index.html","en/index.html","programs/quotes/index.html","en/pr
 assert.ok(read("programs/quotes/index.html").includes("All Rights Reserved"));
 assert.ok(read("en/programs/quotes/index.html").includes("UNSIGNED"));
 const sitemap=read("sitemap.xml");
-assert.equal((sitemap.match(/<loc>/g)||[]).length,38);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,40);
 assert.ok(!sitemap.includes("/programs/porcelain/"));
 assert.ok(!sitemap.includes("/programs/tv/"),"TV launcher must not appear in sitemap");
 assert.ok(sitemap.includes("https://alghad.digital/programs/stone/"));

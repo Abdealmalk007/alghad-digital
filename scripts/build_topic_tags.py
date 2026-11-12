@@ -16,6 +16,8 @@ START="<!-- PROTECH_TOPIC_TAGS_BEGIN -->"
 END="<!-- PROTECH_TOPIC_TAGS_END -->"
 CSS='<link rel="stylesheet" href="/assets/topic-tags.css?v=1">'
 TAGS={
+ "excel":("إكسل","Excel","/programs/smart-excel/"),
+ "analytics":("تحليل_البيانات","DataAnalytics","/programs/smart-excel/"),
  "software":("برامج","Software","/programs/"),
  "windows":("ويندوز","Windows","/programs/#windows-software"),
  "android":("أندرويد","Android","/programs/#android-software"),
@@ -42,6 +44,7 @@ TAGS={
  "cars":("السيارات","Cars","/cars/"),
 }
 PER_PRODUCT={
+ "smart-excel":("software","windows","excel","analytics","reports"),
  "stone":("software","windows","stone","porcelain","business"),
  "marble":("software","windows","stone","delivery","reports"),
  "reports":("software","windows","android","reports"),
@@ -109,7 +112,7 @@ def section(title:str,description:str,keys:tuple[str,...],lang:str,extra:str="")
 def discover_sections(products:list[dict],lang:str)->str:
     windows=[p for p in products if "Windows" in p["platforms"]]
     android=[p for p in products if "Android" in p["platforms"]]
-    assert len(windows)==7 and len(android)==2
+    assert len(windows)==8 and len(android)==2
     def links(rows):
         out=[]
         for p in rows:
@@ -221,7 +224,7 @@ def main():
         description=("أدوات وبرامج ويندوز مع روابط المشاريع الأخرى من ProTech."
              if lang=="ar" else "Browse Windows tools and related ProTech applications.")
         inject(route,section(heading,description,("windows","tools","software"),lang),"before_main_end")
-    print("TOPIC_TAGS_GENERATED PAGES=30 CATALOG_PRODUCTS=8 NEWS_TOPICS=4 LANGUAGES=2",flush=True)
+    print("TOPIC_TAGS_GENERATED PAGES=32 CATALOG_PRODUCTS=9 NEWS_TOPICS=4 LANGUAGES=2",flush=True)
 
 if __name__=="__main__":
     main()

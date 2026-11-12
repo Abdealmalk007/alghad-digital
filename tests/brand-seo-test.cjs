@@ -39,8 +39,8 @@ assert.ok(title.length<80);
 
 assert.match(brand,/<h1>Pro Tech \(بروتك\) — برامج الغد ديجتال<\/h1>/);
 assert.match(brand,/<link rel="canonical" href="https:\/\/alghad\.digital\/protech\/">/);
-assert.equal((brand.match(/class="directory-card brand-product-card"/g)||[]).length,8);
-assert.equal((brand.match(/إصدار Beta\/Preview متاح للتنزيل/g)||[]).length,7);
+assert.equal((brand.match(/class="directory-card brand-product-card"/g)||[]).length,9);
+assert.equal((brand.match(/إصدار Beta\/Preview متاح للتنزيل/g)||[]).length,8);
 assert.ok(brand.includes("جيل الغد"));
 assert.ok(brand.includes("mailto:protech.2025.2026@gmail.com"));
 const brandMarkup=brand.match(/<script type="application\/ld\+json">(.*?)<\/script>/s);
@@ -49,6 +49,7 @@ assert.equal(brandSchema["@type"],"AboutPage");
 assert.equal(brandSchema.mainEntity.name,"ProTech");
 
 const intents={
+  "smart-excel":"برنامج تحليل بيانات Excel والإحصاءات",
   stone:"برنامج إدارة الرخام والبورسلان",
   marble:"برنامج إدارة وتسليم أعمال الرخام",
   reports:"برنامج تقارير العمل اليومية",
@@ -71,7 +72,7 @@ for(const [slug,intent] of Object.entries(intents)){
 }
 const sitemap=read("sitemap.xml");
 const total=(sitemap.match(/<loc>/g)||[]).length;
-assert.equal(total,38,"19 Arabic and 19 English canonical pages included in sitemap");
+assert.equal(total,40,"20 Arabic and 20 English canonical pages included in sitemap");
 assert.ok(sitemap.includes("<loc>https://alghad.digital/en/protech/</loc>"));
 assert.ok(sitemap.includes("<loc>https://alghad.digital/protech/</loc>"));
 const workflow=read(".github/workflows/update-tech-news.yml");
@@ -81,4 +82,4 @@ assert.ok(workflow.includes("protech/index.html"),"Automated brand page update")
 const publisher=read("Publish_To_GitHub.ps1");
 assert.ok(publisher.includes("protech/index.html"));
 assert.ok(publisher.includes("tests/brand-seo-test.cjs"));
-console.log("BRAND_SEARCH_SEO_PASS PAGES="+total+" BRAND_LINKS=10 VERIFIED_DOWNLOADS=7 ALIASES=ProTech,Pro Tech,بروتك,جيل الغد");
+console.log("BRAND_SEARCH_SEO_PASS PAGES="+total+" BRAND_LINKS=10 VERIFIED_DOWNLOADS=8 ALIASES=ProTech,Pro Tech,بروتك,جيل الغد");

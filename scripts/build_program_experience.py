@@ -19,6 +19,12 @@ FLOAT_END="<!-- PROTECH_WHATSAPP_END -->"
 # Descriptive outcomes backed by the already published features, not promised savings.
 # Format: (Arabic heading, Arabic explanation, English heading, English explanation)
 BENEFITS={
+ "smart-excel":[
+  ("قراءة أوضح للجداول","تجميع أدوات استعراض ملفات Excel وتحليلها في مساحة عمل واحدة.","Clearer spreadsheet review","Examine Excel datasets through a dedicated desktop workflow."),
+  ("اكتشاف الأنماط","استخدم المؤشرات والتحليلات لمراجعة توزيع البيانات واتجاهاتها.","Explore data patterns","Review patterns and trends through data analysis tools."),
+  ("نتائج سهلة للمشاركة","استفد من الرسوم ومخرجات التقارير عند مراجعة النتائج.","Communicate findings","Use reports and charts to explain analytical findings."),
+  ("إطلاق أبسط محليًا","يلغي تحديث 30.7.2 تسجيل الدخول المحلي، مع التوصية بحماية ملفاتك ونسخها احتياطيًا.","Simpler local launch","The 30.7.2 update removes the login gate; protect local data and keep backups.")
+ ],
  "stone":[
   ("ملفات العمل في مكان واحد","تجميع العملاء والعقود والمواد والمرفقات يسهل الرجوع إلى تفاصيل كل طلب.","One organized workspace","Keep clients, contracts, materials and attachments together for faster lookup."),
   ("متابعة أوضح للمخزون","حركة الوارد والصرف والجرد تمنحك صورة أدق عن المواد المستخدمة والمتاحة.","Clearer stock tracking","Review receipts, stock movements and counts in one workflow."),
@@ -129,7 +135,7 @@ def load_catalog()->list[dict]:
     m=re.search(r"window\.AL_GHAD_PRODUCTS\s*=\s*(\[[\s\S]*?\]);",s)
     if not m:raise RuntimeError("Missing product source")
     records=json.loads(m.group(1))
-    assert len(records)==8 and {p["id"] for p in records}==set(BENEFITS)
+    assert len(records)==9 and {p["id"] for p in records}==set(BENEFITS)
     return records
 
 def update_one(relative:str,lang:str,product:dict|None):
@@ -166,7 +172,7 @@ def main():
         product_urls["/programs/"+p["id"]+"/"]=p
     sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
     urls=re.findall(r"<loc>https://alghad\.digital(/[^<]*)</loc>",sitemap)
-    assert len(urls)==len(set(urls))==38
+    assert len(urls)==len(set(urls))==40
     for url in urls:
         lang="en" if url.startswith("/en/") else "ar"
         normalized=url[3:] if lang=="en" else url

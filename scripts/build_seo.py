@@ -20,6 +20,7 @@ PAGES_DIR = ROOT / "programs"
 SOCIAL_IMAGE = DOMAIN + "/assets/social/alghad-digital.png"
 DEVELOPER_URL = DOMAIN + "/protech/"
 PROGRAM_SEARCH_INTENTS = {
+    "smart-excel": "برنامج تحليل بيانات Excel والإحصاءات",
     "stone": "برنامج إدارة الرخام والبورسلان",
     "marble": "برنامج إدارة وتسليم أعمال الرخام",
     "reports": "برنامج تقارير العمل اليومية",
@@ -31,6 +32,7 @@ PROGRAM_SEARCH_INTENTS = {
 }
 
 PROGRAM_USE_CASES = {
+    "smart-excel": ["تحليل جداول Excel", "مراجعة البيانات والإحصاءات", "إعداد تقارير تحليلية"],
     "stone": ["إدارة مخزون الرخام والبورسلان", "متابعة العقود والعملاء", "تقارير الألواح والمواد والفواتير"],
     "marble": ["تنظيم تسليمات الرخام", "أرشفة الطلبات والعقود", "تصدير تقارير التسليم والمرفقات"],
     "reports": ["إنشاء تقارير عمل يومية", "تخصيص حقول وأقسام التقارير", "متابعة أعمال الموظفين والفرق"],
@@ -466,7 +468,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             +'<div class="brand-card-actions"><a class="program-details" href="../programs/'+esc(slug)+'/">تفاصيل</a>'+action+'</div>'
             +'</article>'
         )
-    assert len(cards)==8 and public_downloads==7
+    assert len(cards)==9 and public_downloads==8
     body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / Pro Tech</div>
       <span class="eyebrow">PRO TECH / PROTECH SOFTWARE</span>
       <h1>Pro Tech (بروتك) — برامج الغد ديجتال</h1>
@@ -475,7 +477,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
       <p>الموقع الرسمي للبرامج هو <a href="../">alghad.digital — الغد ديجتال</a>. ولمن يبحث بعبارة «جيل الغد» للوصول إلى برامج Pro Tech: الاسم المعتمد للموقع هو «الغد ديجتال» وعنوانه <strong>alghad.digital</strong>، ولا توجد حاجة للانتقال إلى نطاق آخر.</p>
       <p>يمكنك الاطلاع على <a href="https://github.com/Abdealmalk007" target="_blank" rel="noopener noreferrer">حساب GitHub المرتبط بالمطور</a>، ومقارنة الإصدارات وملفات التنزيل المعتمدة على صفحات البرامج الرسمية.</p></section>
       <section class="more"><h2>برامج ProTech للأعمال والتصميم والإنتاجية</h2>
-      <p>تُعرض البرامج حسب حالتها الفعلية: خمسة برامج لها ملفات تنزيل Beta/Preview مؤكدة، وأربعة مشاريع قيد التطوير. لا يعني نشر ملف تجريبي أنه إصدار مستقر.</p>
+      <p>تُعرض البرامج حسب حالتها الفعلية: ثمانية برامج لها ملفات تنزيل Beta/Preview مؤكدة، ومشروع واحد قيد التطوير. لا يعني نشر ملف تجريبي أنه إصدار مستقر.</p>
       <div class="directory-grid brand-products">{''.join(cards)}</div></section>
       <section class="more"><h2>برامج للأعمال والأفراد</h2>
       <p>تخدم بعض مشاريع ProTech المصانع والمعارض وفرق التصميم والإدارة، بما فيها برامج الرخام والموارد البشرية والتقارير وتصميم المطابخ. كما توجد مشاريع للأفراد مثل Download Anything PRO وأدوات Windows، مع توضيح حالة التطوير لكل مشروع.</p>
@@ -799,7 +801,7 @@ def main() -> None:
     news=read_json("assets/news.json")
     tools=read_json("assets/tools.json")
     industry=read_json("assets/industry-news.json")
-    assert len(products)==8 and len(set(x["id"] for x in products))==8
+    assert len(products)==9 and len(set(x["id"] for x in products))==9
     assert not {"recorder","omar","reem"} & {x["id"] for x in products}
     write_program_guides(products, downloads)
     for product in products:render_product(product,downloads)

@@ -11,12 +11,12 @@ BASE="https://alghad.digital"
 ns={"s":"http://www.sitemaps.org/schemas/sitemap/0.9"}
 root=ET.parse(ROOT/"sitemap.xml").getroot()
 urls=[x.text for x in root.findall("s:url/s:loc",ns)]
-assert len(urls)==38,urls
+assert len(urls)==40,urls
 assert len(set(urls))==len(urls)
 assert urls[0]==BASE+"/"
 assert all(urlsplit(url).scheme=="https" and urlsplit(url).netloc=="alghad.digital" for url in urls)
 all_pages=[]
-for url in urls[:19]:
+for url in urls[:20]:
     path=(urlsplit(url).path or "/").lstrip("/")
     document=ROOT/path/"index.html"
     assert document.is_file(),str(document)
@@ -61,7 +61,7 @@ assert not any(("Call Recorder PRO" in s or 'instagram.com/ProTechAlghad' in s) 
 # Every software page must expose unique crawlable intent content and factual SoftwareApplication data.
 program_files=[path for path in sorted((ROOT/"programs").glob("*/index.html"))
                if '"@type":"SoftwareApplication"' in path.read_text(encoding="utf8")]
-assert len(program_files)==8
+assert len(program_files)==9
 titles=set()
 descriptions=set()
 for program_file in program_files:
@@ -78,7 +78,7 @@ for program_file in program_files:
     assert app["@type"]=="SoftwareApplication",program_file
     assert len(app.get("featureList",[]))==5,program_file
     assert len(app.get("keywords",[]))==3,program_file
-assert len(titles)==8 and len(descriptions)==8
+assert len(titles)==9 and len(descriptions)==9
 # FAQPage must describe the same real questions/answers visible to visitors.
 from html import unescape
 faq_markup=all_pages[0]
