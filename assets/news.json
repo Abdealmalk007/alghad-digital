@@ -1,15 +1,175 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T06:14:42Z",
+  "generated_at": "2026-11-12T13:00:33Z",
   "articles": [
     {
-      "title": "Apple تغلق Apple Support Community نهائياً في 20 نوفمبر",
-      "url": "https://3arrafni.com/tech-news/apple-support-community-closing-november-2026",
+      "title": "واتساب يختبر ميزة الرسائل النصية ذات العرض لمرة واحدة لمستخدمي أندرويد",
+      "url": "https://www.unlimit-tech.com/2026/11/%d9%88%d8%a7%d8%aa%d8%b3%d8%a7%d8%a8-%d9%8a%d8%ae%d8%aa%d8%a8%d8%b1-%d9%85%d9%8a%d8%b2%d8%a9-%d8%a7%d9%84%d8%b1%d8%b3%d8%a7%d8%a6%d9%84-%d8%a7%d9%84%d9%86%d8%b5%d9%8a%d8%a9-%d8%b0%d8%a7%d8%aa-%d8%a7/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T13:00:04Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "واتساب يختبر ميزة الرسائل النصية ذات العرض لمرة واحدة لمستخدمي أندرويد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بلايستيشن 5 يقترب من 100 مليون وحدة مشحونة بعد نحو 6 سنوات على إطلاقه",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%a8%d9%84%d8%a7%d9%8a%d8%b3%d8%aa%d9%8a%d8%b4%d9%86-5-%d9%8a%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-100-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d9%88%d8%ad%d8%af%d8%a9-%d9%85%d8%b4%d8%ad%d9%88%d9%86%d8%a9/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T12:00:52Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بلايستيشن 5 يقترب من 100 مليون وحدة مشحونة بعد نحو 6 سنوات على إطلاقه",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Zoom يصلح ثغرة حرجة في Windows ويحث المستخدمين على التحديث إلى 7.1.8",
+      "url": "https://3arrafni.com/tech-news/zoom-workplace-windows-critical-flaw-fixed-7-1-8",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-12T05:19:09Z",
+      "published_at": "2026-11-12T11:44:09Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "Zoom يصلح ثغرة حرجة في Windows ويحث المستخدمين على التحديث إلى 7.1.8",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الصين تدخل صاروخ DF-61 الخدمة.. هل يتغير ميزان الردع النووي مع واشنطن؟",
+      "url": "https://techvoicearabia.com/china-df-61-icbm-nuclear-missile/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-12T11:30:20Z",
       "category": "أخبار التقنية",
-      "title_ar": "Apple تغلق Apple Support Community نهائياً في 20 نوفمبر",
+      "title_ar": "الصين تدخل صاروخ DF-61 الخدمة.. هل يتغير ميزان الردع النووي مع واشنطن؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "روكستار توضح موقفها من نقل أحداث GTA 7 إلى خارج الولايات المتحدة بعد GTA 6",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%b1%d9%88%d9%83%d8%b3%d8%aa%d8%a7%d8%b1-%d8%aa%d9%88%d8%b6%d8%ad-%d9%85%d9%88%d9%82%d9%81%d9%87%d8%a7-%d9%85%d9%86-%d9%86%d9%82%d9%84-%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-gta-7-%d8%a5%d9%84%d9%89-%d8%ae/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T11:00:43Z",
+      "category": "أخبار التقنية",
+      "title_ar": "روكستار توضح موقفها من نقل أحداث GTA 7 إلى خارج الولايات المتحدة بعد GTA 6",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إتاحة Gemini على Apple CarPlay مع Gemini Live أثناء القيادة",
+      "url": "https://3arrafni.com/tech-news/gemini-apple-carplay-gemini-live",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-12T10:49:09Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "إتاحة Gemini على Apple CarPlay مع Gemini Live أثناء القيادة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "حين تخذلنا التكنولوجيا.. هل تصبح الحياة في خطر؟",
+      "url": "https://www.bbc.com/arabic/articles/cr5ynyq2e71do?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-12T10:30:32Z",
+      "category": "أخبار التقنية",
+      "title_ar": "حين تخذلنا التكنولوجيا.. هل تصبح الحياة في خطر؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هواوي تحتفل بمرور 10 أعوام على جوائز XMAGE من باريس إلى الإمارات",
+      "url": "https://arabhardware.net/post-55145",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-12T10:18:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هواوي تحتفل بمرور 10 أعوام على جوائز XMAGE من باريس إلى الإمارات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Nothing تكشف أول لمحة عن جهازها الجديد المعتمد على الذكاء الاصطناعي دون شاشة",
+      "url": "https://www.unlimit-tech.com/2026/11/nothing-%d8%aa%d9%83%d8%b4%d9%81-%d8%a3%d9%88%d9%84-%d9%84%d9%85%d8%ad%d8%a9-%d8%b9%d9%86-%d8%ac%d9%87%d8%a7%d8%b2%d9%87%d8%a7-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d8%a7%d9%84%d9%85%d8%b9%d8%aa%d9%85/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T10:00:13Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Nothing تكشف أول لمحة عن جهازها الجديد المعتمد على الذكاء الاصطناعي دون شاشة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "United Airlines تمنع وكلاء الذكاء الاصطناعي من حجز الرحلات",
+      "url": "https://3arrafni.com/tech-news/united-airlines-bans-ai-agents-flight-booking",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-12T09:54:09Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "United Airlines تمنع وكلاء الذكاء الاصطناعي من حجز الرحلات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سامسونج تسخر من الشريط الجانبي في هاتف iPhone Duo بتلميح لاذع",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%b3%d8%ae%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d8%b4%d8%b1%d9%8a%d8%b7-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8%d9%8a-%d9%81%d9%8a-%d9%87%d8%a7%d8%aa%d9%81-i/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T09:00:49Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "سامسونج تسخر من الشريط الجانبي في هاتف iPhone Duo بتلميح لاذع",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب محادثات Notion AI في اختراق Fireworks AI: المتأثرون وما يجب فعله",
+      "url": "https://3arrafni.com/tech-news/notion-ai-chats-fireworks-ai-breach",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-12T08:59:09Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "تسريب محادثات Notion AI في اختراق Fireworks AI: المتأثرون وما يجب فعله",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث Galaxy A15 إلى One UI 9 يصل إلى الإمارات والسعودية",
+      "url": "https://3arrafni.com/tech-news/galaxy-a15-one-ui-9-uae-saudi-arabia",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-12T08:04:09Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث Galaxy A15 إلى One UI 9 يصل إلى الإمارات والسعودية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تغريم أكبر بنك في ألمانيا بسبب بيانات العملاء",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/12/%d8%aa%d8%ba%d8%b1%d9%8a%d9%85-%d8%a3%d9%83%d8%a8%d8%b1-%d8%a8%d9%86%d9%83-%d9%81%d9%8a-%d8%a3%d9%84%d9%85%d8%a7%d9%86%d9%8a%d8%a7-%d8%a8%d8%b3%d8%a8%d8%a8-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-12T07:36:33Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تغريم أكبر بنك في ألمانيا بسبب بيانات العملاء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "شركات تمنع وكلاء الذكاء الاصطناعي من الشراء وأخرى تحولهم إلى سوق إعلاني",
+      "url": "https://techvoicearabia.com/ai-agents-booking-security-advertising-commerce/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-12T07:24:23Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "شركات تمنع وكلاء الذكاء الاصطناعي من الشراء وأخرى تحولهم إلى سوق إعلاني",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
+      "url": "https://technologyarabia.com/archives/17930/google-deepmind-ai-formal-verification-signal-security/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-12T06:31:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "من الآبار إلى الأسواق.. كيف تعيد شراكة أدنوك وOpenAI رسم استخدام الذكاء الاصطناعي في قطاع الطاقة؟",
+      "url": "https://technologyarabia.com/archives/17929/adnoc-openai-ai-energy-operations-uae/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-12T06:24:26Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "من الآبار إلى الأسواق.. كيف تعيد شراكة أدنوك وOpenAI رسم استخدام الذكاء الاصطناعي في قطاع الطاقة؟",
       "translation_status": "original_ar"
     },
     {
@@ -33,76 +193,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Google Pixel Tag: متعقب Android بسعر 29.99 دولاراً ومزاياه وأماكن شرائه",
-      "url": "https://3arrafni.com/tech-news/google-pixel-tag-price-features-availability",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T23:02:22Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Google Pixel Tag: متعقب Android بسعر 29.99 دولاراً ومزاياه وأماكن شرائه",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "OpenAI تتيح للشركات إنشاء ملفات رسمية ووكلاء AI داخل ChatGPT",
-      "url": "https://3arrafni.com/tech-news/businesses-in-chatgpt-ai-agents",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T22:07:22Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تتيح للشركات إنشاء ملفات رسمية ووكلاء AI داخل ChatGPT",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "MSI تطلق حاسوب مكتبي مدمج جديد بمنصة Nvidia RTX Spark وتضم 6144 نوات CUDA",
-      "url": "https://www.unlimit-tech.com/2026/11/msi-%d8%aa%d8%b7%d9%84%d9%82-%d8%ad%d8%a7%d8%b3%d9%88%d8%a8-%d9%85%d9%83%d8%aa%d8%a8%d9%8a-%d9%85%d8%af%d9%85%d8%ac-%d8%ac%d8%af%d9%8a%d8%af-%d8%a8%d9%85%d9%86%d8%b5%d8%a9-nvidia-rtx-spark-%d9%88/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T21:30:05Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "MSI تطلق حاسوب مكتبي مدمج جديد بمنصة Nvidia RTX Spark وتضم 6144 نوات CUDA",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تفعيل Memory Integrity تلقائياً في Windows 11 وتأثيره في الألعاب",
-      "url": "https://3arrafni.com/windows-11-memory-integrity-gaming-impact",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T21:12:22Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "تفعيل Memory Integrity تلقائياً في Windows 11 وتأثيره في الألعاب",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Infinix تطلق حاسوب XBook 14 Neo المحمول والاقتصادي بمفصلة تفتح بنسبة 180 درجة وبطارية بسعة 55Wh",
-      "url": "https://www.unlimit-tech.com/2026/11/infinix-%d8%aa%d8%b7%d9%84%d9%82-%d8%ad%d8%a7%d8%b3%d9%88%d8%a8-xbook-14-neo-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d9%88%d9%84-%d9%88%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a-%d8%a8%d9%85%d9%81/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T21:00:19Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Infinix تطلق حاسوب XBook 14 Neo المحمول والاقتصادي بمفصلة تفتح بنسبة 180 درجة وبطارية بسعة 55Wh",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اختراق بيانات شكرًا: ما الذي ينبغي لأعضاء برنامج Landmark فعله الآن؟",
-      "url": "https://3arrafni.com/tech-news/shukran-data-breach-landmark-members",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-11T20:17:22Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق بيانات شكرًا: ما الذي ينبغي لأعضاء برنامج Landmark فعله الآن؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "شاومي تطلف هاتف Poco X8s الجديد في 10 دول جديدة بشاشة AMOLED بسطوع 3500nits وشحن سريع بقدرة 100W",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%b7%d9%84%d9%81-%d9%87%d8%a7%d8%aa%d9%81-poco-x8s-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-10-%d8%af%d9%88%d9%84-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%a8/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T20:00:32Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "شاومي تطلف هاتف Poco X8s الجديد في 10 دول جديدة بشاشة AMOLED بسطوع 3500nits وشحن سريع بقدرة 100W",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "سبيس إكس تطلب معدات شمسية بقدرة 100 غيغاواط لتشغيل الذكاء اصطناعي من الفضاء",
       "url": "https://techvoicearabia.com/spacex-starmind-100gw-solar-orbital-ai/",
       "source": "techvoice",
@@ -113,26 +203,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "لينوفو تعيد إطلاق الشاشة فائقة الاتساع ThinkVision P40WD-40 بأسعار مخفضة وتدعم الشحن عبر USB-C بقدرة 140W وشبكات 2.5GbE",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%84%d9%8a%d9%86%d9%88%d9%81%d9%88-%d8%aa%d8%b9%d9%8a%d8%af-%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4%d8%a9-%d9%81%d8%a7%d8%a6%d9%82%d8%a9-%d8%a7%d9%84%d8%a7%d8%aa%d8%b3%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T19:00:58Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لينوفو تعيد إطلاق الشاشة فائقة الاتساع ThinkVision P40WD-40 بأسعار مخفضة وتدعم الشحن عبر USB-C بقدرة 140W وشبكات 2.5GbE",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ألمانيا تستبعد المسيرات الصينية “DJI” من جيشها",
-      "url": "https://techvoicearabia.com/germany-military-chinese-drones-dji-security/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-11T18:21:06Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ألمانيا تستبعد المسيرات الصينية “DJI” من جيشها",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "آبل تقترب من إطلاق نظارات ذكية وسماعات AirPods بكاميرات نهاية 2027",
       "url": "https://www.tech-wd.com/wd/2026/11/11/%d8%a2%d8%a8%d9%84-%d8%aa%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%86%d8%b8%d8%a7%d8%b1%d8%a7%d8%aa-%d8%b0%d9%83%d9%8a%d8%a9-%d9%88%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-a/",
       "source": "techwd",
@@ -140,16 +210,6 @@
       "published_at": "2026-11-11T18:13:44Z",
       "category": "أخبار التقنية",
       "title_ar": "آبل تقترب من إطلاق نظارات ذكية وسماعات AirPods بكاميرات نهاية 2027",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "HP تطلق محطة العمل الفائقة ZGX Fury AI Station ببطاقة رسومات Nvidia GB300 وذاكرة عشوائية LPDDR5X بسعة 496 جيجابايت",
-      "url": "https://www.unlimit-tech.com/2026/11/hp-%d8%aa%d8%b7%d9%84%d9%82-%d9%85%d8%ad%d8%b7%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d9%81%d8%a7%d8%a6%d9%82%d8%a9-zgx-fury-ai-station-%d8%a8%d8%a8%d8%b7%d8%a7%d9%82%d8%a9-%d8%b1%d8%b3/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-11T18:00:35Z",
-      "category": "أخبار التقنية",
-      "title_ar": "HP تطلق محطة العمل الفائقة ZGX Fury AI Station ببطاقة رسومات Nvidia GB300 وذاكرة عشوائية LPDDR5X بسعة 496 جيجابايت",
       "translation_status": "original_ar"
     },
     {
@@ -170,16 +230,6 @@
       "published_at": "2026-11-11T16:50:22Z",
       "category": "أخبار التقنية",
       "title_ar": "رئيس Nvidia يواجه تحقيقات بعد اتهامات بعلاقة مع جاسوسة صينية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أحمد الخلافي: الإمارات استعدت مبكرًا لعصر الذكاء الاصطناعي عبر الحوسبة والتبريد المتقدم",
-      "url": "https://techvoicearabia.com/ahmed-al-khalafi-hpe-uae-ai-infrastructure-liquid-cooling-khazna/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-11T16:40:48Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "أحمد الخلافي: الإمارات استعدت مبكرًا لعصر الذكاء الاصطناعي عبر الحوسبة والتبريد المتقدم",
       "translation_status": "original_ar"
     },
     {
@@ -274,16 +324,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "نموذج Gemini 4 Carbon متاح الآن وميزة swarm تدير فرقًا من الوكلاء",
-      "url": "https://arabhardware.net/post-55138",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-11T08:37:43Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "نموذج Gemini 4 Carbon متاح الآن وميزة swarm تدير فرقًا من الوكلاء",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "جامعة محمد بن زايد للذكاء الاصطناعي تطلق نموذج «بان 2» لمحاكاة الواقع",
       "url": "https://aitnews.com/2026/11/11/%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d9%85%d8%ad%d9%85%d8%af-%d8%a8%d9%86-%d8%b2%d8%a7%d9%8a%d8%af-%d9%84%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%aa%d8%b7-4/",
       "source": "aitnews",
@@ -291,16 +331,6 @@
       "published_at": "2026-11-11T08:27:19Z",
       "category": "أخبار التقنية",
       "title_ar": "جامعة محمد بن زايد للذكاء الاصطناعي تطلق نموذج «بان 2» لمحاكاة الواقع",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هل تبني الروبوتات مدن المستقبل في الفضاء؟ اختراق علمي يمهد لعصر جديد من التصنيع خارج الأرض",
-      "url": "https://technologyarabia.com/archives/17907/space-robots-autonomous-construction-future/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-11T08:07:20Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "هل تبني الروبوتات مدن المستقبل في الفضاء؟ اختراق علمي يمهد لعصر جديد من التصنيع خارج الأرض",
       "translation_status": "original_ar"
     },
     {
@@ -324,16 +354,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "مصر تستهدف التحول إلى مركز إقليمي للذكاء الاصطناعي.. استثمارات تصل إلى مليار دولار لإنشاء أحد أكبر مراكز البيانات",
-      "url": "https://technologyarabia.com/archives/17900/egypt-data-centers-ai-investment-vodafone/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-11T07:00:14Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مصر تستهدف التحول إلى مركز إقليمي للذكاء الاصطناعي.. استثمارات تصل إلى مليار دولار لإنشاء أحد أكبر مراكز البيانات",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
       "url": "https://www.bbc.com/arabic/watch/cwg7x7k3meljo?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
@@ -341,26 +361,6 @@
       "published_at": "2026-11-10T14:41:30Z",
       "category": "أخبار التقنية",
       "title_ar": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أستراليا تتجه لتشديد رقابة الذكاء الاصطناعي بعد حادثة OpenAI",
-      "url": "https://aitnews.com/2026/11/10/%d8%a3%d8%b3%d8%aa%d8%b1%d8%a7%d9%84%d9%8a%d8%a7-%d8%aa%d8%aa%d8%ac%d9%87-%d9%84%d8%aa%d8%b4%d8%af%d9%8a%d8%af-%d8%b1%d9%82%d8%a7%d8%a8%d8%a9-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-10T03:49:50Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "أستراليا تتجه لتشديد رقابة الذكاء الاصطناعي بعد حادثة OpenAI",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ترامب: FBI ينظر في قضية مزاعم التجسس المرتبطة برئيس إنفيديا",
-      "url": "https://aitnews.com/2026/11/10/trump-fbi-nvidia-jensen-huang-china-spy-allegations/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-10T03:32:39Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ترامب: FBI ينظر في قضية مزاعم التجسس المرتبطة برئيس إنفيديا",
       "translation_status": "original_ar"
     }
   ],
@@ -411,7 +411,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",
