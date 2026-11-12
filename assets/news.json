@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T13:00:33Z",
+  "generated_at": "2026-11-12T16:20:06Z",
   "articles": [
+    {
+      "title": "ترامب يقترح “تيم كوك” في منصب رئيس Nvidia بعد استقالة جنسن هوانغ",
+      "url": "https://www.tech-wd.com/wd/2026/11/12/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d9%82%d8%aa%d8%b1%d8%ad-%d8%aa%d9%8a%d9%85-%d9%83%d9%88%d9%83-%d9%81%d9%8a-%d9%85%d9%86%d8%b5%d8%a8-%d8%b1%d8%a6%d9%8a%d8%b3-nvidia-%d8%a8%d8%b9%d8%af-%d8%a7/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-12T16:14:56Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ترامب يقترح “تيم كوك” في منصب رئيس Nvidia بعد استقالة جنسن هوانغ",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "استقالة رئيس Nvidia بعد فضيحة شخصية وكوليت كريس تتولى المنصب مؤقتاً",
+      "url": "https://www.tech-wd.com/wd/2026/11/12/%d8%a7%d8%b3%d8%aa%d9%82%d8%a7%d9%84%d8%a9-%d8%b1%d8%a6%d9%8a%d8%b3-nvidia-%d8%a8%d8%b9%d8%af-%d9%81%d8%b6%d9%8a%d8%ad%d8%a9-%d8%b4%d8%ae%d8%b5%d9%8a%d8%a9-%d9%88%d9%83%d9%88%d9%84%d9%8a%d8%aa-%d9%83/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-12T16:12:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": "استقالة رئيس Nvidia بعد فضيحة شخصية وكوليت كريس تتولى المنصب مؤقتاً",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريبات تكشف سعر هاتف Oppo A7 Pro المدمج في الأسواق الأوروبية ببطارية سعتها 7,400mAh",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%b4%d9%81-%d8%b3%d8%b9%d8%b1-%d9%87%d8%a7%d8%aa%d9%81-oppo-a7-pro-%d8%a7%d9%84%d9%85%d8%af%d9%85%d8%ac-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T16:00:33Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تسريبات تكشف سعر هاتف Oppo A7 Pro المدمج في الأسواق الأوروبية ببطارية سعتها 7,400mAh",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أزمة إنفيديا تشعل مخاوف حرب رقائق جديدة بين أميركا والصين.. من سيدفع الثمن؟",
+      "url": "https://techvoicearabia.com/nvidia-huang-resignation-us-china-mineral-war/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-12T15:17:57Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "أزمة إنفيديا تشعل مخاوف حرب رقائق جديدة بين أميركا والصين.. من سيدفع الثمن؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أوبو تطلق هاتف A7 Pro رسميًا في الأسواق الأوروبية",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%a3%d9%88%d8%a8%d9%88-%d8%aa%d8%b7%d9%84%d9%82-%d9%87%d8%a7%d8%aa%d9%81-a7-pro-%d8%b1%d8%b3%d9%85%d9%8a%d9%8b%d8%a7-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d9%88%d8%a7%d9%82-%d8%a7%d9%84%d8%a3%d9%88/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T15:00:01Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "أوبو تطلق هاتف A7 Pro رسميًا في الأسواق الأوروبية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بعد 33 عامًا، جنسن هوانغ يستقيل من قيادة NVIDIA",
+      "url": "https://arabhardware.net/post-55146",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-12T14:37:20Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بعد 33 عامًا، جنسن هوانغ يستقيل من قيادة NVIDIA",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "جينسن هوانغ يستقيل من إنفيديا.. وكوليت كريس تتولى القيادة مؤقتًا",
+      "url": "https://techvoicearabia.com/jensen-huang-resigns-nvidia-colette-kress-ceo/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-12T14:33:35Z",
+      "category": "أخبار التقنية",
+      "title_ar": "جينسن هوانغ يستقيل من إنفيديا.. وكوليت كريس تتولى القيادة مؤقتًا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "400 ألف روبوت بشري سنويًا في أميركا بحلول 2030.. هل تبدأ ثورة العمالة الآلية؟",
+      "url": "https://techvoicearabia.com/us-humanoid-robots-production-2030/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-12T14:24:15Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "400 ألف روبوت بشري سنويًا في أميركا بحلول 2030.. هل تبدأ ثورة العمالة الآلية؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اتهامات جديدة بعلاقة غرامية تضع رئيس إنفيديا جنسن هوانغ أمام خطر الإطاحة به من منصبه",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%a7%d8%aa%d9%87%d8%a7%d9%85%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%a8%d8%b9%d9%84%d8%a7%d9%82%d8%a9-%d8%ba%d8%b1%d8%a7%d9%85%d9%8a%d8%a9-%d8%aa%d8%b6%d8%b9-%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a5/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T14:00:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "اتهامات جديدة بعلاقة غرامية تضع رئيس إنفيديا جنسن هوانغ أمام خطر الإطاحة به من منصبه",
+      "translation_status": "original_ar"
+    },
     {
       "title": "واتساب يختبر ميزة الرسائل النصية ذات العرض لمرة واحدة لمستخدمي أندرويد",
       "url": "https://www.unlimit-tech.com/2026/11/%d9%88%d8%a7%d8%aa%d8%b3%d8%a7%d8%a8-%d9%8a%d8%ae%d8%aa%d8%a8%d8%b1-%d9%85%d9%8a%d8%b2%d8%a9-%d8%a7%d9%84%d8%b1%d8%b3%d8%a7%d8%a6%d9%84-%d8%a7%d9%84%d9%86%d8%b5%d9%8a%d8%a9-%d8%b0%d8%a7%d8%aa-%d8%a7/",
@@ -10,6 +100,36 @@
       "published_at": "2026-11-12T13:00:04Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "واتساب يختبر ميزة الرسائل النصية ذات العرض لمرة واحدة لمستخدمي أندرويد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "استقالة هوانغ تضغط على أسهم الذكاء الاصطناعي مع صعود منافسي إنفيديا",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/12/%d8%a7%d8%b3%d8%aa%d9%82%d8%a7%d9%84%d8%a9-%d9%87%d9%88%d8%a7%d9%86%d8%ba-%d8%aa%d8%b6%d8%ba%d8%b7-%d8%b9%d9%84%d9%89-%d8%a3%d8%b3%d9%87%d9%85-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-12T12:15:50Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "استقالة هوانغ تضغط على أسهم الذكاء الاصطناعي مع صعود منافسي إنفيديا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إنفيديا.. عملاق التكنولوجيا الأخضر الذي مكّن الذكاء الاصطناعي",
+      "url": "https://www.aljazeera.net/tech/2026/11/12/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%b9%d9%85%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-%d8%a7%d9%84%d8%a3%d8%ae%d8%b6%d8%b1?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-12T12:06:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "إنفيديا.. عملاق التكنولوجيا الأخضر الذي مكّن الذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "1000 روبوت بشري لأنفاق غزة.. شركة يدعمها نجل ترمب تتفاوض مع إسرائيل",
+      "url": "https://www.aljazeera.net/politics/2026/11/12/%d8%a3%d9%84%d9%81-%d8%b1%d9%88%d8%a8%d9%88%d8%aa-%d8%a8%d8%b4%d8%b1%d9%8a-%d9%84%d8%a3%d9%86%d9%81%d8%a7%d9%82-%d8%ba%d8%b2%d8%a9-%d8%b4%d8%b1%d9%83%d8%a9-%d9%8a%d8%af%d8%b9%d9%85%d9%87%d8%a7?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-12T12:03:36Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "1000 روبوت بشري لأنفاق غزة.. شركة يدعمها نجل ترمب تتفاوض مع إسرائيل",
       "translation_status": "original_ar"
     },
     {
@@ -33,6 +153,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "الدفاع السورية تعلن معالجة أكثر من 315 ألف لغم ومقتل عنصر إزالة بريف حلب",
+      "url": "https://www.aljazeera.net/news/2026/11/12/%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d8%b3%d9%88%d8%b1%d9%8a%d8%a9-%d8%aa%d8%b9%d9%84%d9%86-%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%a3%d9%83%d8%ab%d8%b1-%d9%85%d9%86-315?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-12T11:41:24Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "الدفاع السورية تعلن معالجة أكثر من 315 ألف لغم ومقتل عنصر إزالة بريف حلب",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "الصين تدخل صاروخ DF-61 الخدمة.. هل يتغير ميزان الردع النووي مع واشنطن؟",
       "url": "https://techvoicearabia.com/china-df-61-icbm-nuclear-missile/",
       "source": "techvoice",
@@ -40,16 +170,6 @@
       "published_at": "2026-11-12T11:30:20Z",
       "category": "أخبار التقنية",
       "title_ar": "الصين تدخل صاروخ DF-61 الخدمة.. هل يتغير ميزان الردع النووي مع واشنطن؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "روكستار توضح موقفها من نقل أحداث GTA 7 إلى خارج الولايات المتحدة بعد GTA 6",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b1%d9%88%d9%83%d8%b3%d8%aa%d8%a7%d8%b1-%d8%aa%d9%88%d8%b6%d8%ad-%d9%85%d9%88%d9%82%d9%81%d9%87%d8%a7-%d9%85%d9%86-%d9%86%d9%82%d9%84-%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-gta-7-%d8%a5%d9%84%d9%89-%d8%ae/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-12T11:00:43Z",
-      "category": "أخبار التقنية",
-      "title_ar": "روكستار توضح موقفها من نقل أحداث GTA 7 إلى خارج الولايات المتحدة بعد GTA 6",
       "translation_status": "original_ar"
     },
     {
@@ -83,16 +203,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Nothing تكشف أول لمحة عن جهازها الجديد المعتمد على الذكاء الاصطناعي دون شاشة",
-      "url": "https://www.unlimit-tech.com/2026/11/nothing-%d8%aa%d9%83%d8%b4%d9%81-%d8%a3%d9%88%d9%84-%d9%84%d9%85%d8%ad%d8%a9-%d8%b9%d9%86-%d8%ac%d9%87%d8%a7%d8%b2%d9%87%d8%a7-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d8%a7%d9%84%d9%85%d8%b9%d8%aa%d9%85/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-12T10:00:13Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Nothing تكشف أول لمحة عن جهازها الجديد المعتمد على الذكاء الاصطناعي دون شاشة",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "United Airlines تمنع وكلاء الذكاء الاصطناعي من حجز الرحلات",
       "url": "https://3arrafni.com/tech-news/united-airlines-bans-ai-agents-flight-booking",
       "source": "arrafni",
@@ -100,16 +210,6 @@
       "published_at": "2026-11-12T09:54:09Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "United Airlines تمنع وكلاء الذكاء الاصطناعي من حجز الرحلات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سامسونج تسخر من الشريط الجانبي في هاتف iPhone Duo بتلميح لاذع",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%b3%d8%ae%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d8%b4%d8%b1%d9%8a%d8%b7-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8%d9%8a-%d9%81%d9%8a-%d9%87%d8%a7%d8%aa%d9%81-i/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-12T09:00:49Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سامسونج تسخر من الشريط الجانبي في هاتف iPhone Duo بتلميح لاذع",
       "translation_status": "original_ar"
     },
     {
@@ -130,16 +230,6 @@
       "published_at": "2026-11-12T08:04:09Z",
       "category": "أخبار التقنية",
       "title_ar": "تحديث Galaxy A15 إلى One UI 9 يصل إلى الإمارات والسعودية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تغريم أكبر بنك في ألمانيا بسبب بيانات العملاء",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/12/%d8%aa%d8%ba%d8%b1%d9%8a%d9%85-%d8%a3%d9%83%d8%a8%d8%b1-%d8%a8%d9%86%d9%83-%d9%81%d9%8a-%d8%a3%d9%84%d9%85%d8%a7%d9%86%d9%8a%d8%a7-%d8%a8%d8%b3%d8%a8%d8%a8-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-12T07:36:33Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تغريم أكبر بنك في ألمانيا بسبب بيانات العملاء",
       "translation_status": "original_ar"
     },
     {
@@ -173,36 +263,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "اختراق Railway يكلف 740 ألف دولار ويكشف سوقًا سوداء لمفاتيح AI",
-      "url": "https://techvoicearabia.com/railway-ai-api-keys-740000-llmjacking-breach/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-12T00:41:40Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق Railway يكلف 740 ألف دولار ويكشف سوقًا سوداء لمفاتيح AI",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "لجنة بقيادة ديفيد غروس تتحقق من برهان OpenAI لـYang–Mills",
-      "url": "https://techvoicearabia.com/openai-yang-mills-proof-david-gross-lean-mass-gap/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-12T00:38:26Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "لجنة بقيادة ديفيد غروس تتحقق من برهان OpenAI لـYang–Mills",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سبيس إكس تطلب معدات شمسية بقدرة 100 غيغاواط لتشغيل الذكاء اصطناعي من الفضاء",
-      "url": "https://techvoicearabia.com/spacex-starmind-100gw-solar-orbital-ai/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-11T19:14:06Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "سبيس إكس تطلب معدات شمسية بقدرة 100 غيغاواط لتشغيل الذكاء اصطناعي من الفضاء",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "آبل تقترب من إطلاق نظارات ذكية وسماعات AirPods بكاميرات نهاية 2027",
       "url": "https://www.tech-wd.com/wd/2026/11/11/%d8%a2%d8%a8%d9%84-%d8%aa%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%86%d8%b8%d8%a7%d8%b1%d8%a7%d8%aa-%d8%b0%d9%83%d9%8a%d8%a9-%d9%88%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-a/",
       "source": "techwd",
@@ -230,26 +290,6 @@
       "published_at": "2026-11-11T16:50:22Z",
       "category": "أخبار التقنية",
       "title_ar": "رئيس Nvidia يواجه تحقيقات بعد اتهامات بعلاقة مع جاسوسة صينية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "وصول Muse AI من ميتا إلى ساعات Wear OS وApple Watch",
-      "url": "https://www.tech-wd.com/wd/2026/11/11/%d9%88%d8%b5%d9%88%d9%84-muse-ai-%d9%85%d9%86-%d9%85%d9%8a%d8%aa%d8%a7-%d8%a5%d9%84%d9%89-%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-wear-os-%d9%88apple-watch/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-11T16:39:23Z",
-      "category": "أخبار التقنية",
-      "title_ar": "وصول Muse AI من ميتا إلى ساعات Wear OS وApple Watch",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Galaxy Z Fold 8 يقود سامسونج لتحقيق أعلى حصة بتاريخها في الهواتف القابلة للطي",
-      "url": "https://www.tech-wd.com/wd/2026/11/11/galaxy-z-fold-8-%d9%8a%d9%82%d9%88%d8%af-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d9%84%d8%aa%d8%ad%d9%82%d9%8a%d9%82-%d8%a3%d8%b9%d9%84%d9%89-%d8%ad%d8%b5%d8%a9-%d8%a8%d8%aa%d8%a7%d8%b1%d9%8a/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-11T16:22:38Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Galaxy Z Fold 8 يقود سامسونج لتحقيق أعلى حصة بتاريخها في الهواتف القابلة للطي",
       "translation_status": "original_ar"
     },
     {
@@ -303,16 +343,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "سامسونج تختبر تسجيل مكالمات واتساب وتيليجرام داخل One UI 9.5",
-      "url": "https://arabhardware.net/post-55139",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-11T10:19:22Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سامسونج تختبر تسجيل مكالمات واتساب وتيليجرام داخل One UI 9.5",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "SUSE Solidifies Position as Platform for AI Workloads",
       "url": "https://technologyarabia.com/archives/17915/suse-solidifies-position-as-platform-for-ai-workloads/",
       "source": "technologyarabia",
@@ -331,36 +361,6 @@
       "published_at": "2026-11-11T08:27:19Z",
       "category": "أخبار التقنية",
       "title_ar": "جامعة محمد بن زايد للذكاء الاصطناعي تطلق نموذج «بان 2» لمحاكاة الواقع",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«أومني أوبس» تطلق منصة Bunyan Inference Hub لتشغيل نماذج الذكاء الاصطناعي داخل السعودية",
-      "url": "https://aitnews.com/2026/11/11/omniops-bunyan-inference-hub-saudi-arabia/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-11T08:06:16Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "«أومني أوبس» تطلق منصة Bunyan Inference Hub لتشغيل نماذج الذكاء الاصطناعي داخل السعودية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
-      "url": "https://aitnews.com/2026/11/11/%d8%b3%d9%8a%d8%ac%d9%8a%d8%aa-%d8%aa%d8%b7%d9%84%d9%82-firecuda-forge-%d8%a8%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d9%85%d8%a4%d9%82%d8%aa-%d8%b0%d9%83%d9%8a-%d9%88%d8%b3%d8%b9%d8%a9-%d8%aa%d8%b5%d9%84/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-11T07:47:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
-      "url": "https://www.bbc.com/arabic/watch/cwg7x7k3meljo?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-10T14:41:30Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
       "translation_status": "original_ar"
     }
   ],
