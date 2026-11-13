@@ -1,7 +1,37 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T13:04:27Z",
+  "generated_at": "2026-11-13T15:43:09Z",
   "articles": [
+    {
+      "title": "وداعًا أيها العرّاب| المرأة التي أطاحت بـ هوانغ ومستقبل NVIDIA الضبابي",
+      "url": "https://arabhardware.net/post-55158",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-13T14:43:25Z",
+      "category": "أخبار التقنية",
+      "title_ar": "وداعًا أيها العرّاب| المرأة التي أطاحت بـ هوانغ ومستقبل NVIDIA الضبابي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "لعبة ببجي موبايل تُطلق نسخة\" ببجي موبايل فلاش\" الخفيفة",
+      "url": "https://arabhardware.net/post-55157",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-13T14:23:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لعبة ببجي موبايل تُطلق نسخة\" ببجي موبايل فلاش\" الخفيفة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "عطل عالمي في Microsoft 365 يعطل Outlook وTeams وخدمات أخرى",
+      "url": "https://3arrafni.com/tech-news/microsoft-365-outage-outlook-teams",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-13T12:25:52Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عطل عالمي في Microsoft 365 يعطل Outlook وTeams وخدمات أخرى",
+      "translation_status": "original_ar"
+    },
     {
       "title": "حين تخذلنا التكنولوجيا.. هل تصبح الحياة في خطر؟",
       "url": "https://www.bbc.com/arabic/articles/cr5ynyq2e71do?at_medium=RSS&at_campaign=rss",
@@ -90,26 +120,6 @@
       "published_at": "2026-11-13T09:26:50Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "OpenAI تطلق Business Hub لإدارة ظهور الشركات داخل ChatGPT",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "شاشة هاتف Xiaomi 18 Pro الخلفية تدعم خرائط جوجل و Spotify عالميًا",
-      "url": "https://arabhardware.net/post-55152",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-13T09:07:23Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "شاشة هاتف Xiaomi 18 Pro الخلفية تدعم خرائط جوجل و Spotify عالميًا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "بطاقة دبي للطلبة الجديدة تمنح خصم نقل يصل إلى 50% ومزايا دولية",
-      "url": "https://3arrafni.com/tech-news/new-dubai-student-card",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T08:45:52Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بطاقة دبي للطلبة الجديدة تمنح خصم نقل يصل إلى 50% ومزايا دولية",
       "translation_status": "original_ar"
     },
     {
@@ -220,16 +230,6 @@
       "published_at": "2026-11-13T04:21:50Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "عطل مايكروسوفت يمتد إلى خدمات عالمية ويعطّل تكاملات الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إليك الألعاب الفائزة في حفل جوائز Golden Joystick Awards",
-      "url": "https://arabhardware.net/post-55151",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-13T03:13:27Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إليك الألعاب الفائزة في حفل جوائز Golden Joystick Awards",
       "translation_status": "original_ar"
     },
     {

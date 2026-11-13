@@ -1,10 +1,23 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T13:04:29Z",
+  "generated_at": "2026-11-13T15:43:12Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+          "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-13T13:00:42Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "كيف يساعد الذكاء الاصطناعي فرق الرعاية في تقديم الرعاية المناسبة للمرضى، في وقت أقرب",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
           "url": "https://openai.com/business/customer-stories/amplitude",
@@ -225,25 +238,38 @@
           "title_ar": "كيف يساعد الذكاء الاصطناعي القائمين على إعادة التدوير على تحويل النفايات المختلطة إلى مواد قابلة لإعادة الاستخدام",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Gemini Intelligence: New features, on more devices",
-          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-          "source": "googleai",
-          "source_name": "Google AI · Gemini",
-          "published_at": "2026-11-10T19:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "ذكاء الجوزاء: ميزات جديدة، على المزيد من الأجهزة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "Apple HomeView available today",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-homeview-available-today/",
+          "source": "apple",
+          "source_name": "Apple",
+          "published_at": "2026-11-13T13:59:07.218000Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "Apple HomeView متاح اليوم",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+          "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-13T13:00:42Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "كيف يساعد الذكاء الاصطناعي فرق الرعاية في تقديم الرعاية المناسبة للمرضى، في وقت أقرب",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Samsung Announces December Release for Intelligent Eyewear, Bringing a Smarter Way To See the World",
           "url": "https://news.samsung.com/global/samsung-announces-december-release-for-intelligent-eyewear-bringing-a-smarter-way-to-see-the-world",
@@ -451,32 +477,6 @@
           "title_ar": "تعرض AMD معالجات AMD EPYC من الجيل السادس لقيادة العصر التالي للذكاء الاصطناعي والحوسبة المؤسسية",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Apple TV introduces new Sign Language interpretation feature",
-          "url": "https://www.apple.com/newsroom/2026/11/apple-tv-introduces-new-sign-language-interpretation-feature/",
-          "source": "apple",
-          "source_name": "Apple",
-          "published_at": "2026-11-10T16:00:26.015000Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "يقدم Apple TV ميزة جديدة لترجمة لغة الإشارة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
-          "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-10T16:00:03Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "توسع NVIDIA التزامها بالمصادر المفتوحة من خلال التبرع بـ OpenShell والبنية التحتية الجديدة للذكاء الاصطناعي",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
@@ -627,6 +627,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "When a passion for Porsche turns into friendship",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-kirk-gittens-mnd-43610.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-02T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "عندما يتحول شغف بورشه إلى صداقة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Notice Regarding the Status of Share Repurchase",
           "url": "https://www.subaru.co.jp/news-en/2026_11_02_181354/",
           "source": "subaru",
@@ -653,67 +666,54 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Toyota and Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
-          "url": "https://global.toyota/en/newsroom/corporate/44960881.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-10-30T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا ووايمو تعززان التعاون في مجال القيادة الذاتية من أجل شوارع أكثر أمانًا وحرية التنقل للجميع",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "The SUBARU Group Releases the Integrated Report 2026 and Sustainability Web 2026",
-          "url": "https://www.subaru.co.jp/news-en/2026_10_30_103257/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-10-30T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تصدر مجموعة SUBARU التقرير المتكامل لعام 2026 وموقع الويب الخاص بالاستدامة لعام 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Sales, Production, and Export Results for the First Half (April-September) of FY2027",
-          "url": "https://global.toyota/en/company/profile/production-sales-figures/202609.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-10-29T04:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "نتائج المبيعات والإنتاج والتصدير للنصف الأول (أبريل - سبتمبر) من السنة المالية 2027",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche Engineering and Porsche Digital combine their expertise",
-          "url": "https://newsroom.porsche.com/en/2026/company/porsche-engineering-digital-combine-expertise-porsche-technologies-43556.html",
+          "title": "Porsche congratulates Derek Bell on his 85th birthday",
+          "url": "https://newsroom.porsche.com/en/2026/history/porsche-derek-bell-85th-birthday-43597.html",
           "source": "porsche",
           "source_name": "Porsche",
-          "published_at": "2026-10-21T07:00:00Z",
+          "published_at": "2026-10-31T08:00:00Z",
           "language": "en",
           "official": true,
           "topic": "cars",
-          "title_ar": "تجمع بورش للهندسة وبورش الرقمية خبراتهما معًا",
+          "title_ar": "بورشه تهنئ ديريك بيل بعيد ميلاده الخامس والثمانين",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
         {
-          "title": "HONDA SHOWCASES MULTIPLE MOBILITY INNOVATIONS AT JAPAN MOBILITY SHOW BIZWEEK AND CEATEC 2026",
-          "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/591488/honda-showcases-multiple-mobility-innovations-at-japan-mobility-show-bizweek-and-ceatec-2026",
-          "source": "honda",
-          "source_name": "Honda",
-          "published_at": "2026-10-19T12:00:00Z",
+          "title": "Engineer at heart: Dr Michael Steiner is ending his tenure on the Executive Board of Porsche",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-dr-michael-steiner-ending-tenure-on-executive-board-43625.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-30T13:30:00Z",
           "language": "en",
           "official": true,
           "topic": "cars",
-          "title_ar": "هوندا تعرض العديد من ابتكارات التنقل في معرض اليابان للتنقل BIZWEEK ومعرض CEATEC 2026",
+          "title_ar": "مهندس في صميم قلبه: الدكتور مايكل شتاينر ينهي فترة ولايته في المجلس التنفيذي لشركة بورشه",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "New ‘Raceborn Moments’ episode: Two RS Spyders, countless memories",
+          "url": "https://newsroom.porsche.com/en/2026/history/porsche-raceborn-moments-rs-sypder-43612.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-30T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "حلقة جديدة من \"لحظات ريس بورن\": سيارتا RS Spyders، وذكريات لا تُحصى",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Porsche and La Marzocco unveil the 911 Carrera RS 2.7 Collection",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-911-carrera-rs-2-7-collection-la-marzocco-43603.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-30T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "بورشه ولا مارتسوكو تكشفان عن مجموعة 911 كاريرا RS 2.7",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
