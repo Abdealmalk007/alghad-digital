@@ -1,10 +1,23 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T18:51:13Z",
+  "generated_at": "2026-11-13T12:27:14Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-12T20:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "كيف تطرح Amplitude تحسينات المنتج في غضون يوم أو يومين مع OpenAI",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
           "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
@@ -93,6 +106,19 @@
           "official": true,
           "topic": "ai",
           "title_ar": "توسيع نطاق قيمة الذكاء الاصطناعي دون فقدان السيطرة: دروس من الشركات الرائدة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "url": "https://openai.com/business/customer-stories/gondola",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-12T12:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "Gondola تُضاعف إيراداتها مع قيام فريقها بإنشاء المزيد باستخدام Codex",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -188,19 +214,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "ChatGPT Plus for veterans and servicemembers",
-          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-11T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "ChatGPT Plus للمحاربين القدامى وأعضاء الخدمة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
           "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
           "source": "nvidia",
@@ -210,19 +223,6 @@
           "official": true,
           "topic": "ai",
           "title_ar": "كيف يساعد الذكاء الاصطناعي القائمين على إعادة التدوير على تحويل النفايات المختلطة إلى مواد قابلة لإعادة الاستخدام",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-          "url": "https://openai.com/index/jiostar-vijay-seshadri",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-11T00:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "المهندس المعماري الرئيسي في JioStar حول اكتشاف الذكاء الاصطناعي على نطاق 500 مليون مستخدم",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -254,6 +254,19 @@
           "official": true,
           "topic": "companies",
           "title_ar": "سامسونج تعلن عن إطلاق نظاراتها الذكية في ديسمبر، مما يوفر طريقة أكثر ذكاءً لرؤية العالم",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "5 new Google Flow Tools designed by visual artists",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-google-flow-tools/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-12T20:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "5 أدوات Google Flow جديدة صممها فنانون بصريون",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -319,19 +332,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "يستخدم العلماء الذكاء الاصطناعي من Google للمساعدة في استعادة غابات الأعشاب البحرية العملاقة.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Meet the 2026 Google PhD Fellows",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellows-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-12T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تعرّف على زملاء الدكتوراه في Google لعام 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
