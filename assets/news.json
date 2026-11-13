@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T12:27:11Z",
+  "generated_at": "2026-11-13T13:04:27Z",
   "articles": [
     {
       "title": "حين تخذلنا التكنولوجيا.. هل تصبح الحياة في خطر؟",
@@ -140,16 +140,6 @@
       "published_at": "2026-11-13T06:34:58Z",
       "category": "أخبار التقنية",
       "title_ar": "إيلون ماسك يصف توظيف جينسن هوانغ بـ”الشرف” وسط استقالة رئيس إنفيديا بعد فضيحة تجسس",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "عطل تقني واسع يضرب مايكروسوفت عالميا ويربك ملايين المستخدمين",
-      "url": "https://www.aljazeera.net/tech/2026/11/13/%d8%b9%d8%b7%d9%84-%d8%aa%d9%82%d9%86%d9%8a-%d9%88%d8%a7%d8%b3%d8%b9-%d9%8a%d8%b6%d8%b1%d8%a8-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-%d8%b9%d8%a7%d9%84%d9%85%d9%8a%d8%a7?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-13T06:32:20Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "عطل تقني واسع يضرب مايكروسوفت عالميا ويربك ملايين المستخدمين",
       "translation_status": "original_ar"
     },
     {
@@ -361,6 +351,16 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "«أومني أوبس» تطلق منصة Bunyan Inference Hub لتشغيل نماذج الذكاء الاصطناعي داخل السعودية",
       "translation_status": "original_ar"
+    },
+    {
+      "title": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
+      "url": "https://aitnews.com/2026/11/11/%d8%b3%d9%8a%d8%ac%d9%8a%d8%aa-%d8%aa%d8%b7%d9%84%d9%82-firecuda-forge-%d8%a8%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d9%85%d8%a4%d9%82%d8%aa-%d8%b0%d9%83%d9%8a-%d9%88%d8%b3%d8%b9%d8%a9-%d8%aa%d8%b5%d9%84/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-11T07:47:38Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
+      "translation_status": "original_ar"
     }
   ],
   "sources": [
@@ -410,7 +410,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": true
+      "active": false
     },
     {
       "id": "bbc",
