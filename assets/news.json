@@ -1,15 +1,65 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T09:09:18Z",
+  "generated_at": "2026-11-14T10:52:10Z",
   "articles": [
     {
-      "title": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
-      "url": "https://technologyarabia.com/archives/18048/%d8%a5%d9%85%d9%8a%d8%b1%d9%83%d9%88%d9%85-%d8%a3%d9%88%d9%84-%d8%b4%d8%b1%d9%8a%d9%83-%d9%84%d9%80%d8%b3%d9%8a%d8%b3%d9%83%d9%88-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-14T09:02:30Z",
+      "title": "«الغرير للسيارات» تستعرض «إكسيد ET8» بتقنية موسّع المدى في دبي",
+      "url": "https://aitnews.com/2026/11/14/%d8%a7%d9%84%d8%ba%d8%b1%d9%8a%d8%b1-%d9%84%d9%84%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%a5%d9%83%d8%b3%d9%8a%d8%af-et8-%d8%a8%d8%aa%d9%82/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-14T10:51:26Z",
       "category": "أخبار التقنية",
-      "title_ar": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
+      "title_ar": "«الغرير للسيارات» تستعرض «إكسيد ET8» بتقنية موسّع المدى في دبي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "واشنطن ترجّح أن أجهزة اتصالات قديمة وراء توقف إقلاع الرحلات الأمريكية",
+      "url": "https://aitnews.com/2026/11/14/us-flight-disruption-legacy-telecom/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-14T10:11:17Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "واشنطن ترجّح أن أجهزة اتصالات قديمة وراء توقف إقلاع الرحلات الأمريكية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "X تتيح إضافة 20 صورة وفيديو في المنشور الواحد",
+      "url": "https://3arrafni.com/tech-news/x-20-photos-videos-per-post",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-14T09:59:55Z",
+      "category": "أخبار التقنية",
+      "title_ar": "X تتيح إضافة 20 صورة وفيديو في المنشور الواحد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مايكروسوفت تعلن استعادة خدمات Microsoft 365 بالكامل بعد العطل العالمي",
+      "url": "https://aitnews.com/2026/11/14/microsoft-365-services-fully-restored-november-2026/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-14T09:59:18Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "مايكروسوفت تعلن استعادة خدمات Microsoft 365 بالكامل بعد العطل العالمي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أميركا توقف إقلاع الطائرات في جميع مطاراتها.. ماذا حدث؟",
+      "url": "https://techvoicearabia.com/us-flights-grounded-faa-outage-trump-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-14T09:33:58Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أميركا توقف إقلاع الطائرات في جميع مطاراتها.. ماذا حدث؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ثغرة حرجة في Apache HTTP Server تتيح السيطرة عن بُعد على الخوادم",
+      "url": "https://3arrafni.com/tech-news/apache-http-server-cve-2026-119618-update-2-4-71",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-14T09:04:55Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "ثغرة حرجة في Apache HTTP Server تتيح السيطرة عن بُعد على الخوادم",
       "translation_status": "original_ar"
     },
     {
@@ -93,6 +143,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "إيران تربط استئناف التفتيش النووي بمعالجة تداعيات الهجمات",
+      "url": "https://www.aljazeera.net/news/2026/11/14/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%b1%d8%a8%d8%b7-%d8%a7%d8%b3%d8%aa%d8%a6%d9%86%d8%a7%d9%81-%d8%a7%d9%84%d8%aa%d9%81%d8%aa%d9%8a%d8%b4-%d8%a7%d9%84%d9%86%d9%88%d9%88%d9%8a?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-14T06:37:13Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "إيران تربط استئناف التفتيش النووي بمعالجة تداعيات الهجمات",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "تسريب: Xiaomi 18 النسخة القياسية بذاكرة 16 جيجابايت وسعة تخزين 1 تيرابايت",
       "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-xiaomi-18-%d8%a7%d9%84%d9%86%d8%b3%d8%ae%d8%a9-%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a8%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-16-%d8%ac%d9%8a%d8%ac%d8%a7%d8%a8/",
       "source": "techwd",
@@ -100,26 +160,6 @@
       "published_at": "2026-11-14T06:00:50Z",
       "category": "أخبار التقنية",
       "title_ar": "تسريب: Xiaomi 18 النسخة القياسية بذاكرة 16 جيجابايت وسعة تخزين 1 تيرابايت",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إنفيديا بلا هوانغ.. هل يتعثر تمويل طفرة الذكاء الاصطناعي؟",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/14/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%a8%d9%84%d8%a7-%d9%87%d9%88%d8%a7%d9%86%d8%ba-%d9%87%d9%84-%d9%8a%d8%aa%d8%b9%d8%ab%d8%b1-%d8%aa%d9%85%d9%88%d9%8a%d9%84-%d8%b7%d9%81%d8%b1%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-14T03:31:10Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "إنفيديا بلا هوانغ.. هل يتعثر تمويل طفرة الذكاء الاصطناعي؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ذكاء اصطناعي بلا اشتراك ولا إنترنت.. أصغر 4 نماذج لحاسوبك",
-      "url": "https://www.aljazeera.net/tech/2026/11/14/%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d9%84%d8%a7-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%d9%83-%d9%88%d9%84%d8%a7-%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-14T02:00:00Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ذكاء اصطناعي بلا اشتراك ولا إنترنت.. أصغر 4 نماذج لحاسوبك",
       "translation_status": "original_ar"
     },
     {
@@ -143,26 +183,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ما الذي عطّل مايكروسوفت 365؟ تشريح خلل الشبكة وفشل الخوادم",
-      "url": "https://aitnews.com/2026/11/14/microsoft-365-outage-november-2026-technical-root-cause/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-13T23:13:50Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "ما الذي عطّل مايكروسوفت 365؟ تشريح خلل الشبكة وفشل الخوادم",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مستشفيات وبورصات وحكومات.. أبرز الجهات المتضررة من عطل مايكروسوفت العالمي",
-      "url": "https://aitnews.com/2026/11/14/microsoft-365-outage-affected-organizations-november-2026/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-13T22:56:34Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "مستشفيات وبورصات وحكومات.. أبرز الجهات المتضررة من عطل مايكروسوفت العالمي",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "بدء طلب جرس الباب وكاميرات Apple Home بأسعار تصل إلى 299.95 دولاراً",
       "url": "https://3arrafni.com/tech-news/apple-home-doorbell-cameras-prices-shipping",
       "source": "arrafni",
@@ -170,16 +190,6 @@
       "published_at": "2026-11-13T22:32:19Z",
       "category": "أخبار التقنية",
       "title_ar": "بدء طلب جرس الباب وكاميرات Apple Home بأسعار تصل إلى 299.95 دولاراً",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "خلل في اتصالات المراقبة الجوية يوقف إقلاع الرحلات في الولايات المتحدة",
-      "url": "https://aitnews.com/2026/11/14/%d8%b9%d8%b7%d9%84-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%ac%d9%88%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-13T22:24:53Z",
-      "category": "أخبار التقنية",
-      "title_ar": "خلل في اتصالات المراقبة الجوية يوقف إقلاع الرحلات في الولايات المتحدة",
       "translation_status": "original_ar"
     },
     {
@@ -203,26 +213,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "تحديث One UI 9 Watch المستقر يصل إلى Galaxy Watch 8 و8 Classic",
-      "url": "https://3arrafni.com/tech-news/one-ui-9-watch-stable-update-galaxy-watch-8",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T20:42:19Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث One UI 9 Watch المستقر يصل إلى Galaxy Watch 8 و8 Classic",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
-      "url": "https://technologyarabia.com/archives/18039/microsoft-global-outage-november-2026/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-13T20:25:12Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "أفضل أجهزة القارئ الإلكتروني لعام 2026: دليلك لاختيار الأنسب لاحتياجك",
       "url": "https://arabhardware.net/post-55143",
       "source": "hardware",
@@ -230,16 +220,6 @@
       "published_at": "2026-11-13T20:04:52Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "أفضل أجهزة القارئ الإلكتروني لعام 2026: دليلك لاختيار الأنسب لاحتياجك",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اختراق بيانات Uber يكشف معلومات آلاف السائقين عبر Fireworks AI",
-      "url": "https://3arrafni.com/tech-news/uber-data-breach-fireworks-ai",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T19:47:19Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق بيانات Uber يكشف معلومات آلاف السائقين عبر Fireworks AI",
       "translation_status": "original_ar"
     },
     {
@@ -323,16 +303,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "هل يبني ماسك أكبر إمبراطورية تكنولوجية في العالم؟ مفاوضات لدمج سبيس إكس وتسلا",
-      "url": "https://techvoicearabia.com/spacex-tesla-merger-musk-ai-space/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-13T05:26:08Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هل يبني ماسك أكبر إمبراطورية تكنولوجية في العالم؟ مفاوضات لدمج سبيس إكس وتسلا",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "تسريبات تكشف عن التفاصيل الرئيسية لهاتف فيفو الرائد الجديد",
       "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%a7%d9%84%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d9%87%d8%a7/",
       "source": "unlimit",
@@ -360,6 +330,36 @@
       "published_at": "2026-11-12T19:00:02Z",
       "category": "أخبار التقنية",
       "title_ar": "ساعة Oppo Watch 5 تنطلق قريبا بوضع FatMax وعمر بطارية يصل إلى 10 أيام",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
+      "url": "https://www.bbc.com/arabic/watch/cwg7x7k3meljo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-10T14:41:30Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
+      "url": "https://www.bbc.com/arabic/watch/cmlykq5k89djo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-06T07:04:21Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
+      "url": "https://www.bbc.com/arabic/articles/c3j47kvlnnq2o?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-06T06:41:30Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "هل نستفتي الآلة؟ جدل حول حدود الذكاء الاصطناعي في الفقه",
       "translation_status": "original_ar"
     }
   ],
@@ -392,7 +392,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "arrafni",
