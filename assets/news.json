@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T11:40:31Z",
+  "generated_at": "2026-11-14T12:09:02Z",
   "articles": [
+    {
+      "title": "جوجل تتيح لـ Gemini تحليل إنفاقك عبر Google Wallet ومساعدتك في إدارة ميزانيتك",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%ac%d9%88%d8%ac%d9%84-%d8%aa%d8%aa%d9%8a%d8%ad-%d9%84%d9%80-gemini-%d8%aa%d8%ad%d9%84%d9%8a%d9%84-%d8%a5%d9%86%d9%81%d8%a7%d9%82%d9%83-%d8%b9%d8%a8%d8%b1-google-wallet-%d9%88%d9%85%d8%b3%d8%a7/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-14T12:00:04Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "جوجل تتيح لـ Gemini تحليل إنفاقك عبر Google Wallet ومساعدتك في إدارة ميزانيتك",
+      "translation_status": "original_ar"
+    },
     {
       "title": "روكيت لاب تسجل 100 عملية إطلاق لـ «إلكترون» لوضع قمرًا يابانيًا في المدار",
       "url": "https://aitnews.com/2026/11/14/rocket-lab-electron-100th-launch-japanese-satellite/",
@@ -283,13 +293,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "بين الإصلاحات القضائية وتطبيق الحدود: ماذا تكشف قضية جلد عاملة كينية في السعودية؟",
+      "title": "بين الإصلاحات القضائية وتطبيق الحدود: ماذا تكشف قضية الحكم بجلد عاملة كينية في السعودية؟",
       "url": "https://www.bbc.com/arabic/articles/cq0k6j2v74xro?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
       "source_name": "BBC عربي",
       "published_at": "2026-11-13T18:57:22Z",
       "category": "البرامج والإنترنت",
-      "title_ar": "بين الإصلاحات القضائية وتطبيق الحدود: ماذا تكشف قضية جلد عاملة كينية في السعودية؟",
+      "title_ar": "بين الإصلاحات القضائية وتطبيق الحدود: ماذا تكشف قضية الحكم بجلد عاملة كينية في السعودية؟",
       "translation_status": "original_ar"
     },
     {
@@ -350,16 +360,6 @@
       "published_at": "2026-11-13T05:51:01Z",
       "category": "البرامج والإنترنت",
       "title_ar": "لماذا حذفت جوجل إحداثيات كوريا الجنوبية من خرائطها؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريبات تكشف عن التفاصيل الرئيسية لهاتف فيفو الرائد الجديد",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%a7%d9%84%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d9%87%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-12T21:00:43Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريبات تكشف عن التفاصيل الرئيسية لهاتف فيفو الرائد الجديد",
       "translation_status": "original_ar"
     }
   ],
