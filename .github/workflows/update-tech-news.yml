@@ -97,6 +97,9 @@ jobs:
           git add -- assets/translation-cache.json
           git add -- assets/site-search-index.js
           git add -- ai-news/index.html tech-companies/index.html cars/index.html
+          # Also stage changed tracked output from new site generators before rebase.
+          # The workflow starts from a clean checkout; -u excludes untracked artifacts.
+          git add -u
           if git diff --cached --quiet; then
             echo "News snapshot unchanged."
             exit 0
