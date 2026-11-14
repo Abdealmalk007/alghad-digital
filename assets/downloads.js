@@ -3,14 +3,14 @@
 window.AL_GHAD_DOWNLOADS = Object.freeze({
   "smart-excel": {
     repository: "SmartExcelAnalyzer-30.7",
-    version: "30.7.2",
+    version: "30.7.3",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.2",
-    checksum: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.2/SHA256SUMS.txt",
+    release: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.3",
+    checksum: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.3/SHA256SUMS.txt",
     files: [
-      {label:"تحميل مثبت Windows EXE — نسخة موحّدة",platform:"Windows 10/11 x64 • UNSIGNED Preview • Setup",recommended:true,bytes:538295603,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.2/SmartExcelAnalyzer_30.7.2_Setup.exe"}
+      {label:"تحميل مثبت Windows EXE — نسخة موحّدة",platform:"Windows 10/11 x64 • UNSIGNED Preview • Setup",recommended:true,bytes:311522038,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.3/SmartExcelAnalyzer_30.7.3_BrandFixed_Setup.exe"}
     ],
-    note:"نسخة تجريبية غير موقّعة رقميًا (NotSigned). تجمع التثبيت 30.7 مع تحديثي 30.7.1 و30.7.2. أجرِ نسخة احتياطية قبل التثبيت؛ لم يتم تأكيد اختبار التشغيل النهائي على جهاز نظيف."
+    note:"نسخة تجريبية غير موقّعة رقميًا (NotSigned). تجمع التثبيت 30.7 مع تحديثي 30.7.1 و30.7.3. أجرِ نسخة احتياطية قبل التثبيت؛ لم يتم تأكيد اختبار التشغيل النهائي على جهاز نظيف."
   },
   download: {
     repository: "Download-Anything-PRO",
