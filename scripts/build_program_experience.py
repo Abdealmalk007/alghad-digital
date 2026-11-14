@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Post-build product experience and WhatsApp contact for all 38 static pages.
+"""Post-build product benefits with email-only developer contact.
 Run AFTER build_en.py + build_topic_tags.py; BEFORE build_site_search.py.
 Pure Python 3.12 stdlib. No runtime JavaScript, tracking, or remote assets.
 """
@@ -9,8 +9,7 @@ from urllib.parse import quote
 import json,re,subprocess
 
 ROOT=Path(__file__).resolve().parents[1]
-PHONE="966503276927"
-VISIBLE_PHONE="0503276927"
+EMAIL="protech.2025.2026@gmail.com"
 CSS='<link rel="stylesheet" href="/assets/program-experience.css?v=1">'
 START="<!-- PROTECH_PROGRAM_EXPERIENCE_BEGIN -->"
 END="<!-- PROTECH_PROGRAM_EXPERIENCE_END -->"
@@ -75,30 +74,17 @@ BENEFITS={
  ]
 }
 
-ICON_SVG='<svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true" focusable="false"><path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.45L3 20l1.18-4.16A8.5 8.5 0 1 1 20 11.5Z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/><path d="m9.25 9.35 1.35 1.35c.6 1.22 1.75 2.37 3.17 2.95l1.34-1.34 1.8.9c-.2 1.6-1.18 2.25-2.69 2.16-2.98-.22-6.1-3.35-6.31-6.28-.1-1.48.55-2.47 2.12-2.65Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>'
-
-def whatsapp_url(message:str)->str:
-    return "https://wa.me/"+PHONE+"?text="+quote(message,safe="")
-
-def whatsapp_link(lang:str,product:str|None=None,mode:str="detail")->str:
+def email_link(lang:str, product:str|None=None)->str:
     is_en=lang=="en"
-    if product:
-        message=(f"Hello, I would like to ask about {product} on Alghad Digital." if is_en
-                 else f"مرحبًا، أريد الاستفسار عن برنامج {product} على موقع الغد ديجتال.")
-    else:
-        message=("Hello, I would like to ask about ProTech programs on Alghad Digital."
-                  if is_en else "مرحبًا، أود الاستفسار عن برامج ProTech على موقع الغد ديجتال.")
-    href=escape(whatsapp_url(message),quote=True)
-    if mode=="float":
-        title="WhatsApp support" if is_en else "التواصل عبر واتساب"
-        return (FLOAT_START+'<a class="protech-whatsapp-float" href="'+href+
-               '" target="_blank" rel="noopener noreferrer" aria-label="'+title+'">'+
-               ICON_SVG+'<span>'+("WhatsApp" if is_en else "واتساب")+
-               '</span></a>'+FLOAT_END)
-    title="Ask about this program" if is_en else "استفسر عن البرنامج"
-    return ('<a class="protech-program-whatsapp" href="'+href+
-            '" target="_blank" rel="noopener noreferrer">'+ICON_SVG+
-            '<span>'+title+' <small dir="ltr">'+VISIBLE_PHONE+'</small></span></a>')
+    subject=(f"Question about {product} - Alghad Digital" if product and is_en
+             else f"استفسار عن برنامج {product} - الغد ديجتال" if product
+             else "ProTech software enquiry - Alghad Digital" if is_en
+             else "استفسار عن برامج ProTech - الغد ديجتال")
+    href="mailto:"+EMAIL+"?subject="+quote(subject,safe="")
+    title="Contact by email" if is_en else "التواصل عبر البريد الإلكتروني"
+    return ('<a class="protech-program-email" href="'+escape(href,quote=True)+
+            '" aria-label="'+title+'"><span aria-hidden="true">✉</span><span>'+
+            title+' <small dir="ltr">'+EMAIL+'</small></span></a>')
 
 def product_experience(slug:str,title:str,lang:str,available:bool)->str:
     is_en=lang=="en"
@@ -120,8 +106,8 @@ def product_experience(slug:str,title:str,lang:str,available:bool)->str:
       '<div class="protech-benefit-contact"><div><strong>'+
       ("Questions before downloading?" if is_en else "هل تحتاج توضيحًا قبل التحميل؟")+
       '</strong><p>'+("Contact ProTech directly about this specific application."
-                     if is_en else "اسأل عن الميزات أو حالة الإصدار أو التوافق مباشرة عبر واتساب.")+
-      '</p></div>'+whatsapp_link(lang,title)+'</div>')
+                     if is_en else "اسأل عن الميزات أو حالة الإصدار أو التوافق عبر البريد الإلكتروني.")+
+      '</p></div>'+email_link(lang,title)+'</div>')
     return (START+'<section class="protech-program-experience" aria-label="'+
       ("Benefits of this program" if is_en else "مميزات وفوائد البرنامج")+
       '"><div class="protech-benefit-head"><div><span class="protech-benefit-kicker">'+
@@ -161,7 +147,6 @@ def update_one(relative:str,lang:str,product:dict|None):
         s=s[:pos]+"\n"+block+"\n"+s[pos:]
         # Existing feature and use-case lists remain unchanged, providing factual detail and accessibility.
     if s.count("</body>")!=1:raise ValueError("Body marker invalid: "+relative)
-    s=s.replace("</body>",whatsapp_link(lang,product["title"] if product else None,"float")+"\n</body>",1)
     filepath.write_text(s,encoding="utf-8",newline="\n")
     print("ENHANCED",relative,"PRODUCT",product["id"] if product else "-",flush=True)
 
@@ -181,6 +166,6 @@ def main():
         update_one(relative,lang,product)
     print("PROTECH_PROGRAM_EXPERIENCE_PASS",json.dumps({
       "pages":len(urls),"product_pages":len(records)*2,"benefit_cards":len(records)*2*4,
-      "whatsapp_buttons":len(urls)+len(records)*2,"phone":PHONE,"languages":["ar","en"]
+      "email_contact_links":len(records)*2,"contact":EMAIL,"languages":["ar","en"]
     }),flush=True)
 if __name__=="__main__":main()

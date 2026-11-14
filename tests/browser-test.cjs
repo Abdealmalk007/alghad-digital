@@ -107,7 +107,8 @@ async function main() {
     }
     if(count!==9) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
     assert.equal(count,9,"All allowed project cards should be rendered");
-    assert.ok(await evaluate('document.querySelector(".protech-whatsapp-float")?.href.startsWith("https://wa.me/966503276927?text=")'),"Sitewide WhatsApp CTA should link to the authorized number");
+    assert.equal(await evaluate('document.querySelector(".protech-whatsapp-float")===null'),true,"WhatsApp contact removed from website");
+    assert.ok(await evaluate('!!document.querySelector("a[href^=mailto]")'),"Email must remain available");
     // Product cards can render before independent editorial scripts finish loading.
     for(let attempt=0;attempt<80;attempt++){
       const done=await evaluate('document.readyState==="complete" && document.querySelectorAll(".editorial-story").length>=5 && document.querySelectorAll(".windows-tool-card").length===8');
@@ -320,7 +321,11 @@ async function main() {
       const value=await evaluate('({viewport:innerWidth,page:document.documentElement.scrollWidth,contactRight:document.querySelector(".contact-panel").getBoundingClientRect().right,contactLeft:document.querySelector(".contact-panel").getBoundingClientRect().left})');
       assert.ok(value.page<=width+2,"Overflow at "+width+"px: "+JSON.stringify(value));
       assert.ok(value.contactLeft>=-2 && value.contactRight<=width+2,"Contact clipping at "+width+"px");
-      viewports.push(value);
+      await evaluate('scrollTo({top:1250,behavior:"instant"})');
+      await delay(150);
+      const floating=await evaluate('(() => {const back=document.getElementById("back-to-top-floating"),search=document.getElementById("sitewide-search-trigger");if(!back||!search)return {present:false};const b=back.getBoundingClientRect(),s=search.getBoundingClientRect();return {present:true,backHidden:back.hidden,overlap:b.left<s.right+6 && b.right+6>s.left && b.top<s.bottom+6 && b.bottom+6>s.top};})()');
+      assert.ok(floating.present&&!floating.overlap,"Floating controls overlap at "+width+"px: "+JSON.stringify(floating));
+      viewports.push({...value,floating});
     }
     // Full industry news are intentionally omitted from the homepage, and
     // tested as accessible independent pages in the crawlability loop below.

@@ -25,7 +25,23 @@
       const dialog = document.getElementById(id);
       return dialog && dialog.open;
     });
-    back.hidden = window.scrollY < 650 || modalOpen;
+    const searchOpen=document.body.classList.contains("sitewide-search-open");
+    back.hidden = window.scrollY < 650 || modalOpen || searchOpen;
+    if (!back.hidden) {
+      const a=back.getBoundingClientRect();
+      const blockers=document.querySelectorAll(".sitewide-search-trigger");
+      for (const blocker of blockers) {
+        const style=getComputedStyle(blocker);
+        if(style.display==="none" || style.visibility==="hidden")continue;
+        const b=blocker.getBoundingClientRect();
+        const margin=8;
+        if(a.left<b.right+margin && a.right+margin>b.left &&
+           a.top<b.bottom+margin && a.bottom+margin>b.top) {
+          back.hidden=true;
+          break;
+        }
+      }
+    }
     scheduled = false;
   };
   const onScroll = () => {
@@ -35,6 +51,8 @@
   };
   window.addEventListener("scroll", onScroll, {passive:true});
   window.addEventListener("resize", onScroll, {passive:true});
+  window.addEventListener("orientationchange", onScroll, {passive:true});
+  new MutationObserver(onScroll).observe(document.body,{attributes:true,attributeFilter:["class"]});
   document.addEventListener("click", event => {
     const button = event.target.closest("[data-detail]");
     if (button) requestAnimationFrame(refresh);

@@ -1,4 +1,4 @@
-/* ProTech program experience & first-party WhatsApp CTAs.
+/* ProTech software benefits and email-only contact.
    Static crawlable HTML, bilingual and responsive. No trackers/scripts/remote fonts.
    All component classes are namespaced to avoid affecting site navigation. */
 .protech-program-experience {
@@ -119,14 +119,14 @@
 .protech-benefit-contact > div { flex: 1 1 210px; min-width: 0; }
 .protech-benefit-contact strong { display: block; color: #f0ffff; font-size: 1rem; }
 .protech-benefit-contact p { margin: 3px 0 0; color: #c6dee4; font-size: .85rem; }
-.protech-program-whatsapp {
+.protech-program-email {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   padding: 11px 16px;
-  background: #136a4d;
-  border: 1px solid #61d4a3;
+  background: #175a6f;
+  border: 1px solid #65cad7;
   border-radius: 13px;
   color: #fff !important;
   text-decoration: none !important;
@@ -135,14 +135,13 @@
   min-height: 50px;
   white-space: normal;
 }
-.protech-program-whatsapp:hover { background: #0b855c; color: #fff !important; }
-.protech-program-whatsapp:focus-visible,
-.protech-whatsapp-float:focus-visible {
+.protech-program-email:hover { background: #206f87; color: #fff !important; }
+.protech-program-email:focus-visible {
   outline: 3px solid #9bffe0 !important;
   outline-offset: 3px;
 }
-.protech-program-whatsapp svg { flex: none; }
-.protech-program-whatsapp small {
+.protech-program-email svg { flex: none; }
+.protech-program-email small {
   display: block;
   opacity: .89;
   font-size: .72rem;
@@ -172,31 +171,6 @@
   line-height: 1.8;
   overflow-wrap: anywhere;
 }
-.protech-whatsapp-float {
-  position: fixed;
-  z-index: 8;
-  left: 20px;
-  bottom: max(20px, env(safe-area-inset-bottom, 0px));
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  min-height: 46px;
-  padding: 10px 15px;
-  background: #116b4e;
-  color: #fff !important;
-  border: 1px solid #6bddab;
-  border-radius: 999px;
-  box-shadow: 0 5px 22px #00160d99;
-  text-decoration: none !important;
-  font-size: .92rem;
-  font-family: inherit;
-  font-weight: 850;
-  line-height: 1.25;
-  direction: ltr;
-}
-.protech-whatsapp-float:hover { background: #078658; color: #fff !important; }
-.protech-whatsapp-float svg { flex: none; }
-html[lang="en"] .protech-whatsapp-float { left: auto; right: 20px; }
 @media (max-width: 700px) {
   .protech-program-experience { margin: 20px 0 25px; padding: 15px; border-radius: 16px; }
   .protech-benefit-grid { grid-template-columns: 1fr; gap: 10px; }
@@ -204,11 +178,9 @@ html[lang="en"] .protech-whatsapp-float { left: auto; right: 20px; }
   .protech-benefit-head { gap: 10px; }
   .protech-benefit-status { max-width: 100%; }
   .protech-benefit-contact { align-items: stretch; }
-  .protech-program-whatsapp { width: 100%; }
+  .protech-program-email { width: 100%; }
   .product-layout > section > ul.features,
   .en-detail-layout .en-features { grid-template-columns: 1fr; }
-  .protech-whatsapp-float { left: 12px; bottom: max(15px, env(safe-area-inset-bottom, 0px)); padding: 9px 12px; font-size: .83rem; min-height: 44px; }
-  html[lang="en"] .protech-whatsapp-float { right: 12px; }
 }
 @media (prefers-reduced-motion: reduce) { .protech-benefit-card { transition: none; } }
-@media print { .protech-whatsapp-float,.protech-program-whatsapp { display: none !important; } }
+@media print { .protech-program-email { display: none !important; } }

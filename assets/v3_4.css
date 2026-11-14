@@ -34,7 +34,7 @@
 }
 .section-head, .release-showcase-intro { align-items:end; }
 .back-to-top-floating {
-  position:fixed;left:22px;bottom:22px;z-index:65;
+  position:fixed;inset-inline-start:max(22px, env(safe-area-inset-right, 0px));left:auto;right:auto;bottom:max(22px, env(safe-area-inset-bottom, 0px));z-index:65;
   width:48px;height:48px;display:grid;place-items:center;
   border:1px solid color-mix(in srgb,var(--teal) 45%,var(--line));
   background:color-mix(in srgb,var(--panel) 93%,transparent);
@@ -53,7 +53,7 @@ body:has(#compare-tray:not([hidden])) .back-to-top-floating {bottom:126px;}
 body:has(#product-modal[open]) .back-to-top-floating,
 body:has(#compare-dialog[open]) .back-to-top-floating { display:none; }
 @media(max-width:820px) {
-  .back-to-top-floating {left:14px;bottom:14px;width:44px;height:44px;}
+  .back-to-top-floating {inset-inline-start:14px;bottom:max(14px, env(safe-area-inset-bottom, 0px));width:44px;height:44px;}
   .spotlight-head, .section-head {gap:14px;}
   .release-showcase-section {padding-block:64px 72px;}
   .about-section {padding-block:65px;}
@@ -71,3 +71,8 @@ body:has(#compare-dialog[open]) .back-to-top-floating { display:none; }
   .back-to-top-floating {transition:none;}
   .back-to-top-floating:hover {transform:none;}
 }
+
+/* The global search trigger uses inset-inline-end; this control uses the
+   opposite edge. Hide under modal search rather than cover other UI. */
+body.sitewide-search-open .back-to-top-floating,
+body:has(.sitewide-search-layer:not([hidden])) .back-to-top-floating {display:none !important;}

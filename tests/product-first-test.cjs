@@ -29,7 +29,8 @@ assert.ok(html.includes('href="assets/product-first.css"'));
 assert.ok(!html.includes('name="keywords"'));
 assert.ok(html.includes('href="/privacy/"')&&html.includes('href="/security/"'));
 assert.ok(html.includes('href="/about/"'));
-assert.ok(html.includes('class="protech-whatsapp-float" href="https://wa.me/966503276927?text='),"Owner-authorized WhatsApp contact button must appear");
+assert.ok(!html.includes("protech-whatsapp-float")&&!html.includes("wa.me/966503276927"),"No personal WhatsApp contact in public site");
+assert.ok(html.includes('href="mailto:protech.2025.2026@gmail.com"'),"Email is the only direct contact channel");
 assert.ok(html.includes('href="#contact" class="button button-sm button-primary header-cta"'));
 assert.ok(!html.includes('info@alghad.digital'),"Do not publicize unconfigured domain email");
 const marks=[
