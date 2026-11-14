@@ -69,8 +69,8 @@ TOPICS={
 PAGES=[
  "/","/programs/","/news/","/free-windows-tools/","/ai-news/",
  "/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/",
-]+["/programs/"+slug+"/" for slug in CATALOG]
-assert len(PAGES)==20
+]+["/programs/"+slug+"/" for slug in CATALOG]+["/windows-office/"]
+assert len(PAGES)==21
 
 def safe(url:str)->bool:
     parsed=urllib.parse.urlsplit(url)
@@ -157,6 +157,7 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
     nav=''.join([
         internal("/en/","Home"),
         internal("/en/programs/","Our Software"),
+        internal("/en/windows-office/","Windows & Office Programs"),
         internal("/en/#downloads","Downloads"),
         internal("/en/free-windows-tools/","Free Windows Tools"),
         internal("/en/news/","Tech News"),
@@ -288,8 +289,18 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
 def render_catalog(products:list[dict],downloads:dict)->None:
     body=hero("OUR SOFTWARE / PROTECH","Software library","Explore all nine ProTech applications. Published preview downloads are distinguished from projects still under development.")
     body+='<div class="en-grid">' + ''.join(brand_card(p,downloads) for p in products)+'</div>'
-    body+=render_software_sources("en")
     page("/programs/","ProTech Software Library | Alghad Digital","Explore nine ProTech Windows and Android products, download availability and development status.",body,{"@context":"https://schema.org","@type":"CollectionPage","name":"ProTech Software Library","url":DOMAIN+"/en/programs/"})
+
+def render_windows_office()->None:
+    title="Windows & Office Programs"
+    body=hero("WINDOWS & OFFICE / DOWNLOAD SOURCES",title,
+        "Official Microsoft Windows and Office links first, with clearly identified external archives for older releases.")
+    body+=render_software_sources("en")
+    page("/windows-office/",title+" | Alghad Digital",
+        "Official Microsoft Windows and Office download pages and a separately labeled third-party software archive.",
+        body,{"@context":"https://schema.org","@type":"CollectionPage",
+              "name":title,"url":DOMAIN+"/en/windows-office/","inLanguage":"en"})
+
 
 def render_product(product:dict,downloads:dict,facts:dict)->None:
     slug=product["id"]
@@ -400,14 +411,14 @@ def extend_sitemap()->None:
     assert top.tag=="{"+ns+"}urlset"
     original=[e.findtext("{"+ns+"}loc") for e in top.findall("{"+ns+"}url")]
     expected_ar={DOMAIN+x for x in PAGES}
-    if set(original)!=expected_ar or len(original)!=20:
-        raise ValueError("Expected exactly 20 canonical Arabic URLs before adding English")
+    if set(original)!=expected_ar or len(original)!=21:
+        raise ValueError("Expected exactly 21 canonical Arabic URLs before adding English")
     for path in PAGES:
         sub=ET.SubElement(top,"{"+ns+"}url")
         ET.SubElement(sub,"{"+ns+"}loc").text=DOMAIN+"/en/"+path.lstrip("/")
     ET.indent(tree,space="  ")
     tree.write(file,encoding="utf8",xml_declaration=True)
-    print("BILINGUAL_SITEMAP_URLS=40")
+    print("BILINGUAL_SITEMAP_URLS=42")
 
 def main()->None:
     global products,downloads
@@ -420,12 +431,13 @@ def main()->None:
     facts=json.loads((ROOT/"assets/release-facts.json").read_text(encoding="utf8"))
     render_home(products,downloads,industry,tools)
     render_catalog(products,downloads)
+    render_windows_office()
     for product in products:render_product(product,downloads,facts)
     render_news(industry)
     render_tools(tools)
     render_support()
     created=[p for p in EN.rglob("index.html") if p != EN/"programs"/"porcelain"/"index.html"]
-    assert len(created)==20,(len(created),created)
+    assert len(created)==21,(len(created),created)
     extend_sitemap()
     print("ENGLISH_PAGES="+str(len(created))+" ARABIC_DEFAULT=True")
 

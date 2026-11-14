@@ -126,7 +126,7 @@ try {
         Get-ChildItem -LiteralPath (Join-Path $site "en") -Recurse -File -Filter "index.html" |
         ForEach-Object { $_.FullName.Substring($site.Length + 1).Replace("\", "/") }
     )
-    if ($englishPages.Count -ne 22) {
+    if ($englishPages.Count -ne 23) {
         throw "Expected exactly 21 static English pages matching the 21 Arabic canonical pages."
     }
     $safeFiles += $englishPages

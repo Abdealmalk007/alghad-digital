@@ -61,6 +61,9 @@
     <loc>https://alghad.digital/programs/quotes/</loc>
   </url>
   <url>
+    <loc>https://alghad.digital/windows-office/</loc>
+  </url>
+  <url>
     <loc>https://alghad.digital/en/</loc>
   </url>
   <url>
@@ -119,5 +122,8 @@
   </url>
   <url>
     <loc>https://alghad.digital/en/programs/quotes/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/windows-office/</loc>
   </url>
 </urlset>

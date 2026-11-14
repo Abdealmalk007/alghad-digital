@@ -1,45 +1,43 @@
 "use strict";
-/* Bilingual OS/Office source listings: official-first, external provenance, no binaries hosted here. */
 const assert=require("node:assert/strict");
 const fs=require("node:fs");
 const path=require("node:path");
 const root=path.resolve(__dirname,"..");
-const load=rel=>fs.readFileSync(path.join(root,rel),"utf8");
-const cases=[["programs/index.html","ar"],["en/programs/index.html","en"]];
-for (const [rel,lang] of cases){
-  const page=load(rel);
-  const start=page.indexOf('<section id="windows-office-downloads"');
-  const end=page.indexOf("</section>",start);
-  assert.ok(start>=0 && end>start,rel+" missing Windows/Office section");
-  const section=page.slice(start,end);
-  assert.equal((section.match(/<article class="external-software-source">/g)||[]).length,7,rel+" source count");
-  assert.ok(section.includes("https://windowstan.com/"),"Supplied website must be linked");
-  assert.ok(section.includes("https://windowstan.com/win/"));
-  assert.ok(section.includes("https://windowstan.com/microsoft-office/"));
-  const officialLinks=[...section.matchAll(/href="(https:\/\/(?:www\.microsoft\.com|support\.microsoft\.com)[^"]+)"/g)];
-  assert.equal(officialLinks.length,5,rel+" must prioritize five official pages");
-  assert.ok(officialLinks[0].index < section.indexOf("windowstan.com"),"Microsoft links must precede archives");
-  for(const url of officialLinks.map(v=>v[1])){
-    assert.ok(lang==="ar"? url.includes("/ar-sa/") : url.includes("/en-us/"),rel+" wrong locale: "+url);
-  }
-  const anchors=[...section.matchAll(/<a\b([^>]+)>/g)].map(v=>v[1]);
-  assert.equal(anchors.length,8,"Seven resource cards plus the requested Windowstan home");
-  assert.ok(anchors.every(x=>x.includes('target="_blank"') && x.includes('rel="noopener noreferrer')));
-  assert.equal(anchors.filter(x=>x.includes("windowstan.com") && x.includes("nofollow")).length,3);
-  assert.ok(section.includes("Windows 11") && section.includes("Windows 10")
-      && section.includes("Office 2024") && section.includes("Office 2021"));
-  assert.ok(lang==="ar" ? section.includes("غير تابع") && section.includes("لا نضمن") :
-                           section.includes("third-party") && section.includes("not a verified"));
-  assert.ok(!/\.iso(?:\?|")|\.exe(?:\?|")/i.test(section),
-            "Only provider landing pages, not unverified binary links or activation bypasses");
+const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
+for(const [rel,lang] of [["windows-office/index.html","ar"],["en/windows-office/index.html","en"]]){
+ const page=read(rel), start=page.indexOf('<section id="windows-office-downloads"'),end=page.indexOf("</section>",start);
+ assert.ok(start>=0&&end>start,rel+" missing section");
+ const section=page.slice(start,end);
+ assert.equal((section.match(/<article class="external-software-source">/g)||[]).length,7);
+ assert.ok(section.includes("https://windowstan.com/")&&section.includes("https://windowstan.com/win/")&&section.includes("https://windowstan.com/microsoft-office/"));
+ const microsoft=[...section.matchAll(/href="(https:\/\/(?:www\.microsoft\.com|support\.microsoft\.com)[^"]+)"/g)];
+ assert.equal(microsoft.length,5);
+ assert.ok(microsoft[0].index<section.indexOf("windowstan.com"));
+ for(const m of microsoft)assert.ok(m[1].includes(lang==="ar"?"/ar-sa/":"/en-us/"));
+ const a=[...section.matchAll(/<a\b([^>]+)>/g)].map(m=>m[1]);
+ assert.equal(a.length,8);assert.ok(a.every(v=>v.includes('target="_blank"')&&v.includes('rel="noopener noreferrer')));
+ assert.equal(a.filter(v=>v.includes("windowstan.com")&&v.includes("nofollow")).length,3);
+ assert.ok(lang==="ar"?section.includes("غير تابع")&&section.includes("لا نضمن"):section.includes("third-party")&&section.includes("not a verified"));
+ assert.ok(!/\.iso(?:\?|")|\.exe(?:\?|")/i.test(section));
+ const route=lang==="ar"?"/windows-office/":"/en/windows-office/";
+ assert.ok(page.includes('<link rel="canonical" href="https://alghad.digital'+route+'">'));
+ assert.ok(page.includes(lang==="ar"?"برامج الويندوز والاوفيس":"Windows & Office Programs"));
+ assert.equal((page.match(/<h1\b/g)||[]).length,1);
 }
-assert.ok(load("index.html").includes('href="programs/#windows-office-downloads"'),
-          "Homepage software directory should link to source section");
-const source=load("scripts/software_sources.py");
-assert.ok(source.includes("SOURCES=") && source.includes('if lang not in {"ar","en"}'));
-assert.ok(load("scripts/build_seo.py").includes('render_software_sources("ar")'));
-assert.ok(load("scripts/build_en.py").includes('render_software_sources("en")'));
-const workflow=load(".github/workflows/update-tech-news.yml");
-assert.ok(workflow.includes("node tests/windows-office-sources-test.cjs"),
-          "Daily rebuild must verify external source block");
-console.log("WINDOWS_OFFICE_SOURCES_PASS: 5 Microsoft pages, 2 Windowstan category links, 1 Windowstan homepage, AR/EN provenance labels");
+for(const rel of ["programs/index.html","en/programs/index.html"]){
+ assert.ok(!read(rel).includes('id="windows-office-downloads"'),"Mixed source section: "+rel);
+ assert.ok(!read(rel).includes("windowstan.com"),"Archive is not part of ProTech program listings: "+rel);
+}
+assert.ok(read("index.html").includes('href="/windows-office/" class="nav-link"'));
+assert.ok(read("index.html").includes('href="windows-office/"'));
+assert.ok(read("en/index.html").includes('href="/en/windows-office/"'));
+assert.ok(!read("index.html").includes("programs/#windows-office-downloads"));
+assert.ok(!read("index.html").includes("windows-office-catalog-shortcut"));
+const sitemap=read("sitemap.xml");
+assert.ok(sitemap.includes("<loc>https://alghad.digital/windows-office/</loc>"));
+assert.ok(sitemap.includes("<loc>https://alghad.digital/en/windows-office/</loc>"));
+assert.equal((sitemap.match(/<loc>/g)||[]).length,42);
+assert.ok(read("scripts/build_seo.py").includes("render_windows_office()"));
+assert.ok(read("scripts/build_en.py").includes("render_windows_office()"));
+assert.ok(read(".github/workflows/update-tech-news.yml").includes("node tests/windows-office-sources-test.cjs"));
+console.log("WINDOWS_OFFICE_SEPARATE_PASS: two indexable pages, 7 source categories, 5 Microsoft links and external archive, no catalog mixing");

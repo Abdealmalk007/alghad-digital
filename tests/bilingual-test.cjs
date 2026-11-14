@@ -6,8 +6,8 @@ const root=path.resolve(__dirname,"..");
 const domain="https://alghad.digital";
 const routes=["/","/programs/","/news/","/free-windows-tools/","/ai-news/",
  "/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/",
- ...["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes"].map(x=>"/programs/"+x+"/")];
-assert.equal(routes.length,20);
+ ...["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes"].map(x=>"/programs/"+x+"/"),"/windows-office/"];
+assert.equal(routes.length,21);
 const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
 const english=[];
 const arabic=[];
@@ -42,7 +42,7 @@ for(const route of routes){
   english.push(e);
   arabic.push(a);
 }
-assert.equal(english.length,20);
+assert.equal(english.length,21);
 const homepage=english[0];
 assert.ok(homepage.indexOf('id="programs"')<homepage.indexOf('id="news"'),"Product-first English homepage");
 assert.ok(homepage.includes('id="downloads"'));
@@ -67,7 +67,7 @@ for(const slug of ["stone","download","hr","marble","reports","quotes","care"]){
   assert.ok(page.includes('class="en-download-item"'),"Real release variants "+slug);
 }
 const sitemap=read("sitemap.xml");
-assert.equal((sitemap.match(/<loc>/g)||[]).length,40);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,42);
 for(const route of routes){
   assert.ok(sitemap.includes("<loc>"+domain+route+"</loc>"));
   assert.ok(sitemap.includes("<loc>"+domain+"/en/"+route.slice(1)+"</loc>"));
@@ -80,9 +80,9 @@ assert.ok(workflow.includes("git add -- en/"),"Daily stage of English content");
 const publisher=read("Publish_To_GitHub.ps1");
 assert.ok(publisher.includes("scripts/build_en.py"));
 assert.ok(publisher.includes("tests/bilingual-test.cjs"));
-assert.ok(publisher.includes("$englishPages.Count -ne 22"));
+assert.ok(publisher.includes("$englishPages.Count -ne 23"));
 const css=read("assets/en.css");
 assert.ok(css.includes(".en-lang-switch"));
 const src=read("assets/en.js");
 assert.ok(src.includes('data-en-filter')||src.includes("dataset.enFilter"));
-console.log("BILINGUAL_QA_PASS AR=20 EN=20 TOTAL_SITEMAP=40 REAL_DOWNLOADS=8 ARABIC_DEFAULT=yes");
+console.log("BILINGUAL_QA_PASS AR=21 EN=21 TOTAL_SITEMAP=42 REAL_DOWNLOADS=8 ARABIC_DEFAULT=yes");

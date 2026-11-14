@@ -42,7 +42,7 @@ for(const n of ["index.html","en/index.html","programs/quotes/index.html","en/pr
 assert.ok(read("programs/quotes/index.html").includes("All Rights Reserved"));
 assert.ok(read("en/programs/quotes/index.html").includes("UNSIGNED"));
 const sitemap=read("sitemap.xml");
-assert.equal((sitemap.match(/<loc>/g)||[]).length,40);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,42);
 assert.ok(!sitemap.includes("/programs/porcelain/"));
 assert.ok(!sitemap.includes("/programs/tv/"),"TV launcher must not appear in sitemap");
 assert.ok(sitemap.includes("https://alghad.digital/programs/stone/"));

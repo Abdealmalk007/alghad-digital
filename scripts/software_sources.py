@@ -44,7 +44,7 @@ assert len(SOURCES)==7
 def render(lang: str)->str:
     if lang not in {"ar","en"}:raise ValueError("Unsupported locale")
     en=lang=="en"
-    title="Windows & Office download sources" if en else "مصادر تنزيل Windows وMicrosoft Office"
+    title="Windows & Office Programs" if en else "برامج الويندوز والاوفيس"
     intro=("Choose official Microsoft downloads first. For older editions, the external archive below is a third-party website, not a verified Microsoft distributor."
            if en else "ابدأ بمصادر Microsoft الرسمية باللغة العربية. وللنسخ القديمة يوجد أرشيف خارجي غير تابع لـ Microsoft؛ لا نضمن سلامة ملفاته أو توفر كل إصدار.")
     guide=("Downloading installation media does not include a product license. Avoid modified installers and activation bypass tools. Unsupported versions may carry security risks."

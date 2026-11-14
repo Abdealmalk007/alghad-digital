@@ -92,7 +92,7 @@ jobs:
           git add -- assets/news.json assets/news-data.js news/index.html sitemap.xml index.html
           git add -- en/
           git add -- docs/programs/ programs/
-          git add -- about/index.html security/index.html privacy/index.html protech/index.html
+          git add -- about/index.html security/index.html privacy/index.html protech/index.html windows-office/index.html
           git add -- assets/release-facts-data.js
           git add -- assets/industry-news.json assets/industry-news-data.js
           git add -- assets/translation-cache.json

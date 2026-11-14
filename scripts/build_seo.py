@@ -151,7 +151,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <header class="site-header">
     <nav class="shell header-inner" aria-label="التنقل الرئيسي">
       <a class="brand" href="{home}"><span class="brand-logo"><img src="{home}icon-192.png?v=4" alt="" width="38" height="38"></span><span>الغد <strong>ديجتال</strong><small>ALGHAD DIGITAL</small></span></a>
-      <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}protech/">عن Pro Tech</a><a href="{home}news/">أخبار التقنية</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a><a class="lang-toggle" lang="en" dir="ltr" hreflang="en" href="{esc(english_url)}" aria-label="Switch to English">EN</a></div>
+      <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}windows-office/">برامج الويندوز والاوفيس</a><a href="{home}protech/">عن Pro Tech</a><a href="{home}news/">أخبار التقنية</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a><a class="lang-toggle" lang="en" dir="ltr" hreflang="en" href="{esc(english_url)}" aria-label="Switch to English">EN</a></div>
     </nav>
   </header>
   <main id="main" class="shell content">{content}</main>
@@ -320,7 +320,6 @@ def render_catalog(products: list, downloads: dict) -> None:
       <span class="eyebrow">ALGHAD DIGITAL / PROTECH SOFTWARE</span>
       <h1>برامج ProTech على الغد ديجتال</h1>
       <p class="hero-desc">تصفح أسماء البرامج ووصفها ومميزاتها وروابط التنزيل الرسمية عند توفرها. تظهر البرامج قيد التطوير بحالة «قريبًا جدًا» دون تحميل غير موثق.</p>
-      {render_software_sources("ar")}
       <div class="directory-grid">{''.join(items)}</div>"""
     schema = {"@context": "https://schema.org", "@type": "CollectionPage",
         "name": "برامج ProTech | الغد ديجتال",
@@ -332,6 +331,36 @@ def render_catalog(products: list, downloads: dict) -> None:
     target.write_text(page(title="برامج ProTech | الغد ديجتال — تحميل برامج Windows وAndroid",
         description="تصفح برامج ProTech على موقع الغد ديجتال: Download Anything PRO وProTech HR وKitchen CAD Pro وبرامج Windows وAndroid الأخرى.",
         canonical=DOMAIN+"/programs/", content=text, schema=schema), encoding="utf-8", newline="\n")
+
+
+def render_windows_office() -> None:
+    """Standalone external Windows/Office download source directory."""
+    url = DOMAIN + "/windows-office/"
+    title = "برامج الويندوز والاوفيس"
+    description = (
+        "روابط تحميل Windows وMicrosoft Office من Microsoft باللغة العربية، "
+        "وموقع Windowstan للأرشيف الخارجي مع إيضاح المصادر واشتراطات الترخيص."
+    )
+    content = (
+        '<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / '+title+'</div>'
+        '<span class="eyebrow">WINDOWS & OFFICE / VERIFIED SOURCE LABELS</span>'
+        '<h1>'+title+'</h1>'
+        '<p class="hero-desc">روابط تنزيل البرامج والأنظمة من مصادرها الأصلية، '
+        'مع التمييز بين Microsoft الرسمية والمواقع الخارجية المستقلة.</p>'
+        + render_software_sources("ar")
+    )
+    schema = {
+        "@context":"https://schema.org", "@type":"CollectionPage",
+        "name":title, "url":url, "inLanguage":"ar",
+        "about":["Microsoft Windows","Microsoft Office"],
+    }
+    output = ROOT / "windows-office" / "index.html"
+    output.parent.mkdir(parents=True,exist_ok=True)
+    output.write_text(page(
+        title=title+" | الغد ديجتال", description=description,
+        canonical=url, content=content, schema=schema),
+        encoding="utf-8",newline="\n"
+    )
 
 
 def translated_article_html(item: dict, url: str) -> str:
@@ -578,7 +607,7 @@ def update_home(products: list) -> None:
         <nav class="seo-directory-links" aria-label="صفحات برامج ProTech">
           {cards}
         </nav>
-        <div class="seo-directory-extras"><a href="protech/">تعرف على مطور Pro Tech</a><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="ai-news/">أخبار الذكاء الاصطناعي</a><a href="tech-companies/">أخبار الشركات</a><a href="cars/">أخبار السيارات</a><a href="free-windows-tools/">برامج Windows المجانية</a><a href="programs/#windows-office-downloads">مصادر تنزيل Windows وOffice</a></div>
+        <div class="seo-directory-extras"><a href="protech/">تعرف على مطور Pro Tech</a><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="ai-news/">أخبار الذكاء الاصطناعي</a><a href="tech-companies/">أخبار الشركات</a><a href="cars/">أخبار السيارات</a><a href="free-windows-tools/">برامج Windows المجانية</a><a href="windows-office/">برامج الويندوز والاوفيس</a></div>
       </div>
     </section>
 <!-- SEO DIRECTORY END -->"""
@@ -661,7 +690,7 @@ def update_home(products: list) -> None:
 
 def update_sitemap(products: list) -> None:
     urls=["/","/programs/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/"]+[
-        "/programs/"+p["id"]+"/" for p in products]
+        "/programs/"+p["id"]+"/" for p in products]+["/windows-office/"]
     ns="http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("",ns)
     top=ET.Element(f"{{{ns}}}urlset")
@@ -808,6 +837,7 @@ def main() -> None:
     write_program_guides(products, downloads)
     for product in products:render_product(product,downloads)
     render_catalog(products,downloads)
+    render_windows_office()
     render_brand(products,downloads)
     render_news(news)
     for topic in ("ai","companies","cars"):
