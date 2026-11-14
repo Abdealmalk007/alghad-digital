@@ -334,19 +334,19 @@ def render_catalog(products: list, downloads: dict) -> None:
 
 
 def render_windows_office() -> None:
-    """Standalone external Windows/Office download source directory."""
+    """Publish verified Microsoft CDN installation-image download buttons."""
     url = DOMAIN + "/windows-office/"
     title = "برامج الويندوز والاوفيس"
     description = (
-        "روابط تحميل Windows وMicrosoft Office من Microsoft باللغة العربية، "
-        "وموقع Windowstan للأرشيف الخارجي مع إيضاح المصادر واشتراطات الترخيص."
+        "تنزيل Windows 11 ISO وOffice 2024 وOffice 2021 IMG بالعربية والإنجليزية "
+        "مباشرة من خوادم Microsoft الرسمية، دون مواقع وسيطة أو روابط تحويل."
     )
     content = (
         '<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / '+title+'</div>'
-        '<span class="eyebrow">WINDOWS & OFFICE / VERIFIED SOURCE LABELS</span>'
+        '<span class="eyebrow">WINDOWS &amp; OFFICE / MICROSOFT DIRECT MEDIA</span>'
         '<h1>'+title+'</h1>'
-        '<p class="hero-desc">روابط تنزيل البرامج والأنظمة من مصادرها الأصلية، '
-        'مع التمييز بين Microsoft الرسمية والمواقع الخارجية المستقلة.</p>'
+        '<p class="hero-desc">تنزيل مباشر لملفات ISO وIMG الأصلية من Microsoft. '
+        'اختر الإصدار واللغة ثم اضغط تنزيل؛ لا روابط إلى مواقع أخرى ولا صفحات وسيطة.</p>'
         + render_software_sources("ar")
     )
     schema = {
@@ -356,12 +356,13 @@ def render_windows_office() -> None:
     }
     output = ROOT / "windows-office" / "index.html"
     output.parent.mkdir(parents=True,exist_ok=True)
-    output.write_text(page(
+    html = page(
         title=title+" | الغد ديجتال", description=description,
-        canonical=url, content=content, schema=schema),
-        encoding="utf-8",newline="\n"
+        canonical=url, content=content, schema=schema,
     )
-
+    html = html.replace("</head>",
+        '<link rel="stylesheet" href="/assets/microsoft-direct.css?v=1">\n</head>', 1)
+    output.write_text(html,encoding="utf-8",newline="\n")
 
 def translated_article_html(item: dict, url: str) -> str:
     """Use a translated headline when verified; retain original for transparency."""

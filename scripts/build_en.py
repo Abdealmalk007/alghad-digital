@@ -293,14 +293,19 @@ def render_catalog(products:list[dict],downloads:dict)->None:
 
 def render_windows_office()->None:
     title="Windows & Office Programs"
-    body=hero("WINDOWS & OFFICE / DOWNLOAD SOURCES",title,
-        "Official Microsoft Windows and Office links first, with clearly identified external archives for older releases.")
+    body=hero("WINDOWS & OFFICE / MICROSOFT DIRECT MEDIA",title,
+        "Download verified original Windows ISO and Office IMG files in Arabic or English, "
+        "directly from Microsoft CDNs with no third-party landing pages.")
     body+=render_software_sources("en")
     page("/windows-office/",title+" | Alghad Digital",
-        "Official Microsoft Windows and Office download pages and a separately labeled third-party software archive.",
+        "Direct official Microsoft ISO and IMG files for Windows 11 and Office in Arabic and English. No third-party redirects.",
         body,{"@context":"https://schema.org","@type":"CollectionPage",
               "name":title,"url":DOMAIN+"/en/windows-office/","inLanguage":"en"})
-
+    destination=ROOT/"en/windows-office/index.html"
+    html=destination.read_text(encoding="utf-8")
+    html=html.replace("</head>",
+        '<link rel="stylesheet" href="/assets/microsoft-direct.css?v=1">\n</head>', 1)
+    destination.write_text(html,encoding="utf-8",newline="\n")
 
 def render_product(product:dict,downloads:dict,facts:dict)->None:
     slug=product["id"]

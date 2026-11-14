@@ -56,6 +56,9 @@ jobs:
         run: python scripts/build_program_experience.py
       - name: Refresh sitewide search over pages, software and latest news
         run: python scripts/build_site_search.py
+      - name: Check original Microsoft media download links (non-blocking)
+        continue-on-error: true
+        run: python scripts/check_microsoft_media_health.py
       - name: Verify indexable pages and editorial integrity
         run: |
           python scripts/test_seo.py

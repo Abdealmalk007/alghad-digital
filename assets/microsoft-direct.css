@@ -1,0 +1,91 @@
+/* One-click original Microsoft CDN media, scoped to the Windows & Office page. */
+.external-software-sources .microsoft-direct-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 16px;
+  margin-block: 18px 23px;
+}
+.microsoft-direct-source {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid rgba(123, 207, 230, .32);
+  background: linear-gradient(155deg, rgba(16, 48, 69, .9), rgba(8, 31, 47, .97));
+  border-radius: 18px;
+  padding: clamp(16px, 2vw, 23px);
+  box-shadow: 0 12px 28px rgba(0, 12, 23, .12);
+}
+.microsoft-direct-source > h3 {
+  color: #f5fdff;
+  font-size: clamp(1.08rem, 1.7vw, 1.32rem);
+  line-height: 1.4;
+  margin: 0 0 8px;
+  overflow-wrap: anywhere;
+}
+.microsoft-direct-source > p {
+  margin: 0 0 10px;
+  color: #d4e5ee;
+  font-size: .9rem;
+  line-height: 1.8;
+}
+.microsoft-direct-source .source-provenance {
+  color: #9ef2d6;
+  font-weight: 750;
+  font-size: .77rem;
+}
+.microsoft-direct-actions {
+  margin-top: auto;
+  padding-top: 9px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.microsoft-direct-actions .microsoft-direct-file {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 50px;
+  padding: 11px 13px;
+  border: 1px solid #55e2b2;
+  border-radius: 12px;
+  background: #08674d;
+  color: #fff !important;
+  font-weight: 800;
+  font-size: .84rem;
+  text-align: center;
+  text-decoration: none !important;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  cursor: pointer;
+}
+.microsoft-direct-actions .microsoft-direct-file:hover,
+.microsoft-direct-actions .microsoft-direct-file:focus-visible {
+  background: #078d61;
+  border-color: #b2ffe4;
+  color: #fff !important;
+}
+.microsoft-direct-actions .microsoft-direct-file:focus-visible {
+  outline: 3px solid #b2ffe4;
+  outline-offset: 3px;
+}
+.external-software-sources > .external-software-notice {
+  line-height: 1.9;
+  font-size: .88rem;
+  border-inline-start: 3px solid #75dac3;
+  padding-inline-start: 14px;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 860px) {
+  .external-software-sources .microsoft-direct-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 460px) {
+  .microsoft-direct-source { padding: 16px; }
+  .microsoft-direct-actions { grid-template-columns: 1fr; }
+  .microsoft-direct-actions .microsoft-direct-file { width: 100%; }
+}
+@media print {
+  .microsoft-direct-actions { display: none !important; }
+}
