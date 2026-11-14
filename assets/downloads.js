@@ -74,14 +74,14 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
   },
   quotes: {
     repository: "ProTechQuotesContracts",
-    version: "2.0.0-beta.2",
+    version: "2.0.0-beta.3",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.2",
-    checksum: "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/download/v2.0.0-beta.2/SHA256SUMS.txt",
+    release: "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.3",
+    checksum: "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/download/v2.0.0-beta.3/SHA256SUMS.txt",
     files: [
-      {label:"تحميل مثبت Windows EXE — Beta غير موقّع", platform:"Windows 10/11 x64 • UNSIGNED Beta", recommended:true, bytes:58110165, url:"https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/download/v2.0.0-beta.2/Setup.exe"}
+      {label:"تحميل مثبت Windows EXE — Beta غير موقّع", platform:"Windows 10/11 x64 • UNSIGNED Beta", recommended:true, bytes:57879493, url:"https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/download/v2.0.0-beta.3/Setup.exe"}
     ],
-    note:"Beta v2.0.0-beta.2 غير موقّع رقميًا (NotSigned). قد يظهر Windows SmartScreen. تحقق من SHA256. لا تتوفر فواتير ضريبية رسمية معتمدة من ZATCA."
+    note:"RC3: اسم العميل ورقم الجوال السعودي والعنوان، إضافة وتعديل وبحث وحفظ لقطات المستندات. اختبارات QA ناجحة. Beta v2.0.0-beta.3 غير موقّع رقميًا (NotSigned). قد يظهر Windows SmartScreen. تحقق من SHA256. لم تُعتمد بعد مراجعة ترخيص Qt LGPL وباقي المكتبات بشكل مستقل؛ لم تُعتمد النسخة للإنتاج النهائي. لا تتوفر فواتير ضريبية رسمية معتمدة من ZATCA."
   },
   stone: {
     repository: "ProTechStoneManager",

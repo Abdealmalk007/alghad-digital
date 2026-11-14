@@ -47,8 +47,8 @@ CATALOG={
    ["Video and audio downloads","Playback controls","Playlists and favorites","Format and quality options","Media library organization"]),
  "care":("Portable Windows maintenance preview","v3.3.1 fixes responsive toolbar, RTL sidebar and Arabic labels. Includes a no-install Portable download and separate Setup launcher; neither is digitally signed. Setup installation and WinGet/AppX destructive actions remain unverified in a disposable VM.",
    ["System information","Maintenance tools","Performance diagnostics","Optional Windows app cleanup","Recovery guidance"]),
- "quotes":("Quotations and contracts","Create and manage business quotations and contract documentation.",
-   ["Quotation templates","Customer records","Project pricing","Document management","Export tools"]),
+ "quotes":("Quotations and contracts","Customer RC3 Beta.3 adds required customer name, normalized Saudi mobile number, required address, customer search and immutable issued-document snapshots. QA tests passed; unsigned installer and third-party LGPL review remain open.",
+   ["Quotation templates","Customer name, Saudi mobile and address","Customer search and dossier","Immutable issued documents","Export and preview tools"]),
 }
 TOOLS={
  "everything":"Instant file and folder search for Windows.",

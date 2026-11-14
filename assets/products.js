@@ -275,15 +275,16 @@ window.AL_GHAD_PRODUCTS = [
     "title": "ProTech Quotes & Contracts",
     "english": "QUOTES & CONTRACTS",
     "category": "إدارة الأعمال",
-    "description": "برنامج Windows لإدارة عروض الأسعار والعقود والعملاء والمشاريع والمخزون والدفعات والتقارير.",
-    "details": "إصدار Beta تجريبي يدعم قوالب عربية قابلة للتخصيص وعقودًا ومقاسات وتسعيرًا وتقارير PDF وDOCX وXLSX وCSV؛ لا يدعم الفواتير الضريبية المعتمدة من ZATCA حاليًا.",
+    "description": "برنامج Windows لإدارة عروض الأسعار والعقود مع إصدار Beta.3 الجديد لإدارة العميل باسمه ورقم جواله وعنوانه، والقوالب والمشاريع والتقارير.",
+    "details": "إصدار v2.0.0-beta.3 التجريبي (Customer RC3): يتضمن حقول اسم العميل الإلزامي، رقم الجوال مع تطبيع الرقم السعودي المحلي والدولي، والعنوان الأساسي الإلزامي. يدعم إضافة وتعديل العملاء والبحث والسجلات، ويحافظ على لقطات المستندات الصادرة دون تعديل تاريخها. في QA اجتاز 212/212 اختبار Python و14/14 اختبار EXE واختبارات التثبيت والترقية. نسخة غير موقّعة رقميًا (NotSigned) وقد يظهر تحذير SmartScreen، كما لم تُعتمد بعد مراجعة تراخيص Qt LGPL والاعتماديات بشكل مستقل. البرنامج تجريبي وغير معتمد كإصدار نهائي، ولا يقدم فواتير ضريبية معتمدة من ZATCA حاليًا. احتفظ بنسخة احتياطية قبل التجربة.",
     "platforms": [
       "Windows"
     ],
-    "version": "2.0.0-beta.2",
+    "version": "2.0.0-beta.3",
     "status": "public",
     "github": "https://github.com/Abdealmalk007/ProTechQuotesContracts",
     "features": [
+      "اسم العميل ورقم الجوال السعودي والعنوان مع الإضافة والتعديل والبحث (Beta.3)",
       "قوالب عروض أسعار وعقود عربية قابلة للتعديل",
       "إدارة العقود والمشاريع والمقاسات والعملاء",
       "إدارة التسعير والمخزون والدفعات",
@@ -301,6 +302,6 @@ window.AL_GHAD_PRODUCTS = [
     "preview": "assets/previews/quotes.svg",
     "previewAlt": "تصميم توضيحي لواجهة Quotes & Contracts",
     "displayStatus": "Beta · نسخة تجريبية",
-    "release": "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.2"
+    "release": "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.3"
   }
 ];

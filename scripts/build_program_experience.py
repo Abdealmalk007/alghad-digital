@@ -68,7 +68,7 @@ BENEFITS={
  ],
  "quotes":[
   ("قوالب قابلة لإعادة الاستخدام","تجهيز عروض الأسعار والعقود من قوالب يسهل الحفاظ على أسلوب موحد.","Reusable templates","Use editable quotation and contract templates for consistent documents."),
-  ("بيانات العملاء والمشاريع معًا","ربط العملاء بالعقود والمشاريع يدعم متابعة تفاصيل العمل.","Client and project context","Connect customers with contracts and projects for clearer follow-up."),
+  ("بيانات عميل مكتملة","إدارة اسم العميل ورقم جواله السعودي وعنوانه والبحث في ملفاته تقلل تشتت المعلومات.","Complete customer records","Manage customer names, normalized Saudi mobile numbers and addresses with searchable records."),
   ("متابعة التسعير والدفعات","إدارة البنود والتكلفة والدفعات تجعل العرض أو العقد أوضح.","Pricing and payments","Track quotation items, costs and payment records in one workflow."),
   ("معاينة وتقارير جاهزة","الطباعة والتصدير إلى صيغ متعددة تسهّل إرسال المستندات الرسمية.","Ready-to-share documents","Preview, print and export business documents in supported formats.")
  ]

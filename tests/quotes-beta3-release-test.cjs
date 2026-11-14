@@ -1,0 +1,66 @@
+"use strict";
+/* v2.0.0-beta.3 release provenance and bilingual site regression */
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const path=require("node:path");
+const vm=require("node:vm");
+const root=path.resolve(__dirname,"..");
+const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
+const ctx={window:{}};
+vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
+vm.runInNewContext(read("assets/downloads.js"),ctx,{timeout:1000});
+const products=ctx.window.AL_GHAD_PRODUCTS,downloads=ctx.window.AL_GHAD_DOWNLOADS;
+const item=products.find(x=>x.id==="quotes"),entry=downloads.quotes;
+assert.equal(products.length,9,"Preserve SmartExcel and all other existing programs");
+assert.ok(products.some(x=>x.id==="smart-excel"),"Newer SmartExcel program must not disappear");
+assert.ok(products.some(x=>x.id==="kitchen"),"Kitchen CAD remains listed");
+assert.equal(item.version,"2.0.0-beta.3");
+assert.equal(item.status,"public");
+assert.equal(entry.repository,"ProTechQuotesContracts");
+assert.equal(entry.version,"2.0.0-beta.3");
+assert.equal(entry.channel,"preview");
+const base="https://github.com/Abdealmalk007/ProTechQuotesContracts";
+const release=base+"/releases/tag/v2.0.0-beta.3";
+const binary=base+"/releases/download/v2.0.0-beta.3/Setup.exe";
+assert.equal(item.release,release);
+assert.equal(entry.release,release);
+assert.equal(entry.checksum,base+"/releases/download/v2.0.0-beta.3/SHA256SUMS.txt");
+assert.equal(entry.files.length,1);
+assert.equal(entry.files[0].url,binary);
+assert.equal(entry.files[0].bytes,57879493);
+assert.equal(entry.files[0].recommended,true);
+assert.ok(item.description.includes("Beta.3")&&item.details.includes("رقم الجوال"));
+for(const word of ["اسم العميل","رقم الجوال","العنوان"])assert.ok(item.details.includes(word),word);
+assert.match(entry.note,/NotSigned|غير موقّع/);
+assert.ok(entry.note.includes("LGPL"),"Declare dependency review risk");
+const facts=JSON.parse(read("assets/release-facts.json"));
+assert.equal(facts.version,1);
+const quoteFacts=facts.releases.quotes;
+assert.equal(quoteFacts.version,"2.0.0-beta.3");
+assert.equal(quoteFacts.repository,"ProTechQuotesContracts");
+assert.equal(quoteFacts.prerelease,true);
+assert.equal(quoteFacts.assets.length,1);
+assert.equal(quoteFacts.assets[0].url,binary);
+assert.equal(quoteFacts.assets[0].bytes,57879493);
+assert.equal(quoteFacts.assets[0].sha256,"e8a36b4823a656fea16c5dff9fe57b24eed6575ed48f153c0b5a658de4b8e722");
+for(const route of ["index.html","programs/index.html","programs/quotes/index.html","protech/index.html","en/index.html","en/programs/index.html","en/programs/quotes/index.html","en/protech/index.html"]){
+ const html=read(route);
+ assert.ok(html.includes(binary),"Missing current beta.3 download "+route);
+ assert.ok(!html.includes("/v2.0.0-beta.2/"),"Old beta.2 link present "+route);
+}
+const ar=read("programs/quotes/index.html"),en=read("en/programs/quotes/index.html");
+for(const x of [ar,en]){
+ assert.ok(x.includes(quoteFacts.assets[0].sha256),"Missing SHA256 verification");
+ assert.ok(x.includes("Beta")||x.includes("beta"),"Missing Beta label");
+ assert.ok(x.includes("LGPL")||x.includes("Qt")||x.includes("مراجعة"),"Missing compliance note");
+}
+assert.ok(ar.includes("اسم العميل")&&ar.includes("العنوان"));
+assert.ok(en.toLowerCase().includes("saudi mobile"));
+const docs=read("docs/programs/quotes/README.md");
+assert.ok(docs.includes("2.0.0-beta.3"));
+const workflow=read(".github/workflows/update-tech-news.yml");
+assert.ok(workflow.includes("node tests/quotes-beta3-release-test.cjs"));
+assert.ok(workflow.includes("python scripts/build_en.py"));
+assert.ok(workflow.includes("python scripts/build_program_experience.py"));
+assert.ok(read("windows-office/index.html").includes("Windows"),"Preserve newest Windows/Office section");
+console.log("QUOTES_BETA3_PUBLIC_RELEASE_TEST_PASS",JSON.stringify({version:quoteFacts.version,bytes:entry.files[0].bytes,sha256:quoteFacts.assets[0].sha256,products:products.length,routeCount:8}));

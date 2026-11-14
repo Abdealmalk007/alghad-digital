@@ -33,11 +33,11 @@ for(const page of ["index.html","en/index.html","programs/index.html","en/progra
 }
 assert.ok(!read("assets/products.js").includes('"id": "tv"'),"TV launcher catalog entry reappeared");
 const quote=products.find(p=>p.id==="quotes");
-assert.ok(quote && quote.status==="public" && quote.version==="2.0.0-beta.2");
+assert.ok(quote && quote.status==="public" && quote.version==="2.0.0-beta.3");
 assert.equal(quote.github,"https://github.com/Abdealmalk007/ProTechQuotesContracts");
 for(const n of ["index.html","en/index.html","programs/quotes/index.html","en/programs/quotes/index.html"]){
   const page=read(n);
-  assert.ok(page.includes("ProTechQuotesContracts/releases/download/v2.0.0-beta.2/Setup.exe"),"Quote binary missing "+n);
+  assert.ok(page.includes("ProTechQuotesContracts/releases/download/v2.0.0-beta.3/Setup.exe"),"Quote binary missing "+n);
 }
 assert.ok(read("programs/quotes/index.html").includes("All Rights Reserved"));
 assert.ok(read("en/programs/quotes/index.html").includes("UNSIGNED"));
