@@ -13,6 +13,7 @@ import importlib.util
 import json
 import re
 import urllib.parse
+from software_sources import render as render_software_sources
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -287,6 +288,7 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
 def render_catalog(products:list[dict],downloads:dict)->None:
     body=hero("OUR SOFTWARE / PROTECH","Software library","Explore all nine ProTech applications. Published preview downloads are distinguished from projects still under development.")
     body+='<div class="en-grid">' + ''.join(brand_card(p,downloads) for p in products)+'</div>'
+    body+=render_software_sources("en")
     page("/programs/","ProTech Software Library | Alghad Digital","Explore nine ProTech Windows and Android products, download availability and development status.",body,{"@context":"https://schema.org","@type":"CollectionPage","name":"ProTech Software Library","url":DOMAIN+"/en/programs/"})
 
 def render_product(product:dict,downloads:dict,facts:dict)->None:

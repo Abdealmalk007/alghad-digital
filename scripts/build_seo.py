@@ -11,6 +11,7 @@ import re
 import subprocess
 from pathlib import Path
 from html import unescape
+from software_sources import render as render_software_sources
 from urllib.parse import quote
 from xml.etree import ElementTree as ET
 
@@ -319,6 +320,7 @@ def render_catalog(products: list, downloads: dict) -> None:
       <span class="eyebrow">ALGHAD DIGITAL / PROTECH SOFTWARE</span>
       <h1>برامج ProTech على الغد ديجتال</h1>
       <p class="hero-desc">تصفح أسماء البرامج ووصفها ومميزاتها وروابط التنزيل الرسمية عند توفرها. تظهر البرامج قيد التطوير بحالة «قريبًا جدًا» دون تحميل غير موثق.</p>
+      {render_software_sources("ar")}
       <div class="directory-grid">{''.join(items)}</div>"""
     schema = {"@context": "https://schema.org", "@type": "CollectionPage",
         "name": "برامج ProTech | الغد ديجتال",
@@ -576,7 +578,7 @@ def update_home(products: list) -> None:
         <nav class="seo-directory-links" aria-label="صفحات برامج ProTech">
           {cards}
         </nav>
-        <div class="seo-directory-extras"><a href="protech/">تعرف على مطور Pro Tech</a><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="ai-news/">أخبار الذكاء الاصطناعي</a><a href="tech-companies/">أخبار الشركات</a><a href="cars/">أخبار السيارات</a><a href="free-windows-tools/">برامج Windows المجانية</a></div>
+        <div class="seo-directory-extras"><a href="protech/">تعرف على مطور Pro Tech</a><a href="programs/">جميع البرامج</a><a href="news/">أخبار التقنية</a><a href="ai-news/">أخبار الذكاء الاصطناعي</a><a href="tech-companies/">أخبار الشركات</a><a href="cars/">أخبار السيارات</a><a href="free-windows-tools/">برامج Windows المجانية</a><a href="programs/#windows-office-downloads">مصادر تنزيل Windows وOffice</a></div>
       </div>
     </section>
 <!-- SEO DIRECTORY END -->"""

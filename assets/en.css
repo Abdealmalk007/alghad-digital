@@ -127,3 +127,15 @@ p{margin:0 0 17px}
 
 /* JS filter semantics: explicit hidden attribute always wins over card display. */
 .en-product-card[hidden],.en-no-results[hidden]{display:none!important}
+
+/* Curated external OS and Office links: external providers, never hosted binaries. */
+.external-software-sources {margin-block:32px 18px}
+.external-software-sources h2 {margin-bottom:12px}
+.external-sources-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:16px;margin-block:18px}
+.external-software-source {min-width:0;border:1px solid rgba(127,184,194,.35);border-radius:14px;padding:19px;background:rgba(33,83,96,.14);display:flex;flex-direction:column;gap:8px}
+.external-software-source a {margin-top:auto}
+.external-software-source h3 {font-size:1.05rem;overflow-wrap:anywhere}
+.external-software-source p {line-height:1.7;overflow-wrap:anywhere}
+.external-software-source .source-provenance {font-weight:650;font-size:.84rem;opacity:.84}
+.external-software-notice {border-inline-start:3px solid currentColor;padding-inline-start:14px;margin-block:20px}
+.external-software-source a {display:inline-flex;align-items:center;justify-content:center}

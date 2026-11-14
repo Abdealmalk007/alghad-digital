@@ -50,6 +50,8 @@
 .home-news-category-links a{border:1px solid var(--line);padding:8px 14px;border-radius:40px;text-decoration:none;font-weight:750;color:var(--teal);background:var(--panel);font-size:11px}
 .home-news-category-links a:hover{border-color:var(--teal)}
 .contact-whatsapp{display:inline-flex;align-items:center}
+.windows-office-catalog-shortcut {margin:10px 0 20px;max-width:100%;}
+.windows-office-catalog-shortcut .button {display:inline-flex;max-width:100%;box-sizing:border-box;white-space:normal;text-align:center;justify-content:center;overflow-wrap:anywhere;line-height:1.65;}
 #featured .spotlight-art img,#home .hero-art img{object-fit:cover}
 #featured:before{pointer-events:none}
 #products .catalog-note{font-size:11px;line-height:1.8}

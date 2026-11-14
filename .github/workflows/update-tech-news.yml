@@ -73,6 +73,7 @@ jobs:
           node tests/site-search-test.cjs
           node tests/topic-tags-test.cjs
           node tests/program-experience-test.cjs
+          node tests/windows-office-sources-test.cjs
           node tests/news-refresh-reliability-test.cjs
       - name: Validate generated news data
         run: |
