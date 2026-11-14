@@ -21,7 +21,7 @@
 
 ## التثبيت والتشغيل
 
-- [تحميل مثبت Windows EXE — نسخة موحّدة](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.3/SmartExcelAnalyzer_30.7.3_BrandFixed_Setup.exe)
+- [تحميل مثبت Windows EXE — نسخة موحّدة](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.3/SmartExcelAnalyzer_30.7.3_Setup.exe)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 
