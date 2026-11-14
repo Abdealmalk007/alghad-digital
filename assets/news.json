@@ -1,35 +1,255 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T18:29:10Z",
+  "generated_at": "2026-11-14T08:22:15Z",
   "articles": [
     {
-      "title": "دراسة: روبوتات الدردشة بالذكاء الاصطناعي تحيل المتسوقين لمواقع مزيفة",
-      "url": "https://3arrafni.com/tech-news/ai-chatbots-fake-shopping-sites-study",
+      "title": "احتيال FaceStealer يسرق 400 مليون دولار عبر مكالمات Zoom مزيفة",
+      "url": "https://3arrafni.com/tech-news/facestealer-fake-zoom-calls-crypto-scam",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T17:57:19Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "دراسة: روبوتات الدردشة بالذكاء الاصطناعي تحيل المتسوقين لمواقع مزيفة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تطبيق ElevenAI من ElevenLabs للإملاء وتدوين ملاحظات الاجتماعات",
-      "url": "https://3arrafni.com/tech-news/elevenai-dictation-meeting-notes-app",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T17:02:19Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "تطبيق ElevenAI من ElevenLabs للإملاء وتدوين ملاحظات الاجتماعات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "عملية Endgame تضبط 6.4 ملايين بيانات دخول مسروقة وتتيح فحصها",
-      "url": "https://3arrafni.com/tech-news/operation-endgame-6-4-million-stolen-logins",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T16:07:19Z",
+      "published_at": "2026-11-14T08:09:55Z",
       "category": "أخبار التقنية",
-      "title_ar": "عملية Endgame تضبط 6.4 ملايين بيانات دخول مسروقة وتتيح فحصها",
+      "title_ar": "احتيال FaceStealer يسرق 400 مليون دولار عبر مكالمات Zoom مزيفة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مايكروسوفت واجهت صعوبة في استعادة خدمات Outlook وTeams و365 بعد انقطاع استمر لأكثر من 12 ساعة",
+      "url": "https://www.unlimit-tech.com/2026/11/%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-%d9%88%d8%a7%d8%ac%d9%87%d8%aa-%d8%b5%d8%b9%d9%88%d8%a8%d8%a9-%d9%81%d9%8a-%d8%a7%d8%b3%d8%aa%d8%b9%d8%a7%d8%af%d8%a9-%d8%ae%d8%af%d9%85/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-14T08:00:04Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "مايكروسوفت واجهت صعوبة في استعادة خدمات Outlook وTeams و365 بعد انقطاع استمر لأكثر من 12 ساعة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الاختبار الحقيقي لاستمرارية الأعمال",
+      "url": "https://aitnews.com/2026/11/14/%d8%a7%d9%84%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1-%d8%a7%d9%84%d8%ad%d9%82%d9%8a%d9%82%d9%8a-%d9%84%d8%a7%d8%b3%d8%aa%d9%85%d8%b1%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-14T07:23:21Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الاختبار الحقيقي لاستمرارية الأعمال",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "لينوفو تكشف عن إصدار Where Winds Meet لجهاز Legion Y700 Gen 5",
+      "url": "https://www.tech-wd.com/wd/2026/11/14/%d9%84%d9%8a%d9%86%d9%88%d9%81%d9%88-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-where-winds-meet-%d9%84%d8%ac%d9%87%d8%a7%d8%b2-legion-y700-gen-5/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-14T06:58:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لينوفو تكشف عن إصدار Where Winds Meet لجهاز Legion Y700 Gen 5",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "شكاوى من فقدان أكواد تحميل GTA 6 في النسخ الفيزيائية وروكستار ترفض المساعدة",
+      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%85%d9%86-%d9%81%d9%82%d8%af%d8%a7%d9%86-%d8%a3%d9%83%d9%88%d8%a7%d8%af-%d8%aa%d8%ad%d9%85%d9%8a%d9%84-gta-6-%d9%81%d9%8a-%d8%a7%d9%84%d9%86%d8%b3%d8%ae-%d8%a7%d9%84/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-14T06:48:25Z",
+      "category": "أخبار التقنية",
+      "title_ar": "شكاوى من فقدان أكواد تحميل GTA 6 في النسخ الفيزيائية وروكستار ترفض المساعدة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب يحدد الألوان الخمسة المرتقبة لسلسلة Galaxy S27 من سامسونج",
+      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%8a%d8%ad%d8%af%d8%af-%d8%a7%d9%84%d8%a3%d9%84%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d8%ae%d9%85%d8%b3%d8%a9-%d8%a7%d9%84%d9%85%d8%b1%d8%aa%d9%82%d8%a8%d8%a9-%d9%84%d8%b3/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-14T06:42:55Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تسريب يحدد الألوان الخمسة المرتقبة لسلسلة Galaxy S27 من سامسونج",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سامسونج توسع اختبار One UI 9.5 تمهيدًا لإطلاق جالكسي S27",
+      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d9%88%d8%b3%d8%b9-%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1-one-ui-9-5-%d8%aa%d9%85%d9%87%d9%8a%d8%af%d9%8b%d8%a7-%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-14T06:38:36Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "سامسونج توسع اختبار One UI 9.5 تمهيدًا لإطلاق جالكسي S27",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب: Xiaomi 18 النسخة القياسية بذاكرة 16 جيجابايت وسعة تخزين 1 تيرابايت",
+      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-xiaomi-18-%d8%a7%d9%84%d9%86%d8%b3%d8%ae%d8%a9-%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a8%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-16-%d8%ac%d9%8a%d8%ac%d8%a7%d8%a8/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-14T06:00:50Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تسريب: Xiaomi 18 النسخة القياسية بذاكرة 16 جيجابايت وسعة تخزين 1 تيرابايت",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إنفيديا بلا هوانغ.. هل يتعثر تمويل طفرة الذكاء الاصطناعي؟",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/14/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%a8%d9%84%d8%a7-%d9%87%d9%88%d8%a7%d9%86%d8%ba-%d9%87%d9%84-%d9%8a%d8%aa%d8%b9%d8%ab%d8%b1-%d8%aa%d9%85%d9%88%d9%8a%d9%84-%d8%b7%d9%81%d8%b1%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-14T03:31:10Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "إنفيديا بلا هوانغ.. هل يتعثر تمويل طفرة الذكاء الاصطناعي؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ذكاء اصطناعي بلا اشتراك ولا إنترنت.. أصغر 4 نماذج لحاسوبك",
+      "url": "https://www.aljazeera.net/tech/2026/11/14/%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d9%84%d8%a7-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%d9%83-%d9%88%d9%84%d8%a7-%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-14T02:00:00Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "ذكاء اصطناعي بلا اشتراك ولا إنترنت.. أصغر 4 نماذج لحاسوبك",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
+      "url": "https://arabhardware.net/post-55159",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-14T01:51:05Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "جوجل تتيح لـ Gemini تحليل الإنفاق عبر Google Wallet",
+      "url": "https://aitnews.com/2026/11/14/gemini-google-wallet-financial-insights/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-14T01:12:29Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "جوجل تتيح لـ Gemini تحليل الإنفاق عبر Google Wallet",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ما الذي عطّل مايكروسوفت 365؟ تشريح خلل الشبكة وفشل الخوادم",
+      "url": "https://aitnews.com/2026/11/14/microsoft-365-outage-november-2026-technical-root-cause/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-13T23:13:50Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "ما الذي عطّل مايكروسوفت 365؟ تشريح خلل الشبكة وفشل الخوادم",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مستشفيات وبورصات وحكومات.. أبرز الجهات المتضررة من عطل مايكروسوفت العالمي",
+      "url": "https://aitnews.com/2026/11/14/microsoft-365-outage-affected-organizations-november-2026/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-13T22:56:34Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "مستشفيات وبورصات وحكومات.. أبرز الجهات المتضررة من عطل مايكروسوفت العالمي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بعد أيام من استخدام نظام جديد.. هل أربك ترمب والذكاء الاصطناعي سماء أمريكا؟",
+      "url": "https://www.aljazeera.net/news/2026/11/14/%d8%a8%d8%b9%d8%af-3-%d8%a3%d9%8a%d8%a7%d9%85-%d9%85%d9%86-%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%86%d8%b8%d8%a7%d9%85-%d8%ac%d8%af%d9%8a%d8%af-%d9%87%d9%84-%d8%a3%d8%b1%d8%a8%d9%83?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-13T22:43:47Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "بعد أيام من استخدام نظام جديد.. هل أربك ترمب والذكاء الاصطناعي سماء أمريكا؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بدء طلب جرس الباب وكاميرات Apple Home بأسعار تصل إلى 299.95 دولاراً",
+      "url": "https://3arrafni.com/tech-news/apple-home-doorbell-cameras-prices-shipping",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-13T22:32:19Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بدء طلب جرس الباب وكاميرات Apple Home بأسعار تصل إلى 299.95 دولاراً",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "خلل في اتصالات المراقبة الجوية يوقف إقلاع الرحلات في الولايات المتحدة",
+      "url": "https://aitnews.com/2026/11/14/%d8%b9%d8%b7%d9%84-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%ac%d9%88%d9%8a%d8%a9/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-13T22:24:53Z",
+      "category": "أخبار التقنية",
+      "title_ar": "خلل في اتصالات المراقبة الجوية يوقف إقلاع الرحلات في الولايات المتحدة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "من خشية هجوم سوفياتي إلى أعطال تقنية.. متى أغلقت أمريكا سماءها؟",
+      "url": "https://www.aljazeera.net/news/2026/11/14/%d9%85%d9%86-%d8%a7%d9%84%d8%ae%d9%88%d9%81-%d9%85%d9%86-%d9%87%d8%ac%d9%88%d9%85-%d8%b3%d9%88%d9%81%d9%8a%d8%aa%d9%8a-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%a3%d8%b9%d8%b7%d8%a7%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-13T21:46:26Z",
+      "category": "أخبار التقنية",
+      "title_ar": "من خشية هجوم سوفياتي إلى أعطال تقنية.. متى أغلقت أمريكا سماءها؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث Windows لشهر نوفمبر يسبب أخطاء في الطباعة والتفعيل",
+      "url": "https://3arrafni.com/tech-news/windows-november-update-printing-activation-errors",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-13T21:37:19Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "تحديث Windows لشهر نوفمبر يسبب أخطاء في الطباعة والتفعيل",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مايكروسوفت تعتذر عن العطل في خدماتها وتنفي ارتباطه بهجوم سيبراني",
+      "url": "https://www.bbc.com/arabic/articles/ck1l04y736q9o?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-13T21:34:25Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "مايكروسوفت تعتذر عن العطل في خدماتها وتنفي ارتباطه بهجوم سيبراني",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث One UI 9 Watch المستقر يصل إلى Galaxy Watch 8 و8 Classic",
+      "url": "https://3arrafni.com/tech-news/one-ui-9-watch-stable-update-galaxy-watch-8",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-13T20:42:19Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث One UI 9 Watch المستقر يصل إلى Galaxy Watch 8 و8 Classic",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
+      "url": "https://technologyarabia.com/archives/18039/microsoft-global-outage-november-2026/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-13T20:25:12Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أفضل أجهزة القارئ الإلكتروني لعام 2026: دليلك لاختيار الأنسب لاحتياجك",
+      "url": "https://arabhardware.net/post-55143",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-13T20:04:52Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "أفضل أجهزة القارئ الإلكتروني لعام 2026: دليلك لاختيار الأنسب لاحتياجك",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق بيانات Uber يكشف معلومات آلاف السائقين عبر Fireworks AI",
+      "url": "https://3arrafni.com/tech-news/uber-data-breach-fireworks-ai",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-13T19:47:19Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق بيانات Uber يكشف معلومات آلاف السائقين عبر Fireworks AI",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بين الإصلاحات القضائية وتطبيق الحدود: ماذا تكشف قضية جلد عاملة كينية في السعودية؟",
+      "url": "https://www.bbc.com/arabic/articles/cq0k6j2v74xro?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-13T18:57:22Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "بين الإصلاحات القضائية وتطبيق الحدود: ماذا تكشف قضية جلد عاملة كينية في السعودية؟",
       "translation_status": "original_ar"
     },
     {
@@ -53,16 +273,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "عطل عالمي في Microsoft 365 يعطل Outlook وTeams وخدمات أخرى",
-      "url": "https://3arrafni.com/tech-news/microsoft-365-outage-outlook-teams",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T12:25:52Z",
-      "category": "أخبار التقنية",
-      "title_ar": "عطل عالمي في Microsoft 365 يعطل Outlook وTeams وخدمات أخرى",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "حين تخذلنا التكنولوجيا.. هل تصبح الحياة في خطر؟",
       "url": "https://www.bbc.com/arabic/articles/cr5ynyq2e71do?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
@@ -73,16 +283,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ثغرة SignDrop غير المُرقّعة تمنح المهاجمين تحكماً كاملاً في Windows",
-      "url": "https://3arrafni.com/tech-news/windows-signdrop-zero-day",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T11:30:52Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ثغرة SignDrop غير المُرقّعة تمنح المهاجمين تحكماً كاملاً في Windows",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "هاتف OPPO A7 Pro 5G يصل أوروبا ببطارية 7,400mAh وشحن 80 واط",
       "url": "https://arabhardware.net/post-55155",
       "source": "hardware",
@@ -90,26 +290,6 @@
       "published_at": "2026-11-13T10:41:50Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "هاتف OPPO A7 Pro 5G يصل أوروبا ببطارية 7,400mAh وشحن 80 واط",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "جوجل تطلق Gemini Decisions API لتقييم 1000 سؤال في طلب واحد",
-      "url": "https://arabhardware.net/post-55154",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-13T09:57:54Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "جوجل تطلق Gemini Decisions API لتقييم 1000 سؤال في طلب واحد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "OpenAI تطلق Business Hub لإدارة ظهور الشركات داخل ChatGPT",
-      "url": "https://arabhardware.net/post-55153",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-13T09:26:50Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تطلق Business Hub لإدارة ظهور الشركات داخل ChatGPT",
       "translation_status": "original_ar"
     },
     {
@@ -130,56 +310,6 @@
       "published_at": "2026-11-13T06:36:51Z",
       "category": "أخبار التقنية",
       "title_ar": "قادة الاتحاد الأوروبي يسعون لمواجهة التحديات في أول قمة للذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إيلون ماسك يصف توظيف جينسن هوانغ بـ”الشرف” وسط استقالة رئيس إنفيديا بعد فضيحة تجسس",
-      "url": "https://www.tech-wd.com/wd/2026/11/13/%d8%a5%d9%8a%d9%84%d9%88%d9%86-%d9%85%d8%a7%d8%b3%d9%83-%d9%8a%d8%b5%d9%81-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ac%d9%8a%d9%86%d8%b3%d9%86-%d9%87%d9%88%d8%a7%d9%86%d8%ba-%d8%a8%d9%80%d8%a7%d9%84%d8%b4/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-13T06:34:58Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إيلون ماسك يصف توظيف جينسن هوانغ بـ”الشرف” وسط استقالة رئيس إنفيديا بعد فضيحة تجسس",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تقرير: أمريكا قد تنتج 400 ألف روبوت بشري سنوياً بحلول 2030",
-      "url": "https://www.tech-wd.com/wd/2026/11/13/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d9%82%d8%af-%d8%aa%d9%86%d8%aa%d8%ac-400-%d8%a3%d9%84%d9%81-%d8%b1%d9%88%d8%a8%d9%88%d8%aa-%d8%a8%d8%b4%d8%b1%d9%8a-%d8%b3%d9%86/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-13T06:29:44Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تقرير: أمريكا قد تنتج 400 ألف روبوت بشري سنوياً بحلول 2030",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مستخدمو Fitbit Air يواجهون مشاكل تزامن مع Google Health على أجهزة آيفون",
-      "url": "https://www.tech-wd.com/wd/2026/11/13/%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85%d9%88-fitbit-air-%d9%8a%d9%88%d8%a7%d8%ac%d9%87%d9%88%d9%86-%d9%85%d8%b4%d8%a7%d9%83%d9%84-%d8%aa%d8%b2%d8%a7%d9%85%d9%86-%d9%85%d8%b9-google-health-%d8%b9%d9%84/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-13T06:05:37Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "مستخدمو Fitbit Air يواجهون مشاكل تزامن مع Google Health على أجهزة آيفون",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هواوي تطلق إصدار Mate XT 2 بسعة 512 جيجابايت مع شاشة الخصوصية",
-      "url": "https://www.tech-wd.com/wd/2026/11/13/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%b7%d9%84%d9%82-%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-mate-xt-2-%d8%a8%d8%b3%d8%b9%d8%a9-512-%d8%ac%d9%8a%d8%ac%d8%a7%d8%a8%d8%a7%d9%8a%d8%aa-%d9%85%d8%b9-%d8%b4%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-13T06:00:37Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هواوي تطلق إصدار Mate XT 2 بسعة 512 جيجابايت مع شاشة الخصوصية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب صورة لهاتف Huawei Mate X8 تكشف عودة وحدة الكاميرا الدائرية",
-      "url": "https://www.tech-wd.com/wd/2026/11/13/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d8%b5%d9%88%d8%b1%d8%a9-%d9%84%d9%87%d8%a7%d8%aa%d9%81-huawei-mate-x8-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%88%d8%af%d8%a9-%d9%88%d8%ad%d8%af%d8%a9-%d8%a7%d9%84%d9%83/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-13T05:55:48Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريب صورة لهاتف Huawei Mate X8 تكشف عودة وحدة الكاميرا الدائرية",
       "translation_status": "original_ar"
     },
     {
@@ -213,16 +343,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "عطل مايكروسوفت يمتد إلى خدمات عالمية ويعطّل تكاملات الذكاء الاصطناعي",
-      "url": "https://aitnews.com/2026/11/13/%d8%b9%d8%b7%d9%84-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-365/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-13T04:21:50Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "عطل مايكروسوفت يمتد إلى خدمات عالمية ويعطّل تكاملات الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "تسريبات تكشف عن التفاصيل الرئيسية لهاتف فيفو الرائد الجديد",
       "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%a7%d9%84%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d9%87%d8%a7/",
       "source": "unlimit",
@@ -233,16 +353,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "جنسن هوانغ يستقيل من قيادة إنفيديا وكوليت كريس تتولى المنصب مؤقتًا",
-      "url": "https://aitnews.com/2026/11/13/%d8%a7%d8%b3%d8%aa%d9%82%d8%a7%d9%84%d8%a9-%d8%ac%d9%86%d8%b3%d9%86-%d9%87%d9%88%d8%a7%d9%86%d8%ba-%d9%85%d9%86-%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-12T20:09:37Z",
-      "category": "أخبار التقنية",
-      "title_ar": "جنسن هوانغ يستقيل من قيادة إنفيديا وكوليت كريس تتولى المنصب مؤقتًا",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "هاتف Oppo Reno 17 Pro ينطلق قريبا بكاميرا رئيسية بدقة 200MP وثلاث كاميرات بدقة 50MP",
       "url": "https://www.unlimit-tech.com/2026/11/%d9%87%d8%a7%d8%aa%d9%81-oppo-reno-17-pro-%d9%8a%d9%86%d8%b7%d9%84%d9%82-%d9%82%d8%b1%d9%8a%d8%a8%d8%a7-%d8%a8%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d8%a8%d8%af/",
       "source": "unlimit",
@@ -250,116 +360,6 @@
       "published_at": "2026-11-12T20:00:35Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "هاتف Oppo Reno 17 Pro ينطلق قريبا بكاميرا رئيسية بدقة 200MP وثلاث كاميرات بدقة 50MP",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ساعة Oppo Watch 5 تنطلق قريبا بوضع FatMax وعمر بطارية يصل إلى 10 أيام",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b3%d8%a7%d8%b9%d8%a9-oppo-watch-5-%d8%aa%d9%86%d8%b7%d9%84%d9%82-%d9%82%d8%b1%d9%8a%d8%a8%d8%a7-%d8%a8%d9%88%d8%b6%d8%b9-fatmax-%d9%88%d8%b9%d9%85%d8%b1-%d8%a8%d8%b7%d8%a7%d8%b1%d9%8a%d8%a9-%d9%8a/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-12T19:00:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ساعة Oppo Watch 5 تنطلق قريبا بوضع FatMax وعمر بطارية يصل إلى 10 أيام",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Satechi تكشف عن موزع منافذ متعدد يضم سبعة منافذ ويدعم تقنية USB4",
-      "url": "https://www.unlimit-tech.com/2026/11/satechi-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d9%85%d9%88%d8%b2%d8%b9-%d9%85%d9%86%d8%a7%d9%81%d8%b0-%d9%85%d8%aa%d8%b9%d8%af%d8%af-%d9%8a%d8%b6%d9%85-%d8%b3%d8%a8%d8%b9%d8%a9-%d9%85%d9%86%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-12T18:00:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Satechi تكشف عن موزع منافذ متعدد يضم سبعة منافذ ويدعم تقنية USB4",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
-      "url": "https://technologyarabia.com/archives/18025/%d9%8a%d9%88%d8%ac%d8%b1%d9%8a%d9%86-%d8%aa%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%aa%d8%ad%d9%88%d9%84-%d9%86%d8%ad%d9%88-%d8%a8%d9%8a%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-12T17:34:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "نوبيا تطلق إصدار خاص وجديد من هاتف NaviX Ultra بتصميم مستوحى من لوحة Starry Night",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%86%d9%88%d8%a8%d9%8a%d8%a7-%d8%aa%d8%b7%d9%84%d9%82-%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-%d8%ae%d8%a7%d8%b5-%d9%88%d8%ac%d8%af%d9%8a%d8%af-%d9%85%d9%86-%d9%87%d8%a7%d8%aa%d9%81-navix-ultra-%d8%a8%d8%aa/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-12T17:30:56Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "نوبيا تطلق إصدار خاص وجديد من هاتف NaviX Ultra بتصميم مستوحى من لوحة Starry Night",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
-      "url": "https://technologyarabia.com/archives/17930/google-deepmind-ai-formal-verification-signal-security/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-12T06:31:02Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "من الآبار إلى الأسواق.. كيف تعيد شراكة أدنوك وOpenAI رسم استخدام الذكاء الاصطناعي في قطاع الطاقة؟",
-      "url": "https://technologyarabia.com/archives/17929/adnoc-openai-ai-energy-operations-uae/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-12T06:24:26Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "من الآبار إلى الأسواق.. كيف تعيد شراكة أدنوك وOpenAI رسم استخدام الذكاء الاصطناعي في قطاع الطاقة؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الهدية المثالية لك ولمن تحب، مع أكثر من 100 مؤشر صحي لمتابعة أدق لصحتك",
-      "url": "https://technologyarabia.com/archives/17923/%d8%a7%d9%84%d9%87%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%ab%d8%a7%d9%84%d9%8a%d8%a9-%d9%84%d9%83-%d9%88%d9%84%d9%85%d9%86-%d8%aa%d8%ad%d8%a8%d8%8c-%d9%85%d8%b9-%d8%a3%d9%83%d8%ab%d8%b1-%d9%85%d9%86/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-11T11:40:22Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الهدية المثالية لك ولمن تحب، مع أكثر من 100 مؤشر صحي لمتابعة أدق لصحتك",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Ooredoo تتيح الإنترنت المنزلي بتقنية الجيل الخامس بنظام الدفع المسبق ودون عقد في سلطنة عُمان",
-      "url": "https://technologyarabia.com/archives/17919/ooredoo-%d8%aa%d8%aa%d9%8a%d8%ad-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%a7%d9%84%d9%85%d9%86%d8%b2%d9%84%d9%8a-%d8%a8%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac%d9%8a%d9%84-%d8%a7/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-11T11:19:21Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "Ooredoo تتيح الإنترنت المنزلي بتقنية الجيل الخامس بنظام الدفع المسبق ودون عقد في سلطنة عُمان",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "جامعة محمد بن زايد للذكاء الاصطناعي تطلق نموذج «بان 2» لمحاكاة الواقع",
-      "url": "https://aitnews.com/2026/11/11/%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d9%85%d8%ad%d9%85%d8%af-%d8%a8%d9%86-%d8%b2%d8%a7%d9%8a%d8%af-%d9%84%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%aa%d8%b7-4/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-11T08:27:19Z",
-      "category": "أخبار التقنية",
-      "title_ar": "جامعة محمد بن زايد للذكاء الاصطناعي تطلق نموذج «بان 2» لمحاكاة الواقع",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«أومني أوبس» تطلق منصة Bunyan Inference Hub لتشغيل نماذج الذكاء الاصطناعي داخل السعودية",
-      "url": "https://aitnews.com/2026/11/11/omniops-bunyan-inference-hub-saudi-arabia/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-11T08:06:16Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "«أومني أوبس» تطلق منصة Bunyan Inference Hub لتشغيل نماذج الذكاء الاصطناعي داخل السعودية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
-      "url": "https://aitnews.com/2026/11/11/%d8%b3%d9%8a%d8%ac%d9%8a%d8%aa-%d8%aa%d8%b7%d9%84%d9%82-firecuda-forge-%d8%a8%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d9%85%d8%a4%d9%82%d8%aa-%d8%b0%d9%83%d9%8a-%d9%88%d8%b3%d8%b9%d8%a9-%d8%aa%d8%b5%d9%84/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-11T07:47:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سيجيت تطلق FireCuda Forge بتخزين مؤقت ذكي وسعة تصل إلى 20 تيرابايت",
       "translation_status": "original_ar"
     }
   ],
@@ -410,7 +410,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",

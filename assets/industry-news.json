@@ -1,10 +1,23 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T18:29:13Z",
+  "generated_at": "2026-11-14T08:22:17Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "Claim your Google Cloud Credits in Google AI Studio",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-13T20:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "المطالبة بأرصدة Google Cloud الخاصة بك في Google AI Studio",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Connect Google Wallet to Gemini for personal finance insights",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
@@ -41,6 +54,19 @@
           "official": true,
           "topic": "ai",
           "title_ar": "كيف يساعد الذكاء الاصطناعي فرق الرعاية في تقديم الرعاية المناسبة للمرضى، في وقت أقرب",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "url": "https://openai.com/business/customer-stories/shield",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-13T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "تساعد Shield الفنيين على تسليم أعمال البوابة القديمة باستخدام OpenAI",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -123,19 +149,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Get quick answers from Gemini on any website.",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-12T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "احصل على إجابات سريعة من Gemini على أي موقع ويب.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
           "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
           "source": "microsoft",
@@ -171,19 +184,6 @@
           "official": true,
           "topic": "ai",
           "title_ar": "تعيد Holiday Extras التفكير فيما يمكنها إنشاؤه باستخدام Codex",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Supporting research on AI and children’s safety",
-          "url": "https://openai.com/index/children-first-declaration",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-12T00:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "دعم البحوث المتعلقة بالذكاء الاصطناعي وسلامة الأطفال",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -244,6 +244,19 @@
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "Claim your Google Cloud Credits in Google AI Studio",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-13T20:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "المطالبة بأرصدة Google Cloud الخاصة بك في Google AI Studio",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Connect Google Wallet to Gemini for personal finance insights",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
@@ -332,19 +345,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "Gemini 4 Hydrogen: البرمجة اليومية وسير العمل الفعال للمطورين",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Introducing Gemini 4 Hydrogen",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-12T18:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "نقدم لكم Gemini 4 Hydrogen",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -484,6 +484,19 @@
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
         {
+          "title": "Toyota Recalls Certain Model Year 2022-2023 and 2025-2026 Toyota Tundra Vehicles",
+          "url": "https://pressroom.toyota.com/toyota-recalls-certain-model-year-2022-2023-and-2025-2026-toyota-tundra-vehicles/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-13T18:28:52Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تويوتا تسحب بعض مركبات تويوتا تندرا لطرازات السنوات 2022-2023 و2025-2026",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Toyota Recalls Front Passenger Airbags in Certain Vehicles",
           "url": "https://pressroom.toyota.com/toyota-recalls-front-passenger-airbags-in-certain-vehicles/",
           "source": "toyota",
@@ -532,19 +545,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تقول \"أوكي\" لأمريكا: تقديم السليل من قبل علامة تويوتا التجارية و KEI -01",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Toyota Releases 2026 North American Environmental Sustainability Report",
-          "url": "https://pressroom.toyota.com/toyota-releases-2026-north-american-environmental-sustainability-report/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-10T13:58:29Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا تصدر تقرير الاستدامة البيئية لأمريكا الشمالية لعام 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -627,6 +627,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "When a passion for Porsche turns into friendship",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-kirk-gittens-mnd-43610.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-02T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "عندما يتحول الشغف بسيارات بورشه إلى صداقة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Notice Regarding the Status of Share Repurchase",
           "url": "https://www.subaru.co.jp/news-en/2026_11_02_181354/",
           "source": "subaru",
@@ -653,67 +666,54 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Toyota and Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
-          "url": "https://global.toyota/en/newsroom/corporate/44960881.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-10-30T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا ووايمو تعززان التعاون في مجال القيادة الذاتية من أجل شوارع أكثر أمانًا وحرية التنقل للجميع",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "The SUBARU Group Releases the Integrated Report 2026 and Sustainability Web 2026",
-          "url": "https://www.subaru.co.jp/news-en/2026_10_30_103257/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-10-30T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تصدر مجموعة سوبارو التقرير المتكامل لعام 2026 وموقع الويب الخاص بالاستدامة لعام 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Sales, Production, and Export Results for the First Half (April-September) of FY2027",
-          "url": "https://global.toyota/en/company/profile/production-sales-figures/202609.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-10-29T04:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "نتائج المبيعات والإنتاج والتصدير للنصف الأول (أبريل - سبتمبر) من السنة المالية 2027",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche Engineering and Porsche Digital combine their expertise",
-          "url": "https://newsroom.porsche.com/en/2026/company/porsche-engineering-digital-combine-expertise-porsche-technologies-43556.html",
+          "title": "Porsche congratulates Derek Bell on his 85th birthday",
+          "url": "https://newsroom.porsche.com/en/2026/history/porsche-derek-bell-85th-birthday-43597.html",
           "source": "porsche",
           "source_name": "Porsche",
-          "published_at": "2026-10-21T07:00:00Z",
+          "published_at": "2026-10-31T08:00:00Z",
           "language": "en",
           "official": true,
           "topic": "cars",
-          "title_ar": "تجمع بورش للهندسة وبورش الرقمية خبراتهما معًا",
+          "title_ar": "بورشه تهنئ ديريك بيل بعيد ميلاده الخامس والثمانين",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
         {
-          "title": "HONDA SHOWCASES MULTIPLE MOBILITY INNOVATIONS AT JAPAN MOBILITY SHOW BIZWEEK AND CEATEC 2026",
-          "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/591488/honda-showcases-multiple-mobility-innovations-at-japan-mobility-show-bizweek-and-ceatec-2026",
-          "source": "honda",
-          "source_name": "Honda",
-          "published_at": "2026-10-19T12:00:00Z",
+          "title": "Engineer at heart: Dr Michael Steiner is ending his tenure on the Executive Board of Porsche",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-dr-michael-steiner-ending-tenure-on-executive-board-43625.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-30T13:30:00Z",
           "language": "en",
           "official": true,
           "topic": "cars",
-          "title_ar": "هوندا تعرض العديد من ابتكارات التنقل في معرض اليابان للتنقل BIZWEEK وCEATEC 2026",
+          "title_ar": "مهندس في صميم قلبه: الدكتور مايكل شتاينر ينهي فترة ولايته في المجلس التنفيذي لشركة بورشه",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "New ‘Raceborn Moments’ episode: Two RS Spyders, countless memories",
+          "url": "https://newsroom.porsche.com/en/2026/history/porsche-raceborn-moments-rs-sypder-43612.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-30T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "حلقة جديدة من \"لحظات مولودة من السباقات\": سيارتا RS Spyders، وذكريات لا تُحصى",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Porsche and La Marzocco unveil the 911 Carrera RS 2.7 Collection",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-911-carrera-rs-2-7-collection-la-marzocco-43603.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-30T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "بورشه ولا مارتسوكو تكشفان النقاب عن مجموعة 911 كاريرا RS 2.7",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
