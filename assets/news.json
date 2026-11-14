@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T08:22:15Z",
+  "generated_at": "2026-11-14T08:53:57Z",
   "articles": [
     {
       "title": "احتيال FaceStealer يسرق 400 مليون دولار عبر مكالمات Zoom مزيفة",
@@ -143,16 +143,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "بعد أيام من استخدام نظام جديد.. هل أربك ترمب والذكاء الاصطناعي سماء أمريكا؟",
-      "url": "https://www.aljazeera.net/news/2026/11/14/%d8%a8%d8%b9%d8%af-3-%d8%a3%d9%8a%d8%a7%d9%85-%d9%85%d9%86-%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d9%86%d8%b8%d8%a7%d9%85-%d8%ac%d8%af%d9%8a%d8%af-%d9%87%d9%84-%d8%a3%d8%b1%d8%a8%d9%83?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-13T22:43:47Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "بعد أيام من استخدام نظام جديد.. هل أربك ترمب والذكاء الاصطناعي سماء أمريكا؟",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "بدء طلب جرس الباب وكاميرات Apple Home بأسعار تصل إلى 299.95 دولاراً",
       "url": "https://3arrafni.com/tech-news/apple-home-doorbell-cameras-prices-shipping",
       "source": "arrafni",
@@ -170,16 +160,6 @@
       "published_at": "2026-11-13T22:24:53Z",
       "category": "أخبار التقنية",
       "title_ar": "خلل في اتصالات المراقبة الجوية يوقف إقلاع الرحلات في الولايات المتحدة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "من خشية هجوم سوفياتي إلى أعطال تقنية.. متى أغلقت أمريكا سماءها؟",
-      "url": "https://www.aljazeera.net/news/2026/11/14/%d9%85%d9%86-%d8%a7%d9%84%d8%ae%d9%88%d9%81-%d9%85%d9%86-%d9%87%d8%ac%d9%88%d9%85-%d8%b3%d9%88%d9%81%d9%8a%d8%aa%d9%8a-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%a3%d8%b9%d8%b7%d8%a7%d9%84?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-13T21:46:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "من خشية هجوم سوفياتي إلى أعطال تقنية.. متى أغلقت أمريكا سماءها؟",
       "translation_status": "original_ar"
     },
     {
@@ -273,16 +253,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "حين تخذلنا التكنولوجيا.. هل تصبح الحياة في خطر؟",
-      "url": "https://www.bbc.com/arabic/articles/cr5ynyq2e71do?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-13T12:25:35Z",
-      "category": "أخبار التقنية",
-      "title_ar": "حين تخذلنا التكنولوجيا.. هل تصبح الحياة في خطر؟",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "هاتف OPPO A7 Pro 5G يصل أوروبا ببطارية 7,400mAh وشحن 80 واط",
       "url": "https://arabhardware.net/post-55155",
       "source": "hardware",
@@ -360,6 +330,36 @@
       "published_at": "2026-11-12T20:00:35Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "هاتف Oppo Reno 17 Pro ينطلق قريبا بكاميرا رئيسية بدقة 200MP وثلاث كاميرات بدقة 50MP",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ساعة Oppo Watch 5 تنطلق قريبا بوضع FatMax وعمر بطارية يصل إلى 10 أيام",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%b3%d8%a7%d8%b9%d8%a9-oppo-watch-5-%d8%aa%d9%86%d8%b7%d9%84%d9%82-%d9%82%d8%b1%d9%8a%d8%a8%d8%a7-%d8%a8%d9%88%d8%b6%d8%b9-fatmax-%d9%88%d8%b9%d9%85%d8%b1-%d8%a8%d8%b7%d8%a7%d8%b1%d9%8a%d8%a9-%d9%8a/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T19:00:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ساعة Oppo Watch 5 تنطلق قريبا بوضع FatMax وعمر بطارية يصل إلى 10 أيام",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Satechi تكشف عن موزع منافذ متعدد يضم سبعة منافذ ويدعم تقنية USB4",
+      "url": "https://www.unlimit-tech.com/2026/11/satechi-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d9%85%d9%88%d8%b2%d8%b9-%d9%85%d9%86%d8%a7%d9%81%d8%b0-%d9%85%d8%aa%d8%b9%d8%af%d8%af-%d9%8a%d8%b6%d9%85-%d8%b3%d8%a8%d8%b9%d8%a9-%d9%85%d9%86%d8%a7/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-12T18:00:38Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Satechi تكشف عن موزع منافذ متعدد يضم سبعة منافذ ويدعم تقنية USB4",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
+      "url": "https://technologyarabia.com/archives/18025/%d9%8a%d9%88%d8%ac%d8%b1%d9%8a%d9%86-%d8%aa%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%aa%d8%ad%d9%88%d9%84-%d9%86%d8%ad%d9%88-%d8%a8%d9%8a%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-12T17:34:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
       "translation_status": "original_ar"
     }
   ],
