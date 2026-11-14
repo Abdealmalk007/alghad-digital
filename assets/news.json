@@ -1,7 +1,67 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T12:09:02Z",
+  "generated_at": "2026-11-14T14:33:37Z",
   "articles": [
+    {
+      "title": "أكثر من 10 آلاف فرصة: اكسب GTA 6 على PS5 وXbox مجانًا مع Twitch",
+      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%a3%d9%83%d8%ab%d8%b1-%d9%85%d9%86-10-%d8%a2%d9%84%d8%a7%d9%81-%d9%81%d8%b1%d8%b5%d8%a9-%d8%a7%d9%83%d8%b3%d8%a8-gta-6-%d8%b9%d9%84%d9%89-ps5-%d9%88xbox-%d9%85%d8%ac%d8%a7%d9%86%d9%8b%d8%a7-%d9%85/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-14T14:22:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أكثر من 10 آلاف فرصة: اكسب GTA 6 على PS5 وXbox مجانًا مع Twitch",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "داريو أمودي يتوقع أن يجعل AI السرطان وألزهايمر من الماضي خلال عقد",
+      "url": "https://techvoicearabia.com/dario-amodei-ai-cancer-alzheimers-cure-decade-anthropic-ipo/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-14T14:09:46Z",
+      "category": "أخبار التقنية",
+      "title_ar": "داريو أمودي يتوقع أن يجعل AI السرطان وألزهايمر من الماضي خلال عقد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هواوي تستعد لتغيير تصميم هاتف nova Flip القادم بشاشة قابلة للطي أعرض!",
+      "url": "https://www.unlimit-tech.com/2026/11/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b9%d8%af-%d9%84%d8%aa%d8%ba%d9%8a%d9%8a%d8%b1-%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%87%d8%a7%d8%aa%d9%81-nova-flip-%d8%a7%d9%84%d9%82%d8%a7%d8%af/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-14T14:00:45Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "هواوي تستعد لتغيير تصميم هاتف nova Flip القادم بشاشة قابلة للطي أعرض!",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث Pixel لشهر نوفمبر يسبب مشاكل بالكاميرا والشحن وWi‑Fi",
+      "url": "https://3arrafni.com/tech-news/pixel-november-2026-update-bugs",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-14T13:39:55Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث Pixel لشهر نوفمبر يسبب مشاكل بالكاميرا والشحن وWi‑Fi",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "OpenAI تطلق ChatGPT Wallet لتمكين وكلائها الذكيين من شراء المنتجات نيابةً عنك",
+      "url": "https://www.unlimit-tech.com/2026/11/openai-%d8%aa%d8%b7%d9%84%d9%82-chatgpt-wallet-%d9%84%d8%aa%d9%85%d9%83%d9%8a%d9%86-%d9%88%d9%83%d9%84%d8%a7%d8%a6%d9%87%d8%a7-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d9%8a%d9%86-%d9%85%d9%86-%d8%b4%d8%b1/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-14T13:00:03Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI تطلق ChatGPT Wallet لتمكين وكلائها الذكيين من شراء المنتجات نيابةً عنك",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث tvOS 27.2.1 يضيف Siri AI إلى طرازات Apple TV 4K الأقدم",
+      "url": "https://3arrafni.com/tech-news/tvos-27-2-1-siri-ai-older-apple-tv-4k",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-14T12:44:55Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث tvOS 27.2.1 يضيف Siri AI إلى طرازات Apple TV 4K الأقدم",
+      "translation_status": "original_ar"
+    },
     {
       "title": "جوجل تتيح لـ Gemini تحليل إنفاقك عبر Google Wallet ومساعدتك في إدارة ميزانيتك",
       "url": "https://www.unlimit-tech.com/2026/11/%d8%ac%d9%88%d8%ac%d9%84-%d8%aa%d8%aa%d9%8a%d8%ad-%d9%84%d9%80-gemini-%d8%aa%d8%ad%d9%84%d9%8a%d9%84-%d8%a5%d9%86%d9%81%d8%a7%d9%82%d9%83-%d8%b9%d8%a8%d8%b1-google-wallet-%d9%88%d9%85%d8%b3%d8%a7/",
@@ -10,6 +70,16 @@
       "published_at": "2026-11-14T12:00:04Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "جوجل تتيح لـ Gemini تحليل إنفاقك عبر Google Wallet ومساعدتك في إدارة ميزانيتك",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مربع Run الجديد في Windows 11: أبرز التغييرات وطريقة تفعيله",
+      "url": "https://3arrafni.com/tech-news/windows-11-new-run-dialog",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-14T11:49:55Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "مربع Run الجديد في Windows 11: أبرز التغييرات وطريقة تفعيله",
       "translation_status": "original_ar"
     },
     {
@@ -103,6 +173,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "إليك 7 خطوات عملية لتلخيص الكتب والمستندات بالذكاء الاصطناعي",
+      "url": "https://www.aljazeera.net/tech/2026/11/14/%d8%a5%d9%84%d9%8a%d9%83-7-%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d9%84%d8%aa%d9%84%d8%ae%d9%8a%d8%b5-%d8%a7%d9%84%d9%83%d8%aa%d8%a8?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-14T10:34:01Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "إليك 7 خطوات عملية لتلخيص الكتب والمستندات بالذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "X تتيح إضافة 20 صورة وفيديو في المنشور الواحد",
       "url": "https://3arrafni.com/tech-news/x-20-photos-videos-per-post",
       "source": "arrafni",
@@ -123,63 +203,23 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
-      "url": "https://technologyarabia.com/archives/18053/openai-chatgpt-wallet-ai-agents-payments-commerce/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-14T09:21:00Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ثغرة حرجة في Apache HTTP Server تتيح السيطرة عن بُعد على الخوادم",
-      "url": "https://3arrafni.com/tech-news/apache-http-server-cve-2026-119618-update-2-4-71",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-14T09:04:55Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ثغرة حرجة في Apache HTTP Server تتيح السيطرة عن بُعد على الخوادم",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
-      "url": "https://technologyarabia.com/archives/18048/%d8%a5%d9%85%d9%8a%d8%b1%d9%83%d9%88%d9%85-%d8%a3%d9%88%d9%84-%d8%b4%d8%b1%d9%8a%d9%83-%d9%84%d9%80%d8%b3%d9%8a%d8%b3%d9%83%d9%88-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-14T09:02:30Z",
+      "title": "وول ستريت جورنال: الصين تكثف نشاطها الاستخباراتي لسرقة تكنولوجيا الغرب",
+      "url": "https://www.aljazeera.net/politics/2026/11/14/%d9%88%d9%88%d9%84-%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d8%ac%d9%88%d8%b1%d9%86%d8%a7%d9%84-%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d8%aa%d9%83%d8%ab%d9%81-%d9%86%d8%b4%d8%a7%d8%b7%d9%87%d8%a7?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-14T09:27:28Z",
       "category": "أخبار التقنية",
-      "title_ar": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
+      "title_ar": "وول ستريت جورنال: الصين تكثف نشاطها الاستخباراتي لسرقة تكنولوجيا الغرب",
       "translation_status": "original_ar"
     },
     {
-      "title": "شاومي تؤكد دعم الشاشة الخلفية لهاتف 18 Pro لتطبيقات Google Maps وSpotify وYouTube Music",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%a4%d9%83%d8%af-%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4%d8%a9-%d8%a7%d9%84%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d9%84%d9%87%d8%a7%d8%aa%d9%81-18-pro-%d9%84/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-14T09:00:07Z",
+      "title": "الوجه الآخر لمشاركة الإنترنت عبر الهاتف المحمول.. هل تعرف مخاطرها؟",
+      "url": "https://www.aljazeera.net/tech/2026/11/14/%d8%a7%d9%84%d9%88%d8%ac%d9%87-%d8%a7%d9%84%d8%a2%d8%ae%d8%b1-%d9%84%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%b9%d8%a8%d8%b1?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-14T09:11:00Z",
       "category": "الهواتف والأجهزة",
-      "title_ar": "شاومي تؤكد دعم الشاشة الخلفية لهاتف 18 Pro لتطبيقات Google Maps وSpotify وYouTube Music",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "احتيال FaceStealer يسرق 400 مليون دولار عبر مكالمات Zoom مزيفة",
-      "url": "https://3arrafni.com/tech-news/facestealer-fake-zoom-calls-crypto-scam",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-14T08:09:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "احتيال FaceStealer يسرق 400 مليون دولار عبر مكالمات Zoom مزيفة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مايكروسوفت واجهت صعوبة في استعادة خدمات Outlook وTeams و365 بعد انقطاع استمر لأكثر من 12 ساعة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-%d9%88%d8%a7%d8%ac%d9%87%d8%aa-%d8%b5%d8%b9%d9%88%d8%a8%d8%a9-%d9%81%d9%8a-%d8%a7%d8%b3%d8%aa%d8%b9%d8%a7%d8%af%d8%a9-%d8%ae%d8%af%d9%85/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-14T08:00:04Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "مايكروسوفت واجهت صعوبة في استعادة خدمات Outlook وTeams و365 بعد انقطاع استمر لأكثر من 12 ساعة",
+      "title_ar": "الوجه الآخر لمشاركة الإنترنت عبر الهاتف المحمول.. هل تعرف مخاطرها؟",
       "translation_status": "original_ar"
     },
     {
@@ -223,26 +263,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "إيران تربط استئناف التفتيش النووي بمعالجة تداعيات الهجمات",
-      "url": "https://www.aljazeera.net/news/2026/11/14/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%b1%d8%a8%d8%b7-%d8%a7%d8%b3%d8%aa%d8%a6%d9%86%d8%a7%d9%81-%d8%a7%d9%84%d8%aa%d9%81%d8%aa%d9%8a%d8%b4-%d8%a7%d9%84%d9%86%d9%88%d9%88%d9%8a?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-14T06:37:13Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "إيران تربط استئناف التفتيش النووي بمعالجة تداعيات الهجمات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب: Xiaomi 18 النسخة القياسية بذاكرة 16 جيجابايت وسعة تخزين 1 تيرابايت",
-      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-xiaomi-18-%d8%a7%d9%84%d9%86%d8%b3%d8%ae%d8%a9-%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d8%a8%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-16-%d8%ac%d9%8a%d8%ac%d8%a7%d8%a8/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-14T06:00:50Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسريب: Xiaomi 18 النسخة القياسية بذاكرة 16 جيجابايت وسعة تخزين 1 تيرابايت",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
       "url": "https://arabhardware.net/post-55159",
       "source": "hardware",
@@ -253,16 +273,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "بدء طلب جرس الباب وكاميرات Apple Home بأسعار تصل إلى 299.95 دولاراً",
-      "url": "https://3arrafni.com/tech-news/apple-home-doorbell-cameras-prices-shipping",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-13T22:32:19Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بدء طلب جرس الباب وكاميرات Apple Home بأسعار تصل إلى 299.95 دولاراً",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "مايكروسوفت تعتذر عن العطل في خدماتها وتنفي ارتباطه بهجوم سيبراني",
       "url": "https://www.bbc.com/arabic/articles/ck1l04y736q9o?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
@@ -270,16 +280,6 @@
       "published_at": "2026-11-13T21:34:25Z",
       "category": "الأمن السيبراني",
       "title_ar": "مايكروسوفت تعتذر عن العطل في خدماتها وتنفي ارتباطه بهجوم سيبراني",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
-      "url": "https://technologyarabia.com/archives/18039/microsoft-global-outage-november-2026/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-13T20:25:12Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
       "translation_status": "original_ar"
     },
     {
@@ -333,13 +333,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ترامب يبحث هجمات الذكاء الاصطناعي بسبب مو الهجمات من “الوكلاء AI Agents”",
+      "title": "ترامب يبحث هجمات الذكاء الاصطناعي بسبب موجة الهجمات من “الوكلاء AI Agents”",
       "url": "https://techvoicearabia.com/trump-ai-task-force-autonomous-cyberattacks/",
       "source": "techvoice",
       "source_name": "تيك فويس عربية",
       "published_at": "2026-11-13T08:34:20Z",
       "category": "الذكاء الاصطناعي",
-      "title_ar": "ترامب يبحث هجمات الذكاء الاصطناعي بسبب مو الهجمات من “الوكلاء AI Agents”",
+      "title_ar": "ترامب يبحث هجمات الذكاء الاصطناعي بسبب موجة الهجمات من “الوكلاء AI Agents”",
       "translation_status": "original_ar"
     },
     {
@@ -353,13 +353,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "لماذا حذفت جوجل إحداثيات كوريا الجنوبية من خرائطها؟",
-      "url": "https://techvoicearabia.com/south-korea-google-maps-coordinates-security/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-13T05:51:01Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "لماذا حذفت جوجل إحداثيات كوريا الجنوبية من خرائطها؟",
+      "title": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
+      "url": "https://www.bbc.com/arabic/watch/cwg7x7k3meljo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-10T14:41:30Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
       "translation_status": "original_ar"
     }
   ],
@@ -392,7 +392,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "arrafni",
