@@ -3,14 +3,15 @@
 window.AL_GHAD_DOWNLOADS = Object.freeze({
   "smart-excel": {
     repository: "SmartExcelAnalyzer-30.7",
-    version: "30.7.5",
+    version: "30.7.6",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.5",
-    checksum: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/SHA256SUMS.txt",
+    release: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.6",
+    checksum: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SHA256SUMS.txt",
     files: [
-      {label:"تحميل مثبت Windows EXE — نسخة موحّدة",platform:"Windows 10/11 x64 • UNSIGNED Preview • Setup",recommended:true,bytes:268121391,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/SmartExcelAnalyzer_30.7.5_Setup.exe"}
+      {label:"تنزيل برنامج التثبيت Windows EXE",platform:"Windows 10/11 x64 • Setup • UNSIGNED Beta",recommended:true,bytes:268137884,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_Setup.exe"},
+      {label:"تنزيل النسخة المحمولة Portable ZIP",platform:"Windows 10/11 x64 • Portable • UNSIGNED Beta",recommended:false,bytes:315298042,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_PORTABLE.zip"}
     ],
-    note:"نسخة تجريبية غير موقّعة رقميًا (NotSigned). تجمع التثبيت 30.7 مع تحديثي 30.7.1 و30.7.5. أجرِ نسخة احتياطية قبل التثبيت؛ لم يتم تأكيد اختبار التشغيل النهائي على جهاز نظيف."
+    note:"نسخة Beta / Preview غير موقّعة رقميًا (Authenticode). تم اختبار حزمة التثبيت المعزولة (27/27) وPortable (10/10)، مع عدم تثبيت Setup العام فوق النسخة السابقة. تحقق من SHA-256 واحتفظ بنسخة احتياطية قبل التحديث."
   },
   download: {
     repository: "Download-Anything-PRO",

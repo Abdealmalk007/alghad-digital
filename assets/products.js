@@ -6,19 +6,19 @@ window.AL_GHAD_PRODUCTS = [
   "english": "SMART EXCEL ANALYZER",
   "category": "تحليل ملفات Excel والبيانات",
   "description": "برنامج Windows لتحليل ملفات Excel وتنظيم البيانات وعرض النتائج والتقارير.",
-  "details": "منصة تحليل بيانات محلية للحاسب، تجمع أدوات معالجة جداول Excel والتحليل والإحصاءات وإخراج النتائج. النسخة 30.7.5 موحّدة مع تحديث إلغاء شاشة تسجيل الدخول، وهي نسخة تجريبية غير موقّعة رقميًا.",
+  "details": "منصة تحليل بيانات محلية للحاسب، تجمع أدوات معالجة جداول Excel والتحليل والإحصاءات وإخراج النتائج. الإصدار 30.7.6 يُصلح إقلاع البرنامج واتفاقية الترخيص، ويعرض Dashboard تفاعليًا تلقائيًا عند فتح ملف Excel، مع نسخة Portable. الإصدار Beta وغير موقّع رقميًا.",
   "platforms": [
     "Windows"
   ],
-  "version": "30.7.5",
+  "version": "30.7.6",
   "status": "public",
   "github": "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7",
   "features": [
     "استيراد الجداول والعمل على بيانات Excel",
     "تحليل وإحصاءات تساعد على استكشاف البيانات",
     "عرض المخططات ومخرجات التقارير",
-    "تثبيت موحّد يشمل التحديثين 30.7.1 و30.7.5",
-    "إلغاء شاشة تسجيل الدخول المحلية وفق تعليمات التحديث"
+    "تحليل تلقائي فور اختيار ملف Excel مع لوحة KPI ورسوم متنوعة",
+    "إصلاح شاشة الترخيص العربية وزر الموافقة وتحسين الإقلاع"
   ],
   "emblem": "▦",
   "colors": [
@@ -28,7 +28,7 @@ window.AL_GHAD_PRODUCTS = [
   ],
   "keywords": "excel data analytics smart excel analyzer تحليل البيانات اكسل جداول احصائيات",
   "summary": "من الجداول إلى رؤى أوضح للبيانات",
-  "release": "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.5",
+  "release": "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.6",
   "releaseLabel": "نسخة تجريبية منشورة",
   "preview": "assets/previews/smart-excel.svg",
   "previewAlt": "رسم توضيحي لأدوات تحليل ملفات Excel والإحصاءات",
