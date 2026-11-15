@@ -59,3 +59,23 @@ body.sitewide-search-open { overflow:hidden !important; }
   .sitewide-search-results { padding:0 10px 14px; }
 }
 @media print { .sitewide-search-trigger,.sitewide-search-layer {display:none !important;} }
+
+
+/* Quick bilingual searches stay in the site dialog: no remote search endpoint. */
+.sitewide-search-quick {
+  display:flex; flex-wrap:wrap; align-items:center; gap:7px;
+  padding:0 20px 12px; margin:0;
+}
+.sitewide-search-example {
+  appearance:none; border:1px solid #3c7984; background:#103c4b;
+  color:#bff8eb; border-radius:9px; cursor:pointer;
+  padding:6px 11px; font:inherit; font-size:.78rem; line-height:1.5;
+}
+.sitewide-search-example:hover,.sitewide-search-example:focus-visible {
+  color:#fff; border-color:#80e9d0; background:#165764;
+  outline:2px solid #65e4d0;outline-offset:2px;
+}
+@media(max-width:600px){
+  .sitewide-search-quick {padding:0 14px 10px;gap:6px;}
+  .sitewide-search-example {font-size:.74rem;padding:6px 9px;}
+}

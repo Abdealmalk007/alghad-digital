@@ -25,6 +25,7 @@ vm.runInNewContext(read("assets/site-search-index.js"),sandbox,{timeout:1000});
 const idx=sandbox.window.AL_GHAD_SITE_SEARCH;
 assert.equal(idx.schema,1);
 assert.equal(idx.page_count,42);
+assert.equal(idx.guide_count,9,"Nine already-public program manuals must be searchable");
 const nTech=JSON.parse(read("assets/news.json")).articles.length;
 const industry=JSON.parse(read("assets/industry-news.json"));
 const nIndustry=Object.values(industry.topics).reduce((sum,topic)=>sum+topic.articles.length,0);
@@ -39,7 +40,19 @@ assert.equal(new Set(idx.records.map(v=>v.id)).size,42+nNews,"No duplicate searc
 for(const v of idx.records) {
   assert.match(v.url,/^\/(?:[a-z0-9-]+\/)*$/,"Search results must stay inside our website");
   assert.ok(v.title && v.category && v.content,"Search result missing content: "+v.id);
+  if (v.kind!=="news") assert.ok(v.aliases && v.aliases.length>50,"Bilingual aliases missing: "+v.id);
 }
+const byPath=p=>idx.records.find(x=>x.url===p&&x.kind!=="news");
+for(const [ar,en] of [["/windows-office/","/en/windows-office/"],["/programs/quotes/","/en/programs/quotes/"],["/programs/smart-excel/","/en/programs/smart-excel/"],["/privacy/","/en/privacy/"]]){
+  const a=byPath(ar),b=byPath(en);
+  assert.ok(a&&b,"Missing bilingual pair: "+ar);
+  assert.ok(a.aliases.includes(b.title),"Arabic page must index English title: "+ar);
+  assert.ok(b.aliases.includes(a.title),"English page must index Arabic title: "+en);
+}
+assert.ok(byPath("/programs/quotes/").aliases.includes("Customer"),"Published public manual indexed");
+assert.ok(byPath("/programs/smart-excel/").aliases.toLowerCase().includes("excel"));
+assert.ok(byPath("/windows-office/").aliases.toLowerCase().includes("windows"));
+assert.ok(!idx.records.some(x=>x.url.startsWith("http")),"Search results must not be outgoing links");
 const includes=(word,kind)=>idx.records.some(v=>(!kind||v.kind===kind)&&[v.title,v.description,v.content].join(" ").toLowerCase().includes(word.toLowerCase()));
 assert.ok(includes("Quotes","program"),"Quotes page is searchable");
 assert.ok(includes("عروض الأسعار","program"),"Arabic pricing pages are searchable");
@@ -49,6 +62,10 @@ assert.ok(includes("Marble","program"),"Marble app is searchable");
 assert.ok(!idx.records.some(v=>v.url.includes("/programs/tv/")),"Removed TV app stays absent");
 assert.ok(!idx.records.some(v=>v.title.includes("TV Clean Launcher")),"Removed TV app stays absent");
 assert.ok(read("assets/site-search.js").includes("sitewide-search-trigger"));
+assert.ok(read("assets/site-search.js").includes("sitewide-search-quick"));
+assert.ok(read("assets/site-search.js").includes("synonymGroups"));
+assert.ok(read("assets/site-search.js").includes("keyAliases"));
+assert.ok(read("assets/site-search.css").includes(".sitewide-search-example"));
 assert.ok(read("assets/site-search.js").includes("ctrlKey"));
 assert.ok(read("assets/site-search.js").includes("site-search-index.js"));
 assert.ok(read("assets/site-search.css").includes("@media(max-width:600px)"));

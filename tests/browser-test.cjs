@@ -137,6 +137,16 @@ async function main() {
     await delay(230);
     assert.ok(await evaluate('document.querySelectorAll(".sitewide-search-card").length>=1'),"Arabic sitewide search yields results");
     assert.ok(await evaluate('!!document.querySelector(\'.sitewide-search-list a[href="/programs/quotes/"]\')'),"Quotes page found");
+    assert.equal(await evaluate('document.querySelectorAll(".sitewide-search-example").length'),4,"Provide helpful quick bilingual searches");
+    await evaluate('(() => { const i=document.querySelector(".sitewide-search-input");i.value="وندوز";i.dispatchEvent(new Event("input",{bubbles:true})); })()');
+    await delay(230);
+    assert.ok(await evaluate('!!document.querySelector(\'.sitewide-search-list a[href="/windows-office/"]\')'),"Arabic Windows misspelling should find Microsoft direct ISO page");
+    await evaluate('(() => { const i=document.querySelector(".sitewide-search-input");i.value="spreadsheets";i.dispatchEvent(new Event("input",{bubbles:true})); })()');
+    await delay(230);
+    assert.ok(await evaluate('!!document.querySelector(\'.sitewide-search-list a[href="/programs/smart-excel/"]\')'),"English spreadsheet term should find Arabic Excel app");
+    await evaluate('(() => { const i=document.querySelector(".sitewide-search-input");i.value="رواتب";i.dispatchEvent(new Event("input",{bubbles:true})); })()');
+    await delay(230);
+    assert.ok(await evaluate('!!document.querySelector(\'.sitewide-search-list a[href="/programs/hr/"]\')'),"Arabic payroll query should find HR");
     await evaluate('(() => { const i=document.querySelector(".sitewide-search-input");i.value="OpenAI";i.dispatchEvent(new Event("input",{bubbles:true})); document.querySelector(\'.sitewide-search-filter[data-kind="news"]\').click(); })()');
     await delay(250);
     assert.ok(await evaluate('document.querySelectorAll(".sitewide-search-card").length>=1'),"News search finds publisher headlines");
@@ -202,7 +212,7 @@ async function main() {
     await evaluate('(() => { const s=document.querySelector("#search");s.value="";s.dispatchEvent(new Event("input",{bubbles:true})); })()');
     assert.ok(await evaluate('Boolean(document.getElementById("back-to-top-floating"))'));
 
-    for(const [id,expected] of Object.entries({"smart-excel":1,download:2,hr:2,marble:2,reports:1,stone:1,quotes:1})){
+    for(const [id,expected] of Object.entries({"smart-excel":2,download:2,hr:2,marble:2,reports:1,stone:1,quotes:1})){
       const hrefs=await evaluate('([...document.querySelectorAll(".direct-download-card")].map(a=>a.getAttribute("href")) )');
       for(const href of hrefs) assert.match(href,/^https:\/\/github\.com\/Abdealmalk007\//);
       await evaluate('document.querySelector(\'[data-detail="'+id+'"]\').click()');

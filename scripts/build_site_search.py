@@ -97,6 +97,66 @@ def page_record(url: str, filename: Path) -> dict:
     }
 
 
+# Search terminology is confined to canonical public pages, their translations
+# and already-public program README files. No private files or external crawl.
+TOPIC_TERMS: dict[str, str] = {
+    "/windows-office/": "ويندوز وندوز Windows Windows 11 Office اوفيس أوفيس ISO IMG ملف تنزيل تحميل Arabic English Microsoft",
+    "/free-windows-tools/": "أدوات ويندوز Windows tools صيانة إصلاح تنظيف برامج مجانية free utility tools",
+    "/news/": "أخبار news technology تقنية تحديثات releases reports",
+    "/ai-news/": "ذكاء اصطناعي artificial intelligence AI models GPT OpenAI",
+    "/tech-companies/": "شركات companies technology big tech Microsoft Google Apple",
+    "/cars/": "سيارات سيارات كهربائية cars automotive vehicles",
+    "/security/": "أمان أمن حماية security privacy خصوصية",
+    "/privacy/": "خصوصية privacy data protection بيانات",
+    "/programs/": "البرامج software apps applications التطبيقات downloads تحميل",
+    "/programs/smart-excel/": "اكسل إكسل excel spreadsheet جداول تحليل analysis xlsx xls csv",
+    "/programs/care/": "ويندوز windows صيانة cleaning maintenance repair تحسين تحسين الأداء",
+    "/programs/quotes/": "عقد عقود contract contracts عروض عرض أسعار quotations quotes عملاء customers",
+    "/programs/kitchen/": "مطابخ مطبخ kitchen CAD تصميم ثلاثي 3D 2D خزائن cabinets CNC",
+    "/programs/hr/": "موظفين موظف موارد بشرية human resources payroll رواتب الحضور attendance HR",
+    "/programs/stone/": "رخام بورسلان stone marble porcelain inventory stock مخزون",
+    "/programs/marble/": "رخام بورسلان marble porcelain تسليم delivery",
+    "/programs/reports/": "تقارير reports daily اليومية",
+    "/programs/download/": "تحميل تنزيل download downloader video فيديو صوت audio Android",
+}
+
+def enrich_translations_and_guides(records: list[dict]) -> int:
+    """Add bilingual counterpart content and published program-guide text.
+
+    Keep each result linked to a real canonical page, preventing broken URLs.
+    """
+    pages = {item["url"]: item for item in records}
+    indexed_guides = 0
+    for item in records:
+        route = item["url"]
+        base = route[3:] if route.startswith("/en/") else route
+        equivalent = base if route.startswith("/en/") else "/en" + base
+        sibling = pages.get(equivalent)
+        if sibling is None:
+            raise ValueError(f"Missing bilingual canonical pair: {route}")
+        # Pair titles, descriptions and body excerpts so Arabic and English
+        # queries work from *either* locale without sending users off-site.
+        aliases = [
+            sibling["title"],
+            sibling["description"],
+            sibling["content"][:3200],
+            TOPIC_TERMS.get(base, ""),
+        ]
+        program = re.fullmatch(r"/programs/([a-z0-9-]+)/", base)
+        if program:
+            guide = ROOT / "docs" / "programs" / program.group(1) / "README.md"
+            if not guide.is_file():
+                raise FileNotFoundError(f"Published program guide is missing: {guide}")
+            guide_text = guide.read_text(encoding="utf-8-sig", errors="replace")
+            if len(guide_text) > 35000:
+                raise ValueError(f"Unexpectedly large public guide: {guide}")
+            # Plain text only, indexed but never interpolated into HTML.
+            aliases.append(clean(guide_text, 8000))
+            indexed_guides += 1
+        item["aliases"] = clean(" ".join(aliases), 13500)
+    return indexed_guides
+
+
 def article_record(article: dict, topic: str, index: int) -> dict:
     category = {
         "tech": "أخبار التقنية / Technology news",
@@ -147,6 +207,8 @@ def main() -> None:
         results.append(page_record(url, filename))
         page_files.append(filename)
 
+    guide_count = enrich_translations_and_guides(results)
+
     raw_news = json.loads((ASSETS / "news.json").read_text(encoding="utf-8"))
     raw_industry = json.loads((ASSETS / "industry-news.json").read_text(encoding="utf-8"))
     news = raw_news.get("articles") or []
@@ -167,6 +229,7 @@ def main() -> None:
         "news_updated": raw_news.get("generated_at"),
         "industry_updated": raw_industry.get("generated_at"),
         "page_count": len(locs),
+        "guide_count": guide_count // 2,
         "news_count": len(results) - len(locs),
         "records": results,
     }
@@ -192,7 +255,7 @@ def main() -> None:
             file.write_text(html, encoding="utf-8", newline="\n")
             patched += 1
     print(
-        f"SITE_SEARCH_READY PAGES={len(locs)} NEWS={len(results)-len(locs)} "
+        f"SITE_SEARCH_READY PAGES={len(locs)} GUIDES={guide_count // 2} NEWS={len(results)-len(locs)} "
         f"INDEX_RECORDS={len(results)} INDEX_BYTES={index_path.stat().st_size} "
         f"PATCHED={patched}",
         flush=True,

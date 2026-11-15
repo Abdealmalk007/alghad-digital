@@ -8,7 +8,7 @@
     var isEn = /^en/i.test(document.documentElement.lang || "");
     var L = isEn ? {
       open: "Search the site", title: "Search all of Alghad Digital",
-      placeholder: "Software, downloads, news, pages, topics…",
+      placeholder: "Find software, Windows, Office, news, guides, features…",
       all: "Everything", program: "Software", news: "News", page: "Pages",
       close: "Close search", loading: "Loading site search…",
       empty: "Enter at least two characters to search the website.",
@@ -18,7 +18,7 @@
       source: "Source", programLabel: "Software", newsLabel: "News", pageLabel: "Page"
     } : {
       open: "بحث في الموقع", title: "ابحث في جميع محتويات الغد الرقمي",
-      placeholder: "ابحث عن برنامج أو ميزة أو خبر أو موضوع…",
+      placeholder: "اكتب بالعربية أو الإنجليزية: البرامج، الأخبار، الأدلة، الميزات…",
       all: "الكل", program: "البرامج", news: "الأخبار", page: "صفحات الموقع",
       close: "إغلاق البحث", loading: "جارٍ تحميل فهرس البحث…",
       empty: "اكتب حرفين على الأقل للبحث في جميع محتويات الموقع.",
@@ -49,6 +49,7 @@
       '<div class="sitewide-search-top"><h2 id="sitewide-search-title" class="sitewide-search-title"></h2>',
       '<button class="sitewide-search-close" type="button"></button></div>',
       '<div class="sitewide-search-searchbox"><input class="sitewide-search-input" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search"/></div>',
+      '<div class="sitewide-search-quick" role="group"></div>',
       '<div class="sitewide-search-filters" role="group"></div>',
       '<p class="sitewide-search-count" role="status" aria-live="polite"></p>',
       '<div class="sitewide-search-results"><ul class="sitewide-search-list"></ul>',
@@ -60,6 +61,7 @@
     var input = layer.querySelector(".sitewide-search-input");
     var closeButton = layer.querySelector(".sitewide-search-close");
     var tabs = layer.querySelector(".sitewide-search-filters");
+    var quick = layer.querySelector(".sitewide-search-quick");
     var count = layer.querySelector(".sitewide-search-count");
     var list = layer.querySelector(".sitewide-search-list");
     var more = layer.querySelector(".sitewide-search-more");
@@ -71,6 +73,7 @@
     layer.querySelector(".sitewide-search-footer").textContent = L.footer;
     more.textContent = L.more;
     tabs.setAttribute("aria-label", isEn ? "Result type" : "نوع النتائج");
+    quick.setAttribute("aria-label", isEn ? "Suggested bilingual searches" : "اقتراحات للبحث بالعربية والإنجليزية");
 
     var active = "all", dataPromise = null, cache = null;
     var matches = [], limit = 20, previousFocus = null, debounce = null;
@@ -78,16 +81,62 @@
 
     function normalize(value) {
       return String(value || "").normalize("NFKD")
-        .replace(/[\u064B-\u065F\u0670\u0640]/g, "")
+        .replace(/[\u0300-\u036f\u064B-\u065F\u0670\u0640\u200B-\u200F]/g, "")
         .replace(/[إأآٱ]/g,"ا").replace(/ى/g,"ي").replace(/ة/g,"ه")
+        .replace(/[٠-٩]/g, function (digit) {return String(digit.charCodeAt(0)-0x0660);})
+        .replace(/[۰-۹]/g, function (digit) {return String(digit.charCodeAt(0)-0x06f0);})
         .toLowerCase().replace(/\s+/g," ").trim();
+    }
+    // Curated search equivalents; not a machine translation service.
+    // Each group matches *either* language against the indexed bilingual pages.
+    var synonymGroups = [
+      ["windows","ويندوز","وندوز"],
+      ["office","اوفيس","اوفيس365"],
+      ["download","downloads","تحميل","تنزيل"],
+      ["excel","اكسل","xlsx","xls","spreadsheets","جداول"],
+      ["quotation","quotations","quotes","اسعار","عروض"],
+      ["contract","contracts","عقود","عقد"],
+      ["customer","customers","عملاء","عميل"],
+      ["privacy","خصوصيه","الخصوصيه"],
+      ["security","امن","امان","حمايه"],
+      ["news","اخبار"],
+      ["ai","artificial","intelligence","ذكاء","الذكاء","اصطناعي"],
+      ["cars","car","سيارات","سياره"],
+      ["kitchen","مطابخ","مطبخ"],
+      ["stone","marble","رخام","porcelain","بورسلان"],
+      ["hr","human","resources","موظفين","موظف"],
+      ["payroll","رواتب","راتب"],
+      ["report","reports","تقارير","تقرير"],
+      ["portable","محمول","بدون","تثبيت"],
+      ["setup","installer","مثبت","تثبيت"],
+      ["3d","ثلاثي","ثلاثيه"],
+      ["pdf","بي","دي","اف"]
+    ];
+    var equivalent = Object.create(null);
+    synonymGroups.forEach(function (group) {
+      var normalized = group.map(normalize);
+      normalized.forEach(function (word) {equivalent[word] = normalized;});
+    });
+    function alternatives(token) {
+      return equivalent[token] || [token];
+    }
+    function hasTerm(field,term) {
+      if (!field || !term) return false;
+      if (/^[a-z0-9]{1,2}$/.test(term)) {
+        return (" "+field.replace(/[^a-z0-9]+/g," ")+" ").includes(" "+term+" ");
+      }
+      return field.includes(term);
+    }
+    function includesAny(field,terms) {
+      return terms.some(function (word) {return hasTerm(field,word);});
     }
     function prepare(records) {
       return records.map(function (entry) {
         return Object.assign({}, entry, {
           keyTitle: normalize(entry.title),
           keyDesc: normalize(entry.description),
-          keyBody: normalize([entry.content,entry.category,entry.source].join(" "))
+          keyBody: normalize([entry.content,entry.category,entry.source].join(" ")),
+          keyAliases: normalize(entry.aliases)
         });
       });
     }
@@ -130,21 +179,24 @@
       p.className="sitewide-search-empty";p.textContent=value;
       list.append(p);more.hidden=true;
     }
-    function score(item,tokens,phrase) {
-      var hay=[item.keyTitle,item.keyDesc,item.keyBody].join(" ");
-      if (!tokens.every(function (t) {return hay.includes(t);})) return -1;
+    function score(item,groups,phrase) {
+      var fields=[item.keyTitle,item.keyDesc,item.keyBody,item.keyAliases];
+      if (!groups.every(function (terms) {
+        return fields.some(function (field) {return includesAny(field,terms);});
+      })) return -1;
       var n=0;
       if (item.keyTitle===phrase) n+=130;
       else if (item.keyTitle.includes(phrase)) n+=90;
       if (item.keyDesc.includes(phrase)) n+=35;
-      tokens.forEach(function (term) {
-        if (item.keyTitle.includes(term)) n+=30;
-        if (item.keyDesc.includes(term)) n+=15;
-        if (item.keyBody.includes(term)) n+=6;
+      groups.forEach(function (terms) {
+        if (includesAny(item.keyTitle,terms)) n+=30;
+        if (includesAny(item.keyDesc,terms)) n+=15;
+        if (includesAny(item.keyBody,terms)) n+=6;
+        if (includesAny(item.keyAliases,terms)) n+=5;
       });
       if (item.kind==="program") n+=8;
       if (item.kind==="news") n+=3;
-      if (item.lang===(isEn?"en":"ar")) n+=4;
+      if (item.lang===(isEn?"en":"ar")) n+=12;
       return n;
     }
     function render() {
@@ -180,12 +232,13 @@
     function calculate() {
       if (!cache) return;
       var q=normalize(input.value);limit=20;
-      if (q.length<2) {count.textContent="";message(L.empty);return;}
+      if (q.length<2) {matches=[];count.textContent="";message(L.empty);return;}
       var tokens=Array.from(new Set(q.split(" ").filter(Boolean))).slice(0,12);
+      var groups=tokens.map(alternatives);
       matches=cache.filter(function (item) {
           return active==="all" || item.kind===active;
         }).map(function (item) {
-          return {item:item,value:score(item,tokens,q)};
+          return {item:item,value:score(item,groups,q)};
         }).filter(function (entry) {
           return entry.value>=0;
         }).sort(function (a,b) {
@@ -200,6 +253,22 @@
       });
       calculate();
     }
+    var examples=isEn
+      ? [["Windows ISO","windows"],["Excel analysis","excel"],["AI news","ai"],["Contracts","contracts"]]
+      : [["ملفات Windows ISO","ويندوز"],["تحليل Excel","اكسل"],["أخبار الذكاء الاصطناعي","ذكاء"],["عروض الأسعار والعقود","عقود"]];
+    examples.forEach(function (pair) {
+      var button=document.createElement("button");
+      button.type="button";button.className="sitewide-search-example";
+      button.textContent=pair[0];
+      button.addEventListener("click",function () {
+        input.value=pair[1];active="all";
+        tabs.querySelectorAll("button").forEach(function (b) {
+          b.setAttribute("aria-pressed",String(b.dataset.kind==="all"));
+        });
+        input.focus();calculate();
+      });
+      quick.append(button);
+    });
     kinds.forEach(function (pair) {
       var btn=document.createElement("button");
       btn.type="button";btn.dataset.kind=pair[0];btn.className="sitewide-search-filter";
