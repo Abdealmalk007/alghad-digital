@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T17:00:20Z",
+  "generated_at": "2026-11-15T12:06:27Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -245,6 +245,19 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
+          "title": "Samsung’s Latest Products Recognized by Consumer Technology Association Ahead of CES 2027",
+          "url": "https://news.samsung.com/global/samsungs-latest-products-recognized-by-consumer-technology-association-ahead-of-ces-2027",
+          "source": "samsung",
+          "source_name": "Samsung",
+          "published_at": "2026-11-15T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "حصلت أحدث منتجات سامسونج على تقدير من رابطة تكنولوجيا المستهلك قبل معرض الإلكترونيات الاستهلاكية (CES) 2027",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Claim your Google Cloud Credits in Google AI Studio",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
           "source": "google",
@@ -462,19 +475,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "بيان من الأعضاء المستقلين في مجلس إدارة NVIDIA",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing",
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing",
-          "source": "amd",
-          "source_name": "AMD",
-          "published_at": "2026-11-10T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تعرض AMD معالجات AMD EPYC من الجيل السادس لقيادة العصر التالي للذكاء الاصطناعي والحوسبة المؤسسية",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }

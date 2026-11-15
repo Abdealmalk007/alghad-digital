@@ -1,165 +1,185 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T17:00:17Z",
+  "generated_at": "2026-11-15T12:06:25Z",
   "articles": [
     {
-      "title": "شاومي تطلق الساعة الذكية الأصغر Watch S5 قبل الموعد المحدد بشاشة AMOLED سطوعها 3000 شمعة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%b7%d9%84%d9%82-%d8%a7%d9%84%d8%b3%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%b5%d8%ba%d8%b1-watch-s5-%d9%82%d8%a8%d9%84/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-14T16:00:14Z",
-      "category": "أخبار التقنية",
-      "title_ar": "شاومي تطلق الساعة الذكية الأصغر Watch S5 قبل الموعد المحدد بشاشة AMOLED سطوعها 3000 شمعة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "من الدعاوى القضائية إلى السجادة الحمراء.. أول حفل جوائز لموسيقى الذكاء الاصطناعي في أميركا",
-      "url": "https://techvoicearabia.com/ai-music-awards-2026-los-angeles-xania-monet/",
+      "title": "الصين تختبر طائرة كهربائية تتسع لـ19 راكبًا.. هل تدخل سوق الطيران الخاص؟",
+      "url": "https://techvoicearabia.com/comac-ce25a-electric-aircraft-first-crewed-fly/",
       "source": "techvoice",
       "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-14T15:16:59Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "من الدعاوى القضائية إلى السجادة الحمراء.. أول حفل جوائز لموسيقى الذكاء الاصطناعي في أميركا",
+      "published_at": "2026-11-15T09:57:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الصين تختبر طائرة كهربائية تتسع لـ19 راكبًا.. هل تدخل سوق الطيران الخاص؟",
       "translation_status": "original_ar"
     },
     {
-      "title": "سامسونج تطلق Galaxy A18 4G في سنغافورة بمعالج مختلف عن النسخة السابقة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%b7%d9%84%d9%82-galaxy-a18-4g-%d9%81%d9%8a-%d8%b3%d9%86%d8%ba%d8%a7%d9%81%d9%88%d8%b1%d8%a9-%d8%a8%d9%85%d8%b9%d8%a7%d9%84%d8%ac-%d9%85%d8%ae%d8%aa/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-14T15:00:25Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سامسونج تطلق Galaxy A18 4G في سنغافورة بمعالج مختلف عن النسخة السابقة",
+      "title": "تحديث Chrome 157 على الحاسوب يصلح 83 ثغرة بينها 5 ثغرات حرجة",
+      "url": "https://arabhardware.net/post-55161",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-15T09:27:29Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "تحديث Chrome 157 على الحاسوب يصلح 83 ثغرة بينها 5 ثغرات حرجة",
       "translation_status": "original_ar"
     },
     {
-      "title": "ChatGPT Wallet: وكلاء OpenAI يشترون ويدفعون نيابة عنك",
-      "url": "https://3arrafni.com/tech-news/chatgpt-wallet-ai-agents-shopping-payments",
+      "title": "One UI 9 آخر تحديث رئيسي لهواتف Galaxy S23 وZ Fold 5 وA54",
+      "url": "https://3arrafni.com/tech-news/one-ui-9-last-update-galaxy-s23-fold-5-a54",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-14T14:34:55Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ChatGPT Wallet: وكلاء OpenAI يشترون ويدفعون نيابة عنك",
+      "published_at": "2026-11-15T08:05:29Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "One UI 9 آخر تحديث رئيسي لهواتف Galaxy S23 وZ Fold 5 وA54",
       "translation_status": "original_ar"
     },
     {
-      "title": "أكثر من 10 آلاف فرصة: اكسب GTA 6 على PS5 وXbox مجانًا مع Twitch",
-      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%a3%d9%83%d8%ab%d8%b1-%d9%85%d9%86-10-%d8%a2%d9%84%d8%a7%d9%81-%d9%81%d8%b1%d8%b5%d8%a9-%d8%a7%d9%83%d8%b3%d8%a8-gta-6-%d8%b9%d9%84%d9%89-ps5-%d9%88xbox-%d9%85%d8%ac%d8%a7%d9%86%d9%8b%d8%a7-%d9%85/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-14T14:22:40Z",
+      "title": "خلل تقني يشل حركة الطيران بأمريكا ويعطل آلاف الرحلات الجوية",
+      "url": "https://www.aljazeera.net/video/2026/11/15/%d8%ae%d9%84%d9%84-%d8%aa%d9%82%d9%86%d9%8a-%d9%8a%d8%b4%d9%84-%d8%ad%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%b7%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-15T07:20:56Z",
       "category": "أخبار التقنية",
-      "title_ar": "أكثر من 10 آلاف فرصة: اكسب GTA 6 على PS5 وXbox مجانًا مع Twitch",
+      "title_ar": "خلل تقني يشل حركة الطيران بأمريكا ويعطل آلاف الرحلات الجوية",
       "translation_status": "original_ar"
     },
     {
-      "title": "داريو أمودي يتوقع أن يجعل AI السرطان وألزهايمر من الماضي خلال عقد",
-      "url": "https://techvoicearabia.com/dario-amodei-ai-cancer-alzheimers-cure-decade-anthropic-ipo/",
+      "title": "ستارشيب تعود من المدار وتُلتقط لأول مرة.. كيف حققت سبيس إكس إنجازًا تاريخيًا؟",
+      "url": "https://techvoicearabia.com/spacex-starship-flight-15-first-orbital-catch/",
       "source": "techvoice",
       "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-14T14:09:46Z",
+      "published_at": "2026-11-15T07:10:48Z",
       "category": "أخبار التقنية",
-      "title_ar": "داريو أمودي يتوقع أن يجعل AI السرطان وألزهايمر من الماضي خلال عقد",
+      "title_ar": "ستارشيب تعود من المدار وتُلتقط لأول مرة.. كيف حققت سبيس إكس إنجازًا تاريخيًا؟",
       "translation_status": "original_ar"
     },
     {
-      "title": "هواوي تستعد لتغيير تصميم هاتف nova Flip القادم بشاشة قابلة للطي أعرض!",
-      "url": "https://www.unlimit-tech.com/2026/11/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b9%d8%af-%d9%84%d8%aa%d8%ba%d9%8a%d9%8a%d8%b1-%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%87%d8%a7%d8%aa%d9%81-nova-flip-%d8%a7%d9%84%d9%82%d8%a7%d8%af/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-14T14:00:45Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هواوي تستعد لتغيير تصميم هاتف nova Flip القادم بشاشة قابلة للطي أعرض!",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث Pixel لشهر نوفمبر يسبب مشاكل بالكاميرا والشحن وWi‑Fi",
-      "url": "https://3arrafni.com/tech-news/pixel-november-2026-update-bugs",
+      "title": "Google Wallet في Gemini: كيف يتتبع الذكاء الاصطناعي إنفاقك وربطه",
+      "url": "https://3arrafni.com/tech-news/google-wallet-gemini-spending-tracking",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-14T13:39:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث Pixel لشهر نوفمبر يسبب مشاكل بالكاميرا والشحن وWi‑Fi",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "عشر صناعات خفية.. من يتحكم في أسعار هاتفك وسيارتك وأجهزتك الحديثة؟",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/14/%d8%b9%d8%b4%d8%b1-%d8%b5%d9%86%d8%a7%d8%b9%d8%a7%d8%aa-%d8%ae%d9%81%d9%8a%d8%a9-%d9%85%d9%86-%d9%8a%d8%aa%d8%ad%d9%83%d9%85-%d9%81%d9%8a-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-14T13:14:56Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "عشر صناعات خفية.. من يتحكم في أسعار هاتفك وسيارتك وأجهزتك الحديثة؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "OpenAI تطلق ChatGPT Wallet لتمكين وكلائها الذكيين من شراء المنتجات نيابةً عنك",
-      "url": "https://www.unlimit-tech.com/2026/11/openai-%d8%aa%d8%b7%d9%84%d9%82-chatgpt-wallet-%d9%84%d8%aa%d9%85%d9%83%d9%8a%d9%86-%d9%88%d9%83%d9%84%d8%a7%d8%a6%d9%87%d8%a7-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d9%8a%d9%86-%d9%85%d9%86-%d8%b4%d8%b1/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-14T13:00:03Z",
+      "published_at": "2026-11-15T07:10:29Z",
       "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تطلق ChatGPT Wallet لتمكين وكلائها الذكيين من شراء المنتجات نيابةً عنك",
+      "title_ar": "Google Wallet في Gemini: كيف يتتبع الذكاء الاصطناعي إنفاقك وربطه",
       "translation_status": "original_ar"
     },
     {
-      "title": "تحديث tvOS 27.2.1 يضيف Siri AI إلى طرازات Apple TV 4K الأقدم",
-      "url": "https://3arrafni.com/tech-news/tvos-27-2-1-siri-ai-older-apple-tv-4k",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-14T12:44:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث tvOS 27.2.1 يضيف Siri AI إلى طرازات Apple TV 4K الأقدم",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "جوجل تتيح لـ Gemini تحليل إنفاقك عبر Google Wallet ومساعدتك في إدارة ميزانيتك",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%ac%d9%88%d8%ac%d9%84-%d8%aa%d8%aa%d9%8a%d8%ad-%d9%84%d9%80-gemini-%d8%aa%d8%ad%d9%84%d9%8a%d9%84-%d8%a5%d9%86%d9%81%d8%a7%d9%82%d9%83-%d8%b9%d8%a8%d8%b1-google-wallet-%d9%88%d9%85%d8%b3%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-14T12:00:04Z",
+      "title": "تحليل: شركات مرتبطة بتشييد مراكز بيانات الذكاء الاصطناعي تفقد 4.2 تريليونات دولار من قيمتها السوقية",
+      "url": "https://aitnews.com/2026/11/15/ai-data-centre-supplier-stocks-4-2-trillion-selloff/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-15T06:49:23Z",
       "category": "الذكاء الاصطناعي",
-      "title_ar": "جوجل تتيح لـ Gemini تحليل إنفاقك عبر Google Wallet ومساعدتك في إدارة ميزانيتك",
+      "title_ar": "تحليل: شركات مرتبطة بتشييد مراكز بيانات الذكاء الاصطناعي تفقد 4.2 تريليونات دولار من قيمتها السوقية",
       "translation_status": "original_ar"
     },
     {
-      "title": "مربع Run الجديد في Windows 11: أبرز التغييرات وطريقة تفعيله",
-      "url": "https://3arrafni.com/tech-news/windows-11-new-run-dialog",
+      "title": "تحقيق: «ميجاسبيد» رتبت طلبات لرقاقات إنفيديا بنحو 12 مليار دولار لشركات صينية",
+      "url": "https://aitnews.com/2026/11/15/megaspeed-nvidia-chips-12-billion-china-wsj-investigation/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-15T06:27:10Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحقيق: «ميجاسبيد» رتبت طلبات لرقاقات إنفيديا بنحو 12 مليار دولار لشركات صينية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مجموعة SilentAir تخترق شبكات الهاتف لاعتراض رموز تسجيل الدخول عبر SMS",
+      "url": "https://3arrafni.com/tech-news/silentair-sms-login-code-hijacking",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-14T11:49:55Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "مربع Run الجديد في Windows 11: أبرز التغييرات وطريقة تفعيله",
+      "published_at": "2026-11-15T06:15:29Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "مجموعة SilentAir تخترق شبكات الهاتف لاعتراض رموز تسجيل الدخول عبر SMS",
       "translation_status": "original_ar"
     },
     {
-      "title": "لبؤة تقتل شابا.. تصوير مقطع تيك توك ينتهي بمأساة",
-      "url": "https://www.aljazeera.net/misc/2026/11/14/%d9%84%d8%a8%d8%a4%d8%a9-%d8%aa%d9%82%d8%aa%d9%84-%d8%b4%d8%a7%d8%a8%d8%a7-%d8%aa%d8%b5%d9%88%d9%8a%d8%b1-%d9%85%d9%82%d8%b7%d8%b9-%d8%aa%d9%8a%d9%83-%d8%aa%d9%88%d9%83?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-14T11:44:12Z",
+      "title": "Starship Flight 15 يصل إلى المدار ويطلق 26 قمراً من Starlink",
+      "url": "https://3arrafni.com/tech-news/starship-flight-15-orbit-starlink-satellites-ship-catch",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-15T05:20:29Z",
       "category": "أخبار التقنية",
-      "title_ar": "لبؤة تقتل شابا.. تصوير مقطع تيك توك ينتهي بمأساة",
+      "title_ar": "Starship Flight 15 يصل إلى المدار ويطلق 26 قمراً من Starlink",
       "translation_status": "original_ar"
     },
     {
-      "title": "روكيت لاب تسجل 100 عملية إطلاق لـ «إلكترون» لوضع قمرًا يابانيًا في المدار",
+      "title": "فتح طلبات Tesla Cybercab بسعر 29,990 دولاراً واشتراك شهري",
+      "url": "https://3arrafni.com/tech-news/tesla-cybercab-orders-price-subscription",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-15T04:25:29Z",
+      "category": "أخبار التقنية",
+      "title_ar": "فتح طلبات Tesla Cybercab بسعر 29,990 دولاراً واشتراك شهري",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إيطاليا تُغرم ميتا 805 ملايين يورو بسبب وصولها إلى صور مستخدمي \"أندرويد\" دون موافقتهم",
+      "url": "https://www.bbc.com/arabic/articles/cw3dgep0l30ko?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-15T03:02:18Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "إيطاليا تُغرم ميتا 805 ملايين يورو بسبب وصولها إلى صور مستخدمي \"أندرويد\" دون موافقتهم",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سبيس إكس تنجح للمرة الأولى في التقاط «ستارشيب» العائدة من المدار",
+      "url": "https://aitnews.com/2026/11/15/spacex-starship-first-orbital-ship-catch-2026/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-15T01:41:55Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سبيس إكس تنجح للمرة الأولى في التقاط «ستارشيب» العائدة من المدار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مستثمران كبيران في Nvidia يطلبان إبقاء عودة Jensen Huang خيارًا مفتوحًا",
+      "url": "https://techvoicearabia.com/nvidia-investors-jensen-huang-return-altimeter-atreides/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-14T21:40:33Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مستثمران كبيران في Nvidia يطلبان إبقاء عودة Jensen Huang خيارًا مفتوحًا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Lilly تكشف بيانات جديدة للسمنة: EloraTZP يخفض الوزن 23.3% و Zepbound يقلص BMI للمراهقين 21.4%",
+      "url": "https://techvoicearabia.com/lilly-eloratzp-zepbound-obesityweek-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-14T20:50:32Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Lilly تكشف بيانات جديدة للسمنة: EloraTZP يخفض الوزن 23.3% و Zepbound يقلص BMI للمراهقين 21.4%",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إيطاليا تغرم Meta بـ805 ملايين يورو بسبب وصول Facebook إلى صور Android",
+      "url": "https://techvoicearabia.com/italy-meta-805-million-fine-facebook-android-photo-access/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-14T19:50:00Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "إيطاليا تغرم Meta بـ805 ملايين يورو بسبب وصول Facebook إلى صور Android",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كيف تستعيد أيقونة Apple Music الحمراء على آيفون خطوة بخطوة؟",
+      "url": "https://arabhardware.net/post-55160",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-14T18:19:44Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "كيف تستعيد أيقونة Apple Music الحمراء على آيفون خطوة بخطوة؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "روكيت لاب تنفّذ الإطلاق المئة لصاروخ «إلكترون» وتضع قمرًا صناعيًا يابانيًا في المدار",
       "url": "https://aitnews.com/2026/11/14/rocket-lab-electron-100th-launch-japanese-satellite/",
       "source": "aitnews",
       "source_name": "البوابة التقنية",
       "published_at": "2026-11-14T11:14:14Z",
       "category": "أخبار التقنية",
-      "title_ar": "روكيت لاب تسجل 100 عملية إطلاق لـ «إلكترون» لوضع قمرًا يابانيًا في المدار",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "عطل مايكروسوفت.. 19 ساعة بلا بريد والفاتورة بالمليارات",
-      "url": "https://www.aljazeera.net/tech/2026/11/14/%d8%b9%d8%b7%d9%84-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-19-%d8%b3%d8%a7%d8%b9%d8%a9-%d8%a8%d9%84%d8%a7-%d8%a8%d8%b1%d9%8a%d8%af?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-14T11:13:42Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "عطل مايكروسوفت.. 19 ساعة بلا بريد والفاتورة بالمليارات",
+      "title_ar": "روكيت لاب تنفّذ الإطلاق المئة لصاروخ «إلكترون» وتضع قمرًا صناعيًا يابانيًا في المدار",
       "translation_status": "original_ar"
     },
     {
@@ -173,126 +193,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "تفاصيل مهمة سبيس إكس الـ”15″.. ماذا حدث؟",
-      "url": "https://techvoicearabia.com/spacex-starship-flight-15-booster-explosion/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-14T11:03:27Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تفاصيل مهمة سبيس إكس الـ”15″.. ماذا حدث؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«تحكيم» يناقش دور الذكاء الاصطناعي وحدوده في تسوية المنازعات",
-      "url": "https://aitnews.com/2026/11/14/%d8%aa%d8%ad%d9%83%d9%8a%d9%85-%d9%8a%d9%86%d8%a7%d9%82%d8%b4-%d8%af%d9%88%d8%b1-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%88%d8%ad/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-14T10:56:44Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "«تحكيم» يناقش دور الذكاء الاصطناعي وحدوده في تسوية المنازعات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إميركوم تنال اعتماد سيسكو للشبكات الآمنة وتفوز بجائزتين إقليميتين",
-      "url": "https://aitnews.com/2026/11/14/emircom-cisco-secure-networking-awards/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-14T10:55:11Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إميركوم تنال اعتماد سيسكو للشبكات الآمنة وتفوز بجائزتين إقليميتين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هيوماين تطلق منظومة الذكاء الاصطناعي الكاملة في 15 ديسمبر",
-      "url": "https://3arrafni.com/tech-news/humain-ai-stack-launch-december-15",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-14T10:54:55Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "هيوماين تطلق منظومة الذكاء الاصطناعي الكاملة في 15 ديسمبر",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«الغرير للسيارات» تستعرض «إكسيد ET8» بتقنية موسّع المدى في دبي",
-      "url": "https://aitnews.com/2026/11/14/%d8%a7%d9%84%d8%ba%d8%b1%d9%8a%d8%b1-%d9%84%d9%84%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%a5%d9%83%d8%b3%d9%8a%d8%af-et8-%d8%a8%d8%aa%d9%82/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-14T10:51:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "«الغرير للسيارات» تستعرض «إكسيد ET8» بتقنية موسّع المدى في دبي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أميركا توقف إقلاع الطائرات في جميع مطاراتها.. ماذا حدث؟",
-      "url": "https://techvoicearabia.com/us-flights-grounded-faa-outage-trump-2026/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-14T09:33:58Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أميركا توقف إقلاع الطائرات في جميع مطاراتها.. ماذا حدث؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
-      "url": "https://technologyarabia.com/archives/18053/openai-chatgpt-wallet-ai-agents-payments-commerce/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-14T09:21:00Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
-      "url": "https://technologyarabia.com/archives/18048/%d8%a5%d9%85%d9%8a%d8%b1%d9%83%d9%88%d9%85-%d8%a3%d9%88%d9%84-%d8%b4%d8%b1%d9%8a%d9%83-%d9%84%d9%80%d8%b3%d9%8a%d8%b3%d9%83%d9%88-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-14T09:02:30Z",
-      "category": "أخبار التقنية",
-      "title_ar": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "لينوفو تكشف عن إصدار Where Winds Meet لجهاز Legion Y700 Gen 5",
-      "url": "https://www.tech-wd.com/wd/2026/11/14/%d9%84%d9%8a%d9%86%d9%88%d9%81%d9%88-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-where-winds-meet-%d9%84%d8%ac%d9%87%d8%a7%d8%b2-legion-y700-gen-5/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-14T06:58:18Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لينوفو تكشف عن إصدار Where Winds Meet لجهاز Legion Y700 Gen 5",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "شكاوى من فقدان أكواد تحميل GTA 6 في النسخ الفيزيائية وروكستار ترفض المساعدة",
-      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%85%d9%86-%d9%81%d9%82%d8%af%d8%a7%d9%86-%d8%a3%d9%83%d9%88%d8%a7%d8%af-%d8%aa%d8%ad%d9%85%d9%8a%d9%84-gta-6-%d9%81%d9%8a-%d8%a7%d9%84%d9%86%d8%b3%d8%ae-%d8%a7%d9%84/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-14T06:48:25Z",
-      "category": "أخبار التقنية",
-      "title_ar": "شكاوى من فقدان أكواد تحميل GTA 6 في النسخ الفيزيائية وروكستار ترفض المساعدة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب يحدد الألوان الخمسة المرتقبة لسلسلة Galaxy S27 من سامسونج",
-      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%8a%d8%ad%d8%af%d8%af-%d8%a7%d9%84%d8%a3%d9%84%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d8%ae%d9%85%d8%b3%d8%a9-%d8%a7%d9%84%d9%85%d8%b1%d8%aa%d9%82%d8%a8%d8%a9-%d9%84%d8%b3/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-14T06:42:55Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريب يحدد الألوان الخمسة المرتقبة لسلسلة Galaxy S27 من سامسونج",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سامسونج توسع اختبار One UI 9.5 تمهيدًا لإطلاق جالكسي S27",
-      "url": "https://www.tech-wd.com/wd/2026/11/14/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d9%88%d8%b3%d8%b9-%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1-one-ui-9-5-%d8%aa%d9%85%d9%87%d9%8a%d8%af%d9%8b%d8%a7-%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-14T06:38:36Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سامسونج توسع اختبار One UI 9.5 تمهيدًا لإطلاق جالكسي S27",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
       "url": "https://arabhardware.net/post-55159",
       "source": "hardware",
@@ -300,26 +200,6 @@
       "published_at": "2026-11-14T01:51:05Z",
       "category": "أخبار التقنية",
       "title_ar": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مايكروسوفت تعتذر عن العطل في خدماتها وتنفي ارتباطه بهجوم سيبراني",
-      "url": "https://www.bbc.com/arabic/articles/ck1l04y736q9o?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-13T21:34:25Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "مايكروسوفت تعتذر عن العطل في خدماتها وتنفي ارتباطه بهجوم سيبراني",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
-      "url": "https://technologyarabia.com/archives/18039/microsoft-global-outage-november-2026/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-13T20:25:12Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
       "translation_status": "original_ar"
     },
     {
@@ -343,23 +223,23 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "لعبة ببجي موبايل تُطلق نسخة\" ببجي موبايل فلاش\" الخفيفة",
-      "url": "https://arabhardware.net/post-55157",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-13T14:23:31Z",
+      "title": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
+      "url": "https://www.bbc.com/arabic/watch/cwg7x7k3meljo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-10T14:41:30Z",
       "category": "أخبار التقنية",
-      "title_ar": "لعبة ببجي موبايل تُطلق نسخة\" ببجي موبايل فلاش\" الخفيفة",
+      "title_ar": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
       "translation_status": "original_ar"
     },
     {
-      "title": "هاتف OPPO A7 Pro 5G يصل أوروبا ببطارية 7,400mAh وشحن 80 واط",
-      "url": "https://arabhardware.net/post-55155",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-13T10:41:50Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هاتف OPPO A7 Pro 5G يصل أوروبا ببطارية 7,400mAh وشحن 80 واط",
+      "title": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
+      "url": "https://www.bbc.com/arabic/watch/cmlykq5k89djo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-06T07:04:21Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
       "translation_status": "original_ar"
     }
   ],
@@ -374,7 +254,7 @@
       "id": "techwd",
       "name": "عالم التقنية",
       "url": "https://www.tech-wd.com/wd/",
-      "active": true
+      "active": false
     },
     {
       "id": "hardware",
@@ -392,7 +272,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "arrafni",
@@ -422,7 +302,7 @@
       "id": "unlimit",
       "name": "التقنية بلا حدود",
       "url": "https://www.unlimit-tech.com/",
-      "active": true
+      "active": false
     }
   ],
   "copyright": "Headlines, dates, attribution and links only; read full articles on original publishers.",

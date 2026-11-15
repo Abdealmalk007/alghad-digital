@@ -2,7 +2,7 @@
 
 برنامج Windows لتحليل ملفات Excel وتنظيم البيانات وعرض النتائج والتقارير.
 
-منصة تحليل بيانات محلية للحاسب، تجمع أدوات معالجة جداول Excel والتحليل والإحصاءات وإخراج النتائج. النسخة 30.7.6 تعالج شاشة الترخيص والإقلاع وتعرض تحليلاً تلقائيًا ولوحة مؤشرات ورسومًا. الإصدار Beta وغير موقّع رقميًا.
+منصة تحليل بيانات محلية للحاسب، تجمع أدوات معالجة جداول Excel والتحليل والإحصاءات وإخراج النتائج. الإصدار 30.7.6 يُصلح إقلاع البرنامج واتفاقية الترخيص، ويعرض Dashboard تفاعليًا تلقائيًا عند فتح ملف Excel، مع نسخة Portable. الإصدار Beta وغير موقّع رقميًا.
 
 ## المزايا الرئيسية
 
@@ -21,9 +21,8 @@
 
 ## التثبيت والتشغيل
 
-- [تحميل مثبت Windows EXE — 30.7.6](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_Setup.exe)
-- [تحميل النسخة المحمولة Windows Portable ZIP](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_PORTABLE.zip)
-- [التحقق من SHA-256](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SHA256SUMS.txt)
+- [تنزيل برنامج التثبيت Windows EXE](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_Setup.exe)
+- [تنزيل النسخة المحمولة Portable ZIP](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_PORTABLE.zip)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 
