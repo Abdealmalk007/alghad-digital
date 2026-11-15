@@ -121,6 +121,11 @@ async function main() {
     assert.ok(editorialCounts.sources>=10,"Official news source directory");
     assert.ok(editorialCounts.headlineCount>=5);
     // Verify real, first-party sitewide search across programs and refreshed news.
+    // Search UI is mounted by an independent deferred script; avoid a timing race.
+    for(let attempt=0;attempt<80;attempt++){
+      if(await evaluate('document.querySelectorAll("#sitewide-search-trigger").length')===1) break;
+      await delay(100);
+    }
     assert.equal(await evaluate('document.querySelectorAll("#sitewide-search-trigger").length'),1,"Search control should exist");
     await evaluate('document.getElementById("sitewide-search-trigger").click()');
     for(let attempt=0;attempt<70;attempt++){
