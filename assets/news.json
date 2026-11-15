@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-15T12:06:25Z",
+  "generated_at": "2026-11-15T12:42:43Z",
   "articles": [
     {
       "title": "الصين تختبر طائرة كهربائية تتسع لـ19 راكبًا.. هل تدخل سوق الطيران الخاص؟",
@@ -33,13 +33,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "خلل تقني يشل حركة الطيران بأمريكا ويعطل آلاف الرحلات الجوية",
+      "title": "خلل تقني يشل حركة الطيران في أمريكا ويعطل آلاف الرحلات الجوية",
       "url": "https://www.aljazeera.net/video/2026/11/15/%d8%ae%d9%84%d9%84-%d8%aa%d9%82%d9%86%d9%8a-%d9%8a%d8%b4%d9%84-%d8%ad%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d8%b7%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7?traffic_source=rss",
       "source": "aljazeera",
       "source_name": "الجزيرة نت",
       "published_at": "2026-11-15T07:20:56Z",
       "category": "أخبار التقنية",
-      "title_ar": "خلل تقني يشل حركة الطيران بأمريكا ويعطل آلاف الرحلات الجوية",
+      "title_ar": "خلل تقني يشل حركة الطيران في أمريكا ويعطل آلاف الرحلات الجوية",
       "translation_status": "original_ar"
     },
     {
@@ -193,6 +193,26 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
+      "url": "https://technologyarabia.com/archives/18053/openai-chatgpt-wallet-ai-agents-payments-commerce/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-14T09:21:00Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
+      "url": "https://technologyarabia.com/archives/18048/%d8%a5%d9%85%d9%8a%d8%b1%d9%83%d9%88%d9%85-%d8%a3%d9%88%d9%84-%d8%b4%d8%b1%d9%8a%d9%83-%d9%84%d9%80%d8%b3%d9%8a%d8%b3%d9%83%d9%88-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-14T09:02:30Z",
+      "category": "أخبار التقنية",
+      "title_ar": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
       "url": "https://arabhardware.net/post-55159",
       "source": "hardware",
@@ -200,6 +220,16 @@
       "published_at": "2026-11-14T01:51:05Z",
       "category": "أخبار التقنية",
       "title_ar": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
+      "url": "https://technologyarabia.com/archives/18039/microsoft-global-outage-november-2026/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-13T20:25:12Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
       "translation_status": "original_ar"
     },
     {
@@ -220,6 +250,26 @@
       "published_at": "2026-11-13T14:43:25Z",
       "category": "أخبار التقنية",
       "title_ar": "وداعًا أيها العرّاب| المرأة التي أطاحت بـ هوانغ ومستقبل NVIDIA الضبابي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
+      "url": "https://technologyarabia.com/archives/18025/%d9%8a%d9%88%d8%ac%d8%b1%d9%8a%d9%86-%d8%aa%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%aa%d8%ad%d9%88%d9%84-%d9%86%d8%ad%d9%88-%d8%a8%d9%8a%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-12T17:34:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
+      "url": "https://technologyarabia.com/archives/17930/google-deepmind-ai-formal-verification-signal-security/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-12T06:31:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
       "translation_status": "original_ar"
     },
     {
@@ -272,7 +322,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": false
+      "active": true
     },
     {
       "id": "arrafni",
