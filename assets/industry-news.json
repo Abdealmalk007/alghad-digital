@@ -1,10 +1,49 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T17:29:55Z",
+  "generated_at": "2026-11-16T20:57:10Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+          "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-16T20:00:37Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "كيف تخترع سلسلة توريد البنية التحتية للذكاء الاصطناعي الأكثر تقدمًا في العالم المستقبل",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge, Becoming First AI Factory for DOE’s Genesis Mission",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
+          "source": "amd",
+          "source_name": "AMD",
+          "published_at": "2026-11-16T19:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "الحاسوب العملاق Lux الذي يعمل بمعالجات AMD يفتح أبوابه للمستخدمين العلميين في أوك ريدج، ليصبح أول مصنع للذكاء الاصطناعي لمهمة Genesis التابعة لوزارة الطاقة الأمريكية",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Regional voices are rolling out in the Gemini app.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-16T18:45:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "تُطرح الأصوات الإقليمية في تطبيق Gemini.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Broadening access to AI for scientists",
           "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
@@ -84,6 +123,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Transform notes, research, and sources into interactive sites with Gemini Notebook.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-16T16:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "حوّل الملاحظات والأبحاث والمصادر إلى مواقع تفاعلية باستخدام Gemini Notebook.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "New Ask Maps features to help with holiday travel and prep",
           "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
           "source": "googleai",
@@ -123,6 +175,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Our first phase of embedded assessments",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-16T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "مرحلتنا الأولى من التقييمات المضمنة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "What teenagers really think about online safety and AI",
           "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/what-teenagers-really-think-about-online-safety-and-ai/",
           "source": "google",
@@ -136,19 +201,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Advancing computer-use agents for healthcare teams",
-          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-16T06:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "النهوض بوكلاء استخدام الكمبيوتر لفرق الرعاية الصحية",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
           "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
           "source": "nvidia",
@@ -158,32 +210,6 @@
           "official": true,
           "topic": "ai",
           "title_ar": "يجمع يوم الذكاء الاصطناعي في سيول قادة الصناعة والشركات الناشئة ومجتمعات المطورين في كوريا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Claim your Google Cloud Credits in Google AI Studio",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-13T20:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "المطالبة بأرصدة Google Cloud الخاصة بك في Google AI Studio",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Connect Google Wallet to Gemini for personal finance insights",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-13T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "اربط Google Wallet بـ Gemini للحصول على رؤى مالية شخصية",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -212,38 +238,64 @@
           "title_ar": "يحصل محرك بحث Google على تحديث كبير مع Gemini 4 Hydrogen",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "From AI ambition to business impact",
-          "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/",
-          "source": "microsoft",
-          "source_name": "Microsoft",
-          "published_at": "2026-11-12T17:00:03Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "من طموح الذكاء الاصطناعي إلى التأثير على الأعمال",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
-          "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
-          "source": "microsoft",
-          "source_name": "Microsoft",
-          "published_at": "2026-11-12T16:00:02Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "توسيع نطاق قيمة الذكاء الاصطناعي دون فقدان السيطرة: دروس من الشركات الرائدة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+          "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-16T20:00:37Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "كيف تخترع سلسلة توريد البنية التحتية للذكاء الاصطناعي الأكثر تقدمًا في العالم المستقبل",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge, Becoming First AI Factory for DOE’s Genesis Mission",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
+          "source": "amd",
+          "source_name": "AMD",
+          "published_at": "2026-11-16T19:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "الحاسوب العملاق Lux الذي يعمل بمعالجات AMD يفتح أبوابه للمستخدمين العلميين في أوك ريدج، ليصبح أول مصنع للذكاء الاصطناعي لمهمة Genesis التابعة لوزارة الطاقة الأمريكية",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Regional voices are rolling out in the Gemini app.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-16T18:45:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تُطرح الأصوات الإقليمية في تطبيق Gemini.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "The era of autonomous attacks has arrived.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-16T18:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "لقد حل عصر الهجمات المستقلة.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "New Google AdMob AI tools help app creators build, fix, and grow faster",
           "url": "https://blog.google/products/publisher-connections/new-google-admob-tools/",
@@ -310,19 +362,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
-          "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-16T16:00:11Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "CUDA في عامها العشرين: كيف أحدثت المنصة تحولاً في الحوسبة العلمية",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "New AI training performance benchmarks for Google TPUs",
           "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/training-performance-benchmarks-tpus/",
           "source": "google",
@@ -336,6 +375,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Transform notes, research, and sources into interactive sites with Gemini Notebook.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-16T16:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "حوّل الملاحظات والأبحاث والمصادر إلى مواقع تفاعلية باستخدام Gemini Notebook.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "AMD Completes Acquisition of World Labs",
           "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
           "source": "amd",
@@ -345,45 +397,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "تكمل AMD عملية الاستحواذ على World Labs",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "How to find the best Black Friday deals and shop smarter",
-          "url": "https://blog.google/products-and-platforms/products/shopping/black-friday-cyber-monday-shopping-tips-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T14:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "كيفية العثور على أفضل عروض الجمعة البيضاء والتسوق بذكاء أكبر",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "New Ask Maps features to help with holiday travel and prep",
-          "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T14:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "ميزات جديدة في Ask Maps للمساعدة في السفر والاستعداد للعطلات",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Navigate holiday traffic and crowds with Google Maps trends",
-          "url": "https://blog.google/products-and-platforms/products/maps/holiday-thanksgiving-travel-trends-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T14:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تعرّف على حركة المرور والازدحام خلال العطلات من خلال مؤشرات اتجاهات خرائط Google",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -464,19 +477,6 @@
           "title_ar": "من طموح الذكاء الاصطناعي إلى التأثير على الأعمال",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
-          "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
-          "source": "microsoft",
-          "source_name": "Microsoft",
-          "published_at": "2026-11-12T16:00:02Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "توسيع نطاق قيمة الذكاء الاصطناعي دون فقدان السيطرة: دروس من الشركات الرائدة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
@@ -497,6 +497,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Porsche 718/2: From sports car to Formula One frontrunner",
+          "url": "https://newsroom.porsche.com/en/2026/history/porsche-single-seater-history-718-formula-2-43724.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-13T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "بورشه 718/2: من سيارة رياضية إلى متسابقة رائدة في الفورمولا ون",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Toyota Recalls Front Passenger Airbags in Certain Vehicles",
           "url": "https://pressroom.toyota.com/toyota-recalls-front-passenger-airbags-in-certain-vehicles/",
           "source": "toyota",
@@ -506,6 +519,19 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تستدعي الوسائد الهوائية للراكب الأمامي في بعض المركبات",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Banzai Legacy Lab: Culture in Motion",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-banzai-legacy-lab-thomas-schlereth-43717.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-12T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "مختبر بانزاي ليغاسي: الثقافة في حركة",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -536,6 +562,32 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Twelve talented drivers compete for the status of Porsche Junior 2027",
+          "url": "https://newsroom.porsche.com/en/2026/motorsports/porsche-junior-2027-young-racing-driver-preview-43703.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-11T11:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "يتنافس اثنا عشر سائقًا موهوبًا على لقب بورشه جونيور 2027",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "From Dependency to Sovereignty",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-consulting-from-dependency-to-sovereignty-43684.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-11T09:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "من التبعية إلى السيادة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Toyota Says ‘Okei’ to America: Introducing the Scion by Toyota Brand and KEI-01",
           "url": "https://pressroom.toyota.com/toyota-says-okei-to-america-introducing-the-scion-by-toyota-brand-and-kei-01/",
           "source": "toyota",
@@ -545,6 +597,19 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تقول \"أوكي\" لأمريكا: تقديم السليل من قبل علامة تويوتا التجارية و KEI -01",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Porsche Timepieces: A new era of timekeeping",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-design-timepiece-manufactory-43559.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-10T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "ساعات بورشه: عصر جديد من قياس الوقت",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -649,71 +714,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تعلن شركة سوبارو عن التغييرات التنظيمية (اعتبارًا من 1 نوفمبر 2026)",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Toyota and Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
-          "url": "https://global.toyota/en/newsroom/corporate/44960881.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-10-30T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا ووايمو تعززان التعاون في مجال القيادة الذاتية من أجل شوارع أكثر أمانًا وحرية التنقل للجميع",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "The SUBARU Group Releases the Integrated Report 2026 and Sustainability Web 2026",
-          "url": "https://www.subaru.co.jp/news-en/2026_10_30_103257/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-10-30T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تصدر مجموعة SUBARU التقرير المتكامل لعام 2026 وموقع الويب الخاص بالاستدامة لعام 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Sales, Production, and Export Results for the First Half (April-September) of FY2027",
-          "url": "https://global.toyota/en/company/profile/production-sales-figures/202609.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-10-29T04:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "نتائج المبيعات والإنتاج والتصدير للنصف الأول (أبريل - سبتمبر) من السنة المالية 2027",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche Engineering and Porsche Digital combine their expertise",
-          "url": "https://newsroom.porsche.com/en/2026/company/porsche-engineering-digital-combine-expertise-porsche-technologies-43556.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-10-21T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تجمع بورش للهندسة وبورش الرقمية خبراتهما معًا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "HONDA SHOWCASES MULTIPLE MOBILITY INNOVATIONS AT JAPAN MOBILITY SHOW BIZWEEK AND CEATEC 2026",
-          "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/591488/honda-showcases-multiple-mobility-innovations-at-japan-mobility-show-bizweek-and-ceatec-2026",
-          "source": "honda",
-          "source_name": "Honda",
-          "published_at": "2026-10-19T12:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "هوندا تعرض العديد من ابتكارات التنقل في معرض اليابان للتنقل BIZWEEK وCEATEC 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }

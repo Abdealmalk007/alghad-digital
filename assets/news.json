@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T17:29:53Z",
+  "generated_at": "2026-11-16T20:57:07Z",
   "articles": [
+    {
+      "title": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
+      "url": "https://www.bbc.com/arabic/articles/cm62p3x05xgwo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-16T19:27:24Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بنوك أمريكية بارزة تتوقف عن العمل فجأة.. هل حدث هجوم سيبراني؟",
+      "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%a8%d9%86%d9%88%d9%83-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%a8%d8%a7%d8%b1%d8%b2%d8%a9-%d8%aa%d8%aa%d9%88%d9%82%d9%81-%d8%b9%d9%86-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%81%d8%ac%d8%a3%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T17:37:54Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "بنوك أمريكية بارزة تتوقف عن العمل فجأة.. هل حدث هجوم سيبراني؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسلا تستثمر 3.4 مليارات دولار لتوسيع مصنعها في ألمانيا",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d8%aa%d8%b3%d9%84%d8%a7-%d8%aa%d8%b3%d8%aa%d8%ab%d9%85%d8%b1-3-4-%d9%85%d9%84%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%84%d8%aa%d9%88%d8%b3%d9%8a%d8%b9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T17:37:45Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تسلا تستثمر 3.4 مليارات دولار لتوسيع مصنعها في ألمانيا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "المركزي الأوروبي والفدرالي الأمريكي يحذران من مخاطر الذكاء الاصطناعي على الاستقرار المالي",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d8%a7%d9%84%d9%85%d8%b1%d9%83%d8%b2%d9%8a-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a-%d9%88%d8%a7%d9%84%d9%81%d8%af%d8%b1%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T17:24:05Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "المركزي الأوروبي والفدرالي الأمريكي يحذران من مخاطر الذكاء الاصطناعي على الاستقرار المالي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ميزة Remote Lock في Windows 11 تتيح لقسم IT قفل أجهزة العمل المفقودة",
+      "url": "https://3arrafni.com/tech-news/windows-11-remote-lock-intune",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T17:20:02Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "ميزة Remote Lock في Windows 11 تتيح لقسم IT قفل أجهزة العمل المفقودة",
+      "translation_status": "original_ar"
+    },
     {
       "title": "تطبيق Apple Health AI يختبر روبوتاً للإجابة عن الأسئلة الصحية",
       "url": "https://3arrafni.com/tech-news/apple-health-ai-study-app",
@@ -43,26 +93,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "رفيق لا يمل من الإصغاء.. هل يجعلنا الذكاء الاصطناعي أكثر وحدة؟",
-      "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%b1%d9%81%d9%8a%d9%82-%d9%84%d8%a7-%d9%8a%d9%85%d9%84-%d9%85%d9%86-%d8%a7%d9%84%d8%a5%d8%b5%d8%ba%d8%a7%d8%a1-%d9%87%d9%84-%d9%8a%d8%ac%d8%b9%d9%84%d9%86%d8%a7?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T13:35:09Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "رفيق لا يمل من الإصغاء.. هل يجعلنا الذكاء الاصطناعي أكثر وحدة؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الأزمات التقنية الأخيرة تدفع للتساؤل.. هل ينهار العالم؟",
-      "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%a7%d9%84%d8%a3%d8%b2%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1%d8%a9-%d8%aa%d8%af%d9%81%d8%b9-%d9%84%d9%84%d8%aa%d8%b3%d8%a7%d8%a4%d9%84?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T13:31:50Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الأزمات التقنية الأخيرة تدفع للتساؤل.. هل ينهار العالم؟",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "جمعية تكنولوجيا المستهلك تكرّم أحدث منتجات سامسونج قبيل انطلاق معرض CES 2027",
       "url": "https://technologyarabia.com/archives/18126/%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%87%d9%84%d9%83-%d8%aa%d9%83%d8%b1%d9%91%d9%85-%d8%a3%d8%ad%d8%af%d8%ab-%d9%85/",
       "source": "technologyarabia",
@@ -73,16 +103,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "FBI تحذر من استخدام ARTEX AI في هجمات إلكترونية عالمية",
-      "url": "https://3arrafni.com/tech-news/fbi-warns-artex-ai-cyberattacks",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T12:45:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "FBI تحذر من استخدام ARTEX AI في هجمات إلكترونية عالمية",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "تقنية DLSS 5 تصل إلى لعبة Hogwarts Legacy| فكيف كانت التجربة؟",
       "url": "https://arabhardware.net/post-55168",
       "source": "hardware",
@@ -90,16 +110,6 @@
       "published_at": "2026-11-16T11:04:31Z",
       "category": "أخبار التقنية",
       "title_ar": "تقنية DLSS 5 تصل إلى لعبة Hogwarts Legacy| فكيف كانت التجربة؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
-      "url": "https://www.bbc.com/arabic/articles/cm62p3x05xgwo?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-16T10:41:39Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
       "translation_status": "original_ar"
     },
     {
