@@ -1,7 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T12:35:02Z",
+  "generated_at": "2026-11-16T12:59:49Z",
   "articles": [
+    {
+      "title": "Apple TV 4K الجديد يضم 8GB من الذاكرة لكن التطبيقات محدودة بـ2GB",
+      "url": "https://3arrafni.com/tech-news/apple-tv-4k-ram-limit-2gb",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T11:50:02Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "Apple TV 4K الجديد يضم 8GB من الذاكرة لكن التطبيقات محدودة بـ2GB",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تقنية DLSS 5 تصل إلى لعبة Hogwarts Legacy| فكيف كانت التجربة؟",
+      "url": "https://arabhardware.net/post-55168",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-16T11:04:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقنية DLSS 5 تصل إلى لعبة Hogwarts Legacy| فكيف كانت التجربة؟",
+      "translation_status": "original_ar"
+    },
     {
       "title": "دبي تخطط لخدمات قضائية مدعومة بالذكاء الاصطناعي للنزاعات الإيجارية",
       "url": "https://3arrafni.com/tech-news/dubai-rental-disputes-centre-ai-plans-fees",
@@ -30,6 +50,16 @@
       "published_at": "2026-11-16T09:55:12Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "\"كل ما درسته كان بلا جدوى\" : كيف يغير الذكاء الاصطناعي مساراتنا المهنية؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "شرائح \"إي سيم\" تمنح المسافرين حرية الاتصال بالإنترنت حول العالم",
+      "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%b4%d8%b1%d8%a7%d8%a6%d8%ad-%d8%a5%d9%8a-%d8%b3%d9%8a%d9%85-%d8%aa%d9%85%d9%86%d8%ad-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d9%81%d8%b1%d9%8a%d9%86-%d8%ad%d8%b1%d9%8a%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T09:37:03Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "شرائح \"إي سيم\" تمنح المسافرين حرية الاتصال بالإنترنت حول العالم",
       "translation_status": "original_ar"
     },
     {
@@ -83,26 +113,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "أسهم أوروبا قرب مستوياتها القياسية رغم خسائر التكنولوجيا",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d8%a7%d9%84%d8%a3%d8%b3%d9%87%d9%85-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a%d8%a9-%d9%82%d8%b1%d8%a8-%d8%a3%d8%b9%d9%84%d9%89-%d9%85%d8%b3%d8%aa%d9%88%d9%8a%d8%a7%d8%aa%d9%87%d8%a7?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T07:48:01Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أسهم أوروبا قرب مستوياتها القياسية رغم خسائر التكنولوجيا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "3 دول لم تتأثر بانقطاع خدمات مايكروسوفت العالمي.. تعرف عليها",
-      "url": "https://www.aljazeera.net/tech/2026/11/16/3-%d8%af%d9%88%d9%84-%d9%84%d9%85-%d8%aa%d8%aa%d8%a3%d8%ab%d8%b1-%d8%a8%d8%a7%d9%86%d9%82%d8%b7%d8%a7%d8%b9-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T07:42:58Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "3 دول لم تتأثر بانقطاع خدمات مايكروسوفت العالمي.. تعرف عليها",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "علي بابا تطلق Qwen4-Max بقدرات متعددة الوسائط وسياق مليون رمز",
       "url": "https://aitnews.com/2026/11/16/alibaba-qwen4-max-multimodal-million-token-context/",
       "source": "aitnews",
@@ -153,16 +163,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ميزة Family Hub تصل إلى إعدادات Pixel لإدارة العائلة بسهولة",
-      "url": "https://3arrafni.com/tech-news/google-pixel-family-hub-settings",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T05:03:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ميزة Family Hub تصل إلى إعدادات Pixel لإدارة العائلة بسهولة",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "دراسة: ارتفاع بلاغات مواد استغلال الأطفال المولّدة بالذكاء الاصطناعي بأكثر من 8400%",
       "url": "https://aitnews.com/2026/11/16/ai-generated-child-abuse-material-reports-childlight-2026/",
       "source": "aitnews",
@@ -200,16 +200,6 @@
       "published_at": "2026-11-15T11:56:23Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "محفظة ChatGPT Wallet تسمح لوكيل الذكاء الاصطناعي بإتمام مشترياتك",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سوني تنهي تطبيق PlayStation Plus على الحاسوب في ديسمبر المقبل",
-      "url": "https://arabhardware.net/post-55162",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-15T11:11:31Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سوني تنهي تطبيق PlayStation Plus على الحاسوب في ديسمبر المقبل",
       "translation_status": "original_ar"
     },
     {
