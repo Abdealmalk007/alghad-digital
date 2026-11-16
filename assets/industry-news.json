@@ -1,10 +1,49 @@
 {
   "version": 1,
-  "generated_at": "2026-11-15T17:40:55Z",
+  "generated_at": "2026-11-16T05:05:42Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+          "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-16T00:00:28Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "يجمع يوم الذكاء الاصطناعي في سيول قادة الصناعة والشركات الناشئة ومجتمعات المطورين في كوريا",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "A step toward defining the Standard Model on a lattice",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-15T22:00:01Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "خطوة نحو تحديد النموذج القياسي على شبكة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Our new blog for science",
+          "url": "https://openai.com/index/our-new-blog-for-science",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-15T22:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "مدونتنا الجديدة للعلوم",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Claim your Google Cloud Credits in Google AI Studio",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
@@ -162,32 +201,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Gondola doubles revenue as its team builds more with Codex",
-          "url": "https://openai.com/business/customer-stories/gondola",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-12T12:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "Gondola تُضاعف إيراداتها مع قيام فريقها بإنشاء المزيد باستخدام Codex",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Holiday Extras is rethinking what it can build with Codex",
-          "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-12T09:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "تعيد Holiday Extras التفكير فيما يمكنها إنشاؤه باستخدام Codex",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
           "source": "googleai",
@@ -225,25 +238,51 @@
           "title_ar": "جرب فن وإرث الدكتورة إستر ماهلانغو",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-          "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-11T03:00:20Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "كيف يساعد الذكاء الاصطناعي القائمين على إعادة التدوير على تحويل النفايات المختلطة إلى مواد قابلة لإعادة الاستخدام",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "Inside Dakar 2026: How Galaxy Innovation Shaped the Athlete Experience",
+          "url": "https://news.samsung.com/global/inside-dakar-2026-how-galaxy-innovation-shaped-the-athlete-experience",
+          "source": "samsung",
+          "source_name": "Samsung",
+          "published_at": "2026-11-16T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "داخل رالي داكار 2026: كيف شكّلت ابتكارات Galaxy تجربة الرياضيين",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Apple launches research study to explore the use of AI for health",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+          "source": "apple",
+          "source_name": "Apple",
+          "published_at": "2026-11-16T01:18:33.934000Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "أبل تطلق دراسة بحثية لاستكشاف استخدام الذكاء الاصطناعي في مجال الصحة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+          "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-16T00:00:28Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "يجمع يوم الذكاء الاصطناعي في سيول قادة الصناعة والشركات الناشئة ومجتمعات المطورين في كوريا",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Samsung’s Latest Products Recognized by Consumer Technology Association Ahead of CES 2027",
           "url": "https://news.samsung.com/global/samsungs-latest-products-recognized-by-consumer-technology-association-ahead-of-ces-2027",
@@ -436,45 +475,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "سامسونج واللجنة الأولمبية الدولية تدعمان المبتكرين الشباب في أول دورة ألعاب أولمبية في أفريقيا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-          "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-11T03:00:20Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "كيف يساعد الذكاء الاصطناعي القائمين على إعادة التدوير على تحويل النفايات المختلطة إلى مواد قابلة لإعادة الاستخدام",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Samsung Gallery Makes It Easier To Access Photos and Videos Across Galaxy Devices",
-          "url": "https://news.samsung.com/global/samsung-gallery-makes-it-easier-to-access-photos-and-videos-across-galaxy-devices",
-          "source": "samsung",
-          "source_name": "Samsung",
-          "published_at": "2026-11-10T21:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "يسهل معرض سامسونج الوصول إلى الصور ومقاطع الفيديو عبر أجهزة جالاكسي",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Statement From the Independent Members of the NVIDIA Board",
-          "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-10T19:07:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "بيان من الأعضاء المستقلين في مجلس إدارة NVIDIA",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }

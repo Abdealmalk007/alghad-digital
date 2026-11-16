@@ -1,7 +1,67 @@
 {
   "version": 1,
-  "generated_at": "2026-11-15T17:40:52Z",
+  "generated_at": "2026-11-16T05:05:40Z",
   "articles": [
+    {
+      "title": "تقرير يحذّر: مراكز البيانات الفضائية قد تحجب النجوم عن السماء الليلية",
+      "url": "https://3arrafni.com/tech-news/space-data-centers-night-sky-stars",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T04:08:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقرير يحذّر: مراكز البيانات الفضائية قد تحجب النجوم عن السماء الليلية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Cloudflare تفتح مصدر محرك Kitesurf الخفيف لوكلاء الذكاء الاصطناعي",
+      "url": "https://3arrafni.com/tech-news/cloudflare-kitesurf-open-source-ai-agents",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T03:13:34Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Cloudflare تفتح مصدر محرك Kitesurf الخفيف لوكلاء الذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "دراسة: ارتفاع بلاغات مواد استغلال الأطفال المولّدة بالذكاء الاصطناعي بأكثر من 8400%",
+      "url": "https://aitnews.com/2026/11/16/ai-generated-child-abuse-material-reports-childlight-2026/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-16T02:05:34Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "دراسة: ارتفاع بلاغات مواد استغلال الأطفال المولّدة بالذكاء الاصطناعي بأكثر من 8400%",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "9 إعدادات تجعل استخدام iPhone Duo القابل للطي أسهل",
+      "url": "https://3arrafni.com/iphone-duo-settings-easier-to-use",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-15T19:54:13Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "9 إعدادات تجعل استخدام iPhone Duo القابل للطي أسهل",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب مفتاح Fireworks AI أدى إلى نشر إضافة Claude Code مزيفة عبر Cursor",
+      "url": "https://3arrafni.com/tech-news/cursor-breach-fireworks-ai-fake-claude-code-extension",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-15T18:59:13Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تسريب مفتاح Fireworks AI أدى إلى نشر إضافة Claude Code مزيفة عبر Cursor",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث Motorola Android 17 يصل إلى Razr 50 Ultra في أوروبا",
+      "url": "https://3arrafni.com/tech-news/motorola-android-17-razr-50-ultra-update",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-15T18:04:13Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تحديث Motorola Android 17 يصل إلى Razr 50 Ultra في أوروبا",
+      "translation_status": "original_ar"
+    },
     {
       "title": "هل كشف عطل مايكروسوفت مخاطر الاعتماد الكلي على التكنولوجيا؟",
       "url": "https://www.bbc.com/arabic/articles/cklyegjnd6n0o?at_medium=RSS&at_campaign=rss",
@@ -10,56 +70,6 @@
       "published_at": "2026-11-15T17:14:55Z",
       "category": "البرامج والإنترنت",
       "title_ar": "هل كشف عطل مايكروسوفت مخاطر الاعتماد الكلي على التكنولوجيا؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Windows 11 يحدّث نافذة AutoPlay وطريقة اختيار إجراءات الأجهزة",
-      "url": "https://3arrafni.com/tech-news/windows-11-new-autoplay-popup",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-15T17:09:13Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Windows 11 يحدّث نافذة AutoPlay وطريقة اختيار إجراءات الأجهزة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Perplexity Teammates تصل إلى Mac لوكلاء AI للمهام المستمرة",
-      "url": "https://3arrafni.com/tech-news/perplexity-teammates-mac-ai-agents-price",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-15T16:14:13Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Perplexity Teammates تصل إلى Mac لوكلاء AI للمهام المستمرة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اتصالات الإمارات تطلق AI Marketing Hub لإدارة الإعلانات بالذكاء الاصطناعي",
-      "url": "https://3arrafni.com/tech-news/etisalat-ai-marketing-hub-uae",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-15T15:19:13Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "اتصالات الإمارات تطلق AI Marketing Hub لإدارة الإعلانات بالذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Epic تطلب من المحكمة العليا تثبيت إدانة Apple بازدراء المحكمة",
-      "url": "https://3arrafni.com/tech-news/epic-apple-supreme-court-app-store-fees",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-15T14:24:13Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Epic تطلب من المحكمة العليا تثبيت إدانة Apple بازدراء المحكمة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "موريتانيا تمنع السفن الأوروبية من الصيد قبالة سواحلها.. ماذا تكشف البيانات الملاحية؟",
-      "url": "https://www.aljazeera.net/news/2026/11/15/%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a%d8%a7-%d8%aa%d9%85%d9%86%d8%b9-%d8%a7%d9%84%d8%b3%d9%81%d9%86-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a%d8%a9-%d9%85%d9%86?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-15T14:02:28Z",
-      "category": "أخبار التقنية",
-      "title_ar": "موريتانيا تمنع السفن الأوروبية من الصيد قبالة سواحلها.. ماذا تكشف البيانات الملاحية؟",
       "translation_status": "original_ar"
     },
     {
@@ -113,13 +123,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "One UI 9 آخر تحديث رئيسي لهواتف Galaxy S23 وZ Fold 5 وA54",
-      "url": "https://3arrafni.com/tech-news/one-ui-9-last-update-galaxy-s23-fold-5-a54",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-15T08:05:29Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "One UI 9 آخر تحديث رئيسي لهواتف Galaxy S23 وZ Fold 5 وA54",
+      "title": "أفضل معادلة بين التبريد والضوضاء؟ مراجعة كيس Cooler Master HAF II 500",
+      "url": "https://arabhardware.net/post-55164",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-15T07:18:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أفضل معادلة بين التبريد والضوضاء؟ مراجعة كيس Cooler Master HAF II 500",
       "translation_status": "original_ar"
     },
     {
@@ -133,13 +143,33 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "إيطاليا تُغرم ميتا 805 ملايين يورو بسبب وصولها إلى صور مستخدمي \"أندرويد\" دون موافقتهم",
-      "url": "https://www.bbc.com/arabic/articles/cw3dgep0l30ko?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-15T03:02:18Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "إيطاليا تُغرم ميتا 805 ملايين يورو بسبب وصولها إلى صور مستخدمي \"أندرويد\" دون موافقتهم",
+      "title": "تحليل: شركات مرتبطة بتشييد مراكز بيانات الذكاء الاصطناعي تفقد 4.2 تريليونات دولار من قيمتها السوقية",
+      "url": "https://aitnews.com/2026/11/15/ai-data-centre-supplier-stocks-4-2-trillion-selloff/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-15T06:49:23Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تحليل: شركات مرتبطة بتشييد مراكز بيانات الذكاء الاصطناعي تفقد 4.2 تريليونات دولار من قيمتها السوقية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحقيق: «ميجاسبيد» رتبت طلبات لرقاقات إنفيديا بنحو 12 مليار دولار لشركات صينية",
+      "url": "https://aitnews.com/2026/11/15/megaspeed-nvidia-chips-12-billion-china-wsj-investigation/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-15T06:27:10Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحقيق: «ميجاسبيد» رتبت طلبات لرقاقات إنفيديا بنحو 12 مليار دولار لشركات صينية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سبيس إكس تنجح للمرة الأولى في التقاط «ستارشيب» العائدة من المدار",
+      "url": "https://aitnews.com/2026/11/15/spacex-starship-first-orbital-ship-catch-2026/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-15T01:41:55Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سبيس إكس تنجح للمرة الأولى في التقاط «ستارشيب» العائدة من المدار",
       "translation_status": "original_ar"
     },
     {
@@ -173,13 +203,63 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
-      "url": "https://arabhardware.net/post-55159",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-14T01:51:05Z",
+      "title": "روكيت لاب تنفّذ الإطلاق المئة لصاروخ «إلكترون» وتضع قمرًا صناعيًا يابانيًا في المدار",
+      "url": "https://aitnews.com/2026/11/14/rocket-lab-electron-100th-launch-japanese-satellite/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-14T11:14:14Z",
       "category": "أخبار التقنية",
-      "title_ar": "ملخص الأسبوع| استقالة جنسن هوانج ومبيعات GTA 6 القياسية والمزيد",
+      "title_ar": "روكيت لاب تنفّذ الإطلاق المئة لصاروخ «إلكترون» وتضع قمرًا صناعيًا يابانيًا في المدار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
+      "url": "https://technologyarabia.com/archives/18053/openai-chatgpt-wallet-ai-agents-payments-commerce/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-14T09:21:00Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
+      "url": "https://technologyarabia.com/archives/18048/%d8%a5%d9%85%d9%8a%d8%b1%d9%83%d9%88%d9%85-%d8%a3%d9%88%d9%84-%d8%b4%d8%b1%d9%8a%d9%83-%d9%84%d9%80%d8%b3%d9%8a%d8%b3%d9%83%d9%88-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-14T09:02:30Z",
+      "category": "أخبار التقنية",
+      "title_ar": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
+      "url": "https://technologyarabia.com/archives/18039/microsoft-global-outage-november-2026/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-13T20:25:12Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
+      "url": "https://technologyarabia.com/archives/18025/%d9%8a%d9%88%d8%ac%d8%b1%d9%8a%d9%86-%d8%aa%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%aa%d8%ad%d9%88%d9%84-%d9%86%d8%ad%d9%88-%d8%a8%d9%8a%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-12T17:34:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
+      "url": "https://technologyarabia.com/archives/17930/google-deepmind-ai-formal-verification-signal-security/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-12T06:31:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
       "translation_status": "original_ar"
     },
     {
@@ -208,7 +288,7 @@
       "id": "aitnews",
       "name": "البوابة التقنية",
       "url": "https://aitnews.com/",
-      "active": false
+      "active": true
     },
     {
       "id": "techwd",
@@ -232,7 +312,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": false
+      "active": true
     },
     {
       "id": "arrafni",
@@ -250,7 +330,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": true
+      "active": false
     },
     {
       "id": "bbc",
