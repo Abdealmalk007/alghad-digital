@@ -1,5 +1,5 @@
 "use strict";
-/* Bilingual benefits, email-only contact, and safe recurring site generation. */
+/* Bilingual benefits, email and owner-authorized WhatsApp contact, safe recurring generation. */
 const assert=require("node:assert/strict");
 const fs=require("node:fs");
 const path=require("node:path");
@@ -19,8 +19,10 @@ for(const route of urls){
   const file=route.replace(/^\//,"")+"index.html";
   const html=read(file);
   assert.equal(html.split(css).length-1,1,"Experience CSS not included once: "+file);
-  assert.doesNotMatch(html,/(?:https?:\/\/)?wa\.me\/|protech-whatsapp-float|protech-program-whatsapp|PROTECH_WHATSAPP_BEGIN|0503276927|966503276927/,
-                      "Personal phone or WhatsApp contact remains in "+file);
+  assert.equal((html.match(/class="protech-whatsapp-float"/g)||[]).length,1,
+               "Owner-authorized WhatsApp link must appear once on "+file);
+  assert.ok(html.includes('href="https://wa.me/966503276927?text='),
+            "Only the owner's official WhatsApp link is offered on "+file);
   assert.equal((html.match(/<link rel="canonical"/g)||[]).length,1);
   assert.ok(html.includes('href="mailto:'+email),file+" missing email contact");
 }
@@ -57,4 +59,4 @@ for(const required of ['cron: "30 4 * * *"','python scripts/build_program_experi
                        'node tests/program-experience-test.cjs','python scripts/build_site_search.py']){
   assert.ok(workflow.includes(required),"Daily rebuild cannot regress: "+required);
 }
-console.log("EMAIL_ONLY_EXPERIENCE_PASS",JSON.stringify({pages:urls.length,products:18,benefitCards:72,emailCtas:18,phoneLinks:0,searchBackCollisionGuard:true}));
+console.log("EMAIL_AND_WHATSAPP_EXPERIENCE_PASS",JSON.stringify({pages:urls.length,products:18,benefitCards:72,emailCtas:18,phoneLinks:42,searchBackCollisionGuard:true}));

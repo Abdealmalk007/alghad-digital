@@ -107,7 +107,8 @@ async function main() {
     }
     if(count!==9) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
     assert.equal(count,9,"All allowed project cards should be rendered");
-    assert.equal(await evaluate('document.querySelector(".protech-whatsapp-float")===null'),true,"WhatsApp contact removed from website");
+    assert.equal(await evaluate('document.querySelectorAll(".protech-whatsapp-float").length'),1,"One WhatsApp contact button must be available");
+    assert.ok(await evaluate('document.querySelector(".protech-whatsapp-float").href.startsWith("https://wa.me/966503276927?text=")'),"WhatsApp must point to owner's number");
     assert.ok(await evaluate('!!document.querySelector("a[href^=mailto]")'),"Email must remain available");
     // Product cards can render before independent editorial scripts finish loading.
     for(let attempt=0;attempt<80;attempt++){
@@ -128,6 +129,7 @@ async function main() {
     }
     assert.equal(await evaluate('document.querySelectorAll("#sitewide-search-trigger").length'),1,"Search control should exist");
     await evaluate('document.getElementById("sitewide-search-trigger").click()');
+    assert.equal(await evaluate('getComputedStyle(document.querySelector(".protech-whatsapp-float")).display'),"none","WhatsApp must hide behind search dialog");
     for(let attempt=0;attempt<70;attempt++){
       if(await evaluate('window.AL_GHAD_SITE_SEARCH?.records?.length>=50')) break;
       await delay(100);
@@ -152,6 +154,7 @@ async function main() {
     assert.ok(await evaluate('document.querySelectorAll(".sitewide-search-card").length>=1'),"News search finds publisher headlines");
     await evaluate('document.querySelector(".sitewide-search-close").click()');
     assert.ok(await evaluate('document.getElementById("sitewide-search-layer").hidden'),"Search overlay closes cleanly");
+    assert.notEqual(await evaluate('getComputedStyle(document.querySelector(".protech-whatsapp-float")).display'),"none","WhatsApp should be restored after search closes");
     for(let attempt=0;attempt<30;attempt++){
       const shares=await evaluate('({products:document.querySelectorAll(".product-card .alghad-share-button").length,news:document.querySelectorAll(".editorial-story .alghad-share-button").length})');
       if(shares.products===9 && shares.news>=5)break;
@@ -338,8 +341,8 @@ async function main() {
       assert.ok(value.contactLeft>=-2 && value.contactRight<=width+2,"Contact clipping at "+width+"px");
       await evaluate('scrollTo({top:1250,behavior:"instant"})');
       await delay(150);
-      const floating=await evaluate('(() => {const back=document.getElementById("back-to-top-floating"),search=document.getElementById("sitewide-search-trigger");if(!back||!search)return {present:false};const b=back.getBoundingClientRect(),s=search.getBoundingClientRect();return {present:true,backHidden:back.hidden,overlap:b.left<s.right+6 && b.right+6>s.left && b.top<s.bottom+6 && b.bottom+6>s.top};})()');
-      assert.ok(floating.present&&!floating.overlap,"Floating controls overlap at "+width+"px: "+JSON.stringify(floating));
+      const floating=await evaluate('(() => {const back=document.getElementById("back-to-top-floating"),search=document.getElementById("sitewide-search-trigger"),wa=document.querySelector(".protech-whatsapp-float");if(!back||!search||!wa)return {present:false};const b=back.getBoundingClientRect(),s=search.getBoundingClientRect(),w=wa.getBoundingClientRect();const hit=(a,c)=>a.left<c.right+6&&a.right+6>c.left&&a.top<c.bottom+6&&a.bottom+6>c.top;return {present:true,backHidden:back.hidden,overlap:hit(b,s)||hit(w,s)||(!back.hidden&&hit(w,b)),waVisible:w.width>=45&&w.height>=45,waInside:w.left>=-1&&w.right<=innerWidth+1&&w.bottom<=innerHeight+1,waBottomGap:s.top-w.bottom};})()');
+      assert.ok(floating.present&&!floating.overlap&&floating.waVisible&&floating.waInside&&floating.waBottomGap>=5,"Floating controls overlap or clip at "+width+"px: "+JSON.stringify(floating));
       viewports.push({...value,floating});
     }
     // Full industry news are intentionally omitted from the homepage, and

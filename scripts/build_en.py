@@ -97,13 +97,15 @@ def brand_card(product:dict,download:dict,wide:bool=False)->str:
             if preferred and published else '<span class="en-download-unavailable">Download coming soon</span>')
     preview=product.get("preview","")
     assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.svg",preview)
+    status_note=("In development / experimental only. Contact us on WhatsApp or by email to ask about availability."
+        if not published else "Beta/Preview release — not a final certified version. For orders or enquiries, contact us via WhatsApp or email.")
     version=esc(release.get("version") or product.get("version") or "")
     version_text=f"<span>v{version}</span>" if version and version!="-" else ""
     return f"""<article class="en-product-card" data-product="{slug}" data-category="{esc(product['status'])}" data-search="{esc(' '.join([product['title'],tagline,summary]))}">
       <a class="en-product-image" href="/en/programs/{slug}/"><img src="/{esc(preview)}" alt="Illustration of {esc(product['title'])}" width="960" height="540" loading="lazy" decoding="async"></a>
       <div class="en-product-meta"><span class="en-state {'en-state-preview' if preferred else ''}">{esc(badge)}</span>{version_text}<span>{esc(", ".join(product.get("platforms",[])))}</span></div>
       <h3>{internal('/en/programs/'+slug+'/',product['title'])}</h3>
-      <p class="en-product-tagline">{esc(tagline)}</p><p>{esc(summary)}</p>
+      <p class="en-product-tagline">{esc(tagline)}</p><p>{esc(summary)}</p><p class="en-product-preview-note">{esc(status_note)}</p>
       <div class="en-product-actions"><a class="program-details" href="/en/programs/{slug}/" aria-label="Details for {esc(product['title'])}">Details</a>{action}</div>
     </article>"""
 
@@ -315,6 +317,9 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
     state="Published — preview release" if downloads.get(slug,{}).get("files") else "In development" if product["status"]=="dev" else "Published repository; no verified public installer"
     if slug in ("stone","quotes") and downloads.get(slug,{}).get("files"):state="Beta / Preview — UNSIGNED Windows installer"
     if slug=="care" and downloads.get(slug,{}).get("files"):state="Portable + Setup — UNSIGNED Preview"
+    preview_note=("Under development and experimental; no final production-ready edition is available. For requests or enquiries, contact us via WhatsApp or email."
+        if product["status"]=="dev" else
+        "Experimental Beta/Preview — not a final certified release. For orders or enquiries about this program, contact us via WhatsApp or email.")
     features_html="".join(f"<li>{esc(v)}</li>" for v in features)
     entry=downloads.get(slug,{})
     preferred=next((f for f in entry.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),entry.get("repository",""))),None)
@@ -323,7 +328,7 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
       <div class="en-breadcrumbs">{internal("/en/","Home")} / {internal("/en/programs/","Software")} / {esc(product['title'])}</div>
       <div class="en-detail-layout"><div>{hero("PROTECH SOFTWARE · "+", ".join(product["platforms"]),product["title"],summary)}
         <div class="en-chips"><span>{esc(state)}</span><span>{esc(", ".join(product["platforms"]))}</span></div>
-        <h2>What it does</h2><p>{esc(tagline)} — {esc(summary)}</p>
+        <h2>What it does</h2><p>{esc(tagline)} — {esc(summary)}</p><p class="en-detail-beta-note">{esc(preview_note)}</p>
         <h2>Key capabilities</h2><ul class="en-features">{features_html}</ul>
         <div class="en-actions">{direct}</div>
       </div><aside class="en-detail-image"><img src="/{esc(image)}" alt="Illustration of {esc(product['title'])}" width="960" height="540" loading="lazy"><p>Illustrative project artwork; not a verified application screenshot.</p></aside></div>
@@ -332,6 +337,7 @@ def render_product(product:dict,downloads:dict,facts:dict)->None:
       <section class="en-info-block"><h2>Questions and release information</h2>
         <details><summary>Is this a final stable release?</summary><p>Current publicly downloadable files are marked Preview/Beta. Check release notes and test before production use.</p></details>
         <details><summary>How can I verify the download?</summary><p>Read the <a href="/en/security/">software safety guide</a> for SHA-256 verification and release checks.</p></details>
+        <details><summary>How do I request a program or ask questions?</summary><p>Use the WhatsApp contact button or email ProTech on this page. All programs are currently experimental or under development.</p></details>
         <details><summary>Where can I follow development?</summary><p>Use the official <a href="/en/programs/">software library</a> and the <a href="/en/protech/">ProTech developer page</a>.</p></details>
       </section>"""
     schema={"@context":"https://schema.org","@type":"SoftwareApplication","name":product["title"],

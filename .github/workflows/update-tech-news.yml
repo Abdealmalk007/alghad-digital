@@ -52,8 +52,10 @@ jobs:
         run: python scripts/build_en.py
       - name: Add crawlable software and topic tags to both languages
         run: python scripts/build_topic_tags.py
-      - name: Build software benefit sections and email-only support links
+      - name: Build software benefit sections and email support links
         run: python scripts/build_program_experience.py
+      - name: Enforce browser CSP and add non-overlapping WhatsApp contact
+        run: python scripts/build_contact_security.py
       - name: Refresh sitewide search over pages, software and latest news
         run: python scripts/build_site_search.py
       - name: Check original Microsoft media download links (non-blocking)
@@ -76,6 +78,7 @@ jobs:
           node tests/site-search-test.cjs
           node tests/topic-tags-test.cjs
           node tests/program-experience-test.cjs
+          node tests/contact-security-test.cjs
           node tests/windows-office-sources-test.cjs
           node tests/quotes-beta3-release-test.cjs
           node tests/news-refresh-reliability-test.cjs

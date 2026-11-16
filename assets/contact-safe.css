@@ -1,0 +1,57 @@
+/* Single first-party WhatsApp shortcut, designed to coexist with search and back-to-top.
+   Search: logical end, bottom 16-18px. Back-to-top: logical start, bottom 22px.
+   WhatsApp: logical end, *above* search, with physical safe-area offsets. */
+.protech-whatsapp-float {
+  position: fixed;
+  inset-inline-end: max(16px, env(safe-area-inset-left, 0px), env(safe-area-inset-right, 0px));
+  bottom: calc(94px + env(safe-area-inset-bottom, 0px));
+  z-index: 955;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 53px;
+  max-width: calc(100vw - 32px);
+  box-sizing: border-box;
+  padding: 12px 17px;
+  border-radius: 999px;
+  border: 1px solid #a6ffe3;
+  background: #075e45;
+  color: #fff !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+  font: 800 14px/1.25 system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif;
+  box-shadow: 0 9px 28px rgba(0, 16, 14, .36);
+  transition: background-color .16s ease, transform .16s ease;
+}
+.protech-whatsapp-float svg { flex: 0 0 25px; color: #fff; }
+.protech-whatsapp-float:hover,
+.protech-whatsapp-float:focus-visible { background: #087e5b; color: #fff !important; }
+.protech-whatsapp-float:hover { transform: translateY(-1px); }
+.protech-whatsapp-float:focus-visible {
+  outline: 3px solid #b5ffe6; outline-offset: 3px;
+}
+.protech-whatsapp-label { font-size: inherit; }
+/* Search dialog and editor modal take priority over floating affordances. */
+body.sitewide-search-open .protech-whatsapp-float,
+body:has(dialog[open]) .protech-whatsapp-float,
+body:has(.sitewide-search-layer:not([hidden])) .protech-whatsapp-float { display: none !important; }
+@media (max-width: 600px) {
+  .protech-whatsapp-float {
+    bottom: calc(89px + env(safe-area-inset-bottom, 0px));
+    width: 54px; height: 54px; min-height: 54px;
+    padding: 0; border-radius: 50%;
+  }
+  .protech-whatsapp-label { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .protech-whatsapp-float { transition: none; }
+  .protech-whatsapp-float:hover { transform: none; }
+}
+@media print { .protech-whatsapp-float { display: none !important; } }
+
+.en-product-preview-note,.en-detail-beta-note {
+  margin-block:10px!important; padding:10px 13px; border-inline-start:3px solid #7ce7c7;
+  border-radius:8px; background:rgba(13,91,72,.16); color:#d7f9ed; line-height:1.65;
+  font-size:.9rem;
+}

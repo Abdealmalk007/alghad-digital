@@ -75,8 +75,10 @@ assert.equal(read("CNAME").trim(),"alghad.digital");
 assert.equal(read("google3f39246447a165d6.html"),"google-site-verification: google3f39246447a165d6.html","Google Search Console verification must match original file exactly");
 const publicSources=[html,read("assets/products.js"),read("assets/app.js"),read("assets/v3.js"),read("assets/v3_1.js"),read("assets/downloads-ui.js"),read("assets/downloads.js"),read("assets/downloads.css"),read("assets/style.css"),read("assets/v2.css"),read("assets/v3.css"),read("assets/v3_1.css")].join("\n");
 assert.doesNotMatch(publicSources,/مطبخ ريم|عالم الصغار|Omar Kids|Reem Kitchen|عُمر/);
-// Email-only contact: do not reintroduce a personal number or WhatsApp CTA.
-assert.doesNotMatch(publicSources,/0503276927|966503276927|protech-whatsapp-float|https:\/\/wa\.me\//);
+// Owner-approved WhatsApp link is allowed only to the documented number.
+assert.doesNotMatch(publicSources,/0503276927/);
+assert.ok(html.includes('https://wa.me/966503276927?text='));
+assert.ok(html.includes('class="protech-whatsapp-float"'));
 const officialEmail="protech.2025.2026@gmail.com";
 assert.ok(html.includes('href="mailto:'+officialEmail+'"'));
 assert.ok(html.includes('id="copy-protech-email"'));

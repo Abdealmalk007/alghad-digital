@@ -104,9 +104,9 @@ def product_experience(slug:str,title:str,lang:str,available:bool)->str:
     status_html='<span class="protech-benefit-status">'+escape(status)+'</span>'
     call_to_action=(
       '<div class="protech-benefit-contact"><div><strong>'+
-      ("Questions before downloading?" if is_en else "هل تحتاج توضيحًا قبل التحميل؟")+
-      '</strong><p>'+("Contact ProTech directly about this specific application."
-                     if is_en else "اسأل عن الميزات أو حالة الإصدار أو التوافق عبر البريد الإلكتروني.")+
+      ("Experimental version — requests and enquiries" if is_en else "نسخة تجريبية — للطلب أو الاستفسار")+
+      '</strong><p>'+("This is a Beta/Preview or an in-development project, not a final certified release. For orders or enquiries, contact us via WhatsApp or email."
+                     if is_en else "هذه البرامج تجريبية أو قيد التطوير وليست إصدارات نهائية معتمدة؛ للطلب أو الاستفسار تواصل معنا عبر واتساب أو البريد الإلكتروني.")+
       '</p></div>'+email_link(lang,title)+'</div>')
     return (START+'<section class="protech-program-experience" aria-label="'+
       ("Benefits of this program" if is_en else "مميزات وفوائد البرنامج")+
