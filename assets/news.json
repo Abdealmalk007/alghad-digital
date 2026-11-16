@@ -1,7 +1,67 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T13:36:24Z",
+  "generated_at": "2026-11-16T17:29:53Z",
   "articles": [
+    {
+      "title": "تطبيق Apple Health AI يختبر روبوتاً للإجابة عن الأسئلة الصحية",
+      "url": "https://3arrafni.com/tech-news/apple-health-ai-study-app",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T16:25:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تطبيق Apple Health AI يختبر روبوتاً للإجابة عن الأسئلة الصحية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "SpaceX تلتقط المرحلة العلوية من Starship بعد عودتها من المدار لأول مرة",
+      "url": "https://3arrafni.com/tech-news/spacex-starship-upper-stage-catch",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T15:30:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "SpaceX تلتقط المرحلة العلوية من Starship بعد عودتها من المدار لأول مرة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Sony توقف تطبيق PlayStation Plus للحاسوب في 10 ديسمبر 2026",
+      "url": "https://3arrafni.com/tech-news/playstation-plus-pc-app-shutdown-december-2026",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T14:35:02Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "Sony توقف تطبيق PlayStation Plus للحاسوب في 10 ديسمبر 2026",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "فشل صاروخ Vulcan يدمر 40 قمراً لخدمة Amazon Leo بعد الإطلاق",
+      "url": "https://3arrafni.com/tech-news/vulcan-rocket-failure-amazon-leo-satellites",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T13:40:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "فشل صاروخ Vulcan يدمر 40 قمراً لخدمة Amazon Leo بعد الإطلاق",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "رفيق لا يمل من الإصغاء.. هل يجعلنا الذكاء الاصطناعي أكثر وحدة؟",
+      "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%b1%d9%81%d9%8a%d9%82-%d9%84%d8%a7-%d9%8a%d9%85%d9%84-%d9%85%d9%86-%d8%a7%d9%84%d8%a5%d8%b5%d8%ba%d8%a7%d8%a1-%d9%87%d9%84-%d9%8a%d8%ac%d8%b9%d9%84%d9%86%d8%a7?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T13:35:09Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "رفيق لا يمل من الإصغاء.. هل يجعلنا الذكاء الاصطناعي أكثر وحدة؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الأزمات التقنية الأخيرة تدفع للتساؤل.. هل ينهار العالم؟",
+      "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%a7%d9%84%d8%a3%d8%b2%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1%d8%a9-%d8%aa%d8%af%d9%81%d8%b9-%d9%84%d9%84%d8%aa%d8%b3%d8%a7%d8%a4%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T13:31:50Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الأزمات التقنية الأخيرة تدفع للتساؤل.. هل ينهار العالم؟",
+      "translation_status": "original_ar"
+    },
     {
       "title": "جمعية تكنولوجيا المستهلك تكرّم أحدث منتجات سامسونج قبيل انطلاق معرض CES 2027",
       "url": "https://technologyarabia.com/archives/18126/%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%87%d9%84%d9%83-%d8%aa%d9%83%d8%b1%d9%91%d9%85-%d8%a3%d8%ad%d8%af%d8%ab-%d9%85/",
@@ -13,23 +73,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "مواد جديدة يصممها الذكاء الاصطناعي قد تغير مستقبل التكنولوجيا",
-      "url": "https://www.bbc.com/arabic/watch/cw20xn11z2plo?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-16T13:03:34Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "مواد جديدة يصممها الذكاء الاصطناعي قد تغير مستقبل التكنولوجيا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Apple TV 4K الجديد يضم 8GB من الذاكرة لكن التطبيقات محدودة بـ2GB",
-      "url": "https://3arrafni.com/tech-news/apple-tv-4k-ram-limit-2gb",
+      "title": "FBI تحذر من استخدام ARTEX AI في هجمات إلكترونية عالمية",
+      "url": "https://3arrafni.com/tech-news/fbi-warns-artex-ai-cyberattacks",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T11:50:02Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "Apple TV 4K الجديد يضم 8GB من الذاكرة لكن التطبيقات محدودة بـ2GB",
+      "published_at": "2026-11-16T12:45:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "FBI تحذر من استخدام ARTEX AI في هجمات إلكترونية عالمية",
       "translation_status": "original_ar"
     },
     {
@@ -43,16 +93,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "دبي تخطط لخدمات قضائية مدعومة بالذكاء الاصطناعي للنزاعات الإيجارية",
-      "url": "https://3arrafni.com/tech-news/dubai-rental-disputes-centre-ai-plans-fees",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T10:55:02Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "دبي تخطط لخدمات قضائية مدعومة بالذكاء الاصطناعي للنزاعات الإيجارية",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
       "url": "https://www.bbc.com/arabic/articles/cm62p3x05xgwo?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
@@ -63,16 +103,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "خسائر تعطل \"مايكروسوفت 365\" المؤمن عليها دون 100 مليون دولار",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d8%ae%d8%b3%d8%a7%d8%a6%d8%b1-%d8%aa%d8%b9%d8%b7%d9%84-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-365-%d8%a7%d9%84%d9%85%d8%a4%d9%85%d9%86-%d8%b9%d9%84%d9%8a%d9%87%d8%a7?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T10:05:53Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "خسائر تعطل \"مايكروسوفت 365\" المؤمن عليها دون 100 مليون دولار",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "\"كل ما درسته كان بلا جدوى\" : كيف يغير الذكاء الاصطناعي مساراتنا المهنية؟",
       "url": "https://www.bbc.com/arabic/articles/c61k93dk3ky8o?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
@@ -80,36 +110,6 @@
       "published_at": "2026-11-16T09:55:12Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "\"كل ما درسته كان بلا جدوى\" : كيف يغير الذكاء الاصطناعي مساراتنا المهنية؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "من النزاعات إلى التسويات.. مبادرة حكومية لمعالجة الملفات الضريبية في سوريا",
-      "url": "https://www.aljazeera.net/news/2026/11/16/%d9%85%d9%86-%d8%a7%d9%84%d9%86%d8%b2%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%aa%d8%b3%d9%88%d9%8a%d8%a7%d8%aa-%d9%85%d8%a8%d8%a7%d8%af%d8%b1%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T09:46:38Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "من النزاعات إلى التسويات.. مبادرة حكومية لمعالجة الملفات الضريبية في سوريا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "نيجيريا تتوقع إبرام اتفاقية للتجارة الرقمية بين 6 دول أفريقية",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-%d8%aa%d8%aa%d9%88%d9%82%d8%b9-%d8%a5%d8%a8%d8%b1%d8%a7%d9%85-%d8%a7%d8%aa%d9%81%d8%a7%d9%82%d9%8a%d8%a9-%d9%84%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T09:43:07Z",
-      "category": "أخبار التقنية",
-      "title_ar": "نيجيريا تتوقع إبرام اتفاقية للتجارة الرقمية بين 6 دول أفريقية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "وداعا لتبديل الشرائح في المطارات.. أسرار تشغيل \"إي سيم\" على آيفون وأندرويد",
-      "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%b4%d8%b1%d8%a7%d8%a6%d8%ad-%d8%a5%d9%8a-%d8%b3%d9%8a%d9%85-%d8%aa%d9%85%d9%86%d8%ad-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d9%81%d8%b1%d9%8a%d9%86-%d8%ad%d8%b1%d9%8a%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T09:37:03Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "وداعا لتبديل الشرائح في المطارات.. أسرار تشغيل \"إي سيم\" على آيفون وأندرويد",
       "translation_status": "original_ar"
     },
     {
@@ -153,16 +153,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "إيطاليا تغرّم Meta 805 ملايين يورو بسبب وصول Facebook إلى معرض الصور",
-      "url": "https://3arrafni.com/tech-news/italy-meta-facebook-gallery-fine",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T07:48:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إيطاليا تغرّم Meta 805 ملايين يورو بسبب وصول Facebook إلى معرض الصور",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "علي بابا تطلق Qwen4-Max بقدرات متعددة الوسائط وسياق مليون رمز",
       "url": "https://aitnews.com/2026/11/16/alibaba-qwen4-max-multimodal-million-token-context/",
       "source": "aitnews",
@@ -190,26 +180,6 @@
       "published_at": "2026-11-16T07:20:26Z",
       "category": "أخبار التقنية",
       "title_ar": "ديلويت تطلق BusinessNext لإدارة العمليات المالية للشركات الصغيرة والمتوسطة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "نظارات Samsung وGoogle الذكية تبدأ من 395 دولاراً وتصل 10 ديسمبر",
-      "url": "https://3arrafni.com/tech-news/samsung-google-ai-glasses-price-release",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T06:53:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "نظارات Samsung وGoogle الذكية تبدأ من 395 دولاراً وتصل 10 ديسمبر",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Apple تشرح كيف تحمي Secure Exclaves بيانات الكاميرا والميكروفون",
-      "url": "https://3arrafni.com/tech-news/apple-secure-exclaves-camera-microphone-privacy",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T05:58:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Apple تشرح كيف تحمي Secure Exclaves بيانات الكاميرا والميكروفون",
       "translation_status": "original_ar"
     },
     {
