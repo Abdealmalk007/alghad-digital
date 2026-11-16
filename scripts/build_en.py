@@ -186,7 +186,7 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/en.css">
+  <link rel="stylesheet" href="/assets/en.css"><link rel="stylesheet" href="/assets/home-redesign-v4.css?v=1">
   <link rel="stylesheet" href="/assets/share.css?v=1">
   <link rel="stylesheet" href="/assets/refinement.css?v=1">
   <meta property="og:type" content="website">
@@ -263,11 +263,19 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
     <section class="en-hero">
       <div class="en-hero-copy"><span class="en-kicker">DESIGN · BUILD · PRODUCTIVITY</span>
         <h1>Software that helps you <span>work smarter.</span></h1>
-        <p>Discover ProTech applications for business management, kitchen design, materials, productivity and Android. Explore their features and verified release availability in one place.</p>
+        <p>Discover practical tools for business management, data analytics, teams and everyday operations. Compare products and find clearly labeled preview releases.</p>
         <div class="en-actions">{internal("/en/programs/","Explore our software","en-btn en-btn-primary")}{internal("#downloads","Official downloads","en-btn en-btn-outline")}</div>
-        <p class="en-hero-note">8 software projects · 7 verified preview downloads · official GitHub links</p>
+        <p class="en-hero-note">Clearly labeled preview releases · Official GitHub downloads</p>
       </div>
-      <div class="en-hero-visual"><img src="/assets/previews/kitchen.svg" alt="Kitchen CAD Pro illustrative preview" width="960" height="540"><div><strong>Kitchen CAD Pro</strong><span>DESIGN · PLANNING · 3D</span></div></div>
+      <div class="en-hero-visual v4-en-portfolio" aria-label="ProTech software categories">
+        <div class="v4-panel-heading"><span class="v4-panel-eyebrow">PROTECH SOFTWARE COLLECTION</span><strong>One collection. Many possibilities.</strong><p>Explore practical software across different workflows.</p></div>
+        <div class="v4-panel-grid">
+          <a class="v4-panel-tile" href="/en/programs/"><span class="v4-panel-symbol" aria-hidden="true">▦</span><span><b>Data &amp; analytics</b><small>INSIGHTS</small></span></a>
+          <a class="v4-panel-tile" href="/en/programs/"><span class="v4-panel-symbol" aria-hidden="true">♙</span><span><b>People &amp; HR</b><small>TEAMS</small></span></a>
+          <a class="v4-panel-tile" href="/en/programs/"><span class="v4-panel-symbol" aria-hidden="true">▧</span><span><b>Materials &amp; production</b><small>OPERATIONS</small></span></a>
+          <a class="v4-panel-tile" href="/en/programs/"><span class="v4-panel-symbol" aria-hidden="true">≡</span><span><b>Contracts &amp; reports</b><small>DOCUMENTS</small></span></a>
+        </div><div class="v4-en-portfolio-foot">BROWSE THE COMPLETE SOFTWARE LIBRARY <span aria-hidden="true">↗</span></div>
+      </div>
     </section>
     <section class="en-section" id="programs">
       <div class="en-section-heading"><div><span class="en-kicker">01 / OUR PRODUCTS</span><h2>Explore ProTech software</h2><p>All available projects, clearly labeled by release status.</p></div><span class="en-stat">10 products</span></div>

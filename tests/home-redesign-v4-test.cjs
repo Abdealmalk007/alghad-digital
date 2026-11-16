@@ -1,0 +1,37 @@
+"use strict";
+/* Homepage UI 4.0 — product neutrality, bilingual continuity, and safe assets. */
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const path=require("node:path");
+const root=path.resolve(__dirname,"..");
+const read=p=>fs.readFileSync(path.join(root,p),"utf8");
+const ar=read("index.html"),en=read("en/index.html");
+const hero=ar.slice(ar.indexOf('<section class="hero"'),ar.indexOf("PROTECH_TOPIC_TAGS_BEGIN"));
+const enHero=en.slice(en.indexOf('<section class="en-hero"'),en.indexOf("PROTECH_TOPIC_TAGS_BEGIN"));
+const spotlight=ar.slice(ar.indexOf('<section class="spotlight-section"'),ar.indexOf('<section class="windows-tools-section"'));
+const catalog=ar.slice(ar.indexOf('id="catalog"'),ar.indexOf("PRE_RENDER_PRODUCTS_END"));
+assert.ok(hero.includes("hero-portfolio-panel"),"Arabic category dashboard required");
+assert.ok(!hero.includes('kitchen.svg')&&!hero.includes("Kitchen CAD Pro"),"No Kitchen CAD billboard in Arabic hero");
+assert.ok(!enHero.includes('kitchen.svg')&&!enHero.includes("Kitchen CAD Pro"),"No Kitchen CAD billboard in English hero");
+assert.ok(enHero.includes("v4-en-portfolio"),"English shares the category dashboard");
+assert.ok(spotlight.includes('id="featured-cards" data-v4-generic="true"'));
+assert.ok(!spotlight.includes('kitchen.svg')&&!spotlight.includes("Kitchen CAD Pro"),"No Kitchen CAD spotlight");
+assert.equal((spotlight.match(/class="v4-service-card"/g)||[]).length,3);
+assert.ok(catalog.includes('data-prerender-product="kitchen"'),"Kitchen CAD remains in full catalog");
+assert.ok(ar.includes('href="/assets/home-redesign-v4.css?v=1"'));
+assert.ok(en.includes('href="/assets/home-redesign-v4.css?v=1"'));
+assert.equal((ar.match(/home-redesign-v4\.css/g)||[]).length,1);
+assert.equal((en.match(/home-redesign-v4\.css/g)||[]).length,1);
+const builder=read("scripts/build_en.py");
+assert.ok(builder.includes("v4-en-portfolio"),"English regeneration retains new layout");
+assert.ok(builder.includes('home-redesign-v4.css'),"English regeneration retains styling");
+const css=read("assets/home-redesign-v4.css");
+assert.ok(css.includes("@media(max-width:620px)")&&css.includes("@media(prefers-reduced-motion:reduce)"));
+assert.ok(css.includes(".v4-panel-tile:focus-visible"),"Accessible focus styling");
+const app=read("assets/app.js");
+assert.ok(app.includes('featured.dataset.v4Generic==="true"'),"Keep neutral service cards on JS render");
+assert.ok(!app.includes('const ids=["kitchen"'),"Do not refeature Kitchen CAD");
+assert.ok(hero.includes('id="gallery-portfolio-count"'),"Existing dynamic portfolio count preserved");
+assert.ok(ar.includes('class="protech-whatsapp-float"')&&en.includes('class="protech-whatsapp-float"'));
+console.log("UI_V4_TEST_PASS",JSON.stringify({arNeutralHero:true,enNeutralHero:true,
+  kitchenStillInCatalog:true,serviceTiles:3,bilingualStyle:true,buttonsPreserved:true}));

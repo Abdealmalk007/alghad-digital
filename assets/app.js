@@ -117,8 +117,8 @@
     if(lastFocus&&document.contains(lastFocus)&&typeof lastFocus.focus==="function")lastFocus.focus();
   }
   function renderFeatured(){
-    if(!featured)return;
-    const ids=["kitchen","stone","download"];
+    if(!featured||featured.dataset.v4Generic==="true")return;
+    const ids=["smart-excel","stone","reports"];
     featured.innerHTML=ids.map((id,index)=>{
       const p=data.find(x=>x.id===id);
       if(!p)return "";
