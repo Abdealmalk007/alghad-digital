@@ -1,7 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T12:59:49Z",
+  "generated_at": "2026-11-16T13:36:24Z",
   "articles": [
+    {
+      "title": "جمعية تكنولوجيا المستهلك تكرّم أحدث منتجات سامسونج قبيل انطلاق معرض CES 2027",
+      "url": "https://technologyarabia.com/archives/18126/%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%87%d9%84%d9%83-%d8%aa%d9%83%d8%b1%d9%91%d9%85-%d8%a3%d8%ad%d8%af%d8%ab-%d9%85/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-16T13:26:23Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "جمعية تكنولوجيا المستهلك تكرّم أحدث منتجات سامسونج قبيل انطلاق معرض CES 2027",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مواد جديدة يصممها الذكاء الاصطناعي قد تغير مستقبل التكنولوجيا",
+      "url": "https://www.bbc.com/arabic/watch/cw20xn11z2plo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-16T13:03:34Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "مواد جديدة يصممها الذكاء الاصطناعي قد تغير مستقبل التكنولوجيا",
+      "translation_status": "original_ar"
+    },
     {
       "title": "Apple TV 4K الجديد يضم 8GB من الذاكرة لكن التطبيقات محدودة بـ2GB",
       "url": "https://3arrafni.com/tech-news/apple-tv-4k-ram-limit-2gb",
@@ -43,6 +63,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "خسائر تعطل \"مايكروسوفت 365\" المؤمن عليها دون 100 مليون دولار",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d8%ae%d8%b3%d8%a7%d8%a6%d8%b1-%d8%aa%d8%b9%d8%b7%d9%84-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-365-%d8%a7%d9%84%d9%85%d8%a4%d9%85%d9%86-%d8%b9%d9%84%d9%8a%d9%87%d8%a7?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T10:05:53Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "خسائر تعطل \"مايكروسوفت 365\" المؤمن عليها دون 100 مليون دولار",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "\"كل ما درسته كان بلا جدوى\" : كيف يغير الذكاء الاصطناعي مساراتنا المهنية؟",
       "url": "https://www.bbc.com/arabic/articles/c61k93dk3ky8o?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
@@ -53,13 +83,33 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "شرائح \"إي سيم\" تمنح المسافرين حرية الاتصال بالإنترنت حول العالم",
+      "title": "من النزاعات إلى التسويات.. مبادرة حكومية لمعالجة الملفات الضريبية في سوريا",
+      "url": "https://www.aljazeera.net/news/2026/11/16/%d9%85%d9%86-%d8%a7%d9%84%d9%86%d8%b2%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%aa%d8%b3%d9%88%d9%8a%d8%a7%d8%aa-%d9%85%d8%a8%d8%a7%d8%af%d8%b1%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T09:46:38Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "من النزاعات إلى التسويات.. مبادرة حكومية لمعالجة الملفات الضريبية في سوريا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "نيجيريا تتوقع إبرام اتفاقية للتجارة الرقمية بين 6 دول أفريقية",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-%d8%aa%d8%aa%d9%88%d9%82%d8%b9-%d8%a5%d8%a8%d8%b1%d8%a7%d9%85-%d8%a7%d8%aa%d9%81%d8%a7%d9%82%d9%8a%d8%a9-%d9%84%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T09:43:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "نيجيريا تتوقع إبرام اتفاقية للتجارة الرقمية بين 6 دول أفريقية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "وداعا لتبديل الشرائح في المطارات.. أسرار تشغيل \"إي سيم\" على آيفون وأندرويد",
       "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%b4%d8%b1%d8%a7%d8%a6%d8%ad-%d8%a5%d9%8a-%d8%b3%d9%8a%d9%85-%d8%aa%d9%85%d9%86%d8%ad-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d9%81%d8%b1%d9%8a%d9%86-%d8%ad%d8%b1%d9%8a%d8%a9?traffic_source=rss",
       "source": "aljazeera",
       "source_name": "الجزيرة نت",
       "published_at": "2026-11-16T09:37:03Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "شرائح \"إي سيم\" تمنح المسافرين حرية الاتصال بالإنترنت حول العالم",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "وداعا لتبديل الشرائح في المطارات.. أسرار تشغيل \"إي سيم\" على آيفون وأندرويد",
       "translation_status": "original_ar"
     },
     {
@@ -280,26 +330,6 @@
       "published_at": "2026-11-13T20:25:12Z",
       "category": "البرامج والإنترنت",
       "title_ar": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
-      "url": "https://technologyarabia.com/archives/18025/%d9%8a%d9%88%d8%ac%d8%b1%d9%8a%d9%86-%d8%aa%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%aa%d8%ad%d9%88%d9%84-%d9%86%d8%ad%d9%88-%d8%a8%d9%8a%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-12T17:34:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
-      "url": "https://www.bbc.com/arabic/watch/cwg7x7k3meljo?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-10T14:41:30Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سماعات بتقنية التوصيل العظمي.. كيف تنقل الصوت؟",
       "translation_status": "original_ar"
     },
     {
