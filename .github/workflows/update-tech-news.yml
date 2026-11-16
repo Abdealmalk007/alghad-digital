@@ -56,6 +56,10 @@ jobs:
         run: python scripts/build_program_experience.py
       - name: Enforce browser CSP and add non-overlapping WhatsApp contact
         run: python scripts/build_contact_security.py
+      - name: Configure optional consent-gated visitor analytics
+        env:
+          GA4_MEASUREMENT_ID: ${{ vars.GA4_MEASUREMENT_ID }}
+        run: python scripts/build_analytics.py
       - name: Refresh sitewide search over pages, software and latest news
         run: python scripts/build_site_search.py
       - name: Check original Microsoft media download links (non-blocking)
@@ -79,6 +83,7 @@ jobs:
           node tests/topic-tags-test.cjs
           node tests/program-experience-test.cjs
           node tests/contact-security-test.cjs
+          node tests/analytics-consent-test.cjs
           node tests/windows-office-sources-test.cjs
           node tests/quotes-beta3-release-test.cjs
           node tests/news-refresh-reliability-test.cjs
