@@ -1,25 +1,165 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T05:05:40Z",
+  "generated_at": "2026-11-16T12:24:41Z",
   "articles": [
     {
-      "title": "تقرير يحذّر: مراكز البيانات الفضائية قد تحجب النجوم عن السماء الليلية",
-      "url": "https://3arrafni.com/tech-news/space-data-centers-night-sky-stars",
+      "title": "دبي تخطط لخدمات قضائية مدعومة بالذكاء الاصطناعي للنزاعات الإيجارية",
+      "url": "https://3arrafni.com/tech-news/dubai-rental-disputes-centre-ai-plans-fees",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T04:08:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقرير يحذّر: مراكز البيانات الفضائية قد تحجب النجوم عن السماء الليلية",
+      "published_at": "2026-11-16T10:55:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "دبي تخطط لخدمات قضائية مدعومة بالذكاء الاصطناعي للنزاعات الإيجارية",
       "translation_status": "original_ar"
     },
     {
-      "title": "Cloudflare تفتح مصدر محرك Kitesurf الخفيف لوكلاء الذكاء الاصطناعي",
-      "url": "https://3arrafni.com/tech-news/cloudflare-kitesurf-open-source-ai-agents",
+      "title": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
+      "url": "https://www.bbc.com/arabic/articles/cm62p3x05xgwo?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-16T10:41:39Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "\"كل ما درسته كان بلا جدوى\" : كيف يغير الذكاء الاصطناعي مساراتنا المهنية؟",
+      "url": "https://www.bbc.com/arabic/articles/c61k93dk3ky8o?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-16T09:55:12Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "\"كل ما درسته كان بلا جدوى\" : كيف يغير الذكاء الاصطناعي مساراتنا المهنية؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث Modern Warfare 4 يرفع مدى hitscan إلى نحو 35 مترًا",
+      "url": "https://arabhardware.net/post-55167",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-16T08:40:35Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث Modern Warfare 4 يرفع مدى hitscan إلى نحو 35 مترًا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سامسونج السعودية تستعرض شاشات كبيرة تصل إلى 115 بوصة لتجارب مشاهدة منزلية أوسع",
+      "url": "https://technologyarabia.com/archives/18115/samsung-saudi-large-screen-tvs-115-inch-micro-rgb/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-16T08:15:25Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "سامسونج السعودية تستعرض شاشات كبيرة تصل إلى 115 بوصة لتجارب مشاهدة منزلية أوسع",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "آبل تشرح كيف تحمي بنية Secure Exclaves الكاميرا والميكروفون",
+      "url": "https://arabhardware.net/post-55166",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-16T08:14:35Z",
+      "category": "أخبار التقنية",
+      "title_ar": "آبل تشرح كيف تحمي بنية Secure Exclaves الكاميرا والميكروفون",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "السلطات الأردنية تحجب تطبيق Telegram بسبب الجرائم الإلكترونية والتطرف",
+      "url": "https://arabhardware.net/post-55165",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-16T07:52:26Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "السلطات الأردنية تحجب تطبيق Telegram بسبب الجرائم الإلكترونية والتطرف",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إيطاليا تغرّم Meta 805 ملايين يورو بسبب وصول Facebook إلى معرض الصور",
+      "url": "https://3arrafni.com/tech-news/italy-meta-facebook-gallery-fine",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T03:13:34Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Cloudflare تفتح مصدر محرك Kitesurf الخفيف لوكلاء الذكاء الاصطناعي",
+      "published_at": "2026-11-16T07:48:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إيطاليا تغرّم Meta 805 ملايين يورو بسبب وصول Facebook إلى معرض الصور",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أسهم أوروبا قرب مستوياتها القياسية رغم خسائر التكنولوجيا",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d8%a7%d9%84%d8%a3%d8%b3%d9%87%d9%85-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a%d8%a9-%d9%82%d8%b1%d8%a8-%d8%a3%d8%b9%d9%84%d9%89-%d9%85%d8%b3%d8%aa%d9%88%d9%8a%d8%a7%d8%aa%d9%87%d8%a7?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T07:48:01Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أسهم أوروبا قرب مستوياتها القياسية رغم خسائر التكنولوجيا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "3 دول لم تتأثر بانقطاع خدمات مايكروسوفت العالمي.. تعرف عليها",
+      "url": "https://www.aljazeera.net/tech/2026/11/16/3-%d8%af%d9%88%d9%84-%d9%84%d9%85-%d8%aa%d8%aa%d8%a3%d8%ab%d8%b1-%d8%a8%d8%a7%d9%86%d9%82%d8%b7%d8%a7%d8%b9-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-16T07:42:58Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "3 دول لم تتأثر بانقطاع خدمات مايكروسوفت العالمي.. تعرف عليها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "علي بابا تطلق Qwen4-Max بقدرات متعددة الوسائط وسياق مليون رمز",
+      "url": "https://aitnews.com/2026/11/16/alibaba-qwen4-max-multimodal-million-token-context/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-16T07:39:24Z",
+      "category": "أخبار التقنية",
+      "title_ar": "علي بابا تطلق Qwen4-Max بقدرات متعددة الوسائط وسياق مليون رمز",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بوني إيه آي وتويوتا تطلقان سيارات أجرة bZ4X بلا سائق في الصين",
+      "url": "https://aitnews.com/2026/11/16/pony-ai-toyota-bz4x-driverless-taxi-china/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-16T07:37:38Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بوني إيه آي وتويوتا تطلقان سيارات أجرة bZ4X بلا سائق في الصين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ديلويت تطلق BusinessNext لإدارة العمليات المالية للشركات الصغيرة والمتوسطة",
+      "url": "https://aitnews.com/2026/11/16/%d8%af%d9%8a%d9%84%d9%88%d9%8a%d8%aa-%d8%aa%d8%b7%d9%84%d9%82-businessnext-%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-16T07:20:26Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ديلويت تطلق BusinessNext لإدارة العمليات المالية للشركات الصغيرة والمتوسطة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "نظارات Samsung وGoogle الذكية تبدأ من 395 دولاراً وتصل 10 ديسمبر",
+      "url": "https://3arrafni.com/tech-news/samsung-google-ai-glasses-price-release",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T06:53:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "نظارات Samsung وGoogle الذكية تبدأ من 395 دولاراً وتصل 10 ديسمبر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Apple تشرح كيف تحمي Secure Exclaves بيانات الكاميرا والميكروفون",
+      "url": "https://3arrafni.com/tech-news/apple-secure-exclaves-camera-microphone-privacy",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T05:58:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Apple تشرح كيف تحمي Secure Exclaves بيانات الكاميرا والميكروفون",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ميزة Family Hub تصل إلى إعدادات Pixel لإدارة العائلة بسهولة",
+      "url": "https://3arrafni.com/tech-news/google-pixel-family-hub-settings",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-16T05:03:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ميزة Family Hub تصل إلى إعدادات Pixel لإدارة العائلة بسهولة",
       "translation_status": "original_ar"
     },
     {
@@ -30,36 +170,6 @@
       "published_at": "2026-11-16T02:05:34Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "دراسة: ارتفاع بلاغات مواد استغلال الأطفال المولّدة بالذكاء الاصطناعي بأكثر من 8400%",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "9 إعدادات تجعل استخدام iPhone Duo القابل للطي أسهل",
-      "url": "https://3arrafni.com/iphone-duo-settings-easier-to-use",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-15T19:54:13Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "9 إعدادات تجعل استخدام iPhone Duo القابل للطي أسهل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب مفتاح Fireworks AI أدى إلى نشر إضافة Claude Code مزيفة عبر Cursor",
-      "url": "https://3arrafni.com/tech-news/cursor-breach-fireworks-ai-fake-claude-code-extension",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-15T18:59:13Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تسريب مفتاح Fireworks AI أدى إلى نشر إضافة Claude Code مزيفة عبر Cursor",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث Motorola Android 17 يصل إلى Razr 50 Ultra في أوروبا",
-      "url": "https://3arrafni.com/tech-news/motorola-android-17-razr-50-ultra-update",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-15T18:04:13Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تحديث Motorola Android 17 يصل إلى Razr 50 Ultra في أوروبا",
       "translation_status": "original_ar"
     },
     {
@@ -113,26 +223,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "تحديث Chrome 157 على الحاسوب يصلح 83 ثغرة بينها 5 ثغرات حرجة",
-      "url": "https://arabhardware.net/post-55161",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-15T09:27:29Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "تحديث Chrome 157 على الحاسوب يصلح 83 ثغرة بينها 5 ثغرات حرجة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أفضل معادلة بين التبريد والضوضاء؟ مراجعة كيس Cooler Master HAF II 500",
-      "url": "https://arabhardware.net/post-55164",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-15T07:18:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أفضل معادلة بين التبريد والضوضاء؟ مراجعة كيس Cooler Master HAF II 500",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "ستارشيب تعود من المدار وتُلتقط لأول مرة.. كيف حققت سبيس إكس إنجازًا تاريخيًا؟",
       "url": "https://techvoicearabia.com/spacex-starship-flight-15-first-orbital-catch/",
       "source": "techvoice",
@@ -153,26 +243,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "تحقيق: «ميجاسبيد» رتبت طلبات لرقاقات إنفيديا بنحو 12 مليار دولار لشركات صينية",
-      "url": "https://aitnews.com/2026/11/15/megaspeed-nvidia-chips-12-billion-china-wsj-investigation/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-15T06:27:10Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحقيق: «ميجاسبيد» رتبت طلبات لرقاقات إنفيديا بنحو 12 مليار دولار لشركات صينية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سبيس إكس تنجح للمرة الأولى في التقاط «ستارشيب» العائدة من المدار",
-      "url": "https://aitnews.com/2026/11/15/spacex-starship-first-orbital-ship-catch-2026/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-15T01:41:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سبيس إكس تنجح للمرة الأولى في التقاط «ستارشيب» العائدة من المدار",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "مستثمران كبيران في Nvidia يطلبان إبقاء عودة Jensen Huang خيارًا مفتوحًا",
       "url": "https://techvoicearabia.com/nvidia-investors-jensen-huang-return-altimeter-atreides/",
       "source": "techvoice",
@@ -190,26 +260,6 @@
       "published_at": "2026-11-14T20:50:32Z",
       "category": "أخبار التقنية",
       "title_ar": "Lilly تكشف بيانات جديدة للسمنة: EloraTZP يخفض الوزن 23.3% و Zepbound يقلص BMI للمراهقين 21.4%",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كيف تستعيد أيقونة Apple Music الحمراء على آيفون خطوة بخطوة؟",
-      "url": "https://arabhardware.net/post-55160",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-14T18:19:44Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "كيف تستعيد أيقونة Apple Music الحمراء على آيفون خطوة بخطوة؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "روكيت لاب تنفّذ الإطلاق المئة لصاروخ «إلكترون» وتضع قمرًا صناعيًا يابانيًا في المدار",
-      "url": "https://aitnews.com/2026/11/14/rocket-lab-electron-100th-launch-japanese-satellite/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-14T11:14:14Z",
-      "category": "أخبار التقنية",
-      "title_ar": "روكيت لاب تنفّذ الإطلاق المئة لصاروخ «إلكترون» وتضع قمرًا صناعيًا يابانيًا في المدار",
       "translation_status": "original_ar"
     },
     {
@@ -250,16 +300,6 @@
       "published_at": "2026-11-12T17:34:00Z",
       "category": "أخبار التقنية",
       "title_ar": "«يوجرين» تدعم التحول نحو بيئات العمل الذكية بحلول تقنية متطورة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
-      "url": "https://technologyarabia.com/archives/17930/google-deepmind-ai-formal-verification-signal-security/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-12T06:31:02Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Google DeepMind تستخدم الذكاء الاصطناعي للتحقق رياضياً من شيفرة Signal.. ما الذي تغيّر؟",
       "translation_status": "original_ar"
     },
     {
@@ -330,7 +370,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",
