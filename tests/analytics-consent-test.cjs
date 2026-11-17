@@ -22,7 +22,8 @@ for (const route of routes) {
     assert.ok(/^G-[A-Z0-9]{6,16}$/.test(scripts[0][1]), route);
   } else {
     assert.ok(csp.includes("connect-src 'self'"), route);
-    assert.ok(!csp.includes("https://www.googletagmanager.com"), route);
+    assert.ok(csp.includes("https://www.googletagmanager.com"), route);
+    assert.ok(csp.includes("https://*.google-analytics.com"), route);
     assert.ok(!html.includes("PROTECH_ANALYTICS_BEGIN"), route);
   }
 }

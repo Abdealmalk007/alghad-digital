@@ -18,6 +18,8 @@ def extend_csp(original: str) -> str:
         "connect-src 'self';": "connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com;",
     }
     for old, new in replacements.items():
+        if new in original:
+            continue  # Already compatible; allow repeatable builds.
         if original.count(old) != 1:
             raise ValueError(f"Unexpected CSP directive: {old}")
         original = original.replace(old, new, 1)
@@ -52,12 +54,13 @@ def main() -> None:
         html = BLOCK_RE.sub("", source)
         html = PRIVACY_RE.sub("", html)
         css = '<link rel="stylesheet" href="/assets/analytics-consent.css?v=1">'
+        matches = list(CSP_RE.finditer(html))
+        if len(matches) != 1:
+            raise ValueError(f"Missing/duplicate CSP: {target}")
+        match = matches[0]
+        # Prepare CSP independently of GA4 stream creation, without loading Google scripts.
+        html = html[:match.start(2)] + extend_csp(match.group(2)) + html[match.end(2):]
         if measurement_id:
-            matches = list(CSP_RE.finditer(html))
-            if len(matches) != 1:
-                raise ValueError(f"Missing/duplicate CSP: {target}")
-            match = matches[0]
-            html = html[:match.start(2)] + extend_csp(match.group(2)) + html[match.end(2):]
             if css not in html:
                 if html.count("</head>") != 1: raise ValueError(f"Invalid head: {target}")
                 html = html.replace("</head>", css + "\n</head>", 1)
