@@ -64,6 +64,9 @@ jobs:
         run: python scripts/optimize_search_visibility.py
       - name: Refresh sitewide search over pages, software and latest news
         run: python scripts/build_site_search.py
+      - name: Keep search snippets concise and heading hierarchy accessible
+        run: python scripts/polish_search_snippets.py
+
       - name: Check original Microsoft media download links (non-blocking)
         continue-on-error: true
         run: python scripts/check_microsoft_media_health.py
@@ -90,6 +93,7 @@ jobs:
           node tests/program-experience-test.cjs
           node tests/contact-security-test.cjs
           node tests/accessibility-seo-regression-test.cjs
+          node tests/search-snippet-quality-test.cjs
           node tests/analytics-consent-test.cjs
           node tests/windows-office-sources-test.cjs
           node tests/quotes-beta3-release-test.cjs
