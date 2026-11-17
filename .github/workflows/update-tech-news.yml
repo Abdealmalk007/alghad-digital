@@ -60,6 +60,8 @@ jobs:
         env:
           GA4_MEASUREMENT_ID: ${{ vars.GA4_MEASUREMENT_ID }}
         run: python scripts/build_analytics.py
+      - name: Keep Google search identity and publication dates accurate
+        run: python scripts/optimize_search_visibility.py
       - name: Refresh sitewide search over pages, software and latest news
         run: python scripts/build_site_search.py
       - name: Check original Microsoft media download links (non-blocking)
@@ -68,6 +70,7 @@ jobs:
       - name: Verify indexable pages and editorial integrity
         run: |
           python scripts/test_seo.py
+          python scripts/seo_inventory.py --check
           node tests/bilingual-test.cjs
           node tests/editorial-test.cjs
           node tests/global-tech-sources-test.cjs
@@ -77,6 +80,7 @@ jobs:
           node tests/product-first-test.cjs
           node tests/home-redesign-v4-test.cjs
           node tests/brand-seo-test.cjs
+          node tests/search-visibility-test.cjs
           node tests/no-duplicate-program-test.cjs
           node tests/share-download-test.cjs
           node tests/two-actions-test.cjs

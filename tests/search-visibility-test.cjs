@@ -1,0 +1,65 @@
+"use strict";
+/* Bilingual SEO, brand identity, XML freshness and crawlability regression. */
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const path=require("node:path");
+const root=path.resolve(__dirname,"..");
+const read=p=>fs.readFileSync(path.join(root,p),"utf8");
+const base="https://alghad.digital/";
+const home=read("index.html"),english=read("en/index.html"),sitemap=read("sitemap.xml");
+const homepageTitle=home.match(/<title>(.*?)<\/title>/s)?.[1];
+const englishTitle=english.match(/<title>(.*?)<\/title>/s)?.[1];
+assert.equal(homepageTitle,"الغد ديجتال (جيل الغد) | برامج Pro Tech لويندوز وأندرويد");
+assert.equal(englishTitle,"Alghad Digital | ProTech Software for Windows &amp; Android");
+for(const [code,lang] of [[home,"ar"],[english,"en"]]){
+ assert.match(code,/<meta name="robots" content="index,follow/);
+ assert.ok(code.includes('hreflang="ar"')&&code.includes('hreflang="en"'));
+ assert.ok(code.includes('hreflang="x-default"'));
+ assert.ok(code.includes('rel="canonical"'));
+ assert.ok(code.includes('name="description"'));
+ assert.ok(!code.includes('name="keywords"'));
+ assert.ok(code.includes("جيل الغد"),lang+" user-visible brand alias");
+ assert.ok(code.includes("ProTech"),lang+" user-visible brand");
+ assert.ok(code.includes('class="protech-whatsapp-float"'));
+}
+assert.ok(home.includes('name="description" content="الغد ديجتال (جيل الغد)'));
+assert.ok(english.includes('name="description" content="Explore ProTech software'));
+const arabicGraph=JSON.parse(home.match(/<!-- SEO JSONLD START --><script type="application\/ld\+json">(.*?)<\/script><!-- SEO JSONLD END -->/s)?.[1]||"null");
+assert.equal(arabicGraph["@graph"].length,2);
+const website=arabicGraph["@graph"].find(n=>n["@type"]==="WebSite");
+const org=arabicGraph["@graph"].find(n=>n["@type"]==="Organization");
+assert.ok(website&&org);
+assert.equal(website.name,"الغد ديجتال");
+assert.equal(website.url,base);
+assert.equal(website["@id"],base+"#website");
+assert.ok(website.alternateName.includes("جيل الغد"));
+assert.ok(website.alternateName.includes("Alghad Digital"));
+assert.ok(website.alternateName.includes("Jil Al Ghad"));
+assert.ok(website.alternateName.includes("alghad.digital"));
+assert.equal(org.name,"ProTech");
+assert.equal(org["@id"],base+"#protech");
+assert.ok(org.sameAs.includes("https://github.com/Abdealmalk007"));
+const enSchema=JSON.parse(english.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)?.[1]||"null");
+assert.equal(enSchema["@type"],"WebPage","/en/ must not declare a separate site name");
+assert.equal(enSchema.inLanguage,"en");
+assert.equal(enSchema.isPartOf["@id"],base+"#website");
+assert.equal(enSchema.publisher["@id"],base+"#protech");
+assert.equal(enSchema.url,base+"en/");
+assert.ok(english.includes('Alghad Digital (Jil Al Ghad / جيل الغد)'),"English body names the actual publisher");
+const locs=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
+assert.equal(locs.length,42);
+assert.equal(new Set(locs).size,42);
+const sections=[...sitemap.matchAll(/<url>\s*<loc>(.*?)<\/loc>(?:\s*<lastmod>(\d{4}-\d{2}-\d{2})<\/lastmod>)?\s*<\/url>/g)];
+assert.equal(sections.length,42);
+const recency=sections.filter(s=>s[2]);
+assert.equal(recency.length,10,"News pages and both homes have verified lastmod dates");
+const now=Date.now()+86400000;
+for(const [,url,date] of recency){
+ assert.ok(url===base||url===base+"en/"||/\/(news|ai-news|tech-companies|cars)\/$/.test(url),"Do not invent static content lastmod");
+ assert.ok(Date.parse(date+"T00:00:00Z")<=now,"Future publication date");
+}
+assert.ok(read("robots.txt").includes("Sitemap: https://alghad.digital/sitemap.xml"));
+assert.ok(fs.existsSync(path.join(root,"google3f39246447a165d6.html")));
+assert.ok(read(".github/workflows/update-tech-news.yml").includes("python scripts/optimize_search_visibility.py"));
+assert.ok(read(".github/workflows/update-tech-news.yml").includes("node tests/search-visibility-test.cjs"));
+console.log("SEARCH_VISIBILITY_QA_PASS",JSON.stringify({pages:42,arabic:21,english:21,realNewsLastmod:10,brandAliases:website.alternateName.length,canonical:"PASS",structuredData:"PASS"}));
