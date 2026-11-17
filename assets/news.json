@@ -1,95 +1,165 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T20:57:07Z",
+  "generated_at": "2026-11-17T06:32:08Z",
   "articles": [
     {
-      "title": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
-      "url": "https://www.bbc.com/arabic/articles/cm62p3x05xgwo?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-16T19:27:24Z",
+      "title": "استدعاء 2,214 مكبر صوت Bose في السعودية واستبدال البطارية مجاناً",
+      "url": "https://3arrafni.com/tech-news/bose-speaker-recall-saudi-arabia",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T05:39:52Z",
+      "category": "أخبار التقنية",
+      "title_ar": "استدعاء 2,214 مكبر صوت Bose في السعودية واستبدال البطارية مجاناً",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google Maps يضيف Ask Maps لإنشاء خطط رحلات بالذكاء الاصطناعي",
+      "url": "https://3arrafni.com/tech-news/google-maps-ask-maps-ai-trip-planner",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T04:44:52Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Google Maps يضيف Ask Maps لإنشاء خطط رحلات بالذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Apple تضيف بودكاست الفيديو إلى تطبيق Apple TV دون اشتراك",
+      "url": "https://3arrafni.com/tech-news/apple-tv-video-podcasts",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T03:49:52Z",
       "category": "البرامج والإنترنت",
-      "title_ar": "السلطات الأردنية تحجب تطبيق تلغرام لـ\"محاربة الإرهاب\"، وجدل بين مؤيد ومعارض",
+      "title_ar": "Apple تضيف بودكاست الفيديو إلى تطبيق Apple TV دون اشتراك",
       "translation_status": "original_ar"
     },
     {
-      "title": "بنوك أمريكية بارزة تتوقف عن العمل فجأة.. هل حدث هجوم سيبراني؟",
-      "url": "https://www.aljazeera.net/tech/2026/11/16/%d8%a8%d9%86%d9%88%d9%83-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%a8%d8%a7%d8%b1%d8%b2%d8%a9-%d8%aa%d8%aa%d9%88%d9%82%d9%81-%d8%b9%d9%86-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d9%81%d8%ac%d8%a3%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T17:37:54Z",
+      "title": "سيارات Zoox ذاتية القيادة تصل إلى Uber في لاس فيغاس دون رسوم إضافية",
+      "url": "https://3arrafni.com/tech-news/zoox-uber-las-vegas-robotaxi",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T02:54:52Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سيارات Zoox ذاتية القيادة تصل إلى Uber في لاس فيغاس دون رسوم إضافية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ثغرة NoisyTCP في Linux تتيح إسقاط الخوادم عن بُعد دون تسجيل دخول",
+      "url": "https://3arrafni.com/tech-news/noisytcp-linux-cve-2026-99288",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T01:59:52Z",
       "category": "الأمن السيبراني",
-      "title_ar": "بنوك أمريكية بارزة تتوقف عن العمل فجأة.. هل حدث هجوم سيبراني؟",
+      "title_ar": "ثغرة NoisyTCP في Linux تتيح إسقاط الخوادم عن بُعد دون تسجيل دخول",
       "translation_status": "original_ar"
     },
     {
-      "title": "تسلا تستثمر 3.4 مليارات دولار لتوسيع مصنعها في ألمانيا",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d8%aa%d8%b3%d9%84%d8%a7-%d8%aa%d8%b3%d8%aa%d8%ab%d9%85%d8%b1-3-4-%d9%85%d9%84%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%84%d8%aa%d9%88%d8%b3%d9%8a%d8%b9?traffic_source=rss",
+      "title": "GITEX World RobotiX 2026 يجلب الروبوتات البشرية و Physical AI إلى دبي",
+      "url": "https://techvoicearabia.com/gitex-world-robotix-2026-physical-ai-humanoid-robots-dubai/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-16T23:03:05Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "GITEX World RobotiX 2026 يجلب الروبوتات البشرية و Physical AI إلى دبي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Expand North Star 2026 يجمع شركات ناشئة عالمية تبحث عن النمو عبر دبي",
+      "url": "https://techvoicearabia.com/expand-north-star-2026-global-startups-dubai/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-16T22:30:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Expand North Star 2026 يجمع شركات ناشئة عالمية تبحث عن النمو عبر دبي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مواصفات خارقة، لكن هل تستحق؟ مراجعة فأرة Razer Basilisk V4 Pro",
+      "url": "https://arabhardware.net/post-55170",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-16T22:14:06Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مواصفات خارقة، لكن هل تستحق؟ مراجعة فأرة Razer Basilisk V4 Pro",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديث أمني جديد لهاتف Galaxy A57 يعالج 179 ثغرة ويحسن الأمان",
+      "url": "https://www.tech-wd.com/wd/2026/11/17/%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a3%d9%85%d9%86%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-%d9%84%d9%87%d8%a7%d8%aa%d9%81-galaxy-a57-%d9%8a%d8%b9%d8%a7%d9%84%d8%ac-179-%d8%ab%d8%ba%d8%b1%d8%a9-%d9%88%d9%8a/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-16T21:54:18Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "تحديث أمني جديد لهاتف Galaxy A57 يعالج 179 ثغرة ويحسن الأمان",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هل تعيد سامسونج “الفتحة المتغيرة” إلى عدسة كاميرا Galaxy S28 Pro وUltra؟",
+      "url": "https://www.tech-wd.com/wd/2026/11/17/%d9%87%d9%84-%d8%aa%d8%b9%d9%8a%d8%af-%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%a7%d9%84%d9%81%d8%aa%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d8%ba%d9%8a%d8%b1%d8%a9-%d8%a5%d9%84%d9%89-%d8%b9/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-16T21:50:57Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "هل تعيد سامسونج “الفتحة المتغيرة” إلى عدسة كاميرا Galaxy S28 Pro وUltra؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ترمب و\"ملك الرقائق\".. مصالح مشتركة وفضيحة تتجاوز إنفيديا",
+      "url": "https://www.aljazeera.net/politics/2026/11/17/%d8%aa%d8%b1%d9%85%d8%a8-%d9%88%d9%85%d9%84%d9%83-%d8%a7%d9%84%d8%b1%d9%82%d8%a7%d8%a6%d9%82-%d9%85%d8%b5%d8%a7%d9%84%d8%ad-%d9%85%d8%aa%d8%b4%d8%a7%d8%a8%d9%83%d8%a9-%d9%85%d9%86?traffic_source=rss",
       "source": "aljazeera",
       "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T17:37:45Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسلا تستثمر 3.4 مليارات دولار لتوسيع مصنعها في ألمانيا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "المركزي الأوروبي والفدرالي الأمريكي يحذران من مخاطر الذكاء الاصطناعي على الاستقرار المالي",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/16/%d8%a7%d9%84%d9%85%d8%b1%d9%83%d8%b2%d9%8a-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a-%d9%88%d8%a7%d9%84%d9%81%d8%af%d8%b1%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T17:24:05Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "المركزي الأوروبي والفدرالي الأمريكي يحذران من مخاطر الذكاء الاصطناعي على الاستقرار المالي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ميزة Remote Lock في Windows 11 تتيح لقسم IT قفل أجهزة العمل المفقودة",
-      "url": "https://3arrafni.com/tech-news/windows-11-remote-lock-intune",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T17:20:02Z",
+      "published_at": "2026-11-16T21:29:22Z",
       "category": "الهواتف والأجهزة",
-      "title_ar": "ميزة Remote Lock في Windows 11 تتيح لقسم IT قفل أجهزة العمل المفقودة",
+      "title_ar": "ترمب و\"ملك الرقائق\".. مصالح مشتركة وفضيحة تتجاوز إنفيديا",
       "translation_status": "original_ar"
     },
     {
-      "title": "تطبيق Apple Health AI يختبر روبوتاً للإجابة عن الأسئلة الصحية",
-      "url": "https://3arrafni.com/tech-news/apple-health-ai-study-app",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T16:25:02Z",
+      "title": "هل يحل الذكاء الاصطناعي مكان الطبيب؟ آبل تبدأ “اختبار الفهم” عبر دراسة واسعة",
+      "url": "https://www.tech-wd.com/wd/2026/11/16/%d9%87%d9%84-%d9%8a%d8%ad%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%85%d9%83%d8%a7%d9%86-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%a8%d8%9f-%d8%a2/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-16T20:25:16Z",
       "category": "الذكاء الاصطناعي",
-      "title_ar": "تطبيق Apple Health AI يختبر روبوتاً للإجابة عن الأسئلة الصحية",
+      "title_ar": "هل يحل الذكاء الاصطناعي مكان الطبيب؟ آبل تبدأ “اختبار الفهم” عبر دراسة واسعة",
       "translation_status": "original_ar"
     },
     {
-      "title": "SpaceX تلتقط المرحلة العلوية من Starship بعد عودتها من المدار لأول مرة",
-      "url": "https://3arrafni.com/tech-news/spacex-starship-upper-stage-catch",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T15:30:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "SpaceX تلتقط المرحلة العلوية من Starship بعد عودتها من المدار لأول مرة",
+      "title": "آبل تدخل سباق النظارات الذكية في 2027 بخطة ذكية تتمحور حول Siri وتكامل التطبيقات",
+      "url": "https://www.tech-wd.com/wd/2026/11/16/%d8%a2%d8%a8%d9%84-%d8%aa%d8%af%d8%ae%d9%84-%d8%b3%d8%a8%d8%a7%d9%82-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-%d9%81%d9%8a-2027-%d8%a8%d8%ae%d8%b7%d8%a9/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-16T20:06:20Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "آبل تدخل سباق النظارات الذكية في 2027 بخطة ذكية تتمحور حول Siri وتكامل التطبيقات",
       "translation_status": "original_ar"
     },
     {
-      "title": "Sony توقف تطبيق PlayStation Plus للحاسوب في 10 ديسمبر 2026",
-      "url": "https://3arrafni.com/tech-news/playstation-plus-pc-app-shutdown-december-2026",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T14:35:02Z",
+      "title": "تحديث iOS 27.3 يجلب خاصية “فتح القفل بالوجه” لهاتف iPhone Duo لأول مرة",
+      "url": "https://www.tech-wd.com/wd/2026/11/16/%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-ios-27-3-%d9%8a%d8%ac%d9%84%d8%a8-%d8%ae%d8%a7%d8%b5%d9%8a%d8%a9-%d9%81%d8%aa%d8%ad-%d8%a7%d9%84%d9%82%d9%81%d9%84-%d8%a8%d8%a7%d9%84%d9%88%d8%ac%d9%87-%d9%84%d9%87/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-16T20:01:20Z",
       "category": "الهواتف والأجهزة",
-      "title_ar": "Sony توقف تطبيق PlayStation Plus للحاسوب في 10 ديسمبر 2026",
+      "title_ar": "تحديث iOS 27.3 يجلب خاصية “فتح القفل بالوجه” لهاتف iPhone Duo لأول مرة",
       "translation_status": "original_ar"
     },
     {
-      "title": "فشل صاروخ Vulcan يدمر 40 قمراً لخدمة Amazon Leo بعد الإطلاق",
-      "url": "https://3arrafni.com/tech-news/vulcan-rocket-failure-amazon-leo-satellites",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-16T13:40:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "فشل صاروخ Vulcan يدمر 40 قمراً لخدمة Amazon Leo بعد الإطلاق",
+      "title": "تقدم جديد في اختراق PS5 على أحدث إصدار من النظام قبل أيام من إطلاق GTA 6",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d9%82%d8%af%d9%85-%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-ps5-%d8%b9%d9%84%d9%89-%d8%a3%d8%ad%d8%af%d8%ab-%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-%d9%85%d9%86-%d8%a7/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-16T15:00:11Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "تقدم جديد في اختراق PS5 على أحدث إصدار من النظام قبل أيام من إطلاق GTA 6",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إيطاليا تغرّم Meta مبلغ 805 ملايين يورو بسبب وصول فيسبوك إلى صور مستخدمي أندرويد",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%a5%d9%8a%d8%b7%d8%a7%d9%84%d9%8a%d8%a7-%d8%aa%d8%ba%d8%b1%d9%91%d9%85-meta-%d9%85%d8%a8%d9%84%d8%ba-805-%d9%85%d9%84%d8%a7%d9%8a%d9%8a%d9%86-%d9%8a%d9%88%d8%b1%d9%88-%d8%a8%d8%b3%d8%a8%d8%a8/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-16T14:00:23Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "إيطاليا تغرّم Meta مبلغ 805 ملايين يورو بسبب وصول فيسبوك إلى صور مستخدمي أندرويد",
       "translation_status": "original_ar"
     },
     {
@@ -103,6 +173,26 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "تسريبات تكشف عن مواصفات مخيبة للآمال في هاتف Redmi Note 18 5G المرتقب من شاومي",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d9%85%d9%88%d8%a7%d8%b5%d9%81%d8%a7%d8%aa-%d9%85%d8%ae%d9%8a%d8%a8%d8%a9-%d9%84%d9%84%d8%a2%d9%85%d8%a7%d9%84-%d9%81/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-16T13:00:12Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تسريبات تكشف عن مواصفات مخيبة للآمال في هاتف Redmi Note 18 5G المرتقب من شاومي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب يكشف تصميم وحدة الكاميرا في هاتفي Galaxy S27 Pro وGalaxy S27 Ultra",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%8a%d9%83%d8%b4%d9%81-%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%88%d8%ad%d8%af%d8%a9-%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-%d9%81%d9%8a-%d9%87%d8%a7%d8%aa%d9%81/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-16T12:00:20Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تسريب يكشف تصميم وحدة الكاميرا في هاتفي Galaxy S27 Pro وGalaxy S27 Ultra",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "تقنية DLSS 5 تصل إلى لعبة Hogwarts Legacy| فكيف كانت التجربة؟",
       "url": "https://arabhardware.net/post-55168",
       "source": "hardware",
@@ -113,13 +203,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "\"كل ما درسته كان بلا جدوى\" : كيف يغير الذكاء الاصطناعي مساراتنا المهنية؟",
-      "url": "https://www.bbc.com/arabic/articles/c61k93dk3ky8o?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-16T09:55:12Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "\"كل ما درسته كان بلا جدوى\" : كيف يغير الذكاء الاصطناعي مساراتنا المهنية؟",
+      "title": "جوجل تطلق Pixel Tag كحل مؤقت لمعالجة أوجه القصور في شبكة Find Hub لتتبع الأجهزة المفقودة",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%ac%d9%88%d8%ac%d9%84-%d8%aa%d8%b7%d9%84%d9%82-pixel-tag-%d9%83%d8%ad%d9%84-%d9%85%d8%a4%d9%82%d8%aa-%d9%84%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%a3%d9%88%d8%ac%d9%87-%d8%a7%d9%84%d9%82%d8%b5/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-16T11:00:47Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "جوجل تطلق Pixel Tag كحل مؤقت لمعالجة أوجه القصور في شبكة Find Hub لتتبع الأجهزة المفقودة",
       "translation_status": "original_ar"
     },
     {
@@ -223,16 +313,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "محفظة ChatGPT Wallet تسمح لوكيل الذكاء الاصطناعي بإتمام مشترياتك",
-      "url": "https://arabhardware.net/post-55163",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-15T11:56:23Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "محفظة ChatGPT Wallet تسمح لوكيل الذكاء الاصطناعي بإتمام مشترياتك",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "الصين تختبر طائرة كهربائية تتسع لـ19 راكبًا.. هل تدخل سوق الطيران الخاص؟",
       "url": "https://techvoicearabia.com/comac-ce25a-electric-aircraft-first-crewed-fly/",
       "source": "techvoice",
@@ -263,26 +343,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "مستثمران كبيران في Nvidia يطلبان إبقاء عودة Jensen Huang خيارًا مفتوحًا",
-      "url": "https://techvoicearabia.com/nvidia-investors-jensen-huang-return-altimeter-atreides/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-14T21:40:33Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مستثمران كبيران في Nvidia يطلبان إبقاء عودة Jensen Huang خيارًا مفتوحًا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Lilly تكشف بيانات جديدة للسمنة: EloraTZP يخفض الوزن 23.3% و Zepbound يقلص BMI للمراهقين 21.4%",
-      "url": "https://techvoicearabia.com/lilly-eloratzp-zepbound-obesityweek-2026/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-14T20:50:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Lilly تكشف بيانات جديدة للسمنة: EloraTZP يخفض الوزن 23.3% و Zepbound يقلص BMI للمراهقين 21.4%",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
       "url": "https://technologyarabia.com/archives/18053/openai-chatgpt-wallet-ai-agents-payments-commerce/",
       "source": "technologyarabia",
@@ -301,26 +361,6 @@
       "category": "أخبار التقنية",
       "title_ar": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
-      "url": "https://technologyarabia.com/archives/18039/microsoft-global-outage-november-2026/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-13T20:25:12Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "عطل مايكروسوفت يشلّ خدمات رقمية حول العالم.. 74 دولة تتأثر وأزمة تمتد من الحكومات والمستشفيات إلى المطارات والشركات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
-      "url": "https://www.bbc.com/arabic/watch/cmlykq5k89djo?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-06T07:04:21Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ماذا نعرف عن هجمات سيبرانية تضرب ثلاجات متاجر أوروبية شهيرة؟",
-      "translation_status": "original_ar"
     }
   ],
   "sources": [
@@ -334,7 +374,7 @@
       "id": "techwd",
       "name": "عالم التقنية",
       "url": "https://www.tech-wd.com/wd/",
-      "active": false
+      "active": true
     },
     {
       "id": "hardware",
@@ -382,7 +422,7 @@
       "id": "unlimit",
       "name": "التقنية بلا حدود",
       "url": "https://www.unlimit-tech.com/",
-      "active": false
+      "active": true
     }
   ],
   "copyright": "Headlines, dates, attribution and links only; read full articles on original publishers.",
