@@ -1,17 +1,293 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T17:06:30Z",
+  "generated_at": "2026-11-17T19:46:35Z",
   "articles": [
     {
-      "title": "Inside Microsoft’s giant Outlook outage",
-      "url": "https://www.theverge.com/tech/1035364/microsoft-outlook-outage-notepad",
+      "title": "Framework’s better couch keyboard is now available for preorder",
+      "url": "https://www.theverge.com/tech/1035805/framework-wireless-touchpad-keyboard-preorder-open",
       "source": "theverge",
       "source_name": "The Verge",
-      "published_at": "2026-11-17T17:00:00Z",
+      "published_at": "2026-11-17T19:38:42Z",
       "category": "أخبار التقنية",
-      "title_ar": "تفاصيل الانقطاع الهائل لخدمة أوتلوك من مايكروسوفت",
+      "title_ar": "لوحة مفاتيح Framework الأفضل للاستخدام على الأريكة متاحة الآن للطلب المسبق",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "هل أميركا في حالة حرب؟ جوجل تكشف عن ذكاء اصطناعي ينفذ هجمات إلكترونية دون تدخل بشري",
+      "url": "https://techvoicearabia.com/cyberwarfare-google-ai-hacking-nsa-faa-outage/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-17T19:37:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "هل أميركا في حالة حرب؟ جوجل تكشف عن ذكاء اصطناعي ينفذ هجمات إلكترونية دون تدخل بشري",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google Wallet is launching on iOS",
+      "url": "https://www.engadget.com/2319673/google-wallet-is-launching-on-ios/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T19:33:27Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سيتم إطلاق محفظة Google على نظام التشغيل iOS",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-17T19:32:11Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Model ML تجمع 250 مليون دولار لأتمتة الأعمال الروتينية للخدمات المصرفية الاستثمارية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "3 Body Problem finally returns to Netflix on January 14",
+      "url": "https://www.engadget.com/2319667/3-body-problem-finally-returns-to-netflix-on-january-14/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T19:30:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعود سلسلة \"مشكلة الأجسام الثلاثة\" أخيرًا إلى نتفليكس في 14 يناير",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Can you use a keyboard and mouse with an Xbox Series X?",
+      "url": "https://www.engadget.com/2315395/use-keyboard-mouse-with-xbox-series-x/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T19:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هل يمكنك استخدام لوحة مفاتيح وماوس مع جهاز Xbox Series X؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Apple تفرض حدوداً يومية على ميزات Siri AI وتزيدها مع iCloud+",
+      "url": "https://3arrafni.com/tech-news/siri-ai-daily-limits-icloud-plus",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T19:10:16Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Apple تفرض حدوداً يومية على ميزات Siri AI وتزيدها مع iCloud+",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-17T19:02:20Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "توسّع غوغل نطاق الوصول إلى Gemini Tasks، التي يمكن أن تساعد في إجراء المكالمات وعمليات الشراء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "What exactly are Flock cameras and how can you spot one?",
+      "url": "https://www.engadget.com/2315371/what-are-flock-cameras-how-to-spot/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T19:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ما هي كاميرات Flock بالضبط وكيف يمكنك التعرف عليها؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-17T18:58:01Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أصبح وكيل الذكاء الاصطناعي \"سبارك\" من جوجل \"مهامًا\" — وهو الآن مجاني",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
+      "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-17T18:55:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعطلت خدمات آبل، بما في ذلك آي كلاود ومتجر التطبيقات وآبل ميوزيك وغيرها",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-17T18:48:23Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "ستحتفظ غوغل بمحادثات جيميني لمدة شهرين، بدلًا من 72 ساعة، حتى مع إيقاف تشغيل السجل",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "عطل يربك شبكة الاتصالات السرية داخل وكالة الأمن القومي الأمريكية",
+      "url": "https://arabhardware.net/post-55175",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-17T18:47:57Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عطل يربك شبكة الاتصالات السرية داخل وكالة الأمن القومي الأمريكية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "عُطل فني يضرب خدمات Apple ويُربك المستخدمين!",
+      "url": "https://arabhardware.net/post-55174",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-17T18:34:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عُطل فني يضرب خدمات Apple ويُربك المستخدمين!",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Meta is testing a new standalone messaging app called Direct",
+      "url": "https://www.theverge.com/tech/1035740/meta-instagram-direct-messaging-app",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-17T18:33:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تختبر ميتا تطبيق مراسلة جديدًا مستقلًا يسمى Direct",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Amflow’s new urban e-bike series is deliciously overpowered for flat city streets",
+      "url": "https://www.theverge.com/transportation/1035318/amflow-ue-carbon-pro-commuter-ebike-dji-avinox-price-specs",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-17T18:30:03Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تتميز سلسلة الدراجات الكهربائية الحضرية الجديدة من Amflow بقوتها الفائقة بشكل رائع للشوارع المدينية المستوية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Humanity braces for an alien invasion in 3 Body Problem S2 teaser",
+      "url": "https://arstechnica.com/culture/2026/11/humanity-braces-for-an-alien-invasion-in-3-body-problem-s2-teaser/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-17T18:26:26Z",
+      "category": "أخبار التقنية",
+      "title_ar": "البشرية تستعد لغزو فضائي في إعلان الموسم الثاني من مسلسل 3 Body Problem",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تحذير من FBI: أداة ذكاء اصطناعي تسرّع اختراق الشركات إلى أقل من 3 ساعات",
+      "url": "https://techvoicearabia.com/fbi-artex-ai-cyberattacks-connectwise-warning/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-17T18:19:53Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "تحذير من FBI: أداة ذكاء اصطناعي تسرّع اختراق الشركات إلى أقل من 3 ساعات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "iOS 27.3 beta 2 يضيف فتح القفل بالوجه لـ iPhone Duo وتحسينات Calendar",
+      "url": "https://3arrafni.com/tech-news/ios-27-3-beta-2-iphone-duo-face-unlock",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T18:15:16Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "iOS 27.3 beta 2 يضيف فتح القفل بالوجه لـ iPhone Duo وتحسينات Calendar",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "OpenAI sued by California after admitting to 80 loss-of-control incidents",
+      "url": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-17T18:13:34Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "رفعت ولاية كاليفورنيا دعوى قضائية ضد OpenAI بعد أن اعترفت بوقوع 80 حادثًا لفقدان السيطرة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "شاومي تطلق هاتفي Xiaomi 18 Pro و18 Pro Max عالميًا",
+      "url": "https://aitnews.com/2026/11/17/xiaomi-18-pro-pro-max-global-launch/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-17T18:04:02Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "شاومي تطلق هاتفي Xiaomi 18 Pro و18 Pro Max عالميًا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تعطل شبكة سرية لوكالة الأمن القومي الأميركية.. ماذا حدث؟",
+      "url": "https://techvoicearabia.com/nsa-net-classified-network-outage-us-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-17T18:02:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعطل شبكة سرية لوكالة الأمن القومي الأميركية.. ماذا حدث؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "The data is very preliminary, but Vulcan failure may not be due to BE-4 engines",
+      "url": "https://arstechnica.com/features/2026/11/sources-vulcan-launch-anomaly-investigation-is-complex/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-17T18:00:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "البيانات أولية للغاية، ولكن فشل فولكان قد لا يكون بسبب محركات BE-4",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The iPhone Duo feels far more intuitive with Apple’s new face unlock",
+      "url": "https://www.theverge.com/tech/1035437/iphone-duo-face-unlock-front-camera-hands-on",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-17T17:41:22Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "يبدو جهاز iPhone Duo أكثر سهولة في الاستخدام مع خاصية فتح القفل بالوجه الجديدة من Apple",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "UK tribunal tosses PlayStation Store price-gouging lawsuit, citing physical games as competition",
+      "url": "https://www.engadget.com/2319408/uk-tribunal-tosses-playstation-store-price-gouging-lawsuit-citing-physical-games-as-competition/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T17:40:38Z",
+      "category": "أخبار التقنية",
+      "title_ar": "محكمة بريطانية ترفض دعوى قضائية بشأن رفع أسعار متجر بلاي ستيشن، مستشهدة بالألعاب المادية كمنافسة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تعطل شبكة الاتصالات السرية لوكالة الأمن القومي الأمريكية",
+      "url": "https://aitnews.com/2026/11/17/nsa-net-classified-network-outage/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-17T17:20:59Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعطل شبكة الاتصالات السرية لوكالة الأمن القومي الأمريكية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تقرير Google: وكلاء AI يحولون التحديثات الأمنية إلى هجمات تلقائية",
+      "url": "https://3arrafni.com/tech-news/google-ai-agents-security-patches-attacks",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T17:20:16Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقرير Google: وكلاء AI يحولون التحديثات الأمنية إلى هجمات تلقائية",
+      "translation_status": "original_ar"
     },
     {
       "title": "Google makes it easier to use Gemini without training AI on your data",
@@ -33,61 +309,6 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "جولة تمويلية بقيمة 500 مليون دولار لتطوير الروبوت الفرنسي المتعدد الأغراض «إينو»",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Think twice before using your laptop on any soft surface",
-      "url": "https://www.engadget.com/2315220/think-twice-using-laptop-on-soft-surface/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T16:45:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "فكر مرتين قبل استخدام جهاز الكمبيوتر المحمول الخاص بك على أي سطح ناعم",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
-      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-17T16:44:15Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يقول جنسن هوانغ إنه سيكون \"تشريفًا له\" إذا سُمح له بالعودة كرئيس تنفيذي لشركة إنفيديا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Snapchat has finally made it easy to check an account's mutual friends",
-      "url": "https://www.engadget.com/2319271/snapchat-has-finally-made-it-easy-to-check-an-accounts-mutual-friends/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T16:38:10Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أخيرًا، جعل سناب شات من السهل التحقق من الأصدقاء المشتركين لحساب ما",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "NVIDIA establishes export control committee following Jensen Huang resignation",
-      "url": "https://www.engadget.com/2319262/nvidia-establishes-export-control-committee-following-jensen-huang-resignation/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T16:33:21Z",
-      "category": "أخبار التقنية",
-      "title_ar": "NVIDIA تشكل لجنة مراقبة الصادرات بعد استقالة جنسن هوانغ",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
-      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-17T16:32:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يعمل وكيل الذكاء الاصطناعي الجديد من ديدريم كمنسق أزياء شخصي لك — ويمكنه التسوق نيابة عنك أيضًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "كاسبرسكي تكشف حملة تجسس تستهدف مؤسسات حكومية في آسيا وإفريقيا",
@@ -120,39 +341,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "The DOJ says it’s investigating Megaspeed",
-      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-17T16:19:03Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقول وزارة العدل إنها تحقق مع شركة ميغاسبيد",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "5 CarPlay apps for listening to music and podcasts",
-      "url": "https://www.engadget.com/2315208/carplay-apps-listening-music-podcasts/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T16:15:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "5 تطبيقات كاربلاي للاستماع إلى الموسيقى والبودكاست",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
-      "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-17T16:09:57Z",
-      "category": "أخبار التقنية",
-      "title_ar": "جينسن هوانغ يقول إنه مستعد للعودة كرئيس تنفيذي لشركة إنفيديا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "DLSS 4.5 تصل إلى EVE Vanguard وAssetto Corsa Rally وBlender 5.3",
       "url": "https://3arrafni.com/tech-news/dlss-4-5-eve-vanguard-blender",
       "source": "arrafni",
@@ -161,60 +349,6 @@
       "category": "أخبار التقنية",
       "title_ar": "DLSS 4.5 تصل إلى EVE Vanguard وAssetto Corsa Rally وBlender 5.3",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "You can now preorder the Flipper One that puts a Linux computer in your pocket",
-      "url": "https://www.theverge.com/tech/1034392/flipper-devices-one-zero-pocket-linux-computer-multi-tool-preorder-kickstarte",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-17T16:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يمكنك الآن طلب جهاز Flipper One مسبقًا والذي يضع جهاز كمبيوتر يعمل بنظام التشغيل Linux في جيبك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "House Democrats promise a US return to global climate talks",
-      "url": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-17T15:32:43Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الدمقراطيون في مجلس النواب يعدون بعودة الولايات المتحدة إلى المحادثات العالمية بشأن المناخ",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "بدء طرح تحديث One UI 9 المستقر لأجهزة Galaxy Tab S9 مع Android 17",
-      "url": "https://3arrafni.com/tech-news/galaxy-tab-s9-one-ui-9-android-17-rollout",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-17T15:30:16Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "بدء طرح تحديث One UI 9 المستقر لأجهزة Galaxy Tab S9 مع Android 17",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Ars Live: What do drone strikes on data centers mean for the future? Talk at 1 pm EST today",
-      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-17T15:28:59Z",
-      "category": "أخبار التقنية",
-      "title_ar": "آرس لايف: ماذا تعني ضربات الطائرات بدون طيار على مراكز البيانات للمستقبل؟ حديث في الساعة 1 ظهرًا بتوقيت شرق الولايات المتحدة اليوم",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Uber and Zipline’s drone delivery service takes off in Texas, with dozens of cities to follow",
-      "url": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-17T15:07:06Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تبدأ خدمة التوصيل باستخدام الطائرات بدون طيار من أوبر وزيبلين في تكساس، مع عشرات المدن التي ستتبعها",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "Meta launches Direct, a stand-alone messaging app for Instagram",
@@ -226,79 +360,6 @@
       "title_ar": "ميتا تطلق Direct، تطبيق مراسلة مستقل لإنستغرام",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "This E Ink photo frame can double as your family’s digital dashboard",
-      "url": "https://www.theverge.com/tech/1035258/trmnl-e-ink-spectra-6-frame-dashboard-display-poster-photos",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-17T14:49:21Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يمكن أن يكون إطار الصور هذا من E Ink بمثابة لوحة تحكم رقمية لعائلتك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Mercedes تطرح MB.Drive Assist Pro للقيادة داخل المدن في أمريكا",
-      "url": "https://3arrafni.com/tech-news/mercedes-mb-drive-assist-pro-us",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-17T14:35:16Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Mercedes تطرح MB.Drive Assist Pro للقيادة داخل المدن في أمريكا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-17T14:00:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "اتخذ روبوت Grok إجراءات غير معتمدة، وتجاهل أوامر التوقف، ثم أنكر ذلك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Apple تطرح خلفيات Pokémon الرسمية لـ iPhone مجاناً",
-      "url": "https://3arrafni.com/tech-news/apple-pokemon-iphone-wallpapers",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-17T13:40:16Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Apple تطرح خلفيات Pokémon الرسمية لـ iPhone مجاناً",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Natural Cycles updates its cycle-tracking wearable",
-      "url": "https://www.engadget.com/2318468/natural-cycles-updates-its-cycle-tracking-wearable/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T13:30:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقوم Natural Cycles بتحديث جهازها القابل للارتداء لتتبع الدورة الشهرية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "قمة الويب من لشبونة.. أيد روبوتية وممثلة رقمية ومنصة لتعليم تاريخ فلسطين",
-      "url": "https://www.aljazeera.net/video/%d8%aa%d9%82%d8%a7%d9%86%d8%a9/2026/11/17/%d9%82%d9%85%d8%a9-%d8%a7%d9%84%d9%88%d9%8a%d8%a8-%d9%85%d9%86-%d9%84%d8%b4%d8%a8%d9%88%d9%86%d8%a9-%d8%a3%d9%8a%d8%af-%d8%b1%d9%88%d8%a8%d9%88%d8%aa%d9%8a%d8%a9-%d9%88%d9%85%d9%85%d8%ab%d9%84%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-17T13:20:13Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "قمة الويب من لشبونة.. أيد روبوتية وممثلة رقمية ومنصة لتعليم تاريخ فلسطين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "لعبة Attack on Titan 3 تحصل على عرض دعائي جديد",
-      "url": "https://arabhardware.net/post-55172",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-17T11:58:51Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لعبة Attack on Titan 3 تحصل على عرض دعائي جديد",
-      "translation_status": "original_ar"
     },
     {
       "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
@@ -319,69 +380,6 @@
       "published_at": "2026-11-17T11:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "يمكن لميزة الإرجاع الفوري في ساعة Apple Watch تسجيل المحادثات المنطوقة وإرجاعها. إنها ميزة محرجة إلى حد ما",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
-      "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-17T10:47:45Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أخبر الذكاء الاصطناعي هؤلاء الأشخاص السابقين في غوغل بكيفية بناء شركة أسلحة بمليارات الدولارات",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "إطلاق هاتفي OPPO Reno17 و Reno17 Pro ببطاريات ضخمة وكاميرات متنوعة",
-      "url": "https://arabhardware.net/post-55171",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-17T09:33:35Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "إطلاق هاتفي OPPO Reno17 و Reno17 Pro ببطاريات ضخمة وكاميرات متنوعة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "GITEX World RobotiX 2026 يجلب الروبوتات البشرية و Physical AI إلى دبي",
-      "url": "https://techvoicearabia.com/gitex-world-robotix-2026-physical-ai-humanoid-robots-dubai/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-16T23:03:05Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "GITEX World RobotiX 2026 يجلب الروبوتات البشرية و Physical AI إلى دبي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Expand North Star 2026 يجمع شركات ناشئة عالمية تبحث عن النمو عبر دبي",
-      "url": "https://techvoicearabia.com/expand-north-star-2026-global-startups-dubai/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-16T22:30:18Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Expand North Star 2026 يجمع شركات ناشئة عالمية تبحث عن النمو عبر دبي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Cyber giant Infoblox confirms security incident after hackers access ‘company information’",
-      "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-16T22:12:31Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تؤكد شركة إنفوبلوكس العملاقة في مجال الإنترنت وقوع حادث أمني بعد وصول المتسللين إلى \"معلومات الشركة\"",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
-      "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-15T23:11:54Z",
-      "category": "أخبار التقنية",
-      "title_ar": "فشل صاروخ فولكان أثناء الإطلاق، مما ألحق ضربة قوية بمنافسي سبيس إكس",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     }
