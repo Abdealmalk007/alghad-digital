@@ -1,0 +1,45 @@
+"use strict";
+/* Global technology RSS sources: explicit, HTTPS allowlisted, bilingual, and not scraped. */
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const path=require("node:path");
+const root=path.resolve(__dirname,"..");
+const read=p=>fs.readFileSync(path.join(root,p),"utf8");
+const ids=["theverge","techcrunch","arstechnica","wired","engadget"];
+const names=["The Verge","TechCrunch","Ars Technica","WIRED","Engadget"];
+const hosts=["theverge.com","techcrunch.com","arstechnica.com","wired.com","engadget.com"];
+const data=JSON.parse(read("assets/news.json"));
+const sourceConfig=read("scripts/update_news.py");
+const editorial=read("assets/editorial.js");
+const editorialTest=read("tests/editorial-test.cjs");
+const ar=read("news/index.html"),en=read("en/news/index.html");
+const css=read("assets/global-tech-sources.css");
+const sources=new Map(data.sources.map(source=>[source.id,source]));
+assert.equal(data.sources.length,15,"Keep ten previous sources alongside the five new publishers");
+assert.equal(ids.length,new Set(ids).size);
+for(let i=0;i<5;i++){
+ const s=sources.get(ids[i]);
+ assert.ok(s,"Source missing: "+ids[i]);
+ assert.equal(s.name,names[i],"Correct publisher name");
+ const url=new URL(s.url);
+ assert.equal(url.protocol,"https:");
+ assert.ok(url.hostname===hosts[i]||url.hostname.endsWith("."+hosts[i]));
+ assert.ok(sourceConfig.includes('("'+ids[i]+'","'+names[i]+'",'),"Feed must be configured");
+ assert.ok(editorial.includes('"'+hosts[i]+'"'),"Browser allowlist missing");
+ assert.ok(editorialTest.includes('"'+hosts[i]+'"'),"Regression allowlist missing");
+ const occurrences=(ar.match(new RegExp('>'+names[i].replaceAll(" ","\\s")+"\\s*↗</a>","g"))||[]).length;
+ assert.ok(occurrences>=1,"Arabic news directory link missing for "+names[i]);
+ assert.ok(en.includes(names[i]),"English directory link missing for "+names[i]);
+}
+assert.ok(ar.includes('class="global-tech-sources"'));
+assert.ok(en.includes('class="global-tech-sources"'));
+assert.ok(ar.includes('href="/assets/global-tech-sources.css?v=1"'));
+assert.ok(en.includes('href="/assets/global-tech-sources.css?v=1"'));
+assert.ok(css.includes("@media(max-width:440px)"));
+assert.ok(css.includes("focus-visible"));
+assert.ok(read(".github/workflows/update-tech-news.yml").includes("node tests/global-tech-sources-test.cjs"));
+assert.ok(sourceConfig.includes("GLOBAL_TECH_IDS="));
+assert.ok(data.articles.length>=5&&data.articles.length<=36);
+assert.ok(data.articles.every(a=>a.url.startsWith("https://")));
+assert.equal(new Set(data.articles.map(a=>a.title.toLowerCase())).size,data.articles.length,"No duplicate article titles");
+console.log("GLOBAL_TOP5_TECH_NEWS_PASS",JSON.stringify({sources:ids,allSourceCount:data.sources.length,articles:data.articles.length,liveFeeds:ids.filter(id=>sources.get(id).active)}));

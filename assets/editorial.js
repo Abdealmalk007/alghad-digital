@@ -8,7 +8,7 @@
   const dateFormat=new Intl.DateTimeFormat("ar-SA-u-ca-gregory", {year:"numeric",month:"short",day:"numeric",timeZone:"Asia/Riyadh"});
   const NEWS_HOSTS=["aitnews.com","tech-wd.com","arabhardware.net","techvoicearabia.com",
     "technologyarabia.com","3arrafni.com","th3professional.com","aljazeera.net",
-    "bbc.com","bbc.co.uk","unlimit-tech.com"];
+    "bbc.com","bbc.co.uk","unlimit-tech.com","theverge.com","techcrunch.com","arstechnica.com","wired.com","engadget.com"];
   const VENDOR_HOSTS=["voidtools.com","ventoy.net","rufus.ie","irfanview.com",
     "file-converter.io","videolan.org","freedownloadmanager.org","github.com"];
   function isAllowed(url,hosts){

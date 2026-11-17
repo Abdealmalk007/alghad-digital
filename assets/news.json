@@ -1,7 +1,28 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T06:32:08Z",
+  "generated_at": "2026-11-17T06:45:08Z",
   "articles": [
+    {
+      "title": "Microsoft تكشف سبب تعطل Microsoft 365 وتحذر من رسائل تصيد",
+      "url": "https://3arrafni.com/tech-news/microsoft-365-outage-july-bug-phishing-warning",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T06:34:52Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Microsoft تكشف سبب تعطل Microsoft 365 وتحذر من رسائل تصيد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Apple adds new disk controls to prevent AI agents from running amok",
+      "url": "https://www.engadget.com/2318790/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T06:22:11Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تضيف Apple عناصر تحكم جديدة في الأقراص لمنع وكلاء الذكاء الاصطناعي من الخروج عن السيطرة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
     {
       "title": "استدعاء 2,214 مكبر صوت Bose في السعودية واستبدال البطارية مجاناً",
       "url": "https://3arrafni.com/tech-news/bose-speaker-recall-saudi-arabia",
@@ -43,14 +64,70 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ثغرة NoisyTCP في Linux تتيح إسقاط الخوادم عن بُعد دون تسجيل دخول",
-      "url": "https://3arrafni.com/tech-news/noisytcp-linux-cve-2026-99288",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-17T01:59:52Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ثغرة NoisyTCP في Linux تتيح إسقاط الخوادم عن بُعد دون تسجيل دخول",
-      "translation_status": "original_ar"
+      "title": "Buying a used phone? Make sure to check the IMEI first",
+      "url": "https://www.engadget.com/2315183/buying-used-phone-check-imei-first/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T01:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هل ترغب في شراء هاتف مستعمل؟ تأكد من التحقق من رقم IMEI أولاً",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Meta is testing Direct, a standalone messaging app for Instagram",
+      "url": "https://www.engadget.com/2318452/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T01:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تختبر ميتا تطبيق Direct، وهو تطبيق مراسلة مستقل لإنستغرام",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The important Gmail security settings you should be using",
+      "url": "https://www.engadget.com/2315195/gmail-security-settings-most-important-use/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T00:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إعدادات أمان Gmail المهمة التي يجب عليك استخدامها",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Whether it's Black Friday or a CEO scandal, NVIDIA GPUs just don't get deep discounts",
+      "url": "https://www.engadget.com/2318262/nvidia-gou-dont-get-deep-discounts-black-friend-ceo-scandal/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T00:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سواء كان الأمر يتعلق بالجمعة البيضاء أو فضيحة الرئيس التنفيذي، فإن وحدات معالجة الرسومات من NVIDIA لا تحصل على خصومات كبيرة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-16T23:32:32Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الشركة الناشئة في مجال الذكاء الاصطناعي للأمن السيبراني \"كورما\" تصل إلى تقييم بقيمة مليار دولار في حوالي 3 أشهر",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-16T23:17:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يعتقد قادة التكنولوجيا أن خروج جنسن هوانغ كان مؤامرة ضده",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "GITEX World RobotiX 2026 يجلب الروبوتات البشرية و Physical AI إلى دبي",
@@ -61,6 +138,17 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "GITEX World RobotiX 2026 يجلب الروبوتات البشرية و Physical AI إلى دبي",
       "translation_status": "original_ar"
+    },
+    {
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-16T22:58:27Z",
+      "category": "أخبار التقنية",
+      "title_ar": "شركة ناشئة للجنود الآليين يدعمها إريك ترامب تفشل في دفع الرواتب، وقد تنهار",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "Expand North Star 2026 يجمع شركات ناشئة عالمية تبحث عن النمو عبر دبي",
@@ -83,6 +171,39 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "Cyber giant Infoblox confirms security incident after hackers access ‘company information’",
+      "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-16T22:12:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تؤكد شركة إنفوبلوكس العملاقة في مجال الإنترنت وقوع حادث أمني بعد وصول المتسللين إلى \"معلومات الشركة\"",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-16T22:03:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "جميع الأسئلة التي يجب أن تجيب عليها إنفيديا يوم الثلاثاء — ولكن من المحتمل ألا تفعل ذلك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Three small failures combined to take down Microsoft 365",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-16T21:56:39Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ثلاثة أعطال صغيرة اجتمعت لإسقاط مايكروسوفت 365",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
       "title": "تحديث أمني جديد لهاتف Galaxy A57 يعالج 179 ثغرة ويحسن الأمان",
       "url": "https://www.tech-wd.com/wd/2026/11/17/%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a3%d9%85%d9%86%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-%d9%84%d9%87%d8%a7%d8%aa%d9%81-galaxy-a57-%d9%8a%d8%b9%d8%a7%d9%84%d8%ac-179-%d8%ab%d8%ba%d8%b1%d8%a9-%d9%88%d9%8a/",
       "source": "techwd",
@@ -103,6 +224,17 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "In Get Huge, the manosphere is here to make friends — with deadly consequences",
+      "url": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-16T21:41:57Z",
+      "category": "أخبار التقنية",
+      "title_ar": "في \"جيت هيوج\"، يوجد عالم الرجال هنا لتكوين صداقات — مع عواقب وخيمة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
       "title": "ترمب و\"ملك الرقائق\".. مصالح مشتركة وفضيحة تتجاوز إنفيديا",
       "url": "https://www.aljazeera.net/politics/2026/11/17/%d8%aa%d8%b1%d9%85%d8%a8-%d9%88%d9%85%d9%84%d9%83-%d8%a7%d9%84%d8%b1%d9%82%d8%a7%d8%a6%d9%82-%d9%85%d8%b5%d8%a7%d9%84%d8%ad-%d9%85%d8%aa%d8%b4%d8%a7%d8%a8%d9%83%d8%a9-%d9%85%d9%86?traffic_source=rss",
       "source": "aljazeera",
@@ -113,6 +245,61 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+      "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-16T21:01:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تكشف شركة آبل عن عناصر تحكم جديدة في أمان أجهزة Mac مع تزايد مخاطر الخصوصية التي تفرضها برامج الذكاء الاصطناعي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Hyperscale data centers use 2% of US electricity",
+      "url": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-16T20:52:10Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تستهلك مراكز البيانات واسعة النطاق 2% من الكهرباء في الولايات المتحدة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-16T20:41:28Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يقول سام ألتمان إنه يريد أن \"يتمتع الجميع بكمية كبيرة من ذاكرة الوصول العشوائي\"",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+      "url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-16T20:37:47Z",
+      "category": "أخبار التقنية",
+      "title_ar": "المساهمون يقاضون إنتل ورئيسها التنفيذي ومديرها المالي بعد انخفاض أسهمها بنسبة 28.6 في المائة في يوم واحد",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Comcast's \"fiber-powered Wi-Fi\" is just cable, AT&T says in false advertising case",
+      "url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-16T20:27:58Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقول شركة AT&T إن \"شبكة الواي فاي التي تعمل بالألياف البصرية\" من شركة كومكاست هي مجرد كابل، في قضية إعلان كاذب",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
       "title": "هل يحل الذكاء الاصطناعي مكان الطبيب؟ آبل تبدأ “اختبار الفهم” عبر دراسة واسعة",
       "url": "https://www.tech-wd.com/wd/2026/11/16/%d9%87%d9%84-%d9%8a%d8%ad%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%85%d9%83%d8%a7%d9%86-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%a8%d8%9f-%d8%a2/",
       "source": "techwd",
@@ -121,6 +308,17 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "هل يحل الذكاء الاصطناعي مكان الطبيب؟ آبل تبدأ “اختبار الفهم” عبر دراسة واسعة",
       "translation_status": "original_ar"
+    },
+    {
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-16T20:07:13Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "المدعي العام لولاية كاليفورنيا يقاضي OpenAI بسبب حوادث الوكيل المارق",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "آبل تدخل سباق النظارات الذكية في 2027 بخطة ذكية تتمحور حول Siri وتكامل التطبيقات",
@@ -143,6 +341,39 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-16T19:50:47Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ساعة أبل ووتش سيريز 12 أرخص من أي وقت مضى قبل الجمعة البيضاء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Mercedes-Benz takes on Tesla FSD with new point-to-point city driving assist",
+      "url": "https://www.theverge.com/transportation/1034321/mercedes-benz-mb-drive-assist-pro-hands-free-highway-assist-2027",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-16T19:49:12Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مرسيدس-بنز تتحدى نظام القيادة الذاتية الكاملة من تسلا بنظام جديد للمساعدة في القيادة من نقطة إلى أخرى في المدينة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang Is Gone. Now What?",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-16T16:12:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لقد رحل جنسن هوانغ. ماذا الآن؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
       "title": "تقدم جديد في اختراق PS5 على أحدث إصدار من النظام قبل أيام من إطلاق GTA 6",
       "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d9%82%d8%af%d9%85-%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-ps5-%d8%b9%d9%84%d9%89-%d8%a3%d8%ad%d8%af%d8%ab-%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-%d9%85%d9%86-%d8%a7/",
       "source": "unlimit",
@@ -150,216 +381,6 @@
       "published_at": "2026-11-16T15:00:11Z",
       "category": "الأمن السيبراني",
       "title_ar": "تقدم جديد في اختراق PS5 على أحدث إصدار من النظام قبل أيام من إطلاق GTA 6",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إيطاليا تغرّم Meta مبلغ 805 ملايين يورو بسبب وصول فيسبوك إلى صور مستخدمي أندرويد",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%a5%d9%8a%d8%b7%d8%a7%d9%84%d9%8a%d8%a7-%d8%aa%d8%ba%d8%b1%d9%91%d9%85-meta-%d9%85%d8%a8%d9%84%d8%ba-805-%d9%85%d9%84%d8%a7%d9%8a%d9%8a%d9%86-%d9%8a%d9%88%d8%b1%d9%88-%d8%a8%d8%b3%d8%a8%d8%a8/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-16T14:00:23Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "إيطاليا تغرّم Meta مبلغ 805 ملايين يورو بسبب وصول فيسبوك إلى صور مستخدمي أندرويد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "جمعية تكنولوجيا المستهلك تكرّم أحدث منتجات سامسونج قبيل انطلاق معرض CES 2027",
-      "url": "https://technologyarabia.com/archives/18126/%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%87%d9%84%d9%83-%d8%aa%d9%83%d8%b1%d9%91%d9%85-%d8%a3%d8%ad%d8%af%d8%ab-%d9%85/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-16T13:26:23Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "جمعية تكنولوجيا المستهلك تكرّم أحدث منتجات سامسونج قبيل انطلاق معرض CES 2027",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريبات تكشف عن مواصفات مخيبة للآمال في هاتف Redmi Note 18 5G المرتقب من شاومي",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%aa%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d9%85%d9%88%d8%a7%d8%b5%d9%81%d8%a7%d8%aa-%d9%85%d8%ae%d9%8a%d8%a8%d8%a9-%d9%84%d9%84%d8%a2%d9%85%d8%a7%d9%84-%d9%81/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-16T13:00:12Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريبات تكشف عن مواصفات مخيبة للآمال في هاتف Redmi Note 18 5G المرتقب من شاومي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب يكشف تصميم وحدة الكاميرا في هاتفي Galaxy S27 Pro وGalaxy S27 Ultra",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%8a%d9%83%d8%b4%d9%81-%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%88%d8%ad%d8%af%d8%a9-%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-%d9%81%d9%8a-%d9%87%d8%a7%d8%aa%d9%81/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-16T12:00:20Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريب يكشف تصميم وحدة الكاميرا في هاتفي Galaxy S27 Pro وGalaxy S27 Ultra",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تقنية DLSS 5 تصل إلى لعبة Hogwarts Legacy| فكيف كانت التجربة؟",
-      "url": "https://arabhardware.net/post-55168",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-16T11:04:31Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقنية DLSS 5 تصل إلى لعبة Hogwarts Legacy| فكيف كانت التجربة؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "جوجل تطلق Pixel Tag كحل مؤقت لمعالجة أوجه القصور في شبكة Find Hub لتتبع الأجهزة المفقودة",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%ac%d9%88%d8%ac%d9%84-%d8%aa%d8%b7%d9%84%d9%82-pixel-tag-%d9%83%d8%ad%d9%84-%d9%85%d8%a4%d9%82%d8%aa-%d9%84%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%a3%d9%88%d8%ac%d9%87-%d8%a7%d9%84%d9%82%d8%b5/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-16T11:00:47Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "جوجل تطلق Pixel Tag كحل مؤقت لمعالجة أوجه القصور في شبكة Find Hub لتتبع الأجهزة المفقودة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث Modern Warfare 4 يرفع مدى hitscan إلى نحو 35 مترًا",
-      "url": "https://arabhardware.net/post-55167",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-16T08:40:35Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث Modern Warfare 4 يرفع مدى hitscan إلى نحو 35 مترًا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سامسونج السعودية تستعرض شاشات كبيرة تصل إلى 115 بوصة لتجارب مشاهدة منزلية أوسع",
-      "url": "https://technologyarabia.com/archives/18115/samsung-saudi-large-screen-tvs-115-inch-micro-rgb/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-16T08:15:25Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سامسونج السعودية تستعرض شاشات كبيرة تصل إلى 115 بوصة لتجارب مشاهدة منزلية أوسع",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "آبل تشرح كيف تحمي بنية Secure Exclaves الكاميرا والميكروفون",
-      "url": "https://arabhardware.net/post-55166",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-16T08:14:35Z",
-      "category": "أخبار التقنية",
-      "title_ar": "آبل تشرح كيف تحمي بنية Secure Exclaves الكاميرا والميكروفون",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "السلطات الأردنية تحجب تطبيق Telegram بسبب الجرائم الإلكترونية والتطرف",
-      "url": "https://arabhardware.net/post-55165",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-16T07:52:26Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "السلطات الأردنية تحجب تطبيق Telegram بسبب الجرائم الإلكترونية والتطرف",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "علي بابا تطلق Qwen4-Max بقدرات متعددة الوسائط وسياق مليون رمز",
-      "url": "https://aitnews.com/2026/11/16/alibaba-qwen4-max-multimodal-million-token-context/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-16T07:39:24Z",
-      "category": "أخبار التقنية",
-      "title_ar": "علي بابا تطلق Qwen4-Max بقدرات متعددة الوسائط وسياق مليون رمز",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "بوني إيه آي وتويوتا تطلقان سيارات أجرة bZ4X بلا سائق في الصين",
-      "url": "https://aitnews.com/2026/11/16/pony-ai-toyota-bz4x-driverless-taxi-china/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-16T07:37:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بوني إيه آي وتويوتا تطلقان سيارات أجرة bZ4X بلا سائق في الصين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ديلويت تطلق BusinessNext لإدارة العمليات المالية للشركات الصغيرة والمتوسطة",
-      "url": "https://aitnews.com/2026/11/16/%d8%af%d9%8a%d9%84%d9%88%d9%8a%d8%aa-%d8%aa%d8%b7%d9%84%d9%82-businessnext-%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-16T07:20:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ديلويت تطلق BusinessNext لإدارة العمليات المالية للشركات الصغيرة والمتوسطة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "دراسة: ارتفاع بلاغات مواد استغلال الأطفال المولّدة بالذكاء الاصطناعي بأكثر من 8400%",
-      "url": "https://aitnews.com/2026/11/16/ai-generated-child-abuse-material-reports-childlight-2026/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-16T02:05:34Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "دراسة: ارتفاع بلاغات مواد استغلال الأطفال المولّدة بالذكاء الاصطناعي بأكثر من 8400%",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هل كشف عطل مايكروسوفت مخاطر الاعتماد الكلي على التكنولوجيا؟",
-      "url": "https://www.bbc.com/arabic/articles/cklyegjnd6n0o?at_medium=RSS&at_campaign=rss",
-      "source": "bbc",
-      "source_name": "BBC عربي",
-      "published_at": "2026-11-15T17:14:55Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "هل كشف عطل مايكروسوفت مخاطر الاعتماد الكلي على التكنولوجيا؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "جهاز واحد يشل 17 مركزًا للمراقبة.. كيف توقفت رحلات الطيران في أميركا؟",
-      "url": "https://techvoicearabia.com/us-aviation-shutdown-l3harris-router-faa/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-15T13:45:12Z",
-      "category": "أخبار التقنية",
-      "title_ar": "جهاز واحد يشل 17 مركزًا للمراقبة.. كيف توقفت رحلات الطيران في أميركا؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الصين تختبر طائرة كهربائية تتسع لـ19 راكبًا.. هل تدخل سوق الطيران الخاص؟",
-      "url": "https://techvoicearabia.com/comac-ce25a-electric-aircraft-first-crewed-fly/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-15T09:57:40Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الصين تختبر طائرة كهربائية تتسع لـ19 راكبًا.. هل تدخل سوق الطيران الخاص؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ستارشيب تعود من المدار وتُلتقط لأول مرة.. كيف حققت سبيس إكس إنجازًا تاريخيًا؟",
-      "url": "https://techvoicearabia.com/spacex-starship-flight-15-first-orbital-catch/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-15T07:10:48Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستارشيب تعود من المدار وتُلتقط لأول مرة.. كيف حققت سبيس إكس إنجازًا تاريخيًا؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحليل: شركات مرتبطة بتشييد مراكز بيانات الذكاء الاصطناعي تفقد 4.2 تريليونات دولار من قيمتها السوقية",
-      "url": "https://aitnews.com/2026/11/15/ai-data-centre-supplier-stocks-4-2-trillion-selloff/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-15T06:49:23Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تحليل: شركات مرتبطة بتشييد مراكز بيانات الذكاء الاصطناعي تفقد 4.2 تريليونات دولار من قيمتها السوقية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
-      "url": "https://technologyarabia.com/archives/18053/openai-chatgpt-wallet-ai-agents-payments-commerce/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-14T09:21:00Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تطلق ChatGPT Wallet.. وكلاء الذكاء الاصطناعي يدخلون عالم الدفع والشراء",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
-      "url": "https://technologyarabia.com/archives/18048/%d8%a5%d9%85%d9%8a%d8%b1%d9%83%d9%88%d9%85-%d8%a3%d9%88%d9%84-%d8%b4%d8%b1%d9%8a%d9%83-%d9%84%d9%80%d8%b3%d9%8a%d8%b3%d9%83%d9%88-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-14T09:02:30Z",
-      "category": "أخبار التقنية",
-      "title_ar": "«إميركوم» أول شريك لـ«سيسكو» في الخليج ينال اعتماد الجيل الجديد في تخصص الشبكات الآمنة",
       "translation_status": "original_ar"
     }
   ],
@@ -416,6 +437,36 @@
       "id": "bbc",
       "name": "BBC عربي",
       "url": "https://www.bbc.com/arabic",
+      "active": true
+    },
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/",
+      "active": true
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "active": true
+    },
+    {
+      "id": "arstechnica",
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com/",
+      "active": true
+    },
+    {
+      "id": "wired",
+      "name": "WIRED",
+      "url": "https://www.wired.com/",
+      "active": true
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "url": "https://www.engadget.com/",
       "active": true
     },
     {

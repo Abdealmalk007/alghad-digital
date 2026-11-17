@@ -186,7 +186,8 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/en.css"><link rel="stylesheet" href="/assets/home-redesign-v4.css?v=1">
+  <link rel="stylesheet" href="/assets/en.css">
+  <link rel="stylesheet" href="/assets/global-tech-sources.css?v=1"><link rel="stylesheet" href="/assets/home-redesign-v4.css?v=1">
   <link rel="stylesheet" href="/assets/share.css?v=1">
   <link rel="stylesheet" href="/assets/refinement.css?v=1">
   <meta property="og:type" content="website">
@@ -371,6 +372,12 @@ def render_news(industry:dict)->None:
             articles=industry["topics"][key]["articles"]
             note="All headlines are from original publisher websites. Some newsrooms offer links only, with no confirmed RSS feed."
         body=hero("OFFICIAL NEWSROOMS / TECH UPDATES",title,desc)
+        if key=="general":
+            general=json.loads((ROOT/"assets/news.json").read_text(encoding="utf8"))
+            global_ids=("theverge","techcrunch","arstechnica","wired","engadget")
+            directory=[s for sid in global_ids for s in general.get("sources",[]) if s["id"]==sid]
+            links="".join('<a href="'+esc(s["url"])+'" target="_blank" rel="noopener noreferrer">'+esc(s["name"])+' ↗</a>' for s in directory)
+            body+='<section class="global-tech-sources"><h2>Five leading global tech news sources</h2><p>Original publisher links; headlines are collected when their official feeds respond.</p><nav class="global-tech-source-links" aria-label="Global technology publishers">'+links+'</nav></section>'
         body+=f'<p class="en-explainer">{esc(note)}</p>'+news_cards(articles)
         body+='<div class="en-news-links">'+''.join(internal("/en/"+s+"/",name) for s,name in [("ai-news","AI news"),("tech-companies","Tech companies"),("cars","Automotive news"),("news","All news")])+'</div>'
         page("/"+slug+"/",title+" | Alghad Digital",desc+" Latest original English-language headlines and official sources.",body,{"@context":"https://schema.org","@type":"CollectionPage","name":title,"url":DOMAIN+"/en/"+slug+"/","inLanguage":"en"})

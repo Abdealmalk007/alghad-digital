@@ -70,6 +70,7 @@ jobs:
           python scripts/test_seo.py
           node tests/bilingual-test.cjs
           node tests/editorial-test.cjs
+          node tests/global-tech-sources-test.cjs
           node tests/favicon-test.cjs
           node tests/industry-news-test.cjs
           node tests/translation-test.cjs

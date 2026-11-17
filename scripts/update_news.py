@@ -4,6 +4,7 @@ import concurrent.futures,datetime as dt,email.utils,html,json,re,sys,urllib.par
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
+GLOBAL_TECH_IDS=("theverge","techcrunch","arstechnica","wired","engadget")
 NOW=dt.datetime.now(dt.timezone.utc)
 FEEDS=[
  ("aitnews","البوابة التقنية","https://aitnews.com/feed/","aitnews.com",False),
@@ -15,9 +16,14 @@ FEEDS=[
  ("almohtraf","مدونة المحترف","https://www.th3professional.com/feeds/posts/default?alt=rss","th3professional.com",False),
  ("aljazeera","الجزيرة نت","https://www.aljazeera.net/aljazeerarss/","aljazeera.net",True),
  ("bbc","BBC عربي","https://feeds.bbci.co.uk/arabic/rss.xml","bbc.com",True),
+ ("theverge","The Verge","https://www.theverge.com/rss/tech/index.xml","theverge.com",False),
+ ("techcrunch","TechCrunch","https://techcrunch.com/feed/","techcrunch.com",False),
+ ("arstechnica","Ars Technica","https://feeds.arstechnica.com/arstechnica/index","arstechnica.com",False),
+ ("wired","WIRED","https://www.wired.com/feed/tag/ai/latest/rss","wired.com",False),
+ ("engadget","Engadget","https://www.engadget.com/rss.xml","engadget.com",False),
  ("unlimit","التقنية بلا حدود","https://www.unlimit-tech.com/feed/","unlimit-tech.com",False),
 ]
-SITE_LINKS={"aitnews":"https://aitnews.com/","techwd":"https://www.tech-wd.com/wd/","hardware":"https://arabhardware.net/","techvoice":"https://techvoicearabia.com/","technologyarabia":"https://technologyarabia.com/","arrafni":"https://3arrafni.com/","almohtraf":"https://www.th3professional.com/","aljazeera":"https://www.aljazeera.net/","bbc":"https://www.bbc.com/arabic","unlimit":"https://www.unlimit-tech.com/"}
+SITE_LINKS={"aitnews":"https://aitnews.com/","techwd":"https://www.tech-wd.com/wd/","hardware":"https://arabhardware.net/","techvoice":"https://techvoicearabia.com/","technologyarabia":"https://technologyarabia.com/","arrafni":"https://3arrafni.com/","almohtraf":"https://www.th3professional.com/","aljazeera":"https://www.aljazeera.net/","bbc":"https://www.bbc.com/arabic","unlimit":"https://www.unlimit-tech.com/","theverge":"https://www.theverge.com/","techcrunch":"https://techcrunch.com/","arstechnica":"https://arstechnica.com/","wired":"https://www.wired.com/","engadget":"https://www.engadget.com/"}
 TECH=re.compile(r"ذكاء اصطناعي|الذكاء الاصطناعي|تقني|تكنولوج|برمج|سيبراني|الرقمي|اختراق|هاتف|هواتف|حواسيب|حاسوب|كمبيوتر|روبوت|ChatGPT|OpenAI|Gemini|Claude|آبل|أبل|أندرويد|جوجل|غوغل|مايكروسوفت|إنترنت|تطبيق|شريحة|رقائق|معالج|واتساب|تيك توك|الواقع المعزز|العملات المشفرة|شبكات الجيل|بيانات|تسلا",re.I)
 NOT_TECH=re.compile(r"كرة القدم|دوري أبطال|كأس العالم|مباراة|حرب غزة|الانتخابات",re.I)
 CATS=[
@@ -75,11 +81,20 @@ def main():
   feeds=list(pool.map(gather,FEEDS))
  ordered=sorted((a for x in feeds for a in x[4]),key=lambda a:a["published_at"],reverse=True)
  accepted=[];seen=set();per_source={}
- for item in ordered:
+ def add(item):
   key=re.sub(r"\W","",item["title"]).casefold()
-  if key in seen or per_source.get(item["source"],0)>=5:continue
+  if key in seen or per_source.get(item["source"],0)>=5:return False
   accepted.append(item);seen.add(key);per_source[item["source"]]=per_source.get(item["source"],0)+1
+  return True
+ # Reserve one slot for each of the five new publications when its feed has fresh items.
+ # Inactive publishers remain available as source-directory links, never fake headlines.
+ for source_id in GLOBAL_TECH_IDS:
+  item=next((a for a in ordered if a["source"]==source_id),None)
+  if item:add(item)
+ for item in ordered:
   if len(accepted)>=36:break
+  add(item)
+ accepted.sort(key=lambda a:a["published_at"],reverse=True)
  if len(accepted)<5:
   print("Not enough reliable feeds; preserve previous news.json",file=sys.stderr)
   return 2

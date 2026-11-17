@@ -14,7 +14,7 @@ assert.ok(news.articles.length>=5&&news.articles.length<=36);
 assert.ok(!Number.isNaN(Date.parse(news.generated_at)));
 let previous=Infinity;
 const newsHosts=["aitnews.com","tech-wd.com","arabhardware.net","techvoicearabia.com",
-"technologyarabia.com","3arrafni.com","th3professional.com","aljazeera.net","bbc.com","bbc.co.uk","unlimit-tech.com"];
+"technologyarabia.com","3arrafni.com","th3professional.com","aljazeera.net","bbc.com","bbc.co.uk","unlimit-tech.com","theverge.com","techcrunch.com","arstechnica.com","wired.com","engadget.com"];
 const hostAllowed=(url,allowed)=>{
   const u=new URL(url);return u.protocol==="https:"&&!u.username&&!u.password&&
     allowed.some(x=>u.hostname===x||u.hostname.endsWith("."+x));

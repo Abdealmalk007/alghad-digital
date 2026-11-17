@@ -126,6 +126,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="{home}assets/seo-pages.css">
   <link rel="stylesheet" href="/assets/share.css?v=1">
+  <link rel="stylesheet" href="/assets/global-tech-sources.css?v=1">
   <link rel="stylesheet" href="/assets/refinement.css?v=1">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar_SA">
@@ -403,11 +404,21 @@ def render_news(news: dict) -> None:
             + esc(item.get("category", "")) + "</span>"
             + translated_article_html(item, url) + "</article>"
         )
+    global_ids=("theverge","techcrunch","arstechnica","wired","engadget")
+    global_sources=[s for sid in global_ids for s in news.get("sources",[]) if s["id"]==sid]
+    directory='<section class="global-tech-sources" aria-label="مصادر الأخبار التقنية العالمية">'
+    directory+='<h2>أبرز خمسة مصادر تقنية عالمية</h2>'
+    directory+='<p>عناوين مختصرة مترجمة إلى العربية عند توفرها، مع رابط للمقال الأصلي. المصدر قد يظهر حتى عند تعذر جلب خلاصته مؤقتًا.</p>'
+    directory+='<nav class="global-tech-source-links" aria-label="روابط مصادر التقنية العالمية">'
+    for item in global_sources:
+        directory+='<a href="'+esc(item["url"])+'" target="_blank" rel="noopener noreferrer">'+esc(item["name"])+' ↗</a>'
+    directory+='</nav></section>'
     text = f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / الأخبار التقنية</div>
       <span class="eyebrow">TECH NEWS / ARABIC SOURCES</span>
       <h1>آخر الأخبار التقنية والتكنولوجيا</h1>
       <p class="hero-desc">عناوين أخبار التقنية من مواقع عربية موثوقة، تتجدد عند نجاح عملية التحديث اليومي. نعرض العنوان والمصدر والتاريخ فقط؛ الخبر الكامل محفوظ لناشره الأصلي.</p>
       <p class="updated">آخر تحديث بيانات: {esc(news.get("generated_at", "")[:16].replace("T"," "))} UTC</p>
+      {directory}
       <div class="directory-grid news-grid">{''.join(items) if items else '<p>الأخبار غير متاحة حاليًا، يرجى مراجعة المصادر مباشرة.</p>'}</div>"""
     schema = {"@context":"https://schema.org","@type":"CollectionPage",
         "name":"آخر الأخبار التقنية العربية | الغد ديجتال","url":DOMAIN+"/news/"}

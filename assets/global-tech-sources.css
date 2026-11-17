@@ -1,0 +1,10 @@
+/* Curated original-publisher links on the tech news directory. */
+.global-tech-sources{margin:22px 0 32px;padding:22px;border:1px solid #348b8366;border-radius:16px;background:rgba(42,126,120,.075)}
+.global-tech-sources h2{font-size:clamp(18px,2.6vw,25px);line-height:1.5;margin:0 0 8px}
+.global-tech-sources p{font-size:13px;line-height:1.8;opacity:.8;margin:0 0 15px}
+.global-tech-source-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:10px}
+.global-tech-source-links a{display:flex;align-items:center;justify-content:center;min-height:46px;border:1px solid #4a9088a6;border-radius:11px;padding:9px 14px;font-size:13px;font-weight:800;text-align:center;text-decoration:none;color:inherit;background:#2d8d831c;transition:border-color .2s,transform .2s}
+.global-tech-source-links a:hover{border-color:#5de3c4;transform:translateY(-2px)}
+.global-tech-source-links a:focus-visible{outline:3px solid #5de3c4;outline-offset:3px}
+@media(max-width:440px){.global-tech-sources{padding:14px}.global-tech-source-links{grid-template-columns:1fr 1fr}.global-tech-source-links a{font-size:11px;padding-inline:6px}}
+@media(prefers-reduced-motion:reduce){.global-tech-source-links a{transition:none}.global-tech-source-links a:hover{transform:none}}
