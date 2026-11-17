@@ -3,15 +3,15 @@
 window.AL_GHAD_DOWNLOADS = Object.freeze({
   "smart-excel": {
     repository: "SmartExcelAnalyzer-30.7",
-    version: "30.7.9",
+    version: "30.7.11",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.9",
-    checksum: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.9/SHA256SUMS.txt",
+    release: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.11",
+    checksum: "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.11/SHA256SUMS.txt",
     files: [
-      {label:"تنزيل برنامج التثبيت Windows EXE",platform:"Windows 10/11 x64 • Setup • UNSIGNED Beta",recommended:true,bytes:268167389,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.9/SmartExcelAnalyzer_30.7.9_Setup.exe"},
-      {label:"تنزيل النسخة المحمولة Portable ZIP",platform:"Windows 10/11 x64 • Portable • UNSIGNED Beta",recommended:false,bytes:315339583,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.9/SmartExcelAnalyzer_30.7.9_PORTABLE.zip"}
+      {label:"تنزيل برنامج التثبيت Windows EXE",platform:"Windows 10/11 x64 • Setup • UNSIGNED Beta",recommended:true,bytes:268173968,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.11/SmartExcelAnalyzer_30.7.11_Setup.exe"},
+      {label:"تنزيل النسخة المحمولة Portable ZIP",platform:"Windows 10/11 x64 • Portable • UNSIGNED Beta",recommended:false,bytes:315370146,url:"https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.11/SmartExcelAnalyzer_30.7.11_PORTABLE.zip"}
     ],
-    note:"نسخة Beta / Preview غير موقّعة رقميًا (Authenticode). اختبارات: المحرك 32/32، الواجهة 29/29، المثبت المعزول 25/25، وPortable 9/9، التجميع يعرض جميع الفئات في جدول قابل للبحث والتصدير CSV، مع ملخص Top 8 في الرسم. لم يُثبّت Setup العام فوق النسخة السابقة. تحقق من SHA-256 واحتفظ بنسخة احتياطية قبل التحديث."
+    note:"إصدار 30.7.11: واجهة عربية RTL محسّنة ومساحة أوسع للرسوم. أُزيل اختصارا مركز المؤسسة ومنصة المؤسسة، وبقي في أسفل القائمة تسجيل الخروج والنسخ الاحتياطي. يمكن البحث في أي عمود وعرض جميع الموظفين والفروع والألوان عبر زر عرض الكل، مع قائمة قابلة للبحث والتصفح والتصدير الكامل CSV. تم التحقق من دقة التجميعات والحسابات باستخدام بيانات مرجعية ضمن الاختبارات، لكن ذلك لا يضمن معالجة كل ملفات Excel على الإطلاق. Beta غير موقّع رقميًا؛ احتفظ بنسخة احتياطية قبل التحديث.",
   },
   download: {
     repository: "Download-Anything-PRO",
