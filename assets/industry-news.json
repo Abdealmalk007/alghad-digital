@@ -1,10 +1,49 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T14:21:34Z",
+  "generated_at": "2026-11-17T17:06:32Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "Put Gemini to work for you",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "source": "googleai",
+          "source_name": "Google AI · Gemini",
+          "published_at": "2026-11-17T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "اجعل Gemini يعمل من أجلك",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "10 states team up with Google on free AI training",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/ai-training-state-partnerships/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "10 ولايات تتعاون مع جوجل في تدريب مجاني على الذكاء الاصطناعي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Temporary threads are now available in AI Mode in Search.",
+          "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "تتوفر الآن سلاسل الرسائل المؤقتة في وضع الذكاء الاصطناعي في البحث.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Strengthening NATO and allied cyber defenses with AI",
           "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
@@ -149,19 +188,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Transform notes, research, and sources into interactive sites with Gemini Notebook.",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T16:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "حوّل الملاحظات والأبحاث والمصادر إلى مواقع تفاعلية باستخدام Gemini Notebook.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "New Ask Maps features to help with holiday travel and prep",
           "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
           "source": "googleai",
@@ -184,19 +210,6 @@
           "official": true,
           "topic": "ai",
           "title_ar": "العلم على الحدود: كيف يستخدم العلماء ChatGPT",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "What teenagers really think about online safety and AI",
-          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/what-teenagers-really-think-about-online-safety-and-ai/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "ما يفكر فيه المراهقون حقًا بشأن السلامة عبر الإنترنت والذكاء الاصطناعي",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -225,19 +238,6 @@
           "title_ar": "كيف يساعد الذكاء الاصطناعي فرق الرعاية في تقديم الرعاية المناسبة للمرضى، في وقت أقرب",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-          "source": "googleai",
-          "source_name": "Google AI · Gemini",
-          "published_at": "2026-11-12T18:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "يحصل محرك بحث Google على تحديث كبير مع Gemini 4 Hydrogen",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
@@ -245,15 +245,93 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
-          "title": "Celebrate 100 years of Colonial Williamsburg online",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/colonial-williamsburg-centennial/",
+          "title": "Read the EmbeddingGemma 2 technical report.",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report/",
           "source": "google",
           "source_name": "Google",
-          "published_at": "2026-11-17T14:00:00Z",
+          "published_at": "2026-11-17T17:00:00Z",
           "language": "en",
           "official": true,
           "topic": "companies",
-          "title_ar": "احتفل بمرور 100 عام على تأسيس ويليامزبرغ الاستعمارية عبر الإنترنت",
+          "title_ar": "اقرأ التقرير الفني لـ EmbeddingGemma 2.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Put Gemini to work for you",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "اجعل Gemini يعمل من أجلك",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "10 states team up with Google on free AI training",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/ai-training-state-partnerships/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "10 ولايات تتعاون مع جوجل في تدريب مجاني على الذكاء الاصطناعي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Temporary threads are now available in AI Mode in Search.",
+          "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تتوفر الآن سلاسل الرسائل المؤقتة في وضع الذكاء الاصطناعي في البحث.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "From easier entry to smarter savings, here’s what’s new in Google Home.",
+          "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "من الدخول الأسهل إلى التوفير الأكثر ذكاءً، إليك ما هو جديد في Google Home.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Formula 1® Las Vegas Grand Prix™ streams live on Apple TV this weekend",
+          "url": "https://www.apple.com/newsroom/2026/11/formula-1-las-vegas-grand-prix-streams-live-on-apple-tv-this-weekend/",
+          "source": "apple",
+          "source_name": "Apple",
+          "published_at": "2026-11-17T16:59:36.179000Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "سيتم بث سباق الجائزة الكبرى للفورمولا 1® في لاس فيغاس™ مباشرةً على Apple TV في نهاية هذا الأسبوع",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+          "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-17T14:00:10Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "يان باك يفتتح أسبوع NVIDIA في SC26 مع دخول العلم عصر العوامل",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -323,45 +401,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Regional voices are rolling out in the Gemini app.",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T18:45:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تُطرح الأصوات الإقليمية في تطبيق Gemini.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "The era of autonomous attacks has arrived.",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T18:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "لقد حل عصر الهجمات المستقلة.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "New Google AdMob AI tools help app creators build, fix, and grow faster",
-          "url": "https://blog.google/products/publisher-connections/new-google-admob-tools/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تساعد أدوات الذكاء الاصطناعي الجديدة من Google AdMob منشئي التطبيقات على الإنشاء والإصلاح والنمو بشكل أسرع",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
           "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
           "source": "nvidia",
@@ -371,32 +410,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "تعزز لامبدا مرونة وكفاءة مصنع الذكاء الاصطناعي باستخدام تقنية فوتونيكس من إنفيديا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
-          "url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-16T16:00:47Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "NVIDIA توسع Slurm لإدخال الحوسبة الكمومية في الحوسبة الفائقة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "New AI training performance benchmarks for Google TPUs",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/training-performance-benchmarks-tpus/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T16:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "معايير أداء جديدة لتدريب الذكاء الاصطناعي لوحدات المعالجة من Google",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -462,19 +475,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "Apple HomeView متاح اليوم",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Samsung Announces December Release for Intelligent Eyewear, Bringing a Smarter Way To See the World",
-          "url": "https://news.samsung.com/global/samsung-announces-december-release-for-intelligent-eyewear-bringing-a-smarter-way-to-see-the-world",
-          "source": "samsung",
-          "source_name": "Samsung",
-          "published_at": "2026-11-12T23:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "سامسونج تعلن عن إطلاق نظاراتها الذكية في ديسمبر، مما يوفر طريقة أكثر ذكاءً لرؤية العالم",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
