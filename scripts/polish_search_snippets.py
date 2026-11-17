@@ -93,6 +93,29 @@ def process(route: str) -> dict:
             assert opens==closes,(route,opens,closes)
         out=re.sub(r"<h3\b","<h2",out,flags=re.I)
         out=re.sub(r"</h3>","</h2>",out,flags=re.I)
+    if route == "/en/about/" and 'id="about-download-guidance"' not in out:
+        # Adds substantive product / download guidance rather than keyword stuffing.
+        section = (
+          '<section class="en-info-block" id="about-download-guidance">'
+          '<h2>How to explore and verify our releases</h2>'
+          '<p>Start with the <a href="/en/programs/">software catalog</a> to compare the '
+          'purpose of each application. A program page explains the supported workflow, '
+          'the current release state and, when available, the official download destination. '
+          'Some products are marked Beta, Preview or in development; those labels are '
+          'not interchangeable with a stable or independently certified release.</p>'
+          '<p>When a download is available, check that it links to the project\'s official '
+          'GitHub release rather than an unrelated mirror. The '
+          '<a href="/en/security/">software safety page</a> explains installer checks '
+          'and security limitations, including what unsigned software warnings can mean. '
+          'If an application has no public release yet, its page should make that status '
+          'clear instead of displaying an invented download.</p>'
+          '<p>Alghad Digital publishes technology news as a secondary section. '
+          'For software questions, use the contact options on the relevant program page. '
+          'These distinctions help visitors decide whether a tool suits their work '
+          'before downloading or installing anything.</p></section>'
+        )
+        assert out.count("</main>")==1
+        out=out.replace("</main>",section+"</main>",1)
     if out!=src:file.write_text(out,encoding="utf-8",newline="\n")
     return {"route":route,"changed":out!=src}
 
