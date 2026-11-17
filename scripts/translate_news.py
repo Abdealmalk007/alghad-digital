@@ -112,16 +112,22 @@ def read_news() -> tuple[dict, dict]:
 
 
 def collect_titles(general: dict, industry: dict) -> list[str]:
-    titles = {
-        item["title"] for item in general["articles"]
-        if isinstance(item.get("title"), str) and is_english_title(item["title"])
-    }
-    for section in industry["topics"].values():
-        titles.update(
-            item["title"] for item in section["articles"]
-            if isinstance(item.get("title"), str) and is_english_title(item["title"])
-        )
-    return sorted(titles)
+    """Prioritize visible global stories before other headlines under API quotas."""
+    top_five = {"theverge", "techcrunch", "arstechnica", "wired", "engadget"}
+    general_items = general["articles"]
+    ordered = [
+        *(item for item in general_items if item.get("source") in top_five),
+        *(item for item in general_items if item.get("source") not in top_five),
+        *(item for topic in ("ai", "companies", "cars")
+          for item in industry["topics"][topic]["articles"]),
+    ]
+    titles, seen = [], set()
+    for item in ordered:
+        title = item.get("title", "")
+        if isinstance(title, str) and is_english_title(title) and title not in seen:
+            titles.append(title)
+            seen.add(title)
+    return titles
 
 
 def resolve_translations(titles: list[str], cached: dict[str, str]) -> tuple[dict[str, str], int, int]:

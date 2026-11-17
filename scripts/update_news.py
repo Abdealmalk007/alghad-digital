@@ -2,6 +2,7 @@
 """Refresh attributed public technology headlines. Python >= 3.11, no dependencies."""
 import concurrent.futures,datetime as dt,email.utils,html,json,re,sys,urllib.parse,urllib.request,xml.etree.ElementTree as ET
 from pathlib import Path
+from global_tech_editorial import eligible_title, publisher_highlights
 
 ROOT=Path(__file__).resolve().parents[1]
 GLOBAL_TECH_IDS=("theverge","techcrunch","arstechnica","wired","engadget")
@@ -72,6 +73,7 @@ def gather(feed):
    date=date_of(item.findtext("pubDate") or item.findtext("{http://www.w3.org/2005/Atom}published") or item.findtext("{http://www.w3.org/2005/Atom}updated") or "")
    if not link or not date or len(title)<15:continue
    if general and (not TECH.search(title) or NOT_TECH.search(title)):continue
+   if ident in GLOBAL_TECH_IDS and not eligible_title(title, date.isoformat(), NOW):continue
    category=next((c for c,p in CATS if re.search(p,title,re.I)),"أخبار التقنية")
    articles.append({"title":title,"url":link,"source":ident,"source_name":name,"published_at":date.isoformat().replace("+00:00","Z"),"category":category})
  except (OSError,ET.ParseError,ValueError,TimeoutError) as e:error=type(e).__name__+":"+str(e)[:100]
@@ -88,9 +90,8 @@ def main():
   return True
  # Reserve one slot for each of the five new publications when its feed has fresh items.
  # Inactive publishers remain available as source-directory links, never fake headlines.
- for source_id in GLOBAL_TECH_IDS:
-  item=next((a for a in ordered if a["source"]==source_id),None)
-  if item:add(item)
+ for item in publisher_highlights(ordered,each=2,now=NOW):
+  add(item)
  for item in ordered:
   if len(accepted)>=36:break
   add(item)

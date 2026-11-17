@@ -14,6 +14,7 @@ import json
 import re
 import urllib.parse
 from software_sources import render as render_software_sources
+from global_tech_editorial import publisher_highlights
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -378,6 +379,9 @@ def render_news(industry:dict)->None:
             directory=[s for sid in global_ids for s in general.get("sources",[]) if s["id"]==sid]
             links="".join('<a href="'+esc(s["url"])+'" target="_blank" rel="noopener noreferrer">'+esc(s["name"])+' ↗</a>' for s in directory)
             body+='<section class="global-tech-sources"><h2>Five leading global tech news sources</h2><p>Original publisher links; headlines are collected when their official feeds respond.</p><nav class="global-tech-source-links" aria-label="Global technology publishers">'+links+'</nav></section>'
+            top_stories=publisher_highlights(general.get("articles",[]),each=2)
+            if top_stories:
+                body+='<section class="global-tech-headlines"><h2>Top stories from global technology publishers</h2><p>Headlines with publisher, publication date and direct links to the original reports. Arabic translations are available in the Arabic edition.</p>'+news_cards(top_stories,limit=10)+'</section>'
         body+=f'<p class="en-explainer">{esc(note)}</p>'+news_cards(articles)
         body+='<div class="en-news-links">'+''.join(internal("/en/"+s+"/",name) for s,name in [("ai-news","AI news"),("tech-companies","Tech companies"),("cars","Automotive news"),("news","All news")])+'</div>'
         page("/"+slug+"/",title+" | Alghad Digital",desc+" Latest original English-language headlines and official sources.",body,{"@context":"https://schema.org","@type":"CollectionPage","name":title,"url":DOMAIN+"/en/"+slug+"/","inLanguage":"en"})

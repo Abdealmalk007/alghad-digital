@@ -65,7 +65,10 @@ async function main() {
       try { pages=await (await fetch("http://127.0.0.1:"+port+"/json/list")).json(); if(pages.length)break; } catch (_) {}
       await delay(100);
     }
-    const page = pages.find(p => p.type==="page");
+    // Chrome can expose an empty startup tab alongside the requested local preview.
+    const page = pages.find(p => p.type==="page" && p.url===fileUrl)
+      || pages.find(p => p.type==="page" && p.url.startsWith(fileUrl))
+      || pages.find(p => p.type==="page");
     assert.ok(page, "No page target");
     socket = new WebSocket(page.webSocketDebuggerUrl);
     await new Promise((resolve,reject) => {
@@ -98,7 +101,11 @@ async function main() {
     }
     await send("Page.enable");
     await send("Runtime.enable");
-    // Chrome initially navigates to the target URL; no second CDP navigation.
+    // Some headless Chrome builds start with about:blank despite a startup URL.
+    // Navigate only in that case; avoid needless reloads in the normal path.
+    if(await evaluate("location.href")==="about:blank"){
+      await send("Page.navigate",{url:fileUrl});
+    }
     let count=0;
     for(let i=0;i<240;i++){
       count=await evaluate('document.querySelectorAll(".product-card").length');

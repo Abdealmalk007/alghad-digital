@@ -1,7 +1,112 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T06:45:08Z",
+  "generated_at": "2026-11-17T11:14:28Z",
   "articles": [
+    {
+      "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+      "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-17T11:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعرضت شركته للاختراق من قبل عملاء مارقين. لماذا كليمان ديلانج متفائل جدًا بشأن الذكاء الاصطناعي؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward",
+      "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-17T11:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يمكن لميزة الإرجاع الفوري في ساعة Apple Watch تسجيل المحادثات المنطوقة وإرجاعها. إنها ميزة محرجة إلى حد ما",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
+      "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-17T10:47:45Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أخبر الذكاء الاصطناعي هؤلاء الأشخاص السابقين في غوغل بكيفية بناء شركة أسلحة بمليارات الدولارات",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "إطلاق هاتفي OPPO Reno17 و Reno17 Pro ببطاريات ضخمة وكاميرات متنوعة",
+      "url": "https://arabhardware.net/post-55171",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-17T09:33:35Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "إطلاق هاتفي OPPO Reno17 و Reno17 Pro ببطاريات ضخمة وكاميرات متنوعة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Adam Mosseri thinks it will be 'pretty challenging' to design Instagram for the iPhone Duo",
+      "url": "https://www.engadget.com/2318832/adam-mosseri-pretty-challenging-design-instagram-iphone-duo/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T09:09:40Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "يعتقد آدم موسيري أنه سيكون \"صعبًا للغاية\" تصميم إنستغرام لهاتف آيفون ديو",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "بدء الحجز المسبق لهاتف Huawei Mate X8 مع الكشف عن خيارات الذاكرة والتخزين المتاحة",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%a8%d8%af%d8%a1-%d8%a7%d9%84%d8%ad%d8%ac%d8%b2-%d8%a7%d9%84%d9%85%d8%b3%d8%a8%d9%82-%d9%84%d9%87%d8%a7%d8%aa%d9%81-huawei-mate-x8-%d9%85%d8%b9-%d8%a7%d9%84%d9%83%d8%b4%d9%81-%d8%b9%d9%86-%d8%ae/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-17T09:00:00Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "بدء الحجز المسبق لهاتف Huawei Mate X8 مع الكشف عن خيارات الذاكرة والتخزين المتاحة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Microsoft تصدر إصلاحاً عاجلاً لخطأ تنشيط Windows 0x80041008",
+      "url": "https://3arrafni.com/tech-news/windows-activation-error-0x80041008-emergency-fix",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T08:24:52Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "Microsoft تصدر إصلاحاً عاجلاً لخطأ تنشيط Windows 0x80041008",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "TRMNL Frame is a $1300 full-color e-paper display that looks like real art",
+      "url": "https://www.engadget.com/2318822/trmnl-frame-is-a-full-color-e-paper-display-that-looks-like-real-art/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-17T08:16:36Z",
+      "category": "أخبار التقنية",
+      "title_ar": "TRMNL Frame عبارة عن شاشة ورق إلكتروني بالألوان الكاملة بسعر 1300 دولار تبدو وكأنها عمل فني حقيقي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تسريب صورة حية تكشف تصميم سماعات Huawei Osta O1 Pro قبل إطلاقها المرتقب",
+      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d8%b5%d9%88%d8%b1%d8%a9-%d8%ad%d9%8a%d8%a9-%d8%aa%d9%83%d8%b4%d9%81-%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d8%b3%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-huawei-osta-o1-pro-%d9%82%d8%a8/",
+      "source": "unlimit",
+      "source_name": "التقنية بلا حدود",
+      "published_at": "2026-11-17T08:00:37Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تسريب صورة حية تكشف تصميم سماعات Huawei Osta O1 Pro قبل إطلاقها المرتقب",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ثغرة في Telegram widgets قد تتيح تشغيل برمجيات خبيثة على الأجهزة",
+      "url": "https://3arrafni.com/tech-news/telegram-widgets-security-flaw",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-17T07:29:52Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "ثغرة في Telegram widgets قد تتيح تشغيل برمجيات خبيثة على الأجهزة",
+      "translation_status": "original_ar"
+    },
     {
       "title": "Microsoft تكشف سبب تعطل Microsoft 365 وتحذر من رسائل تصيد",
       "url": "https://3arrafni.com/tech-news/microsoft-365-outage-july-bug-phishing-warning",
@@ -42,70 +147,6 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "Google Maps يضيف Ask Maps لإنشاء خطط رحلات بالذكاء الاصطناعي",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Apple تضيف بودكاست الفيديو إلى تطبيق Apple TV دون اشتراك",
-      "url": "https://3arrafni.com/tech-news/apple-tv-video-podcasts",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-17T03:49:52Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "Apple تضيف بودكاست الفيديو إلى تطبيق Apple TV دون اشتراك",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سيارات Zoox ذاتية القيادة تصل إلى Uber في لاس فيغاس دون رسوم إضافية",
-      "url": "https://3arrafni.com/tech-news/zoox-uber-las-vegas-robotaxi",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-17T02:54:52Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سيارات Zoox ذاتية القيادة تصل إلى Uber في لاس فيغاس دون رسوم إضافية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Buying a used phone? Make sure to check the IMEI first",
-      "url": "https://www.engadget.com/2315183/buying-used-phone-check-imei-first/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T01:30:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هل ترغب في شراء هاتف مستعمل؟ تأكد من التحقق من رقم IMEI أولاً",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Meta is testing Direct, a standalone messaging app for Instagram",
-      "url": "https://www.engadget.com/2318452/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T01:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تختبر ميتا تطبيق Direct، وهو تطبيق مراسلة مستقل لإنستغرام",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "The important Gmail security settings you should be using",
-      "url": "https://www.engadget.com/2315195/gmail-security-settings-most-important-use/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T00:30:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إعدادات أمان Gmail المهمة التي يجب عليك استخدامها",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Whether it's Black Friday or a CEO scandal, NVIDIA GPUs just don't get deep discounts",
-      "url": "https://www.engadget.com/2318262/nvidia-gou-dont-get-deep-discounts-black-friend-ceo-scandal/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-17T00:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سواء كان الأمر يتعلق بالجمعة البيضاء أو فضيحة الرئيس التنفيذي، فإن وحدات معالجة الرسومات من NVIDIA لا تحصل على خصومات كبيرة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
@@ -235,23 +276,13 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "ترمب و\"ملك الرقائق\".. مصالح مشتركة وفضيحة تتجاوز إنفيديا",
-      "url": "https://www.aljazeera.net/politics/2026/11/17/%d8%aa%d8%b1%d9%85%d8%a8-%d9%88%d9%85%d9%84%d9%83-%d8%a7%d9%84%d8%b1%d9%82%d8%a7%d8%a6%d9%82-%d9%85%d8%b5%d8%a7%d9%84%d8%ad-%d9%85%d8%aa%d8%b4%d8%a7%d8%a8%d9%83%d8%a9-%d9%85%d9%86?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-16T21:29:22Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "ترمب و\"ملك الرقائق\".. مصالح مشتركة وفضيحة تتجاوز إنفيديا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
-      "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-16T21:01:02Z",
+      "title": "Every Xbox console generation sorted by release date",
+      "url": "https://www.engadget.com/2314891/every-xbox-console-generation-sorted-release-date/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-16T21:00:00Z",
       "category": "أخبار التقنية",
-      "title_ar": "تكشف شركة آبل عن عناصر تحكم جديدة في أمان أجهزة Mac مع تزايد مخاطر الخصوصية التي تفرضها برامج الذكاء الاصطناعي",
+      "title_ar": "جميع أجيال أجهزة Xbox مرتبة حسب تاريخ الإصدار",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -289,56 +320,15 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Comcast's \"fiber-powered Wi-Fi\" is just cable, AT&T says in false advertising case",
-      "url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-16T20:27:58Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقول شركة AT&T إن \"شبكة الواي فاي التي تعمل بالألياف البصرية\" من شركة كومكاست هي مجرد كابل، في قضية إعلان كاذب",
+      "title": "California sues OpenAI after that Hugging Face rogue hacking incident",
+      "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-16T19:52:24Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "كاليفورنيا تقاضي OpenAI بعد حادثة القرصنة غير القانونية لشركة Hugging Face",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "هل يحل الذكاء الاصطناعي مكان الطبيب؟ آبل تبدأ “اختبار الفهم” عبر دراسة واسعة",
-      "url": "https://www.tech-wd.com/wd/2026/11/16/%d9%87%d9%84-%d9%8a%d8%ad%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%85%d9%83%d8%a7%d9%86-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%a8%d8%9f-%d8%a2/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-16T20:25:16Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "هل يحل الذكاء الاصطناعي مكان الطبيب؟ آبل تبدأ “اختبار الفهم” عبر دراسة واسعة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-16T20:07:13Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "المدعي العام لولاية كاليفورنيا يقاضي OpenAI بسبب حوادث الوكيل المارق",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "آبل تدخل سباق النظارات الذكية في 2027 بخطة ذكية تتمحور حول Siri وتكامل التطبيقات",
-      "url": "https://www.tech-wd.com/wd/2026/11/16/%d8%a2%d8%a8%d9%84-%d8%aa%d8%af%d8%ae%d9%84-%d8%b3%d8%a8%d8%a7%d9%82-%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-%d9%81%d9%8a-2027-%d8%a8%d8%ae%d8%b7%d8%a9/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-16T20:06:20Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "آبل تدخل سباق النظارات الذكية في 2027 بخطة ذكية تتمحور حول Siri وتكامل التطبيقات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث iOS 27.3 يجلب خاصية “فتح القفل بالوجه” لهاتف iPhone Duo لأول مرة",
-      "url": "https://www.tech-wd.com/wd/2026/11/16/%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-ios-27-3-%d9%8a%d8%ac%d9%84%d8%a8-%d8%ae%d8%a7%d8%b5%d9%8a%d8%a9-%d9%81%d8%aa%d8%ad-%d8%a7%d9%84%d9%82%d9%81%d9%84-%d8%a8%d8%a7%d9%84%d9%88%d8%ac%d9%87-%d9%84%d9%87/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-16T20:01:20Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تحديث iOS 27.3 يجلب خاصية “فتح القفل بالوجه” لهاتف iPhone Duo لأول مرة",
-      "translation_status": "original_ar"
     },
     {
       "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
@@ -352,36 +342,48 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Mercedes-Benz takes on Tesla FSD with new point-to-point city driving assist",
-      "url": "https://www.theverge.com/transportation/1034321/mercedes-benz-mb-drive-assist-pro-hands-free-highway-assist-2027",
+      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+      "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
       "source": "theverge",
       "source_name": "The Verge",
-      "published_at": "2026-11-16T19:49:12Z",
+      "published_at": "2026-11-16T19:24:40Z",
       "category": "أخبار التقنية",
-      "title_ar": "مرسيدس-بنز تتحدى نظام القيادة الذاتية الكاملة من تسلا بنظام جديد للمساعدة في القيادة من نقطة إلى أخرى في المدينة",
+      "title_ar": "تختبر شركة آبل حدود الاستخدام اليومي لتفاعلات الذكاء الاصطناعي الأكثر تعقيدًا مع سيري",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Jensen Huang Is Gone. Now What?",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-16T16:12:51Z",
+      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-16T17:36:43Z",
       "category": "أخبار التقنية",
-      "title_ar": "لقد رحل جنسن هوانغ. ماذا الآن؟",
+      "title_ar": "يقول مكتب التحقيقات الفيدرالي إن أداة القرصنة مفتوحة المصدر Artex AI تُستخدم لاختراق الشبكات في \"أقل من ثلاث ساعات\"",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
     {
-      "title": "تقدم جديد في اختراق PS5 على أحدث إصدار من النظام قبل أيام من إطلاق GTA 6",
-      "url": "https://www.unlimit-tech.com/2026/11/%d8%aa%d9%82%d8%af%d9%85-%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-ps5-%d8%b9%d9%84%d9%89-%d8%a3%d8%ad%d8%af%d8%ab-%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-%d9%85%d9%86-%d8%a7/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-16T15:00:11Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "تقدم جديد في اختراق PS5 على أحدث إصدار من النظام قبل أيام من إطلاق GTA 6",
-      "translation_status": "original_ar"
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-16T17:00:00Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تُصدر OpenAI مصنفًا جديدًا للصور وتحذيرات ChatGPT لمكافحة المواد التي تصور الاعتداء الجنسي على الأطفال (CSAM)",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+      "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-15T23:11:54Z",
+      "category": "أخبار التقنية",
+      "title_ar": "فشل صاروخ فولكان أثناء الإطلاق، مما ألحق ضربة قوية بمنافسي سبيس إكس",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     }
   ],
   "sources": [
@@ -431,7 +433,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": true
+      "active": false
     },
     {
       "id": "bbc",

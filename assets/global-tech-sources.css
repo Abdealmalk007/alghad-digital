@@ -8,3 +8,11 @@
 .global-tech-source-links a:focus-visible{outline:3px solid #5de3c4;outline-offset:3px}
 @media(max-width:440px){.global-tech-sources{padding:14px}.global-tech-source-links{grid-template-columns:1fr 1fr}.global-tech-source-links a{font-size:11px;padding-inline:6px}}
 @media(prefers-reduced-motion:reduce){.global-tech-source-links a{transition:none}.global-tech-source-links a:hover{transform:none}}
+
+/* Source-balanced daily headlines, with original attribution and minimal layout impact. */
+.global-tech-headlines{margin:26px 0 34px}
+.global-tech-headlines>h2,.global-other-news-title{font-size:clamp(19px,2.7vw,25px);margin:0 0 12px}
+.global-tech-headlines>p{font-size:14px;line-height:1.8;opacity:.82;margin:0 0 18px}
+.global-tech-headlines .news-grid{margin-top:8px}
+.global-tech-headlines .news-article{border-inline-start:3px solid #4ad2b0}
+.global-tech-headlines .en-news-card{min-width:0}

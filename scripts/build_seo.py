@@ -12,6 +12,7 @@ import subprocess
 from pathlib import Path
 from html import unescape
 from software_sources import render as render_software_sources
+from global_tech_editorial import publisher_highlights
 from urllib.parse import quote
 from xml.etree import ElementTree as ET
 
@@ -391,18 +392,35 @@ def translated_article_html(item: dict, url: str) -> str:
 
 
 def render_news(news: dict) -> None:
-    items = []
-    for item in news.get("articles", [])[:25]:
-        title = item.get("title", "")
-        url = item.get("url", "")
-        if not re.fullmatch(r"https://[^\s<>\"']+", url or ""):
-            continue
-        items.append(
+    # Show a source-balanced selection before the mixed news stream; no duplicates.
+    all_articles = news.get("articles", [])
+    top_five_articles = publisher_highlights(all_articles, each=2)
+    priority_urls = {item["url"] for item in top_five_articles}
+
+    def render_card(item: dict) -> str:
+        title, url = item.get("title", ""), item.get("url", "")
+        if not title or not re.fullmatch(r"https://[^\s<>\"']+", url or ""):
+            return ""
+        return (
             '<article class="directory-card news-article"><span>'
             + esc(item.get("source_name", "")) + " · "
             + esc(item.get("published_at", "")[:10]) + " · "
             + esc(item.get("category", "")) + "</span>"
             + translated_article_html(item, url) + "</article>"
+        )
+
+    global_items = [render_card(item) for item in top_five_articles]
+    items = [render_card(item) for item in all_articles if item.get("url") not in priority_urls]
+    global_items = [html for html in global_items if html]
+    items = [html for html in items if html]
+    global_headlines = ""
+    if global_items:
+        global_headlines = (
+            '<section class="global-tech-headlines" aria-labelledby="global-tech-headlines-title">'
+            '<h2 id="global-tech-headlines-title">أبرز الأخبار العالمية المترجمة</h2>'
+            '<p>عناوين مختارة وفق الحداثة والأهمية التقنية من المواقع العالمية الخمسة. '
+            'الترجمة آلية عند توفرها، ويظهر الناشر الأصلي وتاريخ النشر ورابط المقال.</p>'
+            '<div class="directory-grid news-grid">' + "".join(global_items) + '</div></section>'
         )
     global_ids=("theverge","techcrunch","arstechnica","wired","engadget")
     global_sources=[s for sid in global_ids for s in news.get("sources",[]) if s["id"]==sid]
@@ -419,6 +437,8 @@ def render_news(news: dict) -> None:
       <p class="hero-desc">عناوين أخبار التقنية من مواقع عربية موثوقة، تتجدد عند نجاح عملية التحديث اليومي. نعرض العنوان والمصدر والتاريخ فقط؛ الخبر الكامل محفوظ لناشره الأصلي.</p>
       <p class="updated">آخر تحديث بيانات: {esc(news.get("generated_at", "")[:16].replace("T"," "))} UTC</p>
       {directory}
+      {global_headlines}
+      <h2 class="global-other-news-title">بقية الأخبار التقنية من المصادر المعتمدة</h2>
       <div class="directory-grid news-grid">{''.join(items) if items else '<p>الأخبار غير متاحة حاليًا، يرجى مراجعة المصادر مباشرة.</p>'}</div>"""
     schema = {"@context":"https://schema.org","@type":"CollectionPage",
         "name":"آخر الأخبار التقنية العربية | الغد ديجتال","url":DOMAIN+"/news/"}
