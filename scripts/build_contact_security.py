@@ -23,7 +23,7 @@ CSS = '<link rel="stylesheet" href="/assets/contact-safe.css?v=1">'
 CSP = ("default-src 'self'; script-src 'self'; script-src-attr 'none'; "
        "style-src 'self'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; "
        "img-src 'self' data:; font-src 'self' data:; "
-       "connect-src 'none'; object-src 'none'; "
+       "connect-src 'self'; object-src 'none'; "
        "frame-src 'none'; worker-src 'none'; manifest-src 'self'; "
        "base-uri 'self'; form-action 'self'; upgrade-insecure-requests")
 CSP_META = '<meta http-equiv="Content-Security-Policy" content="' + escape(CSP, quote=True).replace("&#x27;", "'") + '">'
@@ -69,6 +69,36 @@ def contact(lang: str, product_name: str | None) -> str:
             + SVG + '<span class="protech-whatsapp-label">' + label + '</span>'
             '</a>' + END)
 
+def accessible_meta(text: str, lang: str) -> str:
+    """Postprocess generated pages once; preserve fixes across scheduled rebuilds."""
+    # The visible EN/AR token must appear in the accessible name.
+    text = text.replace('aria-label="Switch to English">EN</a>',
+                        'aria-label="EN — Switch to English">EN</a>')
+    text = text.replace('aria-label="Switch to Arabic">AR</a>',
+                        'aria-label="AR — Switch to Arabic">AR</a>')
+    # Brand and email already have meaningful visible text. Avoid overriding it
+    # with a label that omits the on-screen words.
+    for classname in ("logo", "contact-email-link"):
+        pat = r'(<a\b[^>]*\bclass="' + re.escape(classname) + r'"[^>]*?)\s+aria-label="[^"]*"'
+        text = re.sub(pat, r'\1', text, flags=re.I)
+    # Add a safe, factual crawl directive to pages that have a robots meta.
+    def robots(match: re.Match[str]) -> str:
+        val = match.group(1)
+        if "max-image-preview:" not in val:
+            val += ",max-image-preview:large"
+        return '<meta name="robots" content="' + val + '">'
+    text = re.sub(r'<meta name="robots" content="([^"]+)">', robots, text, count=1)
+    # Social previews should identify the other available translation.
+    primary,alternate = ("ar_SA", "en_US") if lang=="ar" else ("en_US","ar_SA")
+    locale = '<meta property="og:locale" content="' + primary + '">'
+    alt = '<meta property="og:locale:alternate" content="' + alternate + '">'
+    # Repair a literal backslash-n left by older generated metadata, if present.
+    text = text.replace(locale + r"\n  " + alt, locale + "\n  " + alt)
+    if locale in text and alt not in text:
+        text = text.replace(locale, locale + "\n  " + alt, 1)
+    return text
+
+
 def patch(route: str, products: dict[str,str]) -> None:
     relative = route.lstrip("/") + "index.html"
     page = ROOT / relative
@@ -106,6 +136,7 @@ def patch(route: str, products: dict[str,str]) -> None:
         text = text[:match.start()] + marker + text[match.end():]
     else:
         text = text.replace("</body>", marker + "\n</body>", 1)
+    text = accessible_meta(text, lang)
     assert text.count(START) == text.count(END) == 1
     assert text.count(CSP_META) == 1
     page.write_text(text, encoding="utf-8", newline="\n")

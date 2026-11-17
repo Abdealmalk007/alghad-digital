@@ -63,7 +63,8 @@
       typeof item.title_ar==="string" && item.title_ar.length>=4;
     const headlineLink=externalLink(translated?item.title_ar:item.title,
       item.url,"editorial-headline-link");
-    headlineLink.lang=translated?"ar":"auto";
+    // "auto" is valid for dir, but not for the BCP-47 lang attribute.
+    headlineLink.lang=translated || /[\u0600-\u06FF]/.test(item.title) ? "ar" : "en";
     headlineLink.dir="auto";
     headline.appendChild(headlineLink);
     if(translated){

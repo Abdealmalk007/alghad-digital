@@ -77,3 +77,7 @@ html[data-theme="light"] .program-details:focus-visible { outline-color: #075b57
   .product-card.neo-card, .pre-product-card, .en-product-card { transition: none; }
   .product-card.neo-card:hover, .pre-product-card:hover, .en-product-card:hover { transform: none; }
 }
+
+/* WCAG 1.4.1: identify external footer links without relying on color. */
+.footer a.accent-text { text-decoration: underline; text-decoration-thickness: .11em; text-underline-offset: .20em; font-weight: 700; }
+.footer a.accent-text:hover, .footer a.accent-text:focus-visible { text-decoration-thickness: .16em; }

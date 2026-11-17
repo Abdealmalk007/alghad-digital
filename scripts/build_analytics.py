@@ -15,7 +15,7 @@ def extend_csp(original: str) -> str:
     replacements = {
         "script-src 'self';": "script-src 'self'; script-src-elem 'self' https://www.googletagmanager.com;",
         "img-src 'self' data:;": "img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com;",
-        "connect-src 'none';": "connect-src https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com;",
+        "connect-src 'self';": "connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com;",
     }
     for old, new in replacements.items():
         if original.count(old) != 1:

@@ -45,7 +45,8 @@
     a.className = className;
     a.target = "_blank";
     a.rel = "noopener noreferrer";
-    if (label) a.setAttribute("aria-label", label);
+    // Include the exact visible link text in its accessible name (WCAG 2.5.3).
+    if (label) a.setAttribute("aria-label", label.includes(text) ? label : text + " — " + label);
     return a;
   }
   function fileList(config) {
