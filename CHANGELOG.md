@@ -1,3 +1,7 @@
+
+## 2026-11-18 — Daily Work Reports 15.6.0 source preview
+GitHub source updated with employee search and compact PDF. Windows binary still requires trusted signature and final QA.
+
 # Changelog
 
 ## v4.2.0 — 2026-11-08

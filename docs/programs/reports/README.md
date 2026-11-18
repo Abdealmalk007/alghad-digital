@@ -50,3 +50,11 @@ All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ را
 ## التواصل والدعم
 
 [protech.2025.2026@gmail.com](mailto:protech.2025.2026@gmail.com) · [alghad.digital](https://alghad.digital/)
+
+
+## Daily Work Reports 15.6.0 (source preview)
+
+- Arabic employee substring search and validated staff selection.
+- Compact, continuous PDF reports and better quick actions.
+- Windows legacy-data opt-in migration that preserves original files.
+- [Source-only GitHub prerelease](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.6.0) — Windows executable remains 15.5 until signed and validated.
