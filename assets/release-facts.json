@@ -67,16 +67,16 @@
     },
     "reports": {
       "repository": "DailyWorkReports-Flexible",
-      "version": "15.6.1",
-      "published_at": "2026-11-18T09:00:34Z",
-      "tag_url": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.6.1",
+      "version": "15.7.0",
+      "published_at": "2026-11-18T10:40:37Z",
+      "tag_url": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.7.0",
       "prerelease": true,
       "assets": [
         {
-          "name": "DailyWorkReports_Update_v15.6.1.exe",
-          "url": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/DailyWorkReports_Update_v15.6.1.exe",
-          "bytes": 56184569,
-          "sha256": "e745e074e0af560f4af72fe65ef6bc7493a578a9ff8ad54d80eb721a42406413",
+          "name": "DailyWorkReports_Setup_v15.7.0_Public_Empty.exe",
+          "url": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.0/DailyWorkReports_Setup_v15.7.0_Public_Empty.exe",
+          "bytes": 56195651,
+          "sha256": "19fe852900e2d54f3feecadbb4937705a3ab44d0b9fcff8003d43fb938c8cf20",
           "recommended": true
         }
       ]

@@ -21,7 +21,7 @@
 
 ## التثبيت والتشغيل
 
-- [تحميل برنامج Windows EXE](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/DailyWorkReports_Update_v15.6.1.exe)
+- [تحميل برنامج Windows EXE](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.0/DailyWorkReports_Setup_v15.7.0_Public_Empty.exe)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 
@@ -61,5 +61,11 @@ All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ را
 
 
 ## v15.6.1 update
-Windows installer: https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/DailyWorkReports_Update_v15.6.1.exe
+Windows installer: https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.0/DailyWorkReports_Setup_v15.7.0_Public_Empty.exe
 Data is backed up automatically; this is an unsigned prerelease and not production-signed.
+
+
+## v15.7.0 public empty installer
+The public installer contains no user data, employee names or saved reports. New weekly/monthly/all-time employee productivity dashboard, date navigation and unsaved draft prompts.
+Windows installer: https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.0/DailyWorkReports_Setup_v15.7.0_Public_Empty.exe
+Unsigned preview; do not treat as a signed production build.

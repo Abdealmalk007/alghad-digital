@@ -1,4 +1,8 @@
 
+## 2026-11-18 — Daily Work Reports 15.7.0 (Public Empty Preview)
+Employee KPI dashboard and date-based saved report navigation. Public Windows installer contains no staff or work reports. Private recovery profile retained on the owner's PC only.
+
+
 ## DWR v15.6.1 installer update — November 18, 2026
 Updated verified Windows Setup prerelease link and SHA256, clarifying unsigned status and automatic data backup.
 

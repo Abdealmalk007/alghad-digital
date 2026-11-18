@@ -64,14 +64,14 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
   },
   reports: {
     repository: "DailyWorkReports-Flexible",
-    version: "15.6.1",
+    version: "15.7.0",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.6.1",
-    checksum: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/SHA256SUMS_v15.6.1.txt",
+    release: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.7.0",
+    checksum: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.0/SHA256SUMS_v15.7.0.txt",
     files: [
-      {label:"تحميل برنامج Windows Setup", platform:"Windows • نسخة عامة تجريبية", recommended:true, bytes:56184569, url:"https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/DailyWorkReports_Update_v15.6.1.exe"}
+      {label:"تحميل برنامج Windows Setup (Empty)", platform:"Windows • نسخة عامة تجريبية", recommended:true, bytes:56195651, url:"https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.0/DailyWorkReports_Setup_v15.7.0_Public_Empty.exe"}
     ],
-    note:"تحديث Windows v15.6.1 تجريبي غير موقع رقميا؛ يحافظ على ملفات البيانات ولا يدمج الملفات الشخصية المختلفة تلقائيا. قد يظهر تحذير Microsoft SmartScreen."
+    note:"نسخة Windows عامة فارغة تمامًا من بيانات الأشخاص والتقارير. تضم لوحة إحصائيات أسبوعية وشهرية ولكل المدة وتفتح التقارير حسب التاريخ. UNSIGNED PREVIEW، قد يظهر تحذير SmartScreen."
   },
   care: {
     repository: "ProTechWindowsCare",
