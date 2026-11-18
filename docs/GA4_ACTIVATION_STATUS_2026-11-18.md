@@ -40,3 +40,11 @@ OpenSEO project: `d5521ec0-b6ec-414e-a08e-3611f918f611`
 - The isolated browser test returned `HTTP 204` from `https://www.google-analytics.com/g/collect` and zero CSP errors. The existing restrictive CSP can remain intact.
 - Bumped the consent JS asset URL to `/assets/analytics-consent.js?v=2` on all 42 pages to avoid stale browser caching.
 - All 27 Node workflow tests, SEO tests, and inventory checks passed after the patch. Recheck the public site after deployment.
+
+## Final public-site GA4 verification — 2026-11-18
+- Verified the published home page includes the real `G-9EPCJ5J4QZ` measurement ID and loads consent script `/assets/analytics-consent.js?v=2`.
+- Tested a fresh, temporary headless Chrome profile against the **published** `https://alghad.digital/` page.
+- Before opt-in: **0** requests to Google Analytics or Google Tag Manager.
+- After explicit opt-in: `gtag.js` loaded with `HTTP 200`, and an analytics collection request to `https://www.google-analytics.com/g/collect` returned `HTTP 204`.
+- Browser CSP errors: **0**. Google Ads consent remains denied. One subsequent browser teardown beacon was marked `ERR_ABORTED` after the accepted collection response; this did not invalidate the confirmed `HTTP 204` event.
+- **Conclusion:** GA4 live event transport and consent gating are verified. GA4 dashboard totals and realtime visualization are separate reporting checks and may have processing delay; the test generates one synthetic consented visit.
