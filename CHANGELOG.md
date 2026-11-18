@@ -1,3 +1,6 @@
+## Daily Work Reports v15.7.1 — Windows startup fix
+Legacy saved templates no longer crash on missing public built-in defaults. Only the empty public Setup is published. Private data remains local. Unsigned preview.
+
 
 ## 2026-11-18 — Daily Work Reports 15.7.0 (Public Empty Preview)
 Employee KPI dashboard and date-based saved report navigation. Public Windows installer contains no staff or work reports. Private recovery profile retained on the owner's PC only.

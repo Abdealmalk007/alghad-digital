@@ -64,12 +64,12 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
   },
   reports: {
     repository: "DailyWorkReports-Flexible",
-    version: "15.7.0",
+    version: "15.7.1",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.7.0",
-    checksum: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.0/SHA256SUMS_v15.7.0.txt",
+    release: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.7.1",
+    checksum: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.1/SHA256SUMS_v15.7.1.txt",
     files: [
-      {label:"تحميل برنامج Windows Setup (Empty)", platform:"Windows • نسخة عامة تجريبية", recommended:true, bytes:56195651, url:"https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.0/DailyWorkReports_Setup_v15.7.0_Public_Empty.exe"}
+      {label:"تحميل برنامج Windows Setup (Empty)", platform:"Windows • نسخة عامة تجريبية", recommended:true, bytes:56196694, url:"https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.1/DailyWorkReports_Setup_v15.7.1_Public_Empty.exe"}
     ],
     note:"نسخة Windows عامة فارغة تمامًا من بيانات الأشخاص والتقارير. تضم لوحة إحصائيات أسبوعية وشهرية ولكل المدة وتفتح التقارير حسب التاريخ. UNSIGNED PREVIEW، قد يظهر تحذير SmartScreen."
   },
