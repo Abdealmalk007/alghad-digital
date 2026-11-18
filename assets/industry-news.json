@@ -1,10 +1,36 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T19:46:37Z",
+  "generated_at": "2026-11-18T04:34:46Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-17T22:18:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "NVIDIA توسع التزاماتها مع شركاء سلسلة التوريد لدعم بناء البنية التحتية للذكاء الاصطناعي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "See what 5 builders are making with Gemini 4 Carbon",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T21:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "تعرّف على ما يصنعه 5 من المطورين باستخدام Gemini 4 Carbon",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Introducing GPT-6.2 Astra and Sol",
           "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
@@ -58,6 +84,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Introducing ChatGPT for Sales",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-17T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "نقدم لكم ChatGPT للمبيعات",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Strengthening NATO and allied cyber defenses with AI",
           "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
           "source": "openai",
@@ -71,19 +110,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Introducing OpenAI for Chile",
-          "url": "https://openai.com/index/introducing-openai-for-chile",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-17T00:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "نقدم لكم OpenAI في تشيلي",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Astra for Law leads in legal intelligence",
           "url": "https://openai.com/index/astra-law-6-2",
           "source": "openai",
@@ -93,6 +119,19 @@
           "official": true,
           "topic": "ai",
           "title_ar": "Astra for Law رائدة في مجال المعلومات القانونية",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Introducing OpenAI for Chile",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-17T00:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "نقدم لكم OpenAI في تشيلي",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -136,19 +175,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Broadening access to AI for scientists",
-          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-16T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "توسيع نطاق الوصول إلى الذكاء الاصطناعي للعلماء",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "New Google AdMob AI tools help app creators build, fix, and grow faster",
           "url": "https://blog.google/products/publisher-connections/new-google-admob-tools/",
           "source": "google",
@@ -188,19 +214,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "New AI training performance benchmarks for Google TPUs",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/training-performance-benchmarks-tpus/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-16T16:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "معايير أداء جديدة لتدريب الذكاء الاصطناعي لوحدات المعالجة من Google",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "New Ask Maps features to help with holiday travel and prep",
           "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
           "source": "googleai",
@@ -225,25 +238,64 @@
           "title_ar": "يجمع يوم الذكاء الاصطناعي في سيول قادة الصناعة والشركات الناشئة ومجتمعات المطورين في كوريا",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
-          "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-13T13:00:42Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "كيف يساعد الذكاء الاصطناعي فرق الرعاية في تقديم الرعاية المناسبة للمرضى، في وقت أقرب",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-17T22:18:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "NVIDIA توسع التزاماتها مع شركاء سلسلة التوريد لدعم بناء البنية التحتية للذكاء الاصطناعي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "How genome mapping can help researchers better understand disease",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T22:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "كيف يمكن أن يساعد رسم خرائط الجينوم الباحثين على فهم الأمراض بشكل أفضل",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-17T21:20:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "أعلنت NVIDIA عن النتائج المالية للربع الثالث من السنة المالية 2027",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "See what 5 builders are making with Gemini 4 Carbon",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-17T21:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تعرّف على ما يصنعه 5 من المطورين باستخدام Gemini 4 Carbon",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Ignite 2026: Building the frontier ecosystem",
           "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
@@ -293,32 +345,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "10 ولايات تتعاون مع جوجل في تدريب مجاني على الذكاء الاصطناعي",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Temporary threads are now available in AI Mode in Search.",
-          "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-17T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تتوفر الآن سلاسل الرسائل المؤقتة في وضع الذكاء الاصطناعي في البحث.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "From easier entry to smarter savings, here’s what’s new in Google Home.",
-          "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-17T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "من الدخول الأسهل إلى التوفير الأكثر ذكاءً، إليك ما هو جديد في Google Home.",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -388,19 +414,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-          "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-16T20:00:37Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "كيف تخترع سلسلة توريد البنية التحتية للذكاء الاصطناعي الأكثر تقدمًا في العالم المستقبل",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge, Becoming First AI Factory for DOE’s Genesis Mission",
           "url": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
           "source": "amd",
@@ -410,19 +423,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "الحاسوب العملاق Lux الذي يعمل بمعالجات AMD يفتح أبوابه للمستخدمين العلميين في أوك ريدج، ليصبح أول مصنع للذكاء الاصطناعي لمهمة Genesis التابعة لوزارة الطاقة الأمريكية",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-          "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-16T16:00:51Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تعزز لامبدا مرونة وكفاءة مصنع الذكاء الاصطناعي باستخدام تقنية فوتونيكس من إنفيديا",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
