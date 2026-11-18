@@ -48,3 +48,12 @@ OpenSEO project: `d5521ec0-b6ec-414e-a08e-3611f918f611`
 - After explicit opt-in: `gtag.js` loaded with `HTTP 200`, and an analytics collection request to `https://www.google-analytics.com/g/collect` returned `HTTP 204`.
 - Browser CSP errors: **0**. Google Ads consent remains denied. One subsequent browser teardown beacon was marked `ERR_ABORTED` after the accepted collection response; this did not invalidate the confirmed `HTTP 204` event.
 - **Conclusion:** GA4 live event transport and consent gating are verified. GA4 dashboard totals and realtime visualization are separate reporting checks and may have processing delay; the test generates one synthetic consented visit.
+
+## Visitor-friendly cookie notice — 2026-11-18
+- Replaced the lengthy, potentially alarming consent message with a short, plain-language cookie notice in Arabic and English.
+- The notice says optional analytics cookies are used to understand visits and improve the website; visitors can choose **Accept** or **Continue without** equally easily. The Arabic choices are **موافق** and **المتابعة بدونها**.
+- Redesigned the consent surface as a discreet, light-colored compact panel at the bottom-left, with a privacy policy link. Mobile spacing keeps it above bottom navigation; it does not block the page.
+- The footer allows later changes to cookie settings. Existing saved choices continue to be respected; the localStorage key remains unchanged.
+- No change to GA4 measurement ID or the rule that Google Analytics loads only after explicit consent. Advertising consent remains denied.
+- New assets are cache-busted to `analytics-consent.css?v=2` and `analytics-consent.js?v=3`. The builder strips old stylesheet tags to avoid duplication across regenerations.
+- Validated the consent runtime (six scenarios), all 42 pages, all 27 Node tests, SEO tests, and repeated static builds.

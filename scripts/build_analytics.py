@@ -53,7 +53,9 @@ def main() -> None:
         source = target.read_text(encoding="utf-8")
         html = BLOCK_RE.sub("", source)
         html = PRIVACY_RE.sub("", html)
-        css = '<link rel="stylesheet" href="/assets/analytics-consent.css?v=1">'
+        # Replace a previous cache-busted stylesheet rather than stacking versions.
+        html = re.sub(r'\s*<link rel="stylesheet" href="/assets/analytics-consent\.css\?v=\d+">', "", html)
+        css = '<link rel="stylesheet" href="/assets/analytics-consent.css?v=2">'
         matches = list(CSP_RE.finditer(html))
         if len(matches) != 1:
             raise ValueError(f"Missing/duplicate CSP: {target}")
@@ -65,7 +67,7 @@ def main() -> None:
                 if html.count("</head>") != 1: raise ValueError(f"Invalid head: {target}")
                 html = html.replace("</head>", css + "\n</head>", 1)
             snippet = ('\n<!-- PROTECH_ANALYTICS_BEGIN -->'
-                       '<script id="protech-analytics" defer src="/assets/analytics-consent.js?v=2"'
+                       '<script id="protech-analytics" defer src="/assets/analytics-consent.js?v=3"'
                        ' data-ga4-id="' + measurement_id + '"></script>'
                        '<!-- PROTECH_ANALYTICS_END -->\n')
             if html.count("</body>") != 1: raise ValueError(f"Invalid body: {target}")

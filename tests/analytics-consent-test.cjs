@@ -15,7 +15,9 @@ for (const route of routes) {
   assert.ok(scripts.length <= 1, route);
   if (scripts.length === 1) {
     active++;
-    assert.ok(html.includes("/assets/analytics-consent.css?v=1"), route);
+    assert.ok(html.includes("/assets/analytics-consent.css?v=2"), route);
+    assert.equal((html.match(/\/assets\/analytics-consent\.css\?v=\d+/g) || []).length, 1, route);
+    assert.ok(html.includes("/assets/analytics-consent.js?v=3"), route);
     assert.ok(csp.includes("https://www.googletagmanager.com"), route);
     assert.ok(csp.includes("https://*.google-analytics.com"), route);
     assert.ok(!csp.includes("connect-src 'none'"), route);

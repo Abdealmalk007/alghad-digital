@@ -8,13 +8,13 @@
   const key = "alghad_analytics_consent_v1";
   const en = /^en\b/i.test(document.documentElement.lang || "");
   const labels = en ? {
-    settings: "Analytics preferences", title: "Visitor analytics",
-    description: "Allow optional Google Analytics 4 to measure visits, approximate country, browser and device? Nothing is sent before you accept.",
-    accept: "Allow analytics", decline: "Decline"
+    settings: "Cookie settings", title: "Cookie preferences",
+    description: "Optional analytics cookies help us understand visits and improve the site. You can accept or continue without them.",
+    accept: "Accept", decline: "Continue without", privacy: "Privacy policy"
   } : {
-    settings: "تفضيلات الإحصائيات", title: "إحصائيات زيارات الموقع",
-    description: "هل توافق على استخدام Google Analytics 4 لقياس الزيارات والبلد التقريبي والمتصفح والجهاز؟ لا تُرسل بيانات قبل الموافقة.",
-    accept: "أوافق", decline: "لا أوافق"
+    settings: "إعدادات الكوكيز", title: "ملفات تعريف الارتباط",
+    description: "نستخدم ملفات تعريف ارتباط اختيارية لمعرفة عدد الزيارات وتحسين الموقع. يمكنك الموافقة أو المتابعة بدونها.",
+    accept: "موافق", decline: "المتابعة بدونها", privacy: "سياسة الخصوصية"
   };
   function decision() {
     try {
@@ -83,7 +83,11 @@
       });
       actions.appendChild(button);
     }
-    panel.append(heading, p, actions);
+    const privacy = document.createElement("a");
+    privacy.className = "protech-analytics-privacy";
+    privacy.href = en ? "/en/privacy/" : "/privacy/";
+    privacy.textContent = labels.privacy;
+    panel.append(heading, p, actions, privacy);
     document.body.appendChild(panel);
   }
   function initialize() {
