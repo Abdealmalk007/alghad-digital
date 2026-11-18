@@ -60,6 +60,16 @@ jobs:
         env:
           GA4_MEASUREMENT_ID: ${{ vars.GA4_MEASUREMENT_ID }}
         run: python scripts/build_analytics.py
+      - name: Report analytics activation status
+        env:
+          GA4_MEASUREMENT_ID: ${{ vars.GA4_MEASUREMENT_ID }}
+        run: |
+          if [ -z "$GA4_MEASUREMENT_ID" ]; then
+            echo "::warning title=GA4 inactive::Web Data Stream or GA4_MEASUREMENT_ID not configured; website analytics will not collect visits."
+          else
+            node tests/analytics-consent-test.cjs
+            echo "GA4 tag generated and consent-gated tests passed."
+          fi
       - name: Keep Google search identity and publication dates accurate
         run: python scripts/optimize_search_visibility.py
       - name: Refresh sitewide search over pages, software and latest news
