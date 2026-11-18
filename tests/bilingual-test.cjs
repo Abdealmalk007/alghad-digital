@@ -60,7 +60,7 @@ for(const u of releaseUrls)assert.match(u,/^https:\/\/github\.com\/Abdealmalk007
 // Product pages with no release must not offer made-up buttons.
 for(const slug of ["kitchen"]){
   const page=read("en/programs/"+slug+"/index.html");
-  assert.ok(page.includes("KitchenCADProV5_CPU3D_QA_20261118_PORTABLE.zip"),"Verified Kitchen Beta is downloadable");
+  assert.ok(page.includes("KitchenCADProV5_UI_PANELS_BETA_20261118_PORTABLE.zip"),"Verified Kitchen Beta is downloadable");
 }
 for(const slug of ["stone","download","hr","marble","reports","quotes","care"]){
   const page=read("en/programs/"+slug+"/index.html");

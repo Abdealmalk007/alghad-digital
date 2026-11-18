@@ -171,7 +171,7 @@ window.AL_GHAD_PRODUCTS = [
   },
   {
     "id": "kitchen",
-    "qaPublication": "KCAD_CPU3D_BETA_20261118",
+    "qaPublication": "KCAD_UI_PANELS_BETA_20261118",
     "title": "Kitchen CAD Pro",
     "english": "KITCHEN CAD PRO",
     "category": "التصميم والهندسة",
@@ -180,7 +180,7 @@ window.AL_GHAD_PRODUCTS = [
     "platforms": [
       "Windows"
     ],
-    "version": "V5 CPU3D Beta",
+    "version": "V5 UI Panels Beta",
     "status": "public",
     "github": "https://github.com/Abdealmalk007/KitchenCADProV5",
     "features": [
@@ -201,7 +201,7 @@ window.AL_GHAD_PRODUCTS = [
     "preview": "assets/previews/kitchen.svg",
     "previewAlt": "تصميم توضيحي لواجهة Kitchen CAD Pro",
     "displayStatus": "نسخة Beta للتجربة",
-    "release": "https://github.com/Abdealmalk007/KitchenCADProV5/releases/tag/v5.0.0-beta-cpu3d-20261118"
+    "release": "https://github.com/Abdealmalk007/KitchenCADProV5/releases/tag/v5.0.0-beta-ui-panels-20261118"
   },
   {
     "id": "download",
