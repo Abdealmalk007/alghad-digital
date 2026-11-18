@@ -111,7 +111,7 @@ window.AL_GHAD_PRODUCTS = [
       "Windows",
       "Android"
     ],
-    "version": "15.5.0",
+    "version": "15.6.1",
     "status": "public",
     "github": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible",
     "features": [
@@ -129,7 +129,7 @@ window.AL_GHAD_PRODUCTS = [
     ],
     "keywords": "daily reports work تقارير يومية أعمال",
     "summary": "تقارير تناسب طريقة عملك",
-    "release": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.5.0",
+    "release": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.6.1",
     "releaseLabel": "إصدار تجريبي منشور",
     "preview": "assets/previews/reports.svg",
     "previewAlt": "تصميم توضيحي لواجهة Daily Work Reports",

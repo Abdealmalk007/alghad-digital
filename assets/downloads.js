@@ -64,14 +64,14 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
   },
   reports: {
     repository: "DailyWorkReports-Flexible",
-    version: "15.5.0",
+    version: "15.6.1",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.5.0",
-    checksum: null,
+    release: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.6.1",
+    checksum: "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/SHA256SUMS_v15.6.1.txt",
     files: [
-      {label:"تحميل برنامج Windows EXE", platform:"Windows • نسخة عامة تجريبية", recommended:true, bytes:29764151, url:"https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.5.0/DailyWorkReports_Public_v15.5.0.exe"}
+      {label:"تحميل برنامج Windows Setup", platform:"Windows • نسخة عامة تجريبية", recommended:true, bytes:56184569, url:"https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/DailyWorkReports_Update_v15.6.1.exe"}
     ],
-    note:"توفرت نسخة Windows تجريبية. ملف Android Debug الموجود في GitHub غير مخصص للتوزيع العام."
+    note:"تحديث Windows v15.6.1 تجريبي غير موقع رقميا؛ يحافظ على ملفات البيانات ولا يدمج الملفات الشخصية المختلفة تلقائيا. قد يظهر تحذير Microsoft SmartScreen."
   },
   care: {
     repository: "ProTechWindowsCare",

@@ -1,4 +1,8 @@
 
+## DWR v15.6.1 installer update — November 18, 2026
+Updated verified Windows Setup prerelease link and SHA256, clarifying unsigned status and automatic data backup.
+
+
 ## 2026-11-18 — Daily Work Reports 15.6.0 source preview
 GitHub source updated with employee search and compact PDF. Windows binary still requires trusted signature and final QA.
 

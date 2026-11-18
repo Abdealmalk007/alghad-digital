@@ -21,7 +21,7 @@
 
 ## التثبيت والتشغيل
 
-- [تحميل برنامج Windows EXE](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.5.0/DailyWorkReports_Public_v15.5.0.exe)
+- [تحميل برنامج Windows EXE](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/DailyWorkReports_Update_v15.6.1.exe)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 
@@ -58,3 +58,8 @@ All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ را
 - Compact, continuous PDF reports and better quick actions.
 - Windows legacy-data opt-in migration that preserves original files.
 - [Source-only GitHub prerelease](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.6.0) — Windows executable remains 15.5 until signed and validated.
+
+
+## v15.6.1 update
+Windows installer: https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.6.1/DailyWorkReports_Update_v15.6.1.exe
+Data is backed up automatically; this is an unsigned prerelease and not production-signed.
