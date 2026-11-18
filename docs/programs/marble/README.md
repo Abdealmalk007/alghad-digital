@@ -14,15 +14,15 @@
 
 ## الإصدار والمنصات
 
-- الإصدار المعلن: 10.0.5.
+- الإصدار المعلن: 10.0.7.
 - المنصات المعلنة: Windows.
 - حالة الإتاحة: Beta / Preview — إصدار تجريبي.
 - الحد الأدنى لإصدار النظام والذاكرة: غير متحقق؛ راجع ملاحظات الإصدار.
 
 ## التثبيت والتشغيل
 
-- [تحميل برنامج التثبيت EXE](https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/Setup_MarbleDeliveryPro_v10.0.5.exe)
-- [تحميل النسخة المحمولة ZIP](https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/MarbleDeliveryPro_v10.0.5_Portable.zip)
+- [تحميل برنامج التثبيت EXE](https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.7/Setup_MarbleDeliveryPro_v10.0.7.exe)
+- [تحميل النسخة المحمولة ZIP](https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.7/MarbleDeliveryPro_v10.0.7_Portable.zip)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 

@@ -52,13 +52,13 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
   },
   marble: {
     repository: "MarbleDeliveryPro",
-    version: "10.0.5",
+    version: "10.0.7",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/tag/v10.0.5",
-    checksum: "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/SHA256SUMS.txt",
+    release: "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/tag/v10.0.7",
+    checksum: "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.7/SHA256SUMS.txt",
     files: [
-      {label:"تحميل برنامج التثبيت EXE", platform:"Windows • Setup", recommended:true, bytes:23640899, url:"https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/Setup_MarbleDeliveryPro_v10.0.5.exe"},
-      {label:"تحميل النسخة المحمولة ZIP", platform:"Windows • Portable", recommended:false, bytes:28826452, url:"https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/MarbleDeliveryPro_v10.0.5_Portable.zip"}
+      {label:"تحميل برنامج التثبيت EXE", platform:"Windows • Setup", recommended:true, bytes:23650716, url:"https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.7/Setup_MarbleDeliveryPro_v10.0.7.exe"},
+      {label:"تحميل النسخة المحمولة ZIP", platform:"Windows • Portable", recommended:false, bytes:28837342, url:"https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.7/MarbleDeliveryPro_v10.0.7_Portable.zip"}
     ],
     note:"إصدار Preview للمعاينة. يُنصح بمراجعة متطلبات التشغيل ونتائج الاختبارات قبل التثبيت."
   },

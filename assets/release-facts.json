@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "verified_at": "2026-11-14T10:06:24Z",
+  "verified_at": "2026-11-18T12:47:42Z",
   "source": "Official GitHub Releases API; SHA-256 digest fields are supplied by GitHub",
   "releases": {
     "stone": {
@@ -21,23 +21,23 @@
     },
     "marble": {
       "repository": "MarbleDeliveryPro",
-      "version": "10.0.5",
-      "published_at": "2026-11-07T11:22:46Z",
-      "tag_url": "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/tag/v10.0.5",
+      "version": "10.0.7",
+      "published_at": "2026-11-18T12:44:52Z",
+      "tag_url": "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/tag/v10.0.7",
       "prerelease": true,
       "assets": [
         {
-          "name": "Setup_MarbleDeliveryPro_v10.0.5.exe",
-          "url": "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/Setup_MarbleDeliveryPro_v10.0.5.exe",
-          "bytes": 23640899,
-          "sha256": "21195b80c787ec08cfe58f1d3123eed578a5c599b35c7fda59ed8b3200fe9441",
+          "name": "Setup_MarbleDeliveryPro_v10.0.7.exe",
+          "url": "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.7/Setup_MarbleDeliveryPro_v10.0.7.exe",
+          "bytes": 23650716,
+          "sha256": "646c3928f21fcf2471d6b34b04fe9fdbed7ce42426c5a67d98ace39ed9a5efd4",
           "recommended": true
         },
         {
-          "name": "MarbleDeliveryPro_v10.0.5_Portable.zip",
-          "url": "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.5/MarbleDeliveryPro_v10.0.5_Portable.zip",
-          "bytes": 28826452,
-          "sha256": "ff99748cc03fb43b3d489d3136c02880fbe8a807969c82037b2741ba6df1687c",
+          "name": "MarbleDeliveryPro_v10.0.7_Portable.zip",
+          "url": "https://github.com/Abdealmalk007/MarbleDeliveryPro/releases/download/v10.0.7/MarbleDeliveryPro_v10.0.7_Portable.zip",
+          "bytes": 28837342,
+          "sha256": "3c273bf14b4abd91fefc25b221d6aa944fbcc066126a77759636f898c44c3c77",
           "recommended": false
         }
       ]
