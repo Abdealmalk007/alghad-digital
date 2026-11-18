@@ -22,3 +22,10 @@ Status checked: 2026-11-18 (Asia/Riyadh).
 - Do not fake a measurement ID or report visit tracking as active until the Google Admin data stream exists, the real tag is published, and a consenting visit is observed.
 - GitHub workflow now issues an explicit warning when `GA4_MEASUREMENT_ID` is unset.
 - Preserve opt-in consent, privacy disclosure and the existing CSP; avoid broad `unsafe-inline` exceptions.
+
+## Follow-up: consent safety and SEO QA (2026-11-18)
+- Fixed GA4 consent withdrawal when the visitor's browser blocks localStorage: an active analytics session now triggers cookie clearing and page reload even when the stored decision is inaccessible.
+- Added `tests/analytics-consent-runtime-test.cjs` to exercise six scenarios including pre-consent request suppression, accept, decline, re-accept, revoke, and restricted storage. Included it in the daily GitHub Actions test suite.
+- Re-ran `scripts/polish_search_snippets.py` to repair nine existing generated pages with stale search descriptions; `search-snippet-quality-test.cjs` now passes.
+- Validated all 27 workflow Node test invocations, `scripts/test_seo.py`, `scripts/seo_inventory.py --check`, and GitHub Actions YAML: zero failures on this checkout.
+- Web Data Stream is still missing in GA4 property `564845731` at last OpenSEO Admin API inspection; no synthetic measurement identifier was published.

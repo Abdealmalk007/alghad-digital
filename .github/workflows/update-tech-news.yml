@@ -106,6 +106,7 @@ jobs:
           node tests/accessibility-seo-regression-test.cjs
           node tests/search-snippet-quality-test.cjs
           node tests/analytics-consent-test.cjs
+          node tests/analytics-consent-runtime-test.cjs
           node tests/windows-office-sources-test.cjs
           node tests/quotes-beta3-release-test.cjs
           node tests/news-refresh-reliability-test.cjs

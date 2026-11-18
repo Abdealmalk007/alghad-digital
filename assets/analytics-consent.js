@@ -72,7 +72,7 @@
         save(value);
         panel.remove();
         if (value === "yes") activate();
-        else if (wasActive) { revokeCookies(); location.reload(); }
+        else if (wasActive || active) { revokeCookies(); location.reload(); }
       });
       actions.appendChild(button);
     }
