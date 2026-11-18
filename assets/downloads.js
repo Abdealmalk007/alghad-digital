@@ -1,18 +1,18 @@
 /* Alghad Digital v3.2.0 — public GitHub release assets verified on 2026-11-07.
    Only public published assets. No draft URLs, no debug-only APKs. */
 window.AL_GHAD_DOWNLOADS = Object.freeze({
-  kitchen: { // KCAD_CPU3D_BETA_20261118
+  kitchen: { // KCAD_KITCHEN_DESIGN_R3_BETA_20261118
     repository: "KitchenCADProV5",
-    version: "5.0.0-beta-cpu3d-20261118",
+    version: "5.0.0-beta-kitchen-design-r3-20261118",
     channel: "preview",
-    release: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/tag/v5.0.0-beta-ui-panels-20261118",
-    checksum: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/download/v5.0.0-beta-ui-panels-20261118/SHA256SUMS_UI_PANELS_20261118.txt",
+    release: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/tag/v5.0.0-beta-kitchen-design-r3-20261118",
+    checksum: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/download/v5.0.0-beta-kitchen-design-r3-20261118/SHA256SUMS_KITCHEN_DESIGN_BETA_R3_20261118.txt",
     files: [
       {label: "تنزيل Kitchen CAD Pro V5 - Portable ZIP (Beta)",
        platform: "Windows 10/11 x64 • Portable • unsigned Beta",
-       recommended: true, bytes: 94593206, url: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/download/v5.0.0-beta-ui-panels-20261118/KitchenCADProV5_UI_PANELS_BETA_20261118_PORTABLE.zip"}
+       recommended: true, bytes: 94639699, url: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/download/v5.0.0-beta-kitchen-design-r3-20261118/KitchenCADProV5_KITCHEN_DESIGN_BETA_R3_20261118_PORTABLE.zip"}
     ],
-    note: "نسخة Beta محسّنة بالقوائم واللوحات قابلة للطي؛ فك الضغط بالكامل وشغّل Launch_KitchenCAD_UI_PANELS_QA.cmd. معاينة 3D ثابتة بوضع CPU. لا تستخدم مخططات CNC أو BOM للتصنيع أو التشغيل الفعلي."
+    note: "نسخة Beta محسّنة بالقوائم واللوحات قابلة للطي؛ فك الضغط بالكامل وشغّل Launch_KitchenCAD_DESIGN_FEEDBACK_R3_QA.cmd. معاينة 3D ثابتة بوضع CPU. لا تستخدم مخططات CNC أو BOM للتصنيع أو التشغيل الفعلي."
   },
   "smart-excel": {
     repository: "SmartExcelAnalyzer-30.7",
