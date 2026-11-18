@@ -55,12 +55,12 @@ assert.ok(homepage.includes('data-en-filter="public"'),"English filter");
 assert.ok(!english.some(s=>s.includes("href=\"#"))||homepage.includes('href="#downloads"'));
 // Validate all EN release assets are official and approved. Never publish guessed files.
 const releaseUrls=(homepage.match(/https:\/\/github\.com\/Abdealmalk007\/[^" ]+\/releases\/download\/[^"]+/g)||[]);
-assert.equal(new Set(releaseUrls).size,8,"Eight unique published download files; release links may be repeated in cards");
+assert.equal(new Set(releaseUrls).size,9,"Nine unique published download files; release links may be repeated in cards");
 for(const u of releaseUrls)assert.match(u,/^https:\/\/github\.com\/Abdealmalk007\/[A-Za-z0-9_.-]+\/releases\/download\/[^"<> ]+$/);
 // Product pages with no release must not offer made-up buttons.
 for(const slug of ["kitchen"]){
   const page=read("en/programs/"+slug+"/index.html");
-  assert.ok(!page.includes('class="en-download-item"'),"No fake downloads "+slug);
+  assert.ok(page.includes("KitchenCADProV5_CPU3D_QA_20261118_PORTABLE.zip"),"Verified Kitchen Beta is downloadable");
 }
 for(const slug of ["stone","download","hr","marble","reports","quotes","care"]){
   const page=read("en/programs/"+slug+"/index.html");
@@ -85,4 +85,4 @@ const css=read("assets/en.css");
 assert.ok(css.includes(".en-lang-switch"));
 const src=read("assets/en.js");
 assert.ok(src.includes('data-en-filter')||src.includes("dataset.enFilter"));
-console.log("BILINGUAL_QA_PASS AR=21 EN=21 TOTAL_SITEMAP=42 REAL_DOWNLOADS=8 ARABIC_DEFAULT=yes");
+console.log("BILINGUAL_QA_PASS AR=21 EN=21 TOTAL_SITEMAP=42 REAL_DOWNLOADS=9 ARABIC_DEFAULT=yes");

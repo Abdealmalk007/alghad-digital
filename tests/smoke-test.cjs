@@ -11,9 +11,9 @@ vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
 vm.runInNewContext(read("assets/downloads.js"),ctx,{timeout:1000});
 const manifest=ctx.window.AL_GHAD_DOWNLOADS;
 const p=ctx.window.AL_GHAD_PRODUCTS;
-assert.equal(Object.keys(manifest).length,8,"Eight published projects must have release records");
-const eight=["smart-excel","stone","download","hr","marble","reports","quotes","care"];
-for(const id of eight){
+assert.equal(Object.keys(manifest).length,9,"Nine published projects must have release records");
+const publishedReleaseIds=["smart-excel","stone","download","hr","marble","reports","quotes","care","kitchen"];
+for(const id of publishedReleaseIds){
   const d=manifest[id];
   const product=p.find(x=>x.id===id);
   assert.ok(product && product.status==="public",id);
@@ -35,9 +35,9 @@ assert.match(manifest.stone.release,/v2\.0\.0-unsigned-preview$/);
 assert.ok(Array.isArray(p));
 assert.equal(p.length,9,"The public catalog must contain 9 products");
 assert.equal(new Set(p.map(x=>x.id)).size,9);
-const published=["smart-excel","stone","marble","reports","hr","download","quotes","care"].sort();
+const published=["smart-excel","stone","marble","reports","hr","download","quotes","care","kitchen"].sort();
 assert.deepEqual(Array.from(p.filter(x=>x.status==="public"),x=>x.id).sort(),published);
-assert.equal(p.filter(x=>x.status==="dev").length,1);
+assert.equal(p.filter(x=>x.status==="dev").length,0);
 assert.ok(!p.some(x=>["omar","reem","recorder","tv"].includes(x.id)));
 assert.ok(!fs.existsSync(path.join(root,"assets/previews/recorder.svg")),"Removed preview must not ship");
 const allIds=new Set(p.map(x=>x.id));
@@ -49,7 +49,7 @@ for(const item of p){
   }
   assert.ok(Array.isArray(item.features)&&item.features.length>=3,item.id+": insufficient features");
   assert.ok(Array.isArray(item.platforms)&&item.platforms.length>=1);
-  assert.equal(item.displayStatus,item.id==="care"?"Portable Preview · غير موقّع":["smart-excel","stone","quotes"].includes(item.id)?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
+  assert.equal(item.displayStatus,item.id==="kitchen"?"نسخة Beta للتجربة":item.id==="care"?"Portable Preview · غير موقّع":["smart-excel","stone","quotes"].includes(item.id)?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
   assert.match(item.preview,/^assets\/previews\/[a-z0-9_-]+\.svg$/);
   const svg=read(item.preview);
   assert.match(svg,/<svg\b/);assert.match(svg,/<\/svg>/);
@@ -58,7 +58,7 @@ for(const item of p){
   if(item.status==="public"){
     assert.equal(item.github,"https://github.com/Abdealmalk007/"+{
       "smart-excel":"SmartExcelAnalyzer-30.7",stone:"ProTechStoneManager",marble:"MarbleDeliveryPro",
-      reports:"DailyWorkReports-Flexible",hr:"HR",download:"Download-Anything-PRO",quotes:"ProTechQuotesContracts",care:"ProTechWindowsCare"
+      reports:"DailyWorkReports-Flexible",hr:"HR",download:"Download-Anything-PRO",quotes:"ProTechQuotesContracts",care:"ProTechWindowsCare",kitchen:"KitchenCADProV5"
     }[item.id]);
   }else{
     assert.equal(item.github,null,item.id+": coming soon must not link nonexistent repo");
@@ -105,4 +105,4 @@ assert.ok(!read("assets/v3.js").includes("hydrateCompareButtons"));
 assert.ok(read("assets/v3.js").includes('searchParams.set("app"'));
 const js=read("assets/app.js");
 for(const word of ['"مكتمل"','"قريبًا جدًا"',"renderFeatured","aria-label"])assert.ok(js.includes(word));
-console.log("PASS: 9 projects, 8 public repos, 1 upcoming, 8 preview release downloads, recorder excluded, HTTPS and CSP.");
+console.log("PASS: 9 projects, 9 public repos, 0 upcoming, 9 preview release downloads, recorder excluded, HTTPS and CSP.");

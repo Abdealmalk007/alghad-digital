@@ -1,6 +1,19 @@
 /* Alghad Digital v3.2.0 — public GitHub release assets verified on 2026-11-07.
    Only public published assets. No draft URLs, no debug-only APKs. */
 window.AL_GHAD_DOWNLOADS = Object.freeze({
+  kitchen: { // KCAD_CPU3D_BETA_20261118
+    repository: "KitchenCADProV5",
+    version: "5.0.0-beta-cpu3d-20261118",
+    channel: "preview",
+    release: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/tag/v5.0.0-beta-cpu3d-20261118",
+    checksum: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/download/v5.0.0-beta-cpu3d-20261118/SHA256SUMS_CPU3D_20261118.txt",
+    files: [
+      {label: "تنزيل Kitchen CAD Pro V5 - Portable ZIP (Beta)",
+       platform: "Windows 10/11 x64 • Portable • unsigned Beta",
+       recommended: true, bytes: 102002435, url: "https://github.com/Abdealmalk007/KitchenCADProV5/releases/download/v5.0.0-beta-cpu3d-20261118/KitchenCADProV5_CPU3D_QA_20261118_PORTABLE.zip"}
+    ],
+    note: "نسخة تجريبية للاختبار فقط. فك الضغط بالكامل وشغّل Launch_KitchenCAD_CPU3D_QA.cmd. معاينة 3D ثابتة بوضع CPU. لا تستخدم مخططات CNC أو BOM للتصنيع أو التشغيل الفعلي."
+  },
   "smart-excel": {
     repository: "SmartExcelAnalyzer-30.7",
     version: "30.7.11",

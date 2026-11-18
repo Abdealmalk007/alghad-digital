@@ -179,7 +179,7 @@ async function main() {
     const badges=await evaluate('([...document.querySelectorAll(".product-card .status")].map(s=>s.textContent.trim()))');
     assert.ok(badges.some(s=>s.includes("Beta")),"Preview releases must be marked Beta");
     assert.ok(fs.readFileSync(path.join(root,"programs/stone/index.html"),"utf8").includes("غير موقّع"),"Stone installer remains clearly unsigned");
-    assert.ok(badges.some(s=>s.includes("قريبًا")),"Upcoming products must be honest");
+    assert.ok(badges.every(s=>!s.includes("قريب")),"No unavailable program remains");
     const badNewsLinks=await evaluate('([...document.querySelectorAll(".editorial-headline-link")].filter(a=>a.protocol!=="https:").length)');
     assert.equal(badNewsLinks,0,"All article links should use HTTPS");
     const badVendorLinks=await evaluate('([...document.querySelectorAll(".windows-tool-button")].filter(a=>a.protocol!=="https:").length)');
@@ -208,14 +208,14 @@ async function main() {
     let downloadCount=0;
     for(let i=0;i<40;i++){
       downloadCount=await evaluate('document.querySelectorAll(".direct-download-card").length');
-      if(downloadCount===8) break;
+      if(downloadCount===9) break;
       await delay(100);
     }
-    assert.equal(downloadCount,8,"Eight publicly downloadable cards");
+    assert.equal(downloadCount,9,"Nine publicly downloadable cards");
     assert.equal(await evaluate('window.AL_GHAD_PRODUCTS.some(p=>p.id==="recorder")'),false);
     assert.equal(await evaluate('document.querySelector(\'[data-id="recorder"]\')===null'),true);
     assert.equal(await evaluate('document.getElementById("stat-apps").textContent'),"09");
-    assert.equal(await evaluate('document.getElementById("stat-upcoming").textContent'),"01");
+    assert.equal(await evaluate('document.getElementById("stat-upcoming").textContent'),"00");
     assert.equal(await evaluate('document.getElementById("gallery-portfolio-count").textContent'),"09");
     const hiddenRemoved = await evaluate('(() => { const s=document.querySelector("#search"); s.value="Call Recorder PRO";s.dispatchEvent(new Event("input",{bubbles:true}));return document.querySelectorAll(".product-card").length; })()');
     assert.equal(hiddenRemoved,0,"Removed app must not appear in search");
@@ -240,21 +240,21 @@ async function main() {
       await delay(80);
     }
     await evaluate('document.querySelector(\'[data-detail="kitchen"]\').click()');
-    assert.equal(await evaluate('document.querySelectorAll("#product-modal .download-section").length'),0);
+    assert.equal(await evaluate('document.querySelectorAll("#product-modal .download-section").length'),1);
     await evaluate('document.getElementById("modal-close").click()');
     await delay(80);
     assert.equal(await evaluate('document.querySelectorAll(".compare-toggle").length'),0,"Compare controls removed");
     assert.equal(await evaluate('document.getElementById("compare-tray")===null'),true);
     assert.equal(await evaluate('document.querySelectorAll(".product-card .alghad-share-button").length'),9);
-    assert.equal(await evaluate('document.querySelectorAll(".product-card .direct-download-card").length'),8);
+    assert.equal(await evaluate('document.querySelectorAll(".product-card .direct-download-card").length'),9);
     assert.equal(await evaluate('document.querySelectorAll(".product-card .card-link").length'),0,"GitHub shortcuts removed");
     const initial=await evaluate('document.querySelector(".product-card .card-title").textContent');
     await evaluate('document.querySelector("#sort-products").value="name";document.querySelector("#sort-products").dispatchEvent(new Event("change"))');
     const sorted=await evaluate('document.querySelector(".product-card .card-title").textContent');
     assert.notEqual(initial,sorted,"Sorting must rearrange cards");
     await evaluate('document.querySelector("[data-filter=public]").click()');
-    assert.equal(await evaluate('document.querySelectorAll(".product-card").length'),8);
-    assert.equal(await evaluate('document.querySelectorAll(".direct-download-card").length'),8);
+    assert.equal(await evaluate('document.querySelectorAll(".product-card").length'),9);
+    assert.equal(await evaluate('document.querySelectorAll(".direct-download-card").length'),9);
     await evaluate('document.querySelector("[data-filter=all]").click()');
     assert.equal(await evaluate('document.querySelectorAll(".compare-panel").length'),0);
     await evaluate('document.querySelector("[data-detail=stone]").click()');
@@ -405,7 +405,7 @@ async function main() {
         await evaluate('document.querySelector("#en-search").value="Kitchen";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}))');
         assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),1,"English search works");
         await evaluate('document.querySelector("#en-search").value="";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}));document.querySelector("[data-en-filter=public]").click()');
-        assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),8,"English published filter");
+        assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),9,"English published filter");
         const shot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
         fs.writeFileSync(path.join(qaDir,"english-home-mobile-v42.png"),Buffer.from(shot.data,"base64"));
       }
@@ -422,7 +422,7 @@ async function main() {
       assert.ok(layout.documentWidth<=width+2,"EN responsive overflow at "+width+"px: "+JSON.stringify(layout));
     }
     assert.deepEqual(exceptions,[],"Uncaught runtime exceptions");
-    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:8,directDownloadCards:8,verifiedDownloadVariants:13,stonePublicDownload:"unsigned-beta-preview",compared:0,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
+    const report={seoPages,enPages,industry,editorial:editorialCounts,newsMobile,toolsMobile,showcase:showcase,releasesMobile:releasesMetrics,releaseScreenshot:releaseShotPath,securityScreenshot:securityShotPath, result:"PASS",cards:count,published:9,directDownloadCards:9,verifiedDownloadVariants:14,stonePublicDownload:"unsigned-beta-preview",compared:0,sorted:true,share:true,deepLink:true,contact:true,contactAddress,mobile:metrics,contactMobile:contactMetrics,downloadModalMobile:modalViewport,downloadModalScreenshot:modalShotPath,viewports,screenshot:mobilePath,contactScreenshot:contactPath};
     fs.writeFileSync(path.join(qaDir,"browser-report.json"),JSON.stringify(report,null,2),"utf8");
     console.log(JSON.stringify(report));
   } finally {
