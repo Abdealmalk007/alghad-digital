@@ -33,3 +33,10 @@ OpenSEO project: `d5521ec0-b6ec-414e-a08e-3611f918f611`
 ## Maintenance
 - The next successful scheduled news refresh should preserve GA4 Tag via the GitHub Actions variable.
 - IndexNow verification key remains available from `/1d845c3408a44669a715acccafd2a160.txt`.
+
+## 2026-11-18 Consent Mode v2 live-browser QA
+- First public-browser smoke test: Google tag script loaded (200) only after consent, but GA event was blocked by CSP when the tag attempted a DoubleClick endpoint; this exposed a gap not covered by static unit tests.
+- Tested a corrected consent loader using browser response interception (without changing the public script): explicitly `analytics_storage=granted` after opt-in, while `ad_storage`, `ad_user_data`, and `ad_personalization` remain `denied`.
+- The isolated browser test returned `HTTP 204` from `https://www.google-analytics.com/g/collect` and zero CSP errors. The existing restrictive CSP can remain intact.
+- Bumped the consent JS asset URL to `/assets/analytics-consent.js?v=2` on all 42 pages to avoid stale browser caching.
+- All 27 Node workflow tests, SEO tests, and inventory checks passed after the patch. Recheck the public site after deployment.

@@ -65,7 +65,7 @@ def main() -> None:
                 if html.count("</head>") != 1: raise ValueError(f"Invalid head: {target}")
                 html = html.replace("</head>", css + "\n</head>", 1)
             snippet = ('\n<!-- PROTECH_ANALYTICS_BEGIN -->'
-                       '<script id="protech-analytics" defer src="/assets/analytics-consent.js?v=1"'
+                       '<script id="protech-analytics" defer src="/assets/analytics-consent.js?v=2"'
                        ' data-ga4-id="' + measurement_id + '"></script>'
                        '<!-- PROTECH_ANALYTICS_END -->\n')
             if html.count("</body>") != 1: raise ValueError(f"Invalid body: {target}")

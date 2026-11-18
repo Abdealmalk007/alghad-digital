@@ -31,6 +31,13 @@
     active = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () { window.dataLayer.push(arguments); };
+    // Analytics is allowed only after explicit opt-in; advertising remains denied.
+    window.gtag("consent", "default", {
+      analytics_storage: "granted",
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied"
+    });
     window.gtag("js", new Date());
     window.gtag("config", id, {
       anonymize_ip: true, allow_google_signals: false,

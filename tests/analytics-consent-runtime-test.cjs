@@ -93,7 +93,13 @@ fresh.button("protech-analytics-choice accept").click();
 assert.equal(fresh.state.consent, "yes");
 assert.equal(fresh.scripts().length, 1);
 assert.equal(fresh.scripts()[0].src, "https://www.googletagmanager.com/gtag/js?id=" + measurementId);
-assert.equal(fresh.win.dataLayer.length, 2);
+assert.equal(fresh.win.dataLayer.length, 3);
+assert.equal(fresh.win.dataLayer[0][0], "consent");
+assert.equal(fresh.win.dataLayer[0][1], "default");
+assert.equal(fresh.win.dataLayer[0][2].analytics_storage, "granted");
+assert.equal(fresh.win.dataLayer[0][2].ad_storage, "denied");
+assert.equal(fresh.win.dataLayer[0][2].ad_user_data, "denied");
+assert.equal(fresh.win.dataLayer[0][2].ad_personalization, "denied");
 
 // A previously accepted visitor loads one tag, and can revoke consent.
 const returning = makePage({ consent: "yes", lang: "en" });
