@@ -315,7 +315,7 @@ window.AL_GHAD_PRODUCTS = [
     "platforms": [
       "Windows"
     ],
-    "version": "41.0.0-beta.1",
+    "version": "42.0.0-beta.1",
     "status": "public",
     "github": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker",
     "features": [
@@ -333,7 +333,7 @@ window.AL_GHAD_PRODUCTS = [
     ],
     "keywords": "google maps reviews tracker \u062a\u062a\u0628\u0639 \u062a\u0642\u064a\u064a\u0645\u0627\u062a \u062e\u0631\u0627\u0626\u0637 \u062c\u0648\u062c\u0644 \u0633\u0645\u0639\u0629 \u0627\u0644\u0641\u0631\u0648\u0639 google reviews sentiment business profile api",
     "summary": "\u0644\u0648\u062d\u0629 \u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0641\u0631\u0648\u0639 \u0648\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0645\u0631\u0627\u062c\u0639\u0627\u062a",
-    "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v41.0.0-beta.1",
+    "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v42.0.0-beta.1",
     "releaseLabel": "\u0625\u0635\u062f\u0627\u0631 \u062a\u062c\u0631\u064a\u0628\u064a Beta",
     "preview": "assets/previews/reports.svg",
     "previewAlt": "\u0644\u0648\u062d\u0629 \u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u062a\u0642\u064a\u064a\u0645\u0627\u062a \u0648\u0627\u0644\u0645\u0631\u0627\u062c\u0639\u0627\u062a",
