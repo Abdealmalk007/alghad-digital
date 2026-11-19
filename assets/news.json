@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T04:15:14Z",
+  "generated_at": "2026-11-19T04:23:21Z",
   "articles": [
     {
       "title": "تحديث نوفمبر لـ ColorOS 17 يصل إلى هواتف OPPO وOnePlus وrealme",
@@ -194,16 +194,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "HP تطلق حاسوب مكتبي مدمج جديد بمعالج Intel Wildcat Lake وذاكرة عشوائية تصل إلى 24 جيجابايت",
-      "url": "https://www.unlimit-tech.com/2026/11/hp-%d8%aa%d8%b7%d9%84%d9%82-%d8%ad%d8%a7%d8%b3%d9%88%d8%a8-%d9%85%d9%83%d8%aa%d8%a8%d9%8a-%d9%85%d8%af%d9%85%d8%ac-%d8%ac%d8%af%d9%8a%d8%af-%d8%a8%d9%85%d8%b9%d8%a7%d9%84%d8%ac-intel-wildcat-lake/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-18T21:30:34Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "HP تطلق حاسوب مكتبي مدمج جديد بمعالج Intel Wildcat Lake وذاكرة عشوائية تصل إلى 24 جيجابايت",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
       "url": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
       "source": "arstechnica",
@@ -257,16 +247,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "AOC تطلق شاشة محمولة جديدة بمنفذي USB-C وشحن بقدرة 45 واط وتصميم نحيف",
-      "url": "https://www.unlimit-tech.com/2026/11/aoc-%d8%aa%d8%b7%d9%84%d9%82-%d8%b4%d8%a7%d8%b4%d8%a9-%d9%85%d8%ad%d9%85%d9%88%d9%84%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%a8%d9%85%d9%86%d9%81%d8%b0%d9%8a-usb-c-%d9%88%d8%b4%d8%ad%d9%86-%d8%a8/",
-      "source": "unlimit",
-      "source_name": "التقنية بلا حدود",
-      "published_at": "2026-11-18T21:00:30Z",
-      "category": "أخبار التقنية",
-      "title_ar": "AOC تطلق شاشة محمولة جديدة بمنفذي USB-C وشحن بقدرة 45 واط وتصميم نحيف",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
       "url": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
       "source": "arstechnica",
@@ -306,6 +286,27 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "أسبوع دبي للمستقبل 2026.. أبرز إعلانات اليوم الأول من توصيل الطلبات جوًا إلى الذكاء الاصطناعي",
       "translation_status": "original_ar"
+    },
+    {
+      "title": "Booking Holdings تنشئ وحدة شراكات جديدة مع تصاعد تأثير الذكاء الاصطناعي في قطاع السفر",
+      "url": "https://www.tech-wd.com/wd/2026/11/18/booking-holdings-%d8%aa%d9%86%d8%b4%d8%a6-%d9%88%d8%ad%d8%af%d8%a9-%d8%b4%d8%b1%d8%a7%d9%83%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%85%d8%b9-%d8%aa%d8%b5%d8%a7%d8%b9%d8%af-%d8%aa%d8%a3%d8%ab/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-18T19:40:13Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Booking Holdings تنشئ وحدة شراكات جديدة مع تصاعد تأثير الذكاء الاصطناعي في قطاع السفر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "GTA 6's cops will remember you thanks to the 'Heat' system",
+      "url": "https://www.engadget.com/2320983/gta-6s-cops-will-remember-you-thanks-to-the-heat-system/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-18T19:34:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سيتذكرك رجال شرطة GTA 6 بفضل نظام \"هيت\"",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
@@ -474,7 +475,7 @@
       "id": "unlimit",
       "name": "التقنية بلا حدود",
       "url": "https://www.unlimit-tech.com/",
-      "active": true
+      "active": false
     }
   ],
   "copyright": "Headlines, dates, attribution and links only; read full articles on original publishers.",

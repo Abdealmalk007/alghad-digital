@@ -14,14 +14,14 @@
 
 ## الإصدار والمنصات
 
-- الإصدار المعلن: 15.5.0.
+- الإصدار المعلن: 15.7.1.
 - المنصات المعلنة: Windows / Android.
 - حالة الإتاحة: Beta / Preview — إصدار تجريبي.
 - الحد الأدنى لإصدار النظام والذاكرة: غير متحقق؛ راجع ملاحظات الإصدار.
 
 ## التثبيت والتشغيل
 
-- [تحميل برنامج Windows EXE](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.1/DailyWorkReports_Setup_v15.7.1_Public_Empty.exe)
+- [تحميل برنامج Windows Setup (Empty)](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.1/DailyWorkReports_Setup_v15.7.1_Public_Empty.exe)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 
@@ -50,26 +50,3 @@ All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ را
 ## التواصل والدعم
 
 [protech.2025.2026@gmail.com](mailto:protech.2025.2026@gmail.com) · [alghad.digital](https://alghad.digital/)
-
-
-## Daily Work Reports 15.6.0 (source preview)
-
-- Arabic employee substring search and validated staff selection.
-- Compact, continuous PDF reports and better quick actions.
-- Windows legacy-data opt-in migration that preserves original files.
-- [Source-only GitHub prerelease](https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.6.0) — Windows executable remains 15.5 until signed and validated.
-
-
-## v15.6.1 update
-Windows installer: https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.1/DailyWorkReports_Setup_v15.7.1_Public_Empty.exe
-Data is backed up automatically; this is an unsigned prerelease and not production-signed.
-
-
-## v15.7.0 public empty installer
-The public installer contains no user data, employee names or saved reports. New weekly/monthly/all-time employee productivity dashboard, date navigation and unsaved draft prompts.
-Windows installer: https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/download/v15.7.1/DailyWorkReports_Setup_v15.7.1_Public_Empty.exe
-Unsigned preview; do not treat as a signed production build.
-
-
-## v15.7.1 startup hotfix
-Fixes the legacy template startup KeyError. Public installer contains no personal data. Windows Authenticode status: unsigned preview.
