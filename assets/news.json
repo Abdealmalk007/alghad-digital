@@ -1,7 +1,274 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T16:50:10Z",
+  "generated_at": "2026-11-19T19:27:53Z",
   "articles": [
+    {
+      "title": "ما الفرق بين iPhone Duo وGalaxy Z Fold 8؟ مقارنة في الحجم والكاميرا والسعر",
+      "url": "https://www.tech-wd.com/wd/2026/11/19/%d9%85%d8%a7-%d8%a7%d9%84%d9%81%d8%b1%d9%82-%d8%a8%d9%8a%d9%86-iphone-duo-%d9%88galaxy-z-fold-8%d8%9f-%d9%85%d9%82%d8%a7%d8%b1%d9%86%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%ad%d8%ac%d9%85-%d9%88%d8%a7/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-19T19:25:09Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "ما الفرق بين iPhone Duo وGalaxy Z Fold 8؟ مقارنة في الحجم والكاميرا والسعر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هل يستطيع جنسن هوانغ منافسة إنفيديا بـ50 مليار دولار؟ القانون عقبة رئيسية",
+      "url": "https://techvoicearabia.com/jensen-huang-nvidia-50-billion-startup/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-19T19:18:17Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هل يستطيع جنسن هوانغ منافسة إنفيديا بـ50 مليار دولار؟ القانون عقبة رئيسية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Apple TV expands its racing coverage with the all-female F1 Academy",
+      "url": "https://www.engadget.com/2322221/apple-tv-expands-its-racing-coverage-with-the-all-female-f1-academy/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-19T19:16:42Z",
+      "category": "أخبار التقنية",
+      "title_ar": "توسّع Apple TV تغطيتها للسباقات مع أكاديمية الفورمولا 1 النسائية بالكامل",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Some creators are skeptical of Instagram’s new affiliate program",
+      "url": "https://www.theverge.com/news/1037951/instagram-amazon-affiliate-links-influencers-ads",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-19T19:12:30Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بعض منشئي المحتوى متشككون في برنامج التسويق بالعمولة الجديد من إنستغرام",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Anthropic’s IPO could deliver $156 billion to charity",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-19T19:10:45Z",
+      "category": "أخبار التقنية",
+      "title_ar": "قد يوفر الاكتتاب العام الأولي لشركة أنثروبيك 156 مليار دولار للأعمال الخيرية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Ubisoft lays off 166 more workers, opens a generative AI studio",
+      "url": "https://www.engadget.com/2322205/ubisoft-lays-off-166-more-workers-opens-a-generative-ai-studio/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-19T19:06:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يوبيسوفت تسرح 166 عاملًا آخر، وتفتتح استوديو للذكاء الاصطناعي التوليدي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "\"You’re right\"—LLMs will get climate info wrong if you ask",
+      "url": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-19T18:44:39Z",
+      "category": "أخبار التقنية",
+      "title_ar": "\"أنت على حق\"—ستخطئ النماذج اللغوية الكبيرة في معلومات المناخ إذا سألتها",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Anthropic is now a public company worth more than $1 trillion",
+      "url": "https://www.engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-19T18:41:26Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أصبحت أنثروبيك الآن شركة عامة تبلغ قيمتها أكثر من تريليون دولار",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "المفوضية الأوروبية تتعرض لهجوم سيبراني بالذكاء الاصطناعي.. وأداة “آرتكس” تثير القلق",
+      "url": "https://techvoicearabia.com/eu-commission-ai-cyberattack-artex-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-19T18:23:31Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "المفوضية الأوروبية تتعرض لهجوم سيبراني بالذكاء الاصطناعي.. وأداة “آرتكس” تثير القلق",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Gemini on Mac can now use your computer",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-19T18:21:13Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "يمكن لـ Gemini على جهاز Mac الآن استخدام جهاز الكمبيوتر الخاص بك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "اختراق بيانات سائقي Uber يكشف رخص قيادة 149,346 شخصاً عبر مزود AI",
+      "url": "https://3arrafni.com/tech-news/uber-driver-data-breach-fireworks-ai",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-19T18:19:18Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق بيانات سائقي Uber يكشف رخص قيادة 149,346 شخصاً عبر مزود AI",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Leaked images reveal Motorola’s wide foldable",
+      "url": "https://www.theverge.com/tech/1037848/motorola-razr-flex-wide-foldable-folding-smartphone-android-leak",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-19T18:19:03Z",
+      "category": "أخبار التقنية",
+      "title_ar": "صور مسربة تكشف عن هاتف موتورولا القابل للطي العريض",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Oh, Elon Musk is ‘moderate’ now, is he?",
+      "url": "https://www.theverge.com/policy/1037804/elon-musk-maga-dealbook",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-19T18:15:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أوه، إيلون ماسك \"معتدل\" الآن، أليس كذلك؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-19T18:09:11Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تمنح غوغل جيميناي القدرة على استخدام جهاز ماك الخاص بك نيابة عنك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "BYD تطلق تاي 9 بسعر يبدأ من 42 ألف دولار.. هل تعيد تعريف سيارات الدفع الرباعي الفاخرة؟",
+      "url": "https://techvoicearabia.com/byd-fangchengbao-ti9-price-specs-uae-saudi/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-19T18:01:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "BYD تطلق تاي 9 بسعر يبدأ من 42 ألف دولار.. هل تعيد تعريف سيارات الدفع الرباعي الفاخرة؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "How to game share GTA 6 and split the cost with a friend",
+      "url": "https://www.engadget.com/2322043/how-to-game-share-gta-6-split-cost/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-19T18:00:48Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كيفية مشاركة لعبة GTA 6 وتقسيم التكلفة مع صديق",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Google will launch Android app verification requirement globally in January 2027",
+      "url": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-19T18:00:33Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "ستطلق غوغل متطلبات التحقق من تطبيقات أندرويد على مستوى العالم في يناير 2027",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Google signs deal with Blue Origin to send satellite data centers into orbit",
+      "url": "https://www.engadget.com/2321988/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-19T17:38:44Z",
+      "category": "أخبار التقنية",
+      "title_ar": "غوغل توقع اتفاقية مع بلو أوريجين لإرسال مراكز بيانات الأقمار الصناعية إلى المدار",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-19T17:38:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "وفقًا لتقرير، يقوم وكيل الذكاء الاصطناعي من ميتا، Muse، بخلط المحادثات والكشف عن البيانات الخاصة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "أنثروبيك تحقق تريليوني دولار في أول يوم تداول.. هل تدخل نادي عمالقة العالم؟",
+      "url": "https://techvoicearabia.com/anthropic-nasdaq-debut-two-trillion-valuation/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-19T17:27:30Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أنثروبيك تحقق تريليوني دولار في أول يوم تداول.. هل تدخل نادي عمالقة العالم؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "احتيال عملات مشفرة بتزييف عميق لإيلون ماسك يخدع مستخدمي Coinbase",
+      "url": "https://3arrafni.com/tech-news/coinbase-elon-musk-deepfake-crypto-scam",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-19T17:24:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "احتيال عملات مشفرة بتزييف عميق لإيلون ماسك يخدع مستخدمي Coinbase",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+      "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-19T17:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "غوغل تبني شبكة إنترنت \"بُعد مرآة\" عملاقة لاختبار وكلاء الذكاء الاصطناعي في كروم",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-19T17:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "شركة إيفر فول التابعة للمدير التنفيذي السابق لشركة علي بابا تجمع 48.5 مليون دولار لربط تجار التجزئة بالمصانع الصينية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-19T16:59:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أنتثروبيك تدخل بورصة ناسداك بسعر 111 دولارًا، بزيادة 33% عن سعر الاكتتاب العام",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "أجهزة NVIDIA RTX Spark المكتبية تصل من ASUS و Dell و MSI",
+      "url": "https://arabhardware.net/post-55187",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-19T16:45:49Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "أجهزة NVIDIA RTX Spark المكتبية تصل من ASUS و Dell و MSI",
+      "translation_status": "original_ar"
+    },
     {
       "title": "أجهزة RTX Spark المصغّرة من Asus وMSI تصل بسعر يبدأ من 4399 دولاراً",
       "url": "https://3arrafni.com/tech-news/rtx-spark-mini-pcs-asus-msi-dell-prices-specs",
@@ -13,26 +280,24 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Microsoft is killing its great tasks app in favor of its worse tasks app",
-      "url": "https://www.theverge.com/tech/1037558/microsoft-to-do-shutdown-planner",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-19T16:28:12Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مايكروسوفت تلغي تطبيق المهام الرائع الخاص بها لصالح تطبيق المهام الأسوأ الخاص بها",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
+      "title": "قم بالتحديث الآن | ثغرة Java خطيرة تسمح بتنفيذ شيفرات عن بُعد",
+      "url": "https://arabhardware.net/post-55186",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-19T16:25:31Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "قم بالتحديث الآن | ثغرة Java خطيرة تسمح بتنفيذ شيفرات عن بُعد",
+      "translation_status": "original_ar"
     },
     {
-      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-19T16:19:41Z",
+      "title": "مراجعة سماعة Razer Barracuda V2 Pro مع قاعدة Base Station V3 Chroma",
+      "url": "https://arabhardware.net/post-55178",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-19T16:16:09Z",
       "category": "أخبار التقنية",
-      "title_ar": "عند افتتاح ناسداك، جدد الرئيس التنفيذي لشركة أنثروبيك التزامه بتيرة تطوير الذكاء الاصطناعي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
+      "title_ar": "مراجعة سماعة Razer Barracuda V2 Pro مع قاعدة Base Station V3 Chroma",
+      "translation_status": "original_ar"
     },
     {
       "title": "JPMorgan Chase reveals data breach, but says it’s unrelated to this week’s banking outage",
@@ -76,257 +341,23 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ميزة Windows 11 الأمنية الجديدة قد تتيح للتطبيقات رفض العمل",
-      "url": "https://3arrafni.com/tech-news/windows-baseline-protection-app-security-check",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-19T15:34:18Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "ميزة Windows 11 الأمنية الجديدة قد تتيح للتطبيقات رفض العمل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "UK government forced to disclose secret Apple backdoor order",
-      "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-19T15:32:20Z",
-      "category": "أخبار التقنية",
-      "title_ar": "حكومة المملكة المتحدة تُجبر على الكشف عن أمر الباب الخلفي السري لشركة آبل",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-19T15:16:45Z",
+      "title": "دمى الأطفال المعززة بالذكاء الاصطناعي قد تخبر طفلك عن \"جرائم الحرب\"",
+      "url": "https://www.aljazeera.net/tech/2026/11/19/%d8%af%d9%85%d9%89-%d8%a7%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d8%a7%d9%84%d9%85%d8%b9%d8%b2%d8%b2%d8%a9-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-19T15:53:04Z",
       "category": "الذكاء الاصطناعي",
-      "title_ar": "يمكن لـ ChatGPT الآن تحويل كلامك إلى نص مكتوب أثناء تحدثك باستخدام ميزة الإملاء المباشر",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "How Silicon Valley lost the public, with Crooked Media’s Jon Favreau",
-      "url": "https://www.theverge.com/podcast/1036484/jon-favreau-pod-save-america-offline-crooked-media-trump-big-tech-ai-2028-election",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-19T15:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "كيف فقدت سيليكون فالي الجمهور، مع جون فافرو من كروكد ميديا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-19T14:54:39Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الاكتتاب العام الأولي لشركة أنثروبيك يضع طفرة التمويل الدائري للذكاء الاصطناعي على المحك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "علي بابا: إيرادات السحابة والحوسبة للذكاء الاصطناعي تنمو 53 في المئة",
-      "url": "https://aitnews.com/2026/11/19/alibaba-ai-cloud-revenue-september-2026/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-19T14:54:33Z",
-      "category": "أخبار التقنية",
-      "title_ar": "علي بابا: إيرادات السحابة والحوسبة للذكاء الاصطناعي تنمو 53 في المئة",
+      "title_ar": "دمى الأطفال المعززة بالذكاء الاصطناعي قد تخبر طفلك عن \"جرائم الحرب\"",
       "translation_status": "original_ar"
     },
     {
-      "title": "محادثات Google AI Mode المؤقتة تتيح البحث دون حفظ السجل",
-      "url": "https://3arrafni.com/tech-news/google-ai-mode-temporary-threads",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-19T14:39:18Z",
-      "category": "أخبار التقنية",
-      "title_ar": "محادثات Google AI Mode المؤقتة تتيح البحث دون حفظ السجل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Pebble Index 01 AI ring review: When a single feature becomes the product",
-      "url": "https://www.engadget.com/2321607/pebble-index-01-ai-ring-review/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-19T14:30:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مراجعة خاتم Pebble Index 01 AI: عندما تصبح ميزة واحدة المنتج",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "HONOR Magic V7 سيأتي بشاشة عريضة وبدون نسخة قابلة للطي بالشكل التقليدي",
-      "url": "https://www.tech-wd.com/wd/2026/11/19/honor-magic-v7-%d8%b3%d9%8a%d8%a3%d8%aa%d9%8a-%d8%a8%d8%b4%d8%a7%d8%b4%d8%a9-%d8%b9%d8%b1%d9%8a%d8%b6%d8%a9-%d9%88%d8%a8%d8%af%d9%88%d9%86-%d9%86%d8%b3%d8%ae%d8%a9-%d9%82%d8%a7%d8%a8%d9%84%d8%a9/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-19T14:05:20Z",
-      "category": "أخبار التقنية",
-      "title_ar": "HONOR Magic V7 سيأتي بشاشة عريضة وبدون نسخة قابلة للطي بالشكل التقليدي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Mouse fight club might explain why we like to watch violent things",
-      "url": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-19T14:04:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "قد يفسر نادي قتال الفئران سبب حبنا لمشاهدة الأشياء العنيفة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Nimble enters the item-tracking market with eco-friendly luggage tags and keychains",
-      "url": "https://techcrunch.com/2026/11/19/nimble-enters-the-item-tracking-market-with-eco-friendly-luggage-tags-and-keychains/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-19T14:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تدخل Nimble سوق تتبع الأغراض مع بطاقات الأمتعة وسلاسل المفاتيح الصديقة للبيئة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Blue Origin will launch Google’s AI server satellites in 2029",
-      "url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-19T13:53:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستطلق بلو أوريجين أقمارًا صناعية لخوادم الذكاء الاصطناعي من جوجل في عام 2029",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "نظام HarmonyOS الأصلي يتجاوز 100 مليون مستخدم ويصبح ثالث أكبر نظام للهواتف",
-      "url": "https://www.tech-wd.com/wd/2026/11/19/%d9%86%d8%b8%d8%a7%d9%85-harmonyos-%d8%a7%d9%84%d8%a3%d8%b5%d9%84%d9%8a-%d9%8a%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-100-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85-%d9%88%d9%8a%d8%b5/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-19T13:52:37Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "نظام HarmonyOS الأصلي يتجاوز 100 مليون مستخدم ويصبح ثالث أكبر نظام للهواتف",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
-      "url": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-19T13:40:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تواجه خطط ناسا الجديدة للقمر مشكلة: لم تُصمّم مركبة أوريون للطيران بهذه الطريقة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Rockstar says that GTA 6's map has room to expand for future storylines",
-      "url": "https://www.engadget.com/2321545/rockstar-says-that-gta-6s-map-has-room-to-expand-for-future-storylines/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-19T13:30:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقول روكستار إن خريطة GTA 6 لديها مساحة للتوسع من أجل القصص المستقبلية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Canva will let users switch off most generative AI",
-      "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-19T12:30:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستسمح Canva للمستخدمين بإيقاف تشغيل معظم أدوات الذكاء الاصطناعي التوليدي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "الفطيم تطلق هوندا بايلوت تريل سبورت في الإمارات",
-      "url": "https://aitnews.com/2026/11/19/%d8%a7%d9%84%d9%81%d8%b7%d9%8a%d9%85-%d8%aa%d8%b7%d9%84%d9%82-%d9%87%d9%88%d9%86%d8%af%d8%a7-%d8%a8%d8%a7%d9%8a%d9%84%d9%88%d8%aa-%d8%aa%d8%b1%d9%8a%d9%84-%d8%b3%d8%a8%d9%88%d8%b1%d8%aa-%d9%81%d9%8a/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-19T12:23:13Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الفطيم تطلق هوندا بايلوت تريل سبورت في الإمارات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "محاولات استغلال Java4Shell تتزايد وتحديثات أمنية للتطبيقات المتأثرة",
-      "url": "https://aitnews.com/2026/11/19/java4shell-exploitation-attempts-security-updates/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-19T12:16:19Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "محاولات استغلال Java4Shell تتزايد وتحديثات أمنية للتطبيقات المتأثرة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
-      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-19T12:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الاكتتاب العام القياسي لشركة أنثروبيك يسلط الضوء على أسوأ أعداء عملاق الذكاء الاصطناعي - نفسه",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "OpenAI تطلق GPT-6.2 Astra و Sol بأسعار أقل وإتاحة فورية",
-      "url": "https://arabhardware.net/post-55184",
+      "title": "منظومة Microsoft Perception متاحة الآن بوكلاء هجوم ودفاع وإصلاح",
+      "url": "https://arabhardware.net/post-55185",
       "source": "hardware",
       "source_name": "عرب هاردوير",
-      "published_at": "2026-11-19T11:32:59Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تطلق GPT-6.2 Astra و Sol بأسعار أقل وإتاحة فورية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "How to tell a cyberattack from a plain old outage",
-      "url": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-19T11:13:01Z",
+      "published_at": "2026-11-19T15:41:34Z",
       "category": "أخبار التقنية",
-      "title_ar": "كيفية التمييز بين الهجوم الإلكتروني والانقطاع العادي القديم",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "DOJ accuses Russian national of spying on and harassing Palantir employees",
-      "url": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-19T10:33:59Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تتهم وزارة العدل الأمريكية مواطنًا روسيًا بالتجسس على موظفي بالانتير ومضايقتهم",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "“ليكسر” تطرح حلول تخزين أكثر ذكاءً وجاهزية لتقنيات الذكاء الاصطناعي خلال معرض جيتكس جلوبال 2026",
-      "url": "https://technologyarabia.com/archives/18141/%d9%84%d9%8a%d9%83%d8%b3%d8%b1-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%ad%d9%84%d9%88%d9%84-%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d8%a3%d9%83%d8%ab%d8%b1-%d8%b0%d9%83%d8%a7%d8%a1%d9%8b-%d9%88%d8%ac%d8%a7%d9%87/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-19T10:22:18Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "“ليكسر” تطرح حلول تخزين أكثر ذكاءً وجاهزية لتقنيات الذكاء الاصطناعي خلال معرض جيتكس جلوبال 2026",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "“هايتيرا” تستعرض حلولاً مدعومة بالذكاء الاصطناعي لتعزيز السلامة العامة في القمة الشرطية العالمية 2026",
-      "url": "https://technologyarabia.com/archives/18138/%d9%87%d8%a7%d9%8a%d8%aa%d9%8a%d8%b1%d8%a7-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ad%d9%84%d9%88%d9%84%d8%a7%d9%8b-%d9%85%d8%af%d8%b9%d9%88%d9%85%d8%a9-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-19T10:09:53Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "“هايتيرا” تستعرض حلولاً مدعومة بالذكاء الاصطناعي لتعزيز السلامة العامة في القمة الشرطية العالمية 2026",
+      "title_ar": "منظومة Microsoft Perception متاحة الآن بوكلاء هجوم ودفاع وإصلاح",
       "translation_status": "original_ar"
     },
     {
@@ -337,39 +368,6 @@
       "published_at": "2026-11-18T21:29:24Z",
       "category": "أخبار التقنية",
       "title_ar": "يعترف الرئيس التنفيذي لشركة نتفليكس بأن التطبيق قد يخفي المحتوى الذي تريد مشاهدته تحت المحتوى الذي لا تريده",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
-      "url": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-18T20:41:12Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "يستبدل نظام التشغيل Windows Server 2028 التوافق بالأمان الجاهز للاستخدام",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
-      "url": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-18T19:29:41Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تعلن منصة إدارة الإنفاق Payhawk عن جمع 280 مليون دولار وتقييم بقيمة 2 مليار دولار",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "GTA 6 is here: Live updates on surprises, favorite characters and news on the biggest game of the year",
-      "url": "https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-18T18:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لعبة GTA 6 هنا: تحديثات مباشرة عن المفاجآت والشخصيات المفضلة والأخبار عن أكبر لعبة في العام",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -414,7 +412,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "arrafni",
@@ -432,13 +430,13 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",
       "name": "BBC عربي",
       "url": "https://www.bbc.com/arabic",
-      "active": true
+      "active": false
     },
     {
       "id": "theverge",
