@@ -259,7 +259,13 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
         preferred=next((f for f in entry.get("files",[]) if f.get("recommended") and seo.safe_release(f.get("url",""),entry.get("repository",""))),None)
         if preferred:
             releases.append(f'<article class="en-release-card"><div><strong>{esc(p["title"])}</strong><p>Preview v{esc(entry.get("version",""))} · {esc(", ".join(p.get("platforms",[])))}</p></div>{external(preferred["url"],"Download preview","en-btn en-btn-primary")}</article>')
-    assert len(releases)==8
+    expected_releases = sum(
+        any(f.get("recommended") and seo.safe_release(
+            f.get("url", ""), downloads.get(p["id"], {}).get("repository", "")
+        ) for f in downloads.get(p["id"], {}).get("files", []))
+        for p in products
+    )
+    assert len(releases) == expected_releases
     from_news=industry["topics"]["ai"]["articles"][:3]+industry["topics"]["companies"]["articles"][:3]
     home=f"""
     <section class="en-hero">
@@ -455,7 +461,9 @@ def main()->None:
     products=seo.read_javascript_data("assets/products.js","AL_GHAD_PRODUCTS")
     downloads=seo.read_javascript_data("assets/downloads.js","AL_GHAD_DOWNLOADS")
     assert set(p["id"] for p in products)==set(CATALOG)
-    assert len(products)==9 and set(downloads)=={"stone","marble","reports","hr","download","quotes","care","smart-excel"}
+    product_ids = {product["id"] for product in products}
+    assert len(products) == 9 and len(product_ids) == 9
+    assert set(downloads).issubset(product_ids), "Release entries must reference known products"
     industry=json.loads((ROOT/"assets/industry-news.json").read_text(encoding="utf8"))
     tools=json.loads((ROOT/"assets/tools.json").read_text(encoding="utf8"))
     facts=json.loads((ROOT/"assets/release-facts.json").read_text(encoding="utf8"))

@@ -53,7 +53,12 @@ assert.ok(productBlock.includes('Beta · نسخة عامة للتجربة'));
 assert.ok(productBlock.includes('Beta · نسخة عامة للتجربة'));
 assert.ok(!productBlock.includes('تنزيل المصدر ZIP'));
 assert.ok(productBlock.includes('ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe'));
-assert.ok(productBlock.includes('قريبًا'));
+const recommendedUrls=require("./release-facts.cjs")(root).recommendedUrls;
+if(recommendedUrls.has("kitchen")){
+ assert.ok(productBlock.includes(recommendedUrls.get("kitchen")),"Kitchen preview download must match verified release manifest");
+}else{
+ assert.ok(productBlock.includes('قريبًا'),"Unreleased kitchen version must be labeled coming soon");
+}
 assert.ok(releaseBlock.includes('SHA-256'));
 assert.equal((releaseBlock.match(/https:\/\/github\.com\/Abdealmalk007\//g)||[]).length,7);
 assert.ok(!/\/releases\/tag\/untagged/.test(html),"No draft links");

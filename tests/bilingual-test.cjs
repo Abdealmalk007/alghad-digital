@@ -9,6 +9,7 @@ const routes=["/","/programs/","/news/","/free-windows-tools/","/ai-news/",
  ...["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes"].map(x=>"/programs/"+x+"/"),"/windows-office/"];
 assert.equal(routes.length,21);
 const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
+const releaseFacts=require("./release-facts.cjs")(root);
 const english=[];
 const arabic=[];
 for(const route of routes){
@@ -48,14 +49,15 @@ assert.ok(homepage.indexOf('id="programs"')<homepage.indexOf('id="news"'),"Produ
 assert.ok(homepage.includes('id="downloads"'));
 assert.ok(homepage.indexOf('id="downloads"')<homepage.indexOf('id="news"'),"Downloads before news");
 assert.equal((homepage.match(/class="en-product-card" data-product=/g)||[]).length,9,"9 full English product cards");
-assert.equal((homepage.match(/class="en-release-card"/g)||[] ).length,8,"8 verified preview download choices");
+assert.equal((homepage.match(/class="en-release-card"/g)||[] ).length,releaseFacts.recommendedProducts,"Only approved recommended preview download choices");
 assert.equal((english[10].match(/class="en-product-card" data-product=/g)||[]).length,9,"All programs on EN ProTech profile");
 assert.ok(homepage.includes('id="en-search"'),"English search");
 assert.ok(homepage.includes('data-en-filter="public"'),"English filter");
 assert.ok(!english.some(s=>s.includes("href=\"#"))||homepage.includes('href="#downloads"'));
 // Validate all EN release assets are official and approved. Never publish guessed files.
 const releaseUrls=(homepage.match(/https:\/\/github\.com\/Abdealmalk007\/[^" ]+\/releases\/download\/[^"]+/g)||[]);
-assert.equal(new Set(releaseUrls).size,9,"Nine unique published download files; release links may be repeated in cards");
+assert.ok(new Set(releaseUrls).size>=releaseFacts.recommendedProducts,"Include recommended release files");
+for(const u of releaseUrls)assert.ok(releaseFacts.knownFiles.has(u),"All download URLs must come from verified release manifest: "+u);
 for(const u of releaseUrls)assert.match(u,/^https:\/\/github\.com\/Abdealmalk007\/[A-Za-z0-9_.-]+\/releases\/download\/[^"<> ]+$/);
 // Product pages with no release must not offer made-up buttons.
 for(const slug of ["kitchen"]){

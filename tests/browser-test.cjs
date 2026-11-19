@@ -7,6 +7,7 @@ const path = require("node:path");
 const http = require("node:http");
 const {spawn} = require("node:child_process");
 const root = path.resolve(__dirname, "..");
+const releaseFacts = require("./release-facts.cjs")(root);
 const qaDir = path.resolve(root, "..", "AlghadDigitalSite_QA");
 const chromePath = process.env.CHROME_PATH ||
   "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
@@ -401,7 +402,7 @@ async function main() {
         assert.equal(count,9,"English cards visible");
         const filters=await evaluate('({hasSearch:!!document.querySelector("#en-search"),count:document.querySelectorAll(".en-release-card").length})');
         assert.equal(filters.hasSearch,true);
-        assert.equal(filters.count,8,"Published preview releases");
+        assert.equal(filters.count,releaseFacts.recommendedProducts,"Published preview releases must match manifest");
         await evaluate('document.querySelector("#en-search").value="Kitchen";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}))');
         assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),1,"English search works");
         await evaluate('document.querySelector("#en-search").value="";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}));document.querySelector("[data-en-filter=public]").click()');

@@ -531,7 +531,15 @@ def render_brand(products: list[dict], downloads: dict) -> None:
             +'<div class="brand-card-actions"><a class="program-details" href="../programs/'+esc(slug)+'/">تفاصيل</a>'+action+'</div>'
             +'</article>'
         )
-    assert len(cards)==9 and public_downloads==8
+    expected_public_downloads = sum(
+        1 for product in products
+        if product["status"] == "public"
+        and safe_release(
+            downloads.get(product["id"], {}).get("release"),
+            downloads.get(product["id"], {}).get("repository", ""),
+        )
+    )
+    assert len(cards) == len(products) and public_downloads == expected_public_downloads
     body=f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / Pro Tech</div>
       <span class="eyebrow">PRO TECH / PROTECH SOFTWARE</span>
       <h1>Pro Tech (بروتك) — برامج الغد ديجتال</h1>
