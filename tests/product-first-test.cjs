@@ -34,7 +34,7 @@ assert.ok(html.includes('href="mailto:protech.2025.2026@gmail.com"'),"Email is t
 assert.ok(html.includes('href="#contact" class="button button-sm button-primary header-cta"'));
 assert.ok(!html.includes('info@alghad.digital'),"Do not publicize unconfigured domain email");
 const marks=[
- ["PRODUCTS",9,"data-prerender-product"],
+ ["PRODUCTS",10,"data-prerender-product"],
  ["DOWNLOADS",7,"data-prerender-release"],
  ["NEWS",4,'class="pre-news-row"']
 ];
@@ -98,4 +98,4 @@ if(fs.existsSync(facts)){
   }
  }
 }
-console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=9 NO_JS_RELEASES=7 NO_JS_NEWS=4 SUPPORT=3");
+console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=10 NO_JS_RELEASES=7 NO_JS_NEWS=4 SUPPORT=3");

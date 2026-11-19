@@ -143,7 +143,7 @@ def patch(route: str, products: dict[str,str]) -> None:
 
 def main() -> None:
     urls = SITEMAP_RE.findall((ROOT / "sitemap.xml").read_text(encoding="utf-8"))
-    if len(urls) != 42 or len(urls) != len(set(urls)):
+    if len(urls) != 44 or len(urls) != len(set(urls)):
         raise ValueError("Sitemap routes differ from expected canonical URLs")
     products = catalog()
     for url in urls:

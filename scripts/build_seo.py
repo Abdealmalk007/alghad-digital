@@ -30,6 +30,7 @@ PROGRAM_SEARCH_INTENTS = {
     "download": "تطبيق تحميل الفيديو والصوت للأندرويد",
     "kitchen": "برنامج تصميم المطابخ ثنائي وثلاثي الأبعاد",
     "care": "برنامج صيانة وتحسين نظام Windows",
+    "google-maps-reviews-tracker": "متابعة تقييمات الفروع وتحليل مراجعات العملاء على خرائط Google",
     "quotes": "برنامج عروض الأسعار والعقود",
 }
 
@@ -42,6 +43,7 @@ PROGRAM_USE_CASES = {
     "download": ["تنظيم تنزيلات Android", "تشغيل ملفات الفيديو والصوت", "إدارة مكتبة الوسائط المحلية"],
     "kitchen": ["تصميم المطابخ ثنائي وثلاثي الأبعاد", "تخطيط الخزائن والفتحات", "إعداد قوائم القص والتصنيع"],
     "care": ["تشخيص مشكلات Windows", "إدارة بدء التشغيل والأداء", "أدوات الصيانة ونقاط الاستعادة"],
+    "google-maps-reviews-tracker": ["متابعة تقييمات الفروع وتغيرها", "تحليل المراجعات وإدارة الشكاوى", "تقارير السمعة حسب الفرع"],
     "quotes": ["إنشاء عروض الأسعار", "تنظيم العقود والمستندات", "متابعة سجلات العملاء والمشاريع"],
 }
 
@@ -872,7 +874,7 @@ def main() -> None:
     news=read_json("assets/news.json")
     tools=read_json("assets/tools.json")
     industry=read_json("assets/industry-news.json")
-    assert len(products)==9 and len(set(x["id"] for x in products))==9
+    assert len(products)>=10 and len(set(x["id"] for x in products))==len(products)
     assert not {"recorder","omar","reem"} & {x["id"] for x in products}
     write_program_guides(products, downloads)
     for product in products:render_product(product,downloads)

@@ -5,7 +5,7 @@ const path = require("node:path");
 const root = path.resolve(__dirname, "..");
 const read = file => fs.readFileSync(path.join(root, file), "utf8");
 const routes = [...read("sitemap.xml").matchAll(/<loc>https:\/\/alghad\.digital(\/[^<]*)<\/loc>/g)].map(m => m[1]);
-assert.equal(routes.length, 42);
+assert.equal(routes.length, 44);
 let active = 0;
 for (const route of routes) {
   const html = read(route.replace(/^\//, "") + "index.html");
@@ -29,7 +29,7 @@ for (const route of routes) {
     assert.ok(!html.includes("PROTECH_ANALYTICS_BEGIN"), route);
   }
 }
-assert.ok(active === 0 || active === 42);
+assert.ok(active === 0 || active === 44);
 if (active) {
   assert.ok(read("privacy/index.html").includes("PROTECH_ANALYTICS_PRIVACY_BEGIN"));
   assert.ok(read("en/privacy/index.html").includes("PROTECH_ANALYTICS_PRIVACY_BEGIN"));

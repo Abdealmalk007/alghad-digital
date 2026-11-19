@@ -184,8 +184,8 @@ def topical_sitemap_lastmod() -> None:
     ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
     tree = ET.parse(sitemap)
     urls = tree.findall(f"./{ns}url")
-    if len(urls) != 42:
-        raise ValueError("Expected exactly 42 canonical URLs")
+    if len(urls) != 44:
+        raise ValueError("Expected exactly 44 canonical URLs")
     updated = 0
     for node in urls:
         loc = node.findtext(f"{ns}loc", "")

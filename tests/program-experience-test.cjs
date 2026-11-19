@@ -7,12 +7,12 @@ const vm=require("node:vm");
 const root=path.resolve(__dirname,"..");
 const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
 const urls=[...read("sitemap.xml").matchAll(/<loc>https:\/\/alghad\.digital(\/[^<]*)<\/loc>/g)].map(m=>m[1]);
-assert.equal(urls.length,42);
-assert.equal(new Set(urls).size,42);
+assert.equal(urls.length,44);
+assert.equal(new Set(urls).size,44);
 const ctx={window:{}};
 vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
 const products=ctx.window.AL_GHAD_PRODUCTS;
-assert.equal(products.length,9);
+assert.equal(products.length,10);
 const email="protech.2025.2026@gmail.com";
 const css='/assets/program-experience.css?v=1';
 for(const route of urls){
@@ -59,4 +59,4 @@ for(const required of ['cron: "30 4 * * *"','python scripts/build_program_experi
                        'node tests/program-experience-test.cjs','python scripts/build_site_search.py']){
   assert.ok(workflow.includes(required),"Daily rebuild cannot regress: "+required);
 }
-console.log("EMAIL_AND_WHATSAPP_EXPERIENCE_PASS",JSON.stringify({pages:urls.length,products:18,benefitCards:72,emailCtas:18,phoneLinks:42,searchBackCollisionGuard:true}));
+console.log("EMAIL_AND_WHATSAPP_EXPERIENCE_PASS",JSON.stringify({pages:urls.length,products:20,benefitCards:80,emailCtas:20,phoneLinks:44,searchBackCollisionGuard:true}));

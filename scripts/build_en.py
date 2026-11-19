@@ -48,6 +48,9 @@ CATALOG={
    ["Video and audio downloads","Playback controls","Playlists and favorites","Format and quality options","Media library organization"]),
  "care":("Portable Windows maintenance preview","v3.3.1 fixes responsive toolbar, RTL sidebar and Arabic labels. Includes a no-install Portable download and separate Setup launcher; neither is digitally signed. Setup installation and WinGet/AppX destructive actions remain unverified in a disposable VM.",
    ["System information","Maintenance tools","Performance diagnostics","Optional Windows app cleanup","Recovery guidance"]),
+  "google-maps-reviews-tracker":("Google Maps reviews and branch reputation",
+    "Track branch ratings, customer feedback and reporting. Beta preview: Google Places returns limited review samples; verified owned branches require authorized Business Profile OAuth.",
+    ["Branch rating monitoring","Historical trends and comparisons","Review follow-up tools","CSV, Excel and PDF export","Official Google API adapters with access controls"]),
  "quotes":("Quotations and contracts","Customer RC3 Beta.3 adds required customer name, normalized Saudi mobile number, required address, customer search and immutable issued-document snapshots. QA tests passed; unsigned installer and third-party LGPL review remain open.",
    ["Quotation templates","Customer name, Saudi mobile and address","Customer search and dossier","Immutable issued documents","Export and preview tools"]),
 }
@@ -71,7 +74,7 @@ PAGES=[
  "/","/programs/","/news/","/free-windows-tools/","/ai-news/",
  "/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/",
 ]+["/programs/"+slug+"/" for slug in CATALOG]+["/windows-office/"]
-assert len(PAGES)==21
+assert len(PAGES)==12+len(CATALOG)
 
 def safe(url:str)->bool:
     parsed=urllib.parse.urlsplit(url)
@@ -305,9 +308,9 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
          {"@context":"https://schema.org","@type":"WebSite","name":"Alghad Digital","url":DOMAIN+"/en/","inLanguage":"en","publisher":{"@type":"Organization","name":"ProTech"}})
 
 def render_catalog(products:list[dict],downloads:dict)->None:
-    body=hero("OUR SOFTWARE / PROTECH","Software library","Explore all nine ProTech applications. Published preview downloads are distinguished from projects still under development.")
+    body=hero("OUR SOFTWARE / PROTECH","Software library","Explore all ten ProTech applications. Published preview downloads are distinguished from projects still under development.")
     body+='<div class="en-grid">' + ''.join(brand_card(p,downloads) for p in products)+'</div>'
-    page("/programs/","ProTech Software Library | Alghad Digital","Explore nine ProTech Windows and Android products, download availability and development status.",body,{"@context":"https://schema.org","@type":"CollectionPage","name":"ProTech Software Library","url":DOMAIN+"/en/programs/"})
+    page("/programs/","ProTech Software Library | Alghad Digital","Explore ten ProTech Windows and Android products, download availability and development status.",body,{"@context":"https://schema.org","@type":"CollectionPage","name":"ProTech Software Library","url":DOMAIN+"/en/programs/"})
 
 def render_windows_office()->None:
     title="Windows & Office Programs"
@@ -447,14 +450,14 @@ def extend_sitemap()->None:
     assert top.tag=="{"+ns+"}urlset"
     original=[e.findtext("{"+ns+"}loc") for e in top.findall("{"+ns+"}url")]
     expected_ar={DOMAIN+x for x in PAGES}
-    if set(original)!=expected_ar or len(original)!=21:
-        raise ValueError("Expected exactly 21 canonical Arabic URLs before adding English")
+    if set(original)!=expected_ar or len(original)!=len(PAGES):
+        raise ValueError("Arabic sitemap must match generated English page count")
     for path in PAGES:
         sub=ET.SubElement(top,"{"+ns+"}url")
         ET.SubElement(sub,"{"+ns+"}loc").text=DOMAIN+"/en/"+path.lstrip("/")
     ET.indent(tree,space="  ")
     tree.write(file,encoding="utf8",xml_declaration=True)
-    print("BILINGUAL_SITEMAP_URLS=42")
+    print("BILINGUAL_SITEMAP_URLS="+str(len(PAGES)*2))
 
 def main()->None:
     global products,downloads
@@ -462,7 +465,7 @@ def main()->None:
     downloads=seo.read_javascript_data("assets/downloads.js","AL_GHAD_DOWNLOADS")
     assert set(p["id"] for p in products)==set(CATALOG)
     product_ids = {product["id"] for product in products}
-    assert len(products) == 9 and len(product_ids) == 9
+    assert len(products) == len(CATALOG) and len(product_ids) == len(CATALOG)
     assert set(downloads).issubset(product_ids), "Release entries must reference known products"
     industry=json.loads((ROOT/"assets/industry-news.json").read_text(encoding="utf8"))
     tools=json.loads((ROOT/"assets/tools.json").read_text(encoding="utf8"))
@@ -475,7 +478,7 @@ def main()->None:
     render_tools(tools)
     render_support()
     created=[p for p in EN.rglob("index.html") if p != EN/"programs"/"porcelain"/"index.html"]
-    assert len(created)==21,(len(created),created)
+    assert len(created)==len(PAGES),(len(created),created)
     extend_sitemap()
     print("ENGLISH_PAGES="+str(len(created))+" ARABIC_DEFAULT=True")
 

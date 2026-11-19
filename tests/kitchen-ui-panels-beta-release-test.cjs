@@ -18,8 +18,8 @@ vm.runInNewContext(read("assets/downloads.js"), context, {timeout: 1500});
 
 const products = context.window.AL_GHAD_PRODUCTS;
 const config = context.window.AL_GHAD_DOWNLOADS.kitchen;
-assert.equal(products.length, 9);
-assert.equal(products.filter(p => p.status === "public").length, 9);
+assert.equal(products.length, 10);
+assert.equal(products.filter(p => p.status === "public").length, 10);
 const product = products.find(p => p.id === "kitchen");
 assert.ok(product);
 assert.equal(product.github, repo);
@@ -64,7 +64,7 @@ for (const p of ["programs/kitchen/index.html", "en/programs/kitchen/index.html"
   assert.ok(html.includes("لوحات") || html.includes("Panels"));
   assert.ok(html.includes('rel="noopener noreferrer"'));
 }
-assert.equal((read("index.html").match(/data-prerender-product=/g) || []).length, 9);
+assert.equal((read("index.html").match(/data-prerender-product=/g) || []).length, 10);
 assert.ok(read("assets/downloads-ui.js").includes("validLink("));
 console.log(JSON.stringify({
   state: "KCAD_KITCHEN_DESIGN_R3_BETA_SITE_RELEASE_QA_PASS",

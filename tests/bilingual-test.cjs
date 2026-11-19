@@ -6,8 +6,8 @@ const root=path.resolve(__dirname,"..");
 const domain="https://alghad.digital";
 const routes=["/","/programs/","/news/","/free-windows-tools/","/ai-news/",
  "/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/",
- ...["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes"].map(x=>"/programs/"+x+"/"),"/windows-office/"];
-assert.equal(routes.length,21);
+ ...["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes","google-maps-reviews-tracker"].map(x=>"/programs/"+x+"/"),"/windows-office/"];
+assert.equal(routes.length,22);
 const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
 const releaseFacts=require("./release-facts.cjs")(root);
 const english=[];
@@ -43,14 +43,14 @@ for(const route of routes){
   english.push(e);
   arabic.push(a);
 }
-assert.equal(english.length,21);
+assert.equal(english.length,22);
 const homepage=english[0];
 assert.ok(homepage.indexOf('id="programs"')<homepage.indexOf('id="news"'),"Product-first English homepage");
 assert.ok(homepage.includes('id="downloads"'));
 assert.ok(homepage.indexOf('id="downloads"')<homepage.indexOf('id="news"'),"Downloads before news");
-assert.equal((homepage.match(/class="en-product-card" data-product=/g)||[]).length,9,"9 full English product cards");
+assert.equal((homepage.match(/class="en-product-card" data-product=/g)||[]).length,10,"10 full English product cards");
 assert.equal((homepage.match(/class="en-release-card"/g)||[] ).length,releaseFacts.recommendedProducts,"Only approved recommended preview download choices");
-assert.equal((english[10].match(/class="en-product-card" data-product=/g)||[]).length,9,"All programs on EN ProTech profile");
+assert.equal((english[10].match(/class="en-product-card" data-product=/g)||[]).length,10,"All programs on EN ProTech profile");
 assert.ok(homepage.includes('id="en-search"'),"English search");
 assert.ok(homepage.includes('data-en-filter="public"'),"English filter");
 assert.ok(!english.some(s=>s.includes("href=\"#"))||homepage.includes('href="#downloads"'));
@@ -69,7 +69,7 @@ for(const slug of ["stone","download","hr","marble","reports","quotes","care"]){
   assert.ok(page.includes('class="en-download-item"'),"Real release variants "+slug);
 }
 const sitemap=read("sitemap.xml");
-assert.equal((sitemap.match(/<loc>/g)||[]).length,42);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,44);
 for(const route of routes){
   assert.ok(sitemap.includes("<loc>"+domain+route+"</loc>"));
   assert.ok(sitemap.includes("<loc>"+domain+"/en/"+route.slice(1)+"</loc>"));
@@ -87,4 +87,4 @@ const css=read("assets/en.css");
 assert.ok(css.includes(".en-lang-switch"));
 const src=read("assets/en.js");
 assert.ok(src.includes('data-en-filter')||src.includes("dataset.enFilter"));
-console.log("BILINGUAL_QA_PASS AR=21 EN=21 TOTAL_SITEMAP=42 REAL_DOWNLOADS=9 ARABIC_DEFAULT=yes");
+console.log("BILINGUAL_QA_PASS AR=22 EN=22 TOTAL_SITEMAP=44 REAL_DOWNLOADS=10 ARABIC_DEFAULT=yes");

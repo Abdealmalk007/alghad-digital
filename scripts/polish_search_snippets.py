@@ -9,6 +9,8 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent.parent
 NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 titles = {
+    '/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker | متابعة تقييمات Google',
+    '/en/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker | Branch Analytics',
     "/": "الغد ديجتال (جيل الغد) | برامج Pro Tech لويندوز وأندرويد",
     "/en/": "Alghad Digital | ProTech Software for Windows & Android",
     "/ai-news/": "أخبار الذكاء الاصطناعي | جيل الغد",
@@ -36,6 +38,8 @@ titles = {
 }
 
 descriptions = {
+    '/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker برنامج ويندوز لمتابعة تقييمات الفروع والمراجعات والتقارير. نسخة Beta تحتاج OAuth لجلب بيانات الفروع الموثقة.',
+    '/en/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker Beta for Windows tracks branch ratings, historical trends and review workflows. Owned-location access requires OAuth.',
     "/": "الغد ديجتال (جيل الغد) يعرض برامج ProTech لويندوز وأندرويد: تحليل Excel وإدارة الموظفين والرخام والعقود، مع حالة الإصدار وروابطه الرسمية.",
     "/en/": "Explore ProTech software for Excel analysis, HR, contracts, stone management and reporting, with transparent release status and official downloads.",
     "/en/programs/": "Explore ProTech Windows and Android software for HR, quotations, contracts, stone management and reporting, with verified release information.",
@@ -126,7 +130,7 @@ def main() -> None:
         url=element.text
         assert url and url.startswith("https://alghad.digital/")
         routes.append(url[len("https://alghad.digital"):])
-    assert len(routes)==42 and len(set(routes))==42
+    assert len(routes)==44 and len(set(routes))==44
     assert set(titles).issubset(routes),set(titles)-set(routes)
     assert set(descriptions).issubset(routes),set(descriptions)-set(routes)
     changed=sum(process(route)["changed"] for route in routes)

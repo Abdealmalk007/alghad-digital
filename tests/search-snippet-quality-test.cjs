@@ -5,7 +5,7 @@ const path=require("node:path");
 const root=path.resolve(__dirname,"..");
 const sitemap=fs.readFileSync(path.join(root,"sitemap.xml"),"utf8");
 const urls=[...sitemap.matchAll(/<loc>(https:\/\/alghad\.digital\/[^<]*)<\/loc>/g)].map(m=>m[1]);
-assert.equal(urls.length,42);
+assert.equal(urls.length,44);
 let descriptions=0,titles=0,headings=0,social=0;
 for(const url of urls){
   const rel=url.replace("https://alghad.digital/","")+"index.html";

@@ -110,11 +110,11 @@ async function main() {
     let count=0;
     for(let i=0;i<240;i++){
       count=await evaluate('document.querySelectorAll(".product-card").length');
-      if(count===9)break;
+      if(count===10)break;
       await delay(100);
     }
-    if(count!==9) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
-    assert.equal(count,9,"All allowed project cards should be rendered");
+    if(count!==10) console.error("LOCAL_PAGE_DIAGNOSTIC", await evaluate('({href:location.href,ready:document.readyState,html:document.documentElement.outerHTML.length,app:!!window.AL_GHAD_PRODUCTS,products:window.AL_GHAD_PRODUCTS?.length,head:document.querySelector("#catalog")?.outerHTML.slice(0,160)})'),exceptions);
+    assert.equal(count,10,"All allowed project cards should be rendered");
     assert.equal(await evaluate('document.querySelectorAll(".protech-whatsapp-float").length'),1,"One WhatsApp contact button must be available");
     assert.ok(await evaluate('document.querySelector(".protech-whatsapp-float").href.startsWith("https://wa.me/966503276927?text=")'),"WhatsApp must point to owner's number");
     assert.ok(await evaluate('!!document.querySelector("a[href^=mailto]")'),"Email must remain available");
@@ -165,7 +165,7 @@ async function main() {
     assert.notEqual(await evaluate('getComputedStyle(document.querySelector(".protech-whatsapp-float")).display'),"none","WhatsApp should be restored after search closes");
     for(let attempt=0;attempt<30;attempt++){
       const shares=await evaluate('({products:document.querySelectorAll(".product-card .alghad-share-button").length,news:document.querySelectorAll(".editorial-story .alghad-share-button").length})');
-      if(shares.products===9 && shares.news>=5)break;
+      if(shares.products===10 && shares.news>=5)break;
       await delay(100);
     }
     assert.equal(await evaluate('document.querySelectorAll(".product-card .alghad-share-button").length'),9,"Each product needs a visible share action");
@@ -209,15 +209,15 @@ async function main() {
     let downloadCount=0;
     for(let i=0;i<40;i++){
       downloadCount=await evaluate('document.querySelectorAll(".direct-download-card").length');
-      if(downloadCount===9) break;
+      if(downloadCount===10) break;
       await delay(100);
     }
-    assert.equal(downloadCount,9,"Nine publicly downloadable cards");
+    assert.equal(downloadCount,10,"Ten publicly downloadable cards");
     assert.equal(await evaluate('window.AL_GHAD_PRODUCTS.some(p=>p.id==="recorder")'),false);
     assert.equal(await evaluate('document.querySelector(\'[data-id="recorder"]\')===null'),true);
-    assert.equal(await evaluate('document.getElementById("stat-apps").textContent'),"09");
+    assert.equal(await evaluate('document.getElementById("stat-apps").textContent'),"10");
     assert.equal(await evaluate('document.getElementById("stat-upcoming").textContent'),"00");
-    assert.equal(await evaluate('document.getElementById("gallery-portfolio-count").textContent'),"09");
+    assert.equal(await evaluate('document.getElementById("gallery-portfolio-count").textContent'),"10");
     const hiddenRemoved = await evaluate('(() => { const s=document.querySelector("#search"); s.value="Call Recorder PRO";s.dispatchEvent(new Event("input",{bubbles:true}));return document.querySelectorAll(".product-card").length; })()');
     assert.equal(hiddenRemoved,0,"Removed app must not appear in search");
     await evaluate('(() => { const s=document.querySelector("#search");s.value="";s.dispatchEvent(new Event("input",{bubbles:true})); })()');
@@ -399,7 +399,7 @@ async function main() {
       enPages.push(value);
       if(target==="/en/"){
         const count=await evaluate('document.querySelectorAll(".en-product-card[data-product]").length');
-        assert.equal(count,9,"English cards visible");
+        assert.equal(count,10,"English cards visible");
         const filters=await evaluate('({hasSearch:!!document.querySelector("#en-search"),count:document.querySelectorAll(".en-release-card").length})');
         assert.equal(filters.hasSearch,true);
         assert.equal(filters.count,releaseFacts.recommendedProducts,"Published preview releases must match manifest");
@@ -408,7 +408,7 @@ async function main() {
         await evaluate('document.querySelector("#en-search").value="";document.querySelector("#en-search").dispatchEvent(new Event("input",{bubbles:true}));document.querySelector("[data-en-filter=public]").click()');
         assert.equal(await evaluate('document.querySelectorAll(".en-product-card[data-product]:not([hidden])").length'),9,"English published filter");
         const shot=await send("Page.captureScreenshot",{format:"png",captureBeyondViewport:false,fromSurface:true});
-        fs.writeFileSync(path.join(qaDir,"english-home-mobile-v42.png"),Buffer.from(shot.data,"base64"));
+        fs.writeFileSync(path.join(qaDir,"english-home-mobile-v44.png"),Buffer.from(shot.data,"base64"));
       }
     }
     for(const width of [320,768,1440]){

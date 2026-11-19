@@ -66,6 +66,16 @@ BENEFITS={
   ("تحكم أدق في العمليات","تحديد العناصر ومراجعة السجل يساعدان على تنفيذ المهام بوضوح.","Controlled task selection","Select specific items and review logged actions before proceeding."),
   ("السلامة أولًا — Preview","عمليات WinGet وAppX المؤثرة لم تُعتمد باختبارات VM كاملة؛ استخدم جهازًا تجريبيًا.","Preview safety warning","Destructive WinGet/AppX operations are not fully VM-validated; test on non-production machines.")
  ],
+ "google-maps-reviews-tracker":[
+  ("ملخص تقييمات الفروع","اعرض المؤشرات المتاحة للموقع والتقييمات ضمن لوحة متابعة واضحة.",
+   "Branch rating overview","See available ratings and branch summaries in one dashboard."),
+  ("سجل تطور السمعة","قارن نقاط التقييم التاريخية الفعلية دون إنشاء تواريخ غير موجودة.",
+   "Historical rating changes","Compare recorded rating snapshots without invented dates."),
+  ("متابعة المراجعات","نظم ملاحظات العملاء وسجلات المراجعات المتاحة واتخذ إجراءات المتابعة.",
+   "Review follow-up","Organize available customer reviews and response workflows."),
+  ("تصدير ومشاركة النتائج","جهز تقارير CSV وExcel وPDF؛ يلزم OAuth مصرح به لجلب مراجعات الفروع الموثقة.",
+   "Portable reports","Export CSV, Excel and PDF. Owned location review collection requires authorized OAuth."),
+ ],
  "quotes":[
   ("قوالب قابلة لإعادة الاستخدام","تجهيز عروض الأسعار والعقود من قوالب يسهل الحفاظ على أسلوب موحد.","Reusable templates","Use editable quotation and contract templates for consistent documents."),
   ("بيانات عميل مكتملة","إدارة اسم العميل ورقم جواله السعودي وعنوانه والبحث في ملفاته تقلل تشتت المعلومات.","Complete customer records","Manage customer names, normalized Saudi mobile numbers and addresses with searchable records."),
@@ -121,7 +131,7 @@ def load_catalog()->list[dict]:
     m=re.search(r"window\.AL_GHAD_PRODUCTS\s*=\s*(\[[\s\S]*?\]);",s)
     if not m:raise RuntimeError("Missing product source")
     records=json.loads(m.group(1))
-    assert len(records)==9 and {p["id"] for p in records}==set(BENEFITS)
+    assert len(records)==len(BENEFITS) and {p["id"] for p in records}==set(BENEFITS)
     return records
 
 def update_one(relative:str,lang:str,product:dict|None):
@@ -157,7 +167,7 @@ def main():
         product_urls["/programs/"+p["id"]+"/"]=p
     sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
     urls=re.findall(r"<loc>https://alghad\.digital(/[^<]*)</loc>",sitemap)
-    assert len(urls)==len(set(urls))==42
+    assert len(urls)==len(set(urls))==2*(12+len(BENEFITS))
     for url in urls:
         lang="en" if url.startswith("/en/") else "ar"
         normalized=url[3:] if lang=="en" else url

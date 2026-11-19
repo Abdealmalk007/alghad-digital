@@ -38,6 +38,7 @@ TAGS={
  "business":("إدارة_الأعمال","BusinessSoftware","/programs/quotes/"),
  "apk":("APK","APK","/programs/download/"),
  "video":("تنزيل_الفيديو","VideoDownload","/programs/download/"),
+ "reviews":("مراجعات_جوجل","GoogleReviews","/programs/google-maps-reviews-tracker/"),
  "news":("أخبار_التقنية","TechNews","/news/"),
  "ai":("الذكاء_الاصطناعي","AI","/ai-news/"),
  "companies":("شركات_التقنية","TechCompanies","/tech-companies/"),
@@ -52,6 +53,7 @@ PER_PRODUCT={
  "kitchen":("software","windows","kitchen","cad"),
  "download":("software","android","apk","video"),
  "care":("software","windows","maintenance","tools"),
+ "google-maps-reviews-tracker":("software","windows","reports","business","reviews"),
  "quotes":("software","windows","quotes","contracts","business"),
 }
 HOMEPAGE=("software","windows","android","hr","employees","stone","quotes","kitchen","news","ai","cars")
@@ -112,7 +114,7 @@ def section(title:str,description:str,keys:tuple[str,...],lang:str,extra:str="")
 def discover_sections(products:list[dict],lang:str)->str:
     windows=[p for p in products if "Windows" in p["platforms"]]
     android=[p for p in products if "Android" in p["platforms"]]
-    assert len(windows)==8 and len(android)==2
+    assert len(windows)==9 and len(android)==2
     def links(rows):
         out=[]
         for p in rows:
@@ -224,7 +226,7 @@ def main():
         description=("أدوات وبرامج ويندوز مع روابط المشاريع الأخرى من ProTech."
              if lang=="ar" else "Browse Windows tools and related ProTech applications.")
         inject(route,section(heading,description,("windows","tools","software"),lang),"before_main_end")
-    print("TOPIC_TAGS_GENERATED PAGES=32 CATALOG_PRODUCTS=9 NEWS_TOPICS=4 LANGUAGES=2",flush=True)
+    print("TOPIC_TAGS_GENERATED CATALOG_PRODUCTS="+str(len(products))+" NEWS_TOPICS=4 LANGUAGES=2",flush=True)
 
 if __name__=="__main__":
     main()
