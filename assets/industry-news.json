@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T13:39:14Z",
+  "generated_at": "2026-11-19T14:24:30Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -245,6 +245,19 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
+          "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-19T14:00:12Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "البث والعروض التوفيرية للموسم: عروض الجمعة البيضاء تأتي إلى GeForce NOW",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/",
           "source": "google",
@@ -436,19 +449,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "تسمي Apple Podcasts برنامج Baby, this is Keke Palmer برنامج العام لعام 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-17T10:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "مجلس إدارة NVIDIA يُنشئ لجنة الإشراف على الأمن القومي ومراقبة الصادرات",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
