@@ -94,6 +94,7 @@ jobs:
           node tests/product-first-test.cjs
           node tests/home-redesign-v4-test.cjs
           node tests/brand-seo-test.cjs
+          node tests/founder-credit-test.cjs
           node tests/search-visibility-test.cjs
           node tests/no-duplicate-program-test.cjs
           node tests/share-download-test.cjs

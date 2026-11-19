@@ -413,7 +413,8 @@ def render_tools(tools:dict)->None:
 def render_support()->None:
     content={
       "about":("About Alghad Digital","Alghad Digital showcases ProTech software, official release information and a secondary technology-news section.",
-        [("What we build","ProTech develops and plans practical applications for business administration, kitchen design, stone and porcelain operations, Windows and Android."),
+        [("Founder", seo.FOUNDER_CREDIT),
+         ("What we build","ProTech develops and plans practical applications for business administration, kitchen design, stone and porcelain operations, Windows and Android."),
          ("Software first","Our primary purpose is to help visitors explore software and understand what can currently be downloaded."),
          ("Honest project status","We label preview releases and work-in-progress projects transparently. Website illustrations are not claimed to be screenshots of a finished product.")]),
       "security":("Software Download Safety","Check the publisher and available file hashes before installing downloadable software.",
@@ -427,7 +428,8 @@ def render_support()->None:
          ("Contact","If you email ProTech, your message and contact information are processed through the email service for handling your inquiry."),
          ("Changes","We may update the content of this page as the website changes. No claim is made that external services collect no technical logs.")]),
       "protech":("ProTech — Software Developer","ProTech (also written Pro Tech or بروتك) is the developer behind the software showcased on Alghad Digital.",
-        [("Official publisher","Alghad Digital is the website; ProTech is the developer's identity. All verified software links point to their corresponding GitHub repositories or releases."),
+        [("Founder", seo.FOUNDER_CREDIT),
+         ("Official publisher","Alghad Digital is the website; ProTech is the developer's identity. All verified software links point to their corresponding GitHub repositories or releases."),
          ("Get in touch","For application support or inquiries: protech.2025.2026@gmail.com."),
          ("Follow the projects","Browse the official software directory for ten projects and their current release availability.")])
     }
@@ -438,8 +440,15 @@ def render_support()->None:
             body+='<h2 class="en-section-title">Software projects</h2><div class="en-grid">'+''.join(brand_card(p,downloads) for p in products)+'</div>'
         if slug=="security":
             body+='<pre class="en-code">Get-FileHash -Algorithm SHA256 "C:\\Path\\To\\Installer.exe"</pre>'
-        page("/"+slug+"/",title+" | Alghad Digital",desc,body,
-             {"@context":"https://schema.org","@type":"AboutPage","name":title,"url":DOMAIN+"/en/"+slug+"/","inLanguage":"en"})
+        schema = {"@context": "https://schema.org", "@type": "AboutPage",
+                  "name": title, "url": DOMAIN + "/en/" + slug + "/", "inLanguage": "en"}
+        if slug in ("about", "protech"):
+            schema["mainEntity"] = {
+                "@type": "Organization",
+                "name": "Alghad Digital" if slug == "about" else "ProTech",
+                "founder": seo.FOUNDER_PERSON,
+            }
+        page("/"+slug+"/",title+" | Alghad Digital",desc,body,schema)
 
 def extend_sitemap()->None:
     file=ROOT/"sitemap.xml"

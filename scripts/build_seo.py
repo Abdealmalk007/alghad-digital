@@ -21,6 +21,9 @@ DOMAIN = "https://alghad.digital"
 PAGES_DIR = ROOT / "programs"
 SOCIAL_IMAGE = DOMAIN + "/assets/social/alghad-digital.png"
 DEVELOPER_URL = DOMAIN + "/protech/"
+FOUNDER_NAME = "Abdulmalik Ali Hamza"
+FOUNDER_CREDIT = f"{FOUNDER_NAME} — Founder of Alghad Digital (Jeel Alghad) and ProTech."
+FOUNDER_PERSON = {"@type": "Person", "name": FOUNDER_NAME}
 PROGRAM_SEARCH_INTENTS = {
     "smart-excel": "برنامج تحليل بيانات Excel والإحصاءات",
     "stone": "برنامج إدارة الرخام والبورسلان",
@@ -557,6 +560,12 @@ def render_brand(products: list[dict], downloads: dict) -> None:
       <p>للتعرّف على آخر النسخ المتاحة، افتح <a href="../#downloads">قسم التنزيلات الرسمية</a> أو اقرأ <a href="../security/">إرشادات التحقق من SHA-256</a>.</p></section>
       <section class="more"><h2>تواصل مع مطور ProTech</h2>
       <p>للاستفسار عن أحد البرامج أو دعم التثبيت: <a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>. البريد المعروض هو وسيلة التواصل الحالية، ولا ندّعي امتلاك عنوان بريد على نطاق الموقع لم يتم إعداده.</p></section>"""
+    body = body.replace(
+      "</h1>",
+      '</h1><section class="more" lang="en" dir="ltr">'
+      '<h2>Founder</h2><p>' + esc(FOUNDER_CREDIT) + '</p></section>',
+      1,
+    )
     schema={
       "@context":"https://schema.org",
       "@type":"AboutPage",
@@ -567,6 +576,7 @@ def render_brand(products: list[dict], downloads: dict) -> None:
         "@type":"Organization",
         "@id":DOMAIN+"/#protech",
         "name":"ProTech",
+        "founder": FOUNDER_PERSON,
         "alternateName":["Pro Tech","بروتك"],
         "url":DEVELOPER_URL,
         "logo":DOMAIN+"/icon-512.png",

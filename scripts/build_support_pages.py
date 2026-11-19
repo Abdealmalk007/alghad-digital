@@ -66,10 +66,22 @@ PAGES=[
 <p>راسلنا على <a href="mailto:protech.2025.2026@gmail.com">protech.2025.2026@gmail.com</a>.</p></section>""")
 ]
 for slug,name,description,content in PAGES:
+    if slug == "about":
+        founder_html = (
+            '<section class="more" lang="en" dir="ltr">'
+            '<h2>Founder</h2><p>' + seo.esc(seo.FOUNDER_CREDIT) + '</p></section>'
+        )
+        content = content.replace("</h1>", "</h1>" + founder_html, 1)
     canonical=f"{DOMAIN}/{slug}/"
     schema={"@context":"https://schema.org","@type":"WebPage",
             "name":name,"description":description,"url":canonical,"inLanguage":"ar",
             "isPartOf":{"@type":"WebSite","name":"الغد ديجتال","url":DOMAIN}}
+    if slug == "about":
+        schema["mainEntity"] = {
+            "@type": "Organization",
+            "name": "Alghad Digital",
+            "founder": seo.FOUNDER_PERSON,
+        }
     out=ROOT/slug/"index.html"
     out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(seo.page(title=name+" | Alghad Digital",
