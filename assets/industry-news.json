@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T14:24:30Z",
+  "generated_at": "2026-11-19T16:50:13Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -245,6 +245,45 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
+          "title": "See some of the work from Google Flow and Flow Music Sessions artists",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-and-flow-music-session-artists/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-19T16:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "اطّلع على بعض أعمال فنانين Google Flow وجلسات Flow Music",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Apple TV becomes the new U.S. home of F1 ACADEMY™, the all-female racing series",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-tv-becomes-the-new-us-home-of-f1-academy-the-all-female-racing-series/",
+          "source": "apple",
+          "source_name": "Apple",
+          "published_at": "2026-11-19T15:59:07.903000Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تصبح Apple TV مقرًا جديدًا في الولايات المتحدة لبطولة F1 ACADEMY™، وهي سلسلة سباقات حصرية للسيدات",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Building the right way: Lessons from 20 years in The Dalles",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/the-dalles-data-center-20-years/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-19T15:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "البناء بالطريقة الصحيحة: دروس مستفادة من 20 عامًا في ذا دالز",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
           "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
           "source": "nvidia",
@@ -319,32 +358,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "سامسونج تبدأ برنامج One UI 9.5 التجريبي",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Google for Mexico: Technology impact that goes beyond business",
-          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-latin-america/google-for-mexico-2026-november/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-18T18:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "Google for Mexico: تأثير التكنولوجيا الذي يتجاوز نطاق الأعمال",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Las Vegas race week brings big rewards to Google Play",
-          "url": "https://blog.google/products-and-platforms/platforms/google-play/auction-google-play-las-vegas/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-18T18:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "أسبوع سباق لاس فيغاس يجلب مكافآت كبيرة إلى Google Play",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -464,19 +477,6 @@
           "title_ar": "الحاسوب العملاق Lux الذي يعمل بمعالجات AMD يفتح أبوابه للمستخدمين العلميين في أوك ريدج، ليصبح أول مصنع للذكاء الاصطناعي لمهمة Genesis التابعة لوزارة الطاقة الأمريكية",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "AMD Completes Acquisition of World Labs",
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
-          "source": "amd",
-          "source_name": "AMD",
-          "published_at": "2026-11-16T14:05:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تكمل AMD عملية الاستحواذ على World Labs",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
@@ -497,32 +497,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Learning from a Champion: On the Hungaroring with Jörg Bergmeister",
-          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-track-experience-joerg-bergmeister-hungaroring-43733.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-17T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "التعلم من بطل: في حلبة هانغارورينغ مع يورغ بيرغمايستر",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche Junior 2027: Five-day assessment completed",
-          "url": "https://newsroom.porsche.com/en/ppdb/2026/11/porsche-junior-2027-five-day-assessment-completed.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-15T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "برنامج بورشه جونيور 2027: اكتمال التقييم الذي استمر خمسة أيام",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Toyota Recalls Certain Model Year 2022-2023 and 2025-2026 Toyota Tundra Vehicles",
           "url": "https://pressroom.toyota.com/toyota-recalls-certain-model-year-2022-2023-and-2025-2026-toyota-tundra-vehicles/",
           "source": "toyota",
@@ -536,19 +510,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Porsche 718/2: From sports car to Formula One frontrunner",
-          "url": "https://newsroom.porsche.com/en/2026/history/porsche-single-seater-history-718-formula-2-43724.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-13T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "بورشه 718/2: من سيارة رياضية إلى متسابقة رائدة في الفورمولا ون",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Toyota Recalls Front Passenger Airbags in Certain Vehicles",
           "url": "https://pressroom.toyota.com/toyota-recalls-front-passenger-airbags-in-certain-vehicles/",
           "source": "toyota",
@@ -558,19 +519,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تستدعي الوسائد الهوائية للراكب الأمامي في بعض المركبات",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Banzai Legacy Lab: Culture in Motion",
-          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-banzai-legacy-lab-thomas-schlereth-43717.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-12T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "مختبر بانزاي ليغاسي: الثقافة في الحركة",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -597,19 +545,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تدعم ما هو التالي في التنقل والتصنيع",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Twelve talented drivers compete for the status of Porsche Junior 2027",
-          "url": "https://newsroom.porsche.com/en/2026/motorsports/porsche-junior-2027-young-racing-driver-preview-43703.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-11T11:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "يتنافس اثنا عشر سائقًا موهوبًا على لقب بورش جونيور 2027",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -714,6 +649,71 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تعلن شركة سوبارو عن التغييرات التنظيمية (اعتبارًا من 1 نوفمبر 2026)",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Toyota and Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
+          "url": "https://global.toyota/en/newsroom/corporate/44960881.html",
+          "source": "toyotaglobal",
+          "source_name": "Toyota Global",
+          "published_at": "2026-10-30T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تويوتا ووايمو تعززان التعاون في مجال القيادة الذاتية من أجل شوارع أكثر أمانًا وحرية التنقل للجميع",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "The SUBARU Group Releases the Integrated Report 2026 and Sustainability Web 2026",
+          "url": "https://www.subaru.co.jp/news-en/2026_10_30_103257/",
+          "source": "subaru",
+          "source_name": "Subaru",
+          "published_at": "2026-10-30T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تصدر مجموعة SUBARU التقرير المتكامل لعام 2026 وموقع الويب الخاص بالاستدامة لعام 2026",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Sales, Production, and Export Results for the First Half (April-September) of FY2027",
+          "url": "https://global.toyota/en/company/profile/production-sales-figures/202609.html",
+          "source": "toyotaglobal",
+          "source_name": "Toyota Global",
+          "published_at": "2026-10-29T04:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "نتائج المبيعات والإنتاج والتصدير للنصف الأول (أبريل - سبتمبر) من السنة المالية 2027",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Porsche Engineering and Porsche Digital combine their expertise",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-engineering-digital-combine-expertise-porsche-technologies-43556.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-21T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تجمع بورش للهندسة وبورش الرقمية خبراتهما معًا",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "HONDA SHOWCASES MULTIPLE MOBILITY INNOVATIONS AT JAPAN MOBILITY SHOW BIZWEEK AND CEATEC 2026",
+          "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/591488/honda-showcases-multiple-mobility-innovations-at-japan-mobility-show-bizweek-and-ceatec-2026",
+          "source": "honda",
+          "source_name": "Honda",
+          "published_at": "2026-10-19T12:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "هوندا تعرض العديد من ابتكارات التنقل في معرض اليابان للتنقل BIZWEEK وCEATEC 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
