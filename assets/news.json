@@ -1,25 +1,271 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T04:23:21Z",
+  "generated_at": "2026-11-19T12:53:04Z",
   "articles": [
     {
-      "title": "تحديث نوفمبر لـ ColorOS 17 يصل إلى هواتف OPPO وOnePlus وrealme",
-      "url": "https://3arrafni.com/tech-news/coloros-17-november-update-oppo-oneplus-realme",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-19T03:17:27Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تحديث نوفمبر لـ ColorOS 17 يصل إلى هواتف OPPO وOnePlus وrealme",
+      "title": "Canva adds an AI ‘off’ button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-19T12:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تضيف Canva زر \"إيقاف\" الذكاء الاصطناعي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Canva will let users switch off most generative AI",
+      "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-19T12:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ستسمح Canva للمستخدمين بإيقاف تشغيل معظم أدوات الذكاء الاصطناعي التوليدي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "الفطيم تطلق هوندا بايلوت تريل سبورت في الإمارات",
+      "url": "https://aitnews.com/2026/11/19/%d8%a7%d9%84%d9%81%d8%b7%d9%8a%d9%85-%d8%aa%d8%b7%d9%84%d9%82-%d9%87%d9%88%d9%86%d8%af%d8%a7-%d8%a8%d8%a7%d9%8a%d9%84%d9%88%d8%aa-%d8%aa%d8%b1%d9%8a%d9%84-%d8%b3%d8%a8%d9%88%d8%b1%d8%aa-%d9%81%d9%8a/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-19T12:23:13Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الفطيم تطلق هوندا بايلوت تريل سبورت في الإمارات",
       "translation_status": "original_ar"
     },
     {
-      "title": "Windows 11 26H2 يحسّن أداء الأجهزة المزودة بذاكرة 8GB",
-      "url": "https://3arrafni.com/tech-news/windows-11-26h2-8gb-ram-memory-improvements",
+      "title": "محاولات استغلال Java4Shell تتزايد وتحديثات أمنية للتطبيقات المتأثرة",
+      "url": "https://aitnews.com/2026/11/19/java4shell-exploitation-attempts-security-updates/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-19T12:16:19Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "محاولات استغلال Java4Shell تتزايد وتحديثات أمنية للتطبيقات المتأثرة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
+      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-19T12:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الاكتتاب العام القياسي لشركة أنثروبيك يسلط الضوء على أسوأ أعداء عملاق الذكاء الاصطناعي - نفسه",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "OpenAI تطلق GPT-6.2 Astra و Sol بأسعار أقل وإتاحة فورية",
+      "url": "https://arabhardware.net/post-55184",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-19T11:32:59Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI تطلق GPT-6.2 Astra و Sol بأسعار أقل وإتاحة فورية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "How to tell a cyberattack from a plain old outage",
+      "url": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-19T11:13:01Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كيفية التمييز بين الهجوم الإلكتروني والانقطاع العادي القديم",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "DOJ accuses Russian national of spying on and harassing Palantir employees",
+      "url": "https://www.engadget.com/2321489/doj-accuses-russian-national-of-spying-on-and-harassing-palantir-employees/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-19T10:33:59Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تتهم وزارة العدل الأمريكية مواطنًا روسيًا بالتجسس على موظفي بالانتير ومضايقتهم",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "“ليكسر” تطرح حلول تخزين أكثر ذكاءً وجاهزية لتقنيات الذكاء الاصطناعي خلال معرض جيتكس جلوبال 2026",
+      "url": "https://technologyarabia.com/archives/18141/%d9%84%d9%8a%d9%83%d8%b3%d8%b1-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%ad%d9%84%d9%88%d9%84-%d8%aa%d8%ae%d8%b2%d9%8a%d9%86-%d8%a3%d9%83%d8%ab%d8%b1-%d8%b0%d9%83%d8%a7%d8%a1%d9%8b-%d9%88%d8%ac%d8%a7%d9%87/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-19T10:22:18Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "“ليكسر” تطرح حلول تخزين أكثر ذكاءً وجاهزية لتقنيات الذكاء الاصطناعي خلال معرض جيتكس جلوبال 2026",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "“هايتيرا” تستعرض حلولاً مدعومة بالذكاء الاصطناعي لتعزيز السلامة العامة في القمة الشرطية العالمية 2026",
+      "url": "https://technologyarabia.com/archives/18138/%d9%87%d8%a7%d9%8a%d8%aa%d9%8a%d8%b1%d8%a7-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ad%d9%84%d9%88%d9%84%d8%a7%d9%8b-%d9%85%d8%af%d8%b9%d9%88%d9%85%d8%a9-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-19T10:09:53Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "“هايتيرا” تستعرض حلولاً مدعومة بالذكاء الاصطناعي لتعزيز السلامة العامة في القمة الشرطية العالمية 2026",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "طفرة الذكاء الاصطناعي تدفع صادرات كوريا الجنوبية لتجاوز تريليون دولار",
+      "url": "https://aitnews.com/2026/11/19/south-korea-trillion-dollar-exports-ai-chips/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-19T09:34:44Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "طفرة الذكاء الاصطناعي تدفع صادرات كوريا الجنوبية لتجاوز تريليون دولار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "CNTXT AI تعتزم استثمار 183 مليون درهم لتطوير الروبوتات وتدريبها",
+      "url": "https://aitnews.com/2026/11/19/cntxt-ai-robotics-investment/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-19T09:32:41Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "CNTXT AI تعتزم استثمار 183 مليون درهم لتطوير الروبوتات وتدريبها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هجوم إلكتروني يستهدف المفوضية الأوروبية ومخاوف من اختراق واسع للبيانات الشخصية",
+      "url": "https://www.aljazeera.net/news/2026/11/19/%d9%87%d8%ac%d9%88%d9%85-%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a-%d9%8a%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%a7%d9%84%d9%85%d9%81%d9%88%d8%b6%d9%8a%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-19T09:29:13Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "هجوم إلكتروني يستهدف المفوضية الأوروبية ومخاوف من اختراق واسع للبيانات الشخصية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كاسبرسكي تحذّر من ملفات مزيفة وعمليات احتيال تستغل ترقّب GTA VI",
+      "url": "https://aitnews.com/2026/11/19/%d9%83%d8%a7%d8%b3%d8%a8%d8%b1%d8%b3%d9%83%d9%8a-%d8%aa%d8%ad%d8%b0%d9%91%d8%b1-%d9%85%d9%86-%d9%85%d9%84%d9%81%d8%a7%d8%aa-%d9%85%d8%b2%d9%8a%d9%81%d8%a9-%d9%88%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-19T09:19:19Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كاسبرسكي تحذّر من ملفات مزيفة وعمليات احتيال تستغل ترقّب GTA VI",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إتش إس بي سي يطلق منصة HSBCnio لتبسيط المعاملات المصرفية للشركات والمؤسسات في الإمارات العربية المتحدة",
+      "url": "https://technologyarabia.com/archives/18135/%d8%a5%d8%aa%d8%b4-%d8%a5%d8%b3-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%8a%d8%b7%d9%84%d9%82-%d9%85%d9%86%d8%b5%d8%a9-hsbcnio-%d9%84%d8%aa%d8%a8%d8%b3%d9%8a%d8%b7-%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%85%d9%84/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-19T09:17:26Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "إتش إس بي سي يطلق منصة HSBCnio لتبسيط المعاملات المصرفية للشركات والمؤسسات في الإمارات العربية المتحدة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Elon Musk accuses Ukraine of being 'untruthful' about Starshield disruptions",
+      "url": "https://www.engadget.com/2321464/elon-musk-accuses-ukraine-of-being-untruthful-about-starshield-disruptions/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-19T08:36:56Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إيلون ماسك يتهم أوكرانيا بـ \"عدم الصدق\" بشأن انقطاعات ستار شيلد",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "TenPay Global و«برق» توقعان مذكرة تفاهم لتعزيز التحويلات المالية والمدفوعات الرقمية بين السعودية والصين",
+      "url": "https://technologyarabia.com/archives/18133/tenpay-global-barq-saudi-china-payments/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-19T07:58:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "TenPay Global و«برق» توقعان مذكرة تفاهم لتعزيز التحويلات المالية والمدفوعات الرقمية بين السعودية والصين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هنري يكشف سر عبقرية محرز.. موهبة تعجز التكنولوجيا عن تفسيرها",
+      "url": "https://www.aljazeera.net/sport/2026/11/19/%d8%aa%d9%8a%d8%b1%d9%8a-%d9%87%d9%86%d8%b1%d9%8a-%d9%85%d8%ad%d8%b1%d8%b2-%d9%84%d9%85%d8%b3%d8%a9-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a5%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-19T07:54:06Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هنري يكشف سر عبقرية محرز.. موهبة تعجز التكنولوجيا عن تفسيرها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "دراسة \"مرعبة\".. نماذج الذكاء الاصطناعي تستهدف المدنيين بالحروب",
+      "url": "https://www.aljazeera.net/tech/2026/11/19/%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d9%85%d8%b1%d8%b9%d8%a8%d8%a9-%d9%86%d9%85%d8%a7%d8%b0%d8%ac-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-19T07:47:15Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "دراسة \"مرعبة\".. نماذج الذكاء الاصطناعي تستهدف المدنيين بالحروب",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "شنايدر إلكتريك: 55% من الشركات تفضّل تشغيل الذكاء الاصطناعي محليًا",
+      "url": "https://techvoicearabia.com/schneider-electric-omdia-on-premise-ai/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-19T07:31:20Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "شنايدر إلكتريك: 55% من الشركات تفضّل تشغيل الذكاء الاصطناعي محليًا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بدء beta من One UI 9.5 لهواتف Galaxy S26 في 6 دول",
+      "url": "https://3arrafni.com/tech-news/one-ui-9-5-beta-galaxy-s26",
       "source": "arrafni",
       "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-19T02:22:27Z",
+      "published_at": "2026-11-19T06:57:27Z",
       "category": "الهواتف والأجهزة",
-      "title_ar": "Windows 11 26H2 يحسّن أداء الأجهزة المزودة بذاكرة 8GB",
+      "title_ar": "بدء beta من One UI 9.5 لهواتف Galaxy S26 في 6 دول",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هجوم على Windows Hello PIN يتيح تجاوز قفل TPM خلال ساعات",
+      "url": "https://3arrafni.com/tech-news/windows-hello-pin-tpm-attack",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-19T06:02:27Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "هجوم على Windows Hello PIN يتيح تجاوز قفل TPM خلال ساعات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كيتا تستعد لتوصيل الطعام بالدرون إلى فلل دبي أواخر نوفمبر",
+      "url": "https://3arrafni.com/tech-news/keeta-drone-food-delivery-dubai-villas",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-19T05:07:27Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كيتا تستعد لتوصيل الطعام بالدرون إلى فلل دبي أواخر نوفمبر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أنثروبيك تجمع 81.3 مليار دولار في أكبر طرح عام بالتاريخ",
+      "url": "https://techvoicearabia.com/anthropic-record-81-billion-ipo-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-19T05:06:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أنثروبيك تجمع 81.3 مليار دولار في أكبر طرح عام بالتاريخ",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Gemini Tasks يصبح مجانياً في 6 دول: ما الذي يفعله وأين يتوفر؟",
+      "url": "https://3arrafni.com/tech-news/gemini-tasks-free-six-countries",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-19T04:12:27Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Gemini Tasks يصبح مجانياً في 6 دول: ما الذي يفعله وأين يتوفر؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أفضل منيو QR للمطاعم والمقاهي: دليل المنيو الإلكتروني مع منيوز بي",
+      "url": "https://3arrafni.com/best-qr-menu",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-19T03:46:44Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أفضل منيو QR للمطاعم والمقاهي: دليل المنيو الإلكتروني مع منيوز بي",
       "translation_status": "original_ar"
     },
     {
@@ -34,16 +280,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Google تُحسّن Gemini Live في Google Home بمحادثات أسرع مدفوعة",
-      "url": "https://3arrafni.com/tech-news/google-home-gemini-live-upgrade",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-19T01:27:27Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Google تُحسّن Gemini Live في Google Home بمحادثات أسرع مدفوعة",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
       "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
       "source": "techcrunch",
@@ -53,145 +289,6 @@
       "title_ar": "الرئيس التنفيذي لشركة مايكروسوفت ساتيا ناديلا يوضح سبب طلبه من 60 ألف موظف الاستقالة",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Elon Musk says: ‘I’m not MAGA’",
-      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-19T00:40:49Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إيلون ماسك يقول: \"أنا لست من أنصار شعار اجعل أمريكا عظيمة مرة أخرى\"",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Suno Visuals يحوّل الأغاني المُنشأة بالذكاء الاصطناعي إلى فيديوهات",
-      "url": "https://3arrafni.com/tech-news/suno-visuals-ai-music-videos-cost",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-19T00:32:27Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Suno Visuals يحوّل الأغاني المُنشأة بالذكاء الاصطناعي إلى فيديوهات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-18T23:45:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "وسط مخاوف من الهجمات الإلكترونية التي تستخدم الذكاء الاصطناعي، يقول ساتيا ناديلا إن الكثير من البنى التحتية الحيوية \"لا يمكن تصحيحها\"",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تقرير للكونغرس: الجيش الصيني يطارد رقائق إنفيديا من أجل \"الحرب الذكية\"",
-      "url": "https://www.aljazeera.net/news/2026/11/19/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d8%b5%d9%8a%d9%86%d9%8a-%d9%8a%d8%b7%d8%a7%d8%b1%d8%af-%d8%b1%d9%82%d8%a7%d8%a6%d9%82?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-18T23:29:44Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تقرير للكونغرس: الجيش الصيني يطارد رقائق إنفيديا من أجل \"الحرب الذكية\"",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
-      "url": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-18T23:25:04Z",
-      "category": "أخبار التقنية",
-      "title_ar": "اللجنة التي يرأسها تيد كروز توافق على مرشح ترامب للجنة الاتصالات الفيدرالية بأغلبية 15 صوتًا مقابل صفر مع مقاطعة الديمقراطيين للتصويت",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Waymo pauses service in San Francisco after robotaxis get stuck on flooded streets",
-      "url": "https://www.engadget.com/2321312/waymo-pauses-service-in-san-francisco-after-robotaxis-get-stuck-on-flooded-streets/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-18T23:23:57Z",
-      "category": "أخبار التقنية",
-      "title_ar": "وايمو توقف الخدمة في سان فرانسيسكو بعد أن علقت سيارات الأجرة الآلية في الشوارع المغمورة بالمياه",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-18T23:18:35Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تدرس أكبر المناطق التعليمية في البلاد التخلي عن بحث غوغل",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits",
-      "url": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-18T23:10:39Z",
-      "category": "أخبار التقنية",
-      "title_ar": "فجّرت أوكرانيا جسر بوتين باستخدام طائرات بدون طيار تعمل بالنقل عن بُعد للتحايل على قيود ستارلينك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
-      "url": "https://www.wired.com/story/guys-really-we-got-this/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-18T22:16:23Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هل نجحت إنفيديا في ذلك؟ تقول الرئيسة التنفيذية المؤقتة كوليت كريس إنها قادرة على ذلك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Trump abandons his FDA nominee, and Senate scraps vote on his NSF pick",
-      "url": "https://arstechnica.com/health/2026/11/trump-abandons-his-fda-nominee-and-senate-scraps-vote-on-his-nsf-pick/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-18T22:08:57Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ترامب يتخلى عن مرشحه لإدارة الغذاء والدواء، ومجلس الشيوخ يلغي التصويت على اختياره لمؤسسة العلوم الوطنية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
-      "url": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-18T22:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "حتى مسؤولوه أنفسهم لا يعتقدون أن رحلة ترامب إلى الصين ستؤدي إلى إحراز تقدم في مجال الذكاء الاصطناعي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "شركة ناشئة تطلق تقنية لتوليد الإطارات وتزعم تفوقها على DLSS",
-      "url": "https://arabhardware.net/post-55183",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-18T21:58:52Z",
-      "category": "أخبار التقنية",
-      "title_ar": "شركة ناشئة تطلق تقنية لتوليد الإطارات وتزعم تفوقها على DLSS",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "GTA 6 تحقق تقييمًا قياسيًا على Metacritic",
-      "url": "https://arabhardware.net/post-55182",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-18T21:40:24Z",
-      "category": "أخبار التقنية",
-      "title_ar": "GTA 6 تحقق تقييمًا قياسيًا على Metacritic",
-      "translation_status": "original_ar"
     },
     {
       "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
@@ -205,48 +302,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "\"مستعد للعودة\"| أول بيان من جنسن هوانغ عقب إقالته",
-      "url": "https://arabhardware.net/post-55181",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-18T21:26:47Z",
-      "category": "أخبار التقنية",
-      "title_ar": "\"مستعد للعودة\"| أول بيان من جنسن هوانغ عقب إقالته",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "عطل في خدمات Apple يعطّل iCloud وApp Store وApple Pay لساعات",
-      "url": "https://3arrafni.com/tech-news/apple-outage-icloud-app-store-apple-pay",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-18T21:18:06Z",
-      "category": "أخبار التقنية",
-      "title_ar": "عطل في خدمات Apple يعطّل iCloud وApp Store وApple Pay لساعات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
-      "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-18T21:15:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "حرب رقائق الذكاء الاصطناعي في أمريكا تشتعل بأغبى الطرق الممكنة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Rockstar just settled a major question about GTA 6's controversial FPS decision",
-      "url": "https://www.engadget.com/2321134/rockstar-just-settled-a-major-question-about-gta-6s-controversial-fps-decision/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-18T21:03:40Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أجابت Rockstar للتو على سؤال مهم حول قرار إطارات اللعبة المثير للجدل في GTA 6",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
       "url": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
       "source": "arstechnica",
@@ -254,57 +309,6 @@
       "published_at": "2026-11-18T20:41:12Z",
       "category": "البرامج والإنترنت",
       "title_ar": "يستبدل نظام التشغيل Windows Server 2028 التوافق بالأمان الجاهز للاستخدام",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "جوجل تكشف Stitch Loop لتحسين التطبيقات بعد إطلاقها",
-      "url": "https://aitnews.com/2026/11/19/google-stitch-loop/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-18T20:12:25Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "جوجل تكشف Stitch Loop لتحسين التطبيقات بعد إطلاقها",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إنفيديا تبدأ طرح حواسيب RTX Spark المكتبية للذكاء الاصطناعي المحلي",
-      "url": "https://aitnews.com/2026/11/19/nvidia-rtx-spark-desktops-local-ai/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-18T20:10:23Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إنفيديا تبدأ طرح حواسيب RTX Spark المكتبية للذكاء الاصطناعي المحلي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أسبوع دبي للمستقبل 2026.. أبرز إعلانات اليوم الأول من توصيل الطلبات جوًا إلى الذكاء الاصطناعي",
-      "url": "https://aitnews.com/2026/11/19/%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-%d8%af%d8%a8%d9%8a-%d9%84%d9%84%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-2026-%d8%a3%d8%a8%d8%b1%d8%b2-%d8%a5%d8%b9%d9%84%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%8a%d9%88/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-18T20:02:12Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "أسبوع دبي للمستقبل 2026.. أبرز إعلانات اليوم الأول من توصيل الطلبات جوًا إلى الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Booking Holdings تنشئ وحدة شراكات جديدة مع تصاعد تأثير الذكاء الاصطناعي في قطاع السفر",
-      "url": "https://www.tech-wd.com/wd/2026/11/18/booking-holdings-%d8%aa%d9%86%d8%b4%d8%a6-%d9%88%d8%ad%d8%af%d8%a9-%d8%b4%d8%b1%d8%a7%d9%83%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%85%d8%b9-%d8%aa%d8%b5%d8%a7%d8%b9%d8%af-%d8%aa%d8%a3%d8%ab/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-18T19:40:13Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Booking Holdings تنشئ وحدة شراكات جديدة مع تصاعد تأثير الذكاء الاصطناعي في قطاع السفر",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "GTA 6's cops will remember you thanks to the 'Heat' system",
-      "url": "https://www.engadget.com/2320983/gta-6s-cops-will-remember-you-thanks-to-the-heat-system/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-18T19:34:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سيتذكرك رجال شرطة GTA 6 بفضل نظام \"هيت\"",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -371,17 +375,6 @@
       "published_at": "2026-11-18T13:01:42Z",
       "category": "أخبار التقنية",
       "title_ar": "ستحتاج إلى آخر تحديث للبرامج الثابتة لجهاز PS5 للعب GTA VI",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
-      "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-17T11:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تعرضت شركته للاختراق من قبل عملاء مارقين. لماذا كليمان ديلانج متفائل جدًا بشأن الذكاء الاصطناعي؟",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     }
