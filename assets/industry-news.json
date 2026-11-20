@@ -1,10 +1,23 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T16:24:51Z",
+  "generated_at": "2026-11-20T19:04:12Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "How Watch Duty is using Gemini to get wildfire alerts out faster",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-20T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "كيف تستخدم Watch Duty Gemini لإصدار تنبيهات حرائق الغابات بشكل أسرع",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
@@ -161,19 +174,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Introducing Gemini 4 Neon",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-18T21:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "نقدم لكم Gemini 4 Neon",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "The Gemini app is now available on lower-memory Android devices.",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
           "source": "googleai",
@@ -243,6 +243,32 @@
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "Get your year-end tasks done with new Connected Apps.",
+          "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-20T18:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "أنجز مهام نهاية العام باستخدام التطبيقات المرتبطة الجديدة.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "How Watch Duty is using Gemini to get wildfire alerts out faster",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-20T17:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "كيف تستخدم Watch Duty Gemini لإصدار تنبيهات حرائق الغابات بشكل أسرع",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Samsung Electronics Announces New Leadership",
           "url": "https://news.samsung.com/global/samsung-electronics-announces-new-leadership-5",
@@ -318,32 +344,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "نقدم لكم خاصية استرداد الأدوات في واجهة برمجة تطبيقات Gemini",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-19T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "والتر إيزاكسون يتحدث عن الفضول والإبداع في عصر الذكاء الاصطناعي.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "A smarter way to track and buy clean energy",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/granular-certificates-clean-energy-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-19T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "طريقة أكثر ذكاءً لتتبع الطاقة النظيفة وشرائها",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },

@@ -1,9 +1,127 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T16:24:48Z",
+  "generated_at": "2026-11-20T19:04:09Z",
   "articles": [
     {
-      "title": "Bending Spoons buys Mailchimp for $3.68 billion",
+      "title": "Super-hot rock geothermal could end data center energy woes",
+      "url": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-20T18:34:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "قد تنهي الطاقة الحرارية الأرضية للصخور شديدة السخونة مشاكل الطاقة في مراكز البيانات",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Here's everything GTA+ gets you in GTA 6: Is it worth $8 a month?",
+      "url": "https://www.engadget.com/2323323/gta-plus-benefits-gta-6-is-it-worth-it/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-20T18:27:59Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إليك كل ما يوفره لك GTA+ في GTA 6: هل يستحق 8 دولارات شهريًا؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "ميزة استخدام الكمبيوتر في Gemini على Mac: ما تفعله ومن يحصل عليها",
+      "url": "https://3arrafni.com/gemini-computer-use-mac",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-20T18:22:08Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "ميزة استخدام الكمبيوتر في Gemini على Mac: ما تفعله ومن يحصل عليها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
+      "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-20T18:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقول غوغل إنها ستوقف تشغيل مساعد غوغل على مكبرات الصوت الذكية العام المقبل",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "OpenAI brings its collaborative Space hubs to Plus users",
+      "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-20T18:00:00Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "توفر OpenAI مراكز Space التعاونية لمستخدمي Plus",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Chips can survive the space environment — can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-20T17:40:01Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يمكن للرقاقات أن تصمد في بيئة الفضاء — فهل يمكن لتمويلها أن يصمد؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
+      "url": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-20T17:32:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سيُطلق جهاز الذكاء الاصطناعي من Nothing لأول مرة في 8 ديسمبر، ويبدو وكأنه سيجارتا (vape) ملتصقتان ببعضهما البعض",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "WhatsApp يرفع الحد الأقصى للمجموعات إلى 1,500 عضو تدريجياً",
+      "url": "https://3arrafni.com/tech-news/whatsapp-1500-member-group-limit",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-20T17:27:08Z",
+      "category": "أخبار التقنية",
+      "title_ar": "WhatsApp يرفع الحد الأقصى للمجموعات إلى 1,500 عضو تدريجياً",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "You can reveal the full GTA 6 map in minutes using this simple plane trick",
+      "url": "https://www.engadget.com/2323145/full-gta-6-map-reveal-plane-trick/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-20T17:13:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يمكنك الكشف عن خريطة GTA 6 الكاملة في دقائق باستخدام هذه الحيلة البسيطة للطائرة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Teenage Engineering’s first CD player puts the spinning disc on display",
+      "url": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-20T17:05:52Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مشغّل الأقراص المضغوطة الأول من تينيدج إنجنيرنج يعرض القرص الدوّار",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تحديث Windows 11 KB5132057 يضيف بحثاً جديداً ومربع Run حديثاً",
+      "url": "https://3arrafni.com/tech-news/windows-11-kb5132057-search-run-dialog",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-20T16:32:08Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "تحديث Windows 11 KB5132057 يضيف بحثاً جديداً ومربع Run حديثاً",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Bending Spoons buys Mailchimp for $3.68B",
       "url": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
       "source": "techcrunch",
       "source_name": "TechCrunch",
@@ -35,13 +153,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "A transcription firm used by police, prosecutors and tech giants exposed customer data online",
+      "title": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
       "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
       "source": "techcrunch",
       "source_name": "TechCrunch",
       "published_at": "2026-11-20T15:46:07Z",
       "category": "أخبار التقنية",
-      "title_ar": "شركة نسخ تستخدمها الشرطة والمدعون العامون وشركات التكنولوجيا العملاقة كشفت عن بيانات العملاء عبر الإنترنت",
+      "title_ar": "كشفت شركة نسخ تستخدمها الشرطة والمدعون العامون وعمالقة التكنولوجيا عن بيانات العملاء عبر الإنترنت",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -63,6 +181,16 @@
       "published_at": "2026-11-20T15:34:33Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "سامسونج تطرح أول تحديث لسلسلة Galaxy Tab S12 بحزمة أكتوبر الأمنية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هبوط الأسهم في اليابان وأوروبا في ظل الفتور تجاه الذكاء الاصطناعي",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/20/%d9%87%d8%a8%d9%88%d8%b7-%d8%a7%d9%84%d8%a3%d8%b3%d9%87%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d9%8a%d8%a7%d8%a8%d8%a7%d9%86-%d9%88%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d8%a7-%d9%81%d9%8a-%d8%b8%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-20T15:15:40Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "هبوط الأسهم في اليابان وأوروبا في ظل الفتور تجاه الذكاء الاصطناعي",
       "translation_status": "original_ar"
     },
     {
@@ -162,16 +290,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "اكتتاب Anthropic يسجل أكبر ظهور في البورصة وقيمة السهم وشرائه بالخليج",
-      "url": "https://3arrafni.com/tech-news/anthropic-ipo-nasdaq-ant-shares-gulf-investors",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T13:47:08Z",
-      "category": "أخبار التقنية",
-      "title_ar": "اكتتاب Anthropic يسجل أكبر ظهور في البورصة وقيمة السهم وشرائه بالخليج",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Rocket Report: A weekend of ups and downs; Stoke celebrates engine milestone",
       "url": "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/",
       "source": "arstechnica",
@@ -179,28 +297,6 @@
       "published_at": "2026-11-20T13:35:45Z",
       "category": "أخبار التقنية",
       "title_ar": "تقرير روكيت: عطلة نهاية أسبوع مليئة بالصعود والهبوط؛ ستوك تحتفل بمعلم محرك بارز",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
-      "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-20T13:25:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "وراء رحيل جنسن هوانغ، أسئلة حول أسلوب الإدارة الذي يقال إنه مبني على الخوف",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
-      "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-20T13:21:11Z",
-      "category": "أخبار التقنية",
-      "title_ar": "المدعي العام في كاليفورنيا يستدعي شركة إنفيديا بسبب المخاвок من علاقات هوانغ مع الصين",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -215,27 +311,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "تحديث Chrome 158 يصل مع 204 إصلاحات أمنية بينها 6 ثغرات حرجة",
-      "url": "https://3arrafni.com/tech-news/chrome-158-security-update",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T12:52:08Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "تحديث Chrome 158 يصل مع 204 إصلاحات أمنية بينها 6 ثغرات حرجة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
-      "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-20T12:36:11Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تعزز غوغل قدرة Gemini على أداء \"المهام المتكررة\" على تطبيقها لنظام Mac",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Signal is blocking Gemini and Siri AI from reading your screen",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
       "source": "theverge",
@@ -247,17 +322,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Why the robots are ditching Uber",
-      "url": "https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-20T12:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لماذا تتخلى الروبوتات عن أوبر؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Muse Is Unleashing a World of Pettiness on Instagram",
       "url": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
       "source": "wired",
@@ -265,27 +329,6 @@
       "published_at": "2026-11-20T12:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "موسي تطلق العنان لعالم من التفاهة على إنستغرام",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "اختراق بطاقات Oyster المصوّرة يكشف بيانات 265 ألف مستخدم في لندن",
-      "url": "https://3arrafni.com/tech-news/tfl-oyster-photocard-data-breach",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T11:57:08Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق بطاقات Oyster المصوّرة يكشف بيانات 265 ألف مستخدم في لندن",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "WhatsApp's group chats can now have up to 1,500 members",
-      "url": "https://www.engadget.com/2322717/whatsapps-group-chats-can-now-have-up-to-1500-members/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-20T11:48:37Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يمكن أن تضم دردشات WhatsApp الجماعية الآن ما يصل إلى 1500 عضو",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -309,48 +352,6 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "جوجل تطلق نموذج Gemini 4 Neon بسعر 3 دولارات لكل مليون رمز",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "The Trump administration has replaced its cybersecurity chief",
-      "url": "https://www.engadget.com/2322705/the-trump-administration-has-replaced-its-cybersecurity-chief/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-20T10:53:36Z",
-      "category": "أخبار التقنية",
-      "title_ar": "استبدلت إدارة ترامب رئيسها للأمن السيبراني",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "AMD تكمل استحواذها على Taalas مقابل نحو 2.9 مليار دولار",
-      "url": "https://arabhardware.net/post-55190",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-20T10:45:07Z",
-      "category": "أخبار التقنية",
-      "title_ar": "AMD تكمل استحواذها على Taalas مقابل نحو 2.9 مليار دولار",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الشارقة ترسم ملامح منطقة حرة للتكنولوجيا في كلباء.. ومجمع مراكز بيانات بقدرة 400 ميغاواط",
-      "url": "https://technologyarabia.com/archives/18145/sharjah-kalba-technology-free-zone-400mw-data-centre/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-20T10:16:44Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الشارقة ترسم ملامح منطقة حرة للتكنولوجيا في كلباء.. ومجمع مراكز بيانات بقدرة 400 ميغاواط",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "OpenAI is testing Dots personal agents on its $20 per month Plus tier",
-      "url": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-20T07:31:25Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تختبر OpenAI الوكلاء الشخصيين من Dots في مستوى Plus الذي يكلف 20 دولارًا شهريًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
@@ -433,7 +434,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",
