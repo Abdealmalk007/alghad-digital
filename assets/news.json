@@ -1,7 +1,50 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T13:21:11Z",
+  "generated_at": "2026-11-20T13:58:53Z",
   "articles": [
+    {
+      "title": "Rocket Report: A weekend of ups and downs; Stoke celebrates engine milestone",
+      "url": "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-20T13:35:45Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقرير روكيت: عطلة نهاية أسبوع مليئة بالصعود والهبوط؛ ستوك تحتفل بمعلم محرك بارز",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
+      "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-20T13:25:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "وراء رحيل جنسن هوانغ، أسئلة حول أسلوب الإدارة الذي يقال إنه مبني على الخوف",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+      "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-20T13:21:11Z",
+      "category": "أخبار التقنية",
+      "title_ar": "المدعي العام في كاليفورنيا يستدعي شركة إنفيديا بسبب المخاвок من علاقات هوانغ مع الصين",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تحديث Chrome 158 يصل مع 204 إصلاحات أمنية بينها 6 ثغرات حرجة",
+      "url": "https://3arrafni.com/tech-news/chrome-158-security-update",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-20T12:52:08Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "تحديث Chrome 158 يصل مع 204 إصلاحات أمنية بينها 6 ثغرات حرجة",
+      "translation_status": "original_ar"
+    },
     {
       "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
       "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
@@ -43,17 +86,6 @@
       "published_at": "2026-11-20T12:15:36Z",
       "category": "أخبار التقنية",
       "title_ar": "العلم له مكان هنا في Ars—يُرجى المساعدة في الحفاظ على ذلك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Trump admin still won't let Wi-Fi giant TP-Link sell its latest routers in US",
-      "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-20T12:00:43Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لا تزال إدارة ترامب تمنع شركة TP-Link العملاقة في مجال شبكات الواي فاي من بيع أحدث أجهزتها للموجهات في الولايات المتحدة",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -214,16 +246,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "ميزة الإملاء المباشر في ChatGPT تصل للجميع دون حد 10 دقائق",
-      "url": "https://3arrafni.com/tech-news/chatgpt-live-dictation-no-10-minute-limit",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T09:12:08Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ميزة الإملاء المباشر في ChatGPT تصل للجميع دون حد 10 دقائق",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "OpenAI is testing Dots personal agents on its $20 per month Plus tier",
       "url": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/",
       "source": "engadget",
@@ -324,28 +346,6 @@
       "published_at": "2026-11-20T00:56:01Z",
       "category": "أخبار التقنية",
       "title_ar": "قد تكون آبل بصدد تطوير وكيل ذكاء اصطناعي خاص بها يدير جهاز ماك الخاص بك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-20T00:43:50Z",
-      "category": "أخبار التقنية",
-      "title_ar": "حقق مؤسسو شركة أنثروبيك السبعة أرباحًا بلغت نحو ملياري دولار في طرح عام أولي غير مسبوق",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
-      "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-19T22:33:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هل ترغب في رؤية استخدامك للذكاء الاصطناعي المباشر على أيقونات جهاز Mac الخاص بك؟ يتيح لك هذا التطبيق الجديد الذكي ذلك",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
