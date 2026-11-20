@@ -1,10 +1,36 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T19:27:56Z",
+  "generated_at": "2026-11-20T13:21:14Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-19T20:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "في حال فاتك: انقل سجلك من تطبيقات الذكاء الاصطناعي الأخرى إلى Gemini.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-19T20:00:15Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "NVIDIA وMicrosoft توسعان الحوسبة المعززة من Azure إلى أجهزة الكمبيوتر التي تعمل بنظام Windows",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Introducing Tool Retrieval in the Gemini API",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
@@ -84,6 +110,57 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Deploying Daybreak Red",
+          "url": "https://openai.com/business/learn/deploying-daybreak-red",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-19T00:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": null,
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "See PR scans in action",
+          "url": "https://openai.com/business/learn/pr-scans-demo",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-19T00:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "شاهد عمليات فحص طلبات السحب في العمل",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Explore the Codex Security Plugin",
+          "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-19T00:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "استكشف مكون Codex Security الإضافي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Get started with Daybreak Blue",
+          "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-19T00:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "ابدأ مع Daybreak Blue",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Introducing Gemini 4 Neon",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
           "source": "google",
@@ -106,58 +183,6 @@
           "official": true,
           "topic": "ai",
           "title_ar": "يتوفر تطبيق Gemini الآن على أجهزة Android ذات الذاكرة الأقل.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "The Silent Consensus",
-          "url": "https://openai.com/index/the-silent-consensus",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-18T10:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "الإجماع الصامت",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-          "url": "https://openai.com/business/customer-stories/sumitomo-life",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-18T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "كيف ساعد قادة شركة سوميتومو لايف الفرق على اعتماد ChatGPT Enterprise",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Research acceleration: The jagged frontier",
-          "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-18T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "تسريع البحث: الحدود المتعرجة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Inside the Codex sandbox",
-          "url": "https://openai.com/index/inside-the-codex-sandbox",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-18T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "داخل بيئة اختبار كوديكس",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -212,38 +237,64 @@
           "title_ar": "الحاسوب العملاق Lux الذي يعمل بمعالجات AMD يفتح أبوابه للمستخدمين العلميين في أوك ريدج، ليصبح أول مصنع للذكاء الاصطناعي لمهمة Genesis التابعة لوزارة الطاقة الأمريكية",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-          "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-16T16:00:51Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "تعزز لامبدا مرونة وكفاءة مصنع الذكاء الاصطناعي باستخدام تقنية فوتونيكس من إنفيديا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-          "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-16T16:00:01Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "تعلن NVIDIA عن Rubin HPC — وحدة معالجة رسومات جديدة لتسريع العوامل في مجالات العلوم والهندسة والتحليلات",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "Samsung Electronics Announces New Leadership",
+          "url": "https://news.samsung.com/global/samsung-electronics-announces-new-leadership-5",
+          "source": "samsung",
+          "source_name": "Samsung",
+          "published_at": "2026-11-20T09:01:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "سامسونج للإلكترونيات تعلن عن قيادة جديدة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "NVIDIA Announces Upcoming Event for Financial Community",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-upcoming-event-for-financial-community-6929322",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-19T22:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تعلن NVIDIA عن الحدث القادم للمجتمع المالي",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-19T20:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "في حال فاتك: انقل سجلك من تطبيقات الذكاء الاصطناعي الأخرى إلى Gemini.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-19T20:00:15Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "NVIDIA وMicrosoft توسعان الحوسبة المعززة من Azure إلى أجهزة الكمبيوتر التي تعمل بنظام Windows",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "How we’re putting one of quantum mechanics’ deepest features to the test at scale.",
           "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale/",
@@ -293,19 +344,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "طريقة أكثر ذكاءً لتتبع الطاقة النظيفة وشرائها",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Small businesses, big results: How teams scale with AI",
-          "url": "https://blog.google/products-and-platforms/products/workspace/google-workspace-gemini-small-business-stories/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-19T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "الشركات الصغيرة، النتائج الكبيرة: كيف تتوسع الفرق باستخدام الذكاء الاصطناعي",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -401,19 +439,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-17T21:20:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "أعلنت NVIDIA عن النتائج المالية للربع الثالث من السنة المالية 2027",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Ignite 2026: Building the frontier ecosystem",
           "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
           "source": "microsoft",
@@ -440,19 +465,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-          "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-17T14:00:10Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "يان باك يفتتح أسبوع NVIDIA في SC26 مع دخول العلم عصر العوامل",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Apple Podcasts names Baby, this is Keke Palmer the 2026 Show of the Year",
           "url": "https://www.apple.com/newsroom/2026/11/apple-podcasts-names-baby-this-is-keke-palmer-the-2026-show-of-the-year/",
           "source": "apple",
@@ -464,25 +476,51 @@
           "title_ar": "تسمي Apple Podcasts برنامج Baby, this is Keke Palmer برنامج العام لعام 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
-        },
-        {
-          "title": "AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge, Becoming First AI Factory for DOE’s Genesis Mission",
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
-          "source": "amd",
-          "source_name": "AMD",
-          "published_at": "2026-11-16T19:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "الحاسوب العملاق Lux الذي يعمل بمعالجات AMD يفتح أبوابه للمستخدمين العلميين في أوك ريدج، ليصبح أول مصنع للذكاء الاصطناعي لمهمة Genesis التابعة لوزارة الطاقة الأمريكية",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
         }
       ]
     },
     "cars": {
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
+        {
+          "title": "Toyota Enhances the 2027 Sienna with Comprehensive Powertrain and Safety Upgrades",
+          "url": "https://pressroom.toyota.com/toyota-enhances-the-2027-sienna-with-comprehensive-powertrain-and-safety-upgrades/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-20T12:58:32Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تويوتا تُحسّن سيارة سيينا 2027 من خلال تحديثات شاملة لنظام نقل الحركة والسلامة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Toyota Full-Line Pricing",
+          "url": "https://pressroom.toyota.com/toyota-full-line-pricing/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-20T12:00:18Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "أسعار المجموعة الكاملة من تويوتا",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Kevin Estre completes TOYOTA RACING's 2027 driver line-up",
+          "url": "https://global.toyota/en/newsroom/corporate/45024788.html",
+          "source": "toyotaglobal",
+          "source_name": "Toyota Global",
+          "published_at": "2026-11-20T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "كيفن إستري يكمل تشكيلة سائقي تويوتا ريسينغ لعام 2027",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "FAME Program Helps Grow Talent, Futures at Toyota Research & Development",
           "url": "https://pressroom.toyota.com/fame-program-helps-grow-talent-futures-at-toyota-research-development/",
@@ -519,32 +557,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تستدعي الوسائد الهوائية للراكب الأمامي في بعض المركبات",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Beyond the Uniform: Honoring Toyota’s Heroes on Veterans Day",
-          "url": "https://pressroom.toyota.com/beyond-the-uniform-honoring-toyotas-heroes-on-veterans-day/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-11T14:58:54Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "ما وراء الزي الرسمي: تكريم أبطال تويوتا في يوم المحاربين القدامى",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Toyota Powers What’s Next in Mobility and Manufacturing",
-          "url": "https://pressroom.toyota.com/toyota-powers-whats-next-in-mobility-and-manufacturing/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-11T11:58:37Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا تدعم ما هو التالي في التنقل والتصنيع",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -675,19 +687,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تصدر مجموعة SUBARU التقرير المتكامل لعام 2026 وموقع الويب الخاص بالاستدامة لعام 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Sales, Production, and Export Results for the First Half (April-September) of FY2027",
-          "url": "https://global.toyota/en/company/profile/production-sales-figures/202609.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-10-29T04:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "نتائج المبيعات والإنتاج والتصدير للنصف الأول (أبريل - سبتمبر) من السنة المالية 2027",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
