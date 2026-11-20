@@ -1,7 +1,176 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T13:58:53Z",
+  "generated_at": "2026-11-20T16:24:48Z",
   "articles": [
+    {
+      "title": "Bending Spoons buys Mailchimp for $3.68 billion",
+      "url": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-20T16:16:06Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Bending Spoons تشتري Mailchimp مقابل 3.68 مليار دولار",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Valve says it might have to raise the price of supply-limited Steam Machines",
+      "url": "https://arstechnica.com/gaming/2026/11/valve-says-it-might-have-to-raise-the-price-of-supply-limited-steam-machines/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-20T16:11:21Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقول Valve إنه قد يتعين عليها رفع سعر أجهزة Steam ذات الإمداد المحدود",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "أنثروبيك تُتم اكتتابها وطرحًا خاصًا بقيمة إجمالية 119.5 مليار دولار",
+      "url": "https://aitnews.com/2026/11/20/%d8%a3%d9%86%d8%ab%d8%b1%d9%88%d8%a8%d9%8a%d9%83-%d8%aa%d9%8f%d8%aa%d9%85-%d8%a7%d9%83%d8%aa%d8%aa%d8%a7%d8%a8%d9%87%d8%a7-%d9%88%d8%b7%d8%b1%d8%ad%d9%8b%d8%a7-%d8%ae%d8%a7%d8%b5%d9%8b%d8%a7-%d8%a8/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-20T15:50:35Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أنثروبيك تُتم اكتتابها وطرحًا خاصًا بقيمة إجمالية 119.5 مليار دولار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "A transcription firm used by police, prosecutors and tech giants exposed customer data online",
+      "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-20T15:46:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "شركة نسخ تستخدمها الشرطة والمدعون العامون وشركات التكنولوجيا العملاقة كشفت عن بيانات العملاء عبر الإنترنت",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "اعتماد مهبط دبي مارينا للتاكسي الجوي ورحلات المطار خلال 10 دقائق",
+      "url": "https://3arrafni.com/tech-news/dubai-marina-air-taxi-vertiport-certified",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-20T15:37:08Z",
+      "category": "أخبار التقنية",
+      "title_ar": "اعتماد مهبط دبي مارينا للتاكسي الجوي ورحلات المطار خلال 10 دقائق",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سامسونج تطرح أول تحديث لسلسلة Galaxy Tab S12 بحزمة أكتوبر الأمنية",
+      "url": "https://www.tech-wd.com/wd/2026/11/20/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%a3%d9%88%d9%84-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d9%84%d8%b3%d9%84%d8%b3%d9%84%d8%a9-galaxy-tab-s12-%d8%a8%d8%ad%d8%b2%d9%85%d8%a9/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-20T15:34:33Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "سامسونج تطرح أول تحديث لسلسلة Galaxy Tab S12 بحزمة أكتوبر الأمنية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "UN court cites military Facebook posts while finding Myanmar guilty of genocide",
+      "url": "https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-20T15:02:13Z",
+      "category": "أخبار التقنية",
+      "title_ar": "محكمة تابعة للأمم المتحدة تستشهد بمنشورات عسكرية على فيسبوك أثناء إدانتها لميانمار بارتكاب الإبادة الجماعية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "US will soon announce root cause behind FAA nationwide ground stop",
+      "url": "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-20T14:52:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ستعلن الولايات المتحدة قريبًا عن السبب الجذري وراء قرار إدارة الطيران الفيدرالية بإيقاف الرحلات الجوية في جميع أنحاء البلاد",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تقنية DLSS 4.5 تصل إلى EVE Vanguard وAssetto Corsa Rally والمزيد",
+      "url": "https://arabhardware.net/post-55194",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-20T14:50:36Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقنية DLSS 4.5 تصل إلى EVE Vanguard وAssetto Corsa Rally والمزيد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "وضع Lockdown الجديد في Edge: ما الذي يحظره ومن يحتاج إليه؟",
+      "url": "https://3arrafni.com/tech-news/edge-lockdown-mode-guide",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-20T14:42:08Z",
+      "category": "أخبار التقنية",
+      "title_ar": "وضع Lockdown الجديد في Edge: ما الذي يحظره ومن يحتاج إليه؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Ray-Ban Meta (Gen 3) review: Minor upgrades that cost too much",
+      "url": "https://www.engadget.com/2322827/ray-ban-meta-gen-3-review/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-20T14:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مراجعة نظارات Ray-Ban Meta (الجيل الثالث): تحديثات طفيفة مكلفة للغاية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "الكشف عن فعاليات الطريق لبطولة كأس المنتخبات للرياضات الإلكترونية 2027",
+      "url": "https://arabhardware.net/post-55193",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-20T14:26:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الكشف عن فعاليات الطريق لبطولة كأس المنتخبات للرياضات الإلكترونية 2027",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
+      "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-20T14:15:21Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لا يريد مقرضو سبيس إكس أن يطلق إيلون ماسك ضماناتهم في الفضاء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The week everything fell apart",
+      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-20T14:06:59Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الأسبوع الذي انهار فيه كل شيء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Six AI-powered gadgets that could make your home office smarter",
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-20T14:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ستة أجهزة تعمل بالذكاء الاصطناعي يمكن أن تجعل مكتبك المنزلي أكثر ذكاءً",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "اكتتاب Anthropic يسجل أكبر ظهور في البورصة وقيمة السهم وشرائه بالخليج",
+      "url": "https://3arrafni.com/tech-news/anthropic-ipo-nasdaq-ant-shares-gulf-investors",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-20T13:47:08Z",
+      "category": "أخبار التقنية",
+      "title_ar": "اكتتاب Anthropic يسجل أكبر ظهور في البورصة وقيمة السهم وشرائه بالخليج",
+      "translation_status": "original_ar"
+    },
     {
       "title": "Rocket Report: A weekend of ups and downs; Stoke celebrates engine milestone",
       "url": "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/",
@@ -36,6 +205,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "ملخص الأسبوع| GTA 6 تُحطّم الأرقام، وجنسن هوانغ مستعد للعودة، والمزيد",
+      "url": "https://arabhardware.net/post-55192",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-20T12:56:54Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ملخص الأسبوع| GTA 6 تُحطّم الأرقام، وجنسن هوانغ مستعد للعودة، والمزيد",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "تحديث Chrome 158 يصل مع 204 إصلاحات أمنية بينها 6 ثغرات حرجة",
       "url": "https://3arrafni.com/tech-news/chrome-158-security-update",
       "source": "arrafni",
@@ -64,28 +243,6 @@
       "published_at": "2026-11-20T12:30:47Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "يعمل تطبيق Signal على منع Gemini وSiri AI من قراءة شاشتك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Only the Seminole tribe can offer online gambling in Florida—and they're furious at DraftKings",
-      "url": "https://arstechnica.com/tech-policy/2026/11/seminole-tribe-tries-to-stop-draftkings-illegal-gambling-in-florida/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-20T12:30:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "قبيلة السيمينول فقط هي التي يمكنها تقديم المقامرة عبر الإنترنت في فلوريدا - وهم غاضبون من درافت كينغز",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Science has a home here at Ars—please help keep it that way",
-      "url": "https://arstechnica.com/staff/2026/11/science-has-a-home-here-at-ars-please-help-keep-it-that-way/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-20T12:15:36Z",
-      "category": "أخبار التقنية",
-      "title_ar": "العلم له مكان هنا في Ars—يُرجى المساعدة في الحفاظ على ذلك",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -133,16 +290,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "مخاوف خصوصية تحيط بـ Meta Muse AI بعد رسائل Signal وأرصدة بنكية",
-      "url": "https://3arrafni.com/tech-news/meta-muse-ai-privacy-problems",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T11:02:08Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مخاوف خصوصية تحيط بـ Meta Muse AI بعد رسائل Signal وأرصدة بنكية",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Regular Tech Bros Are Worried About Honeypots",
       "url": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
       "source": "wired",
@@ -185,26 +332,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ملخص الأسبوع الثالث نوفمبر ٢٠٢٦: أبرز أخبار التكنولوجيا والذكاء الاصطناعي",
-      "url": "https://3arrafni.com/tech-news/weekly-recap-2026-w47",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T10:30:13Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ملخص الأسبوع الثالث نوفمبر ٢٠٢٦: أبرز أخبار التكنولوجيا والذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث DOOM: The Dark Ages 5 يضيف Slaughter Mode و FSR 4.1",
-      "url": "https://arabhardware.net/post-55189",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-20T10:29:05Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث DOOM: The Dark Ages 5 يضيف Slaughter Mode و FSR 4.1",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "الشارقة ترسم ملامح منطقة حرة للتكنولوجيا في كلباء.. ومجمع مراكز بيانات بقدرة 400 ميغاواط",
       "url": "https://technologyarabia.com/archives/18145/sharjah-kalba-technology-free-zone-400mw-data-centre/",
       "source": "technologyarabia",
@@ -213,37 +340,6 @@
       "category": "أخبار التقنية",
       "title_ar": "الشارقة ترسم ملامح منطقة حرة للتكنولوجيا في كلباء.. ومجمع مراكز بيانات بقدرة 400 ميغاواط",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Microsoft تطلق نموذجي Code 2 و Cyber 2 Flash للبرمجة والأمن السيبراني",
-      "url": "https://arabhardware.net/post-55188",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-20T10:11:25Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "Microsoft تطلق نموذجي Code 2 و Cyber 2 Flash للبرمجة والأمن السيبراني",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Google AI Ultra يضيف YouTube Premium Family لما يصل إلى 6 أفراد",
-      "url": "https://3arrafni.com/tech-news/google-ai-ultra-youtube-premium-family",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T10:07:08Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Google AI Ultra يضيف YouTube Premium Family لما يصل إلى 6 أفراد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "The U.S. national cyber director is stepping down",
-      "url": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-20T09:14:19Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مدير الأمن السيبراني الوطني الأمريكي يستقيل",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "OpenAI is testing Dots personal agents on its $20 per month Plus tier",
@@ -264,99 +360,6 @@
       "published_at": "2026-11-20T07:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "هذا الشاب البالغ من العمر 16 عامًا أسس شركة ناشئة لصواريخ تعمل بالذكاء الاصطناعي. وهو يستهدف \"التكلفة لكل عملية قتل\"",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "أسهم الرقائق تتراجع بقوة في آسيا ومؤشر إقليمي يتجه إلى أسوأ أسبوع منذ 2020",
-      "url": "https://aitnews.com/2026/11/20/asian-chip-stocks-ai-investment-selloff-november-2026/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-20T06:42:51Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "أسهم الرقائق تتراجع بقوة في آسيا ومؤشر إقليمي يتجه إلى أسوأ أسبوع منذ 2020",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أسبوع دبي للمستقبل.. روبوتات التوصيل وشراكات الذكاء الاصطناعي تتصدر اليوم الثاني",
-      "url": "https://aitnews.com/2026/11/20/%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-%d8%af%d8%a8%d9%8a-%d9%84%d9%84%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%b1%d9%88%d8%a8%d9%88%d8%aa%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%88%d8%b5%d9%8a%d9%84-%d9%88%d8%b4/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-20T06:41:21Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "أسبوع دبي للمستقبل.. روبوتات التوصيل وشراكات الذكاء الاصطناعي تتصدر اليوم الثاني",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "رسميًا: ChatGPT Health يدعم Health Connect ووكلاء Dots على أندرويد والحاسوب",
-      "url": "https://aitnews.com/2026/11/20/chatgpt-health-android-desktop-health-connect-dots/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-20T06:29:57Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "رسميًا: ChatGPT Health يدعم Health Connect ووكلاء Dots على أندرويد والحاسوب",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تطوير عدسات سناب شات عبر سطر الأوامر: مزايا Easy Lens CLI المجانية للمطورين",
-      "url": "https://aitnews.com/2026/11/20/snapchat-easy-lens-cli-claude-code-codex-cursor/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-20T06:29:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تطوير عدسات سناب شات عبر سطر الأوامر: مزايا Easy Lens CLI المجانية للمطورين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Uber Kids will let parents book trips for their children aged 10 to 12 years old",
-      "url": "https://www.engadget.com/2322650/uber-kids-rides-children-aged-10-to-12-years-old/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-20T06:27:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستتيح خدمة Uber Kids للآباء حجز المشاوير لأطفالهم الذين تتراوح أعمارهم بين 10 و12 عاماً",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "الكونغرس يكشف تراخيص لتصدير أكثر من 879 ألف رقاقة ذكاء اصطناعي إلى الصين",
-      "url": "https://aitnews.com/2026/11/20/us-congress-879000-ai-chips-china-export-licenses/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-20T06:27:17Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "الكونغرس يكشف تراخيص لتصدير أكثر من 879 ألف رقاقة ذكاء اصطناعي إلى الصين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أميركا تستهدف الطائرات الصينية وتضغط على إيرباص.. فصل جديد من الحرب التجارية؟",
-      "url": "https://techvoicearabia.com/us-china-certification-airbus-aerospace/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-20T06:13:09Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أميركا تستهدف الطائرات الصينية وتضغط على إيرباص.. فصل جديد من الحرب التجارية؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-20T00:56:01Z",
-      "category": "أخبار التقنية",
-      "title_ar": "قد تكون آبل بصدد تطوير وكيل ذكاء اصطناعي خاص بها يدير جهاز ماك الخاص بك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
-      "url": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-19T22:16:37Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تُعارض أمازون قانون حماية خدمات التوصيل من خلال لافتة على الصفحة الرئيسية، ونافذة منبثقة داخل التطبيق",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
