@@ -3,20 +3,20 @@
 window.AL_GHAD_DOWNLOADS = Object.freeze({
   "google-maps-reviews-tracker": {
   "repository": "GoogleMapsReviewsTracker",
-  "version": "43.0.0-beta.1",
+  "version": "44.0.0-beta.1",
   "channel": "preview",
-  "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v43.0.0-beta.1",
-  "checksum": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v43.0.0-beta.1/SHA256SUMS.txt",
+  "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v44.0.0-beta.1",
+  "checksum": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v44.0.0-beta.1/SHA256SUMS.txt",
   "files": [
     {
-      "label": "تحميل Reviews Tracker v43 — Windows Setup (Beta)",
+      "label": "تحميل Reviews Tracker v44 — Windows Setup (Beta)",
       "platform": "Windows 10/11 x64 · Beta غير موقّع",
       "recommended": true,
-      "bytes": 111529413,
-      "url": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v43.0.0-beta.1/GoogleMapsReviewsTracker_v43_Setup.exe"
+      "bytes": 111528813,
+      "url": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v44.0.0-beta.1/GoogleMapsReviewsTracker_v44_Setup.exe"
     }
   ],
-  "note": "إصدار Beta غير موقّع. تعرض اللوحة مصادر البيانات وتغطيتها؛ لا تُعد بيانات Google حية دون مزامنة مصرح بها عبر OAuth. تبقى قاعدة بيانات المستخدم خارج مجلد البرنامج أثناء الترقية."
+  "note": "Beta غير موقّع: إصلاح الأزرار السوداء ووضوح البحث وتسريع الفرز، دون الادعاء بوجود بيانات Google حية."
 },
   kitchen: { // KCAD_KITCHEN_DESIGN_R3_BETA_20261118
     repository: "KitchenCADProV5",

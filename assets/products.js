@@ -306,40 +306,43 @@ window.AL_GHAD_PRODUCTS = [
     "release": "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.3"
   },
   {
-  "id": "google-maps-reviews-tracker",
-  "title": "Google Maps Reviews Tracker",
-  "english": "GOOGLE MAPS REVIEWS TRACKER",
-  "category": "تحليل السمعة ومراجعات خرائط Google",
-  "description": "Google Maps Reviews Tracker v43 لنظام Windows، إصدار Beta مع لوحة تحكم تعرض مصدر الأرقام وتغطية الفروع وتاريخ آخر جلب. تنبّه عند نقص البيانات أو قدمها، وتتطلب مراجعات Google Business Profile تفويض OAuth مصرحًا به.",
-  "details": "واجهة عربية RTL وإنجليزية مع جداول جميع الفروع وترتيب ثابت وفلاتر واضحة وتصدير CSV/PDF. يحتسب متوسط التقييم من الفروع ذات القيم المعروفة، ويعرض تغطية أعداد المراجعات بشكل جزئي عندما تنقص البيانات. تُميّز تواريخ المراجعات النسبية عن تاريخ الاستيراد، ولا تُختلق اتجاهات تاريخية من لقطة واحدة. يتطلب جلب مراجعات الفروع المملوكة صلاحية Google Business Profile OAuth؛ يعرض Places API عينة مراجعات محدودة فقط. نسخة Beta غير موقّعة رقميًا.",
-  "platforms": [
-    "Windows"
-  ],
-  "version": "43.0.0-beta.1",
-  "status": "public",
-  "github": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker",
-  "features": [
-    "واجهة عربية RTL وإنجليزية ولوحة مؤشرات",
-    "سجل تاريخي لتقييمات الفروع ومؤشرات تحليلية",
-    "إدارة المراجعات ومتابعة الملاحظات والتنبيهات",
-    "تصدير بيانات إلى Excel وCSV وPDF مع حماية النصوص",
-    "Places API وBusiness Profile API مع صلاحيات Google الرسمية",
-    "تغطية البيانات ومؤشرات توضح المفقود والقديم",
-    "عرض كل الفروع وفرزها وتصحيح المتوسطات والفلاتر",
-    "حفظ بيانات المستخدم خارج ملفات تثبيت البرنامج"
-  ],
-  "emblem": "R",
-  "colors": [
-    "#154a78",
-    "#102c4b",
-    "#2d91bb"
-  ],
-  "keywords": "google maps reviews tracker تتبع تقييمات خرائط جوجل سمعة الفروع google reviews sentiment business profile api",
-  "summary": "تقييمات ومراجعات الفروع مع جودة البيانات وشفافية المصدر",
-  "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v43.0.0-beta.1",
-  "releaseLabel": "إصدار تجريبي Beta",
-  "preview": "assets/previews/reports.svg",
-  "previewAlt": "لوحة متابعة التقييمات والمراجعات",
-  "displayStatus": "Beta v43 · غير موقّع"
-}
+    "id": "google-maps-reviews-tracker",
+    "title": "Google Maps Reviews Tracker",
+    "english": "GOOGLE MAPS REVIEWS TRACKER",
+    "category": "تحليل السمعة ومراجعات خرائط Google",
+    "description": "Google Maps Reviews Tracker v44 لنظام Windows: تحسين واجهة البحث العربية وإصلاح اختفاء النص المكتوب والأزرار السوداء، مع فرز أسرع للنتائج المحفوظة ولوحة تقارير توضح تغطية البيانات وتاريخ آخر تحديث موثق. النسخة Beta غير موقعة.",
+    "details": "تحديث v44 يصلح أزرار خيارات البحث والفلاتر والمزيد والتصدير، ويوضح النص المكتوب والمؤشر في جميع حقول البحث بالعربية والإنجليزية. يقلل معالجة نتائج البحث المتكررة أثناء الفرز والفلاتر، ويحافظ على الإحصاءات التي تعرض المجهول والقديم دون تضليل. مزامنة مراجعات المواقع المملوكة تتطلب Google Business Profile OAuth مصرحا به؛ بيانات Places API عينة محدودة.",
+    "platforms": [
+      "Windows"
+    ],
+    "version": "44.0.0-beta.1",
+    "status": "public",
+    "github": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker",
+    "features": [
+      "واجهة عربية RTL وإنجليزية ولوحة مؤشرات",
+      "سجل تاريخي لتقييمات الفروع ومؤشرات تحليلية",
+      "إدارة المراجعات ومتابعة الملاحظات والتنبيهات",
+      "تصدير بيانات إلى Excel وCSV وPDF مع حماية النصوص",
+      "Places API وBusiness Profile API مع صلاحيات Google الرسمية",
+      "تغطية البيانات ومؤشرات توضح المفقود والقديم",
+      "عرض كل الفروع وفرزها وتصحيح المتوسطات والفلاتر",
+      "حفظ بيانات المستخدم خارج ملفات تثبيت البرنامج",
+      "إصلاح الأزرار الداكنة وإظهار جميع النصوص بوضوح",
+      "حقول بحث عربية واضحة دون تداخل النص الإرشادي",
+      "تسريع الفرز وفلترة النتائج المكتملة عبر Cached analysis"
+    ],
+    "emblem": "R",
+    "colors": [
+      "#154a78",
+      "#102c4b",
+      "#2d91bb"
+    ],
+    "keywords": "google maps reviews tracker تتبع تقييمات خرائط جوجل سمعة الفروع google reviews sentiment business profile api",
+    "summary": "تقييمات ومراجعات الفروع مع جودة البيانات وشفافية المصدر",
+    "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v44.0.0-beta.1",
+    "releaseLabel": "إصدار تجريبي Beta",
+    "preview": "assets/previews/reports.svg",
+    "previewAlt": "لوحة متابعة التقييمات والمراجعات",
+    "displayStatus": "Beta v44 · غير موقّع"
+  }
 ];

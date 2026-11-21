@@ -1,6 +1,6 @@
 # Google Maps Reviews Tracker
 
-Google Maps Reviews Tracker v43 لنظام Windows، إصدار Beta مع لوحة تحكم تعرض مصدر الأرقام وتغطية الفروع وتاريخ آخر جلب. تنبّه عند نقص البيانات أو قدمها، وتتطلب مراجعات Google Business Profile تفويض OAuth مصرحًا به.
+Google Maps Reviews Tracker v44 لنظام Windows، إصدار Beta مع لوحة تحكم تعرض مصدر الأرقام وتغطية الفروع وتاريخ آخر جلب. تنبّه عند نقص البيانات أو قدمها، وتتطلب مراجعات Google Business Profile تفويض OAuth مصرحًا به.
 
 واجهة عربية RTL وإنجليزية مع جداول جميع الفروع وترتيب ثابت وفلاتر واضحة وتصدير CSV/PDF. يحتسب متوسط التقييم من الفروع ذات القيم المعروفة، ويعرض تغطية أعداد المراجعات بشكل جزئي عندما تنقص البيانات. تُميّز تواريخ المراجعات النسبية عن تاريخ الاستيراد، ولا تُختلق اتجاهات تاريخية من لقطة واحدة. يتطلب جلب مراجعات الفروع المملوكة صلاحية Google Business Profile OAuth؛ يعرض Places API عينة مراجعات محدودة فقط. نسخة Beta غير موقّعة رقميًا.
 
@@ -24,7 +24,7 @@ Google Maps Reviews Tracker v43 لنظام Windows، إصدار Beta مع لوح
 
 ## التثبيت والتشغيل
 
-- [تحميل Reviews Tracker v43 — Windows Setup (Beta)](https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v43.0.0-beta.1/GoogleMapsReviewsTracker_v43_Setup.exe)
+- [تحميل Reviews Tracker v44 — Windows Setup (Beta)](https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v44.0.0-beta.1/GoogleMapsReviewsTracker_v44_Setup.exe)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 
@@ -53,3 +53,12 @@ All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ را
 ## التواصل والدعم
 
 [protech.2025.2026@gmail.com](mailto:protech.2025.2026@gmail.com) · [alghad.digital](https://alghad.digital/)
+
+
+## v44 Search UI and responsiveness
+
+- إصلاح الأزرار الداكنة وإظهار جميع النصوص بوضوح
+- حقول بحث عربية واضحة دون تداخل النص الإرشادي
+- تسريع الفرز وفلترة النتائج المكتملة عبر Cached analysis
+
+QA verified readable controls and Arabic input across three desktop viewports.
