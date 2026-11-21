@@ -3,27 +3,27 @@
 window.AL_GHAD_DOWNLOADS = Object.freeze({
   "google-maps-reviews-tracker": {
   "repository": "GoogleMapsReviewsTracker",
-  "version": "45.0.0-beta.1",
+  "version": "46.0.0-beta.1",
   "channel": "preview",
-  "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v45.0.0-beta.1",
-  "checksum": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v45.0.0-beta.1/SHA256SUMS.txt",
+  "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v46.0.0-beta.1",
+  "checksum": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/SHA256SUMS.txt",
   "files": [
     {
-      "label": "تحميل Reviews Tracker v45 — Windows Setup",
-      "platform": "Windows 10/11 x64 · Beta (غير موقّع)",
+      "label": "تنزيل Reviews Tracker v46 — Windows Setup",
+      "platform": "Windows 10/11 x64 · Beta غير موقّع",
       "recommended": true,
-      "bytes": 111974448,
-      "url": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v45.0.0-beta.1/GoogleMapsReviewsTracker_v45_Setup.exe"
+      "bytes": 111980499,
+      "url": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Setup.exe"
     },
     {
-      "label": "تحميل Reviews Tracker v45 — Portable بدون تثبيت",
-      "platform": "Windows 10/11 x64 · Portable ZIP",
+      "label": "تنزيل Reviews Tracker v46 — Portable بدون تثبيت",
+      "platform": "Windows 10/11 x64 · ZIP",
       "recommended": false,
-      "bytes": 155117129,
-      "url": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v45.0.0-beta.1/GoogleMapsReviewsTracker_v45_Portable_Windows_x64.zip"
+      "bytes": 155125218,
+      "url": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Portable_Windows_x64.zip"
     }
   ],
-  "note": "نسخة تثبيت ونسخة محمولة. يجب فك ضغط Portable كاملًا ثم تشغيل Start_Portable.cmd. بيانات المحمولة تحفظ في Data داخل المجلد؛ لا تدمج تلقائيًا مع النسخة المثبتة. Beta غير موقّع؛ المزامنة الحية تتطلب Google OAuth مرخصًا."
+  "note": "جميع التعليقات المحفوظة وفلاتر متعددة وبطاقات حديثة. فك ضغط Portable ثم تشغيل Start_Portable.cmd؛ بياناتها داخل Data. لا تتوفر مزامنة حية كاملة دون تفويض Google Business Profile."
 },
   kitchen: { // KCAD_KITCHEN_DESIGN_R3_BETA_20261118
     repository: "KitchenCADProV5",
