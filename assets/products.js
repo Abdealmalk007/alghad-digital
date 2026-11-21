@@ -310,12 +310,12 @@ window.AL_GHAD_PRODUCTS = [
     "title": "Google Maps Reviews Tracker",
     "english": "GOOGLE MAPS REVIEWS TRACKER",
     "category": "تحليل السمعة ومراجعات خرائط Google",
-    "description": "Google Maps Reviews Tracker v44 لنظام Windows: تحسين واجهة البحث العربية وإصلاح اختفاء النص المكتوب والأزرار السوداء، مع فرز أسرع للنتائج المحفوظة ولوحة تقارير توضح تغطية البيانات وتاريخ آخر تحديث موثق. النسخة Beta غير موقعة.",
-    "details": "تحديث v44 يصلح أزرار خيارات البحث والفلاتر والمزيد والتصدير، ويوضح النص المكتوب والمؤشر في جميع حقول البحث بالعربية والإنجليزية. يقلل معالجة نتائج البحث المتكررة أثناء الفرز والفلاتر، ويحافظ على الإحصاءات التي تعرض المجهول والقديم دون تضليل. مزامنة مراجعات المواقع المملوكة تتطلب Google Business Profile OAuth مصرحا به؛ بيانات Places API عينة محدودة.",
+    "description": "Google Maps Reviews Tracker v45 لنظام Windows: أيقونة احترافية جديدة، Dashboard ببطاقات متناسقة، بحث ونتائج مرتبة وتحسين عرض بيانات المصدر. متوفر نسخة تثبيت ونسخة محمولة Portable تعمل دون تثبيت مع حفظ بياناتها في Data.",
+    "details": "النسخة الجديدة تعتمد أيقونة رسمية خاصة بالتطبيق، أربع بطاقات ميزات مرتبطة بالوظائف، عرض نتائج مختصر مع تفاصيل اختيارية، وتصميم عربي RTL متجاوب. النسخة المحمولة تحفظ بياناتها داخل Data دون خلطها ببيانات النسخة المثبتة. المؤشرات تعرض البيانات المحفوظة وتوضح الناقص والقديم منها. مزامنة مراجعات Google Business Profile الحية تتطلب OAuth مصرحًا به، ولا يمكن لواجهة Places API توفير جميع مراجعات المنافسين.",
     "platforms": [
       "Windows"
     ],
-    "version": "44.0.0-beta.1",
+    "version": "45.0.0-beta.1",
     "status": "public",
     "github": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker",
     "features": [
@@ -329,7 +329,11 @@ window.AL_GHAD_PRODUCTS = [
       "حفظ بيانات المستخدم خارج ملفات تثبيت البرنامج",
       "إصلاح الأزرار الداكنة وإظهار جميع النصوص بوضوح",
       "حقول بحث عربية واضحة دون تداخل النص الإرشادي",
-      "تسريع الفرز وفلترة النتائج المكتملة عبر Cached analysis"
+      "تسريع الفرز وفلترة النتائج المكتملة عبر Cached analysis",
+      "أيقونة جديدة وواجهة بطاقات احترافية Responsive",
+      "نتائج بحث مختصرة ودقيقة مع إظهار بيانات المصدر",
+      "نسخة Windows Portable بدون تثبيت وبيانات محلية مستقلة",
+      "تنزيل Setup وPortable من صفحة البرنامج"
     ],
     "emblem": "R",
     "colors": [
@@ -338,11 +342,11 @@ window.AL_GHAD_PRODUCTS = [
       "#2d91bb"
     ],
     "keywords": "google maps reviews tracker تتبع تقييمات خرائط جوجل سمعة الفروع google reviews sentiment business profile api",
-    "summary": "تقييمات ومراجعات الفروع مع جودة البيانات وشفافية المصدر",
-    "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v44.0.0-beta.1",
+    "summary": "تتبع مراجعات الفروع وتحليل التقييمات مع خيار تشغيل محمول",
+    "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v45.0.0-beta.1",
     "releaseLabel": "إصدار تجريبي Beta",
-    "preview": "assets/previews/reports.svg",
-    "previewAlt": "لوحة متابعة التقييمات والمراجعات",
-    "displayStatus": "Beta v44 · غير موقّع"
+    "preview": "assets/previews/reviews-tracker-v45.png",
+    "previewAlt": "Reviews Tracker v45 — new app icon and dashboard capability preview",
+    "displayStatus": "Beta v45 · Setup + Portable"
   }
 ];

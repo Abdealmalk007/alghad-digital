@@ -24,7 +24,7 @@ Google Maps Reviews Tracker v44 لنظام Windows، إصدار Beta مع لوح
 
 ## التثبيت والتشغيل
 
-- [تحميل Reviews Tracker v44 — Windows Setup (Beta)](https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v44.0.0-beta.1/GoogleMapsReviewsTracker_v44_Setup.exe)
+- [تحميل Reviews Tracker v44 — Windows Setup (Beta)](https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v45.0.0-beta.1/GoogleMapsReviewsTracker_v45_Setup.exe)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 
@@ -62,3 +62,17 @@ All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ را
 - تسريع الفرز وفلترة النتائج المكتملة عبر Cached analysis
 
 QA verified readable controls and Arabic input across three desktop viewports.
+
+
+## v45 Desktop UI and Portable release
+
+- New icon, dashboard feature cards, clean results and right-to-left responsive layout
+- Windows Setup: https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v45.0.0-beta.1/GoogleMapsReviewsTracker_v45_Setup.exe
+- Windows Portable (unzip first): https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v45.0.0-beta.1/GoogleMapsReviewsTracker_v45_Portable_Windows_x64.zip
+- The portable app writes to its own Data/ directory; this is not a copy of installed user data
+- Unsigned Beta release. Google Business Profile OAuth requires authorized account access
+
+- أيقونة جديدة وواجهة بطاقات احترافية Responsive
+- نتائج بحث مختصرة ودقيقة مع إظهار بيانات المصدر
+- نسخة Windows Portable بدون تثبيت وبيانات محلية مستقلة
+- تنزيل Setup وPortable من صفحة البرنامج
