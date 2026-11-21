@@ -306,37 +306,40 @@ window.AL_GHAD_PRODUCTS = [
     "release": "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.3"
   },
   {
-    "id": "google-maps-reviews-tracker",
-    "title": "Google Maps Reviews Tracker",
-    "english": "GOOGLE MAPS REVIEWS TRACKER",
-    "category": "\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0633\u0645\u0639\u0629 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u062e\u0631\u0627\u0626\u0637 Google",
-    "description": "\u0628\u0631\u0646\u0627\u0645\u062c Windows \u062a\u062c\u0631\u064a\u0628\u064a \u0644\u0645\u0631\u0627\u0642\u0628\u0629 \u062a\u0642\u064a\u064a\u0645\u0627\u062a \u0627\u0644\u0641\u0631\u0648\u0639 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0627\u0644\u0639\u0645\u0644\u0627\u0621 \u0648\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0633\u0645\u0639\u0629 \u0648\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631. \u062a\u062a\u0637\u0644\u0628 \u0645\u064a\u0632\u0627\u062a Google \u0627\u0644\u0631\u0633\u0645\u064a\u0629 \u0625\u0639\u062f\u0627\u062f API/OAuth \u0645\u0635\u0631\u062d\u064b\u0627 \u0628\u0647.",
-    "details": "\u0644\u0648\u062d\u0629 \u0642\u064a\u0627\u062f\u0629 \u0639\u0631\u0628\u064a\u0629 \u0648\u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629 \u062a\u0639\u0631\u0636 \u0627\u0644\u0641\u0631\u0648\u0639 \u0648\u0627\u0644\u062a\u0642\u064a\u064a\u0645\u0627\u062a \u0627\u0644\u062a\u0627\u0631\u064a\u062e\u064a\u0629 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0627\u0644\u0639\u0645\u0644\u0627\u0621 \u0648\u0645\u062a\u0627\u0628\u0639\u062a\u0647\u0627 \u0648\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631 Excel \u0648CSV \u0648PDF. \u0625\u0635\u062f\u0627\u0631 Beta \u063a\u064a\u0631 \u0645\u0648\u0642\u0651\u0639 \u0631\u0642\u0645\u064a\u064b\u0627. \u0644\u0627 \u064a\u0645\u0643\u0646 \u0627\u0644\u062d\u0635\u0648\u0644 \u0639\u0644\u0649 \u062c\u0645\u064a\u0639 \u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0627\u0644\u0645\u0646\u0627\u0641\u0633\u064a\u0646 \u0645\u0646 Places API\u061b \u0627\u0644\u0645\u0635\u062f\u0631 \u064a\u0642\u062f\u0645 \u0639\u064a\u0646\u0629 \u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0645\u062d\u062f\u0648\u062f\u0629. \u062a\u062a\u0637\u0644\u0628 \u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0627\u0644\u0641\u0631\u0648\u0639 \u0627\u0644\u0645\u0645\u0644\u0648\u0643\u0629 \u0635\u0644\u0627\u062d\u064a\u0629 Google Business Profile OAuth. \u0644\u0645 \u064a\u064f\u0639\u062a\u0645\u062f \u0627\u062e\u062a\u0628\u0627\u0631 \u0645\u0632\u0627\u0645\u0646\u0629 \u062d\u064a\u0629 \u0634\u0627\u0645\u0644 \u0628\u0639\u062f.",
-    "platforms": [
-      "Windows"
-    ],
-    "version": "42.0.0-beta.1",
-    "status": "public",
-    "github": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker",
-    "features": [
-      "\u0648\u0627\u062c\u0647\u0629 \u0639\u0631\u0628\u064a\u0629 RTL \u0648\u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629 \u0648\u0644\u0648\u062d\u0629 \u0645\u0624\u0634\u0631\u0627\u062a",
-      "\u0633\u062c\u0644 \u062a\u0627\u0631\u064a\u062e\u064a \u0644\u062a\u0642\u064a\u064a\u0645\u0627\u062a \u0627\u0644\u0641\u0631\u0648\u0639 \u0648\u0645\u0624\u0634\u0631\u0627\u062a \u062a\u062d\u0644\u064a\u0644\u064a\u0629",
-      "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0648\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0648\u0627\u0644\u062a\u0646\u0628\u064a\u0647\u0627\u062a",
-      "\u062a\u0635\u062f\u064a\u0631 \u0628\u064a\u0627\u0646\u0627\u062a \u0625\u0644\u0649 Excel \u0648CSV \u0648PDF \u0645\u0639 \u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u0646\u0635\u0648\u0635",
-      "Places API \u0648Business Profile API \u0645\u0639 \u0635\u0644\u0627\u062d\u064a\u0627\u062a Google \u0627\u0644\u0631\u0633\u0645\u064a\u0629"
-    ],
-    "emblem": "R",
-    "colors": [
-      "#154a78",
-      "#102c4b",
-      "#2d91bb"
-    ],
-    "keywords": "google maps reviews tracker \u062a\u062a\u0628\u0639 \u062a\u0642\u064a\u064a\u0645\u0627\u062a \u062e\u0631\u0627\u0626\u0637 \u062c\u0648\u062c\u0644 \u0633\u0645\u0639\u0629 \u0627\u0644\u0641\u0631\u0648\u0639 google reviews sentiment business profile api",
-    "summary": "\u0644\u0648\u062d\u0629 \u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u0641\u0631\u0648\u0639 \u0648\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0645\u0631\u0627\u062c\u0639\u0627\u062a",
-    "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v42.0.0-beta.1",
-    "releaseLabel": "\u0625\u0635\u062f\u0627\u0631 \u062a\u062c\u0631\u064a\u0628\u064a Beta",
-    "preview": "assets/previews/reports.svg",
-    "previewAlt": "\u0644\u0648\u062d\u0629 \u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u062a\u0642\u064a\u064a\u0645\u0627\u062a \u0648\u0627\u0644\u0645\u0631\u0627\u062c\u0639\u0627\u062a",
-    "displayStatus": "Beta \u00b7 \u063a\u064a\u0631 \u0645\u0648\u0642\u0651\u0639"
-  }
+  "id": "google-maps-reviews-tracker",
+  "title": "Google Maps Reviews Tracker",
+  "english": "GOOGLE MAPS REVIEWS TRACKER",
+  "category": "تحليل السمعة ومراجعات خرائط Google",
+  "description": "Google Maps Reviews Tracker v43 لنظام Windows، إصدار Beta مع لوحة تحكم تعرض مصدر الأرقام وتغطية الفروع وتاريخ آخر جلب. تنبّه عند نقص البيانات أو قدمها، وتتطلب مراجعات Google Business Profile تفويض OAuth مصرحًا به.",
+  "details": "واجهة عربية RTL وإنجليزية مع جداول جميع الفروع وترتيب ثابت وفلاتر واضحة وتصدير CSV/PDF. يحتسب متوسط التقييم من الفروع ذات القيم المعروفة، ويعرض تغطية أعداد المراجعات بشكل جزئي عندما تنقص البيانات. تُميّز تواريخ المراجعات النسبية عن تاريخ الاستيراد، ولا تُختلق اتجاهات تاريخية من لقطة واحدة. يتطلب جلب مراجعات الفروع المملوكة صلاحية Google Business Profile OAuth؛ يعرض Places API عينة مراجعات محدودة فقط. نسخة Beta غير موقّعة رقميًا.",
+  "platforms": [
+    "Windows"
+  ],
+  "version": "43.0.0-beta.1",
+  "status": "public",
+  "github": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker",
+  "features": [
+    "واجهة عربية RTL وإنجليزية ولوحة مؤشرات",
+    "سجل تاريخي لتقييمات الفروع ومؤشرات تحليلية",
+    "إدارة المراجعات ومتابعة الملاحظات والتنبيهات",
+    "تصدير بيانات إلى Excel وCSV وPDF مع حماية النصوص",
+    "Places API وBusiness Profile API مع صلاحيات Google الرسمية",
+    "تغطية البيانات ومؤشرات توضح المفقود والقديم",
+    "عرض كل الفروع وفرزها وتصحيح المتوسطات والفلاتر",
+    "حفظ بيانات المستخدم خارج ملفات تثبيت البرنامج"
+  ],
+  "emblem": "R",
+  "colors": [
+    "#154a78",
+    "#102c4b",
+    "#2d91bb"
+  ],
+  "keywords": "google maps reviews tracker تتبع تقييمات خرائط جوجل سمعة الفروع google reviews sentiment business profile api",
+  "summary": "تقييمات ومراجعات الفروع مع جودة البيانات وشفافية المصدر",
+  "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v43.0.0-beta.1",
+  "releaseLabel": "إصدار تجريبي Beta",
+  "preview": "assets/previews/reports.svg",
+  "previewAlt": "لوحة متابعة التقييمات والمراجعات",
+  "displayStatus": "Beta v43 · غير موقّع"
+}
 ];

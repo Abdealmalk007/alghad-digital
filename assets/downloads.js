@@ -2,22 +2,22 @@
    Only public published assets. No draft URLs, no debug-only APKs. */
 window.AL_GHAD_DOWNLOADS = Object.freeze({
   "google-maps-reviews-tracker": {
-    "repository": "GoogleMapsReviewsTracker",
-    "version": "42.0.0-beta.1",
-    "channel": "preview",
-    "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v42.0.0-beta.1",
-    "checksum": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v42.0.0-beta.1/SHA256SUMS.txt",
-    "files": [
-      {
-        "label": "\u062a\u0646\u0632\u064a\u0644 Google Maps Reviews Tracker - \u0645\u0644\u0641 \u0627\u0644\u062a\u062b\u0628\u064a\u062a (Beta)",
-        "platform": "Windows 10/11 x64 - Setup - Beta \u063a\u064a\u0631 \u0645\u0648\u0642\u0651\u0639",
-        "recommended": true,
-        "bytes": 94556372,
-        "url": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v42.0.0-beta.1/GoogleMapsReviewsTracker_v42_Setup.exe"
-      }
-    ],
-    "note": "\u0625\u0635\u062f\u0627\u0631 \u062a\u062c\u0631\u064a\u0628\u064a Beta \u063a\u064a\u0631 \u0645\u0648\u0642\u0651\u0639 \u0631\u0642\u0645\u064a\u064b\u0627. \u062c\u0644\u0628 \u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0627\u0644\u0641\u0631\u0648\u0639 \u0627\u0644\u0645\u0648\u062b\u0642\u0629 \u064a\u062a\u0637\u0644\u0628 OAuth\u060c \u0648Places API \u064a\u0639\u0631\u0636 \u0639\u064a\u0646\u0629 \u0645\u062d\u062f\u0648\u062f\u0629. \u0644\u0627 \u062a\u062a\u0636\u0645\u0646 \u062d\u0632\u0645\u0629 \u0627\u0644\u062a\u062b\u0628\u064a\u062a \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0639\u0645\u0644\u0627\u0621 \u0623\u0648 \u0645\u0641\u0627\u062a\u064a\u062d API."
-  },
+  "repository": "GoogleMapsReviewsTracker",
+  "version": "43.0.0-beta.1",
+  "channel": "preview",
+  "release": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/tag/v43.0.0-beta.1",
+  "checksum": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v43.0.0-beta.1/SHA256SUMS.txt",
+  "files": [
+    {
+      "label": "تحميل Reviews Tracker v43 — Windows Setup (Beta)",
+      "platform": "Windows 10/11 x64 · Beta غير موقّع",
+      "recommended": true,
+      "bytes": 111529413,
+      "url": "https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v43.0.0-beta.1/GoogleMapsReviewsTracker_v43_Setup.exe"
+    }
+  ],
+  "note": "إصدار Beta غير موقّع. تعرض اللوحة مصادر البيانات وتغطيتها؛ لا تُعد بيانات Google حية دون مزامنة مصرح بها عبر OAuth. تبقى قاعدة بيانات المستخدم خارج مجلد البرنامج أثناء الترقية."
+},
   kitchen: { // KCAD_KITCHEN_DESIGN_R3_BETA_20261118
     repository: "KitchenCADProV5",
     version: "5.0.0-beta-kitchen-design-r3-20261118",
