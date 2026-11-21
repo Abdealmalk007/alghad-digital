@@ -1,7 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-11-21T04:33:36Z",
+  "generated_at": "2026-11-21T06:19:06Z",
   "articles": [
+    {
+      "title": "Instagram يتيح تعديل القصص بعد نشرها خلال 15 دقيقة",
+      "url": "https://3arrafni.com/tech-news/instagram-edit-story-after-posting",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-21T05:31:28Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Instagram يتيح تعديل القصص بعد نشرها خلال 15 دقيقة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Signal تحظر Siri AI وGemini من قراءة محادثاتك: ما الذي تغيّر؟",
+      "url": "https://3arrafni.com/tech-news/signal-blocks-siri-ai-gemini-chat-reading",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-21T04:36:28Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Signal تحظر Siri AI وGemini من قراءة محادثاتك: ما الذي تغيّر؟",
+      "translation_status": "original_ar"
+    },
     {
       "title": "Startup sues Apple in India over tap-to-share contacts feature",
       "url": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
@@ -301,16 +321,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "WhatsApp يرفع الحد الأقصى للمجموعات إلى 1,500 عضو تدريجياً",
-      "url": "https://3arrafni.com/tech-news/whatsapp-1500-member-group-limit",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T17:27:08Z",
-      "category": "أخبار التقنية",
-      "title_ar": "WhatsApp يرفع الحد الأقصى للمجموعات إلى 1,500 عضو تدريجياً",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Teenage Engineering’s first CD player puts the spinning disc on display",
       "url": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
       "source": "theverge",
@@ -320,16 +330,6 @@
       "title_ar": "مشغّل الأقراص المضغوطة الأول من تينيدج إنجنيرنج يعرض القرص الدوّار",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تحديث Windows 11 KB5132057 يضيف بحثاً جديداً ومربع Run حديثاً",
-      "url": "https://3arrafni.com/tech-news/windows-11-kb5132057-search-run-dialog",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-20T16:32:08Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "تحديث Windows 11 KB5132057 يضيف بحثاً جديداً ومربع Run حديثاً",
-      "translation_status": "original_ar"
     },
     {
       "title": "أنثروبيك تُتم اكتتابها وطرحًا خاصًا بقيمة إجمالية 119.5 مليار دولار",
