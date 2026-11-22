@@ -134,17 +134,17 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
   },
   "protech-music": {
     "repository": "ProTechMusic",
-    "version": "0.4.5-beta.7",
+    "version": "0.4.6-beta.8",
     "channel": "preview",
-    "release": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.4.5-beta.7",
-    "checksum": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.5-beta.7/SHA256SUMS_v045_beta7.txt",
+    "release": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.4.6-beta.8",
+    "checksum": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.6-beta.8/SHA256SUMS_v046_beta8.txt",
     "files": [
       {
         "label": "ProTech Music — APK موقّع للتجربة (Beta)",
         "platform": "Android 8+ · Beta وليس نهائيًا",
         "recommended": true,
         "bytes": 9008211,
-        "url": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.5-beta.7/ProTechMusic_v0.4.5_beta7_SIGNED.apk"
+        "url": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.6-beta.8/ProTechMusic_v0.4.6_beta8_SIGNED.apk"
       }
     ],
     "note": "إصدار Beta. يتطلب السماح بقراءة الصوتيات لفهرسة الملفات المتاحة؛ الحذف النهائي يستدعي موافقتين. لم تُستكمل اختبارات جميع الأجهزة والسماعات، ويُرجى الاحتفاظ بنسخة من الملفات المهمة."
