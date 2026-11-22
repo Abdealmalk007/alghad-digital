@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "verified_at": "2026-11-21T13:43:20Z",
+  "verified_at": "2026-11-22T04:55:02Z",
   "source": "Official GitHub Releases API; SHA-256 digest fields are supplied by GitHub",
   "releases": {
     "stone": {
@@ -152,16 +152,16 @@
     },
     "protech-music": {
       "repository": "ProTechMusic",
-      "version": "0.3.9-beta.1",
-      "published_at": "2026-11-21T13:41:27Z",
-      "tag_url": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.3.9-beta.1",
+      "version": "0.4.0-beta.2",
+      "published_at": "2026-11-22T04:54:14Z",
+      "tag_url": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.4.0-beta.2",
       "prerelease": true,
       "assets": [
         {
-          "name": "ProTechMusic_v0.3.9_beta1_SIGNED.apk",
-          "url": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.3.9-beta.1/ProTechMusic_v0.3.9_beta1_SIGNED.apk",
-          "bytes": 8975443,
-          "sha256": "bb29a4fbec762b4766e2839ca7bf613d507291e6f7c207e1a83c388663a28f8e",
+          "name": "ProTechMusic_v0.4.0_beta2_SIGNED.apk",
+          "url": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.0-beta.2/ProTechMusic_v0.4.0_beta2_SIGNED.apk",
+          "bytes": 8991827,
+          "sha256": "c1fd4d09782e0430e48c8afcb9b2fb57b6e071cc50e324746204e9c65e650345",
           "recommended": true
         }
       ]

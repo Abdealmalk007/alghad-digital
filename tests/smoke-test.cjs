@@ -49,7 +49,7 @@ for(const item of p){
   }
   assert.ok(Array.isArray(item.features)&&item.features.length>=3,item.id+": insufficient features");
   assert.ok(Array.isArray(item.platforms)&&item.platforms.length>=1);
-  assert.equal(item.displayStatus,item.id==="protech-music"?"Beta 0.3.9 — تجريبي وليس نهائيًا":item.id==="google-maps-reviews-tracker"?"Beta v46 · Setup + Portable":item.id==="kitchen"?"نسخة Beta للتجربة":item.id==="care"?"Portable Preview · غير موقّع":["smart-excel","stone","quotes"].includes(item.id)?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
+  assert.equal(item.displayStatus,item.id==="protech-music"?"Beta 0.4.0 — تجريبي وليس نهائيًا":item.id==="google-maps-reviews-tracker"?"Beta v46 · Setup + Portable":item.id==="kitchen"?"نسخة Beta للتجربة":item.id==="care"?"Portable Preview · غير موقّع":["smart-excel","stone","quotes"].includes(item.id)?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
   assert.match(item.preview,/^assets\/previews\/[a-z0-9_-]+\.(?:svg|png)$/);
   if(item.preview.endsWith(".svg")){
     const svg=read(item.preview);
