@@ -45,7 +45,7 @@
     '"><span class="status-dot" aria-hidden="true"></span>' + readinessText(p) + "</span>";
   const previewFor = p => {
     const path = String(p.preview || "");
-    return /^assets\/previews\/[a-z0-9_-]+\.svg$/.test(path) ? path : "favicon.svg";
+    return /^assets\/previews\/[a-z0-9_-]+\.(?:svg|png)$/.test(path) ? path : "favicon.svg";
   };
   const label = p => tx(p.previewAlt || ("صورة توضيحية لبرنامج " + p.title));
   const searchable = p => [p.title,p.english,p.category,p.description,p.keywords,p.version,p.summary,p.features.join(" ")].concat(p.platforms).join(" ").toLocaleLowerCase();

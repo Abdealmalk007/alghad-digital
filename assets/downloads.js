@@ -131,5 +131,23 @@ window.AL_GHAD_DOWNLOADS = Object.freeze({
       {label:"تنزيل مثبت Windows EXE — غير موقّع", platform:"Windows x64 • UNSIGNED Preview", recommended:true, bytes:47967221, url:"https://github.com/Abdealmalk007/ProTechStoneManager/releases/download/v2.0.0-unsigned-preview/ProTechStoneManager_Setup_v2.0.0_UNSIGNED.exe"}
     ],
     note:"نسخة Preview عامة للتجربة فقط، غير موقّعة رقميًا (NotSigned). قد يظهر Windows SmartScreen؛ تحقق من SHA256 واختبر على جهاز تجريبي قبل الاستخدام الفعلي."
+  },
+  "protech-music": {
+    "repository": "ProTechMusic",
+    "version": "0.3.9-beta.1",
+    "channel": "preview",
+    "release": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.3.9-beta.1",
+    "checksum": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.3.9-beta.1/SHA256SUMS_v039_beta1.txt",
+    "files": [
+      {
+        "label": "ProTech Music — APK موقّع للتجربة (Beta)",
+        "platform": "Android 8+ · Beta وليس نهائيًا",
+        "recommended": true,
+        "bytes": 8975443,
+        "url": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.3.9-beta.1/ProTechMusic_v0.3.9_beta1_SIGNED.apk"
+      }
+    ],
+    "note": "إصدار Beta. يتطلب السماح بقراءة الصوتيات لفهرسة الملفات المتاحة؛ الحذف النهائي يستدعي موافقتين. لم تُستكمل اختبارات جميع الأجهزة والسماعات، ويُرجى الاحتفاظ بنسخة من الملفات المهمة."
   }
+
 });

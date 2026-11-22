@@ -32,6 +32,8 @@ def esc(v:object)->str:
     return html.escape(str(v if v is not None else ""),quote=True)
 
 CATALOG={
+ "protech-music":("Android audio and music player", "Offline audio library, automatic folder categories, customizable playlists, queue/shuffle/repeat and device-supported EQ, bass and bounded loudness. Signed Android Beta; not a final build.",
+   ["Accessible audio discovery","WhatsApp, Downloads, Telegram and Recordings categories","Custom playlists and bulk sharing","Queue and repeat controls","Device-supported EQ/BassBoost with safe limits"]),
  "smart-excel":("Excel data analytics","Analyze spreadsheet data and present findings using desktop reports and visualizations.",
    ["Excel data import","Data analysis and statistics","Charts and reports","Integrated 30.7.2 setup","Local login screen removed in update"]),
  "stone":("Stone and porcelain operations","Manage stone and porcelain projects, customers, material selections and operational reports.",
@@ -100,7 +102,7 @@ def brand_card(product:dict,download:dict,wide:bool=False)->str:
     action=(external(preferred["url"],"Download" if slug!="stone" else "Download Beta (UNSIGNED)","en-btn en-btn-primary")
             if preferred and published else '<span class="en-download-unavailable">Download coming soon</span>')
     preview=product.get("preview","")
-    assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.svg",preview)
+    assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.(?:svg|png)",preview) and (ROOT/preview).is_file()
     status_note=("In development / experimental only. Contact us on WhatsApp or by email to ask about availability."
         if not published else "Beta/Preview release — not a final certified version. For orders or enquiries, contact us via WhatsApp or email.")
     version=esc(release.get("version") or product.get("version") or "")

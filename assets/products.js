@@ -352,5 +352,40 @@ window.AL_GHAD_PRODUCTS = [
     "preview": "assets/previews/reviews-tracker-v45.png",
     "previewAlt": "Reviews Tracker v45 — new app icon and dashboard capability preview",
     "displayStatus": "Beta v46 · Setup + Portable"
+  },
+  {
+    "id": "protech-music",
+    "title": "ProTech Music",
+    "english": "MUSIC PLAYER",
+    "category": "مشغل صوتيات وموسيقى لأندرويد",
+    "description": "مشغل ProTech Music للأندرويد مع فهرسة الصوتيات المتاحة تلقائيًا، تصنيف واتساب والتنزيلات، قوائم مخصصة ومشاركة ومؤثرات صوتية. إصدار Beta تجريبي لم يجتز جميع اختبارات الأجهزة بعد.",
+    "details": "إصدار 0.3.9 Beta للأندرويد 8 والأحدث. يفهرس الصوتيات المتاحة عبر MediaStore بعد موافقة المستخدم، ويجمعها حسب التطبيقات والمجلدات. تستطيع إنشاء قوائم وإضافة المقاطع أو إزالتها من القوائم دون حذف الأصل، أو مشاركة مقاطع متعددة، وتشغيل القوائم بالترتيب أو عشوائيًا وتغيير التكرار. يوجد Equalizer وBassBoost ومضخم محدود +6 dB عند دعم الجهاز. يتطلب الحذف النهائي تأكيد التطبيق وموافقة Android. اختُبر على محاكي Android 15 فقط؛ ليس إصدارًا نهائيًا ولا نضمن توافق جميع الهواتف بعد.",
+    "platforms": [
+      "Android 8+"
+    ],
+    "version": "0.3.9-beta.1",
+    "status": "public",
+    "github": "https://github.com/Abdealmalk007/ProTechMusic",
+    "features": [
+      "فهرسة تلقائية لصوتيات الجهاز المسموح الوصول إليها",
+      "تصنيف واتساب والتنزيلات والتسجيلات وتيليجرام",
+      "قوائم تشغيل مخصصة وتحكم بالترتيب والخلط والتكرار",
+      "تحديد ومشاركة عدة مقاطع وحذف نهائي بموافقة Android",
+      "Equalizer وBass Boost ومضخم صوت محدود حسب دعم الجهاز"
+    ],
+    "emblem": "♫",
+    "colors": [
+      "#211b58",
+      "#09182c",
+      "#5e62ff"
+    ],
+    "keywords": "ProTech Music music player Android مشغل صوتيات اغاني موسيقى واتساب تسجيلات تنزيلات قوائم صوتيات موسيقى",
+    "summary": "مشغل صوتيات Android تجريبي قابل للتحميل",
+    "release": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.3.9-beta.1",
+    "releaseLabel": "تنزيل APK تجريبي موقّع",
+    "preview": "assets/previews/protech-music.svg",
+    "previewAlt": "أيقونة ProTech Music مع نغمة موسيقية وموجات صوتية",
+    "displayStatus": "Beta 0.3.9 — تجريبي وليس نهائيًا"
   }
+
 ];

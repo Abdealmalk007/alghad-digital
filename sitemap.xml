@@ -2,29 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alghad.digital/</loc>
-    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/programs/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/news/</loc>
-    <lastmod>2026-11-21</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/free-windows-tools/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/ai-news/</loc>
-    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/tech-companies/</loc>
-    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/cars/</loc>
-    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/about/</loc>
@@ -69,33 +64,31 @@
     <loc>https://alghad.digital/programs/google-maps-reviews-tracker/</loc>
   </url>
   <url>
+    <loc>https://alghad.digital/programs/protech-music/</loc>
+  </url>
+  <url>
     <loc>https://alghad.digital/windows-office/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/en/</loc>
-    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/en/programs/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/en/news/</loc>
-    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/en/free-windows-tools/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/en/ai-news/</loc>
-    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/en/tech-companies/</loc>
-    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/en/cars/</loc>
-    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://alghad.digital/en/about/</loc>
@@ -108,6 +101,9 @@
   </url>
   <url>
     <loc>https://alghad.digital/en/protech/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/en/programs/protech-music/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/en/programs/smart-excel/</loc>

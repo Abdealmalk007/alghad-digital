@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "verified_at": "2026-11-18T12:47:42Z",
+  "verified_at": "2026-11-21T13:43:20Z",
   "source": "Official GitHub Releases API; SHA-256 digest fields are supplied by GitHub",
   "releases": {
     "stone": {
@@ -68,7 +68,7 @@
     "reports": {
       "repository": "DailyWorkReports-Flexible",
       "version": "15.7.1",
-      "published_at": "2026-11-18T11:10:22Z",
+      "published_at": "2026-11-18T11:09:38Z",
       "tag_url": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.7.1",
       "prerelease": true,
       "assets": [
@@ -147,6 +147,22 @@
           "bytes": 89461,
           "sha256": "272d2b353a1527bcb51ebbcccbb3c95ab64fdfcfdb247b20fed21c3d2cabb339",
           "recommended": false
+        }
+      ]
+    },
+    "protech-music": {
+      "repository": "ProTechMusic",
+      "version": "0.3.9-beta.1",
+      "published_at": "2026-11-21T13:41:27Z",
+      "tag_url": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.3.9-beta.1",
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "ProTechMusic_v0.3.9_beta1_SIGNED.apk",
+          "url": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.3.9-beta.1/ProTechMusic_v0.3.9_beta1_SIGNED.apk",
+          "bytes": 8975443,
+          "sha256": "bb29a4fbec762b4766e2839ca7bf613d507291e6f7c207e1a83c388663a28f8e",
+          "recommended": true
         }
       ]
     }

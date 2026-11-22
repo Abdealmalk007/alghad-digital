@@ -21,6 +21,7 @@ TAGS={
  "software":("برامج","Software","/programs/"),
  "windows":("ويندوز","Windows","/programs/#windows-software"),
  "android":("أندرويد","Android","/programs/#android-software"),
+ "music":("الموسيقى","MusicPlayer","/programs/protech-music/"),
  "hr":("HR","HR","/programs/hr/"),
  "employees":("الموارد_البشرية","HumanResources","/programs/hr/"),
  "attendance":("الحضور_والانصراف","Attendance","/programs/hr/"),
@@ -45,6 +46,7 @@ TAGS={
  "cars":("السيارات","Cars","/cars/"),
 }
 PER_PRODUCT={
+ "protech-music":("software","android","music"),
  "smart-excel":("software","windows","excel","analytics","reports"),
  "stone":("software","windows","stone","porcelain","business"),
  "marble":("software","windows","stone","delivery","reports"),
@@ -113,8 +115,8 @@ def section(title:str,description:str,keys:tuple[str,...],lang:str,extra:str="")
 
 def discover_sections(products:list[dict],lang:str)->str:
     windows=[p for p in products if "Windows" in p["platforms"]]
-    android=[p for p in products if "Android" in p["platforms"]]
-    assert len(windows)==9 and len(android)==2
+    android=[p for p in products if any(str(platform).startswith("Android") for platform in p["platforms"])]
+    assert len(windows)==9 and len(android)==3
     def links(rows):
         out=[]
         for p in rows:

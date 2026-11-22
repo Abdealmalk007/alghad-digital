@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">ProTech Music</title><desc id="desc">Purple to cyan audio note, equalizer and play symbol</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111a42"/><stop offset="1" stop-color="#27205e"/></linearGradient><linearGradient id="note" x2=".1" y2="1"><stop stop-color="#56f1ff"/><stop offset="1" stop-color="#ae6bff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="14"/></filter></defs>
+<rect width="960" height="540" rx="35" fill="url(#bg)"/><circle cx="475" cy="270" r="180" fill="#7b60ff" opacity=".12" filter="url(#glow)"/>
+<g opacity=".32" stroke="#78d8ff" stroke-width="12" stroke-linecap="round"><path d="M210 275v-28m30 57v-80m30 45v-30m30 78v-100M660 291v-49m30 67v-92m30 57v-27m30 43v-61"/></g>
+<g fill="url(#note)"><path d="M534 147v215a63 63 0 1 1-43-60V201l-126 27v159a63 63 0 1 1-43-60V198a21 21 0 0 1 17-21l171-37a21 21 0 0 1 24 7Z"/></g>
+<circle cx="600" cy="333" r="63" fill="#1c285b" stroke="#86e5ff" stroke-width="8"/><path d="m582 298 48 35-48 35Z" fill="#92f4ff"/>
+<text x="480" y="482" fill="#d9e4ff" font-family="Arial,sans-serif" font-weight="700" font-size="42" text-anchor="middle" letter-spacing="5">PROTECH MUSIC</text>
+</svg>

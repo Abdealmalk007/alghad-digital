@@ -11,8 +11,8 @@ vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
 vm.runInNewContext(read("assets/downloads.js"),ctx,{timeout:1000});
 const manifest=ctx.window.AL_GHAD_DOWNLOADS;
 const p=ctx.window.AL_GHAD_PRODUCTS;
-assert.equal(Object.keys(manifest).length,10,"Nine published projects must have release records");
-const publishedReleaseIds=["smart-excel","stone","download","hr","marble","reports","quotes","care","kitchen","google-maps-reviews-tracker"];
+assert.equal(Object.keys(manifest).length,11,"Nine published projects must have release records");
+const publishedReleaseIds=["smart-excel","stone","download","hr","marble","reports","quotes","care","kitchen","google-maps-reviews-tracker","protech-music"];
 for(const id of publishedReleaseIds){
   const d=manifest[id];
   const product=p.find(x=>x.id===id);
@@ -33,9 +33,9 @@ assert.equal(manifest.stone.files.length,1,"Unsigned preview is publicly availab
 assert.match(manifest.stone.release,/v2\.0\.0-unsigned-preview$/);
 
 assert.ok(Array.isArray(p));
-assert.equal(p.length,10,"The public catalog must contain 10 products");
-assert.equal(new Set(p.map(x=>x.id)).size,10);
-const published=["smart-excel","stone","marble","reports","hr","download","quotes","care","kitchen","google-maps-reviews-tracker"].sort();
+assert.equal(p.length,11,"The public catalog must contain 10 products");
+assert.equal(new Set(p.map(x=>x.id)).size,11);
+const published=["smart-excel","stone","marble","reports","hr","download","quotes","care","kitchen","google-maps-reviews-tracker","protech-music"].sort();
 assert.deepEqual(Array.from(p.filter(x=>x.status==="public"),x=>x.id).sort(),published);
 assert.equal(p.filter(x=>x.status==="dev").length,0);
 assert.ok(!p.some(x=>["omar","reem","recorder","tv"].includes(x.id)));
@@ -49,16 +49,21 @@ for(const item of p){
   }
   assert.ok(Array.isArray(item.features)&&item.features.length>=3,item.id+": insufficient features");
   assert.ok(Array.isArray(item.platforms)&&item.platforms.length>=1);
-  assert.equal(item.displayStatus,item.id==="google-maps-reviews-tracker"?"Beta · غير موقّع":item.id==="kitchen"?"نسخة Beta للتجربة":item.id==="care"?"Portable Preview · غير موقّع":["smart-excel","stone","quotes"].includes(item.id)?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
-  assert.match(item.preview,/^assets\/previews\/[a-z0-9_-]+\.svg$/);
-  const svg=read(item.preview);
-  assert.match(svg,/<svg\b/);assert.match(svg,/<\/svg>/);
-  assert.match(svg,/viewBox="0 0 960 540"/);
-  assert.doesNotMatch(svg,/<script\b|xlink:href|<foreignObject\b|javascript:/i);
+  assert.equal(item.displayStatus,item.id==="protech-music"?"Beta 0.3.9 — تجريبي وليس نهائيًا":item.id==="google-maps-reviews-tracker"?"Beta v46 · Setup + Portable":item.id==="kitchen"?"نسخة Beta للتجربة":item.id==="care"?"Portable Preview · غير موقّع":["smart-excel","stone","quotes"].includes(item.id)?"Beta · نسخة تجريبية":item.status==="public"?"مكتمل":"قريبًا جدًا");
+  assert.match(item.preview,/^assets\/previews\/[a-z0-9_-]+\.(?:svg|png)$/);
+  if(item.preview.endsWith(".svg")){
+    const svg=read(item.preview);
+    assert.match(svg,/<svg\b/);assert.match(svg,/<\/svg>/);
+    assert.match(svg,/viewBox="0 0 960 540"/);
+    assert.doesNotMatch(svg,/<script\b|xlink:href|<foreignObject\b|javascript:/i);
+  } else {
+    const png=fs.readFileSync(path.join(root,item.preview));
+    assert.equal(png.subarray(0,8).toString("hex"),"89504e470d0a1a0a",item.preview+" must be a PNG");
+  }
   if(item.status==="public"){
     assert.equal(item.github,"https://github.com/Abdealmalk007/"+{
       "smart-excel":"SmartExcelAnalyzer-30.7",stone:"ProTechStoneManager",marble:"MarbleDeliveryPro",
-      reports:"DailyWorkReports-Flexible",hr:"HR",download:"Download-Anything-PRO",quotes:"ProTechQuotesContracts",care:"ProTechWindowsCare",kitchen:"KitchenCADProV5","google-maps-reviews-tracker":"GoogleMapsReviewsTracker"
+      reports:"DailyWorkReports-Flexible",hr:"HR",download:"Download-Anything-PRO",quotes:"ProTechQuotesContracts",care:"ProTechWindowsCare",kitchen:"KitchenCADProV5","google-maps-reviews-tracker":"GoogleMapsReviewsTracker","protech-music":"ProTechMusic"
     }[item.id]);
   }else{
     assert.equal(item.github,null,item.id+": coming soon must not link nonexistent repo");
@@ -91,7 +96,7 @@ assert.ok(fs.existsSync(path.join(root,"assets/social/alghad-digital.png")));
 for(const key of ["assets/v3_3.js","assets/v3_3.css",'id="release-showcase"','id="security"','id="trust-current-connection"','href="#downloads"'])assert.ok(html.includes(key),key);
 assert.ok(read("assets/v3_3.js").includes("isSecureContext"));
 assert.ok(html.includes('id="gallery-portfolio-count"') && html.includes('id="back-to-top-floating"'));
-assert.ok(html.includes("assets/products.js?v=3.4.0"));
+assert.ok(html.includes("assets/products.js?v=3.4.1"));
 assert.ok(html.includes("assets/v3_4.js") && html.includes("assets/v3_4.css"));
 assert.ok(read("assets/v3_4.js").includes("history.replaceState"));
 assert.doesNotMatch(read("assets/products.js"),/Call Recorder PRO|CALL RECORDER|recorder\.svg/);

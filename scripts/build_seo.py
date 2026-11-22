@@ -25,6 +25,7 @@ FOUNDER_NAME = "Abdulmalik Ali Hamza"
 FOUNDER_CREDIT = f"{FOUNDER_NAME} — Founder of Alghad Digital (Jeel Alghad) and ProTech."
 FOUNDER_PERSON = {"@type": "Person", "name": FOUNDER_NAME}
 PROGRAM_SEARCH_INTENTS = {
+    "protech-music": "مشغل موسيقى وصوتيات Android مع قوائم تشغيل وواتساب والتنزيلات",
     "smart-excel": "برنامج تحليل بيانات Excel والإحصاءات",
     "stone": "برنامج إدارة الرخام والبورسلان",
     "marble": "برنامج إدارة وتسليم أعمال الرخام",
@@ -38,6 +39,7 @@ PROGRAM_SEARCH_INTENTS = {
 }
 
 PROGRAM_USE_CASES = {
+    "protech-music": ["تشغيل الصوتيات بدون إنترنت", "فرز صوتيات واتساب والتنزيلات والتسجيلات", "إنشاء قوائم تشغيل وتخصيص مؤثرات الصوت"],
     "smart-excel": ["تحليل جداول Excel", "مراجعة البيانات والإحصاءات", "إعداد تقارير تحليلية"],
     "stone": ["إدارة مخزون الرخام والبورسلان", "متابعة العقود والعملاء", "تقارير الألواح والمواد والفواتير"],
     "marble": ["تنظيم تسليمات الرخام", "أرشفة الطلبات والعقود", "تصدير تقارير التسليم والمرفقات"],
@@ -188,7 +190,7 @@ def render_product(product: dict, downloads: dict) -> None:
     features = product.get("features", [])
     use_cases = PROGRAM_USE_CASES[slug]
     image = product.get("preview", "")
-    assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.svg", image), image
+    assert re.fullmatch(r"assets/previews/[a-z0-9-]+\.(?:svg|png)", image) and (ROOT/image).is_file(), image
     assert (ROOT / image).is_file(), image
     feature_html = "".join("<li>" + esc(feature) + "</li>" for feature in features[:5])
     use_case_html = "".join("<li>" + esc(use_case) + "</li>" for use_case in use_cases)

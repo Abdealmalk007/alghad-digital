@@ -1,8 +1,8 @@
 # Google Maps Reviews Tracker
 
-Google Maps Reviews Tracker v44 لنظام Windows، إصدار Beta مع لوحة تحكم تعرض مصدر الأرقام وتغطية الفروع وتاريخ آخر جلب. تنبّه عند نقص البيانات أو قدمها، وتتطلب مراجعات Google Business Profile تفويض OAuth مصرحًا به.
+Google Maps Reviews Tracker v46 لنظام Windows: تصفح التعليقات المحفوظة كاملةً ببطاقات حديثة وجدول واضح وفلاتر حسب الفرع والتقييم والمشاعر والردود والنص، مع نسخة Setup ونسخة Portable مستقلة تعمل دون تثبيت.
 
-واجهة عربية RTL وإنجليزية مع جداول جميع الفروع وترتيب ثابت وفلاتر واضحة وتصدير CSV/PDF. يحتسب متوسط التقييم من الفروع ذات القيم المعروفة، ويعرض تغطية أعداد المراجعات بشكل جزئي عندما تنقص البيانات. تُميّز تواريخ المراجعات النسبية عن تاريخ الاستيراد، ولا تُختلق اتجاهات تاريخية من لقطة واحدة. يتطلب جلب مراجعات الفروع المملوكة صلاحية Google Business Profile OAuth؛ يعرض Places API عينة مراجعات محدودة فقط. نسخة Beta غير موقّعة رقميًا.
+يُظهر v46 جميع التعليقات المحفوظة افتراضيًا حتى لو كانت قديمة، مع البحث في التعليقات والفروع والمراجعين، وفلاتر 1–5 نجوم والمشاعر وحالة الرد والتاريخ والموضوع، والفرز الحقيقي حسب تاريخ الاستيراد. تعرض البطاقات التعليق كاملاً ورد المالك المحفوظ عند توفره، وتتيح التبديل إلى جدول وتصدير CSV والإجراءات المحلية. الأيقونة المعتمدة وتصميم Dashboard الأزرق مستمران. Portable تحفظ بياناتها في Data. الإصدار Beta غير موقّع، ومزامنة Google Business Profile الحية تتطلب OAuth مصرحًا به.
 
 ## المزايا الرئيسية
 
@@ -14,17 +14,29 @@ Google Maps Reviews Tracker v44 لنظام Windows، إصدار Beta مع لوح
 - تغطية البيانات ومؤشرات توضح المفقود والقديم
 - عرض كل الفروع وفرزها وتصحيح المتوسطات والفلاتر
 - حفظ بيانات المستخدم خارج ملفات تثبيت البرنامج
+- إصلاح الأزرار الداكنة وإظهار جميع النصوص بوضوح
+- حقول بحث عربية واضحة دون تداخل النص الإرشادي
+- تسريع الفرز وفلترة النتائج المكتملة عبر Cached analysis
+- أيقونة جديدة وواجهة بطاقات احترافية Responsive
+- نتائج بحث مختصرة ودقيقة مع إظهار بيانات المصدر
+- نسخة Windows Portable بدون تثبيت وبيانات محلية مستقلة
+- تنزيل Setup وPortable من صفحة البرنامج
+- عرض جميع التعليقات المحفوظة وبطاقات حديثة
+- فلترة حسب الفرع والتقييم والمشاعر والردود والفترة والنص
+- التبديل بين البطاقات والجدول وتصدير CSV
+- الفرز بتوقيت الاستيراد الحقيقي وحماية القيم المجهولة
 
 ## الإصدار والمنصات
 
-- الإصدار المعلن: 43.0.0-beta.1.
+- الإصدار المعلن: 46.0.0-beta.1.
 - المنصات المعلنة: Windows.
 - حالة الإتاحة: Beta / Preview — إصدار تجريبي.
 - الحد الأدنى لإصدار النظام والذاكرة: غير متحقق؛ راجع ملاحظات الإصدار.
 
 ## التثبيت والتشغيل
 
-- [تحميل Reviews Tracker v44 — Windows Setup (Beta)](https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Setup.exe)
+- [تنزيل Reviews Tracker v46 — Windows Setup](https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Setup.exe)
+- [تنزيل Reviews Tracker v46 — Portable بدون تثبيت](https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Portable_Windows_x64.zip)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 
@@ -53,38 +65,3 @@ All Rights Reserved للمصدر الحالي المملوك لـ ProTech؛ را
 ## التواصل والدعم
 
 [protech.2025.2026@gmail.com](mailto:protech.2025.2026@gmail.com) · [alghad.digital](https://alghad.digital/)
-
-
-## v44 Search UI and responsiveness
-
-- إصلاح الأزرار الداكنة وإظهار جميع النصوص بوضوح
-- حقول بحث عربية واضحة دون تداخل النص الإرشادي
-- تسريع الفرز وفلترة النتائج المكتملة عبر Cached analysis
-
-QA verified readable controls and Arabic input across three desktop viewports.
-
-
-## v45 Desktop UI and Portable release
-
-- New icon, dashboard feature cards, clean results and right-to-left responsive layout
-- Windows Setup: https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Setup.exe
-- Windows Portable (unzip first): https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Portable_Windows_x64.zip
-- The portable app writes to its own Data/ directory; this is not a copy of installed user data
-- Unsigned Beta release. Google Business Profile OAuth requires authorized account access
-
-- أيقونة جديدة وواجهة بطاقات احترافية Responsive
-- نتائج بحث مختصرة ودقيقة مع إظهار بيانات المصدر
-- نسخة Windows Portable بدون تثبيت وبيانات محلية مستقلة
-- تنزيل Setup وPortable من صفحة البرنامج
-
-## v46 Reviews and comments interface
-
-- عرض جميع التعليقات المحفوظة وبطاقات حديثة
-- فلترة حسب الفرع والتقييم والمشاعر والردود والفترة والنص
-- التبديل بين البطاقات والجدول وتصدير CSV
-- الفرز بتوقيت الاستيراد الحقيقي وحماية القيم المجهولة
-
-- Windows Setup: https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Setup.exe
-- Windows Portable: https://github.com/Abdealmalk007/GoogleMapsReviewsTracker/releases/download/v46.0.0-beta.1/GoogleMapsReviewsTracker_v46_Portable_Windows_x64.zip
-
-Live Google account sync requires authorized OAuth. Beta unsigned.
