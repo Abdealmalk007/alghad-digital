@@ -1,7 +1,137 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T13:18:42Z",
+  "generated_at": "2026-11-22T15:42:38Z",
   "articles": [
+    {
+      "title": "The most recognizable spam email type is way older than the internet",
+      "url": "https://www.engadget.com/2319371/most-recognizable-spam-email-type-way-older-than-internet/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-22T15:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "نوع البريد الإلكتروني العشوائي الأكثر شهرة أقدم بكثير من الإنترنت",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Protesters storm Meta offices in India",
+      "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-22T15:15:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "متظاهرون يقتحمون مكاتب ميتا في الهند",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "4 iPad Pro alternatives for those looking to ditch Apple",
+      "url": "https://www.engadget.com/2319367/ipad-alternatives-to-ditch-apple/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-22T15:15:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "4 بدائل لأجهزة iPad Pro لأولئك الذين يتطلعون إلى التخلي عن منتجات Apple",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Can a TV be too large? An investigation",
+      "url": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-22T15:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هل يمكن أن يكون التلفزيون كبيرًا جدًا؟ تحقيق",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Why you should never vacuum the inside of your computer",
+      "url": "https://www.engadget.com/2319361/why-you-should-never-vacuum-inside-computer/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-22T15:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لماذا يجب ألا تقوم أبدًا بتنظيف الجزء الداخلي من جهاز الكمبيوتر الخاص بك بالمكنسة الكهربائية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Sleep vs. shutdown – Which should Xbox Series X owners actually use?",
+      "url": "https://www.engadget.com/2319358/xbox-series-x-owners-sleep-mode-vs-shutdown/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-22T14:45:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "وضع السكون مقابل إيقاف التشغيل – أيهما يجب على مالكي Xbox Series X استخدامه بالفعل؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Amazon: وكلاء AI اخترقوا خادماً جامعياً خلال 11 دقيقة",
+      "url": "https://3arrafni.com/tech-news/amazon-ai-agents-zero-day-university-server",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-22T14:17:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Amazon: وكلاء AI اخترقوا خادماً جامعياً خلال 11 دقيقة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "‘The show is starting soon. Please turn on your headphones.’",
+      "url": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-22T14:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "\"سيبدأ العرض قريبًا. يرجى تشغيل سماعات الرأس الخاصة بكم\".",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Apple AirPods 5 vs. AirPods Pro 3: What are the key differences?",
+      "url": "https://www.engadget.com/2319344/apple-airpods-5-vs-airpods-pro-3-differences/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-22T13:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سماعات أبل إيربودز 5 مقابل سماعات أبل إيربودز برو 3: ما هي الاختلافات الرئيسية؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "إعادة تصميم تطبيق ChatGPT تضيف شريط تبويبات وواجهة لـ dot",
+      "url": "https://3arrafni.com/tech-news/chatgpt-app-redesign-dot-tab-bar",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-22T13:22:40Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "إعادة تصميم تطبيق ChatGPT تضيف شريط تبويبات وواجهة لـ dot",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "How Tamagotchis got us hooked on digital pets",
+      "url": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-22T13:15:27Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كيف جعلتنا التماغوتشي مدمنين على الحيوانات الأليفة الرقمية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Your questions about Apple HomeView’s audio, answered",
+      "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-22T13:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إجابات على أسئلتك حول الصوت في Apple HomeView",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
     {
       "title": "دبي تكشف تصميم عربات الخط الأزرق للمترو بكاميرات لرصد العوائق وعدّ الركاب",
       "url": "https://aitnews.com/2026/11/22/%d8%af%d8%a8%d9%8a-%d8%aa%d9%83%d8%b4%d9%81-%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d8%b9%d8%b1%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%ae%d8%b7-%d8%a7%d9%84%d8%a3%d8%b2%d8%b1%d9%82-%d9%84%d9%84%d9%85%d8%aa%d8%b1/",
@@ -32,6 +162,16 @@
       "title_ar": "قد يكون للأدوية التي تحتوي على الببتيد الشبيه بالجلوكاجون-1 (GLP-1) عائد بيئي كبير بشكل مدهش",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "الذكاء الاصطناعي.. ثورة تعد بالمستقبل أم فوضى تهدد الحاضر؟",
+      "url": "https://www.aljazeera.net/tech/2026/11/22/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%ab%d9%88%d8%b1%d8%a9-%d8%aa%d8%b9%d8%af-%d8%a8%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-22T12:01:04Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "الذكاء الاصطناعي.. ثورة تعد بالمستقبل أم فوضى تهدد الحاضر؟",
+      "translation_status": "original_ar"
     },
     {
       "title": "Bending Spoons تستحوذ على Mailchimp مقابل 3.68 مليار دولار",
@@ -86,16 +226,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ثغرة صفرية في VMware vCenter تمنح المهاجمين صلاحيات إدارية كاملة",
-      "url": "https://3arrafni.com/tech-news/vmware-vcenter-cve-2026-123890-zero-day-patch",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-22T09:42:40Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ثغرة صفرية في VMware vCenter تمنح المهاجمين صلاحيات إدارية كاملة",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "تحديث Google Docs الجديد يضيف ترقيم الصور والمراجع المتقاطعة تلقائيًا",
       "url": "https://arabhardware.net/post-55208",
       "source": "hardware",
@@ -103,16 +233,6 @@
       "published_at": "2026-11-22T09:31:18Z",
       "category": "أخبار التقنية",
       "title_ar": "تحديث Google Docs الجديد يضيف ترقيم الصور والمراجع المتقاطعة تلقائيًا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أصوات العرب ولهجاتهم ترسم ملامح جيل جديد من الذكاء الاصطناعي",
-      "url": "https://www.aljazeera.net/tech/2026/11/22/%d8%a3%d8%b5%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8-%d9%88%d9%84%d9%87%d8%ac%d8%a7%d8%aa%d9%87%d9%85-%d8%aa%d8%b1%d8%b3%d9%85-%d9%85%d9%84%d8%a7%d9%85%d8%ad-%d8%ac%d9%8a%d9%84?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-22T09:22:32Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "أصوات العرب ولهجاتهم ترسم ملامح جيل جديد من الذكاء الاصطناعي",
       "translation_status": "original_ar"
     },
     {
@@ -186,56 +306,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "هل يحتفظ الذكاء الاصطناعي بأسرارك؟ حوادث تكشف مخاطر الخصوصية",
-      "url": "https://www.aljazeera.net/tech/2026/11/22/%d9%87%d9%84-%d9%8a%d8%ad%d8%aa%d9%81%d8%b8-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d8%a3%d8%b3%d8%b1%d8%a7%d8%b1%d9%83?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-22T08:52:54Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "هل يحتفظ الذكاء الاصطناعي بأسرارك؟ حوادث تكشف مخاطر الخصوصية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث Nothing OS 5.0 يصل إلى Phone (2a) وPhone (2a) Plus",
-      "url": "https://3arrafni.com/nothing-os-5-phone-2a-update",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-22T08:47:40Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث Nothing OS 5.0 يصل إلى Phone (2a) وPhone (2a) Plus",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ارتفاع عجز تجارة السيارات بين كوريا والصين والسبب تسلا",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/22/%d9%88%d8%a7%d8%b1%d8%af%d8%a7%d8%aa-%d8%aa%d8%b3%d9%84%d8%a7-%d8%b9%d8%ac%d8%b2-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%83%d9%88%d8%b1%d9%8a%d8%a7?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-22T08:27:05Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ارتفاع عجز تجارة السيارات بين كوريا والصين والسبب تسلا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الذكاء الاصطناعي بوابة جديدة للمعلومات.. لماذا يرفضه الجمهور في كتابة الأخبار؟",
-      "url": "https://www.aljazeera.net/media/2026/11/22/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d9%88%d8%a7%d8%a8%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-22T08:21:54Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "الذكاء الاصطناعي بوابة جديدة للمعلومات.. لماذا يرفضه الجمهور في كتابة الأخبار؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "4.9 تريليونات دولار إيرادات الصناعة الرقمية في الصين",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/22/4-9-%d8%aa%d8%b1%d9%8a%d9%84%d9%8a%d9%88%d9%86%d8%a7%d8%aa-%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d8%a5%d9%8a%d8%b1%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%86%d8%a7%d8%b9%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-22T08:02:19Z",
-      "category": "أخبار التقنية",
-      "title_ar": "4.9 تريليونات دولار إيرادات الصناعة الرقمية في الصين",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "أسبوع دبي للمستقبل 2026 يختتم أعماله بأكثر من 25 ألف زائر ومشارك و5 ابتكارات فائزة",
       "url": "https://aitnews.com/2026/11/22/%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-%d8%af%d8%a8%d9%8a-%d9%84%d9%84%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-2026-%d9%8a%d8%ae%d8%aa%d8%aa%d9%85-%d8%a3%d8%b9%d9%85%d8%a7%d9%84%d9%87-%d8%a8%d8%a3%d9%83%d8%ab/",
       "source": "aitnews",
@@ -246,59 +316,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "مايكروسوفت تعالج ثغرة في Entra Connect Health كشفت بيانات تقنية لمؤسسات",
-      "url": "https://aitnews.com/2026/11/22/%d9%85%d8%a7%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%88%d9%81%d8%aa-%d8%aa%d8%b9%d8%a7%d9%84%d8%ac-%d8%ab%d8%ba%d8%b1%d8%a9-%d9%81%d9%8a-entra-connect-health-%d9%83%d8%b4%d9%81%d8%aa-%d8%a8%d9%8a%d8%a7%d9%86/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-22T03:01:28Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "مايكروسوفت تعالج ثغرة في Entra Connect Health كشفت بيانات تقنية لمؤسسات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اختراق منصة Rackspace Spot يتيح للمهاجمين الوصول إلى بيانات حساسة لبعض العملاء",
-      "url": "https://aitnews.com/2026/11/22/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d9%85%d9%86%d8%b5%d8%a9-rackspace-spot-%d9%8a%d8%aa%d9%8a%d8%ad-%d9%84%d9%84%d9%85%d9%87%d8%a7%d8%ac%d9%85%d9%8a%d9%86-%d8%a7%d9%84%d9%88%d8%b5%d9%88%d9%84-%d8%a5/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-22T02:41:25Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق منصة Rackspace Spot يتيح للمهاجمين الوصول إلى بيانات حساسة لبعض العملاء",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Attention Pixel 9 and 10 owners: is it actually worth upgrading to the Pixel 11?",
-      "url": "https://www.engadget.com/2319300/pixel-11-is-it-worth-upgrading-from-9-10/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-22T01:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تنبيه لمالكي هاتفي Pixel 9 وPixel 10: هل يستحق الأمر بالفعل الترقية إلى هاتف Pixel 11؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "10 things you should never do on your Android phone",
-      "url": "https://www.engadget.com/2317775/never-do-these-things-on-android-phone/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-22T00:15:00Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "10 أشياء يجب ألا تفعلها أبدًا على هاتفك الذي يعمل بنظام التشغيل أندرويد",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Six products and services Google discontinued in 2026",
-      "url": "https://www.engadget.com/2319181/google-products-services-discontinued-2026/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-21T23:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستة منتجات وخدمات أوقفتها غوغل في عام 2026",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
       "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
       "source": "techcrunch",
@@ -306,17 +323,6 @@
       "published_at": "2026-11-21T21:37:10Z",
       "category": "أخبار التقنية",
       "title_ar": "سيجنال تقيد لقطات الشاشة على الأجهزة المحمولة لأنها تواجه \"تهديدًا وجوديًا\" من مراقبة الذكاء الاصطناعي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "The UN fails to agree on rules regulating ‘killer robots’",
-      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-21T20:03:37Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الأمم المتحدة تفشل في الاتفاق على قواعد تنظم \"الروبوتات القاتلة\"",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
