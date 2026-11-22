@@ -76,6 +76,16 @@ BENEFITS={
   ("تصدير ومشاركة النتائج","جهز تقارير CSV وExcel وPDF؛ يلزم OAuth مصرح به لجلب مراجعات الفروع الموثقة.",
    "Portable reports","Export CSV, Excel and PDF. Owned location review collection requires authorized OAuth."),
  ],
+ "protech-music":[
+  ("فهرسة الصوتيات المسموح بها","عرض المقاطع التي سمح Android للتطبيق بالوصول إليها من مكتبة الهاتف.",
+   "Device audio library","Browse audio the user authorizes through Android MediaStore."),
+  ("قوائم تشغيل مرنة","إنشاء قوائم تشغيل والتحكم في ترتيب المقاطع والخلط والتكرار.",
+   "Flexible playlists","Create playlists, choose playback order, and use shuffle and repeat."),
+  ("تنظيم ومشاركة المقاطع","تصنيف الملفات الصوتية حسب المصدر ومشاركة عدة مقاطع عند توفرها.",
+   "Organize and share","Group available audio by source and share selected tracks."),
+  ("مؤثرات صوتية تجريبية","استخدام Equalizer وBass Boost عند دعم الجهاز؛ الإصدار Beta غير مختبر على جميع الهواتف.",
+   "Optional sound effects","Equalizer and Bass Boost depend on device support; this Beta is not validated on all phones."),
+ ],
  "quotes":[
   ("قوالب قابلة لإعادة الاستخدام","تجهيز عروض الأسعار والعقود من قوالب يسهل الحفاظ على أسلوب موحد.","Reusable templates","Use editable quotation and contract templates for consistent documents."),
   ("بيانات عميل مكتملة","إدارة اسم العميل ورقم جواله السعودي وعنوانه والبحث في ملفاته تقلل تشتت المعلومات.","Complete customer records","Manage customer names, normalized Saudi mobile numbers and addresses with searchable records."),

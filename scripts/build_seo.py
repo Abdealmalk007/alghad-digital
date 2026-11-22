@@ -304,7 +304,8 @@ def render_product(product: dict, downloads: dict) -> None:
         app_schema["sameAs"] = repo
     target = PAGES_DIR / slug / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(page(title=f"{title} — {intent} | ProTech",
+    target.write_text(page(title=(f"{title} — {intent}" if slug == "protech-music"
+                                  else f"{title} — {intent} | ProTech"),
         description=meta, canonical=canonical, content=content,
         schema=app_schema, asset_prefix="../../"), encoding="utf-8", newline="\n")
 

@@ -9,6 +9,8 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent.parent
 NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 titles = {
+    '/programs/protech-music/': 'ProTech Music | مشغل صوتيات Android',
+    '/en/programs/protech-music/': 'ProTech Music | Android Audio Player',
     '/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker | متابعة تقييمات Google',
     '/en/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker | Branch Analytics',
     "/": "الغد ديجتال (جيل الغد) | برامج Pro Tech لويندوز وأندرويد",
@@ -38,6 +40,8 @@ titles = {
 }
 
 descriptions = {
+    '/programs/protech-music/': 'مشغل ProTech Music لأندرويد يفهرس الصوتيات المسموح بها ويتيح قوائم التشغيل والبحث والمشاركة والمؤثرات حسب الجهاز. نسخة Beta تجريبية.',
+    '/en/programs/protech-music/': 'ProTech Music is an Android beta audio player with MediaStore indexing, playlists, track sharing, and optional sound effects depending on device support.',
     '/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker برنامج ويندوز لمتابعة تقييمات الفروع والمراجعات والتقارير. نسخة Beta تحتاج OAuth لجلب بيانات الفروع الموثقة.',
     '/en/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker Beta for Windows tracks branch ratings, historical trends and review workflows. Owned-location access requires OAuth.',
     "/": "الغد ديجتال (جيل الغد) يعرض برامج ProTech لويندوز وأندرويد: تحليل Excel وإدارة الموظفين والرخام والعقود، مع حالة الإصدار وروابطه الرسمية.",
@@ -130,7 +134,7 @@ def main() -> None:
         url=element.text
         assert url and url.startswith("https://alghad.digital/")
         routes.append(url[len("https://alghad.digital"):])
-    assert len(routes)==44 and len(set(routes))==44
+    assert len(routes)>=24 and len(routes)%2==0 and len(set(routes))==len(routes)
     assert set(titles).issubset(routes),set(titles)-set(routes)
     assert set(descriptions).issubset(routes),set(descriptions)-set(routes)
     changed=sum(process(route)["changed"] for route in routes)

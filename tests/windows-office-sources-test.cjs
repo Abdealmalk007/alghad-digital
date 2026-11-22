@@ -53,7 +53,7 @@ for(const f of ["programs/index.html","en/programs/index.html"])assert.ok(!read(
 assert.ok(read("index.html").includes('href="/windows-office/"'));
 assert.ok(read("en/index.html").includes('href="/en/windows-office/"'));
 const sitemap=read("sitemap.xml");
-assert.equal((sitemap.match(/<loc>/g)||[]).length,44);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,46);
 assert.ok(sitemap.includes("<loc>https://alghad.digital/windows-office/</loc>"));
 assert.ok(sitemap.includes("<loc>https://alghad.digital/en/windows-office/</loc>"));
 assert.ok(read(".github/workflows/update-tech-news.yml").includes("node tests/windows-office-sources-test.cjs"));

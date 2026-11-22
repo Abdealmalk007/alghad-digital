@@ -143,9 +143,10 @@ def patch(route: str, products: dict[str,str]) -> None:
 
 def main() -> None:
     urls = SITEMAP_RE.findall((ROOT / "sitemap.xml").read_text(encoding="utf-8"))
-    if len(urls) != 44 or len(urls) != len(set(urls)):
-        raise ValueError("Sitemap routes differ from expected canonical URLs")
     products = catalog()
+    expected_routes = 2 * (12 + len(products))
+    if len(urls) != expected_routes or len(urls) != len(set(urls)):
+        raise ValueError(f"Expected {expected_routes} unique bilingual canonical URLs, got {len(urls)}")
     for url in urls:
         patch(url, products)
     print("CONTACT_SECURITY_PAGES_PASS",

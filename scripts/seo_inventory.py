@@ -66,7 +66,7 @@ for issue in issues[:80]:print("ISSUE",json.dumps(issue,ensure_ascii=True))
 if "--check" in sys.argv:
  if issues:
   sys.exit(1)
- print("SEO_INVENTORY_PASS pages=42 locales=ar,en canonical=42 hreflang=42 titles=42")
+ print(f"SEO_INVENTORY_PASS pages={len(pages)} locales=ar,en canonical={len(pages)} hreflang={len(pages)} titles={len(pages)}")
 else:
  for url,q in pages.items():
   print("META",json.dumps({"url":url,"title":q.title,"desc":q.meta.get("description",""),"h1":q.h1},ensure_ascii=True))

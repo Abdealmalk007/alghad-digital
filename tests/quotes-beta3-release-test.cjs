@@ -11,7 +11,7 @@ vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
 vm.runInNewContext(read("assets/downloads.js"),ctx,{timeout:1000});
 const products=ctx.window.AL_GHAD_PRODUCTS,downloads=ctx.window.AL_GHAD_DOWNLOADS;
 const item=products.find(x=>x.id==="quotes"),entry=downloads.quotes;
-assert.equal(products.length,10,"Preserve SmartExcel and all other existing programs");
+assert.equal(products.length,11,"Preserve SmartExcel and all other existing programs");
 assert.ok(products.some(x=>x.id==="smart-excel"),"Newer SmartExcel program must not disappear");
 assert.ok(products.some(x=>x.id==="kitchen"),"Kitchen CAD remains listed");
 assert.equal(item.version,"2.0.0-beta.3");

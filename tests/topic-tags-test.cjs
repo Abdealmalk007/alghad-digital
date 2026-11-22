@@ -7,8 +7,8 @@ const root=path.resolve(__dirname,"..");
 const read=name=>fs.readFileSync(path.join(root,name),"utf8");
 const sitemap=read("sitemap.xml");
 const pageUrls=[...sitemap.matchAll(/<loc>https:\/\/alghad\.digital(\/[^<]*)<\/loc>/g)].map(m=>m[1]);
-assert.equal(pageUrls.length,44);
-assert.equal(new Set(pageUrls).size,44);
+assert.equal(pageUrls.length,46);
+assert.equal(new Set(pageUrls).size,46);
 const featured=["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes"];
 const news=["news","ai-news","tech-companies","cars"];
 const tagged=new Set(["/","/en/","/programs/","/en/programs/",

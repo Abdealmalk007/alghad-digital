@@ -46,8 +46,8 @@ def main() -> None:
         raise SystemExit("Invalid GA4_MEASUREMENT_ID (expected G- plus 6-16 ASCII letters/digits)")
     sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
     routes = re.findall(r"<loc>https://alghad\.digital(/[^<]*)</loc>", sitemap)
-    if len(routes) != 44 or len(set(routes)) != 44:
-        raise RuntimeError("Unexpected sitemap routes")
+    if len(routes) < 24 or len(routes) % 2 or len(set(routes)) != len(routes):
+        raise RuntimeError("Expected unique, paired Arabic/English sitemap routes")
     for route in routes:
         target = ROOT / route.lstrip("/") / "index.html"
         source = target.read_text(encoding="utf-8")
