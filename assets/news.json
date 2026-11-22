@@ -1,7 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T12:44:15Z",
+  "generated_at": "2026-11-22T13:18:42Z",
   "articles": [
+    {
+      "title": "دبي تكشف تصميم عربات الخط الأزرق للمترو بكاميرات لرصد العوائق وعدّ الركاب",
+      "url": "https://aitnews.com/2026/11/22/%d8%af%d8%a8%d9%8a-%d8%aa%d9%83%d8%b4%d9%81-%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d8%b9%d8%b1%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%ae%d8%b7-%d8%a7%d9%84%d8%a3%d8%b2%d8%b1%d9%82-%d9%84%d9%84%d9%85%d8%aa%d8%b1/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-22T12:56:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "دبي تكشف تصميم عربات الخط الأزرق للمترو بكاميرات لرصد العوائق وعدّ الركاب",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ادعاءات بإثبات فرضية ريمان عبر Claude وباحث من Stanford",
+      "url": "https://3arrafni.com/tech-news/riemann-hypothesis-claude-stanford-proof-claims",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-22T12:27:40Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "ادعاءات بإثبات فرضية ريمان عبر Claude وباحث من Stanford",
+      "translation_status": "original_ar"
+    },
     {
       "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
       "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
@@ -83,6 +103,16 @@
       "published_at": "2026-11-22T09:31:18Z",
       "category": "أخبار التقنية",
       "title_ar": "تحديث Google Docs الجديد يضيف ترقيم الصور والمراجع المتقاطعة تلقائيًا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أصوات العرب ولهجاتهم ترسم ملامح جيل جديد من الذكاء الاصطناعي",
+      "url": "https://www.aljazeera.net/tech/2026/11/22/%d8%a3%d8%b5%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8-%d9%88%d9%84%d9%87%d8%ac%d8%a7%d8%aa%d9%87%d9%85-%d8%aa%d8%b1%d8%b3%d9%85-%d9%85%d9%84%d8%a7%d9%85%d8%ad-%d8%ac%d9%8a%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-22T09:22:32Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "أصوات العرب ولهجاتهم ترسم ملامح جيل جديد من الذكاء الاصطناعي",
       "translation_status": "original_ar"
     },
     {
@@ -206,26 +236,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Google تحدد مواعيد إيقاف Assistant على أجهزة Nest وما يلزمك فعله",
-      "url": "https://3arrafni.com/tech-news/google-assistant-nest-shutdown-dates",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-22T07:52:40Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Google تحدد مواعيد إيقاف Assistant على أجهزة Nest وما يلزمك فعله",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كيف أسقطت التكنولوجيا والحيل أحد أخطر أباطرة المخدرات في المكسيك؟",
-      "url": "https://www.aljazeera.net/politics/2026/11/22/%d9%83%d9%8a%d9%81-%d8%a3%d8%b3%d9%82%d8%b7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-%d9%88%d8%a7%d9%84%d8%ad%d9%8a%d9%84-%d8%a3%d8%ad%d8%af-%d8%a3%d8%ae%d8%b7%d8%b1?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-22T07:26:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "كيف أسقطت التكنولوجيا والحيل أحد أخطر أباطرة المخدرات في المكسيك؟",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "أسبوع دبي للمستقبل 2026 يختتم أعماله بأكثر من 25 ألف زائر ومشارك و5 ابتكارات فائزة",
       "url": "https://aitnews.com/2026/11/22/%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-%d8%af%d8%a8%d9%8a-%d9%84%d9%84%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-2026-%d9%8a%d8%ae%d8%aa%d8%aa%d9%85-%d8%a3%d8%b9%d9%85%d8%a7%d9%84%d9%87-%d8%a8%d8%a3%d9%83%d8%ab/",
       "source": "aitnews",
@@ -263,17 +273,6 @@
       "published_at": "2026-11-22T01:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "تنبيه لمالكي هاتفي Pixel 9 وPixel 10: هل يستحق الأمر بالفعل الترقية إلى هاتف Pixel 11؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Samsung vs. LG OLED TVs: What's the difference between them?",
-      "url": "https://www.engadget.com/2310887/samsung-vs-lg-oled-tv-difference-between/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-22T01:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أجهزة تلفزيون سامسونج مقابل أجهزة تلفزيون إل جي أوليد: ما الفرق بينهما؟",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },

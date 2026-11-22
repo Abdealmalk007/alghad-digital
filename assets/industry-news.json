@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T12:44:18Z",
+  "generated_at": "2026-11-22T13:18:45Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -536,6 +536,32 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Learning from a Champion: On the Hungaroring with Jörg Bergmeister",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-track-experience-joerg-bergmeister-hungaroring-43733.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-17T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "التعلم من بطل: في حلبة هانغارورينغ مع يورغ بيرغمايستر",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Porsche Junior 2027: Five-day assessment completed",
+          "url": "https://newsroom.porsche.com/en/ppdb/2026/11/porsche-junior-2027-five-day-assessment-completed.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-15T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "برنامج بورشه جونيور 2027: الانتهاء من التقييم الذي استمر خمسة أيام",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Toyota Recalls Certain Model Year 2022-2023 and 2025-2026 Toyota Tundra Vehicles",
           "url": "https://pressroom.toyota.com/toyota-recalls-certain-model-year-2022-2023-and-2025-2026-toyota-tundra-vehicles/",
           "source": "toyota",
@@ -549,6 +575,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Porsche 718/2: From sports car to Formula One frontrunner",
+          "url": "https://newsroom.porsche.com/en/2026/history/porsche-single-seater-history-718-formula-2-43724.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-13T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "بورشه 718/2: من سيارة رياضية إلى متسابقة رائدة في الفورمولا ون",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Toyota Recalls Front Passenger Airbags in Certain Vehicles",
           "url": "https://pressroom.toyota.com/toyota-recalls-front-passenger-airbags-in-certain-vehicles/",
           "source": "toyota",
@@ -558,6 +597,32 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تستدعي الوسائد الهوائية للراكب الأمامي في بعض المركبات",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Banzai Legacy Lab: Culture in Motion",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-banzai-legacy-lab-thomas-schlereth-43717.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-12T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "مختبر بانزاي ليغاسي: الثقافة في حركة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Twelve talented drivers compete for the status of Porsche Junior 2027",
+          "url": "https://newsroom.porsche.com/en/2026/motorsports/porsche-junior-2027-young-racing-driver-preview-43703.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-11T11:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "يتنافس اثنا عشر سائقًا موهوبًا على لقب بورش جونيور 2027",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -649,71 +714,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "إشعار بشأن حالة إعادة شراء الأسهم",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Subaru Corporation Announces Organizational Changes(Effective November 1, 2026)",
-          "url": "https://www.subaru.co.jp/news-en/2026_11_02_114626/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-11-02T02:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تعلن شركة سوبارو عن تغييرات تنظيمية (اعتبارًا من 1 نوفمبر 2026)",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Toyota and Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
-          "url": "https://global.toyota/en/newsroom/corporate/44960881.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-10-30T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا ووايمو تعززان التعاون في مجال القيادة الذاتية من أجل شوارع أكثر أمانًا وحرية التنقل للجميع",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "The SUBARU Group Releases the Integrated Report 2026 and Sustainability Web 2026",
-          "url": "https://www.subaru.co.jp/news-en/2026_10_30_103257/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-10-30T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تصدر مجموعة سوبارو التقرير المتكامل لعام 2026 وموقع الويب الخاص بالاستدامة لعام 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche Engineering and Porsche Digital combine their expertise",
-          "url": "https://newsroom.porsche.com/en/2026/company/porsche-engineering-digital-combine-expertise-porsche-technologies-43556.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-10-21T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تجمع بورش للهندسة وبورش الرقمية خبراتهما معًا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "HONDA SHOWCASES MULTIPLE MOBILITY INNOVATIONS AT JAPAN MOBILITY SHOW BIZWEEK AND CEATEC 2026",
-          "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/591488/honda-showcases-multiple-mobility-innovations-at-japan-mobility-show-bizweek-and-ceatec-2026",
-          "source": "honda",
-          "source_name": "Honda",
-          "published_at": "2026-10-19T12:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "هوندا تعرض العديد من ابتكارات التنقل في معرض اليابان للتنقل BIZWEEK ومعرض CEATEC 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
