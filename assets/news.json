@@ -1,7 +1,70 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T10:24:00Z",
+  "generated_at": "2026-11-22T12:44:15Z",
   "articles": [
+    {
+      "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
+      "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-22T12:07:41Z",
+      "category": "أخبار التقنية",
+      "title_ar": "قد يكون للأدوية التي تحتوي على الببتيد الشبيه بالجلوكاجون-1 (GLP-1) عائد بيئي كبير بشكل مدهش",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Bending Spoons تستحوذ على Mailchimp مقابل 3.68 مليار دولار",
+      "url": "https://3arrafni.com/tech-news/bending-spoons-acquires-mailchimp",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-22T11:32:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Bending Spoons تستحوذ على Mailchimp مقابل 3.68 مليار دولار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Samsung and stc group Partner to Enhance Home Entertainment in Saudi Arabia",
+      "url": "https://technologyarabia.com/archives/18150/samsung-and-stc-group-partner-to-enhance-home-entertainment-in-saudi-arabia/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-22T11:09:22Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سامسونج ومجموعة stc تتعاونان لتعزيز الترفيه المنزلي في المملكة العربية السعودية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "حضور بارز لتطبيق stc tv على تلفزيونات سامسونج المؤهلة واشتراك في باقة بريميوم لمدة ستة أشهر دون تكلفة إضافية للعملاء المؤهلين",
+      "url": "https://technologyarabia.com/archives/18147/%d8%ad%d8%b6%d9%88%d8%b1-%d8%a8%d8%a7%d8%b1%d8%b2-%d9%84%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-stc-tv-%d8%b9%d9%84%d9%89-%d8%aa%d9%84%d9%81%d8%b2%d9%8a%d9%88%d9%86%d8%a7%d8%aa-%d8%b3%d8%a7%d9%85%d8%b3/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-22T11:05:10Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "حضور بارز لتطبيق stc tv على تلفزيونات سامسونج المؤهلة واشتراك في باقة بريميوم لمدة ستة أشهر دون تكلفة إضافية للعملاء المؤهلين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Banks Have Had It Up to Here With Your AI Agent",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-22T11:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لقد سئمت البنوك من وكيل الذكاء الاصطناعي الخاص بك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "برمجية Bazuka الخبيثة على Android تخفي سرقة كلمات المرور ورموز SMS",
+      "url": "https://3arrafni.com/tech-news/bazuka-android-malware-fake-screen",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-22T10:37:40Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "برمجية Bazuka الخبيثة على Android تخفي سرقة كلمات المرور ورموز SMS",
+      "translation_status": "original_ar"
+    },
     {
       "title": "ثغرة صفرية في VMware vCenter تمنح المهاجمين صلاحيات إدارية كاملة",
       "url": "https://3arrafni.com/tech-news/vmware-vcenter-cve-2026-123890-zero-day-patch",
@@ -13,6 +76,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "تحديث Google Docs الجديد يضيف ترقيم الصور والمراجع المتقاطعة تلقائيًا",
+      "url": "https://arabhardware.net/post-55208",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-22T09:31:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث Google Docs الجديد يضيف ترقيم الصور والمراجع المتقاطعة تلقائيًا",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "سامسونج تختبر نقل إشعارات Now Bar إلى أعلى منتصف الشاشة على غرار Dynamic Island",
       "url": "https://www.tech-wd.com/wd/2026/11/22/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%ae%d8%aa%d8%a8%d8%b1-%d9%86%d9%82%d9%84-%d8%a5%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa-now-bar-%d8%a5%d9%84%d9%89-%d8%a3%d8%b9%d9%84%d9%89-%d9%85%d9%86/",
       "source": "techwd",
@@ -20,6 +93,16 @@
       "published_at": "2026-11-22T09:21:34Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "سامسونج تختبر نقل إشعارات Now Bar إلى أعلى منتصف الشاشة على غرار Dynamic Island",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديثات PHP الأمنية تصلح ثغرات حرجة قد تسمح بتنفيذ شيفرة عن بُعد",
+      "url": "https://arabhardware.net/post-55207",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-22T09:18:45Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "تحديثات PHP الأمنية تصلح ثغرات حرجة قد تسمح بتنفيذ شيفرة عن بُعد",
       "translation_status": "original_ar"
     },
     {
@@ -63,6 +146,26 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "Microsoft و Intel توسعان شراكتهما لتزويد Azure بمعالجات Diamond Rapids",
+      "url": "https://arabhardware.net/post-55206",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-22T08:58:49Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "Microsoft و Intel توسعان شراكتهما لتزويد Azure بمعالجات Diamond Rapids",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هل يحتفظ الذكاء الاصطناعي بأسرارك؟ حوادث تكشف مخاطر الخصوصية",
+      "url": "https://www.aljazeera.net/tech/2026/11/22/%d9%87%d9%84-%d9%8a%d8%ad%d8%aa%d9%81%d8%b8-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d8%a3%d8%b3%d8%b1%d8%a7%d8%b1%d9%83?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-22T08:52:54Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "هل يحتفظ الذكاء الاصطناعي بأسرارك؟ حوادث تكشف مخاطر الخصوصية",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "تحديث Nothing OS 5.0 يصل إلى Phone (2a) وPhone (2a) Plus",
       "url": "https://3arrafni.com/nothing-os-5-phone-2a-update",
       "source": "arrafni",
@@ -70,6 +173,36 @@
       "published_at": "2026-11-22T08:47:40Z",
       "category": "أخبار التقنية",
       "title_ar": "تحديث Nothing OS 5.0 يصل إلى Phone (2a) وPhone (2a) Plus",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ارتفاع عجز تجارة السيارات بين كوريا والصين والسبب تسلا",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/22/%d9%88%d8%a7%d8%b1%d8%af%d8%a7%d8%aa-%d8%aa%d8%b3%d9%84%d8%a7-%d8%b9%d8%ac%d8%b2-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%83%d9%88%d8%b1%d9%8a%d8%a7?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-22T08:27:05Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ارتفاع عجز تجارة السيارات بين كوريا والصين والسبب تسلا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الذكاء الاصطناعي بوابة جديدة للمعلومات.. لماذا يرفضه الجمهور في كتابة الأخبار؟",
+      "url": "https://www.aljazeera.net/media/2026/11/22/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d9%88%d8%a7%d8%a8%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-22T08:21:54Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "الذكاء الاصطناعي بوابة جديدة للمعلومات.. لماذا يرفضه الجمهور في كتابة الأخبار؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "4.9 تريليونات دولار إيرادات الصناعة الرقمية في الصين",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/22/4-9-%d8%aa%d8%b1%d9%8a%d9%84%d9%8a%d9%88%d9%86%d8%a7%d8%aa-%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d8%a5%d9%8a%d8%b1%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%86%d8%a7%d8%b9%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-22T08:02:19Z",
+      "category": "أخبار التقنية",
+      "title_ar": "4.9 تريليونات دولار إيرادات الصناعة الرقمية في الصين",
       "translation_status": "original_ar"
     },
     {
@@ -83,33 +216,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "اختراق مزود بيانات يطول عملاء Chase وVisa وMastercard: ما الذي تسرّب؟",
-      "url": "https://3arrafni.com/tech-news/chase-visa-mastercard-vendor-data-breach",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-22T06:57:40Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق مزود بيانات يطول عملاء Chase وVisa وMastercard: ما الذي تسرّب؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث أمني لـ WhatsApp يصلح 3 ثغرات استُخدمت إحداها في احتيال Android",
-      "url": "https://3arrafni.com/tech-news/whatsapp-security-update-three-flaws-android",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-22T06:02:40Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "تحديث أمني لـ WhatsApp يصلح 3 ثغرات استُخدمت إحداها في احتيال Android",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "لقاح للإنفلونزا بتقنية لقاحات كورونا.. هل يسبق تحورات الفيروس؟",
-      "url": "https://www.aljazeera.net/health/2026/11/22/%d9%84%d9%82%d8%a7%d8%ad-%d9%84%d9%84%d8%a5%d9%86%d9%81%d9%84%d9%88%d9%86%d8%b2%d8%a7-%d8%a8%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d9%84%d9%82%d8%a7%d8%ad%d8%a7%d8%aa-%d9%83%d9%88%d8%b1%d9%88%d9%86%d8%a7?traffic_source=rss",
+      "title": "كيف أسقطت التكنولوجيا والحيل أحد أخطر أباطرة المخدرات في المكسيك؟",
+      "url": "https://www.aljazeera.net/politics/2026/11/22/%d9%83%d9%8a%d9%81-%d8%a3%d8%b3%d9%82%d8%b7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-%d9%88%d8%a7%d9%84%d8%ad%d9%8a%d9%84-%d8%a3%d8%ad%d8%af-%d8%a3%d8%ae%d8%b7%d8%b1?traffic_source=rss",
       "source": "aljazeera",
       "source_name": "الجزيرة نت",
-      "published_at": "2026-11-22T04:24:00Z",
+      "published_at": "2026-11-22T07:26:02Z",
       "category": "أخبار التقنية",
-      "title_ar": "لقاح للإنفلونزا بتقنية لقاحات كورونا.. هل يسبق تحورات الفيروس؟",
+      "title_ar": "كيف أسقطت التكنولوجيا والحيل أحد أخطر أباطرة المخدرات في المكسيك؟",
       "translation_status": "original_ar"
     },
     {
@@ -165,17 +278,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "This is what can happen if too many devices are sharing your home network",
-      "url": "https://www.engadget.com/2319295/what-can-happen-too-many-devices-on-home-network/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-22T00:45:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هذا ما يمكن أن يحدث إذا كانت هناك أجهزة كثيرة جدًا تشارك شبكتك المنزلية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "10 things you should never do on your Android phone",
       "url": "https://www.engadget.com/2317775/never-do-these-things-on-android-phone/",
       "source": "engadget",
@@ -185,56 +287,6 @@
       "title_ar": "10 أشياء يجب ألا تفعلها أبدًا على هاتفك الذي يعمل بنظام التشغيل أندرويد",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "نموذج ذكاء اصطناعي يضغط 1 جيجابايت من Wikipedia إلى 105 ميجابايت",
-      "url": "https://arabhardware.net/post-55205",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-21T23:48:43Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "نموذج ذكاء اصطناعي يضغط 1 جيجابايت من Wikipedia إلى 105 ميجابايت",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مستخدم يخفض حرارة لابتوب 35 درجة باستخدام منفاخ هواء ضخم (بلاور)!",
-      "url": "https://arabhardware.net/post-55204",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-21T23:40:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مستخدم يخفض حرارة لابتوب 35 درجة باستخدام منفاخ هواء ضخم (بلاور)!",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ترامب يدرس منع الشركات الأمريكية من بناء مراكز بيانات خارج البلاد",
-      "url": "https://arabhardware.net/post-55203",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-21T23:34:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ترامب يدرس منع الشركات الأمريكية من بناء مراكز بيانات خارج البلاد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "NVIDIA تطلق تحديثًا مهمًا لإصلاح مشكلة تؤثر على وحدات الـ SSDs",
-      "url": "https://arabhardware.net/post-55202",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-21T23:28:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "NVIDIA تطلق تحديثًا مهمًا لإصلاح مشكلة تؤثر على وحدات الـ SSDs",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تقرير: هيئة الأوراق المالية الأمريكية تحقق في ممارسات NVIDIA المحاسبية",
-      "url": "https://arabhardware.net/post-55201",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-21T23:20:36Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقرير: هيئة الأوراق المالية الأمريكية تحقق في ممارسات NVIDIA المحاسبية",
-      "translation_status": "original_ar"
     },
     {
       "title": "Six products and services Google discontinued in 2026",
@@ -248,28 +300,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
-      "url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-21T22:12:41Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مراجعة: ينضم فيلم Godzilla Minus Zero إلى قائمة الأجزاء التالية الرائعة حقًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Amazon is complaining about NYC Council on shipping labels, too",
-      "url": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-21T21:59:31Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تشتكي أمازون من مجلس مدينة نيويورك بشأن ملصقات الشحن أيضًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
       "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
       "source": "techcrunch",
@@ -279,27 +309,6 @@
       "title_ar": "سيجنال تقيد لقطات الشاشة على الأجهزة المحمولة لأنها تواجه \"تهديدًا وجوديًا\" من مراقبة الذكاء الاصطناعي",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "A tale of two Nvidias",
-      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-21T21:07:42Z",
-      "category": "أخبار التقنية",
-      "title_ar": "حكاية شركتي إنفيديا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Cursor تدرس التخلي عن نماذج AI صينية بسبب المخاطر الجيوسياسية",
-      "url": "https://techvoicearabia.com/cursor-chinese-ai-models-geopolitical-risk-spacex/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-21T20:07:07Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Cursor تدرس التخلي عن نماذج AI صينية بسبب المخاطر الجيوسياسية",
-      "translation_status": "original_ar"
     },
     {
       "title": "The UN fails to agree on rules regulating ‘killer robots’",
@@ -364,17 +373,6 @@
       "published_at": "2026-11-20T14:52:51Z",
       "category": "أخبار التقنية",
       "title_ar": "ستعلن الولايات المتحدة قريبًا عن السبب الجذري وراء قرار إدارة الطيران الفيدرالية بإيقاف الرحلات الجوية في جميع أنحاء البلاد",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
-      "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-20T07:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هذا الشاب البالغ من العمر 16 عامًا أسس شركة ناشئة لصواريخ تعمل بالذكاء الاصطناعي. وهو يستهدف \"التكلفة لكل عملية قتل\"",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     }
