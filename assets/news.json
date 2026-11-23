@@ -1,7 +1,180 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T15:56:00Z",
+  "generated_at": "2026-11-23T19:30:35Z",
   "articles": [
+    {
+      "title": "إطلاق Honor 700S رسميًا في الصين مع شاشة خلفية ومزايا قوية للكاميرا والبطارية",
+      "url": "https://www.tech-wd.com/wd/2026/11/23/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-honor-700s-%d8%b1%d8%b3%d9%85%d9%8a%d9%8b%d8%a7-%d9%81%d9%8a-%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%85%d8%b9-%d8%b4%d8%a7%d8%b4%d8%a9-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d9%88/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-23T19:29:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إطلاق Honor 700S رسميًا في الصين مع شاشة خلفية ومزايا قوية للكاميرا والبطارية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Kodak's SlideTag combines a digital photo frame and an AirTag",
+      "url": "https://www.engadget.com/2325598/kodak-slidetag-combines-a-digital-photo-frame-and-an-airtag/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T19:20:26Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يجمع جهاز SlideTag من كوداك بين إطار الصور الرقمي وجهاز AirTag",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T19:14:46Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يمكن لوضع الذكاء الاصطناعي في بحث Google الآن الاستفادة من Drive وWallet للحصول على إجابات أكثر تخصيصًا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "These underrated smart rings are more affordable than the Oura Ring 5",
+      "url": "https://www.engadget.com/2320286/underrated-smart-rings-more-affordable-oura-ring-5/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T19:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هذه الخواتم الذكية التي لا تحظى بالتقدير الكافي أرخص من خاتم أورا 5",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Uber now lets riders request drivers who are recording their trips",
+      "url": "https://www.engadget.com/2325472/uber-now-lets-riders-request-drivers-who-are-recording-their-trips/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T18:24:49Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تتيح أوبر الآن للركاب طلب شركاء سائقين يقومون بتسجيل مشاويرهم",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T18:12:22Z",
+      "category": "أخبار التقنية",
+      "title_ar": "من المقرر أن يدلي جنسن هوانغ بشهادته الأسبوع المقبل في مجلس الشيوخ بعد إعادة تعيينه رئيسًا تنفيذيًا لشركة إنفيديا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
+      "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-23T17:52:56Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عاد جنسن هوانغ، وكذلك سهم إنفيديا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "You can block AI slop and spam on these social media platforms",
+      "url": "https://www.engadget.com/2320284/how-block-ai-slop-spam-social-media-platforms/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T17:45:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يمكنك حظر محتوى الذكاء الاصطناعي غير المرغوب فيه والرسائل غير المرغوب فيها على منصات التواصل الاجتماعي هذه",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T17:14:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أمازون تستحوذ على تقنية تحسين الذكاء الاصطناعي من Decart مقابل 7.5 مليار دولار بينما تستعد لبيع رقاقات Trainium",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Meta throws out its net-zero goal. Its competitors should be furious",
+      "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T17:13:45Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ميتا تتخلى عن هدفها للوصول إلى صافي انبعاثات صفرية. يجب أن يكون منافسوها غاضبين",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Google is finally retiring the Nest app early next year",
+      "url": "https://www.engadget.com/2325245/google-is-finally-retiring-the-nest-app-early-next-year/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T16:59:56Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ستوقف غوغل أخيرًا تطبيق Nest في أوائل العام المقبل",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T16:57:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "جينسن هوانغ لم يخرج من المأزق بعد",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "الذكاء الاصطناعي في مختبرات الإنجاب: أداة جديدة لرصد أندر الخلايا المنوية",
+      "url": "https://www.bbc.com/arabic/watch/cxvg2n7n9qmro?at_medium=RSS&at_campaign=rss",
+      "source": "bbc",
+      "source_name": "BBC عربي",
+      "published_at": "2026-11-23T16:42:26Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "الذكاء الاصطناعي في مختبرات الإنجاب: أداة جديدة لرصد أندر الخلايا المنوية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
+      "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-23T16:30:11Z",
+      "category": "أخبار التقنية",
+      "title_ar": "البيت الأبيض يتباهى بأن ترامب كان \"منخرطًا تمامًا\" في إعادة تعيين جنسن",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Tech leaders are celebrating Jensen Huang’s return",
+      "url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-23T16:14:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الرواد التقنيون يحتفلون بعودة جنسن هوانغ",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "إنفيديا تعيد جنسن هوانغ رئيسًا تنفيذيًا",
+      "url": "https://aitnews.com/2026/11/23/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%aa%d8%b9%d9%8a%d8%af-%d8%ac%d9%86%d8%b3%d9%86-%d9%87%d9%88%d8%a7%d9%86%d8%ba-%d8%b1%d8%a6%d9%8a%d8%b3%d9%8b%d8%a7-%d8%aa%d9%86%d9%81%d9%8a%d8%b0%d9%8a/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-23T15:58:27Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إنفيديا تعيد جنسن هوانغ رئيسًا تنفيذيًا",
+      "translation_status": "original_ar"
+    },
     {
       "title": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
       "url": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
@@ -25,17 +198,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "What is Sound Glow on HomePods, and how do you get it on your Apple speaker?",
-      "url": "https://www.engadget.com/2320280/what-is-apple-homepod-sound-glow/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T15:45:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ما هو \"توهج الصوت\" في أجهزة HomePod، وكيف يمكنك الحصول عليه في مكبر صوت أبل؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "صور «غروك» الجنسية المفبركة تجرّ شركات ماسك إلى القضاء",
       "url": "https://aitnews.com/2026/11/23/%d8%ba%d8%b1%d9%88%d9%83-%d8%af%d8%b9%d8%a7%d9%88%d9%89-%d9%81%d8%b1%d8%ac%d9%8a%d9%86%d9%8a%d8%a7-%d8%a3%d9%88%d8%b1%d9%8a%d8%ba%d9%88%d9%86/",
       "source": "aitnews",
@@ -44,17 +206,6 @@
       "category": "أخبار التقنية",
       "title_ar": "صور «غروك» الجنسية المفبركة تجرّ شركات ماسك إلى القضاء",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Dutch privacy authority urges consumers not to buy ‘pervert glasses’",
-      "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T15:29:49Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هيئة الخصوصية الهولندية تحث المستهلكين على عدم شراء \"نظارات المنحرفين\"",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
@@ -68,17 +219,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
-      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T15:04:01Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ترامب يؤيد عودة جنسن هوانغ إلى إنفيديا، ويقول إن الولايات المتحدة ليس لديها دليل على ارتكاب مخالفات",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "إنفيديا تعيد جنسن هوانغ إلى رئاستها بعد 11 يومًا.. ما الذي غيّر قرار مجلس الإدارة؟",
       "url": "https://techvoicearabia.com/nvidia-reinstates-jensen-huang-ceo-november/",
       "source": "techvoice",
@@ -87,28 +227,6 @@
       "category": "أخبار التقنية",
       "title_ar": "إنفيديا تعيد جنسن هوانغ إلى رئاستها بعد 11 يومًا.. ما الذي غيّر قرار مجلس الإدارة؟",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "How to pair your Bluetooth headphones to your Windows PC",
-      "url": "https://www.engadget.com/2320151/how-to-pair-bluetooth-headphones-windows-pc/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T14:45:00Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "كيفية إقران سماعات الرأس بتقنية البلوتوث بجهاز الكمبيوتر الذي يعمل بنظام التشغيل Windows",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T14:43:03Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تضاعفت قيمة Sierra لتصل إلى 30 مليار دولار في غضون ستة أشهر مع ارتفاع الطلب على الذكاء الاصطناعي في تجربة العملاء",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "كيف ترسل كتبك النصية إلى جهاز كيندل؟ دليل النقل من الكمبيوتر والهاتف",
@@ -138,39 +256,6 @@
       "published_at": "2026-11-23T14:27:35Z",
       "category": "أخبار التقنية",
       "title_ar": "جنسن هوانغ يعود كرئيس تنفيذي لشركة إنفيديا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T14:21:59Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إنفيديا تعود عن قرارها وتعيد جنسن هوانغ إلى منصب الرئيس التنفيذي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "NVIDIA reinstates Jensen Huang as CEO and president, effective immediately",
-      "url": "https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T14:16:53Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تعيد إنفيديا تعيين جنسن هوانغ في منصب الرئيس التنفيذي والرئيس، اعتبارًا من الآن",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "5 underrated Apple Watch shortcuts you can set up in minutes",
-      "url": "https://www.engadget.com/2319938/underrated-apple-watch-shortcuts-quick-setup/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T14:15:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "5 اختصارات لساعة أبل ووتش غير معروفة يمكنك إعدادها في دقائق",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -207,17 +292,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Uber now lets you book rides that record the drive by default",
-      "url": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T14:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تتيح لك أوبر الآن حجز المشاوير التي يتم فيها تسجيل المشوار بشكل افتراضي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "F1 in Las Vegas: You've never seen an F1 race like this before",
       "url": "https://arstechnica.com/cars/2026/11/f1-in-las-vegas-youve-never-seen-an-f1-race-like-this-before/",
       "source": "arstechnica",
@@ -225,17 +299,6 @@
       "published_at": "2026-11-23T13:54:22Z",
       "category": "أخبار التقنية",
       "title_ar": "سباق الفورمولا 1 في لاس فيغاس: لم يسبق لك أن شاهدت سباق فورمولا 1 كهذا من قبل",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "How to clear the cache on Microsoft Edge",
-      "url": "https://www.engadget.com/2319769/how-to-clear-browser-cache-microsoft-edge/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T13:45:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "كيفية مسح ذاكرة التخزين المؤقت في Microsoft Edge",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -282,17 +345,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99",
-      "url": "https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-23T13:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "شاشة الألعاب غير المعقولة من سامسونج بتردد 1100 هرتز ستصل إلى الأسواق الشهر المقبل بسعر 899.99 دولارًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "شبكة BADBOX 3.0 تستغل أجهزة Android TV الرخيصة في احتيال إعلاني قياسي",
       "url": "https://3arrafni.com/tech-news/badbox-3-android-tv-ad-fraud",
       "source": "arrafni",
@@ -320,57 +372,6 @@
       "published_at": "2026-11-23T12:38:58Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "هاتف HONOR 700 Pro ينطلق رسميًا ببطارية 9000 مللي أمبير وشاشة خلفية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "وداعًا للتنقل بين التطبيقات.. الإمارات تكشف عن “ميرة” لإنجاز معاملاتك الحكومية بالكلام",
-      "url": "https://techvoicearabia.com/uae-mira-ai-government-assistant-march-2027/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-23T12:12:45Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "وداعًا للتنقل بين التطبيقات.. الإمارات تكشف عن “ميرة” لإنجاز معاملاتك الحكومية بالكلام",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "\"كوب 31\".. قرارات تقنية وخلافات تعطل التوافق بين الدول",
-      "url": "https://www.aljazeera.net/science/2026/11/23/%d9%83%d9%88%d8%a8-31-%d9%82%d8%b1%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d9%88%d8%ae%d9%84%d8%a7%d9%81%d8%a7%d8%aa-%d8%aa%d8%b9%d8%b7%d9%84?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-23T12:08:06Z",
-      "category": "أخبار التقنية",
-      "title_ar": "\"كوب 31\".. قرارات تقنية وخلافات تعطل التوافق بين الدول",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "منصة حماية Windows 11 خارج النواة تصل لتقليل أعطال الشاشة الزرقاء",
-      "url": "https://3arrafni.com/tech-news/windows-11-antivirus-outside-kernel",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-23T12:03:19Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "منصة حماية Windows 11 خارج النواة تصل لتقليل أعطال الشاشة الزرقاء",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
-      "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-23T12:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أرسل أسئلتك: هل سيحميك أحد من الذكاء الاصطناعي؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "هونر تطلق سلسلة Honor 700 في الصين ببطارية 9000 ميلي أمبير وشاشة خلفية ذكية",
-      "url": "https://aitnews.com/2026/11/23/%d9%87%d9%88%d9%86%d8%b1-700-%d8%b4%d8%a7%d8%b4%d8%a9-%d8%ae%d9%84%d9%81%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-23T11:54:17Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هونر تطلق سلسلة Honor 700 في الصين ببطارية 9000 ميلي أمبير وشاشة خلفية ذكية",
       "translation_status": "original_ar"
     },
     {
@@ -432,7 +433,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": true
+      "active": false
     },
     {
       "id": "bbc",
