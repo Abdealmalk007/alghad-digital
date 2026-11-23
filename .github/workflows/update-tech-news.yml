@@ -34,6 +34,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Verify authentic Windows utility icon artwork
+        run: python scripts/build_real_tool_art.py
       - name: Collect and verify public RSS headlines
         run: python scripts/update_news.py
       - name: Fetch original news releases from official technology and car makers
@@ -88,6 +90,7 @@ jobs:
           python scripts/seo_inventory.py --check
           node tests/bilingual-test.cjs
           node tests/editorial-test.cjs
+          node tests/vendor-icons-test.cjs
           node tests/global-tech-sources-test.cjs
           node tests/global-tech-daily-editorial-test.cjs
           node tests/favicon-test.cjs

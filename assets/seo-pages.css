@@ -118,3 +118,10 @@ h2{font-size:21px;line-height:1.5}
 .external-software-source .source-provenance {font-weight:650;font-size:.84rem;opacity:.84}
 .external-software-notice {border-inline-start:3px solid currentColor;padding-inline-start:14px;margin-block:20px}
 .external-software-source a {display:inline-flex;align-items:center;justify-content:center}
+
+/* Free Windows utilities: consistent icon cards and accessible publisher actions. */
+.vendor-tool-grid .tool-card{display:flex;flex-direction:column;gap:7px}
+.vendor-tool-grid .tool-card img{aspect-ratio:16/9;object-fit:cover;background:#0d2433;border-radius:12px}
+.vendor-tool-grid .tool-card a{display:inline-flex;align-items:center;min-height:44px}
+.vendor-tool-grid .tool-card:focus-within{border-color:var(--mint)}
+@media(max-width:650px){.vendor-tool-grid{grid-template-columns:1fr}.vendor-tool-grid .tool-card{padding:17px}}

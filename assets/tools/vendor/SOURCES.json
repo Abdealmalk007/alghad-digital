@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "assets": {
+    "everything": {
+      "publisher_art_url": "https://www.voidtools.com/Everything-Icons.zip",
+      "source_archive_member": "voidtools-15-Everything-1.5.ico",
+      "source_dimensions": [
+        256,
+        256
+      ],
+      "asset": "assets/tools/vendor/everything.png",
+      "sha256": "65f9829b25d8e20c2fee3d099107663c2f21a5513e77e60dc243316f6286f1c2",
+      "size": 19408,
+      "usage": "App identity/attribution on ALGHAD DIGITAL software directory; all branding belongs to respective publisher."
+    },
+    "ventoy": {
+      "publisher_art_url": "https://raw.githubusercontent.com/ventoy/Ventoy/master/ICON/logo_512.png",
+      "source_archive_member": null,
+      "source_dimensions": [
+        512,
+        512
+      ],
+      "asset": "assets/tools/vendor/ventoy.png",
+      "sha256": "97375edbd30edbaa3051a80d5983e6ced3179eed9fb156d36d25277f1c5fee23",
+      "size": 61005,
+      "usage": "App identity/attribution on ALGHAD DIGITAL software directory; all branding belongs to respective publisher."
+    },
+    "rufus": {
+      "publisher_art_url": "https://rufus.ie/pics/rufus-256.png",
+      "source_archive_member": null,
+      "source_dimensions": [
+        256,
+        256
+      ],
+      "asset": "assets/tools/vendor/rufus.png",
+      "sha256": "1fb4b9a2986cbc6e63bef328e11954b654185e623088c4c0ecb47bbe6fdcb1e5",
+      "size": 40867,
+      "usage": "App identity/attribution on ALGHAD DIGITAL software directory; all branding belongs to respective publisher."
+    },
+    "irfanview": {
+      "publisher_art_url": "https://www.irfanview.com/images/logo-download.png",
+      "source_archive_member": null,
+      "source_dimensions": [
+        47,
+        68
+      ],
+      "asset": "assets/tools/vendor/irfanview.png",
+      "sha256": "91ec1c3d594f19bfb864b0a06037abb9b1e819f7e2ff1fc4380e824684f9393c",
+      "size": 33977,
+      "usage": "App identity/attribution on ALGHAD DIGITAL software directory; all branding belongs to respective publisher."
+    },
+    "fileconverter": {
+      "publisher_art_url": "https://file-converter.io/images/application-icon.png",
+      "source_archive_member": null,
+      "source_dimensions": [
+        256,
+        256
+      ],
+      "asset": "assets/tools/vendor/fileconverter.png",
+      "sha256": "aa228a8a9de30adf49d8c8917746704a8a4d0571132a410fc84e92c9060278d9",
+      "size": 25425,
+      "usage": "App identity/attribution on ALGHAD DIGITAL software directory; all branding belongs to respective publisher."
+    },
+    "vlc": {
+      "publisher_art_url": "https://images.videolan.org/images/VLC-IconSmall.png",
+      "source_archive_member": null,
+      "source_dimensions": [
+        82,
+        94
+      ],
+      "asset": "assets/tools/vendor/vlc.png",
+      "sha256": "5d6af1afbdd0fead1b91233145889c89f3114f582bd954fa3101f612c62344ed",
+      "size": 38223,
+      "usage": "App identity/attribution on ALGHAD DIGITAL software directory; all branding belongs to respective publisher."
+    },
+    "fdm": {
+      "publisher_art_url": "https://www.freedownloadmanager.org/favicon.ico",
+      "source_archive_member": null,
+      "source_dimensions": [
+        48,
+        48
+      ],
+      "asset": "assets/tools/vendor/fdm.png",
+      "sha256": "7d34d2f674a68c21e7418f1b3094733691e1da185dbe2f6f86e0e0685d8b9221",
+      "size": 25006,
+      "usage": "App identity/attribution on ALGHAD DIGITAL software directory; all branding belongs to respective publisher."
+    },
+    "powertoys": {
+      "publisher_art_url": "https://raw.githubusercontent.com/microsoft/PowerToys/main/doc/images/icons/PowerToys%20icon/PNG/PowerToysAppList.targetsize-256.png",
+      "source_archive_member": null,
+      "source_dimensions": [
+        256,
+        256
+      ],
+      "asset": "assets/tools/vendor/powertoys.png",
+      "sha256": "e07526ae09ac8534e5399447f24327279377cf56d82d0379eb96c35cab834c7e",
+      "size": 7843,
+      "usage": "App identity/attribution on ALGHAD DIGITAL software directory; all branding belongs to respective publisher."
+    }
+  }
+}

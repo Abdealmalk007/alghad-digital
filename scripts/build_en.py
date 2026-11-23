@@ -418,10 +418,10 @@ def render_tools(tools:dict)->None:
         desc=TOOLS.get(tool["id"],"Free Windows software; refer to the official site for details.")
         image=tool.get("image","")
         if not re.fullmatch(r"assets/tools/[a-z0-9-]+\.svg",image):continue
-        entries.append(f'<article class="en-product-card"><img src="/{esc(image)}" alt="" width="320" height="180" loading="lazy"><h3>{esc(tool["name"])}</h3><p>{esc(desc)}</p>{external(url,"Official website","en-inline-link")}</article>')
+        entries.append(f'<article class="en-product-card"><img src="/{esc(image)}?v=vendor-1" alt="Official app icon: {esc(tool['name'])}" width="960" height="540" loading="lazy" decoding="async"><h3>{esc(tool["name"])}</h3><p>{esc(desc)}</p>{external(url,"Official website","en-inline-link")}</article>')
     assert len(entries)==8
-    body=hero("FREE WINDOWS UTILITIES","Useful free Windows software","A curated directory with links to the official publishers. Software titles remain the property of their respective authors.")
-    body+='<div class="en-grid">'+''.join(entries)+'</div>'
+    body=hero("FREE WINDOWS UTILITIES","Useful free Windows software","A curated directory with links to the official publishers. Authentic app icons identify their respective software; all trademarks and logo rights belong to their publishers.")
+    body+='<div class="en-grid vendor-tool-grid">'+''.join(entries)+'</div>'
     page("/free-windows-tools/","Free Windows Utilities & Official Downloads | Alghad Digital",
          "Eight useful Windows applications with official website links: Everything, Ventoy, Rufus, VLC, PowerToys and more.",body)
 

@@ -139,3 +139,8 @@ p{margin:0 0 17px}
 .external-software-source .source-provenance {font-weight:650;font-size:.84rem;opacity:.84}
 .external-software-notice {border-inline-start:3px solid currentColor;padding-inline-start:14px;margin-block:20px}
 .external-software-source a {display:inline-flex;align-items:center;justify-content:center}
+
+/* Third-party vendor icons are authentic; other product images remain unchanged. */
+.vendor-tool-grid .en-product-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:13px;background:#112f41}
+.vendor-tool-grid .en-product-card:focus-within{border-color:var(--en-accent,#6aebcf)}
+.vendor-tool-grid .en-inline-link{display:inline-flex;align-items:center;min-height:44px}

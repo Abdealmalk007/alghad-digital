@@ -601,15 +601,15 @@ def render_tools(tools: dict) -> None:
         url=tool.get("url","")
         if not url.startswith("https://"):continue
         items.append(f"""<article class="directory-card tool-card">
-            <img width="960" height="540" loading="lazy" src="../{esc(tool.get('image',''))}" alt="صورة توضيحية لأداة {esc(tool.get('name',''))}">
+            <img width="960" height="540" loading="lazy" src="../{esc(tool.get('image',''))}?v=vendor-1" alt="الأيقونة الأصلية لبرنامج {esc(tool.get('name',''))}">
             <h2>{esc(tool.get('name',''))}</h2><p>{esc(tool.get('description',''))}</p>
             <span>{esc(tool.get('license',''))} · {esc(tool.get('category',''))}</span>
             <p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">الموقع الرسمي وتحميل البرنامج ↗</a></p></article>""")
     text = f"""<div class="breadcrumbs"><a href="../">الغد ديجتال</a> / برامج Windows</div>
       <span class="eyebrow">FREE WINDOWS TOOLS</span>
       <h1>أفضل برامج Windows المجانية والمفيدة</h1>
-      <p class="hero-desc">أدوات Windows موصى بتجربتها من مواقعها الرسمية، منها Rufus وVentoy وEverything وVLC وMicrosoft PowerToys. تراخيص البرامج تختلف، وبعضها مجاني للاستخدام غير التجاري فقط.</p>
-      <div class="directory-grid">{''.join(items)}</div>"""
+      <p class="hero-desc">أدوات Windows موصى بتجربتها من مواقعها الرسمية، منها Rufus وVentoy وEverything وVLC وMicrosoft PowerToys. تراخيص البرامج تختلف، وبعضها مجاني للاستخدام غير التجاري فقط. الأيقونات الأصلية تُعرض للتعريف فقط وحقوقها لأصحابها.</p>
+      <div class="directory-grid vendor-tool-grid">{''.join(items)}</div>"""
     schema={"@context":"https://schema.org","@type":"CollectionPage",
         "name":"أفضل برامج ويندوز المجانية | الغد ديجتال","url":DOMAIN+"/free-windows-tools/"}
     out=ROOT/"free-windows-tools"/"index.html"

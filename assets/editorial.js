@@ -144,7 +144,7 @@
     const article=node("article","windows-tool-card");
     const imgLink=externalLink("",tool.url,"windows-tool-picture");
     const img=document.createElement("img");
-    img.src=tool.image;img.alt="رسم توضيحي لأداة "+tool.name;
+    img.src=tool.image+"?v=vendor-1";img.alt="أيقونة برنامج "+tool.name+" الأصلية";
     img.loading="lazy";img.decoding="async";img.width=960;img.height=540;
     imgLink.appendChild(img);
     const body=node("div","windows-tool-body");

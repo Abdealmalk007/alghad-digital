@@ -96,3 +96,16 @@
   color:var(--sub);text-align:start;unicode-bidi:plaintext;overflow-wrap:anywhere}
 .editorial-translation-label{display:block;font-size:10px;color:var(--sub);
   line-height:1.7;margin-top:6px;font-weight:650}
+
+/* Authentic vendor logos: show full previews on mobile instead of narrow cropping. */
+.windows-tool-card:focus-within{border-color:var(--teal);box-shadow:0 0 0 2px color-mix(in srgb,var(--teal) 35%,transparent)}
+.windows-tool-picture:focus-visible{outline:3px solid var(--teal);outline-offset:-3px}
+.windows-tool-button{min-height:44px}
+@media(max-width:580px){
+ .windows-tool-card{flex-direction:column}
+ .windows-tool-picture{width:100%;aspect-ratio:16/9}
+ .windows-tool-picture img{object-fit:contain}
+ .windows-tool-body{padding:17px}
+ .windows-tool-features{display:grid}
+ .windows-tool-title{text-align:start}
+}
