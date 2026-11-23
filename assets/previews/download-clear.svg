@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Distinct illustration icon for DOWNLOAD PRO">
+<title>DOWNLOAD PRO - ProTech software icon</title>
+<desc>Large recognizable vector symbol for DOWNLOAD PRO. Concept artwork, not an application screenshot.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#191735"/><stop offset="1" stop-color="#453482"/></linearGradient>
+<linearGradient id="icon" x1="20" y1="14" x2="225" y2="222" gradientUnits="userSpaceOnUse"><stop stop-color="#d795ff"/><stop offset="1" stop-color="#7ad0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#d795ff" stop-opacity=".32"/><stop offset="1" stop-color="#d795ff" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#b4d1de" opacity=".18"/></pattern>
+</defs>
+<rect width="960" height="540" fill="url(#bg)"/>
+<rect width="960" height="540" fill="url(#dots)" opacity=".42"/>
+<circle cx="481" cy="240" r="270" fill="url(#halo)"/>
+<circle cx="895" cy="42" r="160" fill="#d795ff" opacity=".09"/>
+<circle cx="48" cy="485" r="168" fill="#7ad0ff" opacity=".07"/>
+<path d="M79 299c40-140 121-216 207-251M674 80c108 18 165 93 200 202" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-dasharray="4 16" opacity=".21" stroke-linecap="round"/>
+<rect x="337" y="93" width="286" height="288" rx="74" fill="#fff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="480" cy="235" r="122" fill="#d795ff" fill-opacity=".12"/>
+<g transform="translate(360 110)" stroke-linecap="round" stroke-linejoin="round">
+<rect x="63" y="14" width="120" height="209" rx="26" fill="url(#icon)"/>
+<rect x="74" y="30" width="98" height="169" rx="16" fill="#241b51" opacity=".86"/>
+<rect x="101" y="23" width="45" height="7" rx="4" fill="#fff" opacity=".8"/>
+<circle cx="123" cy="211" r="7" fill="#fff" opacity=".85"/>
+<path d="M123 64v74" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+<path d="m89 111 34 36 35-36" fill="none" stroke="#fff" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 165h66" stroke="#8ae2ff" stroke-width="11" stroke-linecap="round"/>
+<circle cx="186" cy="178" r="23" fill="#79caff"/><path d="m177 178 8 8 14-17" stroke="#22194a" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="51" y="54" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="800" letter-spacing="4" fill="#b4d1de">ALGHAD DIGITAL</text>
+<path d="M51 71h132" stroke="#d795ff" stroke-width="5" stroke-linecap="round"/>
+<text x="480" y="461" text-anchor="middle" fill="#f4faff" font-family="Segoe UI,Arial,sans-serif" font-size="53" letter-spacing="2" font-weight="900">DOWNLOAD PRO</text>
+<text x="480" y="504" text-anchor="middle" fill="#b4d1de" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750" letter-spacing="4">ANDROID  /  MEDIA  /  FILES</text>
+</svg>

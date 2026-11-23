@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Distinct illustration icon for STONE MANAGER">
+<title>STONE MANAGER - ProTech software icon</title>
+<desc>Large recognizable vector symbol for STONE MANAGER. Concept artwork, not an application screenshot.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#0d1c32"/><stop offset="1" stop-color="#214465"/></linearGradient>
+<linearGradient id="icon" x1="20" y1="14" x2="225" y2="222" gradientUnits="userSpaceOnUse"><stop stop-color="#70ddf7"/><stop offset="1" stop-color="#a597ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#70ddf7" stop-opacity=".32"/><stop offset="1" stop-color="#70ddf7" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#b4d1de" opacity=".18"/></pattern>
+</defs>
+<rect width="960" height="540" fill="url(#bg)"/>
+<rect width="960" height="540" fill="url(#dots)" opacity=".42"/>
+<circle cx="481" cy="240" r="270" fill="url(#halo)"/>
+<circle cx="895" cy="42" r="160" fill="#70ddf7" opacity=".09"/>
+<circle cx="48" cy="485" r="168" fill="#a597ff" opacity=".07"/>
+<path d="M79 299c40-140 121-216 207-251M674 80c108 18 165 93 200 202" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-dasharray="4 16" opacity=".21" stroke-linecap="round"/>
+<rect x="337" y="93" width="286" height="288" rx="74" fill="#fff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="480" cy="235" r="122" fill="#70ddf7" fill-opacity=".12"/>
+<g transform="translate(360 110)" stroke-linecap="round" stroke-linejoin="round">
+<path d="M18 72 118 31 220 73 119 114Z" fill="url(#icon)" stroke="#e9faff" stroke-width="5" stroke-linejoin="round"/>
+<path d="M18 72v31l101 44v-33Z" fill="#4992bc"/><path d="M220 73v30l-101 44v-33Z" fill="#8f93e4"/>
+<path d="M29 127 118 164 208 126" fill="none" stroke="#eaf6ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 160 118 199 208 161" fill="none" stroke="#84c4ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m62 70 58 22 60-23" fill="none" stroke="#fff" stroke-width="6" stroke-opacity=".8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="118" cy="70" r="8" fill="#fff"/>
+</g>
+<text x="51" y="54" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="800" letter-spacing="4" fill="#b4d1de">ALGHAD DIGITAL</text>
+<path d="M51 71h132" stroke="#70ddf7" stroke-width="5" stroke-linecap="round"/>
+<text x="480" y="461" text-anchor="middle" fill="#f4faff" font-family="Segoe UI,Arial,sans-serif" font-size="53" letter-spacing="2" font-weight="900">STONE MANAGER</text>
+<text x="480" y="504" text-anchor="middle" fill="#b4d1de" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750" letter-spacing="4">STONE  /  PORCELAIN  /  INVENTORY</text>
+</svg>

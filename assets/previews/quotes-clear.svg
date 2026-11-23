@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Distinct illustration icon for QUOTES &amp; CONTRACTS">
+<title>QUOTES &amp; CONTRACTS - ProTech software icon</title>
+<desc>Large recognizable vector symbol for QUOTES &amp; CONTRACTS. Concept artwork, not an application screenshot.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#f8f3ff"/><stop offset="1" stop-color="#ece1f3"/></linearGradient>
+<linearGradient id="icon" x1="20" y1="14" x2="225" y2="222" gradientUnits="userSpaceOnUse"><stop stop-color="#9e7ae6"/><stop offset="1" stop-color="#e0a2c0"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#9e7ae6" stop-opacity=".18"/><stop offset="1" stop-color="#9e7ae6" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#456276" opacity=".18"/></pattern>
+</defs>
+<rect width="960" height="540" fill="url(#bg)"/>
+<rect width="960" height="540" fill="url(#dots)" opacity=".42"/>
+<circle cx="481" cy="240" r="270" fill="url(#halo)"/>
+<circle cx="895" cy="42" r="160" fill="#9e7ae6" opacity=".10"/>
+<circle cx="48" cy="485" r="168" fill="#e0a2c0" opacity=".10"/>
+<path d="M79 299c40-140 121-216 207-251M674 80c108 18 165 93 200 202" fill="none" stroke="#497087" stroke-width="2.2" stroke-dasharray="4 16" opacity=".21" stroke-linecap="round"/>
+<rect x="337" y="93" width="286" height="288" rx="74" fill="#ffffff" fill-opacity=".53" stroke="#497087" stroke-opacity=".24" stroke-width="2"/>
+<circle cx="480" cy="235" r="122" fill="#9e7ae6" fill-opacity=".12"/>
+<g transform="translate(360 110)" stroke-linecap="round" stroke-linejoin="round">
+<rect x="38" y="28" width="165" height="188" rx="21" fill="url(#icon)"/>
+<path d="M166 28v45h37" fill="#e6d4fa" opacity=".88"/>
+<path d="M67 84h70M67 106h103M67 130h91M67 154h74" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".91"/>
+<path d="m78 180 20-14 14 15 23-24" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g transform="rotate(-37 180 174)"><rect x="170" y="123" width="20" height="96" rx="7" fill="#62498f"/><path d="m170 203 10 21 10-21" fill="#d17ba7"/><rect x="170" y="126" width="20" height="15" rx="5" fill="#faf0ff"/></g>
+</g>
+<text x="51" y="54" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="800" letter-spacing="4" fill="#456276">ALGHAD DIGITAL</text>
+<path d="M51 71h132" stroke="#9e7ae6" stroke-width="5" stroke-linecap="round"/>
+<text x="480" y="461" text-anchor="middle" fill="#142e43" font-family="Segoe UI,Arial,sans-serif" font-size="43" letter-spacing="2" font-weight="900">QUOTES &amp; CONTRACTS</text>
+<text x="480" y="504" text-anchor="middle" fill="#456276" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750" letter-spacing="4">DOCUMENTS  /  BUSINESS</text>
+</svg>

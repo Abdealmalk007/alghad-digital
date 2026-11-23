@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Distinct illustration icon for PROTECH HR">
+<title>PROTECH HR - ProTech software icon</title>
+<desc>Large recognizable vector symbol for PROTECH HR. Concept artwork, not an application screenshot.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#121e42"/><stop offset="1" stop-color="#303a7e"/></linearGradient>
+<linearGradient id="icon" x1="20" y1="14" x2="225" y2="222" gradientUnits="userSpaceOnUse"><stop stop-color="#b39bff"/><stop offset="1" stop-color="#66e6ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#b39bff" stop-opacity=".32"/><stop offset="1" stop-color="#b39bff" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#b4d1de" opacity=".18"/></pattern>
+</defs>
+<rect width="960" height="540" fill="url(#bg)"/>
+<rect width="960" height="540" fill="url(#dots)" opacity=".42"/>
+<circle cx="481" cy="240" r="270" fill="url(#halo)"/>
+<circle cx="895" cy="42" r="160" fill="#b39bff" opacity=".09"/>
+<circle cx="48" cy="485" r="168" fill="#66e6ff" opacity=".07"/>
+<path d="M79 299c40-140 121-216 207-251M674 80c108 18 165 93 200 202" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-dasharray="4 16" opacity=".21" stroke-linecap="round"/>
+<rect x="337" y="93" width="286" height="288" rx="74" fill="#fff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="480" cy="235" r="122" fill="#b39bff" fill-opacity=".12"/>
+<g transform="translate(360 110)" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="120" cy="65" r="38" fill="url(#icon)"/>
+<path d="M44 185c1-48 26-76 76-76s75 28 76 76v11H44Z" fill="url(#icon)"/>
+<circle cx="32" cy="112" r="24" fill="#81d7f5" opacity=".85"/>
+<path d="M4 193c0-31 10-48 38-57" fill="none" stroke="#81d7f5" stroke-width="18" stroke-linecap="round"/>
+<circle cx="208" cy="112" r="24" fill="#c4a3ff" opacity=".9"/>
+<path d="M236 193c0-31-10-48-38-57" fill="none" stroke="#c4a3ff" stroke-width="18" stroke-linecap="round"/>
+<path d="m100 164 15 14 30-32" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="51" y="54" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="800" letter-spacing="4" fill="#b4d1de">ALGHAD DIGITAL</text>
+<path d="M51 71h132" stroke="#b39bff" stroke-width="5" stroke-linecap="round"/>
+<text x="480" y="461" text-anchor="middle" fill="#f4faff" font-family="Segoe UI,Arial,sans-serif" font-size="53" letter-spacing="2" font-weight="900">PROTECH HR</text>
+<text x="480" y="504" text-anchor="middle" fill="#b4d1de" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750" letter-spacing="4">PEOPLE  /  ATTENDANCE  /  HR</text>
+</svg>

@@ -30,8 +30,8 @@ window.AL_GHAD_PRODUCTS = [
     "summary": "من الجداول إلى رؤى أوضح للبيانات",
     "release": "https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.11",
     "releaseLabel": "نسخة تجريبية منشورة",
-    "preview": "assets/previews/smart-excel.svg",
-    "previewAlt": "رسم توضيحي لأدوات تحليل ملفات Excel والإحصاءات",
+    "preview": "assets/previews/smart-excel-clear.svg",
+    "previewAlt": "أيقونة تحليل بيانات Excel مع جدول ومخطط بياني",
     "displayStatus": "Beta · نسخة تجريبية"
   },
   {
@@ -63,8 +63,8 @@ window.AL_GHAD_PRODUCTS = [
     "keywords": "stone porcelain marble manager مخزون فواتير رخام بورسلان",
     "summary": "نظام متكامل للرخام والبورسلان",
     "release": "https://github.com/Abdealmalk007/ProTechStoneManager/releases/tag/v2.0.0-unsigned-preview",
-    "preview": "assets/previews/stone.svg",
-    "previewAlt": "تصميم توضيحي لواجهة ProTech Stone Manager",
+    "preview": "assets/previews/stone-clear.svg",
+    "previewAlt": "أيقونة ألواح الحجر والبورسلان لإدارة المشاريع",
     "displayStatus": "Beta · نسخة تجريبية"
   },
   {
@@ -96,8 +96,8 @@ window.AL_GHAD_PRODUCTS = [
     "keywords": "marble delivery نقل تسليم رخام",
     "summary": "دقة أكبر في كل عملية تسليم",
     "release": null,
-    "preview": "assets/previews/marble.svg",
-    "previewAlt": "تصميم توضيحي لواجهة Marble Delivery Pro",
+    "preview": "assets/previews/marble-clear.svg",
+    "previewAlt": "أيقونة شاحنة نقل الرخام والتسليم",
     "displayStatus": "مكتمل"
   },
   {
@@ -131,8 +131,8 @@ window.AL_GHAD_PRODUCTS = [
     "summary": "تقارير تناسب طريقة عملك",
     "release": "https://github.com/Abdealmalk007/DailyWorkReports-Flexible/releases/tag/v15.7.1",
     "releaseLabel": "إصدار تجريبي منشور",
-    "preview": "assets/previews/reports.svg",
-    "previewAlt": "تصميم توضيحي لواجهة Daily Work Reports",
+    "preview": "assets/previews/reports-clear.svg",
+    "previewAlt": "أيقونة تقرير المهام والأعمدة البيانية",
     "displayStatus": "مكتمل"
   },
   {
@@ -165,8 +165,8 @@ window.AL_GHAD_PRODUCTS = [
     "summary": "إدارة فرق العمل بوضوح",
     "release": "https://github.com/Abdealmalk007/HR/releases/tag/v23.0.1",
     "releaseLabel": "إصدار تجريبي منشور",
-    "preview": "assets/previews/hr.svg",
-    "previewAlt": "تصميم توضيحي لواجهة ProTech HR",
+    "preview": "assets/previews/hr-clear.svg",
+    "previewAlt": "أيقونة الموظفين وإدارة الموارد البشرية",
     "displayStatus": "مكتمل"
   },
   {
@@ -198,8 +198,8 @@ window.AL_GHAD_PRODUCTS = [
     ],
     "keywords": "kitchen cad sketchup 2020 cabinets 3d kitchens مطابخ تصميم خزائن",
     "summary": "من الفكرة إلى مطبخ ثلاثي الأبعاد",
-    "preview": "assets/previews/kitchen.svg",
-    "previewAlt": "تصميم توضيحي لواجهة Kitchen CAD Pro",
+    "preview": "assets/previews/kitchen-clear.svg",
+    "previewAlt": "أيقونة خزائن ومطبخ وتخطيط التصميم",
     "displayStatus": "نسخة Beta للتجربة",
     "release": "https://github.com/Abdealmalk007/KitchenCADProV5/releases/tag/v5.0.0-beta-kitchen-design-r3-20261118"
   },
@@ -233,8 +233,8 @@ window.AL_GHAD_PRODUCTS = [
     "summary": "وسائطك وتنزيلاتك في مكان واحد",
     "release": "https://github.com/Abdealmalk007/Download-Anything-PRO/releases/tag/v6.0.17",
     "releaseLabel": "إصدار تجريبي منشور",
-    "preview": "assets/previews/download.svg",
-    "previewAlt": "تصميم توضيحي لواجهة Download Anything PRO",
+    "preview": "assets/previews/download-clear.svg",
+    "previewAlt": "أيقونة تنزيل الملفات على هاتف أندرويد",
     "displayStatus": "مكتمل"
   },
   {
@@ -266,8 +266,8 @@ window.AL_GHAD_PRODUCTS = [
     ],
     "keywords": "windows care optimization repair صيانة ويندوز",
     "summary": "نسخة Windows 11 v3.3.1: Portable + Setup منفصل، إصلاح الواجهة العربية والأزرار — Preview غير موقّع",
-    "preview": "assets/previews/care.svg",
-    "previewAlt": "تصميم توضيحي لواجهة ProTech Windows Care",
+    "preview": "assets/previews/care-clear.svg",
+    "previewAlt": "أيقونة نظام ويندوز مع رمز الصيانة",
     "displayStatus": "Portable Preview · غير موقّع",
     "release": "https://github.com/Abdealmalk007/ProTechWindowsCare/releases/tag/v3.3.1-responsive-portable-preview"
   },
@@ -300,8 +300,8 @@ window.AL_GHAD_PRODUCTS = [
     ],
     "keywords": "quotes contracts عروض أسعار عقود",
     "summary": "من العرض الأول إلى توقيع العقد",
-    "preview": "assets/previews/quotes.svg",
-    "previewAlt": "تصميم توضيحي لواجهة Quotes & Contracts",
+    "preview": "assets/previews/quotes-clear.svg",
+    "previewAlt": "أيقونة مستند عروض الأسعار والعقود",
     "displayStatus": "Beta · نسخة تجريبية",
     "release": "https://github.com/Abdealmalk007/ProTechQuotesContracts/releases/tag/v2.0.0-beta.3"
   },

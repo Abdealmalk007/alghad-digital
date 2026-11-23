@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Distinct illustration icon for SMART EXCEL">
+<title>SMART EXCEL - ProTech software icon</title>
+<desc>Large recognizable vector symbol for SMART EXCEL. Concept artwork, not an application screenshot.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#071e29"/><stop offset="1" stop-color="#07443e"/></linearGradient>
+<linearGradient id="icon" x1="20" y1="14" x2="225" y2="222" gradientUnits="userSpaceOnUse"><stop stop-color="#42f2bc"/><stop offset="1" stop-color="#77b6ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#42f2bc" stop-opacity=".32"/><stop offset="1" stop-color="#42f2bc" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#b4d1de" opacity=".18"/></pattern>
+</defs>
+<rect width="960" height="540" fill="url(#bg)"/>
+<rect width="960" height="540" fill="url(#dots)" opacity=".42"/>
+<circle cx="481" cy="240" r="270" fill="url(#halo)"/>
+<circle cx="895" cy="42" r="160" fill="#42f2bc" opacity=".09"/>
+<circle cx="48" cy="485" r="168" fill="#77b6ff" opacity=".07"/>
+<path d="M79 299c40-140 121-216 207-251M674 80c108 18 165 93 200 202" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-dasharray="4 16" opacity=".21" stroke-linecap="round"/>
+<rect x="337" y="93" width="286" height="288" rx="74" fill="#fff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="480" cy="235" r="122" fill="#42f2bc" fill-opacity=".12"/>
+<g transform="translate(360 110)" stroke-linecap="round" stroke-linejoin="round">
+<rect x="34" y="21" width="172" height="190" rx="24" fill="url(#icon)"/>
+<rect x="52" y="40" width="136" height="152" rx="12" fill="#083d3e" opacity=".66"/>
+<g stroke="#bdffe9" stroke-width="5" stroke-opacity=".65"><path d="M98 54v122M143 54v122M65 97h110M65 137h110"/></g>
+<path d="m68 149 36-28 28 14 42-53" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m148 82 26 0 0 26" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="68" cy="149" r="7" fill="#fff"/><circle cx="104" cy="121" r="7" fill="#fff"/>
+</g>
+<text x="51" y="54" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="800" letter-spacing="4" fill="#b4d1de">ALGHAD DIGITAL</text>
+<path d="M51 71h132" stroke="#42f2bc" stroke-width="5" stroke-linecap="round"/>
+<text x="480" y="461" text-anchor="middle" fill="#f4faff" font-family="Segoe UI,Arial,sans-serif" font-size="53" letter-spacing="2" font-weight="900">SMART EXCEL</text>
+<text x="480" y="504" text-anchor="middle" fill="#b4d1de" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750" letter-spacing="4">SPREADSHEETS  /  ANALYTICS</text>
+</svg>

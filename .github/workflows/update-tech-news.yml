@@ -103,6 +103,7 @@ jobs:
           node tests/site-search-test.cjs
           node tests/topic-tags-test.cjs
           node tests/program-experience-test.cjs
+          node tests/program-icons-test.cjs
           node tests/contact-security-test.cjs
           node tests/accessibility-seo-regression-test.cjs
           node tests/search-snippet-quality-test.cjs

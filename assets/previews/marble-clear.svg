@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Distinct illustration icon for MARBLE DELIVERY">
+<title>MARBLE DELIVERY - ProTech software icon</title>
+<desc>Large recognizable vector symbol for MARBLE DELIVERY. Concept artwork, not an application screenshot.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#fdf3ec"/><stop offset="1" stop-color="#ecd9ef"/></linearGradient>
+<linearGradient id="icon" x1="20" y1="14" x2="225" y2="222" gradientUnits="userSpaceOnUse"><stop stop-color="#fd8c56"/><stop offset="1" stop-color="#cc69c7"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#fd8c56" stop-opacity=".18"/><stop offset="1" stop-color="#fd8c56" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#456276" opacity=".18"/></pattern>
+</defs>
+<rect width="960" height="540" fill="url(#bg)"/>
+<rect width="960" height="540" fill="url(#dots)" opacity=".42"/>
+<circle cx="481" cy="240" r="270" fill="url(#halo)"/>
+<circle cx="895" cy="42" r="160" fill="#fd8c56" opacity=".10"/>
+<circle cx="48" cy="485" r="168" fill="#cc69c7" opacity=".10"/>
+<path d="M79 299c40-140 121-216 207-251M674 80c108 18 165 93 200 202" fill="none" stroke="#497087" stroke-width="2.2" stroke-dasharray="4 16" opacity=".21" stroke-linecap="round"/>
+<rect x="337" y="93" width="286" height="288" rx="74" fill="#ffffff" fill-opacity=".53" stroke="#497087" stroke-opacity=".24" stroke-width="2"/>
+<circle cx="480" cy="235" r="122" fill="#fd8c56" fill-opacity=".12"/>
+<g transform="translate(360 110)" stroke-linecap="round" stroke-linejoin="round">
+<rect x="14" y="69" width="135" height="109" rx="17" fill="url(#icon)"/>
+<path d="M36 80h90v47H36Z" fill="#fff" opacity=".25"/>
+<path d="M43 98h77M56 113h51" stroke="#fff" stroke-width="7" opacity=".8" stroke-linecap="round"/>
+<path d="M149 104h39l32 41v33h-71Z" fill="#be629f"/>
+<path d="M165 118h22l17 25h-39Z" fill="#f9ebff"/>
+<path d="M15 179h204" stroke="#794a75" stroke-width="9" stroke-linecap="round"/>
+<circle cx="66" cy="180" r="23" fill="#fff" stroke="#a15d9e" stroke-width="11"/>
+<circle cx="182" cy="180" r="23" fill="#fff" stroke="#a15d9e" stroke-width="11"/>
+<path d="m34 48 37-18 45 18-37 18Z" fill="#ffbb84"/><path d="m34 48 45 18v18L34 65Z" fill="#c16a91"/><path d="m116 48-37 18v18l37-20Z" fill="#e191a8"/>
+</g>
+<text x="51" y="54" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="800" letter-spacing="4" fill="#456276">ALGHAD DIGITAL</text>
+<path d="M51 71h132" stroke="#fd8c56" stroke-width="5" stroke-linecap="round"/>
+<text x="480" y="461" text-anchor="middle" fill="#142e43" font-family="Segoe UI,Arial,sans-serif" font-size="53" letter-spacing="2" font-weight="900">MARBLE DELIVERY</text>
+<text x="480" y="504" text-anchor="middle" fill="#456276" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750" letter-spacing="4">DELIVERIES  /  PROJECTS</text>
+</svg>
