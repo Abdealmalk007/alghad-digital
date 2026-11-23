@@ -1,7 +1,72 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T15:05:13Z",
+  "generated_at": "2026-11-23T15:56:00Z",
   "articles": [
+    {
+      "title": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
+      "url": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-23T15:55:12Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مارفل تحشر كل الأبطال الخارقين على الإطلاق في المقطع الدعائي الأخير لفيلم \"أفنجرز: يوم القيامة\"",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-23T15:46:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تمت إعادة تعيين جنسن هوانغ كرئيس تنفيذي لشركة إنفيديا ورئيس مجلس إدارتها",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "What is Sound Glow on HomePods, and how do you get it on your Apple speaker?",
+      "url": "https://www.engadget.com/2320280/what-is-apple-homepod-sound-glow/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T15:45:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ما هو \"توهج الصوت\" في أجهزة HomePod، وكيف يمكنك الحصول عليه في مكبر صوت أبل؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "صور «غروك» الجنسية المفبركة تجرّ شركات ماسك إلى القضاء",
+      "url": "https://aitnews.com/2026/11/23/%d8%ba%d8%b1%d9%88%d9%83-%d8%af%d8%b9%d8%a7%d9%88%d9%89-%d9%81%d8%b1%d8%ac%d9%8a%d9%86%d9%8a%d8%a7-%d8%a3%d9%88%d8%b1%d9%8a%d8%ba%d9%88%d9%86/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-23T15:32:13Z",
+      "category": "أخبار التقنية",
+      "title_ar": "صور «غروك» الجنسية المفبركة تجرّ شركات ماسك إلى القضاء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Dutch privacy authority urges consumers not to buy ‘pervert glasses’",
+      "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T15:29:49Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هيئة الخصوصية الهولندية تحث المستهلكين على عدم شراء \"نظارات المنحرفين\"",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+      "url": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-23T15:23:26Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الدورة الحادية والثلاثون لمؤتمر الأطراف تنتهي بالفشل بسبب انقسام البلدان بشأن الوقود الأحفوري والتمويل المتعلق بالمناخ",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
     {
       "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
       "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
@@ -106,17 +171,6 @@
       "published_at": "2026-11-23T14:15:00Z",
       "category": "أخبار التقنية",
       "title_ar": "5 اختصارات لساعة أبل ووتش غير معروفة يمكنك إعدادها في دقائق",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
-      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-23T14:10:18Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تمت إعادة تعيين جنسن هوانغ كرئيس تنفيذي لشركة إنفيديا ورئيس مجلس إدارتها",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -269,17 +323,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Tri-screen portable monitors aren’t for the faint of heart",
-      "url": "https://arstechnica.com/gadgets/2026/11/a-triple-screen-portable-monitor-means-more-pixels-and-more-bulk/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-23T12:15:16Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الشاشات المحمولة ثلاثية الشاشات ليست لضعاف القلوب",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "وداعًا للتنقل بين التطبيقات.. الإمارات تكشف عن “ميرة” لإنجاز معاملاتك الحكومية بالكلام",
       "url": "https://techvoicearabia.com/uae-mira-ai-government-assistant-march-2027/",
       "source": "techvoice",
@@ -287,6 +330,16 @@
       "published_at": "2026-11-23T12:12:45Z",
       "category": "البرامج والإنترنت",
       "title_ar": "وداعًا للتنقل بين التطبيقات.. الإمارات تكشف عن “ميرة” لإنجاز معاملاتك الحكومية بالكلام",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "\"كوب 31\".. قرارات تقنية وخلافات تعطل التوافق بين الدول",
+      "url": "https://www.aljazeera.net/science/2026/11/23/%d9%83%d9%88%d8%a8-31-%d9%82%d8%b1%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d9%88%d8%ae%d9%84%d8%a7%d9%81%d8%a7%d8%aa-%d8%aa%d8%b9%d8%b7%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-23T12:08:06Z",
+      "category": "أخبار التقنية",
+      "title_ar": "\"كوب 31\".. قرارات تقنية وخلافات تعطل التوافق بين الدول",
       "translation_status": "original_ar"
     },
     {
@@ -298,17 +351,6 @@
       "category": "البرامج والإنترنت",
       "title_ar": "منصة حماية Windows 11 خارج النواة تصل لتقليل أعطال الشاشة الزرقاء",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
-      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-23T12:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مراجعة: يقدم جهاز Asus ProArt P16 لمحة عن مستقبل مدعوم بالذكاء الاصطناعي المحلي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
@@ -329,46 +371,6 @@
       "published_at": "2026-11-23T11:54:17Z",
       "category": "أخبار التقنية",
       "title_ar": "هونر تطلق سلسلة Honor 700 في الصين ببطارية 9000 ميلي أمبير وشاشة خلفية ذكية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تقرير: اتصالات أليس هوانغ بالاستخبارات الصينية تزامنت مع علاقتها برئيس إنفيديا السابق",
-      "url": "https://aitnews.com/2026/11/23/%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d8%a3%d9%84%d9%8a%d8%b3-%d9%87%d9%88%d8%a7%d9%86%d8%ba-%d8%a7%d9%84%d8%b5%d9%8a%d9%86/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-23T11:50:33Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقرير: اتصالات أليس هوانغ بالاستخبارات الصينية تزامنت مع علاقتها برئيس إنفيديا السابق",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كراودسترايك تتفق على شراء زيسكيلر بصفقة أسهم قيمتها 43.9 مليار دولار",
-      "url": "https://aitnews.com/2026/11/23/%d9%83%d8%b1%d8%a7%d9%88%d8%af%d8%b3%d8%aa%d8%b1%d8%a7%d9%8a%d9%83-%d8%aa%d8%aa%d9%81%d9%82-%d8%b9%d9%84%d9%89-%d8%b4%d8%b1%d8%a7%d8%a1-%d8%b2%d9%8a%d8%b3%d9%83%d9%8a%d9%84%d8%b1-%d8%a8%d8%b5%d9%81/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-23T11:49:36Z",
-      "category": "أخبار التقنية",
-      "title_ar": "كراودسترايك تتفق على شراء زيسكيلر بصفقة أسهم قيمتها 43.9 مليار دولار",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الطلب على برمجيات نكست كلاود يرتفع نحو خمسة أضعاف مع توجه أوروبا للسيادة السحابية",
-      "url": "https://aitnews.com/2026/11/23/%d9%86%d9%83%d8%b3%d8%aa-%d9%83%d9%84%d8%a7%d9%88%d8%af-%d9%88%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%b3%d8%ad%d8%a7%d8%a8%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-23T11:45:29Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "الطلب على برمجيات نكست كلاود يرتفع نحو خمسة أضعاف مع توجه أوروبا للسيادة السحابية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "صادرات الرقائق الكورية تقفز 294.4% إلى 38.5 مليار دولار في 20 يومًا",
-      "url": "https://aitnews.com/2026/11/23/%d8%b5%d8%a7%d8%af%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d9%82%d8%a7%d8%a6%d9%82-%d8%a7%d9%84%d9%83%d9%88%d8%b1%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-23T11:39:52Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "صادرات الرقائق الكورية تقفز 294.4% إلى 38.5 مليار دولار في 20 يومًا",
       "translation_status": "original_ar"
     },
     {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T15:05:15Z",
+  "generated_at": "2026-11-23T15:56:03Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -245,6 +245,19 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
+          "title": "Samsung Launches Odyssey G6: The World’s First 1,100Hz Gaming Monitor",
+          "url": "https://news.samsung.com/global/samsung-launches-odyssey-g6-the-worlds-first-1100hz-gaming-monitor",
+          "source": "samsung",
+          "source_name": "Samsung",
+          "published_at": "2026-11-23T22:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "سامسونج تطلق Odyssey G6: أول شاشة ألعاب في العالم بمعدل تحديث 1100 هرتز",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
           "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
           "source": "nvidia",
@@ -462,19 +475,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "إغنايت 2026: بناء النظام البيئي الرائد",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Formula 1® Las Vegas Grand Prix™ streams live on Apple TV this weekend",
-          "url": "https://www.apple.com/newsroom/2026/11/formula-1-las-vegas-grand-prix-streams-live-on-apple-tv-this-weekend/",
-          "source": "apple",
-          "source_name": "Apple",
-          "published_at": "2026-11-17T16:59:36.179000Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "سيتم بث سباق الجائزة الكبرى للفورمولا 1® في لاس فيغاس™ مباشرةً على Apple TV في نهاية هذا الأسبوع",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
