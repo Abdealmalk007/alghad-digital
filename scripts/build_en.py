@@ -193,7 +193,7 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/assets/en.css">
-  <link rel="stylesheet" href="/assets/global-tech-sources.css?v=1"><link rel="stylesheet" href="/assets/home-redesign-v4.css?v=1">
+  <link rel="stylesheet" href="/assets/global-tech-sources.css?v=1"><link rel="stylesheet" href="/assets/home-redesign-v4.css?v=1"><link rel="stylesheet" href="/assets/hero-adfree-v5.css?v=1">
   <link rel="stylesheet" href="/assets/share.css?v=1">
   <link rel="stylesheet" href="/assets/refinement.css?v=1">
   <meta property="og:type" content="website">
@@ -277,21 +277,22 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
       <div class="en-hero-copy"><span class="en-kicker">DESIGN · BUILD · PRODUCTIVITY</span>
         <h1>Software that helps you <span>work smarter.</span></h1>
         <p>Discover practical tools for business management, data analytics, teams and everyday operations. Compare products and find clearly labeled preview releases.</p>
+        <div class="v5-clean-experience" role="note" aria-label="Focused software experience"><span class="v5-clean-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2 4 5v7c0 5 3.4 8.3 8 10 4.6-1.7 8-5 8-10V5l-8-3z"/><path d="m8 12 3 3 5-6"/></svg></span><div><strong>No intrusive ads. No distractions.</strong><p>Our design goal is focused, easy-to-use software without disruptive in-app advertising. Ad-free claims for individual releases require verification.</p><span class="v5-clean-kicker">USER-FIRST · AD-FREE DESIGN GOAL</span></div></div>
         <div class="en-actions">{internal("/en/programs/","Explore our software","en-btn en-btn-primary")}{internal("#downloads","Official downloads","en-btn en-btn-outline")}</div>
         <p class="en-hero-note">Clearly labeled preview releases · Official GitHub downloads</p>
       </div>
-      <div class="en-hero-visual v4-en-portfolio" aria-label="ProTech software categories">
-        <div class="v4-panel-heading"><span class="v4-panel-eyebrow">PROTECH SOFTWARE COLLECTION</span><strong>One collection. Many possibilities.</strong><p>Explore practical software across different workflows.</p></div>
+      <div class="en-hero-visual v4-en-portfolio v5-showcase" aria-label="ProTech software categories">
+        <div class="v4-panel-heading"><span class="v4-panel-eyebrow">PROTECH SOFTWARE COLLECTION</span><strong>One collection. Many possibilities.</strong><p>Choose an area and explore ProTech software, features and available releases.</p></div>
         <div class="v4-panel-grid">
-          <a class="v4-panel-tile" href="/en/programs/"><span class="v4-panel-symbol" aria-hidden="true">▦</span><span><b>Data &amp; analytics</b><small>INSIGHTS</small></span></a>
-          <a class="v4-panel-tile" href="/en/programs/"><span class="v4-panel-symbol" aria-hidden="true">♙</span><span><b>People &amp; HR</b><small>TEAMS</small></span></a>
-          <a class="v4-panel-tile" href="/en/programs/"><span class="v4-panel-symbol" aria-hidden="true">▧</span><span><b>Materials &amp; production</b><small>OPERATIONS</small></span></a>
-          <a class="v4-panel-tile" href="/en/programs/"><span class="v4-panel-symbol" aria-hidden="true">≡</span><span><b>Contracts &amp; reports</b><small>DOCUMENTS</small></span></a>
-        </div><div class="v4-en-portfolio-foot">BROWSE THE COMPLETE SOFTWARE LIBRARY <span aria-hidden="true">↗</span></div>
+          <a class="v4-panel-tile" href="/en/programs/" aria-label="Explore People &amp; HR software"><span class="v4-panel-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M16 5a3 3 0 0 1 0 6M18 14a5 5 0 0 1 3 5v1"/></svg></span><span><b>People &amp; HR</b><small>TEAMS &amp; WORKFORCE</small></span></a>
+          <a class="v4-panel-tile" href="/en/programs/" aria-label="Explore Data &amp; analytics software"><span class="v4-panel-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 3v18M12 17l3-4 2 1 2-3"/></svg></span><span><b>Data &amp; analytics</b><small>DATA &amp; INSIGHTS</small></span></a>
+          <a class="v4-panel-tile" href="/en/programs/" aria-label="Explore Contracts &amp; reports software"><span class="v4-panel-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 2h7l5 5v15H7zM14 2v6h5M10 12h6M10 16h5M3 7v14"/></svg></span><span><b>Contracts &amp; reports</b><small>DOCUMENTS &amp; REPORTS</small></span></a>
+          <a class="v4-panel-tile" href="/en/programs/" aria-label="Explore Materials &amp; production software"><span class="v4-panel-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 2 10 5-10 5L2 7l10-5zm-10 10 10 5 10-5M2 17l10 5 10-5"/></svg></span><span><b>Materials &amp; production</b><small>OPERATIONS</small></span></a>
+        </div><div class="v4-en-portfolio-foot"><span class="v5-panel-label">PROTECH APPLICATIONS</span><a class="v5-panel-all" href="/en/programs/">EXPLORE ALL <span aria-hidden="true">↗</span></a></div>
       </div>
     </section>
     <section class="en-section" id="programs">
-      <div class="en-section-heading"><div><span class="en-kicker">01 / OUR PRODUCTS</span><h2>Explore ProTech software</h2><p>All available projects, clearly labeled by release status.</p></div><span class="en-stat">10 products</span></div>
+      <div class="en-section-heading"><div><span class="en-kicker">01 / OUR PRODUCTS</span><h2>Explore ProTech software</h2><p>All available projects, clearly labeled by release status.</p></div><span class="en-stat">Software collection</span></div>
       <div class="en-toolbar"><label for="en-search">Search software <input id="en-search" type="search" placeholder="Search by name or feature" autocomplete="off"></label>
       <div class="en-filter" role="group" aria-label="Filter by status"><button type="button" class="is-selected" data-en-filter="all" aria-pressed="true">All</button><button type="button" data-en-filter="public" aria-pressed="false">Published</button><button type="button" data-en-filter="dev" aria-pressed="false">In development</button></div></div>
       <p class="en-no-results" id="en-empty" hidden>No products match your search.</p>
@@ -310,9 +311,9 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
          {"@context":"https://schema.org","@type":"WebSite","name":"Alghad Digital","url":DOMAIN+"/en/","inLanguage":"en","publisher":{"@type":"Organization","name":"ProTech"}})
 
 def render_catalog(products:list[dict],downloads:dict)->None:
-    body=hero("OUR SOFTWARE / PROTECH","Software library","Explore all ten ProTech applications. Published preview downloads are distinguished from projects still under development.")
+    body=hero("OUR SOFTWARE / PROTECH","Software library","Explore ProTech applications across the full catalog. Published preview downloads are distinguished from projects still under development.")
     body+='<div class="en-grid">' + ''.join(brand_card(p,downloads) for p in products)+'</div>'
-    page("/programs/","ProTech Software Library | Alghad Digital","Explore ten ProTech Windows and Android products, download availability and development status.",body,{"@context":"https://schema.org","@type":"CollectionPage","name":"ProTech Software Library","url":DOMAIN+"/en/programs/"})
+    page("/programs/","ProTech Software Library | Alghad Digital","Explore ProTech Windows and Android products, download availability and development status.",body,{"@context":"https://schema.org","@type":"CollectionPage","name":"ProTech Software Library","url":DOMAIN+"/en/programs/"})
 
 def render_windows_office()->None:
     title="Windows & Office Programs"

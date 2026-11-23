@@ -93,6 +93,7 @@ jobs:
           node tests/translation-test.cjs
           node tests/product-first-test.cjs
           node tests/home-redesign-v4-test.cjs
+          node tests/hero-adfree-v5-test.cjs
           node tests/brand-seo-test.cjs
           node tests/founder-credit-test.cjs
           node tests/search-visibility-test.cjs

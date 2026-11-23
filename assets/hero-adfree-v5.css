@@ -1,0 +1,33 @@
+/* Hero V5 overrides: ProTech software collection, accessible SVG symbols. */
+.v5-showcase .v4-panel-symbol svg{width:36px;height:36px;display:block;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.v5-showcase .v4-panel-symbol{width:57px;height:57px;flex:0 0 57px;display:grid;place-items:center;border-radius:17px}
+.v5-showcase .v4-panel-tile{min-height:113px;padding:14px;gap:12px;background:linear-gradient(135deg,#1b4356,#153447);border-color:#5395a180}
+.v5-showcase .v4-panel-tile:hover{background:#205164;border-color:#8febd6}
+.v5-showcase .v4-panel-tile b{font-size:13px}
+.v5-showcase .v4-panel-tile small{font-size:9px}
+.v5-showcase .v4-panel-grid{gap:12px}
+.v5-showcase .v4-panel-heading{padding:20px 5px 16px}
+.v5-showcase .v4-panel-heading strong{font-size:clamp(22px,2.2vw,28px);text-wrap:balance}
+.v5-showcase .hero-gallery-foot,.v5-showcase .v4-en-portfolio-foot{align-items:center;gap:12px;flex-wrap:wrap}
+.v5-showcase .v5-panel-all{color:#abfbe7;text-decoration:none;font-weight:850;border-radius:5px}
+.v5-showcase .v5-panel-all:hover{text-decoration:underline}
+.v5-showcase .v5-panel-all:focus-visible{outline:2px solid #a4fce5;outline-offset:4px}
+.v5-showcase .v5-panel-label{display:flex;gap:8px;align-items:center}
+.v5-clean-experience{display:flex;align-items:flex-start;gap:13px;padding:15px 17px;margin-block:21px 18px;border:1px solid color-mix(in srgb,var(--teal) 42%,var(--line));background:color-mix(in srgb,var(--panel) 89%,var(--teal));border-radius:17px;color:var(--text);text-align:start}
+.v5-clean-symbol{display:grid;place-items:center;flex:0 0 43px;width:43px;height:43px;border-radius:13px;background:color-mix(in srgb,var(--teal) 13%,var(--panel));color:var(--teal)}
+.v5-clean-symbol svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.v5-clean-experience strong{display:block;font-size:clamp(14px,1.45vw,17px);font-weight:900;line-height:1.55}
+.v5-clean-experience p{margin:5px 0 0;font-size:12.5px;line-height:1.8;color:var(--sub)}
+.v5-clean-kicker{display:block;margin-top:8px;font:800 10px/1.5 Arial,sans-serif;letter-spacing:.08em;color:var(--teal)}
+#home .v5-counts-accessibility-only,#gallery-portfolio-count[hidden]{display:none!important}
+.en-hero-visual.v5-showcase .v4-panel-heading{direction:ltr;text-align:left}
+.en-hero-visual.v5-showcase .v4-panel-grid{direction:ltr}
+.en-hero-visual.v5-showcase .v4-panel-tile{justify-content:flex-start}
+.en-hero-visual.v5-showcase .v4-panel-tile small{text-align:left}
+.en-hero-visual.v5-showcase .v4-panel-tile:nth-child(1) .v4-panel-symbol{background:#493c7780;color:#dad2ff}
+.en-hero-visual.v5-showcase .v4-panel-tile:nth-child(2) .v4-panel-symbol{background:#22647c80;color:#a7f1ff}
+.en-hero-visual.v5-showcase .v4-panel-tile:nth-child(3) .v4-panel-symbol{background:#79613a55;color:#f4d797}
+.en-hero-visual.v5-showcase .v4-panel-tile:nth-child(4) .v4-panel-symbol{background:#2c7e7880;color:#9bf4d8}
+@media(max-width:620px){.v5-showcase .v4-panel-grid{gap:8px}.v5-showcase .v4-panel-tile{min-height:98px;padding:9px;gap:8px}.v5-showcase .v4-panel-symbol{width:43px;height:43px;flex-basis:43px;border-radius:12px}.v5-showcase .v4-panel-symbol svg{width:28px;height:28px}.v5-showcase .v4-panel-tile b{font-size:11px}.v5-showcase .v4-panel-tile small{font-size:8px}.v5-clean-experience{padding:12px;gap:10px;margin-block:16px}}
+@media(max-width:360px){.v5-showcase .v4-panel-tile{flex-direction:column;align-items:flex-start;min-height:113px}}
+@media(prefers-reduced-motion:reduce){.v5-showcase .v4-panel-tile{transition:none;transform:none!important}}
