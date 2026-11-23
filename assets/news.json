@@ -1,7 +1,37 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T06:25:24Z",
+  "generated_at": "2026-11-23T08:30:29Z",
   "articles": [
+    {
+      "title": "أوروبا تريد الاستغناء عن السحابة الأمريكية.. لكن 70% من السوق لا يزال بيدها!",
+      "url": "https://techvoicearabia.com/europe-sovereign-cloud-us-tech-dominance-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-23T08:09:50Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أوروبا تريد الاستغناء عن السحابة الأمريكية.. لكن 70% من السوق لا يزال بيدها!",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "OpenRouter تزيل 3 مزودين بعد سرقة مطالبات مستخدمي الذكاء الاصطناعي",
+      "url": "https://3arrafni.com/tech-news/openrouter-prompt-theft-ai-providers",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-23T07:28:19Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenRouter تزيل 3 مزودين بعد سرقة مطالبات مستخدمي الذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Windows 11 يعالج تدهور صوت سماعات Bluetooth عند تشغيل الميكروفون",
+      "url": "https://3arrafni.com/tech-news/windows-11-bluetooth-headphones-microphone-stereo-audio",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-23T06:33:19Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "Windows 11 يعالج تدهور صوت سماعات Bluetooth عند تشغيل الميكروفون",
+      "translation_status": "original_ar"
+    },
     {
       "title": "ألمانيا تختبر مسيرات تضرب الدبابات وذكاءً اصطناعيًا يرشح الأهداف.. لماذا الآن؟",
       "url": "https://techvoicearabia.com/germany-kamikaze-drones-ai-targeting-lithuania/",
@@ -20,6 +50,16 @@
       "published_at": "2026-11-23T05:38:19Z",
       "category": "الأمن السيبراني",
       "title_ar": "ثغرة في Meta Muse تتيح لصفحة خبيثة سرقة المحادثات والذكريات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هلوسات الذكاء الاصطناعي.. حين تخدم أخطاء الآلة خيال البشر",
+      "url": "https://www.aljazeera.net/tech/2026/11/23/%d9%87%d9%84%d9%88%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%ad%d9%8a%d9%86-%d8%aa%d8%ae%d8%af%d9%85?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-23T05:16:20Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "هلوسات الذكاء الاصطناعي.. حين تخدم أخطاء الآلة خيال البشر",
       "translation_status": "original_ar"
     },
     {
@@ -93,6 +133,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "نيويورك تايمز: تقارير استخباراتية تكشف تفاصيل جديدة عن الاختراق الصيني لـ\"إنفيديا\"",
+      "url": "https://www.aljazeera.net/news/2026/11/23/%d8%b9%d9%84%d8%a7%d9%82%d8%a9-%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%a9-%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-23T03:21:26Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "نيويورك تايمز: تقارير استخباراتية تكشف تفاصيل جديدة عن الاختراق الصيني لـ\"إنفيديا\"",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
       "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
       "source": "theverge",
@@ -102,36 +152,6 @@
       "title_ar": "القطعة القابلة للتحصيل التالية من كوداك هي إطار صور رقمي صغير يعمل أيضًا كجهاز تتبع",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "ميزة Gemini الجديدة لإنشاء صور GIF متحركة من النص والصور والفيديو",
-      "url": "https://3arrafni.com/tech-news/gemini-gif-maker",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-23T02:53:19Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ميزة Gemini الجديدة لإنشاء صور GIF متحركة من النص والصور والفيديو",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "6 أجهزة ذكية توظف الذكاء الاصطناعي لتطوير العمل من المنزل",
-      "url": "https://www.aljazeera.net/tech/2026/11/23/6-%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d8%b0%d9%83%d9%8a%d8%a9-%d8%aa%d9%88%d8%b8%d9%81-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-23T02:00:00Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "6 أجهزة ذكية توظف الذكاء الاصطناعي لتطوير العمل من المنزل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "التحقق من برهان فرضية ريمان بمساعدة Claude عبر نظام Lean",
-      "url": "https://3arrafni.com/tech-news/riemann-hypothesis-proof-lean-claude-verified",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-23T01:58:19Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "التحقق من برهان فرضية ريمان بمساعدة Claude عبر نظام Lean",
-      "translation_status": "original_ar"
     },
     {
       "title": "Here's how much Starlink cost in 2020 vs. 2026",
@@ -251,16 +271,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "الرؤى السرية لـ\"نبيّ\" الذكاء الاصطناعي ومستقبل البشرية",
-      "url": "https://www.aljazeera.net/tech/2026/11/23/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d9%8a%d9%86-%d8%b3%d8%a8%d8%a7%d9%82-%d8%a7%d9%84%d9%87%d9%8a%d9%85%d9%86%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-22T22:13:18Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "الرؤى السرية لـ\"نبيّ\" الذكاء الاصطناعي ومستقبل البشرية",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "‘You Can See Everything’ has made more than $100M worldwide",
       "url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
       "source": "techcrunch",
@@ -292,16 +302,6 @@
       "title_ar": "أفضل التطبيقات لتكوين صداقات جديدة الآن",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "شاومي تعلن تجاوز شحنات أساورها الذكية 240 مليون وحدة",
-      "url": "https://www.tech-wd.com/wd/2026/11/22/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%b9%d9%84%d9%86-%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-%d8%b4%d8%ad%d9%86%d8%a7%d8%aa-%d8%a3%d8%b3%d8%a7%d9%88%d8%b1%d9%87%d8%a7-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-24/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-22T18:47:39Z",
-      "category": "أخبار التقنية",
-      "title_ar": "شاومي تعلن تجاوز شحنات أساورها الذكية 240 مليون وحدة",
-      "translation_status": "original_ar"
     },
     {
       "title": "Your questions about Apple HomeView’s audio, answered",
@@ -410,7 +410,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": false
+      "active": true
     },
     {
       "id": "arrafni",
