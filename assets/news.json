@@ -1,7 +1,226 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T19:30:35Z",
+  "generated_at": "2026-11-23T22:34:53Z",
   "articles": [
+    {
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-23T22:25:12Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ترامب هندس عودة محفوفة بالمخاطر لجنسن هوانغ",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-23T22:10:32Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عاد جينسن هوانغ، الرئيس التنفيذي لشركة إنفيديا. ما الذي سيحدث بعد ذلك؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Welcome to elite impunity, Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-23T22:09:26Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مرحبًا بك في الإفلات من العقاب للنخبة، جينسن هوانغ",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T22:05:50Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تطلق أنثروبيك كلود شيب، مما يسمح لوكلاء الذكاء الاصطناعي بمراجعة تغييرات التعليمات البرمجية وإصلاحها والموافقة عليها",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T22:02:05Z",
+      "category": "أخبار التقنية",
+      "title_ar": "جمعت سوبرتايك 20 مليون دولار للسماح لوكلاء الذكاء الاصطناعي بتحويل توقعاتك السوقية إلى محافظ أسهم",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
+      "url": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-23T21:58:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ترامب يوقف تفجير آيوا، ويقول إن الحاكم الجديد هو المسؤول إذا انفجر عن طريق الخطأ",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T21:47:41Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إيلون ماسك وآخرون يفرحون بعودة جنسن هوانغ إلى منصبه في إنفيديا وسط فضيحة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-23T21:36:48Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ساعة أبل سيريز 12 أرخص من أي وقت مضى قبل الجمعة البيضاء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-23T21:30:44Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقاضي الولايات شركة سبيس إكس لوقف غروك من توليد صور جنسية للأطفال، ومقاطع إباحية انتقامية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T21:25:42Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يبدو أن شركة ميغاسبيد، الشركة التي كانت في قلب فضيحة جنسن هوانغ، تتجه نحو إدراجها في القائمة السوداء الأمريكية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Your older, discontinued AirTags can still serve a purpose",
+      "url": "https://www.engadget.com/2320290/discontinued-airtags-still-serve-purpose/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T21:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لا تزال أجهزة AirTags القديمة التي تم إيقاف إنتاجها قادرة على أداء وظيفة ما",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "New leaks reveal the iPhone 18e will have a redesigned camera plateau",
+      "url": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T20:57:55Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تكشف التسريبات الجديدة أن هاتف iPhone 18e سيحتوي على منصة كاميرا معاد تصميمها",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Apple renews Ted Lasso for season 5",
+      "url": "https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-23T20:56:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أبل تجدد مسلسل \"تيد لاسو\" للموسم الخامس",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "GTA 6 player gets social ban on PSN after sending a photo of in-game nudity",
+      "url": "https://www.engadget.com/2325800/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T20:46:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تم حظر لاعب GTA 6 اجتماعيًا على PSN بعد إرسال صورة لعُري داخل اللعبة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-23T20:38:53Z",
+      "category": "أخبار التقنية",
+      "title_ar": "موظفو إنفيديا يستقبلون جنسن هوانغ كبطل عند عودته إلى مقر الشركة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Russia will launch a routine ISS supply mission tomorrow—apparently, it's a big secret",
+      "url": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-23T20:34:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ستطلق روسيا غدًا مهمة إمداد روتينية لمحطة الفضاء الدولية - ويبدو أنها سر كبير",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Grand Theft Auto 6 is really about the death of the American Dream",
+      "url": "https://www.engadget.com/2325713/grand-theft-auto/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T20:16:10Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تدور أحداث لعبة Grand Theft Auto 6 حقًا حول موت الحلم الأمريكي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Surveillance pricing uses our personal data to make us pay more",
+      "url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-23T20:11:43Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تستخدم تسعيرة المراقبة بياناتنا الشخصية لجعلنا ندفع المزيد",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The infamous GTA 6 hacker has been released after pleading guilty",
+      "url": "https://www.engadget.com/2325643/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T19:42:43Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تم إطلاق سراح مخترق لعبة GTA 6 سيئ السمعة بعد إقراره بالذنب",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "إعادة تعيين جينسن هوانغ رئيساً ومديراً تنفيذياً لشركة NVIDIA بعد مراجعة أمنية",
+      "url": "https://www.tech-wd.com/wd/2026/11/23/%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%aa%d8%b9%d9%8a%d9%8a%d9%86-%d8%ac%d9%8a%d9%86%d8%b3%d9%86-%d9%87%d9%88%d8%a7%d9%86%d8%ba-%d8%b1%d8%a6%d9%8a%d8%b3%d8%a7%d9%8b-%d9%88%d9%85%d8%af%d9%8a%d8%b1%d8%a7/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-23T19:32:36Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إعادة تعيين جينسن هوانغ رئيساً ومديراً تنفيذياً لشركة NVIDIA بعد مراجعة أمنية",
+      "translation_status": "original_ar"
+    },
     {
       "title": "إطلاق Honor 700S رسميًا في الصين مع شاشة خلفية ومزايا قوية للكاميرا والبطارية",
       "url": "https://www.tech-wd.com/wd/2026/11/23/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-honor-700s-%d8%b1%d8%b3%d9%85%d9%8a%d9%8b%d8%a7-%d9%81%d9%8a-%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%85%d8%b9-%d8%b4%d8%a7%d8%b4%d8%a9-%d8%ae%d9%84%d9%81%d9%8a%d8%a9-%d9%88/",
@@ -13,57 +232,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Kodak's SlideTag combines a digital photo frame and an AirTag",
-      "url": "https://www.engadget.com/2325598/kodak-slidetag-combines-a-digital-photo-frame-and-an-airtag/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T19:20:26Z",
+      "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
+      "url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-23T19:28:30Z",
       "category": "أخبار التقنية",
-      "title_ar": "يجمع جهاز SlideTag من كوداك بين إطار الصور الرقمي وجهاز AirTag",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
-      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T19:14:46Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يمكن لوضع الذكاء الاصطناعي في بحث Google الآن الاستفادة من Drive وWallet للحصول على إجابات أكثر تخصيصًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "These underrated smart rings are more affordable than the Oura Ring 5",
-      "url": "https://www.engadget.com/2320286/underrated-smart-rings-more-affordable-oura-ring-5/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T19:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هذه الخواتم الذكية التي لا تحظى بالتقدير الكافي أرخص من خاتم أورا 5",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Uber now lets riders request drivers who are recording their trips",
-      "url": "https://www.engadget.com/2325472/uber-now-lets-riders-request-drivers-who-are-recording-their-trips/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T18:24:49Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تتيح أوبر الآن للركاب طلب شركاء سائقين يقومون بتسجيل مشاويرهم",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
-      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T18:12:22Z",
-      "category": "أخبار التقنية",
-      "title_ar": "من المقرر أن يدلي جنسن هوانغ بشهادته الأسبوع المقبل في مجلس الشيوخ بعد إعادة تعيينه رئيسًا تنفيذيًا لشركة إنفيديا",
+      "title_ar": "تقارير: روسيا قد تطلق سلاحًا نوويًا في المدار في وقت مبكر من الشهر المقبل",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -79,61 +254,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "You can block AI slop and spam on these social media platforms",
-      "url": "https://www.engadget.com/2320284/how-block-ai-slop-spam-social-media-platforms/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T17:45:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يمكنك حظر محتوى الذكاء الاصطناعي غير المرغوب فيه والرسائل غير المرغوب فيها على منصات التواصل الاجتماعي هذه",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T17:14:23Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أمازون تستحوذ على تقنية تحسين الذكاء الاصطناعي من Decart مقابل 7.5 مليار دولار بينما تستعد لبيع رقاقات Trainium",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Meta throws out its net-zero goal. Its competitors should be furious",
-      "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T17:13:45Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ميتا تتخلى عن هدفها للوصول إلى صافي انبعاثات صفرية. يجب أن يكون منافسوها غاضبين",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Google is finally retiring the Nest app early next year",
-      "url": "https://www.engadget.com/2325245/google-is-finally-retiring-the-nest-app-early-next-year/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-23T16:59:56Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستوقف غوغل أخيرًا تطبيق Nest في أوائل العام المقبل",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Jensen Huang isn’t out of the woods yet",
-      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T16:57:40Z",
-      "category": "أخبار التقنية",
-      "title_ar": "جينسن هوانغ لم يخرج من المأزق بعد",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "الذكاء الاصطناعي في مختبرات الإنجاب: أداة جديدة لرصد أندر الخلايا المنوية",
       "url": "https://www.bbc.com/arabic/watch/cxvg2n7n9qmro?at_medium=RSS&at_campaign=rss",
       "source": "bbc",
@@ -142,28 +262,6 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "الذكاء الاصطناعي في مختبرات الإنجاب: أداة جديدة لرصد أندر الخلايا المنوية",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
-      "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-23T16:30:11Z",
-      "category": "أخبار التقنية",
-      "title_ar": "البيت الأبيض يتباهى بأن ترامب كان \"منخرطًا تمامًا\" في إعادة تعيين جنسن",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Tech leaders are celebrating Jensen Huang’s return",
-      "url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-23T16:14:04Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الرواد التقنيون يحتفلون بعودة جنسن هوانغ",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "إنفيديا تعيد جنسن هوانغ رئيسًا تنفيذيًا",
@@ -176,28 +274,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
-      "url": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-23T15:55:12Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مارفل تحشر كل الأبطال الخارقين على الإطلاق في المقطع الدعائي الأخير لفيلم \"أفنجرز: يوم القيامة\"",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
-      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-23T15:46:18Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تمت إعادة تعيين جنسن هوانغ كرئيس تنفيذي لشركة إنفيديا ورئيس مجلس إدارتها",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "صور «غروك» الجنسية المفبركة تجرّ شركات ماسك إلى القضاء",
       "url": "https://aitnews.com/2026/11/23/%d8%ba%d8%b1%d9%88%d9%83-%d8%af%d8%b9%d8%a7%d9%88%d9%89-%d9%81%d8%b1%d8%ac%d9%8a%d9%86%d9%8a%d8%a7-%d8%a3%d9%88%d8%b1%d9%8a%d8%ba%d9%88%d9%86/",
       "source": "aitnews",
@@ -206,17 +282,6 @@
       "category": "أخبار التقنية",
       "title_ar": "صور «غروك» الجنسية المفبركة تجرّ شركات ماسك إلى القضاء",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
-      "url": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-23T15:23:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الدورة الحادية والثلاثون لمؤتمر الأطراف تنتهي بالفشل بسبب انقسام البلدان بشأن الوقود الأحفوري والتمويل المتعلق بالمناخ",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "إنفيديا تعيد جنسن هوانغ إلى رئاستها بعد 11 يومًا.. ما الذي غيّر قرار مجلس الإدارة؟",
@@ -260,17 +325,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Jensen Huang is back as Nvidia’s CEO",
-      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-23T14:04:24Z",
-      "category": "أخبار التقنية",
-      "title_ar": "جنسن هوانغ يعود كرئيس تنفيذي لشركة إنفيديا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "لعبة Heroes of Might and Magic 3 Remake تحصل على عرض دعائي جديد",
       "url": "https://arabhardware.net/post-55218",
       "source": "hardware",
@@ -279,28 +333,6 @@
       "category": "أخبار التقنية",
       "title_ar": "لعبة Heroes of Might and Magic 3 Remake تحصل على عرض دعائي جديد",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Blade Runner 2099 is an inventive twist on a cyberpunk classic",
-      "url": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-23T14:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بليد رانر 2099 هو لمسة مبتكرة على كلاسيكية السايبر بانك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "F1 in Las Vegas: You've never seen an F1 race like this before",
-      "url": "https://arstechnica.com/cars/2026/11/f1-in-las-vegas-youve-never-seen-an-f1-race-like-this-before/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-23T13:54:22Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سباق الفورمولا 1 في لاس فيغاس: لم يسبق لك أن شاهدت سباق فورمولا 1 كهذا من قبل",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "هواتف الحبر الإلكتروني: هل تغنيك عن الهاتف والقارئ الإلكتروني؟",
@@ -317,20 +349,9 @@
       "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
       "source": "wired",
       "source_name": "WIRED",
-      "published_at": "2026-11-23T13:11:48Z",
+      "published_at": "2026-11-23T13:11:00Z",
       "category": "أخبار التقنية",
       "title_ar": "توفر إنفيديا الآن الطاقة لواجهات الدماغ والحاسوب",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Amazon is taking orders for the Moto Tag 3 before it’s even been announced",
-      "url": "https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-23T13:09:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أمازون تتلقى طلبات على جهاز Moto Tag 3 قبل الإعلان عنه حتى",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -363,27 +384,6 @@
       "category": "أخبار التقنية",
       "title_ar": "ادعاء متداول عن تصنيف GTA 6 للاعبين وبيع بياناتهم لشركات التأمين",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "هاتف HONOR 700 Pro ينطلق رسميًا ببطارية 9000 مللي أمبير وشاشة خلفية",
-      "url": "https://arabhardware.net/post-55217",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-23T12:38:58Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هاتف HONOR 700 Pro ينطلق رسميًا ببطارية 9000 مللي أمبير وشاشة خلفية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Google rolls out new search homepage with AI chat history and no search button",
-      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-20T21:58:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تطلق غوغل صفحة بحث رئيسية جديدة مع سجل دردشة بالذكاء الاصطناعي وبدون زر بحث",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     }
   ],
   "sources": [
