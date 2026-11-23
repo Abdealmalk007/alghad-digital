@@ -40,6 +40,8 @@ jobs:
         run: python scripts/update_industry_news.py
       - name: Translate new English news headlines into Arabic with cached results
         run: python scripts/translate_news.py
+      - name: Build bilingual TOP 5 categories from verified headlines
+        run: python scripts/build_top5.py
       - name: Report source freshness and recorded publication dates
         run: python scripts/news_health_report.py
       - name: Prerender software, safe release links, and a short news digest
@@ -94,6 +96,8 @@ jobs:
           node tests/product-first-test.cjs
           node tests/home-redesign-v4-test.cjs
           node tests/hero-adfree-v5-test.cjs
+          node tests/top5-hub-test.cjs
+          python tests/test_top5.py
           node tests/brand-seo-test.cjs
           node tests/founder-credit-test.cjs
           node tests/search-visibility-test.cjs
@@ -127,7 +131,7 @@ jobs:
         run: |
           git config user.name "alghad-news-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- assets/news.json assets/news-data.js news/index.html sitemap.xml index.html
+          git add -- assets/news.json assets/news-data.js assets/top5-news.json assets/top5-translation-cache.json news/index.html top-5/index.html sitemap.xml index.html
           git add -- en/
           git add -- docs/programs/ programs/
           git add -- about/index.html security/index.html privacy/index.html protech/index.html windows-office/index.html

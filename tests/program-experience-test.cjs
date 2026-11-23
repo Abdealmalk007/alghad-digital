@@ -7,8 +7,8 @@ const vm=require("node:vm");
 const root=path.resolve(__dirname,"..");
 const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
 const urls=[...read("sitemap.xml").matchAll(/<loc>https:\/\/alghad\.digital(\/[^<]*)<\/loc>/g)].map(m=>m[1]);
-assert.equal(urls.length,46);
-assert.equal(new Set(urls).size,46);
+assert.equal(urls.length,48);
+assert.equal(new Set(urls).size,48);
 const ctx={window:{}};
 vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
 const products=ctx.window.AL_GHAD_PRODUCTS;
@@ -59,4 +59,4 @@ for(const required of ['cron: "30 4 * * *"','python scripts/build_program_experi
                        'node tests/program-experience-test.cjs','python scripts/build_site_search.py']){
   assert.ok(workflow.includes(required),"Daily rebuild cannot regress: "+required);
 }
-console.log("EMAIL_AND_WHATSAPP_EXPERIENCE_PASS",JSON.stringify({pages:urls.length,products:22,benefitCards:88,emailCtas:22,phoneLinks:46,searchBackCollisionGuard:true}));
+console.log("EMAIL_AND_WHATSAPP_EXPERIENCE_PASS",JSON.stringify({pages:urls.length,products:22,benefitCards:88,emailCtas:22,phoneLinks:48,searchBackCollisionGuard:true}));

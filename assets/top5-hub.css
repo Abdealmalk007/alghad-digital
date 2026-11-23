@@ -1,0 +1,64 @@
+/* TOP 5 technology hub. No remote fonts, tracking or ad modules. */
+:root{--top5-accent:#38dbc3;--top5-bg:#071e2c;--top5-surface:#123245;--top5-border:#77dcd450;--top5-title:#f2fbff;--top5-muted:#bfd5de}
+.top5-root{width:min(100%,1210px);margin:0 auto;padding:clamp(14px,3vw,33px) 0 66px;font-family:inherit;box-sizing:border-box}
+.top5-root *{box-sizing:border-box}
+.top5-root button,.top5-root a{font:inherit}
+.top5-root button:focus-visible,.top5-root a:focus-visible{outline:3px solid #59e9d0;outline-offset:3px}
+.top5-intro{padding:clamp(21px,4vw,45px);border-radius:25px;color:#e7fbfb;border:1px solid var(--top5-border);background:radial-gradient(circle at 15% 17%,#165d6191,transparent 53%),linear-gradient(132deg,#132f4d,#071e2f);margin:0 0 24px}
+.top5-kicker{color:#71f5d7;font:800 11px/1.6 Arial,sans-serif;letter-spacing:.16em}
+.top5-intro h1{font-size:clamp(29px,4.9vw,55px);line-height:1.2;letter-spacing:-.035em;color:#fff;margin:12px 0 18px}
+.top5-intro>p{font-size:clamp(13px,1.35vw,16px);line-height:1.9;color:#d0e0ea;max-width:790px}
+.top5-facts{display:flex;gap:12px;flex-wrap:wrap;margin-top:19px}
+.top5-facts span{color:#c7ffed;background:#187c6c48;border:1px solid #53dac273;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:750}
+.top5-layout{display:grid;grid-template-columns:minmax(232px,320px) minmax(0,1fr);gap:21px;align-items:start}
+.top5-categories{display:grid;gap:8px;background:linear-gradient(155deg,#122f40,#0c2433);border:1px solid #5392a16b;border-radius:18px;padding:12px;position:sticky;top:90px}
+.top5-tab{display:flex;align-items:center;gap:10px;min-width:0;min-height:63px;text-align:start;border:1px solid transparent;border-radius:13px;background:#23506561;color:#effeff;padding:10px 11px;cursor:pointer;transition:background .18s,border-color .18s}
+.top5-tab:hover{background:#256478a6;border-color:#a9eae76c}
+.top5-tab[aria-selected=true]{border-color:#75ebd5;background:#1b726b70;box-shadow:inset 0 0 0 1px #80e4d02c}
+.top5-tab-icon{display:grid;place-items:center;flex:0 0 40px;width:40px;height:40px;color:#7df6db;background:#0c556d6b;border-radius:11px}
+.top5-tab-icon svg{width:25px;height:25px}
+.top5-tab-name{flex:1;min-width:0;line-height:1.5;font-size:12.5px;font-weight:800;overflow-wrap:anywhere}
+.top5-tab-count{min-width:23px;text-align:center;color:#adeee1;font-size:11px;font-weight:800;direction:ltr}
+.top5-content{min-width:0}
+.top5-panel{background:linear-gradient(170deg,#132f41,#0a2231);border:1px solid #6da9aa59;border-radius:20px;min-width:0;padding:clamp(13px,2.4vw,27px);color:#eaf8fb}
+.top5-panel[hidden]{display:none!important}
+.top5-section-title{display:flex;align-items:end;justify-content:space-between;gap:10px;border-bottom:1px solid #abd7df36;padding-bottom:15px;margin-bottom:8px}
+.top5-section-title h2{color:#f7ffff;font-size:clamp(21px,2.6vw,30px);margin:3px 0 0;line-height:1.4}
+.top5-section-title>p{color:#b1d1d7;font-size:12px;white-space:nowrap}
+.top5-label{color:#67edd3;font-size:10px;font-weight:850;letter-spacing:.04em;margin:0}
+.top5-story{display:grid;grid-template-columns:45px minmax(0,1fr);gap:14px;border-bottom:1px solid #8eb5b52b;padding:21px 0}
+.top5-story:last-of-type{border-bottom:0}
+.top5-story-num{width:40px;height:40px;display:grid;place-items:center;border-radius:12px;background:#187e796a;color:#a4ffdf;font:900 16px/1 Arial,sans-serif}
+.top5-story-body{min-width:0}
+.top5-story-meta{display:flex;gap:10px;flex-wrap:wrap;color:#bad2df;font-size:11px;align-items:center}
+.top5-story-meta time{direction:ltr}
+.top5-original{border:1px solid #c2b47b5c;border-radius:6px;padding:3px 5px;color:#f8dda2;font-size:10px}
+.top5-story h3{margin:9px 0;line-height:1.65;color:#f5ffff;font-size:clamp(14px,1.55vw,18px);font-weight:850;overflow-wrap:anywhere}
+.top5-story p{margin:8px 0 5px;color:#c6dce5;font-size:12px;line-height:1.8}
+.top5-read{display:inline-flex;align-items:center;gap:6px;margin-top:9px;color:#7af8df;text-underline-offset:3px;font-size:12px;font-weight:800}
+.top5-read:hover{color:#fff}
+.top5-empty{padding:30px 0;color:#c9dce2;line-height:1.9}
+.top5-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:14px}
+.top5-actions button{border:1px solid #65d0bd80;border-radius:10px;padding:9px 13px;background:#173e4d;color:#e2fcf6;cursor:pointer}
+.top5-actions button:hover{background:#226173}
+.top5-method{color:var(--sub,#8da8b5);font-size:12px;line-height:1.8;margin:24px 3px}
+html[lang=en] .top5-categories{direction:ltr}
+html[lang=en] .top5-story{direction:ltr}
+@media(max-width:850px){.top5-layout{grid-template-columns:1fr}.top5-categories{position:static;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.top5-tab{min-height:70px}.top5-intro{margin-bottom:15px}}
+@media(max-width:520px){.top5-root{padding-top:10px}.top5-categories{padding:9px}.top5-tab{gap:7px;padding:9px 7px;min-height:75px}.top5-tab-icon{width:32px;height:32px;flex-basis:32px}.top5-tab-icon svg{width:20px;height:20px}.top5-tab-name{font-size:10.5px}.top5-tab-count{font-size:10px;min-width:15px}.top5-story{grid-template-columns:32px minmax(0,1fr);gap:10px}.top5-story-num{height:31px;width:31px;font-size:13px}.top5-section-title{align-items:start;flex-direction:column}.top5-section-title>p{margin:0}}
+@media(prefers-reduced-motion:reduce){.top5-tab{transition:none}.top5-root{scroll-behavior:auto}}
+
+/* Homepage: retain a compact digest, send detailed browsing to TOP 5. */
+#news .home-news-category-links .top5-home-primary{
+  display:inline-flex;align-items:center;min-height:44px;
+  color:#f4ffff;background:#087d6e;border:1px solid #62e9d4;
+  padding:10px 18px;border-radius:12px;font-weight:900;text-decoration:none
+}
+#news .home-news-category-links .top5-home-primary:hover{background:#086b64}
+#news .home-news-category-links .top5-home-primary:focus-visible{outline:3px solid #55e7d5;outline-offset:4px}
+#news .editorial-controls,#news .editorial-source-directory,
+#news .editorial-section-meta,#news .editorial-news-more,
+#news .home-news-category-links a:not(.top5-home-primary){display:none!important}
+
+.top5-story-num svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.top5-story-rank{color:#72f0cf;font-weight:900;direction:ltr}

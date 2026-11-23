@@ -14,6 +14,7 @@ import json
 import re
 import urllib.parse
 from software_sources import render as render_software_sources
+from build_top5 import render_body as render_top5_body
 from global_tech_editorial import publisher_highlights
 from datetime import datetime, timezone
 from pathlib import Path
@@ -73,10 +74,10 @@ TOPICS={
  "news":("Technology News","Tech News","general","Technology updates with links to their original publishers."),
 }
 PAGES=[
- "/","/programs/","/news/","/free-windows-tools/","/ai-news/",
+ "/","/programs/","/news/","/top-5/","/free-windows-tools/","/ai-news/",
  "/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/",
 ]+["/programs/"+slug+"/" for slug in CATALOG]+["/windows-office/"]
-assert len(PAGES)==12+len(CATALOG)
+assert len(PAGES)==13+len(CATALOG)
 
 def safe(url:str)->bool:
     parsed=urllib.parse.urlsplit(url)
@@ -168,9 +169,10 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
         internal("/en/windows-office/","Windows & Office Programs"),
         internal("/en/#downloads","Downloads"),
         internal("/en/free-windows-tools/","Free Windows Tools"),
-        internal("/en/news/","Tech News"),
+        internal("/en/top-5/","TOP 5"),
         internal("/en/protech/","ProTech"),
     ])
+    extra_css = '<link rel="stylesheet" href="/assets/top5-hub.css?v=1">' if path == "/top-5/" else ""
     html_doc=f"""<!doctype html>
 <html lang="en" dir="ltr">
 <head>
@@ -192,7 +194,7 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/en.css">
+  <link rel="stylesheet" href="/assets/en.css">{extra_css}
   <link rel="stylesheet" href="/assets/global-tech-sources.css?v=1"><link rel="stylesheet" href="/assets/home-redesign-v4.css?v=1"><link rel="stylesheet" href="/assets/hero-adfree-v5.css?v=1">
   <link rel="stylesheet" href="/assets/share.css?v=1">
   <link rel="stylesheet" href="/assets/refinement.css?v=1">
@@ -300,8 +302,8 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
     </section>
     <section class="en-section" id="downloads"><div class="en-section-heading"><div><span class="en-kicker">02 / VERIFIED RELEASES</span><h2>Official downloads</h2><p>Download files from our verified GitHub Releases. All listed builds are preview releases, not certified stable editions.</p></div></div><div class="en-release-grid">{"".join(releases)}</div></section>
     <section class="en-section" id="trust"><div class="en-section-heading"><div><span class="en-kicker">03 / TRANSPARENCY</span><h2>Know what you install</h2></div></div><div class="en-info-grid">{section("Verified release links","Download from official GitHub Releases and review checksums where available.")}{section("Transparent statuses","Published projects without verified files are never presented as downloadable.")}{section("Windows and Android","The portfolio covers desktop, mobile and design workflows without claiming every project is complete.")}</div></section>
-    <section class="en-section en-news-secondary" id="news"><div class="en-section-heading"><div><span class="en-kicker">04 / TECH NEWS</span><h2>Technology news — second to our software</h2><p>A short selection of official English headlines. Articles belong to their original publishers.</p></div></div>{news_cards(from_news,6)}
-      <div class="en-news-links">{internal("/en/ai-news/","AI updates")}{internal("/en/tech-companies/","Tech companies")}{internal("/en/cars/","Automotive")}{internal("/en/news/","All technology news")}</div>
+    <section class="en-section en-news-secondary" id="news"><div class="en-section-heading"><div><span class="en-kicker">04 / TOP 5 NEWS</span><h2>TOP 5 — technology by category</h2><p>A short selection of official English headlines. Articles belong to their original publishers.</p></div></div>{news_cards(from_news,6)}
+      <div class="en-news-links">{internal("/en/ai-news/","AI updates")}{internal("/en/tech-companies/","Tech companies")}{internal("/en/cars/","Automotive")}{internal("/en/top-5/","Explore all TOP 5 categories")}</div>
     </section>
     <section class="en-section en-contact" id="contact"><h2>Need more information?</h2><p>Contact ProTech about a product, release status or business software.</p><a class="en-btn en-btn-primary" href="mailto:protech.2025.2026@gmail.com">Email ProTech</a></section>
     <script defer src="/assets/en.js"></script>
@@ -309,6 +311,16 @@ def render_home(products:list[dict],downloads:dict,industry:dict,tools:dict)->No
     page("/","ProTech Software for Business & Design | Alghad Digital",
          "Discover ProTech software, verified preview downloads, kitchen design, stone management and productivity tools. Official English website.",home,
          {"@context":"https://schema.org","@type":"WebSite","name":"Alghad Digital","url":DOMAIN+"/en/","inLanguage":"en","publisher":{"@type":"Organization","name":"ProTech"}})
+
+def render_top5_page()->None:
+    cfg=json.loads((ROOT/"config/top5_categories.json").read_text(encoding="utf8"))
+    data=json.loads((ROOT/"assets/top5-news.json").read_text(encoding="utf8"))
+    body=render_top5_body("en",cfg,data)
+    title="TOP 5 Technology News by Category | Alghad Digital"
+    desc="Explore top five verified tech stories by category: Android, Windows, macOS, computers, AI, cybersecurity, software, emerging technology, cars and smartphones."
+    schema={"@context":"https://schema.org","@type":"CollectionPage","name":title,
+            "url":DOMAIN+"/en/top-5/","inLanguage":"en","description":desc}
+    page("/top-5/",title,desc,body,schema)
 
 def render_catalog(products:list[dict],downloads:dict)->None:
     body=hero("OUR SOFTWARE / PROTECH","Software library","Explore ProTech applications across the full catalog. Published preview downloads are distinguished from projects still under development.")
@@ -487,6 +499,7 @@ def main()->None:
     render_windows_office()
     for product in products:render_product(product,downloads,facts)
     render_news(industry)
+    render_top5_page()
     render_tools(tools)
     render_support()
     created=[p for p in EN.rglob("index.html") if p != EN/"programs"/"porcelain"/"index.html"]

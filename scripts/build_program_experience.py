@@ -177,7 +177,7 @@ def main():
         product_urls["/programs/"+p["id"]+"/"]=p
     sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
     urls=re.findall(r"<loc>https://alghad\.digital(/[^<]*)</loc>",sitemap)
-    assert len(urls)==len(set(urls))==2*(12+len(BENEFITS))
+    assert len(urls)==len(set(urls))==2*(13+len(BENEFITS))
     for url in urls:
         lang="en" if url.startswith("/en/") else "ar"
         normalized=url[3:] if lang=="en" else url

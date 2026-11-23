@@ -6,8 +6,8 @@ const root=path.resolve(__dirname,"..");
 const domain="https://alghad.digital";
 const routes=["/","/programs/","/news/","/free-windows-tools/","/ai-news/",
  "/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/",
- ...["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes","google-maps-reviews-tracker","protech-music"].map(x=>"/programs/"+x+"/"),"/windows-office/"];
-assert.equal(routes.length,23);
+ ...["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes","google-maps-reviews-tracker","protech-music"].map(x=>"/programs/"+x+"/"),"/windows-office/","/top-5/"];
+assert.equal(routes.length,24);
 const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
 const releaseFacts=require("./release-facts.cjs")(root);
 const english=[];
@@ -43,7 +43,7 @@ for(const route of routes){
   english.push(e);
   arabic.push(a);
 }
-assert.equal(english.length,23);
+assert.equal(english.length,24);
 const homepage=english[0];
 assert.ok(homepage.indexOf('id="programs"')<homepage.indexOf('id="news"'),"Product-first English homepage");
 assert.ok(homepage.includes('id="downloads"'));
@@ -69,7 +69,7 @@ for(const slug of ["stone","download","hr","marble","reports","quotes","care"]){
   assert.ok(page.includes('class="en-download-item"'),"Real release variants "+slug);
 }
 const sitemap=read("sitemap.xml");
-assert.equal((sitemap.match(/<loc>/g)||[]).length,46);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,48);
 for(const route of routes){
   assert.ok(sitemap.includes("<loc>"+domain+route+"</loc>"));
   assert.ok(sitemap.includes("<loc>"+domain+"/en/"+route.slice(1)+"</loc>"));
@@ -82,9 +82,9 @@ assert.ok(workflow.includes("git add -- en/"),"Daily stage of English content");
 const publisher=read("Publish_To_GitHub.ps1");
 assert.ok(publisher.includes("scripts/build_en.py"));
 assert.ok(publisher.includes("tests/bilingual-test.cjs"));
-assert.ok(publisher.includes("$englishPages.Count -ne 23"));
+assert.ok(publisher.includes("$englishPages.Count -ne 24"));
 const css=read("assets/en.css");
 assert.ok(css.includes(".en-lang-switch"));
 const src=read("assets/en.js");
 assert.ok(src.includes('data-en-filter')||src.includes("dataset.enFilter"));
-console.log("BILINGUAL_QA_PASS AR=22 EN=22 TOTAL_SITEMAP=44 REAL_DOWNLOADS=10 ARABIC_DEFAULT=yes");
+console.log("BILINGUAL_QA_PASS AR=24 EN=24 TOTAL_SITEMAP=48 REAL_DOWNLOADS=10 ARABIC_DEFAULT=yes");

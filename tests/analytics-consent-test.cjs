@@ -5,7 +5,7 @@ const path = require("node:path");
 const root = path.resolve(__dirname, "..");
 const read = file => fs.readFileSync(path.join(root, file), "utf8");
 const routes = [...read("sitemap.xml").matchAll(/<loc>https:\/\/alghad\.digital(\/[^<]*)<\/loc>/g)].map(m => m[1]);
-assert.equal(routes.length, 46);
+assert.equal(routes.length, 48);
 let active = 0;
 for (const route of routes) {
   const html = read(route.replace(/^\//, "") + "index.html");

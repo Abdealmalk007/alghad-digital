@@ -160,7 +160,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <header class="site-header">
     <nav class="shell header-inner" aria-label="التنقل الرئيسي">
       <a class="brand" href="{home}"><span class="brand-logo"><img src="{home}icon-192.png?v=4" alt="" width="38" height="38"></span><span>الغد <strong>ديجتال</strong><small>ALGHAD DIGITAL</small></span></a>
-      <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}windows-office/">برامج الويندوز والاوفيس</a><a href="{home}protech/">عن Pro Tech</a><a href="{home}news/">أخبار التقنية</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a><a class="lang-toggle" lang="en" dir="ltr" hreflang="en" href="{esc(english_url)}" aria-label="Switch to English">EN</a></div>
+      <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}windows-office/">برامج الويندوز والاوفيس</a><a href="{home}protech/">عن Pro Tech</a><a href="{home}top-5/">TOP 5</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a><a class="lang-toggle" lang="en" dir="ltr" hreflang="en" href="{esc(english_url)}" aria-label="Switch to English">EN</a></div>
     </nav>
   </header>
   <main id="main" class="shell content">{content}</main>
@@ -744,7 +744,7 @@ def update_home(products: list) -> None:
 
 
 def update_sitemap(products: list) -> None:
-    urls=["/","/programs/","/news/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/"]+[
+    urls=["/","/programs/","/news/","/top-5/","/free-windows-tools/","/ai-news/","/tech-companies/","/cars/","/about/","/security/","/privacy/","/protech/"]+[
         "/programs/"+p["id"]+"/" for p in products]+["/windows-office/"]
     ns="http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("",ns)

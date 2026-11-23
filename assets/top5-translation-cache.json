@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "pairs": {
+    "ar:c82755038b9c5ccad5f80a7a01dcf9ee2ce621516089d5694877933c37145932": "يُعدّ تغيير المتصفح الافتراضي في نظام التشغيل ويندوز 11 إلى أي متصفح آخر غير إيدج أمرًا مزعجًا للغاية",
+    "ar:5a6e7c0575d97363b135d157754e044ccc5a4bd539a13785eb2895d7cab594a6": "Nvidia تطرح تحديثًا سريعًا لـ GeForce 621.35 لوقف مشكلة الكتابة المفرطة على محركات الأقراص الصلبة (SSD)",
+    "ar:02c7f06657b0d7214b8d525a351cf775ff81c8a2c803b4b96f69d388770f7c34": "أصبح متصفح إيدج للأعمال هو المتصفح الأكثر استخدامًا في الشركات وكشف عن ابتكارات Ignite 2026",
+    "ar:6c2822b2e69867144229db6f56f19fbd8555963f5041644abeaee18eebc58b92": "سيجنال لحظر سيري وGemini AI من التقاط الدردشات على نظامي التشغيل iOS وAndroid",
+    "ar:2925cda2c291798ca25fb61e75e24903dcc22cf68bcf5d095def33f9657b3507": "7 أيام: قفل تطبيق أندرويد الأصلي، ويندوز 11 على آيفون ديو، هوانغ يريد العودة",
+    "ar:f011f427e861793bf6919faf620f0fd473ba2b853a3fe0b80850c20c063b18c2": "أصبح تثبيت نظام التشغيل البديل \"عالي الأداء ومنخفض زمن الاستجابة\" لنظام التشغيل Windows 11، AtlasOS، أسهل",
+    "ar:b6b7c8180ef7000d0a618666c816f675e55af09ea56bfab422980ee6999a9f29": "أصدرت مايكروسوفت تحديث Windows 11 KB5135000 OOBE (الإعداد الأولي لنظام التشغيل) للإصدارين 26H2 و25H2",
+    "ar:4f879096b3a1e04935705324714f22148ef8d066580c36afa721057bc9d8425b": "تقوم مايكروسوفت الآن بتثبيت ويندوز 11 26H2 تلقائيًا على الأجهزة غير المُدارة",
+    "en:6d281e50b61c693e5100278fdd3e0eca5aa74fd35711a182e56755c173f98029": "Mark Gurman discusses Apple's dire situation in artificial intelligence.",
+    "ar:052a351f6a3f294424baf8f0f902d0cc091bf4a25024e7ca3784c233c3cf817f": "تشير التسريبات إلى أن هاتفي آيفون قد يحصلان على المزيد من عناصر واجهة المستخدم لشاشة القفل",
+    "ar:f66519b6c60549ad082192d31e0301cfff5b131dfb2be13bddd59a5d47c71027": "يقال إن شركة آبل تخطط لإصدار هذه المنتجات في فبراير أو مارس",
+    "ar:112077acd8ff8209f15d0cc0efc73e71228c2a307dc9d136b554c4c250115713": "وكالة الأمن السيبراني وأمن البنية التحتية (CISA) تشير إلى وجود ثغرة حرجة في تنفيذ التعليمات عن بُعد (RCE) من سيسكو يتم استغلالها بنشاط في الهجمات",
+    "ar:0d7089112ed345f12827621fb4a567b6e69a87c9b721cebef3563986961d390e": "أصدرت مايكروسوفت تحديثات الإعداد والاسترداد لنظام التشغيل ويندوز 11 KB5135609 وKB5133853",
+    "en:5c6c6ca08625a7d1ff93541b8bf430c16e9957e5f4f06f68940fc010137f91e3": "OpenAI's Chief Scientist warns of the accelerating development of artificial intelligence models",
+    "en:8505e9e3207b19dc9d0928530198f17b4267e299c9f7db85314e6196dac9e430": "Major U.S. banks are limiting the capabilities of third-party AI agents",
+    "en:e8836fedd6741a606ef760246d8b954072ccdabad14b6e8e43afdd7b6c5c5c12": "Gemini's new feature for creating animated GIFs from text, images, and video",
+    "ar:db243b4a53f90f9ab39a5fb177c8ea87c1ba4e3ef66f8fbaaa572e3bffaedce4": "يستغل المتسللون ثغرة سحابة GL.iNet لإصابة أجهزة التوجيه وأجهزة KVM",
+    "ar:760531dc57fb2d2092115fc9840e51a1047718b0da5643b737bc4703640d52e0": "تحذر Cleverbridge من سرقة المتسللين لأرقام بطاقات الائتمان وأرقام التحقق من البطاقة (CVV) في خرق للبيانات",
+    "ar:2563fe33b014591fb32cb63f3ac5c2a1126d27f78d4d6d1a404b8896fc7f5b45": "تؤكد Cleverbridge حدوث خرق للبيانات كشف عن بيانات بطاقات الدفع الخاصة بالعملاء",
+    "en:d2f765b90edd58bca303788e919a506f420872be30d82f25eb3d78876fb896ff": "A vulnerability in Meta Muse allows a malicious page to steal conversations and memories.",
+    "ar:27c6aef28d154b14dbbac375fa410c45f8a259a0700856d342d80c371734f256": "يستغل مجرمو الإنترنت أداة اختبار الاختراق المدعومة بالذكاء الاصطناعي لاكتشاف الثغرات الأمنية غير المعروفة والتسلل إلى الخادم",
+    "en:484dff73f66a022a080f82d4249ec222aefdf6d8c5ba13a5db6d1273da724afb": "Xiaomi announces that shipments of its smart bracelets have exceeded 240 million units",
+    "ar:b5eb8a8165090662197ab3d1612d37977903333b3ed027d12bf2ee5e5d39cebc": "أهم الأخبار: فتح قفل جهاز الآيفون باستخدام الوجه المزدوج، ومعلومات موجزة عن HomeView، والمزيد",
+    "ar:436ca7301d090099a2691f145e44544fd27a24e49d1f75074369604477afc90b": "وفّر 13% على Hestia: أول تلسكوب يعتمد على الهاتف الذكي (الباقة الفائقة)"
+  }
+}

@@ -14,12 +14,12 @@ urls=[x.text for x in root.findall("s:url/s:loc",ns)]
 program_files=[path for path in sorted((ROOT/"programs").glob("*/index.html"))
                if '"@type":"SoftwareApplication"' in path.read_text(encoding="utf8")]
 expected_programs=len(program_files)
-assert len(urls)==2*(12+expected_programs),urls
+assert len(urls)==2*(13+expected_programs),urls
 assert len(set(urls))==len(urls)
 assert urls[0]==BASE+"/"
 assert all(urlsplit(url).scheme=="https" and urlsplit(url).netloc=="alghad.digital" for url in urls)
 all_pages=[]
-for url in urls[:12+expected_programs]:
+for url in urls[:13+expected_programs]:
     path=(urlsplit(url).path or "/").lstrip("/")
     document=ROOT/path/"index.html"
     assert document.is_file(),str(document)

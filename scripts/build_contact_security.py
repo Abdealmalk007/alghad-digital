@@ -116,7 +116,7 @@ def patch(route: str, products: dict[str,str]) -> None:
         head = re.search(r"<head(?:\\s[^>]*)?>", text, flags=re.I)
         if not head:
             raise ValueError(f"Missing HTML head in {relative}")
-        text = text[:head.end()] + "\\n" + CSP_META + text[head.end():]
+        text = text[:head.end()] + "\n" + CSP_META + text[head.end():]
     existing_contacts = list(re.finditer(re.escape(START) + r"[\s\S]*?" + re.escape(END), text))
     if len(existing_contacts) > 1:
         raise ValueError(f"Multiple WhatsApp contact blocks in {relative}")
@@ -144,7 +144,7 @@ def patch(route: str, products: dict[str,str]) -> None:
 def main() -> None:
     urls = SITEMAP_RE.findall((ROOT / "sitemap.xml").read_text(encoding="utf-8"))
     products = catalog()
-    expected_routes = 2 * (12 + len(products))
+    expected_routes = 2 * (13 + len(products))
     if len(urls) != expected_routes or len(urls) != len(set(urls)):
         raise ValueError(f"Expected {expected_routes} unique bilingual canonical URLs, got {len(urls)}")
     for url in urls:
