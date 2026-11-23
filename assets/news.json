@@ -1,61 +1,227 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T18:27:38Z",
+  "generated_at": "2026-11-23T04:26:03Z",
   "articles": [
     {
-      "title": "11 types of smart gadgets to consider pairing with your Ring doorbell",
-      "url": "https://www.engadget.com/2319422/ring-doorbell-smart-gadget-pairings/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-22T18:15:00Z",
+      "title": "Inkling 2 Mini: نموذج AI مجاني يعمل محلياً على الكمبيوتر المحمول",
+      "url": "https://3arrafni.com/tech-news/inkling-2-mini-local-ai-model",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-23T03:48:19Z",
       "category": "أخبار التقنية",
-      "title_ar": "11 نوعًا من الأجهزة الذكية التي يجب مراعاتها عند إقرانها بجرس باب Ring",
+      "title_ar": "Inkling 2 Mini: نموذج AI مجاني يعمل محلياً على الكمبيوتر المحمول",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
+      "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-23T03:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "القطعة القابلة للتحصيل التالية من كوداك هي إطار صور رقمي صغير يعمل أيضًا كجهاز تتبع",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Why data centers are at the center of the Big Tech backlash",
-      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "title": "ميزة Gemini الجديدة لإنشاء صور GIF متحركة من النص والصور والفيديو",
+      "url": "https://3arrafni.com/tech-news/gemini-gif-maker",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-23T02:53:19Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "ميزة Gemini الجديدة لإنشاء صور GIF متحركة من النص والصور والفيديو",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "التحقق من برهان فرضية ريمان بمساعدة Claude عبر نظام Lean",
+      "url": "https://3arrafni.com/tech-news/riemann-hypothesis-proof-lean-claude-verified",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-23T01:58:19Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "التحقق من برهان فرضية ريمان بمساعدة Claude عبر نظام Lean",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Here's how much Starlink cost in 2020 vs. 2026",
+      "url": "https://www.engadget.com/2319572/how-much-starlink-cost-2020-vs-2026/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T01:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إليك تكلفة Starlink في عام 2020 مقارنة بعام 2026",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
       "source": "techcrunch",
       "source_name": "TechCrunch",
-      "published_at": "2026-11-22T18:08:43Z",
+      "published_at": "2026-11-23T01:25:53Z",
       "category": "أخبار التقنية",
-      "title_ar": "لماذا تُعدّ مراكز البيانات في صميم رد الفعل العنيف ضد شركات التكنولوجيا الكبرى",
+      "title_ar": "كيف راهنت Notable Capital وGIC وBaillie Gifford بقوة على Anthropic قبل طرحها للاكتتاب العام",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Don't throw away your old Xbox — Do this instead",
-      "url": "https://www.engadget.com/2319409/dont-throw-away-old-xbox-do-this-instead-sell-donate/",
+      "title": "عُمان تطبّق قانونًا جديدًا للاتصالات بغرامات تصل إلى 10 ملايين ريال",
+      "url": "https://aitnews.com/2026/11/23/oman-telecom-it-law-fines/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-23T01:03:46Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عُمان تطبّق قانونًا جديدًا للاتصالات بغرامات تصل إلى 10 ملايين ريال",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "How to clear your cache on Google TV",
+      "url": "https://www.engadget.com/2319567/how-to-clear-cache-google-tv/",
       "source": "engadget",
       "source_name": "Engadget",
-      "published_at": "2026-11-22T18:00:00Z",
+      "published_at": "2026-11-23T01:00:00Z",
       "category": "أخبار التقنية",
-      "title_ar": "لا تتخلص من جهاز Xbox القديم — افعل هذا بدلاً من ذلك",
+      "title_ar": "كيفية مسح ذاكرة التخزين المؤقت على Google TV",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
     {
-      "title": "You can mass-delete all of your emails on Gmail in only a few clicks",
-      "url": "https://www.engadget.com/2319403/how-to-mass-delete-all-emails-gmail/",
+      "title": "This free 'Swiss Army Knife' for macOS can replace your utility apps",
+      "url": "https://www.engadget.com/2319565/vorssaint-free-swiss-army-knife-macos-replace-utility-apps/",
       "source": "engadget",
       "source_name": "Engadget",
-      "published_at": "2026-11-22T17:45:00Z",
+      "published_at": "2026-11-23T00:45:00Z",
       "category": "أخبار التقنية",
-      "title_ar": "يمكنك حذف جميع رسائل بريدك الإلكتروني دفعة واحدة على Gmail ببضع نقرات فقط",
+      "title_ar": "يمكن لهذا \"السكين السويسري متعدد الاستخدامات\" المجاني لنظام التشغيل macOS أن يحل محل تطبيقات الأدوات المساعدة الخاصة بك",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
     {
-      "title": "5 iOS 27.3 changes coming to your Apple devices by 2027",
-      "url": "https://www.engadget.com/2319400/apple-ios-27-3-changes-by-2027/",
+      "title": "Should you go with a headphone DAC/amp combo or a stack?",
+      "url": "https://www.engadget.com/2311788/headphone-dac-amp-combo-vs-stack/",
       "source": "engadget",
       "source_name": "Engadget",
-      "published_at": "2026-11-22T17:15:00Z",
+      "published_at": "2026-11-23T00:30:00Z",
       "category": "أخبار التقنية",
-      "title_ar": "5 تغييرات في نظام التشغيل iOS 27.3 ستطرأ على أجهزة Apple الخاصة بك بحلول عام 2027",
+      "title_ar": "هل يجب عليك اختيار مجموعة محول رقمي إلى تناظري/مضخم صوت لسماعات الرأس أو مجموعة مكونات؟",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "8 Windows apps you should probably remove from your PC",
+      "url": "https://www.engadget.com/2317781/windows-apps-remove-from-pc/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-23T00:15:00Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "8 تطبيقات ويندوز ربما يجب عليك إزالتها من جهاز الكمبيوتر الخاص بك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "لعبة GTA 6 .. تحذيرات رسمية عربياً .. وحملة تفتيش في غريان الليبية",
+      "url": "https://aitnews.com/2026/11/23/gta-6-arab-warnings-restrictions/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-22T22:57:50Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لعبة GTA 6 .. تحذيرات رسمية عربياً .. وحملة تفتيش في غريان الليبية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "We haven’t seen the last of the major tech outages",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-22T22:48:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لم نشهد آخر حالات الانقطاع التقني الكبرى",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "كبير علماء OpenAI يكشف مقاييس داخلية لتقدم النماذج ويدعو إلى حدود مشتركة لتطويرها",
+      "url": "https://aitnews.com/2026/11/23/%d9%85%d9%82%d8%a7%d9%8a%d9%8a%d8%b3-%d8%aa%d9%82%d8%af%d9%85-%d8%a7%d9%84%d9%86%d9%85%d8%a7%d8%b0%d8%ac-%d9%88%d8%b6%d9%88%d8%a7%d8%a8%d8%b7%d9%87%d8%a7/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-22T22:23:05Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "كبير علماء OpenAI يكشف مقاييس داخلية لتقدم النماذج ويدعو إلى حدود مشتركة لتطويرها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق Cleverbridge يسرّب بيانات بطاقات الدفع ورموز CVV لبعض العملاء",
+      "url": "https://aitnews.com/2026/11/23/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-cleverbridge-%d9%8a%d8%b3%d8%b1%d9%91%d8%a8-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a8%d8%b7%d8%a7%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d9%81%d8%b9-%d9%88%d8%b1/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-22T22:18:56Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق Cleverbridge يسرّب بيانات بطاقات الدفع ورموز CVV لبعض العملاء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الرؤى السرية لـ\"نبيّ\" الذكاء الاصطناعي ومستقبل البشرية",
+      "url": "https://www.aljazeera.net/tech/2026/11/23/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a8%d9%8a%d9%86-%d8%b3%d8%a8%d8%a7%d9%82-%d8%a7%d9%84%d9%87%d9%8a%d9%85%d9%86%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-22T22:13:18Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "الرؤى السرية لـ\"نبيّ\" الذكاء الاصطناعي ومستقبل البشرية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "‘You Can See Everything’ has made more than $100M worldwide",
+      "url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-22T21:42:48Z",
+      "category": "أخبار التقنية",
+      "title_ar": "حقّق فيلم \"You Can See Everything\" أكثر من 100 مليون دولار في جميع أنحاء العالم",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-22T21:14:07Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "لدى كبير العلماء في OpenAI أفكار حول كيفية الحد من تطور الذكاء الاصطناعي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The best apps to make new friends right now",
+      "url": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-22T21:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أفضل التطبيقات لتكوين صداقات جديدة الآن",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "شاومي تعلن تجاوز شحنات أساورها الذكية 240 مليون وحدة",
+      "url": "https://www.tech-wd.com/wd/2026/11/22/%d8%b4%d8%a7%d9%88%d9%85%d9%8a-%d8%aa%d8%b9%d9%84%d9%86-%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-%d8%b4%d8%ad%d9%86%d8%a7%d8%aa-%d8%a3%d8%b3%d8%a7%d9%88%d8%b1%d9%87%d8%a7-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-24/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-22T18:47:39Z",
+      "category": "أخبار التقنية",
+      "title_ar": "شاومي تعلن تجاوز شحنات أساورها الذكية 240 مليون وحدة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحذيرات استخباراتية أمريكية من أعطال تقنية جديدة وخلل يربك رحلات \"دلتا\"",
+      "url": "https://www.aljazeera.net/news/2026/11/22/%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d8%b3%d8%aa%d8%ae%d8%a8%d8%a7%d8%b1%d8%a7%d8%aa%d9%8a%d8%a9-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d9%85%d9%86-%d8%a3%d8%b9%d8%b7%d8%a7%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-22T17:43:01Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحذيرات استخباراتية أمريكية من أعطال تقنية جديدة وخلل يربك رحلات \"دلتا\"",
+      "translation_status": "original_ar"
     },
     {
       "title": "TechCrunch Mobility: A/B testing robots vs. humans",
@@ -79,17 +245,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "4 random apps you might not realize work with Android Auto",
-      "url": "https://www.engadget.com/2319383/random-apps-that-work-with-android-auto/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-22T16:15:00Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "4 تطبيقات عشوائية قد لا تدرك أنها تعمل مع Android Auto",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Protesters storm Meta offices in India",
       "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
       "source": "theverge",
@@ -111,17 +266,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Can a TV be too large? An investigation",
-      "url": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-22T15:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هل يمكن أن يكون التلفزيون كبيرًا جدًا؟ تحقيق",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Amazon: وكلاء AI اخترقوا خادماً جامعياً خلال 11 دقيقة",
       "url": "https://3arrafni.com/tech-news/amazon-ai-agents-zero-day-university-server",
       "source": "arrafni",
@@ -130,38 +274,6 @@
       "category": "أخبار التقنية",
       "title_ar": "Amazon: وكلاء AI اخترقوا خادماً جامعياً خلال 11 دقيقة",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "‘The show is starting soon. Please turn on your headphones.’",
-      "url": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-22T14:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "\"سيبدأ العرض قريبًا. يرجى تشغيل سماعات الرأس الخاصة بكم\".",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "إعادة تصميم تطبيق ChatGPT تضيف شريط تبويبات وواجهة لـ dot",
-      "url": "https://3arrafni.com/tech-news/chatgpt-app-redesign-dot-tab-bar",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-22T13:22:40Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "إعادة تصميم تطبيق ChatGPT تضيف شريط تبويبات وواجهة لـ dot",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "How Tamagotchis got us hooked on digital pets",
-      "url": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-22T13:15:27Z",
-      "category": "أخبار التقنية",
-      "title_ar": "كيف جعلتنا التماغوتشي مدمنين على الحيوانات الأليفة الرقمية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "Your questions about Apple HomeView’s audio, answered",
@@ -185,16 +297,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "ادعاءات بإثبات فرضية ريمان عبر Claude وباحث من Stanford",
-      "url": "https://3arrafni.com/tech-news/riemann-hypothesis-claude-stanford-proof-claims",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-22T12:27:40Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ادعاءات بإثبات فرضية ريمان عبر Claude وباحث من Stanford",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
       "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
       "source": "arstechnica",
@@ -204,16 +306,6 @@
       "title_ar": "قد يكون للأدوية التي تحتوي على الببتيد الشبيه بالجلوكاجون-1 (GLP-1) عائد بيئي كبير بشكل مدهش",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Bending Spoons تستحوذ على Mailchimp مقابل 3.68 مليار دولار",
-      "url": "https://3arrafni.com/tech-news/bending-spoons-acquires-mailchimp",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-22T11:32:40Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Bending Spoons تستحوذ على Mailchimp مقابل 3.68 مليار دولار",
-      "translation_status": "original_ar"
     },
     {
       "title": "Samsung and stc group Partner to Enhance Home Entertainment in Saudi Arabia",
@@ -244,97 +336,6 @@
       "published_at": "2026-11-22T11:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "لقد سئمت البنوك من وكيل الذكاء الاصطناعي الخاص بك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تحديث Google Docs الجديد يضيف ترقيم الصور والمراجع المتقاطعة تلقائيًا",
-      "url": "https://arabhardware.net/post-55208",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-22T09:31:18Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث Google Docs الجديد يضيف ترقيم الصور والمراجع المتقاطعة تلقائيًا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سامسونج تختبر نقل إشعارات Now Bar إلى أعلى منتصف الشاشة على غرار Dynamic Island",
-      "url": "https://www.tech-wd.com/wd/2026/11/22/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d8%ae%d8%aa%d8%a8%d8%b1-%d9%86%d9%82%d9%84-%d8%a5%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa-now-bar-%d8%a5%d9%84%d9%89-%d8%a3%d8%b9%d9%84%d9%89-%d9%85%d9%86/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-22T09:21:34Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سامسونج تختبر نقل إشعارات Now Bar إلى أعلى منتصف الشاشة على غرار Dynamic Island",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديثات PHP الأمنية تصلح ثغرات حرجة قد تسمح بتنفيذ شيفرة عن بُعد",
-      "url": "https://arabhardware.net/post-55207",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-22T09:18:45Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "تحديثات PHP الأمنية تصلح ثغرات حرجة قد تسمح بتنفيذ شيفرة عن بُعد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "نسخة 16GB من Huawei OSTA O1 Pro تنفد في اليوم الأول وتتصدر المبيعات",
-      "url": "https://www.tech-wd.com/wd/2026/11/22/%d9%86%d8%b3%d8%ae%d8%a9-16gb-%d9%85%d9%86-huawei-osta-o1-pro-%d8%aa%d9%86%d9%81%d8%af-%d9%81%d9%8a-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d9%88%d9%84-%d9%88%d8%aa%d8%aa%d8%b5%d8%af%d8%b1/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-22T09:15:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "نسخة 16GB من Huawei OSTA O1 Pro تنفد في اليوم الأول وتتصدر المبيعات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب مواصفات Honor 700 وHonor 700 Pro: بطارية 9000mAh وكاميرا 200MP",
-      "url": "https://www.tech-wd.com/wd/2026/11/22/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%85%d9%88%d8%a7%d8%b5%d9%81%d8%a7%d8%aa-honor-700-%d9%88honor-700-pro-%d8%a8%d8%b7%d8%a7%d8%b1%d9%8a%d8%a9-9000mah-%d9%88%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-200mp/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-22T09:11:24Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسريب مواصفات Honor 700 وHonor 700 Pro: بطارية 9000mAh وكاميرا 200MP",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Huawei تخطط لإطلاق ساعات وأجهزة لوحية تحت علامة OSTA قريباً",
-      "url": "https://www.tech-wd.com/wd/2026/11/22/huawei-%d8%aa%d8%ae%d8%b7%d8%b7-%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-%d9%88%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d9%84%d9%88%d8%ad%d9%8a%d8%a9-%d8%aa%d8%ad%d8%aa-%d8%b9%d9%84/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-22T09:05:32Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Huawei تخطط لإطلاق ساعات وأجهزة لوحية تحت علامة OSTA قريباً",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "3 مميزات تميز Huawei OSTA O1 Pro عن Pura X View",
-      "url": "https://www.tech-wd.com/wd/2026/11/22/3-%d9%85%d9%85%d9%8a%d8%b2%d8%a7%d8%aa-%d8%aa%d9%85%d9%8a%d8%b2-huawei-osta-o1-pro-%d8%b9%d9%86-pura-x-view/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-22T09:01:46Z",
-      "category": "أخبار التقنية",
-      "title_ar": "3 مميزات تميز Huawei OSTA O1 Pro عن Pura X View",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Microsoft و Intel توسعان شراكتهما لتزويد Azure بمعالجات Diamond Rapids",
-      "url": "https://arabhardware.net/post-55206",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-22T08:58:49Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "Microsoft و Intel توسعان شراكتهما لتزويد Azure بمعالجات Diamond Rapids",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Trump says reported FBI database hack is ‘not good’",
-      "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-21T18:44:53Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ترامب يقول إن اختراق قاعدة بيانات مكتب التحقيقات الفيدرالي الذي تم الإبلاغ عنه \"ليس جيدًا\"",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -430,7 +431,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",
