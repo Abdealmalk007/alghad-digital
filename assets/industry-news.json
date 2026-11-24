@@ -1,10 +1,23 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T19:07:27Z",
+  "generated_at": "2026-11-24T21:06:29Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
       "articles": [
+        {
+          "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-24T19:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "نطلق أول اختبار للبشرية وحفل هاكاثون Kaggle لاختبار موثوقية النماذج اللغوية الكبيرة (LLM).",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "How Gemini is changing the game for Golden State's organization and fans.",
           "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
@@ -32,8 +45,34 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Searching for distant planets with Astra",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-24T11:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "البحث عن الكواكب البعيدة مع أسترا",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "How Intentful uses dots to make more time for growth",
+          "url": "https://openai.com/business/customer-stories/intentful-dots",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-24T00:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "كيف تستخدم Intentful النقاط لتوفير المزيد من الوقت للنمو",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "How iFood scales coding agents across 15,000 repositories",
-          "url": "https://openai.com/index/ifood",
+          "url": "https://openai.com/business/customer-stories/ifood",
           "source": "openai",
           "source_name": "OpenAI · ChatGPT",
           "published_at": "2026-11-24T00:00:00Z",
@@ -123,45 +162,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Richpanel helps companies automate 50% of support in 30 days",
-          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-23T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "تساعد Richpanel الشركات على أتمتة 50% من الدعم في 30 يومًا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-22T00:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "الغموض والذكاء",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "How Watch Duty is using Gemini to get wildfire alerts out faster",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-20T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "كيف تستخدم Watch Duty Gemini لإصدار تنبيهات حرائق الغابات بشكل أسرع",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
           "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
           "source": "nvidia",
@@ -245,6 +245,19 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
+          "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-24T19:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "نطلق أول اختبار للبشرية وحفل هاكاثون Kaggle لاختبار موثوقية النماذج اللغوية الكبيرة (LLM).",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "How Gemini is changing the game for Golden State's organization and fans.",
           "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
           "source": "google",
@@ -306,19 +319,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "سامسونج تطلق Odyssey G6: أول شاشة ألعاب في العالم بمعدل تحديث 1100 هرتز",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "See what 6 builders are making with Gemini 4 Hydrogen",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-23T18:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تعرّف على ما يصنعه 6 من صانعي المحتوى باستخدام Gemini 4 Hydrogen",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
