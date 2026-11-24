@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T15:03:39Z",
+  "generated_at": "2026-11-24T15:50:50Z",
   "articles": [
+    {
+      "title": "Wyze’s new window feeder records birds from a camera inside your home",
+      "url": "https://www.theverge.com/tech/1041164/wyze-window-bird-cam-camera-identification",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-24T15:14:05Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تسجل مغذية الطيور الجديدة من وايز الطيور من كاميرا داخل منزلك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
     {
       "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
       "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
@@ -224,6 +235,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "ثغرة جديدة.. كيف يمكن اختراق سيارتك برقم اللوحة فقط؟",
+      "url": "https://www.aljazeera.net/motors/2026/11/24/%d8%ab%d8%ba%d8%b1%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%83%d9%8a%d9%81-%d9%8a%d9%85%d9%83%d9%86-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%b3%d9%8a%d8%a7%d8%b1%d8%aa%d9%83-%d8%a8%d8%b1%d9%82%d9%85?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-24T11:59:24Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "ثغرة جديدة.. كيف يمكن اختراق سيارتك برقم اللوحة فقط؟",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "أمريكا تفرض عقوبات على شركات صينية.. أين ذهبت الرقائق؟",
       "url": "https://techvoicearabia.com/us-blacklists-megaspeed-alibaba-nvidia-chip/",
       "source": "techvoice",
@@ -234,13 +255,13 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "منصة مجانية لتعلم البرمجة.. 3 مستويات و70 تمرينا بلغة بايثون",
+      "title": "منصة مجانية لتعلّم البرمجة.. 3 مستويات و70 تمرينا بلغة بايثون",
       "url": "https://www.aljazeera.net/lifestyle/2026/11/24/%d9%85%d9%86%d8%b5%d8%a9-%d9%85%d8%ac%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a8%d8%b1%d9%85%d8%ac%d8%a9-computor?traffic_source=rss",
       "source": "aljazeera",
       "source_name": "الجزيرة نت",
       "published_at": "2026-11-24T11:44:26Z",
       "category": "البرامج والإنترنت",
-      "title_ar": "منصة مجانية لتعلم البرمجة.. 3 مستويات و70 تمرينا بلغة بايثون",
+      "title_ar": "منصة مجانية لتعلّم البرمجة.. 3 مستويات و70 تمرينا بلغة بايثون",
       "translation_status": "original_ar"
     },
     {
@@ -291,26 +312,6 @@
       "published_at": "2026-11-24T11:07:56Z",
       "category": "أخبار التقنية",
       "title_ar": "تجميعة Cooler Master الذهبية | حين يبدأ اختيار القطع من التصميم",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "فوجيتسو تشهد طلبًا يفوق التوقعات على معالجات Monaka وتبحث تأمين إنتاجها مع TSMC",
-      "url": "https://aitnews.com/2026/11/24/%d9%81%d9%88%d8%ac%d9%8a%d8%aa%d8%b3%d9%88-%d8%a7%d9%84%d8%b7%d9%84%d8%a8-%d8%b9%d9%84%d9%89-%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a7%d8%aa-%d9%85%d9%88%d9%86%d8%a7%d9%83%d8%a7/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-24T10:57:29Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "فوجيتسو تشهد طلبًا يفوق التوقعات على معالجات Monaka وتبحث تأمين إنتاجها مع TSMC",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هواوي تكشف عن Watch Air.. أنحف ساعاتها الذكية بسمك 6.9 ملم",
-      "url": "https://aitnews.com/2026/11/24/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%a3%d9%86%d8%ad%d9%81-%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa%d9%87%d8%a7-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-24T10:56:31Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هواوي تكشف عن Watch Air.. أنحف ساعاتها الذكية بسمك 6.9 ملم",
       "translation_status": "original_ar"
     },
     {
