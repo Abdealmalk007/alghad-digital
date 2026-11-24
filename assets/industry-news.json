@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T22:34:56Z",
+  "generated_at": "2026-11-24T15:03:41Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -245,6 +245,32 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
+          "title": "Independent filmmakers in India bring big-screen stories to life with Google Flow.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/women-in-film-india-google-flow/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-24T14:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "يجسد صانعو الأفلام المستقلون في الهند قصصًا على الشاشة الكبيرة باستخدام Google Flow.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "We’re expanding our London home in King's Cross.",
+          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/expanding-london-home-kings-cross/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-24T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "نحن بصدد توسيع مقرنا في لندن في كينغز كروس.",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Samsung Launches Odyssey G6: The World’s First 1,100Hz Gaming Monitor",
           "url": "https://news.samsung.com/global/samsung-launches-odyssey-g6-the-worlds-first-1100hz-gaming-monitor",
           "source": "samsung",
@@ -306,32 +332,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "تجربة بحث Google أكثر تخصيصًا ومخصصة لك بشكل فريد",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Organize and share your holiday memories with these five updates in Google Photos.",
-          "url": "https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-23T17:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "نظّم ذكرياتك الخاصة بالعطلات وشاركها باستخدام هذه التحديثات الخمسة في Google Photos.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Introducing file slicing controls in the Gemini API",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-23T16:12:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تقديم عناصر التحكم في تقسيم الملفات في واجهة برمجة تطبيقات Gemini",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -484,6 +484,19 @@
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
         {
+          "title": "Toyota Invites Adventure Seekers to Celebrate Trucksgiving",
+          "url": "https://pressroom.toyota.com/toyota-invites-adventure-seekers-to-celebrate-trucksgiving/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-24T14:58:17Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تويوتا تدعو الباحثين عن المغامرة للاحتفال بعيد الشاحنات",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Toyota Enhances the 2027 Sienna with Comprehensive Powertrain and Safety Upgrades",
           "url": "https://pressroom.toyota.com/toyota-enhances-the-2027-sienna-with-comprehensive-powertrain-and-safety-upgrades/",
           "source": "toyota",
@@ -584,19 +597,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "بورشه 718/2: من سيارة رياضية إلى متصدرة سباقات الفورمولا ون",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Toyota Recalls Front Passenger Airbags in Certain Vehicles",
-          "url": "https://pressroom.toyota.com/toyota-recalls-front-passenger-airbags-in-certain-vehicles/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-12T17:28:08Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا تستدعي الوسائد الهوائية للراكب الأمامي في بعض المركبات",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
