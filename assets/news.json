@@ -1,39 +1,254 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T15:50:50Z",
+  "generated_at": "2026-11-24T19:07:25Z",
   "articles": [
     {
-      "title": "Wyze’s new window feeder records birds from a camera inside your home",
-      "url": "https://www.theverge.com/tech/1041164/wyze-window-bird-cam-camera-identification",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-24T15:14:05Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسجل مغذية الطيور الجديدة من وايز الطيور من كاميرا داخل منزلك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
-      "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+      "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+      "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
       "source": "arstechnica",
       "source_name": "Ars Technica",
-      "published_at": "2026-11-24T14:56:50Z",
+      "published_at": "2026-11-24T18:47:57Z",
       "category": "أخبار التقنية",
-      "title_ar": "كيف أجبر ترامب ووادي السيليكون إنفيديا على إعادة جنسن هوانغ",
+      "title_ar": "تحطّم طائرة بدون طيار تابعة لأمازون على مرآب بعد تسليم شامبو، مما أثار تحقيقًا من إدارة الطيران الفيدرالية",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
     {
-      "title": "5 different types of gadgets and accessories you'll want in your car",
-      "url": "https://www.engadget.com/2320475/essential-car-gadgets-and-accessories/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-24T14:45:00Z",
+      "title": "Now Firefox can select which sites use its VPN, and clear your browsing history with one click",
+      "url": "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-24T18:44:57Z",
       "category": "أخبار التقنية",
-      "title_ar": "5 أنواع مختلفة من الأدوات والاكسسوارات التي سترغب فيها في سيارتك",
+      "title_ar": "يمكن لمتصفح Firefox الآن تحديد المواقع التي تستخدم شبكة VPN الخاصة به، ومسح سجل تصفحك بنقرة واحدة",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-24T18:30:42Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أسهم أنثروبيك تنخفض إلى ما دون سعر الاكتتاب العام، وهي علامة مقلقة للشركات الناشئة في مجال الذكاء الاصطناعي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Amazon discovers Falcon 9 and Ariane 6 can deliver when nobody else can",
+      "url": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-24T18:30:36Z",
+      "category": "أخبار التقنية",
+      "title_ar": "اكتشفت أمازون أن صاروخي فالكون 9 وأريان 6 يمكنهما القيام بالمهمة عندما لا يستطيع أي شخص آخر القيام بها",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "How brewers can protect beers from smoke-tainted hops",
+      "url": "https://arstechnica.com/science/2026/11/how-brewers-can-protect-beers-from-smoke-tainted-hops/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-24T18:18:37Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كيف يمكن لمصنعي الجعة حماية الجعة من نبات الجُلّينَة الملوث بالدخان",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "GTA 6 cloud streaming comes to PS5 and PlayStation Portal",
+      "url": "https://www.engadget.com/2326845/gta-6-cloud-streaming-comes-to-ps5-and-playstation-portal/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-24T18:15:41Z",
+      "category": "أخبار التقنية",
+      "title_ar": "خدمة البث السحابي للعبة GTA 6 تأتي إلى PS5 وPlayStation Portal",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-24T18:02:59Z",
+      "category": "أخبار التقنية",
+      "title_ar": "المملكة المتحدة تحذر من أن الهجمات الإلكترونية التي يقودها الذكاء الاصطناعي تكشف عن سنوات من ضعف الأمن",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Ways you can help your video doorbell stay charged in the winter",
+      "url": "https://www.engadget.com/2324749/video-doorbell-winter-charging-tips/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-24T18:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الطرق التي يمكنك من خلالها مساعدة جرس الباب المزود بكاميرا فيديو على البقاء مشحونًا في فصل الشتاء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Tidal is banning AI-generated music entirely",
+      "url": "https://www.engadget.com/2326812/tidal-is-banning-ai-generated-music-entirely/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-24T17:58:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحظر منصة Tidal الموسيقى التي يتم إنشاؤها بواسطة الذكاء الاصطناعي تمامًا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
+      "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-24T17:44:53Z",
+      "category": "أخبار التقنية",
+      "title_ar": "جنسن هوانغ يعتذر لموظفي إنفيديا في أول اجتماع عام منذ عودته",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Threads comes to iPad and takes a page from X’s playbook with cashtags",
+      "url": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-24T17:44:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تطبيق Threads يصل إلى جهاز iPad ويستفيد من دليل X مع الرموز النقدية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-24T17:34:34Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعلن Tidal عن حظر الموسيقى التي يتم إنشاؤها بواسطة الذكاء الاصطناعي؛ سيتم حذف 27 مليون أغنية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+      "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-24T16:40:46Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تبدأ أوبر ونورو اختبار سيارات الأجرة الآلية من لوسيد بدون سائق قبل إطلاقها في عام 2027",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+      "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-24T16:37:03Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تضيف وزارة التجارة الأمريكية Megaspeed إلى القائمة السوداء للتجارة بينما يستعيد هوانغ السيطرة على Nvidia",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-24T16:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "التزييف العميق لجنسن هوانغ هو أحدث منتج رديء للذكاء الاصطناعي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تحديث أمان Samsung لشهر نوفمبر 2026 يصل إلى Galaxy S25 وS24 وFold 6",
+      "url": "https://3arrafni.com/tech-news/samsung-november-2026-security-update-galaxy-s25-s24",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-24T16:15:38Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحديث أمان Samsung لشهر نوفمبر 2026 يصل إلى Galaxy S25 وS24 وFold 6",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-24T16:09:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": "صحيفة نيويورك تايمز تحذر المصورين من تحديث برنامج فوتوشوب بسبب ميزات الذكاء الاصطناعي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+      "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-24T16:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أنشأت أنثروبيك فخًا لجذب وكلاء الذكاء الاصطناعي إلى سوء السلوك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تقنية DLSS 5 متاحة الآن في لعبة Where Winds Meet",
+      "url": "https://arabhardware.net/post-55233",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-24T15:58:29Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقنية DLSS 5 متاحة الآن في لعبة Where Winds Meet",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-24T15:51:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "استحواذ أمازون على Decart هو رهان على استخدام البرمجيات لتقليص الفجوة في مجال أشباه الموصلات مع إنفيديا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "هواوي ترتقي ببرنامج \"أيام الخدمة\" مع إعفاء كامل من أجور الإصلاح",
+      "url": "https://arabhardware.net/post-55232",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-24T15:48:43Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هواوي ترتقي ببرنامج \"أيام الخدمة\" مع إعفاء كامل من أجور الإصلاح",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق بيانات LaLiga: سرقة بيانات شخصية لمشجعي الدوري الإسباني",
+      "url": "https://3arrafni.com/tech-news/laliga-data-breach-fan-personal-data",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-24T15:20:38Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق بيانات LaLiga: سرقة بيانات شخصية لمشجعي الدوري الإسباني",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الصين تختار التهدئة مع أمريكا رغم قيود الرقائق الجديدة",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/24/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d8%aa%d8%ae%d8%aa%d8%a7%d8%b1-%d8%a7%d9%84%d8%aa%d9%87%d8%af%d8%a6%d8%a9-%d9%85%d8%b9-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%b1%d8%ba%d9%85-%d9%82%d9%8a%d9%88%d8%af?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-24T15:14:45Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "الصين تختار التهدئة مع أمريكا رغم قيود الرقائق الجديدة",
+      "translation_status": "original_ar"
     },
     {
       "title": "ثغرة في Azure API Management تسرّب مفاتيح API وتستدعي تدويرها",
@@ -77,26 +292,14 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Bambu’s five-nozzle P3C isn’t quite the 3D printer I expected",
-      "url": "https://www.theverge.com/tech/1041034/bambu-p3c-3d-printer-price-release-date",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-24T14:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "طابعة P3C ذات الفوهات الخمس من بامبو ليست تمامًا الطابعة ثلاثية الأبعاد التي كنت أتوقعها",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Why the FAA doesn't want you to put AirPods in your luggage",
-      "url": "https://www.engadget.com/2320357/why-faa-doesnt-want-airpods-in-luggage/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-24T13:45:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لماذا لا تريد إدارة الطيران الفيدرالية (FAA) منك وضع سماعات AirPods في أمتعتك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
+      "title": "الذكاء الاصطناعي.. فرصة لسد الفجوة العلمية بين الغرب والعرب لكنه محمل بالمخاطر",
+      "url": "https://www.aljazeera.net/video/%d8%aa%d9%82%d8%a7%d9%86%d8%a9/2026/11/24/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%81%d8%b1%d8%b5%d8%a9-%d9%84%d8%b3%d8%af-%d8%a7%d9%84%d9%81%d8%ac%d9%88%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-24T14:04:55Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "الذكاء الاصطناعي.. فرصة لسد الفجوة العلمية بين الغرب والعرب لكنه محمل بالمخاطر",
+      "translation_status": "original_ar"
     },
     {
       "title": "Anthropic تطلق Claude Ship لمراجعة الشيفرات وإصلاحها والموافقة عليها",
@@ -107,28 +310,6 @@
       "category": "الذكاء الاصطناعي",
       "title_ar": "Anthropic تطلق Claude Ship لمراجعة الشيفرات وإصلاحها والموافقة عليها",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Huang reportedly admitted to more than two affairs to Nvidia’s board",
-      "url": "https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-24T13:29:53Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أقر هوانغ، وفقًا للتقارير، بأكثر من علاقتين أمام مجلس إدارة إنفيديا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Why your smart TV keeps losing its Wi-Fi connection",
-      "url": "https://www.engadget.com/2320276/smart-tv-wifi-disconnecting-5ghz-fixes/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-24T13:15:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لماذا يستمر تلفزيونك الذكي في فقدان اتصال الواي فاي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "تسريب: Galaxy S27 Ultra يتخلى عن وحدة التركيز بالليزر وعدسة التقريب 3x",
@@ -171,26 +352,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "هواوي تطلق باور بانك رفيع بقدرة 40W وسعة 10000mAh بخمسة ألوان",
-      "url": "https://www.tech-wd.com/wd/2026/11/24/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%b7%d9%84%d9%82-%d8%a8%d8%a7%d9%88%d8%b1-%d8%a8%d8%a7%d9%86%d9%83-%d8%b1%d9%81%d9%8a%d8%b9-%d8%a8%d9%82%d8%af%d8%b1%d8%a9-40w-%d9%88%d8%b3%d8%b9%d8%a9-10000mah/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-24T12:46:15Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هواوي تطلق باور بانك رفيع بقدرة 40W وسعة 10000mAh بخمسة ألوان",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "سعر ومواصفات OPPO Find X10 Pro Max في السعودية وعرض الإطلاق",
-      "url": "https://3arrafni.com/tech-news/oppo-find-x10-pro-max-saudi-price-specs",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-24T12:35:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سعر ومواصفات OPPO Find X10 Pro Max في السعودية وعرض الإطلاق",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
       "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
       "source": "arstechnica",
@@ -198,17 +359,6 @@
       "published_at": "2026-11-24T12:30:05Z",
       "category": "أخبار التقنية",
       "title_ar": "تقول أمازون إن وكلاء الذكاء الاصطناعي التابعين للقراصنة اكتشفوا ثغرة يوم صفر واستغلوها بحد أدنى من التدخل البشري",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "One terminal command gave my forgotten Android device a desk job",
-      "url": "https://arstechnica.com/gadgets/2026/11/one-terminal-command-gave-my-forgotten-android-device-a-desk-job/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-24T12:15:38Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "أعاد أمر طرفي واحد جهاز أندرويد الخاص بي الذي كنت قد نسيته إلى العمل المكتبي",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -224,119 +374,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Ukraine sinks Russian warship, strikes cargo ships from Mediterranean to Baltic",
-      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-24T12:00:57Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أوكرانيا تغرق سفينة حربية روسية وتضرب سفن شحن من البحر الأبيض المتوسط إلى بحر البلطيق",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "ثغرة جديدة.. كيف يمكن اختراق سيارتك برقم اللوحة فقط؟",
-      "url": "https://www.aljazeera.net/motors/2026/11/24/%d8%ab%d8%ba%d8%b1%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%83%d9%8a%d9%81-%d9%8a%d9%85%d9%83%d9%86-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%b3%d9%8a%d8%a7%d8%b1%d8%aa%d9%83-%d8%a8%d8%b1%d9%82%d9%85?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-24T11:59:24Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ثغرة جديدة.. كيف يمكن اختراق سيارتك برقم اللوحة فقط؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أمريكا تفرض عقوبات على شركات صينية.. أين ذهبت الرقائق؟",
-      "url": "https://techvoicearabia.com/us-blacklists-megaspeed-alibaba-nvidia-chip/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-24T11:51:48Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "أمريكا تفرض عقوبات على شركات صينية.. أين ذهبت الرقائق؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "منصة مجانية لتعلّم البرمجة.. 3 مستويات و70 تمرينا بلغة بايثون",
-      "url": "https://www.aljazeera.net/lifestyle/2026/11/24/%d9%85%d9%86%d8%b5%d8%a9-%d9%85%d8%ac%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a8%d8%b1%d9%85%d8%ac%d8%a9-computor?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-24T11:44:26Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "منصة مجانية لتعلّم البرمجة.. 3 مستويات و70 تمرينا بلغة بايثون",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إطلاق Honor 700 Pro ببطارية 9000mAh وشاشة خلفية صغيرة",
-      "url": "https://3arrafni.com/tech-news/honor-700-pro-launch-price-specs",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-24T11:40:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إطلاق Honor 700 Pro ببطارية 9000mAh وشاشة خلفية صغيرة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ساعة Huawei Watch Air تدعم أبحاث القلب والأوعية والجهاز التنفسي وسكر الدم",
-      "url": "https://www.tech-wd.com/wd/2026/11/24/%d8%b3%d8%a7%d8%b9%d8%a9-huawei-watch-air-%d8%aa%d8%af%d8%b9%d9%85-%d8%a3%d8%a8%d8%ad%d8%a7%d8%ab-%d8%a7%d9%84%d9%82%d9%84%d8%a8-%d9%88%d8%a7%d9%84%d8%a3%d9%88%d8%b9%d9%8a%d8%a9-%d9%88%d8%a7%d9%84/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-24T11:39:18Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ساعة Huawei Watch Air تدعم أبحاث القلب والأوعية والجهاز التنفسي وسكر الدم",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "وزير تعليم كوريا الجنوبية يستقيل بسبب الغش بالذكاء الاصطناعي",
-      "url": "https://techvoicearabia.com/south-korea-minister-ai-cheating-resignation/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-24T11:29:45Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "وزير تعليم كوريا الجنوبية يستقيل بسبب الغش بالذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ارتفاع ملحوظ في أسعار الحواسيب بألمانيا",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/24/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d9%85%d9%84%d8%ad%d9%88%d8%b8-%d9%81%d9%8a-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%ad%d9%88%d8%a7%d8%b3%d9%8a%d8%a8?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-24T11:21:53Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ارتفاع ملحوظ في أسعار الحواسيب بألمانيا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تجميعة Cooler Master الذهبية | حين يبدأ اختيار القطع من التصميم",
-      "url": "https://arabhardware.net/post-55216",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-24T11:07:56Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تجميعة Cooler Master الذهبية | حين يبدأ اختيار القطع من التصميم",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
-      "url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-24T10:45:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لا تذكر الذكاء الاصطناعي إذا كنت ترغب في الاستمتاع بعيد الشكر",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
-      "url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-24T10:15:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "حل الذكاء الاصطناعي أشهر مسألة رياضية. والآن يكافح البشر لفهمه",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Google alternative Kagi launches an email service",
       "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
       "source": "theverge",
@@ -344,39 +381,6 @@
       "published_at": "2026-11-24T00:02:52Z",
       "category": "أخبار التقنية",
       "title_ar": "بديل غوغل \"كاجي\" يطلق خدمة بريد إلكتروني",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-23T22:10:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "عاد جينسن هوانغ، الرئيس التنفيذي لشركة إنفيديا. ما الذي سيحدث بعد ذلك؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-23T22:05:50Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تطلق أنثروبيك كلود شيب، مما يسمح لوكلاء الذكاء الاصطناعي بمراجعة تغييرات التعليمات البرمجية وإصلاحها والموافقة عليها",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Russia will launch a routine ISS supply mission tomorrow—apparently, it's a big secret",
-      "url": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-23T20:34:51Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستطلق روسيا غدًا مهمة إمداد روتينية لمحطة الفضاء الدولية - ويبدو أنها سر كبير",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     }
@@ -410,7 +414,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "arrafni",
