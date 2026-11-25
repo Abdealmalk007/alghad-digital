@@ -1,7 +1,28 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T14:44:28Z",
+  "generated_at": "2026-11-25T15:33:55Z",
   "articles": [
+    {
+      "title": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
+      "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-25T15:08:37Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعاني أولستيت من انقطاع تقني لعدة أيام قبل عيد الشكر",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Gemini History يتيح حفظ المحادثات دون استخدامها لتدريب AI",
+      "url": "https://3arrafni.com/tech-news/gemini-history-ai-training-controls",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-25T14:46:39Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "Gemini History يتيح حفظ المحادثات دون استخدامها لتدريب AI",
+      "translation_status": "original_ar"
+    },
     {
       "title": "A familiar Iranian hacking group has found a new way to cause chaos",
       "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
@@ -99,6 +120,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "تعفن الدماغ والتمرير اللانهائي | كيف تستعيد السيطرة على هاتفك؟",
+      "url": "https://arabhardware.net/post-55229",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-25T13:20:54Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تعفن الدماغ والتمرير اللانهائي | كيف تستعيد السيطرة على هاتفك؟",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "المفوضية الأوروبية تقترح قانونًا للتقنيات الكمّية وصندوقًا يستهدف 50 مليار يورو",
       "url": "https://aitnews.com/2026/11/25/%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d8%a7-%d9%82%d8%a7%d9%86%d9%88%d9%86-%d8%a7%d9%84%d8%aa%d9%82%d9%86%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%83%d9%85%d9%8a%d8%a9/",
       "source": "aitnews",
@@ -147,17 +178,6 @@
       "published_at": "2026-11-25T13:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "هل جعلت برمجة Vibe المصدر المفتوح القاعدة الجديدة للآلات الموسيقية الإلكترونية؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T13:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الأسئلة التي سيظل يتعيّن على جنسن هوانغ وNvidia الإجابة عنها بشأن Megaspeed",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -225,6 +245,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "تراجع جماعي للمؤشرات الأمريكية مع اتساع موجة بيع أسهم الذكاء الاصطناعي",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/25/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%a3%d8%b3%d9%88%d8%a7%d9%82-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%aa%d9%81%d8%aa%d8%aa%d8%ad-%d8%ac%d9%84%d8%b3%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-25T11:39:37Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تراجع جماعي للمؤشرات الأمريكية مع اتساع موجة بيع أسهم الذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
       "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
       "source": "wired",
@@ -274,36 +304,6 @@
       "published_at": "2026-11-25T10:24:31Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "OpenAI تطرح إعدادات نماذج صحية متخصصة عبر واجهة API",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مزايا iOS 27.3 التجريبي: ما الجديد وموعد وصوله إلى iPhone",
-      "url": "https://3arrafni.com/tech-news/ios-27-3-beta-features-iphone-release-date",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T10:11:39Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "مزايا iOS 27.3 التجريبي: ما الجديد وموعد وصوله إلى iPhone",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الحكومة تدرس ضبط أسعار الهواتف في مصر وربط الحوافز بالمكون المحلي",
-      "url": "https://arabhardware.net/post-55237",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-25T10:05:37Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "الحكومة تدرس ضبط أسعار الهواتف في مصر وربط الحوافز بالمكون المحلي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هواوي تخفض مستهدف مبيعات 2027 إلى أقل من 50 مليون هاتف",
-      "url": "https://www.tech-wd.com/wd/2026/11/25/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%ae%d9%81%d8%b6-%d9%85%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d9%85%d8%a8%d9%8a%d8%b9%d8%a7%d8%aa-2027-%d8%a5%d9%84%d9%89-%d8%a3%d9%82%d9%84-%d9%85%d9%86-50-%d9%85/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-25T09:53:45Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هواوي تخفض مستهدف مبيعات 2027 إلى أقل من 50 مليون هاتف",
       "translation_status": "original_ar"
     },
     {
@@ -431,7 +431,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",

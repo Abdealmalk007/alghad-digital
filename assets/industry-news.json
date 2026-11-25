@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T14:44:31Z",
+  "generated_at": "2026-11-25T15:33:57Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -523,19 +523,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Porsche 911 GT3 R wins championships and races worldwide in 2026",
-          "url": "https://newsroom.porsche.com/en/2026/motorsports/porsche-gt3-r-season-2026-successes-43827.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-25T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "بورشه 911 جي تي 3 آر تفوز بالبطولات والسباقات في جميع أنحاء العالم في عام 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Launch of the New Camry in Japan",
           "url": "https://global.toyota/en/newsroom/toyota/44987481.html",
           "source": "toyotaglobal",
@@ -549,19 +536,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Development of first all-electric 718 Boxster reaches the home straight",
-          "url": "https://newsroom.porsche.com/en/2026/products/porsche-all-electric-718-boxster-development-43799.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-24T15:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "اقتراب تطوير أول سيارة بورشه 718 بوكستر كهربائية بالكامل من خط النهاية",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Toyota Invites Adventure Seekers to Celebrate Trucksgiving",
           "url": "https://pressroom.toyota.com/toyota-invites-adventure-seekers-to-celebrate-trucksgiving/",
           "source": "toyota",
@@ -571,32 +545,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تدعو الباحثين عن المغامرة للاحتفال بعيد الشاحنات",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche presents new-generation dashcam",
-          "url": "https://newsroom.porsche.com/en/2026/products/porsche-dashcam-gen-2-43800.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-24T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "بورشه تقدّم كاميرا لوحة القيادة من الجيل الجديد",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Icons of Porsche 2026 brings heritage and a vision of the future",
-          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-icons-of-porsche-2026-43790.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-23T19:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تُقدّم أيقونات بورشه 2026 التراث ورؤية للمستقبل",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -623,19 +571,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "كيفن إستري يكمل تشكيلة سائقي تويوتا ريسينغ لعام 2027",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche teams to conclude pre-season testing with the new Porsche 975 RSE",
-          "url": "https://newsroom.porsche.com/en/2026/motorsports/porsche-formula-e-pre-season-testing-975-rse-43772.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-20T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "فرق بورشه تنهي اختبارات ما قبل الموسم بسيارة بورشه 975 RSE الجديدة",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -714,6 +649,71 @@
           "official": true,
           "topic": "cars",
           "title_ar": "هوندا تعرض قدرتها على التنقل وقوتها التكنولوجية في معرض EICMA 2026",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Notice Regarding the Status of Share Repurchase",
+          "url": "https://www.subaru.co.jp/news-en/2026_11_02_181354/",
+          "source": "subaru",
+          "source_name": "Subaru",
+          "published_at": "2026-11-02T06:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "إشعار بشأن حالة إعادة شراء الأسهم",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Subaru Corporation Announces Organizational Changes(Effective November 1, 2026)",
+          "url": "https://www.subaru.co.jp/news-en/2026_11_02_114626/",
+          "source": "subaru",
+          "source_name": "Subaru",
+          "published_at": "2026-11-02T02:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تعلن شركة سوبارو عن تغييرات تنظيمية (اعتبارًا من 1 نوفمبر 2026)",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "The SUBARU Group Releases the Integrated Report 2026 and Sustainability Web 2026",
+          "url": "https://www.subaru.co.jp/news-en/2026_10_30_103257/",
+          "source": "subaru",
+          "source_name": "Subaru",
+          "published_at": "2026-10-30T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تصدر مجموعة سوبارو التقرير المتكامل لعام 2026 وموقع الويب الخاص بالاستدامة لعام 2026",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Porsche Engineering and Porsche Digital combine their expertise",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-engineering-digital-combine-expertise-porsche-technologies-43556.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-21T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تجمع بورشه للهندسة وبورشه الرقمية خبراتهما معًا",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "HONDA SHOWCASES MULTIPLE MOBILITY INNOVATIONS AT JAPAN MOBILITY SHOW BIZWEEK AND CEATEC 2026",
+          "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/591488/honda-showcases-multiple-mobility-innovations-at-japan-mobility-show-bizweek-and-ceatec-2026",
+          "source": "honda",
+          "source_name": "Honda",
+          "published_at": "2026-10-19T12:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "هوندا تعرض العديد من ابتكارات التنقل في معرض اليابان للتنقل BIZWEEK وCEATEC 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
