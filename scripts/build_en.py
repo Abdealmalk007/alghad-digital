@@ -33,6 +33,7 @@ def esc(v:object)->str:
     return html.escape(str(v if v is not None else ""),quote=True)
 
 CATALOG={
+ "astool":("Fleet management for Windows","Manage vehicles, drivers, fuel, maintenance, expenses and reports. Unsigned Beta for test data only; full backup and operating cards remain incomplete.",["Dashboard and analytics","Vehicles and drivers","Fuel and maintenance logs","PDF, Excel and CSV reports","Recorded document expiry alerts"]),
  "protech-music":("Android audio and music player", "Offline audio library, automatic folder categories, customizable playlists, queue/shuffle/repeat and device-supported EQ, bass and bounded loudness. Signed Android Beta; not a final build.",
    ["Accessible audio discovery","WhatsApp, Downloads, Telegram and Recordings categories","Custom playlists and bulk sharing","Queue and repeat controls","Device-supported EQ/BassBoost with safe limits"]),
  "smart-excel":("Excel data analytics","Analyze spreadsheet data and present findings using desktop reports and visualizations.",

@@ -7,7 +7,7 @@ const root=path.resolve(__dirname,"..");
 const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
 const sitemap=read("sitemap.xml");
 const urls=[...sitemap.matchAll(/<loc>(https:\/\/alghad\.digital\/[^<]*)<\/loc>/g)].map(m=>m[1]);
-assert.equal(urls.length,48);
+assert.equal(urls.length,50);
 assert.equal(new Set(urls).size,urls.length);
 const robots=read("robots.txt");
 assert.match(robots,/^User-agent:\s*\*\s*$/m);

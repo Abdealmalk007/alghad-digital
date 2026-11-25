@@ -7,12 +7,12 @@ const vm=require("node:vm");
 const root=path.resolve(__dirname,"..");
 const read=rel=>fs.readFileSync(path.join(root,rel),"utf8");
 const urls=[...read("sitemap.xml").matchAll(/<loc>https:\/\/alghad\.digital(\/[^<]*)<\/loc>/g)].map(m=>m[1]);
-assert.equal(urls.length,48);
-assert.equal(new Set(urls).size,48);
+assert.equal(urls.length,50);
+assert.equal(new Set(urls).size,50);
 const ctx={window:{}};
 vm.runInNewContext(read("assets/products.js"),ctx,{timeout:1000});
 const products=ctx.window.AL_GHAD_PRODUCTS;
-assert.equal(products.length,11);
+assert.equal(products.length,12);
 const email="protech.2025.2026@gmail.com";
 const css='/assets/program-experience.css?v=1';
 for(const route of urls){

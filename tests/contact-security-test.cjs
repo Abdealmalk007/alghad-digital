@@ -7,8 +7,8 @@ const root=path.resolve(__dirname,"..");
 const read=(p)=>fs.readFileSync(path.join(root,p),"utf8");
 const sitemap=read("sitemap.xml");
 const paths=[...sitemap.matchAll(/<loc>https:\/\/alghad\.digital(\/[^<]*)<\/loc>/g)].map(m=>m[1]);
-assert.equal(paths.length,48);
-assert.equal(new Set(paths).size,48);
+assert.equal(paths.length,50);
+assert.equal(new Set(paths).size,50);
 const phone="966503276927",contactBase="https://wa.me/"+phone;
 const cspRequired=[
   "default-src 'self'",
@@ -23,7 +23,7 @@ const cspRequired=[
   "form-action 'self'",
   "upgrade-insecure-requests",
 ];
-const programs=new Set(["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes","google-maps-reviews-tracker","protech-music"]);
+const programs=new Set(["smart-excel","stone","marble","reports","hr","kitchen","download","care","quotes","google-maps-reviews-tracker","protech-music","astool"]);
 let programContacts=0;
 for(const route of paths){
   const file=route.replace(/^\//,"")+"index.html",html=read(file);

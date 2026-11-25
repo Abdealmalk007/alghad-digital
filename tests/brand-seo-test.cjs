@@ -40,7 +40,7 @@ assert.ok(title.length<80);
 
 assert.match(brand,/<h1>Pro Tech \(بروتك\) — برامج الغد ديجتال<\/h1>/);
 assert.match(brand,/<link rel="canonical" href="https:\/\/alghad\.digital\/protech\/">/);
-assert.equal((brand.match(/class="directory-card brand-product-card"/g)||[]).length,11);
+assert.equal((brand.match(/class="directory-card brand-product-card"/g)||[]).length,12);
 assert.equal((brand.match(/إصدار Beta\/Preview متاح للتنزيل/g)||[]).length,releaseFacts.publicReleases,"Brand release cards follow actual public release data");
 assert.ok(brand.includes("جيل الغد"));
 assert.ok(brand.includes("mailto:protech.2025.2026@gmail.com"));
@@ -73,7 +73,7 @@ for(const [slug,intent] of Object.entries(intents)){
 }
 const sitemap=read("sitemap.xml");
 const total=(sitemap.match(/<loc>/g)||[]).length;
-assert.equal(total,48,"24 Arabic and 24 English canonical pages included in sitemap");
+assert.equal(total,50,"24 Arabic and 24 English canonical pages included in sitemap");
 assert.ok(sitemap.includes("<loc>https://alghad.digital/en/protech/</loc>"));
 assert.ok(sitemap.includes("<loc>https://alghad.digital/protech/</loc>"));
 const workflow=read(".github/workflows/update-tech-news.yml");

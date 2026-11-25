@@ -45,22 +45,22 @@
     <loc>https://alghad.digital/programs/smart-excel/</loc>
   </url>
   <url>
-    <loc>https://alghad.digital/programs/stone/</loc>
-  </url>
-  <url>
-    <loc>https://alghad.digital/programs/marble/</loc>
-  </url>
-  <url>
     <loc>https://alghad.digital/programs/reports/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/programs/hr/</loc>
   </url>
   <url>
-    <loc>https://alghad.digital/programs/kitchen/</loc>
+    <loc>https://alghad.digital/programs/download/</loc>
   </url>
   <url>
-    <loc>https://alghad.digital/programs/download/</loc>
+    <loc>https://alghad.digital/programs/marble/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/stone/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/kitchen/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/programs/care/</loc>
@@ -73,6 +73,9 @@
   </url>
   <url>
     <loc>https://alghad.digital/programs/protech-music/</loc>
+  </url>
+  <url>
+    <loc>https://alghad.digital/programs/astool/</loc>
   </url>
   <url>
     <loc>https://alghad.digital/windows-office/</loc>
@@ -119,6 +122,9 @@
     <loc>https://alghad.digital/en/protech/</loc>
   </url>
   <url>
+    <loc>https://alghad.digital/en/programs/astool/</loc>
+  </url>
+  <url>
     <loc>https://alghad.digital/en/programs/protech-music/</loc>
   </url>
   <url>
@@ -153,11 +159,5 @@
   </url>
   <url>
     <loc>https://alghad.digital/en/windows-office/</loc>
-  </url>
-  <url>
-    <loc>https://alghad.digital/programs/astool/</loc>
-  </url>
-  <url>
-    <loc>https://alghad.digital/en/programs/astool/</loc>
   </url>
 </urlset>

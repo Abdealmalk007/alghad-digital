@@ -25,6 +25,7 @@ FOUNDER_NAME = "Abdulmalik Ali Hamza"
 FOUNDER_CREDIT = f"{FOUNDER_NAME} — Founder of Alghad Digital (Jeel Alghad) and ProTech."
 FOUNDER_PERSON = {"@type": "Person", "name": FOUNDER_NAME}
 PROGRAM_SEARCH_INTENTS = {
+    "astool": "برنامج إدارة أسطول السيارات والسائقين والصيانة",
     "protech-music": "مشغل موسيقى وصوتيات Android مع قوائم تشغيل وواتساب والتنزيلات",
     "smart-excel": "برنامج تحليل بيانات Excel والإحصاءات",
     "stone": "برنامج إدارة الرخام والبورسلان",
@@ -39,6 +40,7 @@ PROGRAM_SEARCH_INTENTS = {
 }
 
 PROGRAM_USE_CASES = {
+    "astool": ["إدارة السيارات والسائقين", "متابعة الوقود والصيانة", "تقارير المصروفات وتنبيهات المستندات"],
     "protech-music": ["تشغيل الصوتيات بدون إنترنت", "فرز صوتيات واتساب والتنزيلات والتسجيلات", "إنشاء قوائم تشغيل وتخصيص مؤثرات الصوت"],
     "smart-excel": ["تحليل جداول Excel", "مراجعة البيانات والإحصاءات", "إعداد تقارير تحليلية"],
     "stone": ["إدارة مخزون الرخام والبورسلان", "متابعة العقود والعملاء", "تقارير الألواح والمواد والفواتير"],

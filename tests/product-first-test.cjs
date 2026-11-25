@@ -34,8 +34,8 @@ assert.ok(html.includes('href="mailto:protech.2025.2026@gmail.com"'),"Email is t
 assert.ok(html.includes('href="#contact" class="button button-sm button-primary header-cta"'));
 assert.ok(!html.includes('info@alghad.digital'),"Do not publicize unconfigured domain email");
 const marks=[
- ["PRODUCTS",11,"data-prerender-product"],
- ["DOWNLOADS",8,"data-prerender-release"],
+ ["PRODUCTS",12,"data-prerender-product"],
+ ["DOWNLOADS",9,"data-prerender-release"],
  ["NEWS",4,'class="pre-news-row"']
 ];
 for(const [part,count,needle] of marks){
@@ -47,6 +47,14 @@ for(const [part,count,needle] of marks){
 }
 const productBlock=html.slice(html.indexOf("<!-- PRE_RENDER_PRODUCTS_START -->"),
                               html.indexOf("<!-- PRE_RENDER_PRODUCTS_END -->"));
+const priority=["smart-excel","reports","hr","download"];
+assert.deepEqual([...productBlock.matchAll(/data-prerender-product="([^"]+)"/g)].slice(0,4).map(x=>x[1]),priority);
+const vm=require("node:vm"),scope={window:{}};
+vm.runInNewContext(load("assets/products.js"),scope);
+assert.deepEqual(Array.from(scope.window.AL_GHAD_PRODUCTS.slice(0,4),p=>p.id),priority);
+for(const file of ["en/index.html","en/programs/index.html","en/protech/index.html"]){
+ assert.deepEqual([...load(file).matchAll(/data-product="([^"]+)"/g)].slice(0,4).map(x=>x[1]),priority,file);
+}
 const releaseBlock=html.slice(html.indexOf("<!-- PRE_RENDER_DOWNLOADS_START -->"),
                               html.indexOf("<!-- PRE_RENDER_DOWNLOADS_END -->"));
 assert.ok(productBlock.includes('Beta · نسخة عامة للتجربة'));
@@ -60,7 +68,7 @@ if(recommendedUrls.has("kitchen")){
  assert.ok(productBlock.includes('قريبًا'),"Unreleased kitchen version must be labeled coming soon");
 }
 assert.ok(releaseBlock.includes('SHA-256'));
-assert.equal((releaseBlock.match(/https:\/\/github\.com\/Abdealmalk007\//g)||[]).length,8);
+assert.equal((releaseBlock.match(/https:\/\/github\.com\/Abdealmalk007\//g)||[]).length,9);
 assert.ok(!/\/releases\/tag\/untagged/.test(html),"No draft links");
 assert.ok(!/\.apk[^"]*Debug/i.test(html),"Debug APK must not be promoted");
 const appJS=load("assets/app.js");
@@ -89,7 +97,7 @@ if(fs.existsSync(facts)){
  const f=JSON.parse(fs.readFileSync(facts,"utf8"));
  assert.equal(f.version,1);
  for(const [id,entry] of Object.entries(f.releases)){
-  assert.ok(["stone","marble","hr","reports","download","quotes","care","protech-music"].includes(id));
+  assert.ok(["stone","marble","hr","reports","download","quotes","care","protech-music","astool"].includes(id));
   assert.equal(entry.prerelease,true);
   assert.ok(Number.isFinite(Date.parse(entry.published_at)));
   for(const asset of entry.assets){
@@ -98,4 +106,4 @@ if(fs.existsSync(facts)){
   }
  }
 }
-console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=11 NO_JS_RELEASES=8 NO_JS_NEWS=4 SUPPORT=3");
+console.log("PRODUCT_FIRST_QA_PASS HOME_ORDER="+sections.join(">")+" NO_JS_PRODUCTS=12 NO_JS_RELEASES=9 NO_JS_NEWS=4 SUPPORT=3");

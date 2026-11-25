@@ -9,6 +9,8 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent.parent
 NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 titles = {
+    "/programs/astool/": "ASTOOL | برنامج إدارة أسطول السيارات",
+    "/en/programs/astool/": "ASTOOL | Fleet Management Software",
     '/programs/protech-music/': 'ProTech Music | مشغل صوتيات Android',
     '/en/programs/protech-music/': 'ProTech Music | Android Audio Player',
     '/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker | متابعة تقييمات Google',
@@ -40,6 +42,8 @@ titles = {
 }
 
 descriptions = {
+    '/programs/astool/': 'برنامج أسطول لإدارة السيارات والسائقين والوقود والصيانة والمصروفات. نسخة Windows تجريبية غير موقعة للاختبار فقط.',
+    '/en/programs/astool/': 'ASTOOL manages vehicles, drivers, fuel, maintenance and expenses. Unsigned Windows Beta for testing only.',
     '/programs/protech-music/': 'مشغل ProTech Music لأندرويد يفهرس الصوتيات المسموح بها ويتيح قوائم التشغيل والبحث والمشاركة والمؤثرات حسب الجهاز. نسخة Beta تجريبية.',
     '/en/programs/protech-music/': 'ProTech Music is an Android beta audio player with MediaStore indexing, playlists, track sharing, and optional sound effects depending on device support.',
     '/programs/google-maps-reviews-tracker/': 'Google Maps Reviews Tracker برنامج ويندوز لمتابعة تقييمات الفروع والمراجعات والتقارير. نسخة Beta تحتاج OAuth لجلب بيانات الفروع الموثقة.',

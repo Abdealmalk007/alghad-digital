@@ -54,7 +54,7 @@ for(const [lang,code,url] of [["ar",arabic,"/top-5/"],["en",english,"/en/top-5/"
 }
 assert.ok(arabic.includes("TOP 5")&&english.includes("TOP 5"));
 const sitemap=read("sitemap.xml");
-assert.equal((sitemap.match(/<loc>/g)||[]).length,48);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,50);
 assert.ok(sitemap.includes("<loc>https://alghad.digital/top-5/</loc>"));
 assert.ok(sitemap.includes("<loc>https://alghad.digital/en/top-5/</loc>"));
 const homepage=read("index.html");

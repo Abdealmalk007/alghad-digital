@@ -35,72 +35,6 @@ window.AL_GHAD_PRODUCTS = [
     "displayStatus": "Beta · نسخة تجريبية"
   },
   {
-    "id": "stone",
-    "title": "ProTech Stone Manager",
-    "english": "STONE MANAGER",
-    "category": "إدارة الرخام والبورسلان",
-    "description": "إدارة احترافية لأعمال الرخام والبورسلان: العملاء والعقود والألواح والمخزون والتقارير — هذا إصدار تجريبي (Beta/Preview) غير معتمد نهائيًا. للطلب أو الاستفسار، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
-    "details": "برنامج Windows مخصص لشركات الرخام والبورسلان؛ ينظم العقود والمواد والمستودع والمرفقات والفواتير والتقارير، مع فصل بيانات كل مستخدم نسخة تجريبية Beta/Preview وليست إصدارًا نهائيًا معتمدًا؛ اختبر التطبيق واحتفظ بنسخة احتياطية قبل استخدامه. للطلب أو الاستفسار عن البرنامج، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
-    "platforms": [
-      "Windows"
-    ],
-    "version": "2.0.0",
-    "status": "public",
-    "github": "https://github.com/Abdealmalk007/ProTechStoneManager",
-    "features": [
-      "إدارة العملاء والعقود مع نوع المادة واللون والسماكة والمساحة",
-      "كتالوجات الرخام والبورسلان والغراء والألواح والهانيكام",
-      "إدارة الوارد والصرف والجرد وتقارير المخزون",
-      "تصدير PDF وExcel وCSV وطباعة التقارير",
-      "مرفقات الصور والملفات وإعدادات شعار الشركة"
-    ],
-    "emblem": "◈",
-    "colors": [
-      "#174b4e",
-      "#0b2535",
-      "#30cbb1"
-    ],
-    "keywords": "stone porcelain marble manager مخزون فواتير رخام بورسلان",
-    "summary": "نظام متكامل للرخام والبورسلان",
-    "release": "https://github.com/Abdealmalk007/ProTechStoneManager/releases/tag/v2.0.0-unsigned-preview",
-    "preview": "assets/previews/stone-clear.svg",
-    "previewAlt": "أيقونة ألواح الحجر والبورسلان لإدارة المشاريع",
-    "displayStatus": "Beta · نسخة تجريبية"
-  },
-  {
-    "id": "marble",
-    "title": "Marble Delivery Pro",
-    "english": "DELIVERY PRO",
-    "category": "التسليم والعمليات",
-    "description": "تنظيم تسليم الرخام والطلبات والعقود والمرفقات والتقارير في واجهة عربية — هذا إصدار تجريبي (Beta/Preview) غير معتمد نهائيًا. للطلب أو الاستفسار، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
-    "details": "تطبيق Windows يتابع عملية تسليم الرخام، العقود والمرفقات وتقارير العمل، مع استيراد بيانات Excel/CSV وإصدار تقارير بصيغ متعددة. المستودع العام منفصل عن بيانات العملاء نسخة تجريبية Beta/Preview وليست إصدارًا نهائيًا معتمدًا؛ اختبر التطبيق واحتفظ بنسخة احتياطية قبل استخدامه. للطلب أو الاستفسار عن البرنامج، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
-    "platforms": [
-      "Windows"
-    ],
-    "version": "10.0.5",
-    "status": "public",
-    "github": "https://github.com/Abdealmalk007/MarbleDeliveryPro",
-    "features": [
-      "سجلات التسليم وبيانات الطلبات والعقود",
-      "استيراد Excel وCSV مع تنظيم المستندات",
-      "تصدير PDF وExcel وCSV وHTML وPNG وJPG",
-      "قاعدة بيانات مستقلة لكل مستخدم Windows",
-      "إعدادات الشركة وخيارات الإدارة والتقارير"
-    ],
-    "emblem": "▧",
-    "colors": [
-      "#534338",
-      "#222e35",
-      "#d5a96d"
-    ],
-    "keywords": "marble delivery نقل تسليم رخام",
-    "summary": "دقة أكبر في كل عملية تسليم",
-    "release": null,
-    "preview": "assets/previews/marble-clear.svg",
-    "previewAlt": "أيقونة شاحنة نقل الرخام والتسليم",
-    "displayStatus": "مكتمل"
-  },
-  {
     "id": "reports",
     "title": "Daily Work Reports",
     "english": "DAILY REPORTS",
@@ -170,40 +104,6 @@ window.AL_GHAD_PRODUCTS = [
     "displayStatus": "مكتمل"
   },
   {
-    "id": "kitchen",
-    "qaPublication": "KCAD_KITCHEN_DESIGN_R3_BETA_20261118",
-    "title": "Kitchen CAD Pro",
-    "english": "KITCHEN CAD PRO",
-    "category": "التصميم والهندسة",
-    "description": "تصميم المطابخ من مخطط الغرفة والخزائن إلى معاينة 3D والتصنيع والتصدير — المشروع قيد التطوير والتجربة، وليس إصدارًا نهائيًا. للطلب أو الاستفسار، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
-    "details": "منصة تصميم وهندسة مطابخ متقدمة في مرحلة التطوير؛ تستهدف الربط بين التصميم ثنائي الأبعاد وثلاثي الأبعاد، الكتالوجات، الخزائن، الرخام، المواد، ومخرجات التصنيع هذا البرنامج في مرحلة التطوير والتجربة، وليس إصدارًا نهائيًا صالحًا للاعتماد الإنتاجي. للطلب أو الاستفسار عن توفره، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
-    "platforms": [
-      "Windows"
-    ],
-    "version": "V5 Kitchen Design R3 Beta",
-    "status": "public",
-    "github": "https://github.com/Abdealmalk007/KitchenCADProV5",
-    "features": [
-      "تخطيط الغرف والفتحات والأبواب والنوافذ",
-      "كتالوجات للخزائن والأجهزة والمواد",
-      "نمذجة 2D و3D وإضاءة ورندر",
-      "رخام وملحقات وقوائم قص وتكلفة وتصنيع",
-      "حفظ وتصدير المخرجات الفنية"
-    ],
-    "emblem": "⌂",
-    "colors": [
-      "#263d72",
-      "#0b1c39",
-      "#4d90f5"
-    ],
-    "keywords": "kitchen cad sketchup 2020 cabinets 3d kitchens مطابخ تصميم خزائن",
-    "summary": "من الفكرة إلى مطبخ ثلاثي الأبعاد",
-    "preview": "assets/previews/kitchen-clear.svg",
-    "previewAlt": "أيقونة خزائن ومطبخ وتخطيط التصميم",
-    "displayStatus": "نسخة Beta للتجربة",
-    "release": "https://github.com/Abdealmalk007/KitchenCADProV5/releases/tag/v5.0.0-beta-kitchen-design-r3-20261118"
-  },
-  {
     "id": "download",
     "title": "Download Anything PRO",
     "english": "DOWNLOAD PRO",
@@ -236,6 +136,106 @@ window.AL_GHAD_PRODUCTS = [
     "preview": "assets/previews/download-clear.svg",
     "previewAlt": "أيقونة تنزيل الملفات على هاتف أندرويد",
     "displayStatus": "مكتمل"
+  },
+  {
+    "id": "marble",
+    "title": "Marble Delivery Pro",
+    "english": "DELIVERY PRO",
+    "category": "التسليم والعمليات",
+    "description": "تنظيم تسليم الرخام والطلبات والعقود والمرفقات والتقارير في واجهة عربية — هذا إصدار تجريبي (Beta/Preview) غير معتمد نهائيًا. للطلب أو الاستفسار، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
+    "details": "تطبيق Windows يتابع عملية تسليم الرخام، العقود والمرفقات وتقارير العمل، مع استيراد بيانات Excel/CSV وإصدار تقارير بصيغ متعددة. المستودع العام منفصل عن بيانات العملاء نسخة تجريبية Beta/Preview وليست إصدارًا نهائيًا معتمدًا؛ اختبر التطبيق واحتفظ بنسخة احتياطية قبل استخدامه. للطلب أو الاستفسار عن البرنامج، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
+    "platforms": [
+      "Windows"
+    ],
+    "version": "10.0.5",
+    "status": "public",
+    "github": "https://github.com/Abdealmalk007/MarbleDeliveryPro",
+    "features": [
+      "سجلات التسليم وبيانات الطلبات والعقود",
+      "استيراد Excel وCSV مع تنظيم المستندات",
+      "تصدير PDF وExcel وCSV وHTML وPNG وJPG",
+      "قاعدة بيانات مستقلة لكل مستخدم Windows",
+      "إعدادات الشركة وخيارات الإدارة والتقارير"
+    ],
+    "emblem": "▧",
+    "colors": [
+      "#534338",
+      "#222e35",
+      "#d5a96d"
+    ],
+    "keywords": "marble delivery نقل تسليم رخام",
+    "summary": "دقة أكبر في كل عملية تسليم",
+    "release": null,
+    "preview": "assets/previews/marble-clear.svg",
+    "previewAlt": "أيقونة شاحنة نقل الرخام والتسليم",
+    "displayStatus": "مكتمل"
+  },
+  {
+    "id": "stone",
+    "title": "ProTech Stone Manager",
+    "english": "STONE MANAGER",
+    "category": "إدارة الرخام والبورسلان",
+    "description": "إدارة احترافية لأعمال الرخام والبورسلان: العملاء والعقود والألواح والمخزون والتقارير — هذا إصدار تجريبي (Beta/Preview) غير معتمد نهائيًا. للطلب أو الاستفسار، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
+    "details": "برنامج Windows مخصص لشركات الرخام والبورسلان؛ ينظم العقود والمواد والمستودع والمرفقات والفواتير والتقارير، مع فصل بيانات كل مستخدم نسخة تجريبية Beta/Preview وليست إصدارًا نهائيًا معتمدًا؛ اختبر التطبيق واحتفظ بنسخة احتياطية قبل استخدامه. للطلب أو الاستفسار عن البرنامج، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
+    "platforms": [
+      "Windows"
+    ],
+    "version": "2.0.0",
+    "status": "public",
+    "github": "https://github.com/Abdealmalk007/ProTechStoneManager",
+    "features": [
+      "إدارة العملاء والعقود مع نوع المادة واللون والسماكة والمساحة",
+      "كتالوجات الرخام والبورسلان والغراء والألواح والهانيكام",
+      "إدارة الوارد والصرف والجرد وتقارير المخزون",
+      "تصدير PDF وExcel وCSV وطباعة التقارير",
+      "مرفقات الصور والملفات وإعدادات شعار الشركة"
+    ],
+    "emblem": "◈",
+    "colors": [
+      "#174b4e",
+      "#0b2535",
+      "#30cbb1"
+    ],
+    "keywords": "stone porcelain marble manager مخزون فواتير رخام بورسلان",
+    "summary": "نظام متكامل للرخام والبورسلان",
+    "release": "https://github.com/Abdealmalk007/ProTechStoneManager/releases/tag/v2.0.0-unsigned-preview",
+    "preview": "assets/previews/stone-clear.svg",
+    "previewAlt": "أيقونة ألواح الحجر والبورسلان لإدارة المشاريع",
+    "displayStatus": "Beta · نسخة تجريبية"
+  },
+  {
+    "id": "kitchen",
+    "qaPublication": "KCAD_KITCHEN_DESIGN_R3_BETA_20261118",
+    "title": "Kitchen CAD Pro",
+    "english": "KITCHEN CAD PRO",
+    "category": "التصميم والهندسة",
+    "description": "تصميم المطابخ من مخطط الغرفة والخزائن إلى معاينة 3D والتصنيع والتصدير — المشروع قيد التطوير والتجربة، وليس إصدارًا نهائيًا. للطلب أو الاستفسار، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
+    "details": "منصة تصميم وهندسة مطابخ متقدمة في مرحلة التطوير؛ تستهدف الربط بين التصميم ثنائي الأبعاد وثلاثي الأبعاد، الكتالوجات، الخزائن، الرخام، المواد، ومخرجات التصنيع هذا البرنامج في مرحلة التطوير والتجربة، وليس إصدارًا نهائيًا صالحًا للاعتماد الإنتاجي. للطلب أو الاستفسار عن توفره، تواصل معنا عبر واتساب أو البريد الإلكتروني.",
+    "platforms": [
+      "Windows"
+    ],
+    "version": "V5 Kitchen Design R3 Beta",
+    "status": "public",
+    "github": "https://github.com/Abdealmalk007/KitchenCADProV5",
+    "features": [
+      "تخطيط الغرف والفتحات والأبواب والنوافذ",
+      "كتالوجات للخزائن والأجهزة والمواد",
+      "نمذجة 2D و3D وإضاءة ورندر",
+      "رخام وملحقات وقوائم قص وتكلفة وتصنيع",
+      "حفظ وتصدير المخرجات الفنية"
+    ],
+    "emblem": "⌂",
+    "colors": [
+      "#263d72",
+      "#0b1c39",
+      "#4d90f5"
+    ],
+    "keywords": "kitchen cad sketchup 2020 cabinets 3d kitchens مطابخ تصميم خزائن",
+    "summary": "من الفكرة إلى مطبخ ثلاثي الأبعاد",
+    "preview": "assets/previews/kitchen-clear.svg",
+    "previewAlt": "أيقونة خزائن ومطبخ وتخطيط التصميم",
+    "displayStatus": "نسخة Beta للتجربة",
+    "release": "https://github.com/Abdealmalk007/KitchenCADProV5/releases/tag/v5.0.0-beta-kitchen-design-r3-20261118"
   },
   {
     "id": "care",
@@ -408,7 +408,8 @@ window.AL_GHAD_PRODUCTS = [
       "لوحة تحكم وتحليلات",
       "إدارة السيارات والسائقين",
       "سجل الوقود والصيانة",
-      "تقارير PDF وExcel وCSV"
+      "تقارير PDF وExcel وCSV",
+      "تنبيهات صلاحية المستندات المسجلة"
     ],
     "emblem": "🚘",
     "colors": [

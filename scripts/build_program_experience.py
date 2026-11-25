@@ -18,6 +18,11 @@ FLOAT_END="<!-- PROTECH_WHATSAPP_END -->"
 # Descriptive outcomes backed by the already published features, not promised savings.
 # Format: (Arabic heading, Arabic explanation, English heading, English explanation)
 BENEFITS={
+ "astool":[
+  ("إدارة السيارات والسائقين","تنظيم سجلات الأسطول.","Fleet records","Organize vehicles and drivers."),
+  ("الوقود والصيانة","متابعة سجلات الوقود والصيانة.","Fuel and maintenance","Track recorded fuel and maintenance."),
+  ("المصروفات والتقارير","تصدير التقارير بالصيَغ المتاحة.","Expenses and reports","Export supported reports."),
+  ("صلاحية المستندات","متابعة المستندات المسجلة في النسخة التجريبية غير الموقعة.","Document expiry","Monitor recorded documents in this unsigned test preview.")],
  "smart-excel":[
   ("قراءة أوضح للجداول","تجميع أدوات استعراض ملفات Excel وتحليلها في مساحة عمل واحدة.","Clearer spreadsheet review","Examine Excel datasets through a dedicated desktop workflow."),
   ("اكتشاف الأنماط","استخدم المؤشرات والتحليلات لمراجعة توزيع البيانات واتجاهاتها.","Explore data patterns","Review patterns and trends through data analysis tools."),

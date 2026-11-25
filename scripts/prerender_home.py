@@ -32,7 +32,7 @@ products=manifest["products"]
 downloads=manifest["downloads"]
 news=json.loads((ROOT/"assets"/"news.json").read_text(encoding="utf-8"))
 release_facts=json.loads((ROOT/"assets"/"release-facts.json").read_text(encoding="utf-8"))
-assert release_facts["version"]==1 and set(release_facts["releases"])=={"stone","marble","hr","reports","download","quotes","care","protech-music"}
+assert release_facts["version"]==1 and set(release_facts["releases"])=={"stone","marble","hr","reports","download","quotes","care","protech-music","astool"}
 # The browser only receives already-approved public release information.
 (ROOT/"assets"/"release-facts-data.js").write_text(
     "window.AL_GHAD_RELEASE_FACTS = "+json.dumps(release_facts,ensure_ascii=True,separators=(",",":"))+";\n",
@@ -40,8 +40,7 @@ assert release_facts["version"]==1 and set(release_facts["releases"])=={"stone",
 assert len(products)>=10
 byid={p["id"]:p for p in products}
 assert len(byid)==len(products)
-live_order=["smart-excel","marble","hr","reports","download","stone"]
-ids=live_order+[p["id"] for p in products if p["id"] not in live_order]
+ids=[p["id"] for p in products]
 assert len(ids)==len(products)
 
 def esc(s)->str:
@@ -94,7 +93,7 @@ for i,id in enumerate(ids):
 assert len(catalog)==len(products)
 
 release_cards=[]
-for id in ["stone","marble","hr","reports","download","quotes","care","protech-music"]:
+for id in ["reports","hr","download","stone","marble","quotes","care","protech-music","astool"]:
     p=byid[id]
     entry,file=recommended(id)
     assert entry.get("channel")=="preview" and file
@@ -118,7 +117,7 @@ for id in ["stone","marble","hr","reports","download","quotes","care","protech-m
       +f'<div class="pre-release-verified"><span>تاريخ النشر: {published}</span>'
       +f'<code dir="ltr" aria-label="SHA-256 من GitHub">SHA-256: {digest}</code></div>'
       +'</div></article>')
-assert len(release_cards)==8
+assert len(release_cards)==9
 
 trusted=["aitnews.com","tech-wd.com","arabhardware.net","techvoicearabia.com",
          "technologyarabia.com","3arrafni.com","th3professional.com",
