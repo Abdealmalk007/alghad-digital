@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T05:55:24Z",
+  "generated_at": "2026-11-25T14:44:31Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -245,6 +245,19 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
+          "title": "[Video] [Voices of Galaxy] Meet the Physician From Mexico Whose Galaxy Watch Helped Him Care for His Mother — and Himself",
+          "url": "https://news.samsung.com/global/video-voices-of-galaxy-meet-the-physician-from-mexico-whose-galaxy-watch-helped-him-care-for-his-mother-and-himself",
+          "source": "samsung",
+          "source_name": "Samsung",
+          "published_at": "2026-11-25T19:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "[فيديو] [أصوات غالاكسي] تعرّف على الطبيب من المكسيك الذي ساعدته ساعة غالاكسي على رعاية والدته — ورعاية نفسه",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "A Day in the Life of a Dog With Galaxy SmartTag3 and SmartThings",
           "url": "https://news.samsung.com/global/a-day-in-the-life-of-a-dog-with-galaxy-smarttag3-and-smartthings",
           "source": "samsung",
@@ -440,19 +453,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Samsung TV Plus Brings 2026 MAMA AWARDS to K-pop Fans Around the World",
-          "url": "https://news.samsung.com/global/samsung-tv-plus-brings-2026-mama-awards-to-k-pop-fans-around-the-world",
-          "source": "samsung",
-          "source_name": "Samsung",
-          "published_at": "2026-11-19T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "تقدم Samsung TV Plus حفل توزيع جوائز MAMA 2026 لعشاق موسيقى البوب الكورية في جميع أنحاء العالم",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Meet the 2026 App Store Award finalists",
           "url": "https://www.apple.com/newsroom/2026/11/meet-the-2026-app-store-award-finalists/",
           "source": "apple",
@@ -484,6 +484,58 @@
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
         {
+          "title": "The 2027 Toyota 4Runner: Legendary Capability, Refined for the Road Ahead",
+          "url": "https://pressroom.toyota.com/the-2027-toyota-4runner-legendary-capability-refined-for-the-road-ahead/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-25T13:58:04Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "سيارة تويوتا 4Runner موديل 2027: قدرات أسطورية، محسّنة للطريق المقبل",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "The 2027 Toyota Tacoma: Legendary Off-Road Prowess Enhanced by Streamlined Technology",
+          "url": "https://pressroom.toyota.com/the-2027-toyota-tacoma-legendary-off-road-prowess-enhanced-by-streamlined-technology/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-25T12:58:45Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "سيارة تويوتا تاكوما 2027: براعة أسطورية في القيادة على الطرق الوعرة معززة بتقنية مبسطة",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Toyota Full-Line Pricing",
+          "url": "https://pressroom.toyota.com/toyota-full-line-pricing/",
+          "source": "toyota",
+          "source_name": "Toyota USA",
+          "published_at": "2026-11-25T12:00:18Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "أسعار المجموعة الكاملة من تويوتا",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Porsche 911 GT3 R wins championships and races worldwide in 2026",
+          "url": "https://newsroom.porsche.com/en/2026/motorsports/porsche-gt3-r-season-2026-successes-43827.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-25T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "بورشه 911 جي تي 3 آر تفوز بالبطولات والسباقات في جميع أنحاء العالم في عام 2026",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Launch of the New Camry in Japan",
           "url": "https://global.toyota/en/newsroom/toyota/44987481.html",
           "source": "toyotaglobal",
@@ -493,6 +545,19 @@
           "official": true,
           "topic": "cars",
           "title_ar": "إطلاق سيارة كامري الجديدة في اليابان",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Development of first all-electric 718 Boxster reaches the home straight",
+          "url": "https://newsroom.porsche.com/en/2026/products/porsche-all-electric-718-boxster-development-43799.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-24T15:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "اقتراب تطوير أول سيارة بورشه 718 بوكستر كهربائية بالكامل من خط النهاية",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -510,6 +575,32 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "Porsche presents new-generation dashcam",
+          "url": "https://newsroom.porsche.com/en/2026/products/porsche-dashcam-gen-2-43800.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-24T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "بورشه تقدّم كاميرا لوحة القيادة من الجيل الجديد",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Icons of Porsche 2026 brings heritage and a vision of the future",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-icons-of-porsche-2026-43790.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-11-23T19:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تُقدّم أيقونات بورشه 2026 التراث ورؤية للمستقبل",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Toyota Enhances the 2027 Sienna with Comprehensive Powertrain and Safety Upgrades",
           "url": "https://pressroom.toyota.com/toyota-enhances-the-2027-sienna-with-comprehensive-powertrain-and-safety-upgrades/",
           "source": "toyota",
@@ -519,19 +610,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "تويوتا تُحسّن سيارة سيينا 2027 من خلال تحديثات شاملة لنظام نقل الحركة والسلامة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Toyota Full-Line Pricing",
-          "url": "https://pressroom.toyota.com/toyota-full-line-pricing/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-20T12:00:18Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "أسعار المجموعة الكاملة من تويوتا",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -549,93 +627,15 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "FAME Program Helps Grow Talent, Futures at Toyota Research & Development",
-          "url": "https://pressroom.toyota.com/fame-program-helps-grow-talent-futures-at-toyota-research-development/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-18T14:58:32Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "يساعد برنامج FAME على تنمية المواهب والمستقبل في مركز أبحاث وتطوير تويوتا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Learning from a Champion: On the Hungaroring with Jörg Bergmeister",
-          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-track-experience-joerg-bergmeister-hungaroring-43733.html",
+          "title": "Porsche teams to conclude pre-season testing with the new Porsche 975 RSE",
+          "url": "https://newsroom.porsche.com/en/2026/motorsports/porsche-formula-e-pre-season-testing-975-rse-43772.html",
           "source": "porsche",
           "source_name": "Porsche",
-          "published_at": "2026-11-17T08:00:00Z",
+          "published_at": "2026-11-20T08:00:00Z",
           "language": "en",
           "official": true,
           "topic": "cars",
-          "title_ar": "التعلم من بطل: في حلبة هانغارورينغ مع يورغ بيرغمايستر",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche Junior 2027: Five-day assessment completed",
-          "url": "https://newsroom.porsche.com/en/ppdb/2026/11/porsche-junior-2027-five-day-assessment-completed.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-15T07:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "برنامج بورشه جونيور 2027: الانتهاء من التقييم الذي استمر خمسة أيام",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Toyota Recalls Certain Model Year 2022-2023 and 2025-2026 Toyota Tundra Vehicles",
-          "url": "https://pressroom.toyota.com/toyota-recalls-certain-model-year-2022-2023-and-2025-2026-toyota-tundra-vehicles/",
-          "source": "toyota",
-          "source_name": "Toyota USA",
-          "published_at": "2026-11-13T18:28:52Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تويوتا تسحب بعض مركبات تويوتا تندرا لطرازات السنوات 2022-2023 و2025-2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Porsche 718/2: From sports car to Formula One frontrunner",
-          "url": "https://newsroom.porsche.com/en/2026/history/porsche-single-seater-history-718-formula-2-43724.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-13T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "بورشه 718/2: من سيارة رياضية إلى متصدرة سباقات الفورمولا ون",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Banzai Legacy Lab: Culture in Motion",
-          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-banzai-legacy-lab-thomas-schlereth-43717.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-12T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "مختبر بانزاي ليغاسي: الثقافة في حركة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Twelve talented drivers compete for the status of Porsche Junior 2027",
-          "url": "https://newsroom.porsche.com/en/2026/motorsports/porsche-junior-2027-young-racing-driver-preview-43703.html",
-          "source": "porsche",
-          "source_name": "Porsche",
-          "published_at": "2026-11-11T11:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "يتنافس اثنا عشر سائقًا موهوبًا على لقب بورش جونيور 2027",
+          "title_ar": "فرق بورشه تنهي اختبارات ما قبل الموسم بسيارة بورشه 975 RSE الجديدة",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
