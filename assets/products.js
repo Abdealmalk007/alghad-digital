@@ -390,6 +390,38 @@ window.AL_GHAD_PRODUCTS = [
     "preview": "assets/previews/protech-music.svg",
     "previewAlt": "أيقونة ProTech Music مع نغمة موسيقية وموجات صوتية",
     "displayStatus": "Beta 0.4.7 — تجريبي وليس نهائيًا"
+  },
+  {
+    "id": "astool",
+    "title": "أسطول | ASTOOL",
+    "english": "ASTOOL",
+    "category": "إدارة أسطول السيارات",
+    "description": "إدارة السيارات والسائقين والوقود والصيانة والمصروفات والتقارير. نسخة تجريبية غير موقعة، للاختبار فقط.",
+    "details": "لوحة تحكم تفاعلية، سجل السيارات والسائقين، تقارير PDF وExcel وCSV واستيراد بيانات السيارات. تنبيهات المستندات المسجلة. النسخ الاحتياطي الشامل وكروت التشغيل لم تكتمل بعد.",
+    "platforms": [
+      "Windows"
+    ],
+    "version": "0.1.0-beta.3",
+    "status": "public",
+    "github": "https://github.com/Abdealmalk007/ProTechFleetManager",
+    "features": [
+      "لوحة تحكم وتحليلات",
+      "إدارة السيارات والسائقين",
+      "سجل الوقود والصيانة",
+      "تقارير PDF وExcel وCSV"
+    ],
+    "emblem": "🚘",
+    "colors": [
+      "#0d9488",
+      "#0b2535",
+      "#3b82f6"
+    ],
+    "keywords": "أسطول ASTOOL fleet manager سيارات سائقين صيانة وقود",
+    "summary": "إدارة أسطول السيارات",
+    "release": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/tag/v0.1.0-beta.3",
+    "releaseLabel": "تحميل النسخة التجريبية",
+    "preview": "assets/previews/astool-dashboard.png",
+    "previewAlt": "واجهة أسطول التجريبية ببيانات اصطناعية",
+    "displayStatus": "Beta / Preview"
   }
-
 ];
