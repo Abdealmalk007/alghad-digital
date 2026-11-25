@@ -1,17 +1,209 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T15:33:55Z",
+  "generated_at": "2026-11-25T18:12:48Z",
   "articles": [
     {
-      "title": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
-      "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York.",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
       "source": "techcrunch",
       "source_name": "TechCrunch",
-      "published_at": "2026-11-25T15:08:37Z",
+      "published_at": "2026-11-25T18:11:46Z",
       "category": "أخبار التقنية",
-      "title_ar": "تعاني أولستيت من انقطاع تقني لعدة أيام قبل عيد الشكر",
+      "title_ar": "هل ترغب في شراء لعبة تعمل بالذكاء الاصطناعي لطفلك في عيد الميلاد هذا؟ ليس في نيويورك.",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "This $1,900 Alienware Aurora is one of the best early Black Friday PC deals",
+      "url": "https://www.engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-25T17:54:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يُعدّ جهاز Alienware Aurora الذي تبلغ قيمته 1900 دولار أحد أفضل عروض أجهزة الكمبيوتر المبكرة للجمعة البيضاء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-25T17:44:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "توقّع لجنة الاتصالات الفيدرالية على خطة سبيس إكس لوضع ما يصل إلى مليون قمر صناعي لمركز البيانات في الفضاء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "استغلال ثغرة Drupal Fail2Install الحرجة: حدّث إلى 11.4.13 فوراً",
+      "url": "https://3arrafni.com/tech-news/drupal-fail2install-update-11-4-13",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-25T17:42:55Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "استغلال ثغرة Drupal Fail2Install الحرجة: حدّث إلى 11.4.13 فوراً",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
+      "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-25T17:36:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تتهم وزارة العدل الأمريكية المدير التنفيذي السابق للأمن السيبراني بالاحتيال على ضحايا برامج الفدية من خلال الدفع سراً للقراصنة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "State AGs fight Character AI’s plan to auction off users’ private chats",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-25T17:35:58Z",
+      "category": "أخبار التقنية",
+      "title_ar": "المدعون العامون في الولايات يحاربون خطة Character AI لبيع محادثات المستخدمين الخاصة في مزاد علني",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Ladybird browser's first downloadable alpha is surprisingly capable",
+      "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-25T17:33:30Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الإصدار التجريبي الأول القابل للتنزيل من متصفح ليدي بيرد يتمتع بقدرات مدهشة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "X’s latest update for creators focuses on vertical video",
+      "url": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-25T17:28:29Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يركز آخر تحديث من X للمبدعين على الفيديو العمودي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Etsy clarifies AI terms after seller backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-25T17:12:57Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Etsy توضح شروط الذكاء الاصطناعي بعد رد فعل عنيف من البائعين",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "WhatsApp now lets you schedule messages in group and individual chats",
+      "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-25T16:57:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يتيح لك واتساب الآن جدولة الرسائل في الدردشات الجماعية والفردية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "WhatsApp is finally offering scheduled messages",
+      "url": "https://www.engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-25T16:54:10Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يقدم واتساب أخيرًا الرسائل المجدولة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-25T16:47:14Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ملخص Ars Live: لا تتوقعوا توقف الهجمات العسكرية على مراكز البيانات",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "ما ينتظرنا في لعبة Overwatch خلال عام 2027",
+      "url": "https://arabhardware.net/post-55240",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-25T16:45:53Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ما ينتظرنا في لعبة Overwatch خلال عام 2027",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Google تتيح خوادم Workspace MCP وواجهة الأوامر لجميع المطورين",
+      "url": "https://arabhardware.net/post-55242",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-25T16:22:05Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Google تتيح خوادم Workspace MCP وواجهة الأوامر لجميع المطورين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "OpenAI ترصد تحسنًا في ChatGPT وCodex بعد ارتفاع معدلات الأخطاء",
+      "url": "https://aitnews.com/2026/11/25/%d8%b9%d8%b7%d9%84-%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d8%af%d8%ab%d8%a9-%d9%88%d8%a7%d9%84%d8%a8%d8%b1%d9%85%d8%ac%d8%a9-2026/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-25T16:11:41Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI ترصد تحسنًا في ChatGPT وCodex بعد ارتفاع معدلات الأخطاء",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Nothing's Ear (note) is a pair of earbuds with built-in AI notetaking",
+      "url": "https://www.engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-25T16:03:17Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Nothing's Ear (note) هي زوج من سماعات الأذن المزودة بتقنية الذكاء الاصطناعي المدمجة لتدوين الملاحظات",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-25T16:00:59Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لا شيء يوفر نظرة شاملة على سماعات الأذن المزودة بالذكاء الاصطناعي وحافظة الشحن",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "الأزهر يحذر من لعبة GTA 6 ويوجه رسالة عاجلة للأسر",
+      "url": "https://arabhardware.net/post-55241",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-25T15:00:37Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الأزهر يحذر من لعبة GTA 6 ويوجه رسالة عاجلة للأسر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الفضة تهبط 5.7% دون 40 دولارا للأونصة عقب صدور بيانات أمريكية",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/25/%d8%a7%d9%84%d9%81%d8%b6%d8%a9-%d8%aa%d9%87%d8%a8%d8%b7-5-7-%d8%af%d9%88%d9%86-40-%d8%af%d9%88%d9%84%d8%a7%d8%b1%d8%a7-%d9%84%d9%84%d8%a3%d9%88%d9%86%d8%b5%d8%a9-%d8%b9%d9%82%d8%a8?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-25T14:56:30Z",
+      "category": "أخبار التقنية",
+      "title_ar": "الفضة تهبط 5.7% دون 40 دولارا للأونصة عقب صدور بيانات أمريكية",
+      "translation_status": "original_ar"
     },
     {
       "title": "Gemini History يتيح حفظ المحادثات دون استخدامها لتدريب AI",
@@ -35,17 +227,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Todoist confirms 6% of customers’ details were stolen in data breach",
-      "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T14:20:28Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تؤكد Todoist سرقة 6% من بيانات العملاء في خرق للبيانات",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Five solar generators going for deep discounts on Black Friday",
       "url": "https://www.engadget.com/2327916/five-solar-generators-going-for-deep-discounts-on-black-friday/",
       "source": "engadget",
@@ -57,15 +238,14 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T14:10:18Z",
+      "title": "عاجل | رويترز: لجنة الاتصالات الفيدرالية الأمريكية تجيز لشركة سبيس إكس نشر مليون مركز بيانات في الفضاء",
+      "url": "https://www.aljazeera.net/news/2026/11/25/%d8%b9%d8%a7%d8%ac%d9%84-%d8%b1%d9%88%d9%8a%d8%aa%d8%b1%d8%b2-%d9%84%d8%ac%d9%86%d8%a9-%d8%a7%d9%84%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-25T14:00:14Z",
       "category": "أخبار التقنية",
-      "title_ar": "ذكرت التقارير أن أمازون وميتا تجريان محادثات لرفع الحظر عن وكيل الذكاء الاصطناعي Muse",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
+      "title_ar": "عاجل | رويترز: لجنة الاتصالات الفيدرالية الأمريكية تجيز لشركة سبيس إكس نشر مليون مركز بيانات في الفضاء",
+      "translation_status": "original_ar"
     },
     {
       "title": "‘It’s not for the timid’: Blade Runner 2099’s showrunner on adapting the series for TV",
@@ -86,6 +266,16 @@
       "published_at": "2026-11-25T13:59:26Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "دراسة: 24% فقط من مسؤولي الذكاء الاصطناعي في الإمارات يملكون صلاحيات الاستثمار الكاملة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ماذا تكشف بيانات السفن عن هجمات إيران بعد فوز الديمقراطيين؟",
+      "url": "https://www.aljazeera.net/news/2026/11/25/%d9%87%d9%84-%d8%b2%d8%a7%d8%af%d8%aa-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d8%b9%d8%af-%d9%81%d9%88%d8%b2?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-25T13:53:03Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ماذا تكشف بيانات السفن عن هجمات إيران بعد فوز الديمقراطيين؟",
       "translation_status": "original_ar"
     },
     {
@@ -110,6 +300,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "خطة إيلون ماسك.. ما فرص وتحديات دمج \"تسلا\" و\"سبيس إكس\"؟",
+      "url": "https://www.aljazeera.net/video/2026/11/25/%d8%ae%d8%b7%d8%a9-%d8%a5%d9%8a%d9%84%d9%88%d9%86-%d9%85%d8%a7%d8%b3%d9%83-%d9%85%d8%a7-%d9%81%d8%b1%d8%b5-%d9%88%d8%aa%d8%ad%d8%af%d9%8a%d8%a7%d8%aa-%d8%af%d9%85%d8%ac-%d8%aa%d8%b3%d9%84%d8%a7?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-25T13:28:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": "خطة إيلون ماسك.. ما فرص وتحديات دمج \"تسلا\" و\"سبيس إكس\"؟",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "دراسة: دول الخليج تتصدر مؤشر الثقة بالذكاء الاصطناعي في قطاع الإنشاءات",
       "url": "https://aitnews.com/2026/11/25/%d8%ab%d9%82%d8%a9-%d8%a7%d9%84%d8%ae%d9%84%d9%8a%d8%ac-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a/",
       "source": "aitnews",
@@ -130,47 +330,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "المفوضية الأوروبية تقترح قانونًا للتقنيات الكمّية وصندوقًا يستهدف 50 مليار يورو",
-      "url": "https://aitnews.com/2026/11/25/%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d8%a7-%d9%82%d8%a7%d9%86%d9%88%d9%86-%d8%a7%d9%84%d8%aa%d9%82%d9%86%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%83%d9%85%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-25T13:10:04Z",
-      "category": "أخبار التقنية",
-      "title_ar": "المفوضية الأوروبية تقترح قانونًا للتقنيات الكمّية وصندوقًا يستهدف 50 مليار يورو",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
-      "url": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T13:08:19Z",
-      "category": "أخبار التقنية",
-      "title_ar": "سيستقيل الرئيس التنفيذي لشركة Flipkart، كاليان كريشنامورثي، الأسبوع المقبل وسط حالة من عدم اليقين بشأن الاكتتاب العام",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "دراسة: الذكاء الاصطناعي يعيد تشكيل مهنة العلاقات العامة وإدارة السمعة",
-      "url": "https://aitnews.com/2026/11/25/%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%88%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d8%b9%d8%a7%d9%85%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-25T13:06:04Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "دراسة: الذكاء الاصطناعي يعيد تشكيل مهنة العلاقات العامة وإدارة السمعة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "واتساب يختبر ملصقات صوتية في الإصدار التجريبي",
-      "url": "https://www.tech-wd.com/wd/2026/11/25/%d9%88%d8%a7%d8%aa%d8%b3%d8%a7%d8%a8-%d9%8a%d8%ae%d8%aa%d8%a8%d8%b1-%d9%85%d9%84%d8%b5%d9%82%d8%a7%d8%aa-%d8%b5%d9%88%d8%aa%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%a5%d8%b5%d8%af%d8%a7%d8%b1-%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-25T13:00:30Z",
-      "category": "أخبار التقنية",
-      "title_ar": "واتساب يختبر ملصقات صوتية في الإصدار التجريبي",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Has vibe coding made open source the new normal for synths?",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
       "source": "theverge",
@@ -180,131 +339,6 @@
       "title_ar": "هل جعلت برمجة Vibe المصدر المفتوح القاعدة الجديدة للآلات الموسيقية الإلكترونية؟",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Acer Predator Atlas 8 review: Potent performance at a slightly better price",
-      "url": "https://www.engadget.com/2326961/acer-predator-atlas-8-review/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-25T13:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مراجعة جهاز Acer Predator Atlas 8: أداء قوي بسعر أفضل قليلاً",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "عروض نيسان للشركات في الإمارات بخصومات تصل إلى 38 ألف درهم",
-      "url": "https://aitnews.com/2026/11/25/%d8%b9%d8%b1%d9%88%d8%b6-%d9%86%d9%8a%d8%b3%d8%a7%d9%86-%d9%84%d9%84%d8%b4%d8%b1%d9%83%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-25T12:58:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "عروض نيسان للشركات في الإمارات بخصومات تصل إلى 38 ألف درهم",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "احتيال INCEPTION عبر المكالمات ينتحل فرق الدعم لسرقة بيانات العمل",
-      "url": "https://3arrafni.com/tech-news/inception-vishing-scam-work-logins",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T12:56:39Z",
-      "category": "أخبار التقنية",
-      "title_ar": "احتيال INCEPTION عبر المكالمات ينتحل فرق الدعم لسرقة بيانات العمل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "WhatsApp is testing stickers with sound",
-      "url": "https://www.engadget.com/2327763/whatsapp-is-testing-stickers-with-sound/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-25T12:24:57Z",
-      "category": "أخبار التقنية",
-      "title_ar": "واتساب تختبر الملصقات مع الصوت",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Tidal تحظر الموسيقى المُولّدة بالذكاء الاصطناعي وتحذف 29 مليون مقطع",
-      "url": "https://3arrafni.com/tech-news/tidal-bans-ai-generated-music",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T12:01:39Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Tidal تحظر الموسيقى المُولّدة بالذكاء الاصطناعي وتحذف 29 مليون مقطع",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "AI may soon change what it means to be a theoretical physicist",
-      "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-25T12:00:28Z",
-      "category": "أخبار التقنية",
-      "title_ar": "قد يغير الذكاء الاصطناعي قريبًا معنى أن تكون عالم فيزياء نظريًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تراجع جماعي للمؤشرات الأمريكية مع اتساع موجة بيع أسهم الذكاء الاصطناعي",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/25/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%a3%d8%b3%d9%88%d8%a7%d9%82-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%aa%d9%81%d8%aa%d8%aa%d8%ad-%d8%ac%d9%84%d8%b3%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-25T11:39:37Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تراجع جماعي للمؤشرات الأمريكية مع اتساع موجة بيع أسهم الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
-      "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-25T11:30:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "من الصعب للغاية التنبؤ بالاضطرابات الجوية للطائرات، ولكن ربما لن يطول الأمر",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "إليك أهم أكواد الغش في لعبة GTA 6| فوضى عارمة في عالم Leonida",
-      "url": "https://arabhardware.net/post-55226",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-25T11:23:06Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إليك أهم أكواد الغش في لعبة GTA 6| فوضى عارمة في عالم Leonida",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
-      "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-25T11:12:42Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مايكروسوفت تعلن عن \"رمز أحمر\" بعد تعطل أوتلوك بشكل كبير",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Meta Muse يصل إلى رسائل Instagram المباشرة: الميزات والخصوصية",
-      "url": "https://3arrafni.com/tech-news/meta-muse-instagram-dms-privacy",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T11:06:39Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Meta Muse يصل إلى رسائل Instagram المباشرة: الميزات والخصوصية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "OpenAI تطرح إعدادات نماذج صحية متخصصة عبر واجهة API",
-      "url": "https://arabhardware.net/post-55238",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-25T10:24:31Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "OpenAI تطرح إعدادات نماذج صحية متخصصة عبر واجهة API",
-      "translation_status": "original_ar"
     },
     {
       "title": "This helpful Apple Watch feature works seamlessly with Apple CarPlay",
@@ -318,17 +352,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "You don't have to look at your Apple Watch to get the time",
-      "url": "https://www.engadget.com/2321251/apple-watch-tell-time-without-looking-haptic-feedback/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-25T00:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لستَ مضطرًا للنظر إلى ساعتك من Apple Watch لمعرفة الوقت",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
       "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
       "source": "wired",
@@ -336,17 +359,6 @@
       "published_at": "2026-11-24T23:39:04Z",
       "category": "أخبار التقنية",
       "title_ar": "عودة جنسن هوانغ تُظهر أن إنفيديا أكبر من أن تخضع للرقابة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
-      "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-24T21:09:04Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تعرّض عشرات الناقلات النفطية والبحرية للاختراق في الأسابيع الأخيرة، وفقًا لتقرير",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -369,17 +381,6 @@
       "published_at": "2026-11-24T17:34:34Z",
       "category": "أخبار التقنية",
       "title_ar": "تعلن Tidal عن حظر الموسيقى التي يتم إنشاؤها بواسطة الذكاء الاصطناعي؛ سيتم حذف 27 مليون أغنية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-24T12:30:05Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقول أمازون إن وكلاء الذكاء الاصطناعي التابعين للقراصنة اكتشفوا ثغرة يوم صفر واستغلوها بحد أدنى من التدخل البشري",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     }
