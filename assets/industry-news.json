@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T21:06:29Z",
+  "generated_at": "2026-11-25T05:55:24Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -45,6 +45,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "source": "openai",
+          "source_name": "OpenAI · ChatGPT",
+          "published_at": "2026-11-24T13:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "ai",
+          "title_ar": "تُظهر نماذج GPT-6 قدرات تصميم البروتين الجوهرية",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Searching for distant planets with Astra",
           "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
           "source": "openai",
@@ -84,15 +97,15 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "OpenAI and Cisco introduce Shirudo",
-          "url": "https://openai.com/index/introducing-shirudo",
+          "title": "Clay helps sales teams win with Codex and ChatGPT",
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
           "source": "openai",
           "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-23T21:20:00Z",
+          "published_at": "2026-11-24T00:00:00Z",
           "language": "en",
           "official": true,
           "topic": "ai",
-          "title_ar": "تقدم OpenAI وCisco منصة Shirudo",
+          "title_ar": "تساعد Clay فرق المبيعات على النجاح باستخدام Codex وChatGPT",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -145,19 +158,6 @@
           "official": true,
           "topic": "ai",
           "title_ar": "تقديم عناصر التحكم في تقسيم الملفات في واجهة برمجة تطبيقات Gemini",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Connected intelligence for in-house legal",
-          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-          "source": "openai",
-          "source_name": "OpenAI · ChatGPT",
-          "published_at": "2026-11-23T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "ai",
-          "title_ar": "الذكاء المتصل للشؤون القانونية الداخلية",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -244,6 +244,19 @@
     "companies": {
       "title": "الشركات التقنية الكبرى",
       "articles": [
+        {
+          "title": "A Day in the Life of a Dog With Galaxy SmartTag3 and SmartThings",
+          "url": "https://news.samsung.com/global/a-day-in-the-life-of-a-dog-with-galaxy-smarttag3-and-smartthings",
+          "source": "samsung",
+          "source_name": "Samsung",
+          "published_at": "2026-11-25T08:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "يوم من حياة كلب مع Galaxy SmartTag3 وSmartThings",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
@@ -440,19 +453,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Samsung Begins One UI 9.5 Beta Program",
-          "url": "https://news.samsung.com/global/samsung-begins-one-ui-9-5-beta-program",
-          "source": "samsung",
-          "source_name": "Samsung",
-          "published_at": "2026-11-18T18:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "سامسونج تبدأ برنامج One UI 9.5 التجريبي",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Meet the 2026 App Store Award finalists",
           "url": "https://www.apple.com/newsroom/2026/11/meet-the-2026-app-store-award-finalists/",
           "source": "apple",
@@ -483,6 +483,19 @@
     "cars": {
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
+        {
+          "title": "Launch of the New Camry in Japan",
+          "url": "https://global.toyota/en/newsroom/toyota/44987481.html",
+          "source": "toyotaglobal",
+          "source_name": "Toyota Global",
+          "published_at": "2026-11-25T04:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "إطلاق سيارة كامري الجديدة في اليابان",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
         {
           "title": "Toyota Invites Adventure Seekers to Celebrate Trucksgiving",
           "url": "https://pressroom.toyota.com/toyota-invites-adventure-seekers-to-celebrate-trucksgiving/",
@@ -701,19 +714,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "هوندا تعرض قدرتها على التنقل وقوتها التكنولوجية في معرض EICMA 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Notice Regarding the Status of Share Repurchase",
-          "url": "https://www.subaru.co.jp/news-en/2026_11_02_181354/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-11-02T06:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "إشعار بشأن حالة إعادة شراء الأسهم",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }

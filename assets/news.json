@@ -1,7 +1,251 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T21:06:27Z",
+  "generated_at": "2026-11-25T05:55:23Z",
   "articles": [
+    {
+      "title": "إتاحة GPT-6.2 في ChatGPT للمشتركين وإيقاف نموذجين في 23 ديسمبر",
+      "url": "https://3arrafni.com/tech-news/gpt-6-2-chatgpt-rollout-model-retirement",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-25T04:41:39Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "إتاحة GPT-6.2 في ChatGPT للمشتركين وإيقاف نموذجين في 23 ديسمبر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كل ما تريد معرفته عن معمارية Zen 6",
+      "url": "https://arabhardware.net/post-55234",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-25T04:04:12Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كل ما تريد معرفته عن معمارية Zen 6",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تحديثات نظام Google لشهر نوفمبر 2026 تضيف مزايا جديدة إلى Android",
+      "url": "https://3arrafni.com/tech-news/google-system-updates-november-2026",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-25T03:46:39Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تحديثات نظام Google لشهر نوفمبر 2026 تضيف مزايا جديدة إلى Android",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Kagi Mail: بديل مدفوع وخالٍ من الإعلانات لـ Gmail",
+      "url": "https://3arrafni.com/kagi-mail-gmail-alternative",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-25T02:51:39Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Kagi Mail: بديل مدفوع وخالٍ من الإعلانات لـ Gmail",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "عطل في Spotify يسبب مشكلات تسجيل الدخول لمستخدمين بالإمارات وأمريكا وبريطانيا",
+      "url": "https://3arrafni.com/tech-news/spotify-outage-login-issues-uae-us-uk",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-25T01:56:39Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عطل في Spotify يسبب مشكلات تسجيل الدخول لمستخدمين بالإمارات وأمريكا وبريطانيا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Huawei Watch Air: أنحف ساعة ذكية من Huawei بسماكة 6.9 ملم",
+      "url": "https://3arrafni.com/tech-news/huawei-watch-air-price-specs-battery",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-25T01:01:39Z",
+      "category": "أخبار التقنية",
+      "title_ar": "Huawei Watch Air: أنحف ساعة ذكية من Huawei بسماكة 6.9 ملم",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+      "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-25T01:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مكتب الجرائم المالية الأمريكي يكشف عن \"حادث أمن سيبراني\"",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Change this Roku TV setting to watch movies how they were filmed",
+      "url": "https://www.engadget.com/2321254/change-roku-tv-setting-watch-movies-how-filmed/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-25T01:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "غيّر إعداد تلفزيون Roku هذا لمشاهدة الأفلام بالطريقة التي صُوّرت بها",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "This helpful Apple Watch feature works seamlessly with Apple CarPlay",
+      "url": "https://www.engadget.com/2321253/haptic-navigation-helpful-apple-watch-feature-works-seamlessly-carplay/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-25T00:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعمل ميزة Apple Watch المفيدة هذه بسلاسة مع Apple CarPlay",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-25T00:12:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "سوننفيلد من جامعة ييل: إنفيديا \"تضر\" بالقوة الصناعية للولايات المتحدة — وليست بطلة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+      "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-25T00:10:27Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ذكرت التقارير أن ترامب يقول إن العفو عن جنسن هوانغ \"خيار مطروح\"",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "You don't have to look at your Apple Watch to get the time",
+      "url": "https://www.engadget.com/2321251/apple-watch-tell-time-without-looking-haptic-feedback/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-25T00:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لستَ مضطرًا للنظر إلى ساعتك من Apple Watch لمعرفة الوقت",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
+      "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-24T23:39:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عودة جنسن هوانغ تُظهر أن إنفيديا أكبر من أن تخضع للرقابة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The battery in your Fitbit Edge is replaceable, but it's not as easy as you'd think",
+      "url": "https://www.engadget.com/2321249/fitbit-edge-replaceable-battery-not-easy/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-24T23:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يمكن استبدال البطارية في جهاز فيت بيت إيدج، لكن الأمر ليس بهذه السهولة كما تعتقد",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Australia to pass safety bill that could result in massive fines for tech platforms",
+      "url": "https://www.engadget.com/2327499/australia-to-pass-safety-bill-that-could-result-in-massive-fines-for-tech-platforms/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-24T23:21:40Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أستراليا بصدد تمرير مشروع قانون للسلامة قد يؤدي إلى فرض غرامات باهظة على المنصات التقنية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+      "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-24T22:50:11Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعطل نصف أسطول ناسا القديم في المريخ بسبب مشاكل فنية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-24T22:36:28Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كشف انقطاع الخدمة السحابية التاريخي لشركة مايكروسوفت عن \"ضباب الحرب\" الهندسي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-24T22:27:52Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لا يزال جنسن هوانغ يعتقد أن خطة التعاقب الوظيفي تخلق تسلسلاً هرميًا غير ضروري",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Huawei found guilty of stealing trade secrets",
+      "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-24T22:23:27Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تم إدانة هواوي بسرقة الأسرار التجارية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "اختراق سيبراني جديد يضرب وكالة الاستخبارات المركزية الأمريكية",
+      "url": "https://www.aljazeera.net/news/2026/11/25/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%b3%d9%8a%d8%a8%d8%b1%d8%a7%d9%86%d9%8a-%d8%ac%d8%af%d9%8a%d8%af-%d9%8a%d8%b7%d8%a7%d9%84-%d9%88%d9%83%d8%a7%d9%84%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-24T21:59:05Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق سيبراني جديد يضرب وكالة الاستخبارات المركزية الأمريكية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تطبيق Signal يحجب لقطات الشاشة افتراضياً لمنع وكلاء الذكاء الاصطناعي من قراءة المحادثات",
+      "url": "https://www.tech-wd.com/wd/2026/11/25/%d8%aa%d8%b7%d8%a8%d9%8a%d9%82-signal-%d9%8a%d8%ad%d8%ac%d8%a8-%d9%84%d9%82%d8%b7%d8%a7%d8%aa-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4%d8%a9-%d8%a7%d9%81%d8%aa%d8%b1%d8%a7%d8%b6%d9%8a%d8%a7%d9%8b-%d9%84%d9%85/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-24T21:16:41Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تطبيق Signal يحجب لقطات الشاشة افتراضياً لمنع وكلاء الذكاء الاصطناعي من قراءة المحادثات",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
+      "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-24T21:09:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تعرّض عشرات الناقلات النفطية والبحرية للاختراق في الأسابيع الأخيرة، وفقًا لتقرير",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "لعبة GTA VI تتجاوز 364 مليون ساعة مشاهدة على منصات البث في يومين",
+      "url": "https://www.tech-wd.com/wd/2026/11/25/%d9%84%d8%b9%d8%a8%d8%a9-gta-vi-%d8%aa%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-364-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d8%b3%d8%a7%d8%b9%d8%a9-%d9%85%d8%b4%d8%a7%d9%87%d8%af%d8%a9-%d8%b9%d9%84%d9%89-%d9%85%d9%86/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-24T21:08:25Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لعبة GTA VI تتجاوز 364 مليون ساعة مشاهدة على منصات البث في يومين",
+      "translation_status": "original_ar"
+    },
     {
       "title": "أنثروبيك تفقد مئات المليارات من قيمتها السوقية بعد قمتها في أول يوم تداول",
       "url": "https://www.tech-wd.com/wd/2026/11/25/%d8%a3%d9%86%d8%ab%d8%b1%d9%88%d8%a8%d9%8a%d9%83-%d8%aa%d9%81%d9%82%d8%af-%d9%85%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%84%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d9%85%d9%86-%d9%82%d9%8a%d9%85%d8%aa%d9%87/",
@@ -10,6 +254,16 @@
       "published_at": "2026-11-24T21:04:09Z",
       "category": "أخبار التقنية",
       "title_ar": "أنثروبيك تفقد مئات المليارات من قيمتها السوقية بعد قمتها في أول يوم تداول",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "القضاء الأمريكي يدين عسكريا ببيع بيانات سرية لجهات صينية",
+      "url": "https://www.aljazeera.net/news/2026/11/25/%d8%a7%d9%84%d9%82%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d9%8a%d8%af%d9%8a%d9%86-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a7-%d8%a8%d8%a8%d9%8a%d8%b9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-24T20:46:46Z",
+      "category": "أخبار التقنية",
+      "title_ar": "القضاء الأمريكي يدين عسكريا ببيع بيانات سرية لجهات صينية",
       "translation_status": "original_ar"
     },
     {
@@ -55,16 +309,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "Strategic Investment Group تحصل على ترخيص للعمل من مركز دبي المالي العالمي",
-      "url": "https://www.tech-wd.com/wd/2026/11/24/strategic-investment-group-%d8%aa%d8%ad%d8%b5%d9%84-%d8%b9%d9%84%d9%89-%d8%aa%d8%b1%d8%ae%d9%8a%d8%b5-%d9%84%d9%84%d8%b9%d9%85%d9%84-%d9%85%d9%86-%d9%85%d8%b1%d9%83%d8%b2-%d8%af%d8%a8%d9%8a-%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-24T20:11:56Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Strategic Investment Group تحصل على ترخيص للعمل من مركز دبي المالي العالمي",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
       "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
       "source": "theverge",
@@ -76,113 +320,14 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Back-to-back measles deaths is our new reality; US tally now at 14",
-      "url": "https://arstechnica.com/health/2026/11/measles-death-toll-rises-to-14-as-national-case-tally-nears-6000/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-24T20:00:18Z",
+      "title": "ناسداك يتراجع 1.45% مع انحسار مكاسب التكنولوجيا وترقب رسوم جمركية أمريكية جديدة",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/25/%d9%86%d8%a7%d8%b3%d8%af%d8%a7%d9%83-%d9%8a%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-1-45-%d9%85%d8%b9-%d8%a7%d9%86%d8%ad%d8%b3%d8%a7%d8%b1-%d9%85%d9%83%d8%a7%d8%b3%d8%a8?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-24T19:57:53Z",
       "category": "أخبار التقنية",
-      "title_ar": "الوفيات المتتالية بسبب الحصبة هي واقعنا الجديد؛ بلغ العدد في الولايات المتحدة الآن 14 حالة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "The clock is running out for America’s most contentious spying law",
-      "url": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-24T20:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الوقت ينفد بالنسبة لقانون التجسس الأكثر إثارة للجدل في أمريكا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Desperate gamers are trying bring GTA 6 to PCs and break free of its 30 fps cap",
-      "url": "https://www.engadget.com/2327074/desperate-gamers-are-trying-bring-gta-6-to-pcs-and-break-free-of-its-30-fps-cap/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-24T19:50:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يحاول اللاعبون اليائسون إحضار لعبة GTA 6 إلى أجهزة الكمبيوتر والتخلص من حدها البالغ 30 إطارًا في الثانية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "دبي تستضيف النسخة الثانية من Doers Summit في الشرق الأوسط يومي 25 و26 نوفمبر",
-      "url": "https://www.tech-wd.com/wd/2026/11/24/%d8%af%d8%a8%d9%8a-%d8%aa%d8%b3%d8%aa%d8%b6%d9%8a%d9%81-%d8%a7%d9%84%d9%86%d8%b3%d8%ae%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%86-doers-summit-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%b1/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-24T19:46:49Z",
-      "category": "أخبار التقنية",
-      "title_ar": "دبي تستضيف النسخة الثانية من Doers Summit في الشرق الأوسط يومي 25 و26 نوفمبر",
+      "title_ar": "ناسداك يتراجع 1.45% مع انحسار مكاسب التكنولوجيا وترقب رسوم جمركية أمريكية جديدة",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Why you should never reply with STOP when you receive spam texts",
-      "url": "https://www.engadget.com/2321243/why-never-reply-stop-when-receive-spam-texts/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-24T19:30:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "لماذا يجب عليك ألا ترد أبدًا بكلمة \"STOP\" عند تلقي رسائل نصية غير مرغوب فيها",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "The biggest limitations of ChatGPT",
-      "url": "https://www.engadget.com/2321242/chatgpt-biggest-limitations/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-24T19:00:00Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "أكبر قيود ChatGPT",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
-      "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-24T18:47:57Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحطّم طائرة بدون طيار تابعة لأمازون على مرآب بعد تسليم شامبو، مما أثار تحقيقًا من إدارة الطيران الفيدرالية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-24T18:30:42Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أسهم أنثروبيك تنخفض إلى ما دون سعر الاكتتاب العام، وهي علامة مقلقة للشركات الناشئة في مجال الذكاء الاصطناعي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "GTA 6 cloud streaming comes to PS5 and PlayStation Portal",
-      "url": "https://www.engadget.com/2326845/gta-6-cloud-streaming-comes-to-ps5-and-playstation-portal/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-24T18:15:41Z",
-      "category": "أخبار التقنية",
-      "title_ar": "خدمة البث السحابي للعبة GTA 6 تأتي إلى PS5 وPlayStation Portal",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-24T18:02:59Z",
-      "category": "أخبار التقنية",
-      "title_ar": "المملكة المتحدة تحذر من أن الهجمات الإلكترونية التي يقودها الذكاء الاصطناعي تكشف عن سنوات من ضعف الأمن",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
@@ -192,17 +337,6 @@
       "published_at": "2026-11-24T17:44:53Z",
       "category": "أخبار التقنية",
       "title_ar": "جنسن هوانغ يعتذر لموظفي إنفيديا في أول اجتماع عام منذ عودته",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Threads comes to iPad and takes a page from X’s playbook with cashtags",
-      "url": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-24T17:44:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تطبيق Threads يصل إلى جهاز iPad ويستفيد من دليل X مع الرموز النقدية",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -218,37 +352,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "الذكاء الاصطناعي يقترب من حساباتك المصرفية.. فمن يتحمل ثمن أخطائه المالية؟",
-      "url": "https://www.aljazeera.net/video/2026/11/24/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d9%8a%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-%d8%ad%d8%b3%d8%a7%d8%a8%d8%a7%d8%aa%d9%83?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-24T17:08:42Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "الذكاء الاصطناعي يقترب من حساباتك المصرفية.. فمن يتحمل ثمن أخطائه المالية؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
-      "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-24T16:40:46Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تبدأ أوبر ونورو اختبار سيارات الأجرة الآلية من لوسيد بدون سائق قبل إطلاقها في عام 2027",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تحديث أمان Samsung لشهر نوفمبر 2026 يصل إلى Galaxy S25 وS24 وFold 6",
-      "url": "https://3arrafni.com/tech-news/samsung-november-2026-security-update-galaxy-s25-s24",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-24T16:15:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحديث أمان Samsung لشهر نوفمبر 2026 يصل إلى Galaxy S25 وS24 وFold 6",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "The New York Times warns photographers not to update Photoshop over AI features",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
       "source": "theverge",
@@ -258,27 +361,6 @@
       "title_ar": "صحيفة نيويورك تايمز تحذر المصورين من تحديث برنامج فوتوشوب بسبب ميزات الذكاء الاصطناعي",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
-      "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-24T16:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أنشأت أنثروبيك فخًا لجذب وكلاء الذكاء الاصطناعي إلى سوء السلوك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تقنية DLSS 5 متاحة الآن في لعبة Where Winds Meet",
-      "url": "https://arabhardware.net/post-55233",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-24T15:58:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقنية DLSS 5 متاحة الآن في لعبة Where Winds Meet",
-      "translation_status": "original_ar"
     },
     {
       "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
@@ -292,77 +374,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "هواوي ترتقي ببرنامج \"أيام الخدمة\" مع إعفاء كامل من أجور الإصلاح",
-      "url": "https://arabhardware.net/post-55232",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-24T15:48:43Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هواوي ترتقي ببرنامج \"أيام الخدمة\" مع إعفاء كامل من أجور الإصلاح",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اختراق بيانات LaLiga: سرقة بيانات شخصية لمشجعي الدوري الإسباني",
-      "url": "https://3arrafni.com/tech-news/laliga-data-breach-fan-personal-data",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-24T15:20:38Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق بيانات LaLiga: سرقة بيانات شخصية لمشجعي الدوري الإسباني",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ثغرة في Azure API Management تسرّب مفاتيح API وتستدعي تدويرها",
-      "url": "https://3arrafni.com/tech-news/azure-api-management-flaw-api-keys-stolen",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-24T14:25:38Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "ثغرة في Azure API Management تسرّب مفاتيح API وتستدعي تدويرها",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "The reasons why you should never ignore your car's software updates",
-      "url": "https://www.engadget.com/2320467/never-ignore-cars-software-updates-reasons/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-24T14:15:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الأسباب التي تجعل من غير المستحسن أبدًا تجاهل تحديثات برامج سيارتك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "بطولة كأس العالم للرياضات الإلكترونية تكشف عن أول 5 ألعاب لنسخة 2027",
-      "url": "https://arabhardware.net/post-55231",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-24T14:12:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بطولة كأس العالم للرياضات الإلكترونية تكشف عن أول 5 ألعاب لنسخة 2027",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "HUAWEI nova 16s Pro: تجربة تصوير متقدمة وبطارية 7,000 ملّي أمبير",
-      "url": "https://arabhardware.net/post-55230",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-24T14:06:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "HUAWEI nova 16s Pro: تجربة تصوير متقدمة وبطارية 7,000 ملّي أمبير",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Anthropic تطلق Claude Ship لمراجعة الشيفرات وإصلاحها والموافقة عليها",
-      "url": "https://3arrafni.com/tech-news/anthropic-claude-ship-code-review",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-24T13:30:38Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "Anthropic تطلق Claude Ship لمراجعة الشيفرات وإصلاحها والموافقة عليها",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
       "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
       "source": "arstechnica",
@@ -370,17 +381,6 @@
       "published_at": "2026-11-24T12:30:05Z",
       "category": "أخبار التقنية",
       "title_ar": "تقول أمازون إن وكلاء الذكاء الاصطناعي التابعين للقراصنة اكتشفوا ثغرة يوم صفر واستغلوها بحد أدنى من التدخل البشري",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Google alternative Kagi launches an email service",
-      "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-24T00:02:52Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بديل غوغل \"كاجي\" يطلق خدمة بريد إلكتروني",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     }
@@ -408,13 +408,13 @@
       "id": "techvoice",
       "name": "تيك فويس عربية",
       "url": "https://techvoicearabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "arrafni",
