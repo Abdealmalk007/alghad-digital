@@ -2,7 +2,7 @@
    Only public published assets. No draft URLs, no debug-only APKs. */
 window.AL_GHAD_DOWNLOADS = Object.freeze({
   /* ASTOOL_DOWNLOAD_BEGIN */
-  "astool": {"repository": "ProTechFleetManager", "version": "0.1.0-beta.3", "channel": "preview", "release": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/tag/v0.1.0-beta.3", "checksum": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/download/v0.1.0-beta.3/ASTOOL-0.1.0-beta.3-Windows-x64.zip.sha256", "files": [{"label": "تحميل أسطول — ZIP", "platform": "Windows x64 / unsigned Beta", "recommended": true, "bytes": 57242464, "url": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/download/v0.1.0-beta.3/ASTOOL-0.1.0-beta.3-Windows-x64.zip"}], "note": "فك الضغط بالكامل وشغّل ASTOOL-Beta.exe. بيانات اختبارية فقط."},
+  "astool": {"repository": "ProTechFleetManager", "version": "0.1.0-beta.4", "channel": "preview", "release": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/tag/v0.1.0-beta.4", "checksum": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/download/v0.1.0-beta.4/ASTOOL-0.1.0-beta.4-Windows-x64.zip.sha256", "files": [{"label": "تحميل أسطول — ZIP", "platform": "Windows x64 / unsigned Beta", "recommended": true, "bytes": 57244083, "url": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/download/v0.1.0-beta.4/ASTOOL-0.1.0-beta.4-Windows-x64.zip"}], "note": "فك الضغط بالكامل وشغّل ASTOOL-Beta.exe. بيانات اختبارية فقط."},
   /* ASTOOL_DOWNLOAD_END */
 
   "google-maps-reviews-tracker": {
