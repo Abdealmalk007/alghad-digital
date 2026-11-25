@@ -14,14 +14,14 @@
 
 ## الإصدار والمنصات
 
-- الإصدار المعلن: 0.1.0-beta.4.
+- الإصدار المعلن: 0.1.0-beta.5.
 - المنصات المعلنة: Windows.
 - حالة الإتاحة: Beta / Preview — إصدار تجريبي.
 - الحد الأدنى لإصدار النظام والذاكرة: غير متحقق؛ راجع ملاحظات الإصدار.
 
 ## التثبيت والتشغيل
 
-- [تحميل أسطول — ZIP](https://github.com/Abdealmalk007/ProTechFleetManager/releases/download/v0.1.0-beta.4/ASTOOL-0.1.0-beta.4-Windows-x64.zip)
+- [تحميل أسطول — ZIP](https://github.com/Abdealmalk007/ProTechFleetManager/releases/download/v0.1.0-beta.5/ASTOOL-0.1.0-beta.5-Windows-x64.zip)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 

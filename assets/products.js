@@ -401,7 +401,7 @@ window.AL_GHAD_PRODUCTS = [
     "platforms": [
       "Windows"
     ],
-    "version": "0.1.0-beta.4",
+    "version": "0.1.0-beta.5",
     "status": "public",
     "github": "https://github.com/Abdealmalk007/ProTechFleetManager",
     "features": [
@@ -419,7 +419,7 @@ window.AL_GHAD_PRODUCTS = [
     ],
     "keywords": "أسطول ASTOOL fleet manager سيارات سائقين صيانة وقود",
     "summary": "إدارة أسطول السيارات",
-    "release": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/tag/v0.1.0-beta.4",
+    "release": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/tag/v0.1.0-beta.5",
     "releaseLabel": "تحميل النسخة التجريبية",
     "preview": "assets/previews/astool-dashboard.png",
     "previewAlt": "واجهة أسطول التجريبية ببيانات اصطناعية",

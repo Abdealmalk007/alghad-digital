@@ -168,16 +168,16 @@
     },
     "astool": {
       "repository": "ProTechFleetManager",
-      "version": "0.1.0-beta.4",
-      "published_at": "2026-11-25T05:47:43Z",
-      "tag_url": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/tag/v0.1.0-beta.4",
+      "version": "0.1.0-beta.5",
+      "published_at": "2026-11-25T07:48:36Z",
+      "tag_url": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/tag/v0.1.0-beta.5",
       "prerelease": true,
       "assets": [
         {
-          "name": "ASTOOL-0.1.0-beta.4-Windows-x64.zip",
-          "url": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/download/v0.1.0-beta.4/ASTOOL-0.1.0-beta.4-Windows-x64.zip",
-          "bytes": 57244083,
-          "sha256": "160196a8b93ac3227e1ad531d8658ef0b3445a5347467d33889412e1d99d3132",
+          "name": "ASTOOL-0.1.0-beta.5-Windows-x64.zip",
+          "url": "https://github.com/Abdealmalk007/ProTechFleetManager/releases/download/v0.1.0-beta.5/ASTOOL-0.1.0-beta.5-Windows-x64.zip",
+          "bytes": 57246050,
+          "sha256": "396e15d6f74bd71dd83343508ddbe8944c5ef1392ea49d5a5fb3c7ecc17240e2",
           "recommended": true
         }
       ]
