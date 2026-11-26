@@ -171,13 +171,13 @@
   }));
   const toggle=get("theme-toggle");
   function setTheme(value) {
-    document.documentElement.dataset.theme=value;
+    if(window.AlghadTheme){window.AlghadTheme.set(value);}else{document.documentElement.dataset.theme=value;}
     toggle.setAttribute("aria-label",value==="dark"?"تفعيل المظهر الفاتح":"تفعيل المظهر الداكن");
     try{localStorage.setItem("alghad-theme",value);}catch(_){}
   }
-  let theme="dark";
-  try{theme=localStorage.getItem("alghad-theme")==="light"?"light":"dark";}catch(_){}
-  setTheme(theme);
+  let theme=window.AlghadTheme?.get()||"dark";
+  try{theme=localStorage.getItem("alghad-theme")||theme;}catch(_){}
+  if(!window.AlghadTheme)setTheme(theme);
   toggle.addEventListener("click",()=>setTheme(document.documentElement.dataset.theme==="dark"?"light":"dark"));
   get("year").textContent=new Date().getFullYear();
   get("stat-apps").textContent=String(data.length).padStart(2,"0");

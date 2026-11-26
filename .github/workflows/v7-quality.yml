@@ -1,0 +1,34 @@
+name: Signature V7 quality gate
+on:
+  push:
+    branches: ['feature/signature-v7-design']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate generated site and JavaScript
+        run: |
+          python scripts/test_seo.py
+          python scripts/seo_inventory.py --check
+          python tests/test_top5.py
+          for f in assets/v7-theme.js assets/v7.js sw.js; do node --check "$f"; done
+          python - <<'PY'
+          import re,subprocess
+          from pathlib import Path
+          files=list(dict.fromkeys(re.findall(r'node (tests/[^\s]+\.cjs)', Path('.github/workflows/update-tech-news.yml').read_text())))
+          for file in files: subprocess.run(['node',file],check=True)
+          print('NODE_SUITES_PASS', len(files))
+          PY

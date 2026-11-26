@@ -80,6 +80,8 @@ jobs:
         run: python scripts/optimize_search_visibility.py
       - name: Build V6 product experience in both languages
         run: python scripts/build_v6.py
+      - name: Apply Signature V7 design after existing generators
+        run: python scripts/build_v7.py
       - name: Refresh sitewide search over pages, software and latest news
         run: python scripts/build_site_search.py
       - name: Keep search snippets concise and heading hierarchy accessible
@@ -128,6 +130,7 @@ jobs:
           node tests/news-refresh-reliability-test.cjs
           node tests/v6-test.cjs
           node tests/v63-test.cjs
+          node tests/v7-static-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'

@@ -24,7 +24,7 @@ CSP = ("default-src 'self'; script-src 'self'; script-src-attr 'none'; "
        "style-src 'self'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; "
        "img-src 'self' data:; font-src 'self' data:; "
        "connect-src 'self'; object-src 'none'; "
-       "frame-src 'none'; worker-src 'none'; manifest-src 'self'; "
+       "frame-src 'none'; worker-src 'self'; manifest-src 'self'; "
        "base-uri 'self'; form-action 'self'; upgrade-insecure-requests")
 CSP_META = '<meta http-equiv="Content-Security-Policy" content="' + escape(CSP, quote=True).replace("&#x27;", "'") + '">'
 CSP_RE = re.compile(r'<meta\s+http-equiv="Content-Security-Policy"\s+content="[^"]+"\s*/?>', re.I)

@@ -16,7 +16,7 @@ const cspRequired=[
   "script-src-attr 'none'",
   "style-src-elem 'self'",
   "frame-src 'none'",
-  "worker-src 'none'",
+  "worker-src 'self'",
   "manifest-src 'self'",
   "object-src 'none'",
   "base-uri 'self'",
