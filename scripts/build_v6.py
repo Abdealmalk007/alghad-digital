@@ -3,6 +3,7 @@ from pathlib import Path
 import re,json,html
 from xml.etree import ElementTree as ET
 import build_seo as seo
+from v6_content import tutorial
 ROOT=Path(__file__).resolve().parents[1]
 P=seo.read_javascript_data("assets/products.js","AL_GHAD_PRODUCTS")
 D=seo.read_javascript_data("assets/downloads.js","AL_GHAD_DOWNLOADS")
@@ -59,7 +60,7 @@ for url in urls:
  route=url.removeprefix("https://alghad.digital").strip("/")
  f=ROOT/route/"index.html"; s=f.read_text(encoding="utf8"); en=route=="en" or route.startswith("en/")
  s=re.sub(r"<!-- V6_([A-Z]+)_BEGIN -->[\s\S]*?<!-- V6_\1_END -->","",s)
- head=wrap("ASSETS",'<link rel="stylesheet" href="/assets/v6.css?v=6.2.0"><script defer src="/assets/v6.js?v=6.2.0"></script>')
+ head=wrap("ASSETS",'<link rel="stylesheet" href="/assets/v6.css?v=6.3.0"><script defer src="/assets/v6.js?v=6.3.0"></script>')
  assert s.count("</head>")==1;s=s.replace("</head>",head+"</head>")
  if route in ("","en"):
   mark='<section class="en-section" id="programs">' if en else '<section class="products-section section" id="products"'
@@ -68,6 +69,6 @@ for url in urls:
   assert s.count(dl)==1;s=s.replace(dl,latest_releases(en)+dl,1)
  m=re.fullmatch(r"(?:en/)?programs/([a-z0-9-]+)",route)
  if m and m[1] in by:
-  assert s.count("</main>")==1;s=s.replace("</main>",guide(m[1],en)+"</main>")
+  assert s.count("</main>")==1;s=s.replace("</main>",guide(m[1],en)+tutorial(m[1],en)+"</main>")
  f.write_text(s,encoding="utf8",newline="\n")
 print(f"V6_BUILD_PASS pages={len(urls)} priority={len(priority)} guides={len(P)*2}")

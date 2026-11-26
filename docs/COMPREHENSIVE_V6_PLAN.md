@@ -24,3 +24,9 @@
 ## Release gates
 - Preserve daily news workflow, no changes to job-search automation or DNS. Run all CI checks and verify live pages in both languages.
 - No fabricated screenshots, metrics, release facts or external links. Save checkpoint and commit IDs.
+
+## Phase 3 checkpoint — V6.3 (partial)
+- Completed: Arabic homepage CSS requests reduced from 22 to 12; two content-hashed bundles retain source order and byte-equivalent normalized CSS. Restore before generators; rebundle in the daily news workflow.
+- Completed: eight localized practical tutorials across four featured products; one genuine Android V6 QA capture dated 2026-10-29, reviewed for personal data, converted to WebP (29,112 bytes). No assertion that this is the current release.
+- Validated: 33 Node suites, 50 canonical pages, six Chrome viewport/language cases, zero browser runtime exceptions. Re-measure live Lighthouse after deployment; no speed score guarantee.
+- Pending: current-release synthetic-data captures of all apps, demo videos, and phase 4 indexing, analytics dashboard and social rollout. Existing news schedule and other automations unchanged.

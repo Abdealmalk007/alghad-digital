@@ -39,3 +39,8 @@ html[lang="en"][data-theme="light"] :is(.en-product-tagline,.en-nav a,.en-brand,
 .v6-release-row .v6-meta{margin:0}
 .v6-brand-note{color:var(--v6-gold);font-size:12px;font-weight:700}
 @media(max-width:650px){.v6-release-list{grid-template-columns:1fr}}
+
+/* Real QA captures retain original aspect ratio and clear provenance. */
+.v6-real-capture{margin:18px 0 0;display:flex;flex-direction:column;align-items:center;gap:10px}
+.v6-real-capture img{display:block;width:min(100%,360px);height:auto;border:1px solid var(--v6-line);border-radius:16px}
+.v6-real-capture figcaption{font-size:13px;line-height:1.6;color:var(--v6-muted);text-align:center;max-width:620px}

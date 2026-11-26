@@ -25,7 +25,7 @@ assert.ok(!html.includes('src="assets/industry-news-data.js"'));
 assert.ok(html.includes('href="/ai-news/"'));
 assert.ok(html.includes('href="/tech-companies/"'));
 assert.ok(html.includes('href="/cars/"'));
-assert.ok(html.includes('href="assets/product-first.css"'));
+assert.ok(html.includes('/assets/home-secondary.bundle.css?v=') && load('assets/home-secondary.bundle.css').replace(/\r\n/g,'\n').includes(load('assets/product-first.css').replace(/\r\n/g,'\n').trim()));
 assert.ok(!html.includes('name="keywords"'));
 assert.ok(html.includes('href="/privacy/"')&&html.includes('href="/security/"'));
 assert.ok(html.includes('href="/about/"'));

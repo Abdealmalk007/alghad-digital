@@ -17,7 +17,7 @@ const pages=[
 for(const filename of pages){
   const html=read(filename);
   assert.ok(html.includes("/assets/share.js?v=1"),filename+" missing share script");
-  assert.ok(html.includes("/assets/share.css?v=1"),filename+" missing share CSS");
+  assert.ok(html.includes("/assets/share.css?v=1") || (filename==="index.html" && html.includes("/assets/home-secondary.bundle.css?v=") && read("assets/home-secondary.bundle.css").replace(/\r\n/g,"\n").includes(read("assets/share.css").replace(/\r\n/g,"\n").trim())),filename+" missing share CSS");
   assert.doesNotMatch(html,/releases\/tag\/untagged|releases\/download\/v2\.0\.0\/Setup\.exe/);
 }
 for(const filename of ["index.html","programs/index.html","programs/stone/index.html",

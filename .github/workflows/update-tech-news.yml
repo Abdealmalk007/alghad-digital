@@ -34,6 +34,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Restore homepage CSS sources for generators
+        run: python scripts/bundle_home_css.py --restore
       - name: Verify authentic Windows utility icon artwork
         run: python scripts/build_real_tool_art.py
       - name: Collect and verify public RSS headlines
@@ -83,6 +85,8 @@ jobs:
       - name: Keep search snippets concise and heading hierarchy accessible
         run: python scripts/polish_search_snippets.py
 
+      - name: Bundle homepage CSS without changing cascade
+        run: python scripts/bundle_home_css.py
       - name: Check original Microsoft media download links (non-blocking)
         continue-on-error: true
         run: python scripts/check_microsoft_media_health.py
@@ -123,6 +127,7 @@ jobs:
           node tests/quotes-beta3-release-test.cjs
           node tests/news-refresh-reliability-test.cjs
           node tests/v6-test.cjs
+          node tests/v63-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'
