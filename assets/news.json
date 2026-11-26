@@ -1,7 +1,103 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T17:54:42Z",
+  "generated_at": "2026-11-26T20:06:36Z",
   "articles": [
+    {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-26T20:03:54Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إنفيديا توقف شحنات الرقاقات إلى جنوب شرق آسيا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "بلومبرغ: SAP تدرس إلغاء 10 آلاف وظيفة على الأقل ضمن تحولها نحو الذكاء الاصطناعي",
+      "url": "https://aitnews.com/2026/11/27/%d8%b3%d8%a7%d8%a8-%d8%aa%d8%af%d8%b1%d8%b3-%d8%a5%d9%84%d8%ba%d8%a7%d8%a1-10-%d8%a2%d9%84%d8%a7%d9%81-%d9%88%d8%b8%d9%8a%d9%81%d8%a9/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T20:03:24Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "بلومبرغ: SAP تدرس إلغاء 10 آلاف وظيفة على الأقل ضمن تحولها نحو الذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Is Alice Huang a spy or not?",
+      "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-26T20:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "هل أليس هوانغ جاسوسة أم لا؟",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Amazon workers around the world plan strikes and protests on Black Friday and Cyber Monday",
+      "url": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T19:44:49Z",
+      "category": "أخبار التقنية",
+      "title_ar": "عمال أمازون في جميع أنحاء العالم يخططون للإضرابات والاحتجاجات في الجمعة البيضاء والاثنين الإلكتروني",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "X finally gets parental controls after 20 years",
+      "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-26T19:31:50Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يحصل X أخيرًا على أدوات الرقابة الأبوية بعد 20 عامًا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "FCC توافق على مشروع SpaceX لإطلاق مليون قمر لمراكز بيانات AI",
+      "url": "https://3arrafni.com/tech-news/spacex-starmind-fcc-approval-ai-data-center-satellites",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-26T18:46:33Z",
+      "category": "أخبار التقنية",
+      "title_ar": "FCC توافق على مشروع SpaceX لإطلاق مليون قمر لمراكز بيانات AI",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
+      "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T18:09:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ذكرت التقارير أن إنفيديا توقف شحنات رقاقات الذكاء الاصطناعي إلى جنوب شرق آسيا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
+      "url": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-26T18:00:29Z",
+      "category": "أخبار التقنية",
+      "title_ar": "فورد تكشف النقاب عن GT41 على أمل الفوز بسباق لومان مرة أخرى",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Microsoft توقف تطبيقات Microsoft 365 التي رفعت استهلاك RAM في Windows 11",
+      "url": "https://3arrafni.com/tech-news/windows-11-microsoft-365-companion-apps-ram-usage",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-26T17:51:33Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "Microsoft توقف تطبيقات Microsoft 365 التي رفعت استهلاك RAM في Windows 11",
+      "translation_status": "original_ar"
+    },
     {
       "title": "واتساب تطلق رسميًا ميزة جدولة الرسائل وإرسالها تلقائيًا",
       "url": "https://aitnews.com/2026/11/26/%d9%88%d8%a7%d8%aa%d8%b3%d8%a7%d8%a8-%d8%ac%d8%af%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b1%d8%b3%d8%a7%d8%a6%d9%84/",
@@ -97,23 +193,23 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "أفضل موقع لشراء الهواتف أونلاين في الكويت",
-      "url": "https://3arrafni.com/buy-phones-online-kuwait",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-26T16:35:28Z",
+      "title": "عملاق \"الرقائق الإلكترونية\" بين القيود الأمريكية والإغراءات الصينية",
+      "url": "https://www.aljazeera.net/tech/2026/11/26/%d8%b9%d9%85%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%b1%d9%82%d8%a7%d8%a6%d9%82-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a%d8%a9-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%82%d9%8a%d9%88%d8%af?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-26T16:05:17Z",
       "category": "الهواتف والأجهزة",
-      "title_ar": "أفضل موقع لشراء الهواتف أونلاين في الكويت",
+      "title_ar": "عملاق \"الرقائق الإلكترونية\" بين القيود الأمريكية والإغراءات الصينية",
       "translation_status": "original_ar"
     },
     {
-      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
       "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
       "source": "techcrunch",
       "source_name": "TechCrunch",
       "published_at": "2026-11-26T16:00:00Z",
       "category": "أخبار التقنية",
-      "title_ar": "مثل الاكتتابات العامة الأولية لشركة أنثروبيك، تثبت لعبة Grand Theft Auto VI سبب عدم كون الكفاءة فضيلة",
+      "title_ar": "تُثبت لعبة Grand Theft Auto VI سبب عدم اعتبار الكفاءة فضيلة",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -189,16 +285,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "تحلم بهاتف وأسطوانة غاز.. ماذا قالت الطفلة أروى بعد شكواها من الخيام في غزة؟",
-      "url": "https://www.aljazeera.net/news/2026/11/26/%d8%aa%d8%ad%d9%84%d9%85-%d8%a8%d9%87%d8%a7%d8%aa%d9%81-%d9%88%d8%a3%d8%b3%d8%b7%d9%88%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2-%d9%85%d8%a7%d8%b0%d8%a7-%d9%82%d8%a7%d9%84%d8%aa?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-26T14:04:28Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تحلم بهاتف وأسطوانة غاز.. ماذا قالت الطفلة أروى بعد شكواها من الخيام في غزة؟",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Samsung’s R95H TV shows what RGB LED is capable of",
       "url": "https://www.theverge.com/tech/1042613/samsung-r95h-rgb-led-tv-review",
       "source": "theverge",
@@ -219,37 +305,6 @@
       "title_ar": "سيتيح لك تطبيق Screens تحويل جهاز iPhone Duo إلى جهاز MacBook صغير جدًا",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى 4 دول في جنوب شرق آسيا",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/26/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%aa%d9%88%d9%82%d9%81-%d8%b4%d8%ad%d9%86-%d8%ae%d9%88%d8%a7%d8%af%d9%85-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-26T13:42:26Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى 4 دول في جنوب شرق آسيا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Casetify's Pokémon 30th anniversary collection includes a Poké Ball case for your AirPods",
-      "url": "https://www.engadget.com/2329106/casetifys-pokmon-30th-anniversary-collection-includes-a-pok-ball-case-for-your-airpods/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T13:14:18Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تشمل مجموعة الذكرى السنوية الثلاثين لبوكيمون من كاسيتيفاي حافظة بوكيه بول لسماعات الأيربودز الخاصة بك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "من جبل طارق إلى قاع المتوسط.. بيانات تكشف مسار ناقلة الوقود الغارقة قبالة إسبانيا",
-      "url": "https://www.aljazeera.net/news/2026/11/26/%d9%85%d9%86-%d8%ac%d8%a8%d9%84-%d8%b7%d8%a7%d8%b1%d9%82-%d8%a5%d9%84%d9%89-%d9%82%d8%a7%d8%b9-%d8%a7%d9%84%d9%85%d8%aa%d9%88%d8%b3%d8%b7-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-26T12:58:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "من جبل طارق إلى قاع المتوسط.. بيانات تكشف مسار ناقلة الوقود الغارقة قبالة إسبانيا",
-      "translation_status": "original_ar"
     },
     {
       "title": "كيف تجني المال من سرقة السيارات في لعبة GTA 6؟",
@@ -283,38 +338,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "From minimalist to maximalist: Ars staffers show off their home offices",
-      "url": "https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-26T12:00:14Z",
-      "category": "أخبار التقنية",
-      "title_ar": "من البساطة إلى التكلف: موظفو Ars يعرضون مكاتبهم المنزلية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "واتساب يطلق جدولة الرسائل عالميًا وإرسالها حتى مع إغلاق الهاتف",
-      "url": "https://arabhardware.net/post-55244",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-26T11:18:00Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "واتساب يطلق جدولة الرسائل عالميًا وإرسالها حتى مع إغلاق الهاتف",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
-      "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T11:01:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحصل سبيس إكس على موافقة لجنة الاتصالات الفيدرالية لنشر مليون قمر صناعي لمركز بياناتها المداري للذكاء الاصطناعي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
       "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
       "source": "wired",
@@ -344,28 +367,6 @@
       "published_at": "2026-11-25T19:10:15Z",
       "category": "أخبار التقنية",
       "title_ar": "أدى اختراق 1Password إلى تسريب أسماء العملاء وعناوين بريدهم الإلكتروني، ولكن ليس كلمات المرور",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "1Password said hackers broke into its internal systems, but customer passwords are safe",
-      "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T18:49:52Z",
-      "category": "أخبار التقنية",
-      "title_ar": "قالت 1Password إن المتسللين اخترقوا أنظمتها الداخلية، لكن كلمات مرور العملاء آمنة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "A familiar Iranian hacking group has found a new way to cause chaos",
-      "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-25T14:29:43Z",
-      "category": "أخبار التقنية",
-      "title_ar": "وجدت مجموعة قرصنة إيرانية معروفة طريقة جديدة لإحداث الفوضى",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
