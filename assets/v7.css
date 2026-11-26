@@ -171,7 +171,7 @@ html[data-v7-theme] .protech-topic-section{margin-block:16px!important;padding:2
 html[data-v7-theme] .protech-topic-section h2{font-size:23px;margin-block:0 6px}
 html[data-v7-theme] .protech-topic-section p{font-size:15px;line-height:1.65;margin-block:6px 12px}
 html[data-v7-theme] .protech-topic-chips{gap:8px}
-html[data-v7-theme] a.protech-topic-chip{font-size:14px;padding:6px 12px;min-height:36px;background:var(--surface-elevated);color:var(--ink);border:1px solid var(--surface-line)}
+html[data-v7-theme] a.protech-topic-chip{font-size:14px;padding:6px 12px;min-height:36px;background:var(--surface-elevated);color:var(--ink)!important;border:1px solid var(--surface-line)}
 html[data-v7-theme] .micro-strip{padding-block:12px;margin-block:0;font-size:13px}
 html[data-v7-theme] #catalog{gap:16px}
 html[data-v7-theme] #catalog .pre-product-card:first-child{grid-column:auto;display:flex;min-height:0}
