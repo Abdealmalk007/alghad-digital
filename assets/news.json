@@ -1,7 +1,143 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T15:08:55Z",
+  "generated_at": "2026-11-26T17:54:42Z",
   "articles": [
+    {
+      "title": "واتساب تطلق رسميًا ميزة جدولة الرسائل وإرسالها تلقائيًا",
+      "url": "https://aitnews.com/2026/11/26/%d9%88%d8%a7%d8%aa%d8%b3%d8%a7%d8%a8-%d8%ac%d8%af%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b1%d8%b3%d8%a7%d8%a6%d9%84/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T17:24:57Z",
+      "category": "أخبار التقنية",
+      "title_ar": "واتساب تطلق رسميًا ميزة جدولة الرسائل وإرسالها تلقائيًا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-26T17:07:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يحصل جهاز MacBook Neo على خصم نادر بقيمة 100 دولار للجمعة البيضاء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Android app developers will soon have to share their address publicly",
+      "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-26T17:06:24Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "سيتعين على مطوري تطبيقات أندرويد قريبًا مشاركة عناوينهم علنًا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "A month with the iPhone Duo has changed how I use my phone",
+      "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-26T17:00:00Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "لقد غيّر شهر مع جهاز iPhone Duo طريقة استخدامي لهاتفي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "اختراق Todoist يؤثر في 6% من المستخدمين: البيانات المسروقة والخطوات اللازمة",
+      "url": "https://3arrafni.com/tech-news/todoist-data-breach-6-percent-users",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-26T16:56:33Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق Todoist يؤثر في 6% من المستخدمين: البيانات المسروقة والخطوات اللازمة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Workers at GTA 6 studio Rockstar Games vote overwhelmingly against union recognition",
+      "url": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T16:53:58Z",
+      "category": "أخبار التقنية",
+      "title_ar": "صوّت العاملون في استوديو روكستار جيمز لإنتاج لعبة GTA 6 بأغلبية ساحقة ضد الاعتراف بالنقابة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "OpenAI تصحح خطأً في احتساب استخدام GPT-6.2",
+      "url": "https://aitnews.com/2026/11/26/%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d8%ad%d8%aa%d8%b3%d8%a7%d8%a8-%d8%ad%d8%b5%d8%b5-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T16:52:02Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI تصحح خطأً في احتساب استخدام GPT-6.2",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تقنية DLSS 5 تصل إلى لعبة Where Winds Meet مع تعريف جديد لبطاقات GeForce RTX",
+      "url": "https://3arrafni.com/tech-news/dlss-5-where-winds-meet",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-26T16:36:14Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تقنية DLSS 5 تصل إلى لعبة Where Winds Meet مع تعريف جديد لبطاقات GeForce RTX",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "برنامج إلغاء نمط قفل الشاشة هواوي: دليل فتح هواتف Huawei عند نسيان النمط",
+      "url": "https://3arrafni.com/huawei-screen-lock-pattern-removal",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-26T16:35:28Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "برنامج إلغاء نمط قفل الشاشة هواوي: دليل فتح هواتف Huawei عند نسيان النمط",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أفضل موقع لشراء الهواتف أونلاين في الكويت",
+      "url": "https://3arrafni.com/buy-phones-online-kuwait",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-26T16:35:28Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "أفضل موقع لشراء الهواتف أونلاين في الكويت",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-26T16:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مثل الاكتتابات العامة الأولية لشركة أنثروبيك، تثبت لعبة Grand Theft Auto VI سبب عدم كون الكفاءة فضيلة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Man sentenced to 47 months in prison after using AI to impersonate streamer N3on",
+      "url": "https://www.engadget.com/2329150/man-sentenced-to-47-month-prison-sentence-after-using-ai-impersonate-streamer/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T15:50:37Z",
+      "category": "أخبار التقنية",
+      "title_ar": "حُكم على رجل بالسجن لمدة 47 شهرًا بعد استخدامه للذكاء الاصطناعي لانتحال شخصية مذيع البث المباشر N3on",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "فيفا يؤكد تعرضه لهجوم سيبراني طال بيانات شخصية وتجارية",
+      "url": "https://aitnews.com/2026/11/26/%d9%81%d9%8a%d9%81%d8%a7-%d9%87%d8%ac%d9%88%d9%85-%d8%b3%d9%8a%d8%a8%d8%b1%d8%a7%d9%86%d9%8a-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T15:12:36Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "فيفا يؤكد تعرضه لهجوم سيبراني طال بيانات شخصية وتجارية",
+      "translation_status": "original_ar"
+    },
     {
       "title": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
       "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-tp-link-tapo-c825-%d8%a8%d8%b4%d8%a7%d8%b4%d8%a9-%d9%84%d9%85%d8%b3-%d9%84%d9%85%d9%83%d8%a7%d9%84%d9%85%d8%a7%d8%aa-%d8%a7%d9%84/",
@@ -53,6 +189,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "تحلم بهاتف وأسطوانة غاز.. ماذا قالت الطفلة أروى بعد شكواها من الخيام في غزة؟",
+      "url": "https://www.aljazeera.net/news/2026/11/26/%d8%aa%d8%ad%d9%84%d9%85-%d8%a8%d9%87%d8%a7%d8%aa%d9%81-%d9%88%d8%a3%d8%b3%d8%b7%d9%88%d8%a7%d9%86%d8%a9-%d8%ba%d8%a7%d8%b2-%d9%85%d8%a7%d8%b0%d8%a7-%d9%82%d8%a7%d9%84%d8%aa?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-26T14:04:28Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تحلم بهاتف وأسطوانة غاز.. ماذا قالت الطفلة أروى بعد شكواها من الخيام في غزة؟",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Samsung’s R95H TV shows what RGB LED is capable of",
       "url": "https://www.theverge.com/tech/1042613/samsung-r95h-rgb-led-tv-review",
       "source": "theverge",
@@ -75,6 +221,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى 4 دول في جنوب شرق آسيا",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/26/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%aa%d9%88%d9%82%d9%81-%d8%b4%d8%ad%d9%86-%d8%ae%d9%88%d8%a7%d8%af%d9%85-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-26T13:42:26Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى 4 دول في جنوب شرق آسيا",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Casetify's Pokémon 30th anniversary collection includes a Poké Ball case for your AirPods",
       "url": "https://www.engadget.com/2329106/casetifys-pokmon-30th-anniversary-collection-includes-a-pok-ball-case-for-your-airpods/",
       "source": "engadget",
@@ -84,6 +240,16 @@
       "title_ar": "تشمل مجموعة الذكرى السنوية الثلاثين لبوكيمون من كاسيتيفاي حافظة بوكيه بول لسماعات الأيربودز الخاصة بك",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "من جبل طارق إلى قاع المتوسط.. بيانات تكشف مسار ناقلة الوقود الغارقة قبالة إسبانيا",
+      "url": "https://www.aljazeera.net/news/2026/11/26/%d9%85%d9%86-%d8%ac%d8%a8%d9%84-%d8%b7%d8%a7%d8%b1%d9%82-%d8%a5%d9%84%d9%89-%d9%82%d8%a7%d8%b9-%d8%a7%d9%84%d9%85%d8%aa%d9%88%d8%b3%d8%b7-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-26T12:58:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "من جبل طارق إلى قاع المتوسط.. بيانات تكشف مسار ناقلة الوقود الغارقة قبالة إسبانيا",
+      "translation_status": "original_ar"
     },
     {
       "title": "كيف تجني المال من سرقة السيارات في لعبة GTA 6؟",
@@ -149,16 +315,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "فولفو تبدأ تدريب روبوتات بشرية في مصنعها ببلجيكا تمهيدًا لاستخدامها في الإنتاج منتصف 2027",
-      "url": "https://aitnews.com/2026/11/26/%d9%81%d9%88%d9%84%d9%81%d9%88-%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d8%b1%d9%88%d8%a8%d9%88%d8%aa%d8%a7%d8%aa-%d8%a7%d9%84%d8%a8%d8%b4%d8%b1%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:55:49Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "فولفو تبدأ تدريب روبوتات بشرية في مصنعها ببلجيكا تمهيدًا لاستخدامها في الإنتاج منتصف 2027",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
       "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
       "source": "wired",
@@ -166,141 +322,6 @@
       "published_at": "2026-11-26T10:51:27Z",
       "category": "أخبار التقنية",
       "title_ar": "ميتا ترفض مشاركة Muse للاختبار، والهيئة المالية البريطانية تقدم شكوى",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "المفاعلات النووية المعيارية الصغيرة.. تكنولوجيا طاقة المستقبل",
-      "url": "https://www.aljazeera.net/encyclopedia/2026/11/26/%d8%a7%d9%84%d9%85%d9%81%d8%a7%d8%b9%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%86%d9%88%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%8a%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%b5%d8%ba%d9%8a%d8%b1%d8%a9?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-26T10:46:02Z",
-      "category": "أخبار التقنية",
-      "title_ar": "المفاعلات النووية المعيارية الصغيرة.. تكنولوجيا طاقة المستقبل",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "X is finally getting its first parental controls",
-      "url": "https://www.theverge.com/news/1043078/x-parental-controls-features",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-26T10:45:50Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستحصل منصة X أخيرًا على أول أدوات للرقابة الأبوية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Microsoft تحذر: إطار ARTEX يسرع الهجمات السيبرانية بالذكاء الاصطناعي",
-      "url": "https://arabhardware.net/post-55243",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-26T10:39:13Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "Microsoft تحذر: إطار ARTEX يسرع الهجمات السيبرانية بالذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "صندوق الإمارات للنمو يوقّع اتفاقية لاستثمار 10.5 ملايين دولار في XEBO.ai",
-      "url": "https://aitnews.com/2026/11/26/%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%84%d9%86%d9%85%d9%88-%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:15:24Z",
-      "category": "أخبار التقنية",
-      "title_ar": "صندوق الإمارات للنمو يوقّع اتفاقية لاستثمار 10.5 ملايين دولار في XEBO.ai",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "فايننشال تايمز: إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى أربع دول آسيوية",
-      "url": "https://aitnews.com/2026/11/26/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d9%88%d9%82%d9%81-%d8%b4%d8%ad%d9%86-%d8%a7%d9%84%d8%ae%d9%88%d8%a7%d8%af%d9%85-%d8%a2%d8%b3%d9%8a%d8%a7/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:12:33Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "فايننشال تايمز: إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى أربع دول آسيوية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اختراق إلكتروني يهز \"فيفا\" ويسفر عن سرقة معلومات شخصية وتجارية",
-      "url": "https://www.aljazeera.net/sport/2026/11/26/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a-%d9%81%d9%8a%d9%81%d8%a7-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-26T10:09:55Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق إلكتروني يهز \"فيفا\" ويسفر عن سرقة معلومات شخصية وتجارية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "بعد ساعات العمل، يجب أن يظل نشاطك التجاري مستعداً للرد",
-      "url": "https://technologyarabia.com/archives/18167/%d8%a8%d8%b9%d8%af-%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d8%8c-%d9%8a%d8%ac%d8%a8-%d8%a3%d9%86-%d9%8a%d8%b8%d9%84-%d9%86%d8%b4%d8%a7%d8%b7%d9%83-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-26T10:06:56Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بعد ساعات العمل، يجب أن يظل نشاطك التجاري مستعداً للرد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كوريا الجنوبية ترقي الإنترنت المجاني في نحو 33 ألف حافلة إلى Wi-Fi 7",
-      "url": "https://aitnews.com/2026/11/26/%d9%83%d9%88%d8%b1%d9%8a%d8%a7-%d8%a7%d9%84%d8%ac%d9%86%d9%88%d8%a8%d9%8a%d8%a9-%d8%aa%d8%b1%d9%82%d9%8a%d8%a9-%d9%88%d8%a7%d9%8a-%d9%81%d8%a7%d9%8a/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:05:14Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "كوريا الجنوبية ترقي الإنترنت المجاني في نحو 33 ألف حافلة إلى Wi-Fi 7",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "After Hours, Your Business Still Needs to Answer",
-      "url": "https://technologyarabia.com/archives/18163/after-hours-your-business-still-needs-to-answer/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-26T09:49:23Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بعد ساعات العمل، لا يزال عملك بحاجة إلى الرد",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "X is adding its first-ever parental controls",
-      "url": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T09:26:24Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تضيف منصة X أول عناصر التحكم الأبوية على الإطلاق",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "امنكس تستعرض حلول الذكاء الاصطناعي التي تتجاوز المرحلة التجريبية خلال معرض جيتكس جلوبال 2026",
-      "url": "https://technologyarabia.com/archives/18160/%d8%a7%d9%85%d9%86%d9%83%d8%b3-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-26T08:52:25Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "امنكس تستعرض حلول الذكاء الاصطناعي التي تتجاوز المرحلة التجريبية خلال معرض جيتكس جلوبال 2026",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
-      "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T07:28:21Z",
-      "category": "أخبار التقنية",
-      "title_ar": "نيورالينك تحصل على موافقة إدارة الغذاء والدواء الأمريكية على تجربة \"محورية\" لزرع الدماغ في مرضى التصلب الجانبي الضموري",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-      "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-26T00:04:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "الآن تعمل ميزة الذكاء الاصطناعي \"الوجوه المألوفة\" من Google على كاميرا المنزل الذكي من Walmart التي تبلغ تكلفتها 35 دولارًا أيضًا",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -338,17 +359,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
-      "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T17:36:51Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تتهم وزارة العدل الأمريكية المدير التنفيذي السابق للأمن السيبراني بالاحتيال على ضحايا برامج الفدية من خلال الدفع سراً للقراصنة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "A familiar Iranian hacking group has found a new way to cause chaos",
       "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
       "source": "arstechnica",
@@ -367,17 +377,6 @@
       "published_at": "2026-11-24T23:39:04Z",
       "category": "أخبار التقنية",
       "title_ar": "عودة جنسن هوانغ تُظهر أن إنفيديا أكبر من أن تخضع للرقابة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
-      "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
-      "source": "wired",
-      "source_name": "WIRED",
-      "published_at": "2026-11-24T17:44:53Z",
-      "category": "أخبار التقنية",
-      "title_ar": "جنسن هوانغ يعتذر لموظفي إنفيديا في أول اجتماع عام منذ عودته",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     }
