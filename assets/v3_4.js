@@ -20,49 +20,39 @@
   let scheduled = false;
   const reduceMotion = window.matchMedia &&
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // V7 search is in the header; never force geometry for that case.
   const refresh = () => {
-    const modalOpen = ["product-modal"].some(id => {
-      const dialog = document.getElementById(id);
-      return dialog && dialog.open;
-    });
-    const searchOpen=document.body.classList.contains("sitewide-search-open");
-    back.hidden = window.scrollY < 650 || modalOpen || searchOpen;
-    if (!back.hidden) {
-      const a=back.getBoundingClientRect();
-      const blockers=document.querySelectorAll(".sitewide-search-trigger");
-      for (const blocker of blockers) {
-        const style=getComputedStyle(blocker);
-        if(style.display==="none" || style.visibility==="hidden")continue;
-        const b=blocker.getBoundingClientRect();
-        const margin=8;
-        if(a.left<b.right+margin && a.right+margin>b.left &&
-           a.top<b.bottom+margin && a.bottom+margin>b.top) {
-          back.hidden=true;
-          break;
+    const modalOpen = !!document.getElementById("product-modal")?.open;
+    const searchOpen = document.body.classList.contains("sitewide-search-open");
+    const hide = window.scrollY < 650 || modalOpen || searchOpen;
+    if (back.hidden !== hide) back.hidden = hide;
+    if (!hide) {
+      const blockers=document.querySelectorAll(".sitewide-search-trigger:not(.v7-header-search)");
+      if (blockers.length) {
+        const a=back.getBoundingClientRect();
+        for (const blocker of blockers) {
+          const b=blocker.getBoundingClientRect(), margin=8;
+          if(b.width>0 && b.height>0 && a.left<b.right+margin && a.right+margin>b.left &&
+             a.top<b.bottom+margin && a.bottom+margin>b.top) {back.hidden=true;break;}
         }
       }
     }
-    scheduled = false;
+    scheduled=false;
   };
   const onScroll = () => {
-    if (scheduled) return;
-    scheduled = true;
+    if(scheduled)return;
+    scheduled=true;
     requestAnimationFrame(refresh);
   };
-  window.addEventListener("scroll", onScroll, {passive:true});
-  window.addEventListener("resize", onScroll, {passive:true});
-  window.addEventListener("orientationchange", onScroll, {passive:true});
+  window.addEventListener("scroll",onScroll,{passive:true});
+  window.addEventListener("resize",onScroll,{passive:true});
+  window.addEventListener("orientationchange",onScroll,{passive:true});
   new MutationObserver(onScroll).observe(document.body,{attributes:true,attributeFilter:["class"]});
-  document.addEventListener("click", event => {
-    const button = event.target.closest("[data-detail]");
-    if (button) requestAnimationFrame(refresh);
-  });
-  for (const id of ["product-modal"]) {
-    const dialog = document.getElementById(id);
-    if (dialog) dialog.addEventListener("close", refresh);
-  }
+  const dialog=document.getElementById("product-modal");
+  if(dialog)new MutationObserver(onScroll).observe(dialog,{attributes:true,attributeFilter:["open"]});
+  // Startup uses the generated hidden state; check restored scroll after first paint.
+  window.addEventListener("pageshow",()=>requestAnimationFrame(()=>requestAnimationFrame(onScroll)));
   back.addEventListener("click", () => {
     window.scrollTo({top:0, behavior:reduceMotion ? "instant" : "smooth"});
   });
-  refresh();
 })();
