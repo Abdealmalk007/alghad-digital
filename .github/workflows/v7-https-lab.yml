@@ -2,10 +2,11 @@ name: V7 HTTPS delivery lab
 on:
   workflow_dispatch:
   push:
-    branches: ['feature/signature-v7-design']
+    branches: ['feature/signature-v7-design','feature/v7.1-refinement']
     paths:
       - 'scripts/v7_https_lab.cjs'
       - 'scripts/build_v7.py'
+      - 'assets/v7.css'
       - '.github/workflows/v7-https-lab.yml'
 permissions:
   contents: read
@@ -25,7 +26,7 @@ jobs:
         run: |
           set -euo pipefail
           npm install --prefix "$RUNNER_TEMP/lh" --no-audit --no-fund lighthouse@13.5.0
-          git worktree add --detach "$RUNNER_TEMP/v6-baseline" 7de1fd473648b09983a654849e96f3c9ca3df676
+          git worktree add --detach "$RUNNER_TEMP/v6-baseline" cce32e0bdbb7b133f09ee4d641cfc521aaf975b3
           mkdir -p "$RUNNER_TEMP/https-lab"
           openssl req -x509 -newkey rsa:2048 -nodes -days 1 -keyout "$RUNNER_TEMP/lab.key" -out "$RUNNER_TEMP/lab.crt" -subj /CN=127.0.0.1 -addext subjectAltName=IP:127.0.0.1
           node scripts/v7_https_lab.cjs "$RUNNER_TEMP/v6-baseline" 18783 "$RUNNER_TEMP/lab.key" "$RUNNER_TEMP/lab.crt" normal &

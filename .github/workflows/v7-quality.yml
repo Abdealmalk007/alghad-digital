@@ -1,7 +1,7 @@
 name: Signature V7 quality gate
 on:
   push:
-    branches: ['feature/signature-v7-design']
+    branches: ['feature/signature-v7-design','feature/v7.1-refinement']
   pull_request:
     branches: [main]
   workflow_dispatch:

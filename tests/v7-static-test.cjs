@@ -7,7 +7,7 @@ for(const route of refs){
  const h=read(route+"index.html");
  assert.equal((h.match(/V7_ASSETS_BEGIN/g)||[]).length,1);
  assert.equal((h.match(/V7_BOOT_BEGIN/g)||[]).length,1);
- assert.ok(h.includes("/assets/fonts/plex.css?v=5.3.1")&&h.includes("/assets/v7.css?v=7.0.0"));
+ assert.ok(h.includes("/assets/fonts/plex.css?v=5.3.1")&&h.includes("/assets/v7.css?v=7.1.0"));
  const boot=h.match(/<script id="v7-theme-bootstrap">([\s\S]*?)<\/script>/)?.[1];
  assert.equal(boot,read("assets/v7-theme.js").trim());
  const hash="'sha256-"+crypto.createHash("sha256").update(boot).digest("base64")+"'";
@@ -28,4 +28,5 @@ assert.equal(JSON.parse(read("site.webmanifest")).display,"standalone");
 assert.ok(read("sw.js").includes('r.method!=="GET"'));assert.ok(read("sw.js").includes('u.origin!==self.location.origin'));assert.ok(read("sw.js").includes('authorization'));
 assert.ok(read("offline.html").includes('content="noindex"'));
 assert.ok(read("index.html").includes("تقنيات اليوم.")&&read("en/index.html").includes("Tomorrow’s solutions."));
+for(const f of ["index.html","en/index.html"]){const h=read(f);assert.ok(h.indexOf("V6_FEATURED_BEGIN")<h.indexOf("PROTECH_TOPIC_TAGS_BEGIN"));assert.ok(h.indexOf("PROTECH_TOPIC_TAGS_END")<h.indexOf("V6_RELEASES_BEGIN"))}
 console.log("V7_STATIC_PASS pages="+refs.length+" fontWeights=4 offline=bounded");

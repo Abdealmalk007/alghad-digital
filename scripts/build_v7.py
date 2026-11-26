@@ -34,7 +34,7 @@ for url in urls:
  s,n=re.subn(r'<meta http-equiv="Content-Security-Policy" content="[^"]+">',authorize,s,count=1);assert n==1
  assert s.index('V7_BOOT_BEGIN')<s.index('rel="stylesheet"')
 
- assets='<!-- V7_ASSETS_BEGIN --><link rel="stylesheet" href="/assets/fonts/plex.css?v=5.3.1"><link rel="stylesheet" href="/assets/v7.css?v=7.0.0"><script defer src="/assets/v7.js?v=7.0.0"></script><!-- V7_ASSETS_END -->'
+ assets='<!-- V7_ASSETS_BEGIN --><link rel="stylesheet" href="/assets/fonts/plex.css?v=5.3.1"><link rel="stylesheet" href="/assets/v7.css?v=7.1.0"><script defer src="/assets/v7.js?v=7.0.0"></script><!-- V7_ASSETS_END -->'
  assert s.count('</head>')==1
  s=s.replace('</head>',assets+'</head>',1)
  if route=='':
@@ -60,5 +60,14 @@ for url in urls:
   s=s.replace('href="/en/#downloads"','href="#downloads"',1)
   s,n=re.subn(r'(<div class="en-hero-copy">[\s\S]*?<h1>).*?(</h1>)',r'\g<1>Today’s technology.<br><span>Tomorrow’s solutions.</span>\g<2>',s,count=1);assert n==1
   s=s.replace('class="en-btn en-btn-outline" href="#downloads">Official downloads','class="en-btn en-btn-outline" href="/en/top-5/">Latest news',1)
+ if route in ('','en'):
+  # Keep product discovery ahead of topic navigation, in actual DOM/tab order.
+  topic=re.search(r'<!-- PROTECH_TOPIC_TAGS_BEGIN -->[\s\S]*?<!-- PROTECH_TOPIC_TAGS_END -->',s)
+  if topic:
+   block=topic.group(0)
+   s=s[:topic.start()]+s[topic.end():]
+   anchor='<!-- V6_RELEASES_BEGIN -->'
+   assert s.count(anchor)==1
+   s=s.replace(anchor,block+anchor,1)
  p.write_text(s,encoding='utf8',newline='\n')
 print("V7_BUILD_PASS",len(urls))
