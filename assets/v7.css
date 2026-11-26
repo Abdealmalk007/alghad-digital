@@ -103,3 +103,10 @@ html[data-v7-theme] .en-hero{padding-block:clamp(32px,4vw,56px)}
 html[data-v7-theme] #home .hero-art .tag-top{display:none}
 html[data-v7-theme] #home .hero-gallery.hero-portfolio-panel:hover{transform:none}
 @media(max-width:820px){html[data-v7-theme] #home .hero-layout{grid-template-columns:1fr!important}html[data-v7-theme] .en-hero{grid-template-columns:1fr}html[data-v7-theme] .en-hero-visual{display:none}}
+
+/* Rendering containment below first view; no display:none or DOM removal. */
+@supports (content-visibility:auto){
+ html[data-v7-theme] :is(#downloads,#about,#featured,#free-tools,#security,#faq,#news,#contact,#v6-releases){content-visibility:auto;contain-intrinsic-size:auto 520px}
+ html[data-v7-theme] :is(.catalog,.en-grid){content-visibility:auto;contain-intrinsic-size:auto 1000px}
+ html[data-v7-theme] :is(.editorial-story,.directory-card){content-visibility:auto;contain-intrinsic-size:auto 260px}
+}

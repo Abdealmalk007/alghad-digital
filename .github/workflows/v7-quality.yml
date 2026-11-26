@@ -13,17 +13,45 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate generated site and JavaScript
+      - name: Regenerate news and site in an isolated read-only CI workspace
+        env:
+          GA4_MEASUREMENT_ID: ${{ vars.GA4_MEASUREMENT_ID }}
+        run: |
+          python scripts/bundle_home_css.py --restore
+          python scripts/build_real_tool_art.py
+          python scripts/update_news.py
+          python scripts/update_industry_news.py
+          python scripts/translate_news.py
+          python scripts/build_top5.py
+          python scripts/news_health_report.py
+          python scripts/prerender_home.py
+          python scripts/build_seo.py
+          python scripts/build_support_pages.py
+          python scripts/build_en.py
+          python scripts/build_topic_tags.py
+          python scripts/build_program_experience.py
+          python scripts/build_contact_security.py
+          python scripts/build_analytics.py
+          python scripts/optimize_search_visibility.py
+          python scripts/build_v6.py
+          python scripts/build_v7.py
+          python scripts/build_site_search.py
+          python scripts/polish_search_snippets.py
+          python scripts/bundle_home_css.py
+      - name: Validate regenerated site and JavaScript
         run: |
           python scripts/test_seo.py
           python scripts/seo_inventory.py --check
           python tests/test_top5.py
+          python scripts/verify_v7_preservation.py
           for f in assets/v7-theme.js assets/v7.js sw.js; do node --check "$f"; done
           python - <<'PY'
           import re,subprocess

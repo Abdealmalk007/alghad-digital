@@ -12,6 +12,10 @@ for url in urls:
  s=s.replace("worker-src 'none'","worker-src 'self'")
  boot='<!-- V7_BOOT_BEGIN --><script src="/assets/v7-theme.js?v=7.0.0"></script><!-- V7_BOOT_END -->'
  assert s.count('</title>')==1
+ if route in ('','en'):
+  subset='latin' if en else 'arabic'
+  preload=''.join(f'<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/ibm-plex-sans-arabic-{subset}-{w}-normal.woff2" crossorigin>' for w in (400,700))
+  boot=boot.replace('<!-- V7_BOOT_END -->',preload+'<!-- V7_BOOT_END -->')
  s,n=re.subn(r'(<meta charset="utf-8">)',lambda m:m.group(1)+boot,s,count=1);assert n==1
  assets='<!-- V7_ASSETS_BEGIN --><link rel="stylesheet" href="/assets/fonts/plex.css?v=5.3.0"><link rel="stylesheet" href="/assets/v7.css?v=7.0.0"><script defer src="/assets/v7.js?v=7.0.0"></script><!-- V7_ASSETS_END -->'
  assert s.count('</head>')==1
