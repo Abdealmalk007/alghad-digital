@@ -124,3 +124,9 @@ html[data-v7-theme] button[data-tool-category][aria-pressed="true"],
 html[data-v7-theme] button[data-tool-category].active{background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
 html[data-v7-theme="dark"] .windows-tool-button{background:#1F3D51;color:#65E8D5;border-color:#354B68}
 html[data-v7-theme="light"] .windows-tool-button{background:#DFEEEC;color:#065E55;border-color:#C4D0DF}
+
+/* Initial static catalog remains usable before hydration. */
+html[data-v7-theme] .pre-product-actions a.pre-product-download{background:var(--primary)!important;color:var(--on-primary)!important;border-color:var(--primary)!important}
+html[data-v7-theme] .pre-product-card{background:var(--surface);color:var(--ink);border-color:var(--surface-line)}
+html[data-v7-theme] .pre-product-title{color:var(--ink)}
+html[data-v7-theme] .pre-product-description,html[data-v7-theme] .pre-product-content small{color:var(--ink-muted)}
