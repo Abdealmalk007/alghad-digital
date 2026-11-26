@@ -106,6 +106,19 @@
     "en:abc97731069443a1969e89073da8e359c791a21d21c9195ba8d51ced896535e5": "Samsung confirms that One UI 9.5 will address the decline in battery health",
     "ar:4e4b804991dc8c39b03d605a67a1f9c01f8e4472fcd4b28d8324b8ee652c1674": "سيكون من الجيد وجود وظيفة \"الرفاهية الرقمية\" الأصلية في نظام التشغيل ويندوز 11",
     "ar:25a3c9ef7406c1a5a479e11fd664396672fc72307817ae87b816d6ef90e8b88b": "إيطاليا وسويسرا تحذران من الهجمات الإلكترونية المستقلة التي يقودها الذكاء الاصطناعي",
-    "en:e12c6e739720d1fad778058bdbb2000cbd1b5e7ffa30adc153580e2b47f186df": "Saudi Arabia plans to launch a personal AI agent through \"Tawakkalna\" in February 2027"
+    "en:e12c6e739720d1fad778058bdbb2000cbd1b5e7ffa30adc153580e2b47f186df": "Saudi Arabia plans to launch a personal AI agent through \"Tawakkalna\" in February 2027",
+    "ar:04b64ce83ad6a5eb866262dff236973b1771fa616f6c16dd9a136a17d9b048e1": "تقرير: مايكروسوفت تُرسل رسميًا مكون برنامج تشغيل إنتل المعرض للخطر عبر تحديث ويندوز",
+    "en:4679235976ecf54a61810dcc295b12a8965d23d442b6707817a0b20b6854b6f4": "Motorola's Android 17 update fixes the Android Auto connection issue on Razr phones.",
+    "ar:9ebf69eef6a47c1b78ace1320517c8c697af681b2cdbe9014b7213e790aaba98": "أصدرت مايكروسوفت تصحيحًا فوريًا لنظام التشغيل Windows Server KB5138318 (26100.33732) OOB لإصلاح خطأ KB5131077",
+    "ar:b3f793ae9f52139647764c7513c5529d30a42a50156de174e5b90cffe1533b7c": "تتخلص مايكروسوفت من عميل تلنت القديم الذي مضى عليه عقود في نظام التشغيل ويندوز",
+    "ar:24ec75de712b7109859071b039ecd57e910435bda22fe14bfca309f124405013": "تحذر شركة Palo Alto Networks من ثغرة Fragnesia التي يتم استغلالها في هجمات PAN-OS",
+    "ar:843c835c73e6ed16590f48c4a111839793c596cda1bb47ce191c66d8355fb27d": "سرقة بيانات عملاء 1Password بعد اختراق حساب الموظف على GitHub",
+    "en:7d8d39c0f40d744cf82344253703a695ee5870d816d1998a6763204402af4bad": "The Claude model transforms artifacts into standalone applications on Mac and Windows in a beta version.",
+    "en:f4c620af586f10acfe88d1808bdedf1534d3b19972e32aca922e56be629b8607": "Claude's Install as App feature converts items into apps for Mac and Windows.",
+    "ar:5ea21eadbc64f5d0768926e1364d9617f194b1e71a808db5b8cd210d5560f3f8": "سيصل المستخدمون الذين يدفعون مقابل استخدام ChatGPT إلى حدود GPT-6.2 بشكل أسرع بعد أن تُصلح OpenAI خطأ الإطلاق",
+    "ar:12c23acdad5a6e84040a25f8496be99db2598f1487405084152309857a3151bb": "وزارة العدل الأمريكية تتهم مسؤول استرداد البيانات من برامج الفدية بدفع أموال لمجرمي الإنترنت لفك تشفير الملفات",
+    "en:bf98af143e31c7090d07646d66510afd7594e63e7420e36e58687299a4174b48": "Phishing warning following the leak of 1Password customer names and emails",
+    "en:1bdc6c62ca1d3ac76f4cba55c0b272619c8f9475d0e726bb27e9c23073b94821": "Drupal warns of an exploited vulnerability that allows control over websites despite their security updates.",
+    "en:95a8b3bc7097b9b02c78f4025c90ca11cf9d527003b4bcbb44b220eeba694c00": "The Vivo X500 FE phone appears in the NBD database with 8GB of RAM and 256GB of storage."
   }
 }
