@@ -1,7 +1,99 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T08:04:13Z",
+  "generated_at": "2026-11-26T10:45:38Z",
   "articles": [
+    {
+      "title": "صندوق الإمارات للنمو يوقّع اتفاقية لاستثمار 10.5 ملايين دولار في XEBO.ai",
+      "url": "https://aitnews.com/2026/11/26/%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%84%d9%86%d9%85%d9%88-%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:15:24Z",
+      "category": "أخبار التقنية",
+      "title_ar": "صندوق الإمارات للنمو يوقّع اتفاقية لاستثمار 10.5 ملايين دولار في XEBO.ai",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "فايننشال تايمز: إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى أربع دول آسيوية",
+      "url": "https://aitnews.com/2026/11/26/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d9%88%d9%82%d9%81-%d8%b4%d8%ad%d9%86-%d8%a7%d9%84%d8%ae%d9%88%d8%a7%d8%af%d9%85-%d8%a2%d8%b3%d9%8a%d8%a7/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:12:33Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "فايننشال تايمز: إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى أربع دول آسيوية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بعد ساعات العمل، يجب أن يظل نشاطك التجاري مستعداً للرد",
+      "url": "https://technologyarabia.com/archives/18167/%d8%a8%d8%b9%d8%af-%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d8%8c-%d9%8a%d8%ac%d8%a8-%d8%a3%d9%86-%d9%8a%d8%b8%d9%84-%d9%86%d8%b4%d8%a7%d8%b7%d9%83-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-26T10:06:56Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بعد ساعات العمل، يجب أن يظل نشاطك التجاري مستعداً للرد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كوريا الجنوبية ترقي الإنترنت المجاني في نحو 33 ألف حافلة إلى Wi-Fi 7",
+      "url": "https://aitnews.com/2026/11/26/%d9%83%d9%88%d8%b1%d9%8a%d8%a7-%d8%a7%d9%84%d8%ac%d9%86%d9%88%d8%a8%d9%8a%d8%a9-%d8%aa%d8%b1%d9%82%d9%8a%d8%a9-%d9%88%d8%a7%d9%8a-%d9%81%d8%a7%d9%8a/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:05:14Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "كوريا الجنوبية ترقي الإنترنت المجاني في نحو 33 ألف حافلة إلى Wi-Fi 7",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الصين تعلن خطة لتطوير شبكات الجيل السادس والإنترنت الفضائي بحلول 2030",
+      "url": "https://aitnews.com/2026/11/26/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d8%ae%d8%b7%d8%a9-%d8%b4%d8%a8%d9%83%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%8a%d9%84-%d8%a7%d9%84%d8%b3%d8%a7%d8%af%d8%b3-2030/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:04:43Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "الصين تعلن خطة لتطوير شبكات الجيل السادس والإنترنت الفضائي بحلول 2030",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كيوكسيا وإنفيديا تختبران توسيع الذاكرة المتاحة لمعالجات الرسوميات إلى أكثر من بيتابايت",
+      "url": "https://aitnews.com/2026/11/26/%d9%83%d9%8a%d9%88%d9%83%d8%b3%d9%8a%d8%a7-%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d8%a7%d9%84%d8%b0%d8%a7%d9%83%d8%b1%d8%a9/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:03:57Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "كيوكسيا وإنفيديا تختبران توسيع الذاكرة المتاحة لمعالجات الرسوميات إلى أكثر من بيتابايت",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "After Hours, Your Business Still Needs to Answer",
+      "url": "https://technologyarabia.com/archives/18163/after-hours-your-business-still-needs-to-answer/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-26T09:49:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بعد ساعات العمل، لا يزال عملك بحاجة إلى الرد",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "X is adding its first-ever parental controls",
+      "url": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T09:26:24Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تضيف منصة X أول عناصر التحكم الأبوية على الإطلاق",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "امنكس تستعرض حلول الذكاء الاصطناعي التي تتجاوز المرحلة التجريبية خلال معرض جيتكس جلوبال 2026",
+      "url": "https://technologyarabia.com/archives/18160/%d8%a7%d9%85%d9%86%d9%83%d8%b3-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-26T08:52:25Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "امنكس تستعرض حلول الذكاء الاصطناعي التي تتجاوز المرحلة التجريبية خلال معرض جيتكس جلوبال 2026",
+      "translation_status": "original_ar"
+    },
     {
       "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
       "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
@@ -33,6 +125,16 @@
       "title_ar": "ولاية نيويورك تحظر ألعاب روبوتات الدردشة المدعومة بالذكاء الاصطناعي للأطفال",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "بيانات مسرّبة تكشف مقتل ما لا يقل عن 349 روسيا في مالي خلال 3 سنوات",
+      "url": "https://www.aljazeera.net/news/2026/11/26/%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d8%b3%d8%b1%d8%a8%d8%a9-%d8%aa%d9%83%d8%b4%d9%81-%d9%85%d9%82%d8%aa%d9%84-%d9%85%d8%a7-%d9%84%d8%a7-%d9%8a%d9%82%d9%84-%d8%b9%d9%86-349?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-26T05:51:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بيانات مسرّبة تكشف مقتل ما لا يقل عن 349 روسيا في مالي خلال 3 سنوات",
+      "translation_status": "original_ar"
     },
     {
       "title": "هاتف Vivo X500 FE يظهر في قاعدة بيانات NBD بذاكرة 8GB وتخزين 256GB",
@@ -82,16 +184,6 @@
       "published_at": "2026-11-26T03:45:26Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "تحديث أندرويد 17 من Motorola يعالج مشكلة اتصال Android Auto في هواتف Razr",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "دروبال تحذر من ثغرة مستغلة تتيح السيطرة على مواقع رغم تحديثها أمنيًا",
-      "url": "https://aitnews.com/2026/11/26/%d8%af%d8%b1%d9%88%d8%a8%d8%a7%d9%84-%d8%ab%d8%ba%d8%b1%d8%a9-%d8%a3%d9%85%d9%86%d9%8a%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T00:10:26Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "دروبال تحذر من ثغرة مستغلة تتيح السيطرة على مواقع رغم تحديثها أمنيًا",
       "translation_status": "original_ar"
     },
     {
@@ -160,16 +252,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "عقوبات واتهامات تشمل صينيين.. قرارات أمريكية بعد اختراقات استهدفت وكالات حساسة",
-      "url": "https://www.aljazeera.net/news/2026/11/26/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d8%a3%d8%a8%d9%8a%d8%b6-%d8%aa%d9%88%d8%ac%d9%8a%d9%87-%d8%a7%d8%aa%d9%87%d8%a7%d9%85%d8%a7%d8%aa-%d9%84%d9%80-12?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-25T22:23:57Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "عقوبات واتهامات تشمل صينيين.. قرارات أمريكية بعد اختراقات استهدفت وكالات حساسة",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Microsoft تعلن Code Red بعد تعطل Outlook وتستهدف إصلاحه خلال ساعة",
       "url": "https://3arrafni.com/tech-news/microsoft-code-red-outlook-outage",
       "source": "arrafni",
@@ -178,17 +260,6 @@
       "category": "أخبار التقنية",
       "title_ar": "Microsoft تعلن Code Red بعد تعطل Outlook وتستهدف إصلاحه خلال ساعة",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Can you play GTA 6 from an external hard drive on PS5 or Xbox Series X/S?",
-      "url": "https://www.engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-25T22:07:07Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هل يمكنك لعب GTA 6 من محرك أقراص ثابت خارجي على جهاز PS5 أو Xbox Series X/S؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
@@ -234,27 +305,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "WhatsApp’s new scheduled messages let you choose the right time to send",
-      "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-25T20:31:48Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تتيح لك الرسائل المجدولة الجديدة من واتساب اختيار الوقت المناسب للإرسال",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "إطلاق Honor Magic9 Pro Max عالمياً وأسعاره ومواصفاته وموعد وصوله للخليج",
-      "url": "https://3arrafni.com/tech-news/honor-magic9-pro-max-global-launch",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T20:27:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إطلاق Honor Magic9 Pro Max عالمياً وأسعاره ومواصفاته وموعد وصوله للخليج",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "State AGs are trying to stop Character.AI from auctioning off users' chat histories",
       "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
       "source": "engadget",
@@ -264,37 +314,6 @@
       "title_ar": "تحاول وزارات العدل في الولايات منع Character.AI من طرح سجلات دردشات المستخدمين في مزاد",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T20:03:27Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تقول OpenAI إن مستخدمي ChatGPT الكثيفين قد يصلون إلى الحدود عاجلاً مع دمجها لـ Chat وWork",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Samsung تؤكد أن One UI 9.5 سيعالج تراجع صحة البطارية",
-      "url": "https://3arrafni.com/tech-news/one-ui-9-5-battery-health-fix",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T19:32:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Samsung تؤكد أن One UI 9.5 سيعالج تراجع صحة البطارية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ترخيص أمريكي مشروط لسبيس إكس لنشر ما يصل إلى مليون قمر اصطناعي للحوسبة الفضائية",
-      "url": "https://aitnews.com/2026/11/25/%d8%b3%d8%a8%d9%8a%d8%b3-%d8%a5%d9%83%d8%b3-%d8%a7%d9%84%d8%ad%d9%88%d8%b3%d8%a8%d8%a9-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a6%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-25T19:21:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ترخيص أمريكي مشروط لسبيس إكس لنشر ما يصل إلى مليون قمر اصطناعي للحوسبة الفضائية",
-      "translation_status": "original_ar"
     },
     {
       "title": "1Password breach leaked customer names and emails, but not passwords",
@@ -315,28 +334,6 @@
       "published_at": "2026-11-25T18:49:52Z",
       "category": "أخبار التقنية",
       "title_ar": "قالت 1Password إن المتسللين اخترقوا أنظمتها الداخلية، لكن كلمات مرور العملاء آمنة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Backblaze explains why it's sharing customer information with advertisers",
-      "url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-25T18:38:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تشرح Backblaze سبب مشاركتها معلومات العملاء مع المعلنين",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
-      "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-25T18:22:38Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أذنت لجنة الاتصالات الفيدرالية لشركة سبيس إكس بنشر مليون قمر صناعي",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
