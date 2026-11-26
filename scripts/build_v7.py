@@ -17,6 +17,16 @@ for url in urls:
  assert s.count('</head>')==1
  s=s.replace('</head>',assets+'</head>',1)
  if route=='':
+  # Named generic containers need an accessible group role.
+  for target in ('micro-strip','release-showcase','featured-cards','technology-news-grid','contact-points'):
+   pat=r'<div\b[^>]*\baria-label="[^"]+"[^>]*>'
+   def name_group(m):
+    tag=m.group(0)
+    if re.search(r'(?:id|class)="[^"]*\b'+re.escape(target)+r'\b[^"]*"',tag) and not re.search(r'\brole=',tag):
+     return tag.replace('<div','<div role="group"',1)
+    return tag
+   s=re.sub(pat,name_group,s)
+  s=re.sub(r'(<img[^>]*src="assets/previews/[^"]+"[^>]*?)loading="eager"',r'\g<1>loading="lazy"',s)
   if 'data-v7-about' not in s:
    s=s.replace('</nav>','<a data-v7-about class="nav-link" href="/about/">من نحن</a></nav>',1)
   s,n=re.subn(r'(<h1 id="hero-title">).*?(</h1>)',r'\g<1>تقنيات اليوم.<br><span class="gradient-text">حلول الغد.</span>\g<2>',s,count=1,flags=re.S);assert n==1

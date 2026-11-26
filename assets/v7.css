@@ -117,3 +117,10 @@ html[data-v7-theme="light"] .footer :is(.logo-wordmark small,.product-first-foot
 html[data-v7-theme="light"] .footer .accent-text{color:#65E8D5}
 html[data-v7-theme="light"] .en-lang-switch{color:#065e55}
 html[data-v7-theme="light"] .protech-topic-section>h2{color:var(--ink)}
+
+/* Explicit foreground/background pairs avoid inherited legacy theme mismatches. */
+html[data-v7-theme] .showcase-release-cta,
+html[data-v7-theme] button[data-tool-category][aria-pressed="true"],
+html[data-v7-theme] button[data-tool-category].active{background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
+html[data-v7-theme="dark"] .windows-tool-button{background:#1F3D51;color:#65E8D5;border-color:#354B68}
+html[data-v7-theme="light"] .windows-tool-button{background:#DFEEEC;color:#065E55;border-color:#C4D0DF}
