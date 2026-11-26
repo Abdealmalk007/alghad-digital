@@ -5,6 +5,7 @@ on:
     branches: ['feature/signature-v7-design']
     paths:
       - 'scripts/v7_https_lab.cjs'
+      - 'scripts/build_v7.py'
       - '.github/workflows/v7-https-lab.yml'
 permissions:
   contents: read
@@ -31,15 +32,13 @@ jobs:
           a=$!
           node scripts/v7_https_lab.cjs "$GITHUB_WORKSPACE" 18784 "$RUNNER_TEMP/lab.key" "$RUNNER_TEMP/lab.crt" normal &
           b=$!
-          node scripts/v7_https_lab.cjs "$GITHUB_WORKSPACE" 18785 "$RUNNER_TEMP/lab.key" "$RUNNER_TEMP/lab.crt" bundle &
-          c=$!
-          trap 'kill "$a" "$b" "$c" 2>/dev/null || true' EXIT
+          trap 'kill "$a" "$b" 2>/dev/null || true' EXIT
           sleep 2
-          for port in 18783 18784 18785; do curl -kfsS --compressed "https://127.0.0.1:$port/" >/dev/null; done
+          for port in 18783 18784; do curl -kfsS --compressed "https://127.0.0.1:$port/" >/dev/null; done
           export CHROME_PATH="$(command -v google-chrome || command -v google-chrome-stable)"
           lh="$RUNNER_TEMP/lh/node_modules/.bin/lighthouse"
           for i in 1 2 3; do
-            if [ "$i" = 2 ]; then order="bundle v7 v6"; else order="v6 v7 bundle"; fi
+            if [ "$i" = 2 ]; then order="v7 v6"; else order="v6 v7"; fi
             for label in $order; do
               case "$label" in v6) port=18783;; v7) port=18784;; bundle) port=18785;; esac
               "$lh" "https://127.0.0.1:$port/" --quiet --chrome-flags="--headless --no-sandbox --disable-gpu --ignore-certificate-errors" --only-categories=performance,accessibility,best-practices,seo --output=json --output-path="$RUNNER_TEMP/https-lab/$label-$i.json"
@@ -48,7 +47,7 @@ jobs:
           python3 - <<'PY'
           import json, os, pathlib, statistics
           p=pathlib.Path(os.environ['RUNNER_TEMP'])/'https-lab'; result={}
-          for label in ('v6','v7','bundle'):
+          for label in ('v6','v7'):
               rows=[]
               for f in sorted(p.glob(label+'-*.json')):
                   d=json.loads(f.read_text()); a=d['audits']

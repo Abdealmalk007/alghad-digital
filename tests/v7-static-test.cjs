@@ -8,7 +8,15 @@ for(const route of refs){
  assert.equal((h.match(/V7_ASSETS_BEGIN/g)||[]).length,1);
  assert.equal((h.match(/V7_BOOT_BEGIN/g)||[]).length,1);
  assert.ok(h.includes("/assets/fonts/plex.css?v=5.3.0")&&h.includes("/assets/v7.css?v=7.0.0"));
- assert.ok(h.indexOf("v7-theme.js")<h.indexOf('rel="stylesheet"'));
+ const boot=h.match(/<script id="v7-theme-bootstrap">([\s\S]*?)<\/script>/)?.[1];
+ assert.equal(boot,read("assets/v7-theme.js").trim());
+ const hash="'sha256-"+crypto.createHash("sha256").update(boot).digest("base64")+"'";
+ const csp=h.match(/<meta http-equiv="Content-Security-Policy" content="([^"]+)">/)?.[1];
+ assert.ok(csp.includes("script-src 'self' "+hash));
+ if(csp.includes("script-src-elem"))assert.ok(csp.includes("script-src-elem 'self' "+hash));
+ assert.ok(!/script-src[^;]*unsafe-inline/.test(csp));
+ assert.ok(h.indexOf("Content-Security-Policy")<h.indexOf("v7-theme-bootstrap"));
+ assert.ok(h.indexOf("v7-theme-bootstrap")<h.indexOf('rel="stylesheet"'));
  assert.ok(h.includes("worker-src 'self'"));
  assert.ok(h.includes('rel="canonical"'));
  assert.ok(h.includes('lang="'+(route.startsWith("en/")?"en":"ar")+'"'));

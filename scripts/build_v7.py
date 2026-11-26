@@ -1,18 +1,39 @@
 """Apply the V7 shared layer after existing page generators, preserving content/links."""
 from pathlib import Path
 from xml.etree import ElementTree as ET
-import re
+import re, hashlib, base64
 R=Path(__file__).resolve().parents[1]
+theme_js=(R/'assets/v7-theme.js').read_text(encoding='utf8').strip()
+assert '</script' not in theme_js.lower()
+def csp_hash(js):
+ return "'sha256-"+base64.b64encode(hashlib.sha256(js.encode('utf8')).digest()).decode('ascii')+"'"
+theme_hash=csp_hash(theme_js)
 urls=[e.text for e in ET.parse(R/'sitemap.xml').getroot().iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
 for url in urls:
  route=url.removeprefix('https://alghad.digital').strip('/')
  p=R/route/'index.html';s=p.read_text(encoding='utf8');en=route=='en' or route.startswith('en/')
+ old_boot=re.search(r'<!-- V7_BOOT_BEGIN --><script id="v7-theme-bootstrap">([\s\S]*?)</script>',s)
+ if old_boot:
+  s=s.replace(" "+csp_hash(old_boot.group(1)),"")
  s=re.sub(r'<!-- V7_(?:BOOT|ASSETS)_BEGIN -->[\s\S]*?<!-- V7_(?:BOOT|ASSETS)_END -->','',s)
  s=re.sub(r'<meta name="color-scheme" content="[^"]*">','<meta name="color-scheme" content="dark light">',s)
  s=s.replace("worker-src 'none'","worker-src 'self'")
- boot='<!-- V7_BOOT_BEGIN --><script src="/assets/v7-theme.js?v=7.0.0"></script><!-- V7_BOOT_END -->'
+ boot='<!-- V7_BOOT_BEGIN --><script id="v7-theme-bootstrap">'+theme_js+'</script>'
+ if route in ('','en'):
+  subset='latin' if en else 'arabic'
+  boot+=''.join(f'<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/ibm-plex-sans-arabic-{subset}-{w}-normal.woff2" crossorigin>' for w in (400,700))
+ boot+='<!-- V7_BOOT_END -->'
  assert s.count('</title>')==1
- s,n=re.subn(r'(<meta charset="utf-8">)',lambda m:m.group(1)+boot,s,count=1);assert n==1
+ def authorize(m):
+  tag=m.group(0)
+  # The exact known bootstrap is the only new inline script authorized.
+  tag=tag.replace("script-src 'self'","script-src 'self' "+theme_hash,1)
+  if "script-src-elem 'self'" in tag:
+   tag=tag.replace("script-src-elem 'self'","script-src-elem 'self' "+theme_hash,1)
+  return tag+boot
+ s,n=re.subn(r'<meta http-equiv="Content-Security-Policy" content="[^"]+">',authorize,s,count=1);assert n==1
+ assert s.index('V7_BOOT_BEGIN')<s.index('rel="stylesheet"')
+
  assets='<!-- V7_ASSETS_BEGIN --><link rel="stylesheet" href="/assets/fonts/plex.css?v=5.3.0"><link rel="stylesheet" href="/assets/v7.css?v=7.0.0"><script defer src="/assets/v7.js?v=7.0.0"></script><!-- V7_ASSETS_END -->'
  assert s.count('</head>')==1
  s=s.replace('</head>',assets+'</head>',1)
