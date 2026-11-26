@@ -1,0 +1,17 @@
+"use strict";
+const assert=require("node:assert/strict"),vm=require("node:vm"),fs=require("node:fs"),path=require("node:path");
+let reads=0,writes=0,value="",y=0,h=2000;
+const events={},frames=[];
+const progress={style:{set transform(v){writes++;value=v}}};
+const doc={getElementById:id=>id==="page-progress"?progress:null,querySelectorAll:()=>[],documentElement:{get scrollHeight(){reads++;return h}}};
+const win={get scrollY(){return y},innerHeight:500,addEventListener:(name,fn)=>events[name]=fn};
+vm.runInNewContext(fs.readFileSync(path.join(__dirname,"../assets/v3_1.js"),"utf8"),{document:doc,window:win,requestAnimationFrame:fn=>frames.push(fn)});
+const flush=()=>{while(frames.length)frames.shift()()};
+assert.equal(reads,0);assert.equal(writes,0);
+events.pageshow();flush();assert.equal(reads,0);assert.equal(value,"scaleX(0.0000)");
+events.scroll();flush();assert.equal(reads,0);assert.equal(writes,1);
+y=750;events.scroll();events.scroll();flush();assert.equal(reads,1);assert.equal(value,"scaleX(0.5000)");
+h=3500;events.resize();flush();assert.equal(value,"scaleX(0.2500)");
+y=4000;events.scroll();flush();assert.equal(value,"scaleX(1.0000)");
+y=0;events.scroll();flush();assert.equal(reads,3);assert.equal(value,"scaleX(0.0000)");
+console.log("V7_PROGRESS_PASS noStartupLayoutRead=true clamping=true resize=true dedupe=true");

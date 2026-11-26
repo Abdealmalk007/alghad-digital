@@ -53,12 +53,18 @@
 
   // Throttled, non-blocking document progress indicator.
   if (progress) {
-    let scheduled = false;
+    // No layout read at startup or while the document is at its origin.
+    let scheduled = false, last = "";
     const update = () => {
-      const max = document.documentElement.scrollHeight - window.innerHeight;
-      const fraction = max > 0 ? Math.min(1,Math.max(0, window.scrollY / max)) : 0;
-      progress.style.transform = "scaleX(" + fraction.toFixed(4) + ")";
       scheduled = false;
+      const y = window.scrollY;
+      let fraction = 0;
+      if (y > 0) {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        fraction = max > 0 ? Math.min(1, Math.max(0, y / max)) : 0;
+      }
+      const value = "scaleX(" + fraction.toFixed(4) + ")";
+      if (value !== last) { progress.style.transform = value; last = value; }
     };
     const schedule = () => {
       if (!scheduled) {
@@ -68,7 +74,7 @@
     };
     window.addEventListener("scroll", schedule, { passive: true });
     window.addEventListener("resize", schedule, { passive: true });
-    schedule();
+    window.addEventListener("pageshow", () => requestAnimationFrame(schedule));
   }
 
   // Reflect the visible section in the navigation, including the contact section.

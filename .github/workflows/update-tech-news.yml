@@ -131,6 +131,7 @@ jobs:
           node tests/v6-test.cjs
           node tests/v63-test.cjs
           node tests/v7-static-test.cjs
+          node tests/v7-progress-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'
