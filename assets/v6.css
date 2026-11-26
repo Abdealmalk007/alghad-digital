@@ -23,3 +23,19 @@ html[lang="en"][data-theme="light"] :is(.en-product-tagline,.en-nav a,.en-brand,
 @media(max-width:1020px){.v6-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:530px){.v6-panel{border-radius:16px;padding:16px}.v6-grid{grid-template-columns:1fr}.v6-actions a{flex:1}.v6-card{padding:13px}}
 @media(prefers-reduced-motion:reduce){.v6-panel *{transition:none!important}}
+
+/* Dawn G — V6.2 brand family, site-level only. */
+:root{--v6-bg:#101D35;--v6-card:#1B304D;--v6-accent:#65E8D5;--v6-button:#2563EB;--v6-gold:#F9C76A;--v6-blue:#78A7FF}
+:root[data-theme="light"]{--v6-bg:#eff5fb;--v6-card:#fff;--v6-accent:#08796d;--v6-gold:#956000;--v6-blue:#245db4}
+.logo-mark{background:none!important;border:0!important;box-shadow:none!important;overflow:hidden;display:grid;place-items:center}
+.logo-mark img{display:block;width:100%;height:100%;object-fit:contain;border-radius:12px}
+.brand-logo{border:0!important;background:none!important}.brand-logo img,.en-brand img{border-radius:11px}
+.logo-wordmark small,.en-brand small{letter-spacing:.13em}
+.v6-panel{border-top:2px solid var(--v6-accent)}
+.v6-release-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0 0;padding:0;list-style:none}
+.v6-release-row{min-width:0;border:1px solid var(--v6-line);border-radius:12px;padding:14px;background:var(--v6-card);display:flex;flex-direction:column;gap:6px}
+.v6-release-row a{color:var(--v6-accent);font-weight:750;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.v6-release-row time{font-size:12px;color:var(--v6-muted)}
+.v6-release-row .v6-meta{margin:0}
+.v6-brand-note{color:var(--v6-gold);font-size:12px;font-weight:700}
+@media(max-width:650px){.v6-release-list{grid-template-columns:1fr}}

@@ -1,5 +1,5 @@
 "use strict";
-/* Auditable checks for the approved Alghad A favicon family. */
+/* Auditable checks for the approved Dawn G favicon family. */
 const assert=require("node:assert/strict");
 const fs=require("node:fs");
 const path=require("node:path");
@@ -39,16 +39,16 @@ for(let i=0;i<4;i++){
 assert.deepEqual(icoSizes.sort((a,b)=>a-b),[16,32,48,64]);
 const svg=text("favicon.svg");
 assert.match(svg,/viewBox="0 0 64 64"/);
-assert.match(svg,/#53e6c5/);
-assert.match(svg,/stroke="#fff"/);
-assert.match(svg,/fill="url\(#alghad-bg\)"/);
+assert.match(svg,/#65E8D5/);
+assert.match(svg,/#F9C76A/);
+assert.match(svg,/#101D35/);
 assert.doesNotMatch(svg,/<script\b|<foreignObject\b|(?:xlink:)?href=|javascript:/i);
 
 const manifest=JSON.parse(text("site.webmanifest"));
 assert.equal(manifest.name,"Alghad Digital");
 assert.equal(manifest.start_url,"/");
 assert.equal(manifest.scope,"/");
-assert.equal(manifest.theme_color,"#071725");
+assert.equal(manifest.theme_color,"#101D35");
 assert.deepEqual(manifest.icons.map(i=>i.sizes),["192x192","512x512"]);
 for(const icon of manifest.icons){
   assert.equal(icon.type,"image/png");
@@ -62,18 +62,18 @@ for(const slug of ["stone","marble","reports","hr","download",
 }
 for(const p of pageNames){
   const html=text(p);
-  for(const ref of ["/favicon.svg?v=4","/favicon.ico?v=4","/favicon-16.png?v=4",
-                    "/favicon-32.png?v=4","/favicon-48.png?v=4",
-                    "/apple-touch-icon.png?v=4","/site.webmanifest"]){
+  for(const ref of ["/favicon.svg?v=6","/favicon.ico?v=6","/favicon-16.png?v=6",
+                    "/favicon-32.png?v=6","/favicon-48.png?v=6",
+                    "/apple-touch-icon.png?v=6","/site.webmanifest"]){
     assert.ok(html.includes(ref),"Icon tag missing in "+p+": "+ref);
   }
   assert.ok(html.includes("<link rel=\"canonical\""),"Canonical retained: "+p);
 }
 const main=text("index.html");
-assert.ok(main.includes("M13.5 44.5 32 12l18.5 32.5H13.5Z"),
+assert.ok(main.includes("/assets/brand/dawn-g.svg"),
   "Visible main navigation monogram must match favicon");
 const subpage=text("programs/download/index.html");
-assert.ok(subpage.includes('src="../../icon-192.png?v=4"'),
+assert.ok(subpage.includes('src="../../icon-192.png?v=6"'),
   "Static landing pages must use the new icon");
 console.log("FAVICON_QA_PASS PNG=6 ICO_SIZES="+icoSizes.join(",")+
             " SVG=1 MANIFEST=1 INDEXABLE_PAGES="+pageNames.length);

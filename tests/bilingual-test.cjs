@@ -38,7 +38,7 @@ for(const route of routes){
   assert.ok(!/Call Recorder PRO|Kids App Omar|Reem Recipes/.test(e),"Excluded projects stay excluded");
   assert.ok(e.includes('property="og:locale" content="en_US"'));
   assert.ok(e.includes('href="/assets/en.css"'));
-  assert.ok(e.includes('src="/icon-192.png?v=4"'));
+  assert.ok(e.includes('src="/icon-192.png?v=6"'));
   assert.ok(e.includes('mailto:protech.2025.2026@gmail.com'));
   english.push(e);
   arabic.push(a);

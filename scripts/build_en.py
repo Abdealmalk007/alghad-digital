@@ -191,9 +191,9 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
   <link rel="alternate" hreflang="en" href="{esc(en_url)}">
   <link rel="alternate" hreflang="ar" href="{esc(ar_url)}">
   <link rel="alternate" hreflang="x-default" href="{esc(ar_url)}">
-  <link rel="icon" href="/favicon.ico?v=4" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
+  <link rel="icon" href="/favicon.ico?v=6" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=6">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=6">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/assets/en.css">{extra_css}
   <link rel="stylesheet" href="/assets/global-tech-sources.css?v=1"><link rel="stylesheet" href="/assets/home-redesign-v4.css?v=1"><link rel="stylesheet" href="/assets/hero-adfree-v5.css?v=1">
@@ -216,7 +216,7 @@ def page(path:str,title:str,description:str,content:str,structured:dict|None=Non
   <header class="en-header">
     <div class="en-shell en-topbar">
       <a href="/en/" class="en-brand" aria-label="Alghad Digital English home">
-        <img src="/icon-192.png?v=4" width="46" height="46" alt="">
+        <img src="/icon-192.png?v=6" width="46" height="46" alt="">
         <span>ALGHAD <em>DIGITAL</em><small>PROTECH SOFTWARE</small></span>
       </a>
       <nav class="en-nav" aria-label="Primary navigation">{nav}</nav>

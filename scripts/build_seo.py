@@ -127,12 +127,12 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <link rel="alternate" hreflang="ar" href="{esc(canonical)}">
   <link rel="alternate" hreflang="en" href="{esc(english_url)}">
   <link rel="alternate" hreflang="x-default" href="{esc(canonical)}">
-  <link rel="icon" href="/favicon.ico?v=4" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=4">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=4">
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=4">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=4">
+  <link rel="icon" href="/favicon.ico?v=6" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=6">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=6">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=6">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=6">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=6">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="{home}assets/seo-pages.css">
   <link rel="stylesheet" href="/assets/share.css?v=1">
@@ -161,7 +161,7 @@ def page(*, title: str, description: str, canonical: str, content: str,
   <a href="#main" class="skip">تجاوز إلى المحتوى</a>
   <header class="site-header">
     <nav class="shell header-inner" aria-label="التنقل الرئيسي">
-      <a class="brand" href="{home}"><span class="brand-logo"><img src="{home}icon-192.png?v=4" alt="" width="38" height="38"></span><span>الغد <strong>ديجتال</strong><small>ALGHAD DIGITAL</small></span></a>
+      <a class="brand" href="{home}"><span class="brand-logo"><img src="{home}icon-192.png?v=6" alt="" width="38" height="38"></span><span>الغد <strong>ديجتال</strong><small>ALGHAD DIGITAL</small></span></a>
       <div class="nav-links"><a href="{home}programs/">برامج ProTech</a><a href="{home}windows-office/">برامج الويندوز والاوفيس</a><a href="{home}protech/">عن Pro Tech</a><a href="{home}top-5/">TOP 5</a><a href="{home}free-windows-tools/">برامج Windows</a><a href="{home}#contact">تواصل معنا</a><a class="lang-toggle" lang="en" dir="ltr" hreflang="en" href="{esc(english_url)}" aria-label="Switch to English">EN</a></div>
     </nav>
   </header>
