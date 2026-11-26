@@ -74,7 +74,10 @@
       '</div></article>'
     ].join("");
   }
+  let catalogReady = false, catalogObserver = null;
   function render() {
+    catalogReady = true;
+    if (catalogObserver) { catalogObserver.disconnect(); catalogObserver = null; }
     const term=(search.value||"").trim().toLocaleLowerCase();
     const subset=data.filter(p=>matches(p,term));
     catalog.innerHTML=subset.map(card).join("");
@@ -185,5 +188,23 @@
   const upcoming=get("stat-upcoming");
   if(upcoming)upcoming.textContent=String(data.filter(p=>!isComplete(p)).length).padStart(2,"0");
   renderFeatured();
-  render();
+  // Preserve server-rendered links and avoid rebuilding the offscreen catalog at startup.
+  const prerendered = catalog.querySelectorAll("[data-prerender-product]").length === data.length && data.length > 0;
+  const deepLink = new URLSearchParams(location.search).has("app");
+  if (!prerendered || deepLink || typeof IntersectionObserver !== "function" || search.value) {
+    render();
+  } else {
+    catalogObserver = new IntersectionObserver(entries => {
+      if (catalogReady || !entries.some(entry => entry.isIntersecting)) return;
+      // Never replace the static link currently focused by a keyboard user.
+      if (catalog.contains(document.activeElement)) return;
+      render();
+    }, {rootMargin:"320px 0px",threshold:0});
+    catalogObserver.observe(catalog);
+    catalog.addEventListener("focusout", () => {
+      if (!catalogReady) requestAnimationFrame(() => {
+        if (!catalogReady && !catalog.contains(document.activeElement)) render();
+      });
+    });
+  }
 })();

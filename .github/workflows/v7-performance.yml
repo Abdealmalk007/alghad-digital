@@ -1,0 +1,68 @@
+name: V7 independent performance lab
+on:
+  workflow_dispatch:
+  push:
+    branches: ['feature/signature-v7-design']
+    paths:
+      - 'assets/app.js'
+      - '.github/workflows/v7-performance.yml'
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned Lighthouse
+        run: npm install --prefix "$RUNNER_TEMP/lh" --no-audit --no-fund lighthouse@13.5.0
+      - name: Alternating mobile Lighthouse comparison
+        shell: bash
+        run: |
+          set -euo pipefail
+          git worktree add --detach "$RUNNER_TEMP/v7-baseline" 0f1b5ef2b80bc028c71dad7c2493d443bec09053
+          mkdir -p "$RUNNER_TEMP/v7-lab"
+          python3 -m http.server 18783 --bind 127.0.0.1 --directory "$RUNNER_TEMP/v7-baseline" >"$RUNNER_TEMP/baseline-http.log" 2>&1 &
+          a=$!
+          python3 -m http.server 18784 --bind 127.0.0.1 --directory "$GITHUB_WORKSPACE" >"$RUNNER_TEMP/candidate-http.log" 2>&1 &
+          b=$!
+          trap 'kill "$a" "$b" 2>/dev/null || true' EXIT
+          export CHROME_PATH="$(command -v google-chrome || command -v google-chrome-stable)"
+          lh="$RUNNER_TEMP/lh/node_modules/.bin/lighthouse"
+          sleep 2
+          for i in 1 2 3; do
+            if [ "$i" = 2 ]; then order="candidate baseline"; else order="baseline candidate"; fi
+            for label in $order; do
+              if [ "$label" = baseline ]; then port=18783; else port=18784; fi
+              "$lh" "http://127.0.0.1:$port/" --quiet --chrome-flags="--headless --no-sandbox --disable-gpu" --only-categories=performance,accessibility,best-practices,seo --output=json --output-path="$RUNNER_TEMP/v7-lab/$label-$i.json"
+            done
+          done
+          python3 - <<'PY'
+          import json, os, pathlib, statistics
+          p=pathlib.Path(os.environ['RUNNER_TEMP'])/'v7-lab'; result={}
+          for label in ('baseline','candidate'):
+              rows=[]
+              for f in sorted(p.glob(label+'-*.json')):
+                  d=json.loads(f.read_text()); a=d['audits']
+                  r={k:round(v['score']*100) for k,v in d['categories'].items()}
+                  r.update(lcp_ms=round(a['largest-contentful-paint']['numericValue']),tbt_ms=round(a['total-blocking-time']['numericValue']),cls=round(a['cumulative-layout-shift']['numericValue'],5),benchmark_index=d['environment']['benchmarkIndex'])
+                  rows.append(r)
+              assert len(rows)==3
+              result[label]={'runs':rows,'median':{k:statistics.median(r[k] for r in rows) for k in rows[0]}}
+          c=result['candidate']['median']
+          result['gate']='PASS' if c['performance']>=95 and c['lcp_ms']<=2500 and c['cls']<=0.1 else 'FAIL'
+          (p/'summary.json').write_text(json.dumps(result,indent=2))
+          print('V7_INDEPENDENT_LAB '+json.dumps(result))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('## V7 mobile lab (isolated runner)\n\n```json\n'+json.dumps(result,indent=2)+'\n```\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v7-mobile-lab
+          path: ${{ runner.temp }}/v7-lab/
+          retention-days: 14
