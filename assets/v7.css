@@ -103,3 +103,17 @@ html[data-v7-theme] .en-hero{padding-block:clamp(32px,4vw,56px)}
 html[data-v7-theme] #home .hero-art .tag-top{display:none}
 html[data-v7-theme] #home .hero-gallery.hero-portfolio-panel:hover{transform:none}
 @media(max-width:820px){html[data-v7-theme] #home .hero-layout{grid-template-columns:1fr!important}html[data-v7-theme] .en-hero{grid-template-columns:1fr}html[data-v7-theme] .en-hero-visual{display:none}}
+
+/* V7 AA contrast fixes, verified against actual light-mode backgrounds. */
+html[data-v7-theme="light"] .windows-tool-button{color:#065e55}
+html[data-v7-theme="light"] .en-lang-switch{color:var(--primary);background:var(--surface-elevated);border-color:var(--surface-line)}
+html[data-v7-theme="light"] .protech-topic-section{background:var(--surface);border-color:var(--surface-line)}
+html[data-v7-theme="light"] .protech-topic-section>p{color:var(--ink-muted)}
+html[data-v7-theme="light"] :is(#en-search,button[data-en-filter]){background:var(--surface);color:var(--ink);border-color:var(--surface-line)}
+html[data-v7-theme="light"] button[data-en-filter].is-selected{background:var(--primary);color:var(--on-primary)}
+html[data-v7-theme="light"] .en-news-card .en-product-meta time{color:var(--ink-muted)}
+
+html[data-v7-theme="light"] .footer :is(.logo-wordmark small,.product-first-footer-links a){color:#B4C5D9}
+html[data-v7-theme="light"] .footer .accent-text{color:#65E8D5}
+html[data-v7-theme="light"] .en-lang-switch{color:#065e55}
+html[data-v7-theme="light"] .protech-topic-section>h2{color:var(--ink)}
