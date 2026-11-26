@@ -15,6 +15,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 async function startLocalPreview() {
   const mime={".html":"text/html; charset=utf-8",".css":"text/css; charset=utf-8",
     ".js":"text/javascript; charset=utf-8",".svg":"image/svg+xml",".json":"application/json; charset=utf-8",".woff2":"font/woff2",".webmanifest":"application/manifest+json",".png":"image/png"};
+  let workerVersion=2;
   const server=http.createServer((req,res)=>{
     try{
       const target=new URL(req.url,"http://127.0.0.1");
@@ -24,6 +25,9 @@ async function startLocalPreview() {
         res.writeHead(404);res.end("Not Found");return;
       }
       res.writeHead(200,{"Content-Type":mime[path.extname(local)]||"application/octet-stream"});
+      if(pathname==="/sw.js" && workerVersion!==2){
+        res.end(fs.readFileSync(local,"utf8").replace('alghad-v7-2','alghad-v7-'+workerVersion));return;
+      }
       fs.createReadStream(local).pipe(res);
     }catch(_){res.writeHead(400);res.end("Invalid Request")}
   });
@@ -31,7 +35,7 @@ async function startLocalPreview() {
     server.once("error",reject);
     server.listen(0,"127.0.0.1",resolve);
   });
-  return {server,url:"http://127.0.0.1:"+server.address().port+"/"};
+  return {server,url:"http://127.0.0.1:"+server.address().port+"/",nextWorker(){workerVersion++}};
 }
 async function main() {
   assert.ok(fs.existsSync(chromePath), "Chrome is required for browser integration test");
@@ -131,6 +135,17 @@ async function main() {
     const ready=await evaluate('Promise.race([navigator.serviceWorker.ready.then(r=>!!r.active),new Promise(r=>setTimeout(()=>r(false),10000))])');assert.ok(ready,"Service worker must activate");
     if(!await evaluate('!!navigator.serviceWorker.controller')){await send("Page.reload");await delay(1000)}
     assert.ok(await evaluate('!!navigator.serviceWorker.controller'),"Page controlled by SW");
+    if(preview){
+      assert.ok(await evaluate('caches.keys().then(k=>k.includes("alghad-v7-2"))'));
+      preview.nextWorker();
+      await evaluate('navigator.serviceWorker.getRegistration().then(r=>r.update()).then(()=>true)');
+      let offered=false;for(let t=0;t<80;t++){if(await evaluate('!!document.querySelector(".v7-update")')){offered=true;break}await delay(200)}
+      assert.ok(offered,"Updated worker did not offer reload");
+      await evaluate('document.querySelector(".v7-update").click();true');
+      let migrated=false;for(let t=0;t<100;t++){try{if(await evaluate('caches.keys().then(k=>k.includes("alghad-v7-3")&&!k.includes("alghad-v7-2")&&document.readyState==="complete"&&!!navigator.serviceWorker.controller)')){migrated=true;break}}catch(_){}await delay(200)}
+      assert.ok(migrated,"Worker cache migration or reload failed");
+      console.log("V7_PWA_UPDATE_PASS old=v7-2 new=v7-3");
+    }
     if(preview){preview.server.closeAllConnections();await new Promise(r=>preview.server.close(r));}else{await send("Network.emulateNetworkConditions",{offline:true,latency:0,downloadThroughput:0,uploadThroughput:0});}
     await send("Page.navigate",{url:new URL("programs/hr/",fileUrl).href});let offline=false;for(let t=0;t<60;t++){try{if(await evaluate('document.title.includes("Offline")')){offline=true;break}}catch(_){}await delay(200)}assert.ok(offline,"Offline fallback failed: "+JSON.stringify(await evaluate('({title:document.title,url:location.href,body:document.body?.innerText.slice(0,150)})')));
     await send("Network.emulateNetworkConditions",{offline:false,latency:0,downloadThroughput:-1,uploadThroughput:-1});
