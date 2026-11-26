@@ -1,25 +1,161 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T10:45:38Z",
+  "generated_at": "2026-11-26T14:07:27Z",
   "articles": [
     {
-      "title": "صندوق الإمارات للنمو يوقّع اتفاقية لاستثمار 10.5 ملايين دولار في XEBO.ai",
-      "url": "https://aitnews.com/2026/11/26/%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%84%d9%86%d9%85%d9%88-%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:15:24Z",
-      "category": "أخبار التقنية",
-      "title_ar": "صندوق الإمارات للنمو يوقّع اتفاقية لاستثمار 10.5 ملايين دولار في XEBO.ai",
+      "title": "تسريب: Vivo X500s قد يعمل بنسخة مخصصة من معالج Dimensity 9600 Pro",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-vivo-x500s-%d9%82%d8%af-%d9%8a%d8%b9%d9%85%d9%84-%d8%a8%d9%86%d8%b3%d8%ae%d8%a9-%d9%85%d8%ae%d8%b5%d8%b5%d8%a9-%d9%85%d9%86-%d9%85%d8%b9%d8%a7%d9%84%d8%ac-dimensity-960/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T13:54:55Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تسريب: Vivo X500s قد يعمل بنسخة مخصصة من معالج Dimensity 9600 Pro",
       "translation_status": "original_ar"
     },
     {
-      "title": "فايننشال تايمز: إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى أربع دول آسيوية",
-      "url": "https://aitnews.com/2026/11/26/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d9%88%d9%82%d9%81-%d8%b4%d8%ad%d9%86-%d8%a7%d9%84%d8%ae%d9%88%d8%a7%d8%af%d9%85-%d8%a2%d8%b3%d9%8a%d8%a7/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:12:33Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "فايننشال تايمز: إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى أربع دول آسيوية",
+      "title": "تقرير: آبل تشغل macOS على أجهزة iPad داخلياً للاختبار",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a2%d8%a8%d9%84-%d8%aa%d8%b4%d8%ba%d9%84-macos-%d8%b9%d9%84%d9%89-%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-ipad-%d8%af%d8%a7%d8%ae%d9%84%d9%8a%d8%a7%d9%8b-%d9%84%d9%84%d8%a7/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T13:48:50Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تقرير: آبل تشغل macOS على أجهزة iPad داخلياً للاختبار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب: Redmi K100 Ultra بثلاث كاميرات بدقة 50MP وعدسة تقريب 3x",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-redmi-k100-ultra-%d8%a8%d8%ab%d9%84%d8%a7%d8%ab-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a8%d8%af%d9%82%d8%a9-50mp-%d9%88%d8%b9%d8%af%d8%b3%d8%a9-%d8%aa%d9%82/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T13:44:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تسريب: Redmi K100 Ultra بثلاث كاميرات بدقة 50MP وعدسة تقريب 3x",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إطلاق سلسلة vivo X500 في الهند بسعر يبدأ من نحو 1259 دولار أمريكي",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%b3%d9%84%d8%b3%d9%84%d8%a9-vivo-x500-%d9%81%d9%8a-%d8%a7%d9%84%d9%87%d9%86%d8%af-%d8%a8%d8%b3%d8%b9%d8%b1-%d9%8a%d8%a8%d8%af%d8%a3-%d9%85%d9%86-%d9%86%d8%ad%d9%88-12/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T13:40:47Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إطلاق سلسلة vivo X500 في الهند بسعر يبدأ من نحو 1259 دولار أمريكي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "شحنات الهواتف الذكية تتجه إلى أكبر انخفاض سنوي في 2026",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%b4%d8%ad%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%87%d9%88%d8%a7%d8%aa%d9%81-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-%d8%aa%d8%aa%d8%ac%d9%87-%d8%a5%d9%84%d9%89-%d8%a3%d9%83%d8%a8%d8%b1-%d8%a7%d9%86%d8%ae/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T13:34:26Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "شحنات الهواتف الذكية تتجه إلى أكبر انخفاض سنوي في 2026",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Casetify's Pokémon 30th anniversary collection includes a Poké Ball case for your AirPods",
+      "url": "https://www.engadget.com/2329106/casetifys-pokmon-30th-anniversary-collection-includes-a-pok-ball-case-for-your-airpods/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T13:14:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تشمل مجموعة الذكرى السنوية الثلاثين لبوكيمون من كاسيتيفاي حافظة بوكيه بول لسماعات الأيربودز الخاصة بك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "كيف تجني المال من سرقة السيارات في لعبة GTA 6؟",
+      "url": "https://arabhardware.net/post-55245",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-26T12:46:50Z",
+      "category": "أخبار التقنية",
+      "title_ar": "كيف تجني المال من سرقة السيارات في لعبة GTA 6؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Draining peatlands is responsible for a few percent of our global warming",
+      "url": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-26T12:15:42Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يُعدّ تجفيف الأراضي الخثية مسؤولاً عن نسبة مئوية قليلة من الاحترار العالمي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "From minimalist to maximalist: Ars staffers show off their home offices",
+      "url": "https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-26T12:00:14Z",
+      "category": "أخبار التقنية",
+      "title_ar": "من البساطة إلى التكلف: موظفو Ars يعرضون مكاتبهم المنزلية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "واتساب يطلق جدولة الرسائل عالميًا وإرسالها حتى مع إغلاق الهاتف",
+      "url": "https://arabhardware.net/post-55244",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-26T11:18:00Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "واتساب يطلق جدولة الرسائل عالميًا وإرسالها حتى مع إغلاق الهاتف",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
+      "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T11:01:32Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تحصل سبيس إكس على موافقة لجنة الاتصالات الفيدرالية لنشر مليون قمر صناعي لمركز بياناتها المداري للذكاء الاصطناعي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "source": "wired",
+      "source_name": "WIRED",
+      "published_at": "2026-11-26T10:51:27Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ميتا ترفض مشاركة Muse للاختبار، والهيئة المالية البريطانية تقدم شكوى",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "X is finally getting its first parental controls",
+      "url": "https://www.theverge.com/news/1043078/x-parental-controls-features",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-26T10:45:50Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ستحصل منصة X أخيرًا على أول أدوات للرقابة الأبوية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "Microsoft تحذر: إطار ARTEX يسرع الهجمات السيبرانية بالذكاء الاصطناعي",
+      "url": "https://arabhardware.net/post-55243",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-26T10:39:13Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "Microsoft تحذر: إطار ARTEX يسرع الهجمات السيبرانية بالذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "اختراق إلكتروني يهز \"فيفا\" ويسفر عن سرقة معلومات شخصية وتجارية",
+      "url": "https://www.aljazeera.net/sport/2026/11/26/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a-%d9%81%d9%8a%d9%81%d8%a7-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-26T10:09:55Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق إلكتروني يهز \"فيفا\" ويسفر عن سرقة معلومات شخصية وتجارية",
       "translation_status": "original_ar"
     },
     {
@@ -30,36 +166,6 @@
       "published_at": "2026-11-26T10:06:56Z",
       "category": "أخبار التقنية",
       "title_ar": "بعد ساعات العمل، يجب أن يظل نشاطك التجاري مستعداً للرد",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كوريا الجنوبية ترقي الإنترنت المجاني في نحو 33 ألف حافلة إلى Wi-Fi 7",
-      "url": "https://aitnews.com/2026/11/26/%d9%83%d9%88%d8%b1%d9%8a%d8%a7-%d8%a7%d9%84%d8%ac%d9%86%d9%88%d8%a8%d9%8a%d8%a9-%d8%aa%d8%b1%d9%82%d9%8a%d8%a9-%d9%88%d8%a7%d9%8a-%d9%81%d8%a7%d9%8a/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:05:14Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "كوريا الجنوبية ترقي الإنترنت المجاني في نحو 33 ألف حافلة إلى Wi-Fi 7",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الصين تعلن خطة لتطوير شبكات الجيل السادس والإنترنت الفضائي بحلول 2030",
-      "url": "https://aitnews.com/2026/11/26/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d8%ae%d8%b7%d8%a9-%d8%b4%d8%a8%d9%83%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%8a%d9%84-%d8%a7%d9%84%d8%b3%d8%a7%d8%af%d8%b3-2030/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:04:43Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "الصين تعلن خطة لتطوير شبكات الجيل السادس والإنترنت الفضائي بحلول 2030",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "كيوكسيا وإنفيديا تختبران توسيع الذاكرة المتاحة لمعالجات الرسوميات إلى أكثر من بيتابايت",
-      "url": "https://aitnews.com/2026/11/26/%d9%83%d9%8a%d9%88%d9%83%d8%b3%d9%8a%d8%a7-%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d8%a7%d9%84%d8%b0%d8%a7%d9%83%d8%b1%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-26T10:03:57Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "كيوكسيا وإنفيديا تختبران توسيع الذاكرة المتاحة لمعالجات الرسوميات إلى أكثر من بيتابايت",
       "translation_status": "original_ar"
     },
     {
@@ -85,6 +191,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "وكيل الذكاء الاصطناعي \"إنستنكت\" يثير الجدل.. فأين الحقيقة؟",
+      "url": "https://www.aljazeera.net/tech/2026/11/26/%d9%88%d9%83%d9%8a%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a5%d9%86%d8%b3%d8%aa%d9%86%d9%83%d8%aa-%d9%8a%d8%ab%d9%8a%d8%b1?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-26T09:17:28Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "وكيل الذكاء الاصطناعي \"إنستنكت\" يثير الجدل.. فأين الحقيقة؟",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "امنكس تستعرض حلول الذكاء الاصطناعي التي تتجاوز المرحلة التجريبية خلال معرض جيتكس جلوبال 2026",
       "url": "https://technologyarabia.com/archives/18160/%d8%a7%d9%85%d9%86%d9%83%d8%b3-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a/",
       "source": "technologyarabia",
@@ -92,6 +208,36 @@
       "published_at": "2026-11-26T08:52:25Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "امنكس تستعرض حلول الذكاء الاصطناعي التي تتجاوز المرحلة التجريبية خلال معرض جيتكس جلوبال 2026",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "طفرة مراكز البيانات ترفع استثمارات أستراليا بأسرع وتيرة منذ 2011.. لكن من يستفيد؟",
+      "url": "https://techvoicearabia.com/australia-data-center-investment-surge-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-26T08:04:15Z",
+      "category": "أخبار التقنية",
+      "title_ar": "طفرة مراكز البيانات ترفع استثمارات أستراليا بأسرع وتيرة منذ 2011.. لكن من يستفيد؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "من ملاعب الأطفال إلى خوادم الذكاء الاصطناعي.. لماذا يحتج سكان اليابان؟",
+      "url": "https://techvoicearabia.com/japan-ai-data-centers-residents-protests/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-26T07:54:34Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "من ملاعب الأطفال إلى خوادم الذكاء الاصطناعي.. لماذا يحتج سكان اليابان؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "إنفيديا توقف شحن خوادمها إلى 4 دول.. وعودة جنسن هوانغ تفجّر خلافًا داخل واشنطن",
+      "url": "https://techvoicearabia.com/nvidia-halts-ai-server-shipments-asia-huang/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-26T07:42:55Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إنفيديا توقف شحن خوادمها إلى 4 دول.. وعودة جنسن هوانغ تفجّر خلافًا داخل واشنطن",
       "translation_status": "original_ar"
     },
     {
@@ -127,63 +273,13 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "بيانات مسرّبة تكشف مقتل ما لا يقل عن 349 روسيا في مالي خلال 3 سنوات",
-      "url": "https://www.aljazeera.net/news/2026/11/26/%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d8%b3%d8%b1%d8%a8%d8%a9-%d8%aa%d9%83%d8%b4%d9%81-%d9%85%d9%82%d8%aa%d9%84-%d9%85%d8%a7-%d9%84%d8%a7-%d9%8a%d9%82%d9%84-%d8%b9%d9%86-349?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-26T05:51:31Z",
+      "title": "نيورالينك تحصل على موافقة FDA لتجربة شريحة الدماغ",
+      "url": "https://techvoicearabia.com/neuralink-fda-approval-link-pivotal-study-2026/",
+      "source": "techvoice",
+      "source_name": "تيك فويس عربية",
+      "published_at": "2026-11-26T05:46:44Z",
       "category": "أخبار التقنية",
-      "title_ar": "بيانات مسرّبة تكشف مقتل ما لا يقل عن 349 روسيا في مالي خلال 3 سنوات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هاتف Vivo X500 FE يظهر في قاعدة بيانات NBD بذاكرة 8GB وتخزين 256GB",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%87%d8%a7%d8%aa%d9%81-vivo-x500-fe-%d9%8a%d8%b8%d9%87%d8%b1-%d9%81%d9%8a-%d9%82%d8%a7%d8%b9%d8%af%d8%a9-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-nbd-%d8%a8%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-8gb-%d9%88/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T04:18:53Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هاتف Vivo X500 FE يظهر في قاعدة بيانات NBD بذاكرة 8GB وتخزين 256GB",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "نموذج Claude يحول artifacts إلى تطبيقات مستقلة على Mac وWindows في نسخة تجريبية",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%86%d9%85%d9%88%d8%b0%d8%ac-claude-%d9%8a%d8%ad%d9%88%d9%84-artifacts-%d8%a5%d9%84%d9%89-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d9%85%d8%b3%d8%aa%d9%82%d9%84%d8%a9-%d8%b9%d9%84%d9%89-mac/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T04:15:36Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "نموذج Claude يحول artifacts إلى تطبيقات مستقلة على Mac وWindows في نسخة تجريبية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحذير من تصيد احتيالي بعد تسرب أسماء وبريد عملاء 1Password",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1-%d9%85%d9%86-%d8%aa%d8%b5%d9%8a%d8%af-%d8%a7%d8%ad%d8%aa%d9%8a%d8%a7%d9%84%d9%8a-%d8%a8%d8%b9%d8%af-%d8%aa%d8%b3%d8%b1%d8%a8-%d8%a3%d8%b3%d9%85%d8%a7%d8%a1-%d9%88%d8%a8/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T03:54:42Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحذير من تصيد احتيالي بعد تسرب أسماء وبريد عملاء 1Password",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "أمازون تدرس السماح لوكيل Meta Muse بالشراء من متجرها بعد شهرين من الحظر",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%a3%d9%85%d8%a7%d8%b2%d9%88%d9%86-%d8%aa%d8%af%d8%b1%d8%b3-%d8%a7%d9%84%d8%b3%d9%85%d8%a7%d8%ad-%d9%84%d9%88%d9%83%d9%8a%d9%84-meta-muse-%d8%a8%d8%a7%d9%84%d8%b4%d8%b1%d8%a7%d8%a1-%d9%85%d9%86/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T03:50:48Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أمازون تدرس السماح لوكيل Meta Muse بالشراء من متجرها بعد شهرين من الحظر",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تحديث أندرويد 17 من Motorola يعالج مشكلة اتصال Android Auto في هواتف Razr",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a3%d9%86%d8%af%d8%b1%d9%88%d9%8a%d8%af-17-%d9%85%d9%86-motorola-%d9%8a%d8%b9%d8%a7%d9%84%d8%ac-%d9%85%d8%b4%d9%83%d9%84%d8%a9-%d8%a7%d8%aa%d8%b5%d8%a7%d9%84-android/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T03:45:26Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تحديث أندرويد 17 من Motorola يعالج مشكلة اتصال Android Auto في هواتف Razr",
+      "title_ar": "نيورالينك تحصل على موافقة FDA لتجربة شريحة الدماغ",
       "translation_status": "original_ar"
     },
     {
@@ -209,80 +305,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "We reviewed these 10 gadgets, and they're now on sale for Black Friday",
-      "url": "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-25T23:36:46Z",
-      "category": "أخبار التقنية",
-      "title_ar": "راجعنا هذه الأجهزة العشرة، وهي الآن معروضة للبيع بمناسبة الجمعة البيضاء",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "ميزة Install as app في Claude تحول العناصر إلى تطبيقات لـ Mac وWindows",
-      "url": "https://3arrafni.com/tech-news/claude-install-as-app-mac-windows",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T23:12:55Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ميزة Install as app في Claude تحول العناصر إلى تطبيقات لـ Mac وWindows",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T22:44:32Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ستاندرد آند بورز تنظر في خفض التصنيف الائتماني لشركة إنفيديا بسبب المخاطر المتعلقة بالحوكمة و\"الشخصية الرئيسية\"",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
-      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-25T22:36:45Z",
-      "category": "أخبار التقنية",
-      "title_ar": "مركبة فضائية أوروبية تكتشف مشهدًا فوضويًا بعد تجربة تحويل مسار كويكب",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Microsoft تعلن Code Red بعد تعطل Outlook وتستهدف إصلاحه خلال ساعة",
-      "url": "https://3arrafni.com/tech-news/microsoft-code-red-outlook-outage",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T22:17:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "Microsoft تعلن Code Red بعد تعطل Outlook وتستهدف إصلاحه خلال ساعة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
-      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-25T21:51:26Z",
-      "category": "أخبار التقنية",
-      "title_ar": "براءة اختراع جوجل لخلاصات الفيديو المخصصة بالذكاء الاصطناعي ترسم صورة قاتمة لمستقبل الترفيه",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "اكتشاف باب خلفي في 6 إضافات WordPress من WP Connect وإغلاقها نهائياً",
-      "url": "https://3arrafni.com/tech-news/wordpress-wp-connect-plugin-backdoor",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-25T21:22:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "اكتشاف باب خلفي في 6 إضافات WordPress من WP Connect وإغلاقها نهائياً",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Google search alternative Kagi launches Gmail rival",
       "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
       "source": "arstechnica",
@@ -290,28 +312,6 @@
       "published_at": "2026-11-25T20:57:09Z",
       "category": "أخبار التقنية",
       "title_ar": "بديل بحث جوجل Kagi يطلق منافسًا لـ Gmail",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "FCC approves SpaceX plan to put AI data centers in space",
-      "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T20:56:44Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تُوافق لجنة الاتصالات الفيدرالية على خطة سبيس إكس لوضع مراكز بيانات الذكاء الاصطناعي في الفضاء",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "State AGs are trying to stop Character.AI from auctioning off users' chat histories",
-      "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-25T20:04:07Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحاول وزارات العدل في الولايات منع Character.AI من طرح سجلات دردشات المستخدمين في مزاد",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -349,6 +349,17 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "A familiar Iranian hacking group has found a new way to cause chaos",
+      "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-25T14:29:43Z",
+      "category": "أخبار التقنية",
+      "title_ar": "وجدت مجموعة قرصنة إيرانية معروفة طريقة جديدة لإحداث الفوضى",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
       "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
       "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
       "source": "wired",
@@ -369,17 +380,6 @@
       "title_ar": "جنسن هوانغ يعتذر لموظفي إنفيديا في أول اجتماع عام منذ عودته",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-24T17:34:34Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تعلن Tidal عن حظر الموسيقى التي يتم إنشاؤها بواسطة الذكاء الاصطناعي؛ سيتم حذف 27 مليون أغنية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     }
   ],
   "sources": [
@@ -387,7 +387,7 @@
       "id": "aitnews",
       "name": "البوابة التقنية",
       "url": "https://aitnews.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "techwd",
@@ -405,7 +405,7 @@
       "id": "techvoice",
       "name": "تيك فويس عربية",
       "url": "https://techvoicearabia.com/",
-      "active": false
+      "active": true
     },
     {
       "id": "technologyarabia",

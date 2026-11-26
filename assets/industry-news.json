@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T10:45:44Z",
+  "generated_at": "2026-11-26T14:07:30Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -245,6 +245,32 @@
       "title": "الشركات التقنية الكبرى",
       "articles": [
         {
+          "title": "Small Actions, Big Impact: Give Back This Holiday Season With the Samsung Global Goals App",
+          "url": "https://news.samsung.com/global/small-actions-big-impact-give-back-this-holiday-season-with-the-samsung-global-goals-app",
+          "source": "samsung",
+          "source_name": "Samsung",
+          "published_at": "2026-11-26T21:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "أفعال صغيرة، تأثير كبير: رد الجميل في موسم الأعياد هذا من خلال تطبيق Samsung Global Goals",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Come for the Games, Stay for the Community With GeForce NOW",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+          "source": "nvidia",
+          "source_name": "NVIDIA",
+          "published_at": "2026-11-26T14:00:22Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "تعال من أجل الألعاب، وابقَ من أجل المجتمع مع GeForce NOW",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "[Video] [Voices of Galaxy] Meet the Physician From Mexico Whose Galaxy Watch Helped Him Care for His Mother — and Himself",
           "url": "https://news.samsung.com/global/video-voices-of-galaxy-meet-the-physician-from-mexico-whose-galaxy-watch-helped-him-care-for-his-mother-and-himself",
           "source": "samsung",
@@ -388,19 +414,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Samsung Electronics Announces New Leadership",
-          "url": "https://news.samsung.com/global/samsung-electronics-announces-new-leadership-5",
-          "source": "samsung",
-          "source_name": "Samsung",
-          "published_at": "2026-11-20T09:01:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "سامسونج للإلكترونيات تعلن عن قيادة جديدة",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "NVIDIA Announces Upcoming Event for Financial Community",
           "url": "https://nvidianews.nvidia.com/news/nvidia-announces-upcoming-event-for-financial-community-6929322",
           "source": "nvidia",
@@ -436,19 +449,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "تصبح Apple TV مقرًا جديدًا في الولايات المتحدة لبطولة F1 ACADEMY™، وهي سلسلة سباقات حصرية للسيدات",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
-          "source": "nvidia",
-          "source_name": "NVIDIA",
-          "published_at": "2026-11-19T14:00:12Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "البث والعروض التوفيرية للموسم: عروض الجمعة البيضاء تأتي إلى GeForce NOW",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
