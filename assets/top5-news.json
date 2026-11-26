@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T07:39:27Z",
-  "source_news_updated": "2026-11-26T07:39:08Z",
-  "source_industry_updated": "2026-11-26T07:39:13Z",
+  "generated_at": "2026-11-26T07:47:13Z",
+  "source_news_updated": "2026-11-26T07:47:05Z",
+  "source_industry_updated": "2026-11-26T07:47:10Z",
   "timezone": "Asia/Riyadh",
   "max_items": 5,
   "max_age_days": 7,
@@ -13,7 +13,7 @@
         "source": "bleeping",
         "source_name": "BleepingComputer",
         "published_at": "2026-11-25T15:00:00Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "InfraTrust warns of exploited supply chain flaws in network appliances",
         "title_en": "InfraTrust warns of exploited supply chain flaws in network appliances",
         "title_ar": "تحذر InfraTrust من الثغرات المستغلة في سلسلة التوريد في الأجهزة الشبكية",
@@ -22,7 +22,7 @@
         "id": "918f8236c2b641c6",
         "category": "computers",
         "rank": 1,
-        "ranking_score": 57.03,
+        "ranking_score": 57.0,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -31,7 +31,7 @@
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-25T20:50:01Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Report: Microsoft officially shipping vulnerable Intel driver component via Windows Update",
         "title_en": "Report: Microsoft officially shipping vulnerable Intel driver component via Windows Update",
         "title_ar": "تقرير: مايكروسوفت تُرسل رسميًا مكون برنامج تشغيل إنتل المعرض للخطر عبر تحديث ويندوز",
@@ -40,16 +40,16 @@
         "id": "1c63d1b9987c8f73",
         "category": "computers",
         "rank": 2,
-        "ranking_score": 54.42,
+        "ranking_score": 54.39,
         "image_url": null,
-        "translation_status_ar": "machine"
+        "translation_status_ar": "machine_cached"
       },
       {
         "url": "https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/",
         "source": "macrumors",
         "source_name": "MacRumors",
         "published_at": "2026-11-25T10:27:42Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Claude Now Lets You Install Artifacts as Desktop Apps",
         "title_en": "Claude Now Lets You Install Artifacts as Desktop Apps",
         "title_ar": "يتيح لك Claude الآن تثبيت الأدوات كتطبيقات سطح مكتب",
@@ -58,7 +58,7 @@
         "id": "626d3cf165b6a7a6",
         "category": "computers",
         "rank": 3,
-        "ranking_score": 51.95,
+        "ranking_score": 51.92,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -67,7 +67,7 @@
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-25T09:02:01Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Pop!_OS 26.04 LTS makes giving your whole desktop a new look far easier",
         "title_en": "Pop!_OS 26.04 LTS makes giving your whole desktop a new look far easier",
         "title_ar": "يجعل نظام التشغيل Pop!_OS 26.04 LTS منح سطح المكتب بأكمله مظهرًا جديدًا أسهل بكثير",
@@ -76,7 +76,7 @@
         "id": "bf0b93fb77b812a9",
         "category": "computers",
         "rank": 4,
-        "ranking_score": 51.61,
+        "ranking_score": 51.58,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -85,7 +85,7 @@
         "source": "macrumors",
         "source_name": "MacRumors",
         "published_at": "2026-11-24T21:00:43Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Google Says Apple's iOS Browser Rules Offer 'Choice on Paper, Not in Practice'",
         "title_en": "Google Says Apple's iOS Browser Rules Offer 'Choice on Paper, Not in Practice'",
         "title_ar": "تقول غوغل إن قواعد متصفح نظام التشغيل iOS من آبل توفر \"الاختيار على الورق، وليس في الواقع العملي\"",
@@ -94,7 +94,7 @@
         "id": "7f5638e43af66123",
         "category": "computers",
         "rank": 5,
-        "ranking_score": 48.75,
+        "ranking_score": 48.72,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       }
@@ -105,7 +105,7 @@
         "source": "techwd",
         "source_name": "عالم التقنية",
         "published_at": "2026-11-26T03:45:26Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "تحديث أندرويد 17 من Motorola يعالج مشكلة اتصال Android Auto في هواتف Razr",
         "title_en": "Motorola's Android 17 update fixes the Android Auto connection issue on Razr phones.",
         "title_ar": "تحديث أندرويد 17 من Motorola يعالج مشكلة اتصال Android Auto في هواتف Razr",
@@ -114,16 +114,16 @@
         "id": "5c7563cbd32f0cd1",
         "category": "android",
         "rank": 1,
-        "ranking_score": 64.07,
+        "ranking_score": 64.04,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       },
       {
         "url": "https://3arrafni.com/tech-news/one-ui-9-5-battery-health-fix",
         "source": "arrafni",
         "source_name": "عرفني دوت كوم",
         "published_at": "2026-11-25T19:32:55Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "Samsung تؤكد أن One UI 9.5 سيعالج تراجع صحة البطارية",
         "title_en": "Samsung confirms that One UI 9.5 will address the decline in battery health",
         "title_ar": "Samsung تؤكد أن One UI 9.5 سيعالج تراجع صحة البطارية",
@@ -132,7 +132,7 @@
         "id": "1080f6e3b88418c9",
         "category": "android",
         "rank": 2,
-        "ranking_score": 54.12,
+        "ranking_score": 54.09,
         "image_url": null,
         "translation_status_en": "machine_cached"
       }
@@ -143,7 +143,7 @@
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-26T05:58:02Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Microsoft outs Windows Server KB5138318 (26100.33732) OOB hotpatch to fix KB5131077 bug",
         "title_en": "Microsoft outs Windows Server KB5138318 (26100.33732) OOB hotpatch to fix KB5131077 bug",
         "title_ar": "أصدرت مايكروسوفت تصحيحًا فوريًا لنظام التشغيل Windows Server KB5138318 (26100.33732) OOB لإصلاح خطأ KB5131077",
@@ -152,16 +152,16 @@
         "id": "37be8bc0bd03bae6",
         "category": "windows",
         "rank": 1,
-        "ranking_score": 56.6,
+        "ranking_score": 56.57,
         "image_url": null,
-        "translation_status_ar": "machine"
+        "translation_status_ar": "machine_cached"
       },
       {
         "url": "https://www.neowin.net/news/microsoft-is-getting-rid-of-the-decades-old-telnet-client-in-windows/",
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-26T03:42:01Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Microsoft is getting rid of the decades-old Telnet Client in Windows",
         "title_en": "Microsoft is getting rid of the decades-old Telnet Client in Windows",
         "title_ar": "تتخلص مايكروسوفت من عميل تلنت القديم الذي مضى عليه عقود في نظام التشغيل ويندوز",
@@ -170,16 +170,16 @@
         "id": "868c656898513a87",
         "category": "windows",
         "rank": 2,
-        "ranking_score": 56.06,
+        "ranking_score": 56.03,
         "image_url": null,
-        "translation_status_ar": "machine"
+        "translation_status_ar": "machine_cached"
       },
       {
         "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
         "source": "nvidia",
         "source_name": "NVIDIA",
         "published_at": "2026-11-19T20:00:15Z",
-        "fetched_at": "2026-11-26T07:39:13Z",
+        "fetched_at": "2026-11-26T07:47:10Z",
         "original_title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
         "title_en": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
         "title_ar": "NVIDIA وMicrosoft توسعان الحوسبة المعززة من Azure إلى أجهزة الكمبيوتر التي تعمل بنظام Windows",
@@ -188,7 +188,7 @@
         "id": "36bc207225e9e41f",
         "category": "windows",
         "rank": 3,
-        "ranking_score": 37.94,
+        "ranking_score": 37.91,
         "image_url": null
       }
     ],
@@ -198,7 +198,7 @@
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-25T17:56:01Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Apple's new M6 MacBook Pro gets its best Amazon price in only one color",
         "title_en": "Apple's new M6 MacBook Pro gets its best Amazon price in only one color",
         "title_ar": "يحصل جهاز ماك بوك برو الجديد من آبل المزود بشريحة M6 على أفضل سعر له على أمازون بلون واحد فقط",
@@ -207,7 +207,7 @@
         "id": "13c0b45099c3004c",
         "category": "apple",
         "rank": 1,
-        "ranking_score": 61.73,
+        "ranking_score": 61.7,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -216,7 +216,7 @@
         "source": "macrumors",
         "source_name": "MacRumors",
         "published_at": "2026-11-25T17:16:43Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "iPhone 18 Pro Max Battery Exhausts a Toy Cyclops in New Apple Ad",
         "title_en": "iPhone 18 Pro Max Battery Exhausts a Toy Cyclops in New Apple Ad",
         "title_ar": "بطارية آيفون 18 برو ماكس تستنفد طاقة لعبة سايكلوبس في إعلان آبل الجديد",
@@ -225,7 +225,7 @@
         "id": "5029e7d1c069015e",
         "category": "apple",
         "rank": 2,
-        "ranking_score": 61.58,
+        "ranking_score": 61.55,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -234,7 +234,7 @@
         "source": "macrumors",
         "source_name": "MacRumors",
         "published_at": "2026-11-25T16:14:55Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Apple Has an iPhone Notifications Problem",
         "title_en": "Apple Has an iPhone Notifications Problem",
         "title_ar": "تعاني Apple من مشكلة في إشعارات iPhone",
@@ -243,7 +243,7 @@
         "id": "1e514a94d022da1a",
         "category": "apple",
         "rank": 3,
-        "ranking_score": 61.33,
+        "ranking_score": 61.3,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -252,7 +252,7 @@
         "source": "apple",
         "source_name": "Apple",
         "published_at": "2026-11-19T15:59:07Z",
-        "fetched_at": "2026-11-26T07:39:13Z",
+        "fetched_at": "2026-11-26T07:47:10Z",
         "original_title": "Apple TV becomes the new U.S. home of F1 ACADEMY™, the all-female racing series",
         "title_en": "Apple TV becomes the new U.S. home of F1 ACADEMY™, the all-female racing series",
         "title_ar": "تصبح Apple TV مقرًا جديدًا في الولايات المتحدة لبطولة F1 ACADEMY™، وهي سلسلة سباقات حصرية للسيدات",
@@ -261,7 +261,7 @@
         "id": "cb92421de4a3a6b2",
         "category": "apple",
         "rank": 4,
-        "ranking_score": 36.98,
+        "ranking_score": 36.95,
         "image_url": null
       }
     ],
@@ -271,7 +271,7 @@
         "source": "samsung",
         "source_name": "Samsung",
         "published_at": "2026-11-25T19:00:00Z",
-        "fetched_at": "2026-11-26T07:39:13Z",
+        "fetched_at": "2026-11-26T07:47:10Z",
         "original_title": "[Video] [Voices of Galaxy] Meet the Physician From Mexico Whose Galaxy Watch Helped Him Care for His Mother — and Himself",
         "title_en": "[Video] [Voices of Galaxy] Meet the Physician From Mexico Whose Galaxy Watch Helped Him Care for His Mother — and Himself",
         "title_ar": "[فيديو] [أصوات غالاكسي] تعرّف على الطبيب من المكسيك الذي ساعدته ساعة غالاكسي على رعاية والدته — ورعاية نفسه",
@@ -280,7 +280,7 @@
         "id": "d303f77ae3b51814",
         "category": "tech",
         "rank": 1,
-        "ranking_score": 71.99,
+        "ranking_score": 71.96,
         "image_url": null
       },
       {
@@ -288,7 +288,7 @@
         "source": "samsung",
         "source_name": "Samsung",
         "published_at": "2026-11-25T08:00:00Z",
-        "fetched_at": "2026-11-26T07:39:13Z",
+        "fetched_at": "2026-11-26T07:47:10Z",
         "original_title": "A Day in the Life of a Dog With Galaxy SmartTag3 and SmartThings",
         "title_en": "A Day in the Life of a Dog With Galaxy SmartTag3 and SmartThings",
         "title_ar": "يوم من حياة كلب مع Galaxy SmartTag3 وSmartThings",
@@ -297,7 +297,24 @@
         "id": "e5eb0f03ea49f38f",
         "category": "tech",
         "rank": 2,
-        "ranking_score": 69.37,
+        "ranking_score": 69.34,
+        "image_url": null
+      },
+      {
+        "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+        "source": "engadget",
+        "source_name": "Engadget",
+        "published_at": "2026-11-26T07:28:21Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
+        "original_title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+        "title_en": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+        "title_ar": "نيورالينك تحصل على موافقة إدارة الغذاء والدواء الأمريكية على تجربة \"محورية\" لزرع الدماغ في مرضى التصلب الجانبي الضموري",
+        "summary_en": "",
+        "summary_ar": "",
+        "id": "9491e4a83c060e10",
+        "category": "tech",
+        "rank": 3,
+        "ranking_score": 59.93,
         "image_url": null
       },
       {
@@ -305,7 +322,7 @@
         "source": "engadget",
         "source_name": "Engadget",
         "published_at": "2026-11-26T06:02:48Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "New York state bans AI chatbot toys for kids",
         "title_en": "New York state bans AI chatbot toys for kids",
         "title_ar": "ولاية نيويورك تحظر ألعاب روبوتات الدردشة المدعومة بالذكاء الاصطناعي للأطفال",
@@ -313,8 +330,8 @@
         "summary_ar": "",
         "id": "240d81fd8dcc2a83",
         "category": "tech",
-        "rank": 3,
-        "ranking_score": 59.62,
+        "rank": 4,
+        "ranking_score": 59.59,
         "image_url": null
       },
       {
@@ -322,7 +339,7 @@
         "source": "bleeping",
         "source_name": "BleepingComputer",
         "published_at": "2026-11-25T22:05:09Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
         "title_en": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
         "title_ar": "تحذر شركة Palo Alto Networks من ثغرة Fragnesia التي يتم استغلالها في هجمات PAN-OS",
@@ -330,28 +347,10 @@
         "summary_ar": "",
         "id": "85d71203b57ce129",
         "category": "tech",
-        "rank": 4,
-        "ranking_score": 58.72,
-        "image_url": null,
-        "translation_status_ar": "machine"
-      },
-      {
-        "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-        "source": "bleeping",
-        "source_name": "BleepingComputer",
-        "published_at": "2026-11-25T21:33:33Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
-        "original_title": "1Password customer data stolen after employee GitHub account breach",
-        "title_en": "1Password customer data stolen after employee GitHub account breach",
-        "title_ar": "سرقة بيانات عملاء 1Password بعد اختراق حساب الموظف على GitHub",
-        "summary_en": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
-        "summary_ar": "",
-        "id": "29838573f890e4f7",
-        "category": "tech",
         "rank": 5,
-        "ranking_score": 58.6,
+        "ranking_score": 58.69,
         "image_url": null,
-        "translation_status_ar": "machine"
+        "translation_status_ar": "machine_cached"
       }
     ],
     "emerging": [],
@@ -361,7 +360,7 @@
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-25T15:16:01Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Amazon Autos is heading to the UK with a new way to shop for your next car",
         "title_en": "Amazon Autos is heading to the UK with a new way to shop for your next car",
         "title_ar": "تتوجه أمازون أوتوس إلى المملكة المتحدة بطريقة جديدة للتسوق لشراء سيارتك التالية",
@@ -370,7 +369,7 @@
         "id": "c08ee90f554a0b50",
         "category": "cars",
         "rank": 1,
-        "ranking_score": 53.1,
+        "ranking_score": 53.07,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -379,7 +378,7 @@
         "source": "toyotaglobal",
         "source_name": "Toyota Global",
         "published_at": "2026-11-25T04:30:00Z",
-        "fetched_at": "2026-11-26T07:39:13Z",
+        "fetched_at": "2026-11-26T07:47:10Z",
         "original_title": "Launch of the New Camry in Japan",
         "title_en": "Launch of the New Camry in Japan",
         "title_ar": "إطلاق سيارة كامري الجديدة في اليابان",
@@ -388,7 +387,7 @@
         "id": "0e28970e81842d7a",
         "category": "cars",
         "rank": 2,
-        "ranking_score": 84.53,
+        "ranking_score": 84.5,
         "image_url": null
       },
       {
@@ -396,7 +395,7 @@
         "source": "toyota",
         "source_name": "Toyota USA",
         "published_at": "2026-11-20T12:58:32Z",
-        "fetched_at": "2026-11-26T07:39:13Z",
+        "fetched_at": "2026-11-26T07:47:10Z",
         "original_title": "Toyota Enhances the 2027 Sienna with Comprehensive Powertrain and Safety Upgrades",
         "title_en": "Toyota Enhances the 2027 Sienna with Comprehensive Powertrain and Safety Upgrades",
         "title_ar": "تويوتا تُحسّن سيارة سيينا 2027 من خلال تحديثات شاملة لنظام نقل الحركة والسلامة",
@@ -405,7 +404,7 @@
         "id": "2eee87ff488c2993",
         "category": "cars",
         "rank": 3,
-        "ranking_score": 57.98,
+        "ranking_score": 57.95,
         "image_url": null
       },
       {
@@ -413,7 +412,7 @@
         "source": "toyotaglobal",
         "source_name": "Toyota Global",
         "published_at": "2026-11-20T08:00:00Z",
-        "fetched_at": "2026-11-26T07:39:13Z",
+        "fetched_at": "2026-11-26T07:47:10Z",
         "original_title": "Kevin Estre completes TOYOTA RACING's 2027 driver line-up",
         "title_en": "Kevin Estre completes TOYOTA RACING's 2027 driver line-up",
         "title_ar": "كيفن إستري يكمل تشكيلة سائقي تويوتا ريسينغ لعام 2027",
@@ -422,7 +421,7 @@
         "id": "a72bab7bb9492168",
         "category": "cars",
         "rank": 4,
-        "ranking_score": 56.8,
+        "ranking_score": 56.76,
         "image_url": null
       },
       {
@@ -430,7 +429,7 @@
         "source": "apple",
         "source_name": "Apple",
         "published_at": "2026-11-19T15:59:07Z",
-        "fetched_at": "2026-11-26T07:39:13Z",
+        "fetched_at": "2026-11-26T07:47:10Z",
         "original_title": "Apple TV becomes the new U.S. home of F1 ACADEMY™, the all-female racing series",
         "title_en": "Apple TV becomes the new U.S. home of F1 ACADEMY™, the all-female racing series",
         "title_ar": "تصبح Apple TV مقرًا جديدًا في الولايات المتحدة لبطولة F1 ACADEMY™، وهي سلسلة سباقات حصرية للسيدات",
@@ -439,7 +438,7 @@
         "id": "cb92421de4a3a6b2",
         "category": "cars",
         "rank": 5,
-        "ranking_score": 36.98,
+        "ranking_score": 36.95,
         "image_url": null
       }
     ],
@@ -449,7 +448,7 @@
         "source": "techwd",
         "source_name": "عالم التقنية",
         "published_at": "2026-11-26T04:15:36Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "نموذج Claude يحول artifacts إلى تطبيقات مستقلة على Mac وWindows في نسخة تجريبية",
         "title_en": "The Claude model transforms artifacts into standalone applications on Mac and Windows in a beta version.",
         "title_ar": "نموذج Claude يحول artifacts إلى تطبيقات مستقلة على Mac وWindows في نسخة تجريبية",
@@ -458,16 +457,16 @@
         "id": "d388ac34ca2226b0",
         "category": "software",
         "rank": 1,
-        "ranking_score": 56.19,
+        "ranking_score": 56.16,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       },
       {
         "url": "https://3arrafni.com/tech-news/claude-install-as-app-mac-windows",
         "source": "arrafni",
         "source_name": "عرفني دوت كوم",
         "published_at": "2026-11-25T23:12:55Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "ميزة Install as app في Claude تحول العناصر إلى تطبيقات لـ Mac وWindows",
         "title_en": "Claude's Install as App feature converts items into apps for Mac and Windows.",
         "title_ar": "ميزة Install as app في Claude تحول العناصر إلى تطبيقات لـ Mac وWindows",
@@ -476,16 +475,16 @@
         "id": "c2c5008922db8637",
         "category": "software",
         "rank": 2,
-        "ranking_score": 54.99,
+        "ranking_score": 54.96,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       },
       {
         "url": "https://www.neowin.net/news/report-microsoft-officially-shipping-vulnerable-intel-driver-component-via-windows-update/",
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-25T20:50:01Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Report: Microsoft officially shipping vulnerable Intel driver component via Windows Update",
         "title_en": "Report: Microsoft officially shipping vulnerable Intel driver component via Windows Update",
         "title_ar": "تقرير: مايكروسوفت تُرسل رسميًا مكون برنامج تشغيل إنتل المعرض للخطر عبر تحديث ويندوز",
@@ -494,9 +493,9 @@
         "id": "1c63d1b9987c8f73",
         "category": "software",
         "rank": 3,
-        "ranking_score": 54.42,
+        "ranking_score": 54.39,
         "image_url": null,
-        "translation_status_ar": "machine"
+        "translation_status_ar": "machine_cached"
       }
     ],
     "ai": [
@@ -505,7 +504,7 @@
         "source": "techcrunch",
         "source_name": "TechCrunch",
         "published_at": "2026-11-25T20:03:27Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
         "title_en": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
         "title_ar": "تقول OpenAI إن مستخدمي ChatGPT الكثيفين قد يصلون إلى الحدود عاجلاً مع دمجها لـ Chat وWork",
@@ -514,7 +513,7 @@
         "id": "fb19c642f1b75584",
         "category": "ai",
         "rank": 1,
-        "ranking_score": 65.24,
+        "ranking_score": 65.21,
         "image_url": null
       },
       {
@@ -522,7 +521,7 @@
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-26T07:38:01Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Paying ChatGPT users will hit GPT-6.2 limits faster after OpenAI fixes a launch mistake",
         "title_en": "Paying ChatGPT users will hit GPT-6.2 limits faster after OpenAI fixes a launch mistake",
         "title_ar": "سيصل المستخدمون الذين يدفعون مقابل استخدام ChatGPT إلى حدود GPT-6.2 بشكل أسرع بعد أن تُصلح OpenAI خطأ الإطلاق",
@@ -531,16 +530,16 @@
         "id": "67ec06783db0d087",
         "category": "ai",
         "rank": 2,
-        "ranking_score": 64.99,
+        "ranking_score": 64.96,
         "image_url": null,
-        "translation_status_ar": "machine"
+        "translation_status_ar": "machine_cached"
       },
       {
         "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%86%d9%85%d9%88%d8%b0%d8%ac-claude-%d9%8a%d8%ad%d9%88%d9%84-artifacts-%d8%a5%d9%84%d9%89-%d8%aa%d8%b7%d8%a8%d9%8a%d9%82%d8%a7%d8%aa-%d9%85%d8%b3%d8%aa%d9%82%d9%84%d8%a9-%d8%b9%d9%84%d9%89-mac/",
         "source": "techwd",
         "source_name": "عالم التقنية",
         "published_at": "2026-11-26T04:15:36Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "نموذج Claude يحول artifacts إلى تطبيقات مستقلة على Mac وWindows في نسخة تجريبية",
         "title_en": "The Claude model transforms artifacts into standalone applications on Mac and Windows in a beta version.",
         "title_ar": "نموذج Claude يحول artifacts إلى تطبيقات مستقلة على Mac وWindows في نسخة تجريبية",
@@ -549,16 +548,16 @@
         "id": "d388ac34ca2226b0",
         "category": "ai",
         "rank": 3,
-        "ranking_score": 56.19,
+        "ranking_score": 56.16,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       },
       {
         "url": "https://3arrafni.com/tech-news/claude-install-as-app-mac-windows",
         "source": "arrafni",
         "source_name": "عرفني دوت كوم",
         "published_at": "2026-11-25T23:12:55Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "ميزة Install as app في Claude تحول العناصر إلى تطبيقات لـ Mac وWindows",
         "title_en": "Claude's Install as App feature converts items into apps for Mac and Windows.",
         "title_ar": "ميزة Install as app في Claude تحول العناصر إلى تطبيقات لـ Mac وWindows",
@@ -567,16 +566,16 @@
         "id": "c2c5008922db8637",
         "category": "ai",
         "rank": 4,
-        "ranking_score": 54.99,
+        "ranking_score": 54.96,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       },
       {
         "url": "https://www.neowin.net/news/google-improves-gemini-notebook-flashcards-with-images-timers-and-reminders/",
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-25T13:12:02Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Google improves Gemini Notebook flashcards with images, timers, and reminders",
         "title_en": "Google improves Gemini Notebook flashcards with images, timers, and reminders",
         "title_ar": "تحسّن غوغل البطاقات التعليمية لدفتر ملاحظات جيميني بالصور والمؤقّتات والتذكيرات",
@@ -585,7 +584,7 @@
         "id": "f40a114d9496dd7a",
         "category": "ai",
         "rank": 5,
-        "ranking_score": 52.61,
+        "ranking_score": 52.57,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       }
@@ -596,7 +595,7 @@
         "source": "techcrunch",
         "source_name": "TechCrunch",
         "published_at": "2026-11-25T17:36:51Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
         "title_en": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
         "title_ar": "تتهم وزارة العدل الأمريكية المدير التنفيذي السابق للأمن السيبراني بالاحتيال على ضحايا برامج الفدية من خلال الدفع سراً للقراصنة",
@@ -605,7 +604,7 @@
         "id": "1b214afa5a2f08b9",
         "category": "security",
         "rank": 1,
-        "ranking_score": 64.66,
+        "ranking_score": 64.63,
         "image_url": null
       },
       {
@@ -613,7 +612,7 @@
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-26T06:50:01Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "DOJ accuses ransomware recovery executive of paying cybercriminals to decrypt files",
         "title_en": "DOJ accuses ransomware recovery executive of paying cybercriminals to decrypt files",
         "title_ar": "وزارة العدل الأمريكية تتهم مسؤول استرداد البيانات من برامج الفدية بدفع أموال لمجرمي الإنترنت لفك تشفير الملفات",
@@ -622,16 +621,16 @@
         "id": "89526668aaf7118c",
         "category": "security",
         "rank": 2,
-        "ranking_score": 56.8,
+        "ranking_score": 56.77,
         "image_url": null,
-        "translation_status_ar": "machine"
+        "translation_status_ar": "machine_cached"
       },
       {
         "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1-%d9%85%d9%86-%d8%aa%d8%b5%d9%8a%d8%af-%d8%a7%d8%ad%d8%aa%d9%8a%d8%a7%d9%84%d9%8a-%d8%a8%d8%b9%d8%af-%d8%aa%d8%b3%d8%b1%d8%a8-%d8%a3%d8%b3%d9%85%d8%a7%d8%a1-%d9%88%d8%a8/",
         "source": "techwd",
         "source_name": "عالم التقنية",
         "published_at": "2026-11-26T03:54:42Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "تحذير من تصيد احتيالي بعد تسرب أسماء وبريد عملاء 1Password",
         "title_en": "Phishing warning following the leak of 1Password customer names and emails",
         "title_ar": "تحذير من تصيد احتيالي بعد تسرب أسماء وبريد عملاء 1Password",
@@ -640,16 +639,16 @@
         "id": "2dca000d7bae6f50",
         "category": "security",
         "rank": 3,
-        "ranking_score": 56.11,
+        "ranking_score": 56.08,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       },
       {
         "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
         "source": "bleeping",
         "source_name": "BleepingComputer",
         "published_at": "2026-11-25T10:10:20Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
         "title_en": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
         "title_ar": "يستغل المتسللون الآن ثغرة التنفيذ عن بُعد (RCE) الحرجة في Drupal للاستيلاء على المواقع",
@@ -658,7 +657,7 @@
         "id": "2a09216dda16ef09",
         "category": "security",
         "rank": 4,
-        "ranking_score": 55.88,
+        "ranking_score": 55.85,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -667,7 +666,7 @@
         "source": "aitnews",
         "source_name": "البوابة التقنية",
         "published_at": "2026-11-26T00:10:26Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "دروبال تحذر من ثغرة مستغلة تتيح السيطرة على مواقع رغم تحديثها أمنيًا",
         "title_en": "Drupal warns of an exploited vulnerability that allows control over websites despite their security updates.",
         "title_ar": "دروبال تحذر من ثغرة مستغلة تتيح السيطرة على مواقع رغم تحديثها أمنيًا",
@@ -676,9 +675,9 @@
         "id": "ca6c714b6db94e10",
         "category": "security",
         "rank": 5,
-        "ranking_score": 55.22,
+        "ranking_score": 55.19,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       }
     ],
     "smartphones": [
@@ -687,7 +686,7 @@
         "source": "techwd",
         "source_name": "عالم التقنية",
         "published_at": "2026-11-26T04:18:53Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "هاتف Vivo X500 FE يظهر في قاعدة بيانات NBD بذاكرة 8GB وتخزين 256GB",
         "title_en": "The Vivo X500 FE phone appears in the NBD database with 8GB of RAM and 256GB of storage.",
         "title_ar": "هاتف Vivo X500 FE يظهر في قاعدة بيانات NBD بذاكرة 8GB وتخزين 256GB",
@@ -696,16 +695,16 @@
         "id": "c68bd29c2d79b8d1",
         "category": "smartphones",
         "rank": 1,
-        "ranking_score": 64.2,
+        "ranking_score": 64.17,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       },
       {
         "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a3%d9%86%d8%af%d8%b1%d9%88%d9%8a%d8%af-17-%d9%85%d9%86-motorola-%d9%8a%d8%b9%d8%a7%d9%84%d8%ac-%d9%85%d8%b4%d9%83%d9%84%d8%a9-%d8%a7%d8%aa%d8%b5%d8%a7%d9%84-android/",
         "source": "techwd",
         "source_name": "عالم التقنية",
         "published_at": "2026-11-26T03:45:26Z",
-        "fetched_at": "2026-11-26T07:39:08Z",
+        "fetched_at": "2026-11-26T07:47:05Z",
         "original_title": "تحديث أندرويد 17 من Motorola يعالج مشكلة اتصال Android Auto في هواتف Razr",
         "title_en": "Motorola's Android 17 update fixes the Android Auto connection issue on Razr phones.",
         "title_ar": "تحديث أندرويد 17 من Motorola يعالج مشكلة اتصال Android Auto في هواتف Razr",
@@ -714,16 +713,16 @@
         "id": "5c7563cbd32f0cd1",
         "category": "smartphones",
         "rank": 2,
-        "ranking_score": 56.07,
+        "ranking_score": 56.04,
         "image_url": null,
-        "translation_status_en": "machine"
+        "translation_status_en": "machine_cached"
       },
       {
         "url": "https://www.macrumors.com/2026/11/25/iphone-battery-cyclops-ad/",
         "source": "macrumors",
         "source_name": "MacRumors",
         "published_at": "2026-11-25T17:16:43Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "iPhone 18 Pro Max Battery Exhausts a Toy Cyclops in New Apple Ad",
         "title_en": "iPhone 18 Pro Max Battery Exhausts a Toy Cyclops in New Apple Ad",
         "title_ar": "بطارية آيفون 18 برو ماكس تستنفد طاقة لعبة سايكلوبس في إعلان آبل الجديد",
@@ -732,7 +731,7 @@
         "id": "5029e7d1c069015e",
         "category": "smartphones",
         "rank": 3,
-        "ranking_score": 53.58,
+        "ranking_score": 53.55,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -741,7 +740,7 @@
         "source": "macrumors",
         "source_name": "MacRumors",
         "published_at": "2026-11-25T16:14:55Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "Apple Has an iPhone Notifications Problem",
         "title_en": "Apple Has an iPhone Notifications Problem",
         "title_ar": "تعاني Apple من مشكلة في إشعارات iPhone",
@@ -750,7 +749,7 @@
         "id": "1e514a94d022da1a",
         "category": "smartphones",
         "rank": 4,
-        "ranking_score": 53.33,
+        "ranking_score": 53.3,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       },
@@ -759,7 +758,7 @@
         "source": "neowin",
         "source_name": "Neowin",
         "published_at": "2026-11-25T09:20:02Z",
-        "fetched_at": "2026-11-26T07:39:27Z",
+        "fetched_at": "2026-11-26T07:47:13Z",
         "original_title": "OnePlus Nord 7 reportedly ditches Snapdragon and brings RGB lighting camera",
         "title_en": "OnePlus Nord 7 reportedly ditches Snapdragon and brings RGB lighting camera",
         "title_ar": "وفقًا للتقارير، يتخلى هاتف OnePlus Nord 7 عن معالج Snapdragon ويقدم كاميرا بإضاءة RGB",
@@ -768,7 +767,7 @@
         "id": "67844b50943e5f21",
         "category": "smartphones",
         "rank": 5,
-        "ranking_score": 51.68,
+        "ranking_score": 51.65,
         "image_url": null,
         "translation_status_ar": "machine_cached"
       }

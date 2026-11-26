@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T07:39:08Z",
+  "generated_at": "2026-11-26T07:47:05Z",
   "articles": [
+    {
+      "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+      "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T07:28:21Z",
+      "category": "أخبار التقنية",
+      "title_ar": "نيورالينك تحصل على موافقة إدارة الغذاء والدواء الأمريكية على تجربة \"محورية\" لزرع الدماغ في مرضى التصلب الجانبي الضموري",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
     {
       "title": "ريدينغتون تستعرض ملامح مستقبل مدعوم بالذكاء الاصطناعي خلال جيتكس جلوبال 2026",
       "url": "https://technologyarabia.com/archives/18157/%d8%b1%d9%8a%d8%af%d9%8a%d9%86%d8%ba%d8%aa%d9%88%d9%86-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7/",
@@ -187,17 +198,6 @@
       "published_at": "2026-11-25T21:51:26Z",
       "category": "أخبار التقنية",
       "title_ar": "براءة اختراع جوجل لخلاصات الفيديو المخصصة بالذكاء الاصطناعي ترسم صورة قاتمة لمستقبل الترفيه",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "7 gadgets that'll instantly upgrade your Thanksgiving feast",
-      "url": "https://www.engadget.com/2328767/gadgets-instantly-upgrade-thanksgiving-feast/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-25T21:41:43Z",
-      "category": "أخبار التقنية",
-      "title_ar": "7 أدوات ستُحدث فرقًا فوريًا في وليمة عيد الشكر",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
