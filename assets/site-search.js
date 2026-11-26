@@ -34,6 +34,7 @@
     trigger.className = "sitewide-search-trigger";
     trigger.setAttribute("aria-label", L.open);
     trigger.setAttribute("aria-haspopup", "dialog");
+    trigger.setAttribute("aria-expanded", "false");
     trigger.setAttribute("aria-controls", "sitewide-search-dialog");
     trigger.setAttribute("aria-keyshortcuts", "Control+K Meta+K");
     trigger.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg>';
@@ -279,7 +280,7 @@
     function open() {
       if (!layer.hidden) return;
       previousFocus=document.activeElement;
-      layer.hidden=false;document.body.classList.add("sitewide-search-open");
+      layer.hidden=false;trigger.setAttribute("aria-expanded","true");document.body.classList.add("sitewide-search-open");
       count.textContent=L.loading;message(L.loading);input.focus();
       loadIndex().then(calculate).catch(function (error) {
         console.error("Alghad search:",error);
@@ -288,9 +289,9 @@
     }
     function close() {
       if (layer.hidden) return;
-      layer.hidden=true;document.body.classList.remove("sitewide-search-open");
-      if (previousFocus && previousFocus.isConnected && typeof previousFocus.focus==="function") previousFocus.focus();
-      else trigger.focus();
+      layer.hidden=true;trigger.setAttribute("aria-expanded","false");document.body.classList.remove("sitewide-search-open");
+      if (previousFocus && previousFocus.isConnected && typeof previousFocus.focus==="function") previousFocus.focus({preventScroll:true});
+      else trigger.focus({preventScroll:true});
     }
     trigger.addEventListener("click",open);
     closeButton.addEventListener("click",close);

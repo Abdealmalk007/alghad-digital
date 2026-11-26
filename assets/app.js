@@ -168,6 +168,14 @@
     const opened=menu.classList.toggle("open");
     menuToggle.setAttribute("aria-expanded",String(opened));
   });
+  document.addEventListener("keydown",event=>{
+    if(event.key==="Escape" && menu.classList.contains("open") && !modal.open &&
+       !document.body.classList.contains("sitewide-search-open")) {
+      menu.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded","false");
+      menuToggle.focus({preventScroll:true});
+    }
+  });
   menu.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{
     menu.classList.remove("open");
     menuToggle.setAttribute("aria-expanded","false");
