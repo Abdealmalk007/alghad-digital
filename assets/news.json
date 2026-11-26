@@ -1,56 +1,78 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T14:07:27Z",
+  "generated_at": "2026-11-26T15:08:55Z",
   "articles": [
     {
-      "title": "تسريب: Vivo X500s قد يعمل بنسخة مخصصة من معالج Dimensity 9600 Pro",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-vivo-x500s-%d9%82%d8%af-%d9%8a%d8%b9%d9%85%d9%84-%d8%a8%d9%86%d8%b3%d8%ae%d8%a9-%d9%85%d8%ae%d8%b5%d8%b5%d8%a9-%d9%85%d9%86-%d9%85%d8%b9%d8%a7%d9%84%d8%ac-dimensity-960/",
+      "title": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-tp-link-tapo-c825-%d8%a8%d8%b4%d8%a7%d8%b4%d8%a9-%d9%84%d9%85%d8%b3-%d9%84%d9%85%d9%83%d8%a7%d9%84%d9%85%d8%a7%d8%aa-%d8%a7%d9%84/",
       "source": "techwd",
       "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T13:54:55Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريب: Vivo X500s قد يعمل بنسخة مخصصة من معالج Dimensity 9600 Pro",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تقرير: آبل تشغل macOS على أجهزة iPad داخلياً للاختبار",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a2%d8%a8%d9%84-%d8%aa%d8%b4%d8%ba%d9%84-macos-%d8%b9%d9%84%d9%89-%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-ipad-%d8%af%d8%a7%d8%ae%d9%84%d9%8a%d8%a7%d9%8b-%d9%84%d9%84%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T13:48:50Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تقرير: آبل تشغل macOS على أجهزة iPad داخلياً للاختبار",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تسريب: Redmi K100 Ultra بثلاث كاميرات بدقة 50MP وعدسة تقريب 3x",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-redmi-k100-ultra-%d8%a8%d8%ab%d9%84%d8%a7%d8%ab-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a8%d8%af%d9%82%d8%a9-50mp-%d9%88%d8%b9%d8%af%d8%b3%d8%a9-%d8%aa%d9%82/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T13:44:04Z",
+      "published_at": "2026-11-26T14:29:45Z",
       "category": "أخبار التقنية",
-      "title_ar": "تسريب: Redmi K100 Ultra بثلاث كاميرات بدقة 50MP وعدسة تقريب 3x",
+      "title_ar": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
       "translation_status": "original_ar"
     },
     {
-      "title": "إطلاق سلسلة vivo X500 في الهند بسعر يبدأ من نحو 1259 دولار أمريكي",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%b3%d9%84%d8%b3%d9%84%d8%a9-vivo-x500-%d9%81%d9%8a-%d8%a7%d9%84%d9%87%d9%86%d8%af-%d8%a8%d8%b3%d8%b9%d8%b1-%d9%8a%d8%a8%d8%af%d8%a3-%d9%85%d9%86-%d9%86%d8%ad%d9%88-12/",
+      "title": "هاتف Honor Choice T20 يصل ببطارية 7000mAh وسعر يبلغ 146 دولار",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%87%d8%a7%d8%aa%d9%81-honor-choice-t20-%d9%8a%d8%b5%d9%84-%d8%a8%d8%a8%d8%b7%d8%a7%d8%b1%d9%8a%d8%a9-7000mah-%d9%88%d8%b3%d8%b9%d8%b1-%d9%8a%d8%a8%d9%84%d8%ba-146-%d8%af%d9%88%d9%84%d8%a7%d8%b1/",
       "source": "techwd",
       "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T13:40:47Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إطلاق سلسلة vivo X500 في الهند بسعر يبدأ من نحو 1259 دولار أمريكي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "شحنات الهواتف الذكية تتجه إلى أكبر انخفاض سنوي في 2026",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%b4%d8%ad%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%87%d9%88%d8%a7%d8%aa%d9%81-%d8%a7%d9%84%d8%b0%d9%83%d9%8a%d8%a9-%d8%aa%d8%aa%d8%ac%d9%87-%d8%a5%d9%84%d9%89-%d8%a3%d9%83%d8%a8%d8%b1-%d8%a7%d9%86%d8%ae/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T13:34:26Z",
+      "published_at": "2026-11-26T14:25:28Z",
       "category": "الهواتف والأجهزة",
-      "title_ar": "شحنات الهواتف الذكية تتجه إلى أكبر انخفاض سنوي في 2026",
+      "title_ar": "هاتف Honor Choice T20 يصل ببطارية 7000mAh وسعر يبلغ 146 دولار",
       "translation_status": "original_ar"
+    },
+    {
+      "title": "لعبة The Witcher 4 ستأتي في علبة فعلية",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%84%d8%b9%d8%a8%d8%a9-the-witcher-4-%d8%b3%d8%aa%d8%a3%d8%aa%d9%8a-%d9%81%d9%8a-%d8%b9%d9%84%d8%a8%d8%a9-%d9%81%d8%b9%d9%84%d9%8a%d8%a9/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T14:22:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لعبة The Witcher 4 ستأتي في علبة فعلية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ساعات Casio Baby-G BGD-565FG بطابع Y2K تصل إلى اليابان بنحو 60 دولار",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-casio-baby-g-bgd-565fg-%d8%a8%d8%b7%d8%a7%d8%a8%d8%b9-y2k-%d8%aa%d8%b5%d9%84-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%8a%d8%a7%d8%a8%d8%a7%d9%86-%d8%a8%d9%86%d8%ad%d9%88-60/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T14:17:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ساعات Casio Baby-G BGD-565FG بطابع Y2K تصل إلى اليابان بنحو 60 دولار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "مكبر صوت Xiaomi Sound INF بقدرة 150 واط وBluetooth 6.0 يظهر في أوروبا",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%85%d9%83%d8%a8%d8%b1-%d8%b5%d9%88%d8%aa-xiaomi-sound-inf-%d8%a8%d9%82%d8%af%d8%b1%d8%a9-150-%d9%88%d8%a7%d8%b7-%d9%88bluetooth-6-0-%d9%8a%d8%b8%d9%87%d8%b1-%d9%81%d9%8a-%d8%a3%d9%88%d8%b1%d9%88/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T14:14:15Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مكبر صوت Xiaomi Sound INF بقدرة 150 واط وBluetooth 6.0 يظهر في أوروبا",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Samsung’s R95H TV shows what RGB LED is capable of",
+      "url": "https://www.theverge.com/tech/1042613/samsung-r95h-rgb-led-tv-review",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-26T14:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يعرض تلفزيون R95H من سامسونج ما يمكن أن تقدمه تقنية RGB LED",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The Screens app will let you turn your iPhone Duo into an itty bitty MacBook",
+      "url": "https://www.engadget.com/2329115/the-screens-app-will-let-you-turn-your-iphone-duo-into-an-itty-bitty-macbook/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T13:59:06Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "سيتيح لك تطبيق Screens تحويل جهاز iPhone Duo إلى جهاز MacBook صغير جدًا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "Casetify's Pokémon 30th anniversary collection includes a Poké Ball case for your AirPods",
@@ -71,6 +93,16 @@
       "published_at": "2026-11-26T12:46:50Z",
       "category": "أخبار التقنية",
       "title_ar": "كيف تجني المال من سرقة السيارات في لعبة GTA 6؟",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "حملة خبيثة تستهدف حسابات الأعمال في فيسبوك ورسائل جيميل وأوتلوك",
+      "url": "https://aitnews.com/2026/11/26/%d8%ad%d9%85%d9%84%d8%a9-%d8%ae%d8%a8%d9%8a%d8%ab%d8%a9-%d8%ad%d8%b3%d8%a7%d8%a8%d8%a7%d8%aa-%d9%81%d9%8a%d8%b3%d8%a8%d9%88%d9%83-%d9%88%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%af/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T12:40:48Z",
+      "category": "أخبار التقنية",
+      "title_ar": "حملة خبيثة تستهدف حسابات الأعمال في فيسبوك ورسائل جيميل وأوتلوك",
       "translation_status": "original_ar"
     },
     {
@@ -117,6 +149,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "فولفو تبدأ تدريب روبوتات بشرية في مصنعها ببلجيكا تمهيدًا لاستخدامها في الإنتاج منتصف 2027",
+      "url": "https://aitnews.com/2026/11/26/%d9%81%d9%88%d9%84%d9%81%d9%88-%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d8%b1%d9%88%d8%a8%d9%88%d8%aa%d8%a7%d8%aa-%d8%a7%d9%84%d8%a8%d8%b4%d8%b1%d9%8a%d8%a9/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:55:49Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "فولفو تبدأ تدريب روبوتات بشرية في مصنعها ببلجيكا تمهيدًا لاستخدامها في الإنتاج منتصف 2027",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
       "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
       "source": "wired",
@@ -126,6 +168,16 @@
       "title_ar": "ميتا ترفض مشاركة Muse للاختبار، والهيئة المالية البريطانية تقدم شكوى",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "المفاعلات النووية المعيارية الصغيرة.. تكنولوجيا طاقة المستقبل",
+      "url": "https://www.aljazeera.net/encyclopedia/2026/11/26/%d8%a7%d9%84%d9%85%d9%81%d8%a7%d8%b9%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%86%d9%88%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%8a%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%b5%d8%ba%d9%8a%d8%b1%d8%a9?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-26T10:46:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "المفاعلات النووية المعيارية الصغيرة.. تكنولوجيا طاقة المستقبل",
+      "translation_status": "original_ar"
     },
     {
       "title": "X is finally getting its first parental controls",
@@ -149,6 +201,26 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "صندوق الإمارات للنمو يوقّع اتفاقية لاستثمار 10.5 ملايين دولار في XEBO.ai",
+      "url": "https://aitnews.com/2026/11/26/%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%84%d9%86%d9%85%d9%88-%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:15:24Z",
+      "category": "أخبار التقنية",
+      "title_ar": "صندوق الإمارات للنمو يوقّع اتفاقية لاستثمار 10.5 ملايين دولار في XEBO.ai",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "فايننشال تايمز: إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى أربع دول آسيوية",
+      "url": "https://aitnews.com/2026/11/26/%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d9%88%d9%82%d9%81-%d8%b4%d8%ad%d9%86-%d8%a7%d9%84%d8%ae%d9%88%d8%a7%d8%af%d9%85-%d8%a2%d8%b3%d9%8a%d8%a7/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:12:33Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "فايننشال تايمز: إنفيديا توقف شحن خوادم الذكاء الاصطناعي إلى أربع دول آسيوية",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "اختراق إلكتروني يهز \"فيفا\" ويسفر عن سرقة معلومات شخصية وتجارية",
       "url": "https://www.aljazeera.net/sport/2026/11/26/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a-%d9%81%d9%8a%d9%81%d8%a7-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa?traffic_source=rss",
       "source": "aljazeera",
@@ -166,6 +238,16 @@
       "published_at": "2026-11-26T10:06:56Z",
       "category": "أخبار التقنية",
       "title_ar": "بعد ساعات العمل، يجب أن يظل نشاطك التجاري مستعداً للرد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "كوريا الجنوبية ترقي الإنترنت المجاني في نحو 33 ألف حافلة إلى Wi-Fi 7",
+      "url": "https://aitnews.com/2026/11/26/%d9%83%d9%88%d8%b1%d9%8a%d8%a7-%d8%a7%d9%84%d8%ac%d9%86%d9%88%d8%a8%d9%8a%d8%a9-%d8%aa%d8%b1%d9%82%d9%8a%d8%a9-%d9%88%d8%a7%d9%8a-%d9%81%d8%a7%d9%8a/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-26T10:05:14Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "كوريا الجنوبية ترقي الإنترنت المجاني في نحو 33 ألف حافلة إلى Wi-Fi 7",
       "translation_status": "original_ar"
     },
     {
@@ -191,16 +273,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "وكيل الذكاء الاصطناعي \"إنستنكت\" يثير الجدل.. فأين الحقيقة؟",
-      "url": "https://www.aljazeera.net/tech/2026/11/26/%d9%88%d9%83%d9%8a%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a5%d9%86%d8%b3%d8%aa%d9%86%d9%83%d8%aa-%d9%8a%d8%ab%d9%8a%d8%b1?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-26T09:17:28Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "وكيل الذكاء الاصطناعي \"إنستنكت\" يثير الجدل.. فأين الحقيقة؟",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "امنكس تستعرض حلول الذكاء الاصطناعي التي تتجاوز المرحلة التجريبية خلال معرض جيتكس جلوبال 2026",
       "url": "https://technologyarabia.com/archives/18160/%d8%a7%d9%85%d9%86%d9%83%d8%b3-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a/",
       "source": "technologyarabia",
@@ -208,36 +280,6 @@
       "published_at": "2026-11-26T08:52:25Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "امنكس تستعرض حلول الذكاء الاصطناعي التي تتجاوز المرحلة التجريبية خلال معرض جيتكس جلوبال 2026",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "طفرة مراكز البيانات ترفع استثمارات أستراليا بأسرع وتيرة منذ 2011.. لكن من يستفيد؟",
-      "url": "https://techvoicearabia.com/australia-data-center-investment-surge-2026/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-26T08:04:15Z",
-      "category": "أخبار التقنية",
-      "title_ar": "طفرة مراكز البيانات ترفع استثمارات أستراليا بأسرع وتيرة منذ 2011.. لكن من يستفيد؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "من ملاعب الأطفال إلى خوادم الذكاء الاصطناعي.. لماذا يحتج سكان اليابان؟",
-      "url": "https://techvoicearabia.com/japan-ai-data-centers-residents-protests/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-26T07:54:34Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "من ملاعب الأطفال إلى خوادم الذكاء الاصطناعي.. لماذا يحتج سكان اليابان؟",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "إنفيديا توقف شحن خوادمها إلى 4 دول.. وعودة جنسن هوانغ تفجّر خلافًا داخل واشنطن",
-      "url": "https://techvoicearabia.com/nvidia-halts-ai-server-shipments-asia-huang/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-26T07:42:55Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إنفيديا توقف شحن خوادمها إلى 4 دول.. وعودة جنسن هوانغ تفجّر خلافًا داخل واشنطن",
       "translation_status": "original_ar"
     },
     {
@@ -252,37 +294,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "ريدينغتون تستعرض ملامح مستقبل مدعوم بالذكاء الاصطناعي خلال جيتكس جلوبال 2026",
-      "url": "https://technologyarabia.com/archives/18157/%d8%b1%d9%8a%d8%af%d9%8a%d9%86%d8%ba%d8%aa%d9%88%d9%86-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-26T07:05:00Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ريدينغتون تستعرض ملامح مستقبل مدعوم بالذكاء الاصطناعي خلال جيتكس جلوبال 2026",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "New York state bans AI chatbot toys for kids",
-      "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T06:02:48Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ولاية نيويورك تحظر ألعاب روبوتات الدردشة المدعومة بالذكاء الاصطناعي للأطفال",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "نيورالينك تحصل على موافقة FDA لتجربة شريحة الدماغ",
-      "url": "https://techvoicearabia.com/neuralink-fda-approval-link-pivotal-study-2026/",
-      "source": "techvoice",
-      "source_name": "تيك فويس عربية",
-      "published_at": "2026-11-26T05:46:44Z",
-      "category": "أخبار التقنية",
-      "title_ar": "نيورالينك تحصل على موافقة FDA لتجربة شريحة الدماغ",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
       "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
       "source": "theverge",
@@ -290,17 +301,6 @@
       "published_at": "2026-11-26T00:04:34Z",
       "category": "أخبار التقنية",
       "title_ar": "الآن تعمل ميزة الذكاء الاصطناعي \"الوجوه المألوفة\" من Google على كاميرا المنزل الذكي من Walmart التي تبلغ تكلفتها 35 دولارًا أيضًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Amazon loses its latest attempt to get out of handling more recall notices",
-      "url": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-25T23:56:44Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تفشل أمازون في أحدث محاولاتها للتخلص من التعامل مع المزيد من إشعارات الاستدعاء",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -387,7 +387,7 @@
       "id": "aitnews",
       "name": "البوابة التقنية",
       "url": "https://aitnews.com/",
-      "active": false
+      "active": true
     },
     {
       "id": "techwd",
@@ -405,7 +405,7 @@
       "id": "techvoice",
       "name": "تيك فويس عربية",
       "url": "https://techvoicearabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "technologyarabia",

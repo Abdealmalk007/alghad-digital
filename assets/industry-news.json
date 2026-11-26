@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T14:07:30Z",
+  "generated_at": "2026-11-26T15:08:59Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -258,6 +258,19 @@
           "translation_provider": "MyMemory"
         },
         {
+          "title": "15 years of investing in Colombia’s talent and future",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/15-years-investing-colombia-talent-future/",
+          "source": "google",
+          "source_name": "Google",
+          "published_at": "2026-11-26T18:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "companies",
+          "title_ar": "15 عامًا من الاستثمار في المواهب والمستقبل في كولومبيا",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "Come for the Games, Stay for the Community With GeForce NOW",
           "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
           "source": "nvidia",
@@ -345,19 +358,6 @@
           "official": true,
           "topic": "companies",
           "title_ar": "يجسد صانعو الأفلام المستقلون في الهند قصصًا على الشاشة الكبيرة باستخدام Google Flow.",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "We’re expanding our London home in King's Cross.",
-          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/expanding-london-home-kings-cross/",
-          "source": "google",
-          "source_name": "Google",
-          "published_at": "2026-11-24T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "companies",
-          "title_ar": "نحن بصدد توسيع مقرنا في لندن في كينغز كروس.",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
