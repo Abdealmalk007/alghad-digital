@@ -76,6 +76,8 @@ jobs:
           fi
       - name: Keep Google search identity and publication dates accurate
         run: python scripts/optimize_search_visibility.py
+      - name: Build V6 product experience in both languages
+        run: python scripts/build_v6.py
       - name: Refresh sitewide search over pages, software and latest news
         run: python scripts/build_site_search.py
       - name: Keep search snippets concise and heading hierarchy accessible
@@ -120,6 +122,7 @@ jobs:
           node tests/windows-office-sources-test.cjs
           node tests/quotes-beta3-release-test.cjs
           node tests/news-refresh-reliability-test.cjs
+          node tests/v6-test.cjs
       - name: Validate generated news data
         run: |
           python - <<'PY'
