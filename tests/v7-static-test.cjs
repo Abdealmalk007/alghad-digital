@@ -7,7 +7,7 @@ for(const route of refs){
  const h=read(route+"index.html");
  assert.equal((h.match(/V7_ASSETS_BEGIN/g)||[]).length,1);
  assert.equal((h.match(/V7_BOOT_BEGIN/g)||[]).length,1);
- assert.ok(h.includes("/assets/fonts/plex.css?v=5.3.0")&&h.includes("/assets/v7.css?v=7.0.0"));
+ assert.ok(h.includes("/assets/fonts/plex.css?v=5.3.1")&&h.includes("/assets/v7.css?v=7.0.0"));
  const boot=h.match(/<script id="v7-theme-bootstrap">([\s\S]*?)<\/script>/)?.[1];
  assert.equal(boot,read("assets/v7-theme.js").trim());
  const hash="'sha256-"+crypto.createHash("sha256").update(boot).digest("base64")+"'";
@@ -23,7 +23,7 @@ for(const route of refs){
 }
 assert.equal(read("favicon.svg").trim(),read("assets/brand/dawn-g.svg").trim());
 assert.ok(read("assets/fonts/OFL-LICENSE.txt").includes("SIL OPEN FONT LICENSE"));
-for(const w of [400,500,600,700])for(const s of ["arabic","latin","latin-ext"]){const file="assets/fonts/ibm-plex-sans-arabic-"+s+"-"+w+"-normal.woff2";assert.equal(fs.readFileSync(path.join(root,file)).toString("ascii",0,4),"wOF2");assert.ok(read("assets/fonts/plex.css").includes(file))}
+for(const w of [400,500,600,700])for(const s of ["arabic","latin","latin-ext"]){const file="assets/fonts/optimized/ibm-plex-sans-arabic-"+s+"-"+w+"-normal.woff2";assert.equal(fs.readFileSync(path.join(root,file)).toString("ascii",0,4),"wOF2");assert.ok(read("assets/fonts/plex.css").includes(file));const original=file.replace("/optimized/","/");assert.ok(fs.statSync(path.join(root,file)).size<fs.statSync(path.join(root,original)).size)}
 assert.equal(JSON.parse(read("site.webmanifest")).display,"standalone");
 assert.ok(read("sw.js").includes('r.method!=="GET"'));assert.ok(read("sw.js").includes('u.origin!==self.location.origin'));assert.ok(read("sw.js").includes('authorization'));
 assert.ok(read("offline.html").includes('content="noindex"'));

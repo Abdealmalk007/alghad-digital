@@ -21,7 +21,7 @@ for url in urls:
  boot='<!-- V7_BOOT_BEGIN --><script id="v7-theme-bootstrap">'+theme_js+'</script>'
  if route in ('','en'):
   subset='latin' if en else 'arabic'
-  boot+=''.join(f'<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/ibm-plex-sans-arabic-{subset}-{w}-normal.woff2" crossorigin>' for w in (400,700))
+  boot+=''.join(f'<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/optimized/ibm-plex-sans-arabic-{subset}-{w}-normal.woff2" crossorigin>' for w in (400,700))
  boot+='<!-- V7_BOOT_END -->'
  assert s.count('</title>')==1
  def authorize(m):
@@ -34,7 +34,7 @@ for url in urls:
  s,n=re.subn(r'<meta http-equiv="Content-Security-Policy" content="[^"]+">',authorize,s,count=1);assert n==1
  assert s.index('V7_BOOT_BEGIN')<s.index('rel="stylesheet"')
 
- assets='<!-- V7_ASSETS_BEGIN --><link rel="stylesheet" href="/assets/fonts/plex.css?v=5.3.0"><link rel="stylesheet" href="/assets/v7.css?v=7.0.0"><script defer src="/assets/v7.js?v=7.0.0"></script><!-- V7_ASSETS_END -->'
+ assets='<!-- V7_ASSETS_BEGIN --><link rel="stylesheet" href="/assets/fonts/plex.css?v=5.3.1"><link rel="stylesheet" href="/assets/v7.css?v=7.0.0"><script defer src="/assets/v7.js?v=7.0.0"></script><!-- V7_ASSETS_END -->'
  assert s.count('</head>')==1
  s=s.replace('</head>',assets+'</head>',1)
  if route=='':
