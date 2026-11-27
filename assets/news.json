@@ -1,7 +1,72 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T15:01:10Z",
+  "generated_at": "2026-11-27T17:40:20Z",
   "articles": [
+    {
+      "title": "Hackers reportedly infiltrated the Air Force's cloud systems",
+      "url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-27T16:55:43Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أفادت التقارير أن قراصنة اخترقوا أنظمة السحابة الخاصة بالقوات الجوية",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "5 Costco Electronics With Deep Discounts For Black Friday 2026",
+      "url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-27T16:51:43Z",
+      "category": "أخبار التقنية",
+      "title_ar": "5 أجهزة إلكترونية من كوستكو بخصومات كبيرة للجمعة البيضاء 2026",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "WhatsApp adds support for travel eSIMs",
+      "url": "https://www.engadget.com/2329553/whatsapp-adds-support-for-travel-esims/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-27T16:24:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يضيف واتساب دعمًا لبطاقات eSIM للسفر",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "وزارة العمل البريطانية تعلق خدماتها بعد هجوم سيبراني جديد",
+      "url": "https://www.aljazeera.net/news/2026/11/27/%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b9%d9%84%d9%82-%d8%ae%d8%af%d9%85%d8%a7%d8%aa?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-27T14:14:22Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "وزارة العمل البريطانية تعلق خدماتها بعد هجوم سيبراني جديد",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-27T14:00:00Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "تُعدّ الأدوات المصغّرة التي يمكنك تخصيصها بنفسك في نظام التشغيل أندرويد بمثابة متعة في مجال برمجة الأجواء",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "This gaming mouse should be a Logitech-killer, but it has one big flaw",
+      "url": "https://www.theverge.com/games/1043028/keychron-g6-he-hall-effect-magoptic-gaming-mouse-impressions",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-27T14:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "من المفترض أن يكون ماوس الألعاب هذا منافسًا قويًا لـ Logitech، لكنه يحتوي على عيب كبير واحد",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
     {
       "title": "X تضيف 6 أدوات رقابة أبوية لحسابات المراهقين",
       "url": "https://3arrafni.com/x-parental-controls-teen-accounts",
@@ -10,56 +75,6 @@
       "published_at": "2026-11-27T13:38:08Z",
       "category": "أخبار التقنية",
       "title_ar": "X تضيف 6 أدوات رقابة أبوية لحسابات المراهقين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
-      "url": "https://aitnews.com/2026/11/27/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:18:52Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "علي باي تطلق وكيل ذكاء اصطناعي للتسوق والدفع صوتيًا من داخل السيارات",
-      "url": "https://aitnews.com/2026/11/27/%d8%b9%d9%84%d9%8a-%d8%a8%d8%a7%d9%8a-%d8%a7%d9%84%d8%af%d9%81%d8%b9-%d8%a7%d9%84%d8%b5%d9%88%d8%aa%d9%8a-%d9%84%d9%84%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:17:49Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "علي باي تطلق وكيل ذكاء اصطناعي للتسوق والدفع صوتيًا من داخل السيارات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "وكيل ذكاء اصطناعي يشتري البيتزا بالدفع المباشر من حساب مصرفي في بريطانيا",
-      "url": "https://aitnews.com/2026/11/27/%d9%88%d9%83%d9%8a%d9%84-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a7%d9%84%d8%af%d9%81%d8%b9-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%81%d9%8a/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:16:42Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "وكيل ذكاء اصطناعي يشتري البيتزا بالدفع المباشر من حساب مصرفي في بريطانيا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ميتوان المالكة لمنصة «كيتا» تحقق إيرادات فصلية قدرها 17.37 مليار دولار",
-      "url": "https://aitnews.com/2026/11/27/%d9%85%d9%8a%d8%aa%d9%88%d8%a7%d9%86-%d8%a5%d9%8a%d8%b1%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a8%d8%b9-%d8%a7%d9%84%d8%ab%d8%a7%d9%84%d8%ab-2026/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:15:51Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "ميتوان المالكة لمنصة «كيتا» تحقق إيرادات فصلية قدرها 17.37 مليار دولار",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "مون شوت تتيح للباحثين أرصدة ذكاء اصطناعي تصل إلى 20 ألف دولار",
-      "url": "https://aitnews.com/2026/11/27/%d9%85%d9%88%d9%86-%d8%b4%d9%88%d8%aa-%d8%a3%d8%b1%d8%b5%d8%af%d8%a9-%d9%83%d9%8a%d9%85%d9%8a-%d9%84%d9%84%d8%a8%d8%a7%d8%ad%d8%ab%d9%8a%d9%86/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:14:28Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "مون شوت تتيح للباحثين أرصدة ذكاء اصطناعي تصل إلى 20 ألف دولار",
       "translation_status": "original_ar"
     },
     {
@@ -104,16 +119,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "اختراق يطال سلاح الجو الأمريكي ويعطل عددا من عملياته.. ما القصة؟",
-      "url": "https://www.aljazeera.net/tech/2026/11/27/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d9%8a%d8%b7%d8%a7%d9%84-%d8%b3%d9%84%d8%a7%d8%ad-%d8%a7%d9%84%d8%ac%d9%88-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d9%88%d9%8a%d8%b9%d8%b7%d9%84?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-27T11:36:26Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق يطال سلاح الجو الأمريكي ويعطل عددا من عملياته.. ما القصة؟",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
       "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
       "source": "arstechnica",
@@ -152,16 +157,6 @@
       "published_at": "2026-11-27T10:28:04Z",
       "category": "الذكاء الاصطناعي",
       "title_ar": "ملخص الأسبوع | Gemini 4 Neon وعودة هوانج و GTA 6 تواصل تحطيم الأرقام",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "شركة \"إيه إس إم إل\" الهولندية تعود للواجهة بفعل حرب الرقائق بين أمريكا والصين",
-      "url": "https://www.aljazeera.net/video/2026/11/27/%d8%b4%d8%b1%d9%83%d8%a9-%d8%a5%d9%8a%d9%87-%d8%a5%d8%b3-%d8%a5%d9%85-%d8%a5%d9%84-%d8%a7%d9%84%d9%87%d9%88%d9%84%d9%86%d8%af%d9%8a%d8%a9-%d8%aa%d8%b9%d9%88%d8%af?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-27T10:22:47Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "شركة \"إيه إس إم إل\" الهولندية تعود للواجهة بفعل حرب الرقائق بين أمريكا والصين",
       "translation_status": "original_ar"
     },
     {
@@ -260,17 +255,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "1Password says it was hacked but users' vaults are safe",
-      "url": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T20:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تقول 1Password إنها تعرضت للاختراق ولكن خزائن المستخدمين آمنة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Is Alice Huang a spy or not?",
       "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
       "source": "techcrunch",
@@ -278,17 +262,6 @@
       "published_at": "2026-11-26T20:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "هل أليس هوانغ جاسوسة أم لا؟",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Amazon workers around the world plan strikes and protests on Black Friday and Cyber Monday",
-      "url": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T19:44:49Z",
-      "category": "أخبار التقنية",
-      "title_ar": "عمال أمازون في جميع أنحاء العالم يخططون للإضرابات والاحتجاجات في الجمعة البيضاء والاثنين الإلكتروني",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -304,13 +277,24 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
-      "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T18:09:18Z",
+      "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
+      "url": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-26T18:00:29Z",
       "category": "أخبار التقنية",
-      "title_ar": "ذكرت التقارير أن إنفيديا توقف شحنات رقائق الذكاء الاصطناعي إلى جنوب شرق آسيا",
+      "title_ar": "فورد تكشف النقاب عن سيارة GT41 على أمل الفوز بسباق لو مان مرة أخرى",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-26T17:07:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "يحصل جهاز ماك بوك نيو على خصم نادر قدره 100 دولار للجمعة البيضاء",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -326,6 +310,47 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "A month with the iPhone Duo has changed how I use my phone",
+      "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-26T17:00:00Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "لقد غيّر شهر مع جهاز iPhone Duo طريقة استخدامي لهاتفي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-tp-link-tapo-c825-%d8%a8%d8%b4%d8%a7%d8%b4%d8%a9-%d9%84%d9%85%d8%b3-%d9%84%d9%85%d9%83%d8%a7%d9%84%d9%85%d8%a7%d8%aa-%d8%a7%d9%84/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T14:29:45Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "هاتف Honor Choice T20 يصل ببطارية 7000mAh وسعر يبلغ 146 دولار",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%87%d8%a7%d8%aa%d9%81-honor-choice-t20-%d9%8a%d8%b5%d9%84-%d8%a8%d8%a8%d8%b7%d8%a7%d8%b1%d9%8a%d8%a9-7000mah-%d9%88%d8%b3%d8%b9%d8%b1-%d9%8a%d8%a8%d9%84%d8%ba-146-%d8%af%d9%88%d9%84%d8%a7%d8%b1/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T14:25:28Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "هاتف Honor Choice T20 يصل ببطارية 7000mAh وسعر يبلغ 146 دولار",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "لعبة The Witcher 4 ستأتي في علبة فعلية",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%84%d8%b9%d8%a8%d8%a9-the-witcher-4-%d8%b3%d8%aa%d8%a3%d8%aa%d9%8a-%d9%81%d9%8a-%d8%b9%d9%84%d8%a8%d8%a9-%d9%81%d8%b9%d9%84%d9%8a%d8%a9/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T14:22:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": "لعبة The Witcher 4 ستأتي في علبة فعلية",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Google search alternative Kagi launches Gmail rival",
       "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
       "source": "arstechnica",
@@ -337,17 +362,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "1Password breach leaked customer names and emails, but not passwords",
-      "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-25T19:10:15Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أدى اختراق 1Password إلى تسريب أسماء العملاء وعناوين بريدهم الإلكتروني، ولكن ليس كلمات المرور",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "1Password said hackers broke into its internal systems, but customer passwords are safe",
       "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
       "source": "techcrunch",
@@ -355,17 +369,6 @@
       "published_at": "2026-11-25T18:49:52Z",
       "category": "أخبار التقنية",
       "title_ar": "قالت 1Password إن المتسللين اخترقوا أنظمتها الداخلية، لكن كلمات مرور العملاء آمنة",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
-      "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-25T17:36:51Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تتهم وزارة العدل الأمريكية المدير التنفيذي السابق للأمن السيبراني بالاحتيال على ضحايا برامج الفدية من خلال الدفع سراً للقراصنة",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -386,7 +389,7 @@
       "id": "aitnews",
       "name": "البوابة التقنية",
       "url": "https://aitnews.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "techwd",
