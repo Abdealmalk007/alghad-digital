@@ -1,28 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T14:05:35Z",
+  "generated_at": "2026-11-27T15:01:10Z",
   "articles": [
     {
-      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
-      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-27T14:00:00Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تُعدّ الأدوات المصغّرة التي يمكن للمستخدم إنشاءها بنفسه في نظام التشغيل أندرويد بمثابة متعة في مجال برمجة الأجواء",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "This gaming mouse should be a Logitech-killer, but it has one big flaw",
-      "url": "https://www.theverge.com/games/1043028/keychron-g6-he-hall-effect-magoptic-gaming-mouse-impressions",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-27T14:00:00Z",
+      "title": "X تضيف 6 أدوات رقابة أبوية لحسابات المراهقين",
+      "url": "https://3arrafni.com/x-parental-controls-teen-accounts",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-27T13:38:08Z",
       "category": "أخبار التقنية",
-      "title_ar": "من المفترض أن يكون ماوس الألعاب هذا منافسًا قويًا لـ Logitech، لكنه يعاني من عيب كبير واحد",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
+      "title_ar": "X تضيف 6 أدوات رقابة أبوية لحسابات المراهقين",
+      "translation_status": "original_ar"
     },
     {
       "title": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
@@ -116,6 +104,16 @@
       "translation_status": "original_ar"
     },
     {
+      "title": "اختراق يطال سلاح الجو الأمريكي ويعطل عددا من عملياته.. ما القصة؟",
+      "url": "https://www.aljazeera.net/tech/2026/11/27/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d9%8a%d8%b7%d8%a7%d9%84-%d8%b3%d9%84%d8%a7%d8%ad-%d8%a7%d9%84%d8%ac%d9%88-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d9%88%d9%8a%d8%b9%d8%b7%d9%84?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-27T11:36:26Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "اختراق يطال سلاح الجو الأمريكي ويعطل عددا من عملياته.. ما القصة؟",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
       "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
       "source": "arstechnica",
@@ -177,16 +175,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "كريم تطلق Family Circle لمشاركة الدفع مع أفراد الأسرة بالإمارات",
-      "url": "https://3arrafni.com/tech-news/careem-family-circle-uae",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-27T09:58:08Z",
-      "category": "أخبار التقنية",
-      "title_ar": "كريم تطلق Family Circle لمشاركة الدفع مع أفراد الأسرة بالإمارات",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Google will soon share Android developers' addresses publicly",
       "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
       "source": "engadget",
@@ -196,16 +184,6 @@
       "title_ar": "ستشارك غوغل قريبًا عناوين مطوري أندرويد علنًا",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تسلا تحاكي ألعاب الفيديو في تحديث القيادة الذاتية",
-      "url": "https://www.aljazeera.net/motors/2026/11/27/%d8%aa%d8%b3%d9%84%d8%a7-%d8%aa%d8%ad%d8%a7%d9%83%d9%8a-%d8%a3%d9%84%d8%b9%d8%a7%d8%a8-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d9%81%d9%8a-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-27T09:33:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تسلا تحاكي ألعاب الفيديو في تحديث القيادة الذاتية",
-      "translation_status": "original_ar"
     },
     {
       "title": "اختراق 1Password يتسبب في تسريب بيانات عملاء دون الوصول إلى الخزائن",
@@ -326,6 +304,17 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
+      "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T18:09:18Z",
+      "category": "أخبار التقنية",
+      "title_ar": "ذكرت التقارير أن إنفيديا توقف شحنات رقائق الذكاء الاصطناعي إلى جنوب شرق آسيا",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
       "title": "Android app developers will soon have to share their address publicly",
       "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
       "source": "theverge",
@@ -344,6 +333,17 @@
       "published_at": "2026-11-25T20:57:09Z",
       "category": "أخبار التقنية",
       "title_ar": "بديل بحث جوجل Kagi يطلق منافسًا لـ Gmail",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "1Password breach leaked customer names and emails, but not passwords",
+      "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-25T19:10:15Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أدى اختراق 1Password إلى تسريب أسماء العملاء وعناوين بريدهم الإلكتروني، ولكن ليس كلمات المرور",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
