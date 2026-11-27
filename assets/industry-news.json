@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T20:06:41Z",
+  "generated_at": "2026-11-27T14:05:40Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -484,6 +484,32 @@
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
         {
+          "title": "Subaru Corporation Announces Production, Japan Sales and Export Results for October 2026",
+          "url": "https://www.subaru.co.jp/news-en/2026_11_27_134928/",
+          "source": "subaru",
+          "source_name": "Subaru",
+          "published_at": "2026-11-27T06:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "تعلن شركة سوبارو عن نتائج الإنتاج والمبيعات في اليابان والصادرات لشهر أكتوبر 2026",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
+          "title": "Sales, Production, and Export Results for October 2026",
+          "url": "https://global.toyota/en/company/profile/production-sales-figures/202610.html",
+          "source": "toyotaglobal",
+          "source_name": "Toyota Global",
+          "published_at": "2026-11-27T04:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": "نتائج المبيعات والإنتاج والتصدير لشهر أكتوبر 2026",
+          "translation_status": "machine",
+          "translation_provider": "MyMemory"
+        },
+        {
           "title": "The 2027 Toyota 4Runner: Legendary Capability, Refined for the Road Ahead",
           "url": "https://pressroom.toyota.com/the-2027-toyota-4runner-legendary-capability-refined-for-the-road-ahead/",
           "source": "toyota",
@@ -688,32 +714,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "نظرة عامة على النتائج المالية للربع الثاني من السنة المالية 2020",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "TMC Announces Changes to Organizational Structure and Executive and Senior Professional / Senior Management Employee Positions",
-          "url": "https://global.toyota/en/newsroom/corporate/44970123.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-11-05T04:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تعلن TMC عن تغييرات في الهيكل التنظيمي والمناصب التنفيذية والمهنية العليا/وظائف الإدارة العليا",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "HONDA SHOWCASES ITS MOBILITY AND TECHNOLOGY STRENGTH AT EICMA 2026",
-          "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/598538/honda-showcases-its-mobility-and-technology-strength-at-eicma-2026",
-          "source": "honda",
-          "source_name": "Honda",
-          "published_at": "2026-11-03T16:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "هوندا تعرض قدرتها على التنقل وقوتها التكنولوجية في معرض EICMA 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         }
