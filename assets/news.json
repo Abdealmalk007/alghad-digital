@@ -1,7 +1,147 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T19:54:00Z",
+  "generated_at": "2026-11-28T07:52:05Z",
   "articles": [
+    {
+      "title": "الكويت ترسم ملامح الحكومة المتصلة في NEXUS 2026.. الذكاء الاصطناعي والأمن السيبراني في المقدمة",
+      "url": "https://technologyarabia.com/archives/18175/kuwait-nexus-2026-connected-government-ai-cybersecurity/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-28T07:40:35Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "الكويت ترسم ملامح الحكومة المتصلة في NEXUS 2026.. الذكاء الاصطناعي والأمن السيبراني في المقدمة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تسريب: Huawei MatePad Mini 2 يحمل ثلاثة تحسينات في الشاشة",
+      "url": "https://www.tech-wd.com/wd/2026/11/28/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-huawei-matepad-mini-2-%d9%8a%d8%ad%d9%85%d9%84-%d8%ab%d9%84%d8%a7%d8%ab%d8%a9-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-28T06:16:58Z",
+      "category": "أخبار التقنية",
+      "title_ar": "تسريب: Huawei MatePad Mini 2 يحمل ثلاثة تحسينات في الشاشة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "برمجية Vinci RAT تخفّت داخل تطبيق مزيف على Microsoft Store",
+      "url": "https://3arrafni.com/tech-news/vinci-rat-fake-setup-assistant-microsoft-store",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-28T05:14:31Z",
+      "category": "البرامج والإنترنت",
+      "title_ar": "برمجية Vinci RAT تخفّت داخل تطبيق مزيف على Microsoft Store",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "احتيال مقابلات مدفوعة مزيفة يسرق بيانات حسابات العمل لدى Google وOkta",
+      "url": "https://3arrafni.com/tech-news/goodguys-fake-paid-interview-phishing",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-28T04:19:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "احتيال مقابلات مدفوعة مزيفة يسرق بيانات حسابات العمل لدى Google وOkta",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "The New York Times تمنع مصوريها من استخدام Photoshop 2027 بسبب وسوم الذكاء الاصطناعي",
+      "url": "https://3arrafni.com/tech-news/new-york-times-photoshop-2027-ai-labels",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-28T03:24:31Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "The New York Times تمنع مصوريها من استخدام Photoshop 2027 بسبب وسوم الذكاء الاصطناعي",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أبوظبي تطلق TAMM Marketplace لبيع السيارات المستعملة ببيانات حكومية",
+      "url": "https://3arrafni.com/tech-news/tamm-marketplace-used-cars-abu-dhabi",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-28T02:29:31Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أبوظبي تطلق TAMM Marketplace لبيع السيارات المستعملة ببيانات حكومية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "ASUS قد تعيد أجهزة Windows 11 الاقتصادية إلى ذاكرة 8GB",
+      "url": "https://3arrafni.com/tech-news/asus-windows-11-8gb-ram-laptops",
+      "source": "arrafni",
+      "source_name": "عرفني دوت كوم",
+      "published_at": "2026-11-28T01:34:31Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "ASUS قد تعيد أجهزة Windows 11 الاقتصادية إلى ذاكرة 8GB",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+      "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-27T23:30:32Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "5 ways to make sure your console isn't holding back your GTA 6 performance",
+      "url": "https://www.engadget.com/2329878/gta-6-performance-ways-make-sure-console-not-holding-back/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-27T22:46:29Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "LA school district blocks Google's AI search features",
+      "url": "https://www.engadget.com/2329851/la-school-district-blocks-google-ai-search-features/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-27T22:00:08Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "Allstate has been suffering an outage since Monday",
+      "url": "https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-27T21:52:42Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "My favorite MPC beat maker is ready for your vibe-coded firmware and effects",
+      "url": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-27T20:48:04Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "Samsung is reportedly giving its camera app an AI mode",
+      "url": "https://www.engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-27T20:06:02Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "Restricted NVIDIA chips were installed at a Chinese data center linked to Alice Huang",
+      "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-27T19:45:23Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
     {
       "title": "Hackers reportedly infiltrated the Air Force's cloud systems",
       "url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
@@ -10,58 +150,6 @@
       "published_at": "2026-11-27T16:55:43Z",
       "category": "أخبار التقنية",
       "title_ar": "أفادت التقارير أن قراصنة اخترقوا أنظمة السحابة الخاصة بالقوات الجوية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "رويترز: اختراق منصة Cloud One السحابية للقوات الجوية الأمريكية",
-      "url": "https://aitnews.com/2026/11/27/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d9%85%d9%86%d8%b5%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%88%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T16:53:58Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "رويترز: اختراق منصة Cloud One السحابية للقوات الجوية الأمريكية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "بلومبرغ: وثائق تكشف وجود رقاقات إنفيديا «بلاكويل» الخاضعة لقيود التصدير في الصين",
-      "url": "https://aitnews.com/2026/11/27/%d8%b1%d9%82%d8%a7%d9%82%d8%a7%d8%aa-%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%a8%d9%84%d8%a7%d9%83%d9%88%d9%8a%d9%84-%d9%81%d9%8a-%d8%a7%d9%84%d8%b5%d9%8a%d9%86/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T16:53:07Z",
-      "category": "أخبار التقنية",
-      "title_ar": "بلومبرغ: وثائق تكشف وجود رقاقات إنفيديا «بلاكويل» الخاضعة لقيود التصدير في الصين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "5 Costco Electronics With Deep Discounts For Black Friday 2026",
-      "url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-27T16:51:43Z",
-      "category": "أخبار التقنية",
-      "title_ar": "5 أجهزة إلكترونية من كوستكو بخصومات كبيرة للجمعة البيضاء 2026",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "وول ستريت تغلق على ارتفاع مع تعافي أسهم الذكاء الاصطناعي",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/27/%d9%88%d9%88%d9%84-%d8%b3%d8%aa%d8%b1%d9%8a%d8%aa-%d8%aa%d8%ba%d9%84%d9%82-%d8%b9%d9%84%d9%89-%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d9%85%d8%b9-%d8%aa%d8%b9%d8%a7%d9%81%d9%8a-%d8%a3%d8%b3%d9%87%d9%85?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-27T16:43:36Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "وول ستريت تغلق على ارتفاع مع تعافي أسهم الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "WhatsApp adds support for travel eSIMs",
-      "url": "https://www.engadget.com/2329553/whatsapp-adds-support-for-travel-esims/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-27T16:24:07Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يضيف واتساب دعمًا لبطاقات eSIM للسفر",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -75,67 +163,6 @@
       "title_ar": "تُعدّ الأدوات المصغّرة التي يمكنك تخصيصها بنفسك في نظام التشغيل أندرويد بمثابة متعة في مجال برمجة الأجواء",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "This gaming mouse should be a Logitech-killer, but it has one big flaw",
-      "url": "https://www.theverge.com/games/1043028/keychron-g6-he-hall-effect-magoptic-gaming-mouse-impressions",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-27T14:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "من المفترض أن يكون ماوس الألعاب هذا منافسًا قويًا لـ Logitech، لكنه يحتوي على عيب كبير واحد",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "X تضيف 6 أدوات رقابة أبوية لحسابات المراهقين",
-      "url": "https://3arrafni.com/x-parental-controls-teen-accounts",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-27T13:38:08Z",
-      "category": "أخبار التقنية",
-      "title_ar": "X تضيف 6 أدوات رقابة أبوية لحسابات المراهقين",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
-      "url": "https://aitnews.com/2026/11/27/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:18:52Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "علي باي تطلق وكيل ذكاء اصطناعي للتسوق والدفع صوتيًا من داخل السيارات",
-      "url": "https://aitnews.com/2026/11/27/%d8%b9%d9%84%d9%8a-%d8%a8%d8%a7%d9%8a-%d8%a7%d9%84%d8%af%d9%81%d8%b9-%d8%a7%d9%84%d8%b5%d9%88%d8%aa%d9%8a-%d9%84%d9%84%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:17:49Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "علي باي تطلق وكيل ذكاء اصطناعي للتسوق والدفع صوتيًا من داخل السيارات",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "وكيل ذكاء اصطناعي يشتري البيتزا بالدفع المباشر من حساب مصرفي في بريطانيا",
-      "url": "https://aitnews.com/2026/11/27/%d9%88%d9%83%d9%8a%d9%84-%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%a7%d9%84%d8%af%d9%81%d8%b9-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%81%d9%8a/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:16:42Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "وكيل ذكاء اصطناعي يشتري البيتزا بالدفع المباشر من حساب مصرفي في بريطانيا",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ميزة Gemini Live Guided Vision تصل إلى iPhone: ما هي وكيف تستخدمها؟",
-      "url": "https://3arrafni.com/tech-news/gemini-live-guided-vision-iphone",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-27T12:43:08Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "ميزة Gemini Live Guided Vision تصل إلى iPhone: ما هي وكيف تستخدمها؟",
-      "translation_status": "original_ar"
     },
     {
       "title": "قطر تقود المداولات العربية في مؤتمر ITU بالدوحة.. حماية الأطفال ومكافحة انتحال الهوية على الطاولة",
@@ -159,16 +186,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "برمجية Remus تتجسس على رسائل Gmail عبر إضافة Chrome مزيفة",
-      "url": "https://3arrafni.com/tech-news/remus-malware-fake-google-sheets-chrome-extension-gmail",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-27T11:48:08Z",
-      "category": "البرامج والإنترنت",
-      "title_ar": "برمجية Remus تتجسس على رسائل Gmail عبر إضافة Chrome مزيفة",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
       "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
       "source": "arstechnica",
@@ -178,26 +195,6 @@
       "title_ar": "الكتب والدراجات الهوائية وفيلم \"ذا بوربس\": هذه هي اختيارات موظفي موقع Ars للهدايا في موسم الأعياد لعام 2026",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "FIFA تؤكد هجوماً سيبرانياً أدى إلى سرقة بيانات شخصية وتجارية",
-      "url": "https://3arrafni.com/tech-news/fifa-cyberattack-personal-business-data-stolen",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-27T10:53:08Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "FIFA تؤكد هجوماً سيبرانياً أدى إلى سرقة بيانات شخصية وتجارية",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "ملخص الأسبوع الرابع نوفمبر ٢٠٢٦: أحدث الابتكارات والتحديات التقنية",
-      "url": "https://3arrafni.com/tech-news/weekly-recap-2026-w48",
-      "source": "arrafni",
-      "source_name": "عرفني دوت كوم",
-      "published_at": "2026-11-27T10:30:13Z",
-      "category": "أخبار التقنية",
-      "title_ar": "ملخص الأسبوع الرابع نوفمبر ٢٠٢٦: أحدث الابتكارات والتحديات التقنية",
-      "translation_status": "original_ar"
     },
     {
       "title": "ملخص الأسبوع | Gemini 4 Neon وعودة هوانج و GTA 6 تواصل تحطيم الأرقام",
@@ -218,17 +215,6 @@
       "category": "الهواتف والأجهزة",
       "title_ar": "هاتف HMD Rise الاقتصادي ينطلق ببطارية 5000 مللي أمبير ومساعد ذكي",
       "translation_status": "original_ar"
-    },
-    {
-      "title": "Google will soon share Android developers' addresses publicly",
-      "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-27T09:38:33Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "ستشارك غوغل قريبًا عناوين مطوري أندرويد علنًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
     },
     {
       "title": "اختراق 1Password يتسبب في تسريب بيانات عملاء دون الوصول إلى الخزائن",
@@ -259,17 +245,6 @@
       "published_at": "2026-11-27T07:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "نوع جديد من الرقاقات يشغّل نماذج الذكاء الاصطناعي باستخدام موجات الضوء",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Backloggd urges users to change their passwords after a breach",
-      "url": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-26T21:26:47Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تحث Backloggd المستخدمين على تغيير كلمات مرورهم بعد حدوث خرق",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -349,6 +324,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
+      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-tp-link-tapo-c825-%d8%a8%d8%b4%d8%a7%d8%b4%d8%a9-%d9%84%d9%85%d8%b3-%d9%84%d9%85%d9%83%d8%a7%d9%84%d9%85%d8%a7%d8%aa-%d8%a7%d9%84/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-26T14:29:45Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Google search alternative Kagi launches Gmail rival",
       "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
       "source": "arstechnica",
@@ -371,6 +356,16 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
+      "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
+      "source": "techcrunch",
+      "source_name": "TechCrunch",
+      "published_at": "2026-11-25T17:36:51Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
       "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
       "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
       "source": "wired",
@@ -387,7 +382,7 @@
       "id": "aitnews",
       "name": "البوابة التقنية",
       "url": "https://aitnews.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "techwd",
@@ -429,7 +424,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": true
+      "active": false
     },
     {
       "id": "bbc",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T19:54:04Z",
+  "generated_at": "2026-11-28T07:52:09Z",
   "topics": {
     "ai": {
       "title": "الذكاء الاصطناعي",
@@ -484,32 +484,6 @@
       "title": "السيارات والتقنيات الحديثة",
       "articles": [
         {
-          "title": "Subaru Corporation Announces Production, Japan Sales and Export Results for October 2026",
-          "url": "https://www.subaru.co.jp/news-en/2026_11_27_134928/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-11-27T06:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تعلن شركة سوبارو عن نتائج الإنتاج والمبيعات في اليابان والصادرات لشهر أكتوبر 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Sales, Production, and Export Results for October 2026",
-          "url": "https://global.toyota/en/company/profile/production-sales-figures/202610.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-11-27T04:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "نتائج المبيعات والإنتاج والتصدير لشهر أكتوبر 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "The 2027 Toyota 4Runner: Legendary Capability, Refined for the Road Ahead",
           "url": "https://pressroom.toyota.com/the-2027-toyota-4runner-legendary-capability-refined-for-the-road-ahead/",
           "source": "toyota",
@@ -549,19 +523,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Launch of the New Camry in Japan",
-          "url": "https://global.toyota/en/newsroom/toyota/44987481.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-11-25T04:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "إطلاق سيارة كامري الجديدة في اليابان",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "Toyota Invites Adventure Seekers to Celebrate Trucksgiving",
           "url": "https://pressroom.toyota.com/toyota-invites-adventure-seekers-to-celebrate-trucksgiving/",
           "source": "toyota",
@@ -588,71 +549,6 @@
           "translation_provider": "MyMemory"
         },
         {
-          "title": "Kevin Estre completes TOYOTA RACING's 2027 driver line-up",
-          "url": "https://global.toyota/en/newsroom/corporate/45024788.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-11-20T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "كيفن إستري يكمل تشكيلة سائقي تويوتا ريسينغ لعام 2027",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Subaru Corporation Announces Consolidated Financial Results for the First Half of FYE 2027",
-          "url": "https://www.subaru.co.jp/en/ir/library/results.html",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-11-10T04:00:01Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تعلن شركة سوبارو عن النتائج المالية الموحدة للنصف الأول من السنة المالية 2027",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Notice Regarding Disposal of Treasury Shares in Connection with Introduction of Stock Benefit Trust (J-ESOP-RS)",
-          "url": "https://www.subaru.co.jp/news-en/2026_11_10_125854/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-11-10T04:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "إشعار بشأن التصرف في أسهم الخزينة فيما يتعلق بإدخال صندوق منافع الأسهم (J - ESOP - RS)",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Live Now: TMC's FY2027 2Q Financial Results Press Briefing",
-          "url": "https://global.toyota/en/newsroom/corporate/44911706.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-11-05T08:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "مباشر الآن: إيجاز صحفي للنتائج المالية لشركة تي إم سي للسنة المالية 2020 للربع الثاني",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "FY2027 2Q Financial Results Overview",
-          "url": "https://global.toyota/en/ir/financial-results/index.html",
-          "source": "toyotaglobal",
-          "source_name": "Toyota Global",
-          "published_at": "2026-11-05T04:55:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "نظرة عامة على النتائج المالية للربع الثاني من السنة المالية 2020",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
           "title": "HONDA SHOWCASES ITS MOBILITY AND TECHNOLOGY STRENGTH AT EICMA 2026",
           "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/598538/honda-showcases-its-mobility-and-technology-strength-at-eicma-2026",
           "source": "honda",
@@ -662,32 +558,6 @@
           "official": true,
           "topic": "cars",
           "title_ar": "هوندا تعرض قوتها في مجال التنقل والتكنولوجيا في معرض إيكما 2026",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Notice Regarding the Status of Share Repurchase",
-          "url": "https://www.subaru.co.jp/news-en/2026_11_02_181354/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-11-02T06:30:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "إشعار بشأن حالة إعادة شراء الأسهم",
-          "translation_status": "machine",
-          "translation_provider": "MyMemory"
-        },
-        {
-          "title": "Subaru Corporation Announces Organizational Changes(Effective November 1, 2026)",
-          "url": "https://www.subaru.co.jp/news-en/2026_11_02_114626/",
-          "source": "subaru",
-          "source_name": "Subaru",
-          "published_at": "2026-11-02T02:00:00Z",
-          "language": "en",
-          "official": true,
-          "topic": "cars",
-          "title_ar": "تعلن شركة سوبارو عن تغييرات تنظيمية (اعتبارًا من 1 نوفمبر 2026)",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
         },
@@ -716,6 +586,54 @@
           "title_ar": "هوندا تعرض العديد من ابتكارات التنقل في معرض اليابان للتنقل BIZWEEK وCEATEC 2026",
           "translation_status": "machine",
           "translation_provider": "MyMemory"
+        },
+        {
+          "title": "“The Right Steps at the Right Moment”",
+          "url": "https://newsroom.porsche.com/en/2026/company/porsche-consulting-from-merck-healthcare-to-dlrg-water-rescue-43479.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-19T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": null,
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Halfway Round the World in 78 Days",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-tahiti-stuttgart-911-carrera-gts-43546.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-19T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": null,
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Porsche Mission S: the essence of the sports car reinterpreted",
+          "url": "https://newsroom.porsche.com/en/2026/products/porsche-mission-s-vision-model-43528.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-15T20:30:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": null,
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "The ‘Flying Pole’ returns to Argentina",
+          "url": "https://newsroom.porsche.com/en/2026/scene-passion/porsche-argentina-legendary-rally-driver-zasada-43499.html",
+          "source": "porsche",
+          "source_name": "Porsche",
+          "published_at": "2026-10-15T07:00:00Z",
+          "language": "en",
+          "official": true,
+          "topic": "cars",
+          "title_ar": null,
+          "translation_status": "unavailable"
         }
       ]
     }
@@ -848,8 +766,8 @@
       "topics": [
         "cars"
       ],
-      "feed_available": true,
-      "directory_only": false
+      "feed_available": false,
+      "directory_only": true
     },
     {
       "id": "honda",
@@ -878,8 +796,8 @@
       "topics": [
         "cars"
       ],
-      "feed_available": true,
-      "directory_only": false
+      "feed_available": false,
+      "directory_only": true
     },
     {
       "id": "tesla",
