@@ -143,7 +143,10 @@
       "enabled": true,
       "patterns": [
         "car",
+        "cars",
+        "ev",
         "vehicle",
+        "vehicles",
         "automotive",
         "electric vehicle",
         "motorsport",

@@ -36,6 +36,9 @@ EXTRA_RSS = [
     ("macrumors", "MacRumors", "https://www.macrumors.com/macrumors.xml", "macrumors.com", "apple"),
     ("bleeping", "BleepingComputer", "https://www.bleepingcomputer.com/feed/", "bleepingcomputer.com", "security"),
     ("neowin", "Neowin", "https://www.neowin.net/news/rss/", "neowin.net", "software"),
+    ("motor1", "Motor1", "https://www.motor1.com/rss/news/all/", "motor1.com", "cars"),
+    ("insideevs", "InsideEVs", "https://insideevs.com/rss/news/all/", "insideevs.com", "cars"),
+    ("caranddriver", "Car and Driver", "https://www.caranddriver.com/rss/all.xml", "caranddriver.com", "cars"),
 ]
 SOURCE_WEIGHT = {
     "openai": 16, "googleai": 16, "apple": 16, "microsoft": 16,
@@ -145,6 +148,8 @@ def fetch_extra(entry: tuple[str,str,str,str,str]) -> list[dict]:
             url = good_url(link, host)
             stamp = date(item.findtext("pubDate") or item.findtext(ATOM+"published") or item.findtext(ATOM+"updated"))
             if not url or not stamp or len(title) < 12:
+                continue
+            if source in ("motor1", "insideevs", "caranddriver") and not urllib.parse.urlsplit(url).path.startswith("/news/"):
                 continue
             original_ar = bool(re.search(r"[\u0621-\u064a]", title))
             description = clean(item.findtext("description") or item.findtext(ATOM+"summary"), 225)
