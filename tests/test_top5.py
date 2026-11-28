@@ -42,3 +42,32 @@ try:
 except Exception:
     raise
 print("TOP5_UNIT_TEST_PASS categories=11 recency_buckets=yes promo_exclusion=yes URL_validation=yes empty_feeds=yes")
+
+# Numerical fidelity must survive both fresh and cached translations.
+import translate_news as translation
+import top5_translate
+import tempfile
+import json
+assert translation.same_numeric_facts("2027 and 1,100Hz", "٢٠٢٧ و١١٠٠ هرتز")
+assert translation.same_numeric_facts("v3.3.1", "الإصدار ۳.۳.۱")
+assert not translation.same_numeric_facts("2027", "٢٠٢٠")
+assert not translation.same_numeric_facts("v3.3.1", "الإصدار 3.3.2")
+assert not translation.valid_translation("Fiscal year 2027", "السنة المالية 2020")
+assert translation.valid_translation("Fiscal year 2027", "السنة المالية ٢٠٢٧")
+title="Fiscal year 2027"
+key=translation.cache_key(title)
+with patch.object(translation, "translate_title", return_value=None):
+    cache, success, missing=translation.resolve_translations([title],{key:"السنة المالية 2020"})
+    assert key not in cache and success==0 and missing==1
+    article={"title":title}
+    assert translation.decorate_item(article,cache)=="unavailable"
+    assert article["title_ar"] is None
+with tempfile.TemporaryDirectory() as temp:
+    cache_path=Path(temp)/"cache.json"
+    cache_path.write_text(json.dumps({"version":1,"pairs":{"ar:"+key:"السنة المالية 2020"}}),encoding="utf8")
+    row={"original_title":title,"title_en":title,"title_ar":"السنة المالية 2020"}
+    with patch.object(top5_translate,"CACHE",cache_path), patch.object(top5_translate,"translate",return_value=None):
+        top5_translate.enrich({"test":[row]})
+    assert row["title_ar"]==""
+    assert not json.loads(cache_path.read_text(encoding="utf8"))["pairs"]
+print("TRANSLATION_NUMERIC_INTEGRITY_PASS")
