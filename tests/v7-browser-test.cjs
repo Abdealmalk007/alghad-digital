@@ -5,6 +5,7 @@ const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
 const http = require("node:http");
+const net = require("node:net");
 const {spawn} = require("node:child_process");
 const root = path.resolve(__dirname, "..");
 const releaseFacts = require("./release-facts.cjs")(root);
@@ -37,16 +38,40 @@ async function startLocalPreview() {
   });
   return {server,url:"http://127.0.0.1:"+server.address().port+"/",nextWorker(){workerVersion++}};
 }
+// A dedicated CONNECT tunnel isolates only this test browser, including its worker.
+// No TLS interception and no changes to the computer's network configuration.
+async function startLiveProxy(target) {
+  const sockets=new Set(); let offline=false;
+  const server=http.createServer((req,res)=>{res.writeHead(403);res.end()});
+  server.on("connect",(req,client,head)=>{
+    if(offline || req.url!==target.host+":443"){client.destroy();return;}
+    const upstream=net.connect(443,target.hostname);
+    sockets.add(client);sockets.add(upstream);
+    const close=()=>{client.destroy();upstream.destroy();sockets.delete(client);sockets.delete(upstream)};
+    client.on("error",close);upstream.on("error",close);
+    client.on("close",close);upstream.on("close",close);
+    upstream.on("connect",()=>{
+      if(offline){close();return}
+      client.write("HTTP/1.1 200 Connection Established\r\n\r\n");
+      if(head.length)upstream.write(head);
+      upstream.pipe(client);client.pipe(upstream);
+    });
+  });
+  await new Promise((resolve,reject)=>{server.once("error",reject);server.listen(0,"127.0.0.1",resolve)});
+  return {port:server.address().port,disconnect(){offline=true;for(const socket of sockets)socket.destroy()},close(){this.disconnect();server.close()}};
+}
 async function main() {
   assert.ok(fs.existsSync(chromePath), "Chrome is required for browser integration test");
   fs.mkdirSync(qaDir, {recursive: true});
   const preview=process.env.ALGHAD_TEST_URL?null:await startLocalPreview();
   const fileUrl=process.env.ALGHAD_TEST_URL||preview.url;
+  const liveProxy=preview?null:await startLiveProxy(new URL(fileUrl));
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), "alghad-cdp-"));
   const chrome = spawn(chromePath, [
     "--headless=new", "--disable-gpu", "--no-first-run", "--no-default-browser-check",
     "--disable-background-networking", "--disable-extensions", "--remote-debugging-port=0",
     "--remote-allow-origins=*", "--user-data-dir=" + profile, "--window-size=1440,900",
+    ...(liveProxy?["--disable-quic","--proxy-server=http://127.0.0.1:"+liveProxy.port]:[]),
     fileUrl
   ], {stdio:"ignore", windowsHide:true});
   let socket;
@@ -146,11 +171,11 @@ async function main() {
       assert.ok(migrated,"Worker cache migration or reload failed");
       console.log("V7_PWA_UPDATE_PASS old=v7-2 new=v7-3");
     }
-    if(preview){preview.server.closeAllConnections();await new Promise(r=>preview.server.close(r));}else{await send("Network.emulateNetworkConditions",{offline:true,latency:0,downloadThroughput:0,uploadThroughput:0});}
+    if(preview){preview.server.closeAllConnections();await new Promise(r=>preview.server.close(r));}else{liveProxy.disconnect();console.log("LIVE_PROXY_DISCONNECTED");}
     await send("Page.navigate",{url:new URL("programs/hr/",fileUrl).href});let offline=false;for(let t=0;t<60;t++){try{if(await evaluate('document.title.includes("Offline")')){offline=true;break}}catch(_){}await delay(200)}assert.ok(offline,"Offline fallback failed: "+JSON.stringify(await evaluate('({title:document.title,url:location.href,body:document.body?.innerText.slice(0,150)})')));
     await send("Network.emulateNetworkConditions",{offline:false,latency:0,downloadThroughput:-1,uploadThroughput:-1});
     console.log("V7_PWA_OFFLINE_SEARCH_FONT_PASS");
     console.log("V7_BROWSER_PASS",JSON.stringify(results),"runtimeErrors",JSON.stringify(exceptions));assert.equal(exceptions.length,0);
-  } finally {if(socket)socket.close();chrome.kill();if(preview&&preview.server.listening)preview.server.close();}
+  } finally {if(socket)socket.close();chrome.kill();if(liveProxy)liveProxy.close();if(preview&&preview.server.listening)preview.server.close();}
 }
 main().catch(e=>{console.error(e);process.exitCode=1});
