@@ -363,7 +363,7 @@ window.AL_GHAD_PRODUCTS = [
     "platforms": [
       "Android 8+"
     ],
-    "version": "0.4.7-beta.9",
+    "version": "0.4.9-beta.11",
     "status": "public",
     "github": "https://github.com/Abdealmalk007/ProTechMusic",
     "features": [
@@ -385,7 +385,7 @@ window.AL_GHAD_PRODUCTS = [
     ],
     "keywords": "ProTech Music music player Android مشغل صوتيات اغاني موسيقى واتساب تسجيلات تنزيلات قوائم صوتيات موسيقى",
     "summary": "مشغل صوتيات Android تجريبي قابل للتحميل",
-    "release": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.4.7-beta.9",
+    "release": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.4.9-beta.11",
     "releaseLabel": "تنزيل APK تجريبي موقّع",
     "preview": "assets/previews/protech-music.svg",
     "previewAlt": "أيقونة ProTech Music مع نغمة موسيقية وموجات صوتية",

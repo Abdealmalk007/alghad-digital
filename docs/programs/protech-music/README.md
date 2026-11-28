@@ -18,14 +18,14 @@
 
 ## الإصدار والمنصات
 
-- الإصدار المعلن: 0.4.7-beta.9.
+- الإصدار المعلن: 0.4.9-beta.11.
 - المنصات المعلنة: Android 8+.
 - حالة الإتاحة: Beta / Preview — إصدار تجريبي.
 - الحد الأدنى لإصدار النظام والذاكرة: غير متحقق؛ راجع ملاحظات الإصدار.
 
 ## التثبيت والتشغيل
 
-- [ProTech Music — APK موقّع للتجربة (Beta)](https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.7-beta.9/ProTechMusic_v0.4.7_beta9_SIGNED.apk)
+- [ProTech Music — APK موقّع للتجربة (Beta)](https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.9-beta.11/ProTechMusic_v0.4.9_beta11_SIGNED.apk)
 
 اختر الملف الموافق لمنصتك من الروابط الرسمية. راجع تعليمات الإصدار، واحتفظ بنسخة من بياناتك قبل التحديث. قارن SHA-256 عند نشره؛ لا تعطّل حماية النظام لمعالجة تحذيرات التوقيع. لا توجد أوامر بناء أو تثبيت dependencies عامة تنطبق على جميع البرامج.
 

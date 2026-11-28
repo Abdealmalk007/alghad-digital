@@ -152,16 +152,16 @@
     },
     "protech-music": {
       "repository": "ProTechMusic",
-      "version": "0.4.7-beta.9",
-      "published_at": "2026-11-23T06:13:20Z",
-      "tag_url": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.4.7-beta.9",
+      "version": "0.4.9-beta.11",
+      "published_at": "2026-11-28T08:10:06Z",
+      "tag_url": "https://github.com/Abdealmalk007/ProTechMusic/releases/tag/v0.4.9-beta.11",
       "prerelease": true,
       "assets": [
         {
-          "name": "ProTechMusic_v0.4.7_beta9_SIGNED.apk",
-          "url": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.7-beta.9/ProTechMusic_v0.4.7_beta9_SIGNED.apk",
+          "name": "ProTechMusic_v0.4.9_beta11_SIGNED.apk",
+          "url": "https://github.com/Abdealmalk007/ProTechMusic/releases/download/v0.4.9-beta.11/ProTechMusic_v0.4.9_beta11_SIGNED.apk",
           "bytes": 9008211,
-          "sha256": "1b6cbc1a0129369e2f9d27bc4bd4287d7d1f8690d15817a061e7c40bb2744c88",
+          "sha256": "d30f9c741a8350e6cab4e354537cab5de4e20935b2b0996729324aecb44bcfec",
           "recommended": true
         }
       ]
