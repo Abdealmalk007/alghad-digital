@@ -79,3 +79,10 @@ assert len(rows)==len({app.normalized_title(a["original_title"]) for a in rows})
 assert all(a["url"] not in {x["url"] for x in windows} for a in selected["tech"])
 app.validate(cfg,{"topics":selected})
 print("TOP5_CROSS_CATEGORY_DEDUP_PASS")
+
+car_items=[
+    item("The 2027 Toyota 4Runner: Legendary Capability, Refined for the Road Ahead","https://example.com/4runner",now-dt.timedelta(hours=66),"toyota","cars",True),
+    item("The 2027 Toyota Tacoma: Legendary Off-Road Prowess Enhanced by Streamlined Technology","https://example.com/tacoma",now-dt.timedelta(hours=67),"toyota","cars",True),
+]
+assert len(app.select(car_items,cfg)["cars"])==2
+print("TOP5_CAR_MODEL_CLASSIFICATION_PASS")
