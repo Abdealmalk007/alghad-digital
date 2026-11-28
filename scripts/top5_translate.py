@@ -13,6 +13,7 @@ import re
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from translate_news import same_numeric_facts
 
 ROOT=Path(__file__).resolve().parents[1]
 CACHE=ROOT/"assets/top5-translation-cache.json"
@@ -39,6 +40,7 @@ def translate(raw: str, language: str) -> str | None:
             return None
         if language=="ar" and len(AR.findall(result))<5:return None
         if language=="en" and len(EN.findall(result))<10:return None
+        if not same_numeric_facts(raw, result):return None
         return result
     except (ValueError,KeyError,OSError,TimeoutError):
         return None
@@ -50,12 +52,19 @@ def enrich(topics: dict[str,list[dict]]) -> dict[str,list[dict]]:
     for records in topics.values():
         for a in records:
             for language in ("ar","en"):
-                if a.get("title_"+language):continue
                 original=a["original_title"]
                 if language=="ar" and AR.search(original):continue
                 if language=="en" and not AR.search(original):continue
                 key=language+":"+hashlib.sha256(original.encode("utf8")).hexdigest()
-                needed[key]=(original,language)
+                field="title_"+language
+                if a.get(field) and not same_numeric_facts(original,a[field]):
+                    a[field]=""
+                    a.pop("translation_status_"+language,None)
+                if key in saved and (not isinstance(saved[key],str) or
+                                     not same_numeric_facts(original,saved[key])):
+                    del saved[key]
+                if not a.get(field):
+                    needed[key]=(original,language)
     used=0
     # Reuse successful translations before new API calls.
     for records in topics.values():

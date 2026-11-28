@@ -45,13 +45,26 @@ def is_english_title(title: str) -> bool:
     return bool(ENGLISH_WORDS.search(title)) and not bool(ARABIC_LETTERS.search(title))
 
 
-def valid_translation(english: str, translation: object) -> bool:
+def numeric_facts(title: str) -> list[str]:
+    """Normalize decimal digits and thousands separators, preserving versions."""
+    value = title.translate(str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹٫", "01234567890123456789."))
+    value = re.sub(r"(?<!\d)\d{1,3}(?:[,٬]\d{3})+(?!\d)",
+                   lambda m: m.group().replace(",", "").replace("٬", ""), value)
+    return sorted(re.findall(r"\d+(?:\.\d+)*", value))
+
+
+def same_numeric_facts(original: str, translated: str) -> bool:
+    return numeric_facts(original) == numeric_facts(translated)
+
+
+def valid_translation(english: str, translation: object, *, check_numbers: bool = True) -> bool:
     if not isinstance(translation, str):
         return False
     candidate = re.sub(r"\s+", " ", html.unescape(translation)).strip()
     return (4 <= len(candidate) <= 500 and
             len(ARABIC_LETTERS.findall(candidate)) >= 4 and
             candidate.casefold() != english.strip().casefold() and
+            (not check_numbers or same_numeric_facts(english, candidate)) and
             not UNWANTED.search(candidate) and
             not re.search(r"<[^>]*>", candidate))
 
@@ -98,7 +111,7 @@ def read_cache() -> dict[str, str]:
             return {}
         return {k: v for k, v in obj["entries"].items()
                 if isinstance(k, str) and re.fullmatch("[0-9a-f]{64}", k)
-                and valid_translation("_untranslated_", v)}
+                and valid_translation("_untranslated_", v, check_numbers=False)}
     except (OSError, ValueError, TypeError):
         return {}
 
@@ -132,6 +145,9 @@ def collect_titles(general: dict, industry: dict) -> list[str]:
 
 def resolve_translations(titles: list[str], cached: dict[str, str]) -> tuple[dict[str, str], int, int]:
     unique = {cache_key(t): t for t in titles}
+    for key, title in unique.items():
+        if key in cached and not valid_translation(title, cached[key]):
+            del cached[key]
     missing = [(key, title) for key, title in unique.items() if key not in cached]
     selected = []
     chars = 0
