@@ -1,7 +1,79 @@
 {
   "version": 1,
-  "generated_at": "2026-11-28T08:03:31Z",
+  "generated_at": "2026-11-28T13:23:12Z",
   "articles": [
+    {
+      "title": "Here’s how to make that new Black Friday TV look its best",
+      "url": "https://www.theverge.com/tech/1042700/change-these-tv-settings",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-28T13:00:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": "إليك كيفية جعل تلفاز الجمعة البيضاء الجديد يبدو في أفضل حالاته",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "بينكيو توفر سبورة CP05 الذكية في الشرق الأوسط بمقاسين مختلفين",
+      "url": "https://arabhardware.net/post-55250",
+      "source": "hardware",
+      "source_name": "عرب هاردوير",
+      "published_at": "2026-11-28T12:27:42Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بينكيو توفر سبورة CP05 الذكية في الشرق الأوسط بمقاسين مختلفين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "2026 Kindle Paperwhite review: Page-turn buttons are back, for a price",
+      "url": "https://arstechnica.com/gadgets/2026/11/2026-kindle-paperwhite-review-page-turn-buttons-are-back-for-a-price/",
+      "source": "arstechnica",
+      "source_name": "Ars Technica",
+      "published_at": "2026-11-28T12:00:20Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مراجعة جهاز كيندل بيبروايت 2026: عادت أزرار قلب الصفحات، مقابل سعر",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "أنثروبيك تنفي تدريب «كلود» على التخريب وتقرّ بمشكلة الحذر المفرط",
+      "url": "https://aitnews.com/2026/11/28/%d8%a3%d9%86%d8%ab%d8%b1%d9%88%d8%a8%d9%8a%d9%83-%d9%83%d9%84%d9%88%d8%af-%d8%a7%d9%84%d8%ad%d8%b0%d8%b1-%d8%a7%d9%84%d9%85%d9%81%d8%b1%d8%b7/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-28T10:14:01Z",
+      "category": "أخبار التقنية",
+      "title_ar": "أنثروبيك تنفي تدريب «كلود» على التخريب وتقرّ بمشكلة الحذر المفرط",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "أي iPhone تشتري في 2026؟ دليل شامل لجميع الطرازات المتاحة",
+      "url": "https://www.tech-wd.com/wd/2026/11/28/%d8%a3%d9%8a-iphone-%d8%aa%d8%b4%d8%aa%d8%b1%d9%8a-%d9%81%d9%8a-2026%d8%9f-%d8%af%d9%84%d9%8a%d9%84-%d8%b4%d8%a7%d9%85%d9%84-%d9%84%d8%ac%d9%85%d9%8a%d8%b9-%d8%a7%d9%84%d8%b7%d8%b1%d8%a7%d8%b2%d8%a7/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-28T08:12:51Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "أي iPhone تشتري في 2026؟ دليل شامل لجميع الطرازات المتاحة",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "تعديل الأجهزة المنزلية بالذكاء الاصطناعي.. مزايا أكثر ومخاطر أكبر",
+      "url": "https://www.aljazeera.net/tech/2026/11/28/%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d8%a7%d9%84%d9%85%d9%86%d8%b2%d9%84%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-28T08:12:45Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تعديل الأجهزة المنزلية بالذكاء الاصطناعي.. مزايا أكثر ومخاطر أكبر",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "الكويت ترسم ملامح الحكومة المتصلة في NEXUS 2026.. الذكاء الاصطناعي والأمن السيبراني في المقدمة",
+      "url": "https://technologyarabia.com/archives/18175/kuwait-nexus-2026-connected-government-ai-cybersecurity/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-28T07:40:35Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "الكويت ترسم ملامح الحكومة المتصلة في NEXUS 2026.. الذكاء الاصطناعي والأمن السيبراني في المقدمة",
+      "translation_status": "original_ar"
+    },
     {
       "title": "تسريب: Huawei MatePad Mini 2 يحمل ثلاثة تحسينات في الشاشة",
       "url": "https://www.tech-wd.com/wd/2026/11/28/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-huawei-matepad-mini-2-%d9%8a%d8%ad%d9%85%d9%84-%d8%ab%d9%84%d8%a7%d8%ab%d8%a9-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4/",
@@ -127,17 +199,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "My favorite MPC beat maker is ready for your vibe-coded firmware and effects",
-      "url": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-27T20:48:04Z",
-      "category": "أخبار التقنية",
-      "title_ar": "جهاز MPC المفضل لدي لصنع الإيقاعات جاهز للبرامج الثابتة والتأثيرات التي تتناسب مع أجواءك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Samsung is reportedly giving its camera app an AI mode",
       "url": "https://www.engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode/",
       "source": "engadget",
@@ -145,17 +206,6 @@
       "published_at": "2026-11-27T20:06:02Z",
       "category": "أخبار التقنية",
       "title_ar": "ورد أن سامسونج تمنح تطبيق الكاميرا الخاص بها وضع الذكاء الاصطناعي",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Restricted NVIDIA chips were installed at a Chinese data center linked to Alice Huang",
-      "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-27T19:45:23Z",
-      "category": "أخبار التقنية",
-      "title_ar": "تم تركيب رقاقات NVIDIA الخاضعة للقيود في مركز بيانات صيني مرتبط بأليس هوانغ",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -202,13 +252,13 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
-      "url": "https://aitnews.com/2026/11/27/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a%d8%a9/",
-      "source": "aitnews",
-      "source_name": "البوابة التقنية",
-      "published_at": "2026-11-27T13:18:52Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
+      "title": "قطر تقود المداولات العربية في مؤتمر ITU بالدوحة.. حماية الأطفال ومكافحة انتحال الهوية على الطاولة",
+      "url": "https://technologyarabia.com/archives/18170/qatar-itu-pp26-arab-group-telecom-policy-child-online-safety-2026/",
+      "source": "technologyarabia",
+      "source_name": "مجلة التقنية العربية",
+      "published_at": "2026-11-27T12:40:41Z",
+      "category": "أخبار التقنية",
+      "title_ar": "قطر تقود المداولات العربية في مؤتمر ITU بالدوحة.. حماية الأطفال ومكافحة انتحال الهوية على الطاولة",
       "translation_status": "original_ar"
     },
     {
@@ -244,26 +294,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "هاتف HMD Rise الاقتصادي ينطلق ببطارية 5000 مللي أمبير ومساعد ذكي",
-      "url": "https://arabhardware.net/post-55248",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-27T10:08:10Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هاتف HMD Rise الاقتصادي ينطلق ببطارية 5000 مللي أمبير ومساعد ذكي",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "اختراق 1Password يتسبب في تسريب بيانات عملاء دون الوصول إلى الخزائن",
-      "url": "https://arabhardware.net/post-55247",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-27T08:56:56Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق 1Password يتسبب في تسريب بيانات عملاء دون الوصول إلى الخزائن",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
       "url": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
       "source": "arstechnica",
@@ -286,44 +316,13 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "تسريب: هواوي تعمل على هاتف عريض ثاني بشاشة مسطحة قياس 6.17 إنش",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%b9%d9%85%d9%84-%d8%b9%d9%84%d9%89-%d9%87%d8%a7%d8%aa%d9%81-%d8%b9%d8%b1%d9%8a%d8%b6-%d8%ab%d8%a7%d9%86%d9%8a-%d8%a8%d8%b4%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T20:54:16Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريب: هواوي تعمل على هاتف عريض ثاني بشاشة مسطحة قياس 6.17 إنش",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هواوي تقارن Mate X8 مباشرة مع iPhone Duo في التصميم والشاشة",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d9%82%d8%a7%d8%b1%d9%86-mate-x8-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1%d8%a9-%d9%85%d8%b9-iphone-duo-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%88%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T20:48:52Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هواوي تقارن Mate X8 مباشرة مع iPhone Duo في التصميم والشاشة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-26T20:03:54Z",
+      "title": "Backloggd urges users to change their passwords after a breach",
+      "url": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-26T21:26:47Z",
       "category": "أخبار التقنية",
-      "title_ar": "إنفيديا توقف شحنات الرقاقات إلى جنوب شرق آسيا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Is Alice Huang a spy or not?",
-      "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-26T20:00:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "هل أليس هوانغ جاسوسة أم لا؟",
+      "title_ar": "تحث Backloggd المستخدمين على تغيير كلمات مرورهم بعد حدوث خرق",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
@@ -412,7 +411,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": false
+      "active": true
     },
     {
       "id": "arrafni",
@@ -430,7 +429,7 @@
       "id": "aljazeera",
       "name": "الجزيرة نت",
       "url": "https://www.aljazeera.net/",
-      "active": false
+      "active": true
     },
     {
       "id": "bbc",
