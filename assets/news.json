@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "generated_at": "2026-11-28T14:09:39Z",
+  "generated_at": "2026-11-28T16:26:09Z",
   "articles": [
+    {
+      "title": "هواوي Mate X8 مقابل Mate X7: أربع ترقيات في الشاشة والكاميرا والمعالج والبطارية",
+      "url": "https://www.tech-wd.com/wd/2026/11/28/%d9%87%d9%88%d8%a7%d9%88%d9%8a-mate-x8-%d9%85%d9%82%d8%a7%d8%a8%d9%84-mate-x7-%d8%a3%d8%b1%d8%a8%d8%b9-%d8%aa%d8%b1%d9%82%d9%8a%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4%d8%a9-%d9%88/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-28T16:16:23Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "هواوي Mate X8 مقابل Mate X7: أربع ترقيات في الشاشة والكاميرا والمعالج والبطارية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Should you repair or replace your PC's motherboard?",
+      "url": "https://www.engadget.com/2325993/pc-motherboard-repair-or-replace/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-28T16:15:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "مبيعات Huawei Mate 90 تتجاوز مليون جهاز في شهرين",
+      "url": "https://www.tech-wd.com/wd/2026/11/28/%d9%85%d8%a8%d9%8a%d8%b9%d8%a7%d8%aa-huawei-mate-90-%d8%aa%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d8%ac%d9%87%d8%a7%d8%b2-%d9%81%d9%8a-%d8%b4%d9%87%d8%b1%d9%8a%d9%86/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-28T16:13:08Z",
+      "category": "أخبار التقنية",
+      "title_ar": "مبيعات Huawei Mate 90 تتجاوز مليون جهاز في شهرين",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "سامسونج توسع تحكم المستخدمين في ضبابية خلفية المجلدات وظلالها",
+      "url": "https://www.tech-wd.com/wd/2026/11/28/%d8%b3%d8%a7%d9%85%d8%b3%d9%88%d9%86%d8%ac-%d8%aa%d9%88%d8%b3%d8%b9-%d8%aa%d8%ad%d9%83%d9%85-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85%d9%8a%d9%86-%d9%81%d9%8a-%d8%b6%d8%a8%d8%a7%d8%a8%d9%8a/",
+      "source": "techwd",
+      "source_name": "عالم التقنية",
+      "published_at": "2026-11-28T16:09:04Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": "سامسونج توسع تحكم المستخدمين في ضبابية خلفية المجلدات وظلالها",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "Police reportedly turn water cannons on protesters outside Meta offices in India",
+      "url": "https://www.theverge.com/tech/1045256/indian-police-reportedly-turn-water-cannons-on-protesters-outside-meta-offices",
+      "source": "theverge",
+      "source_name": "The Verge",
+      "published_at": "2026-11-28T16:04:47Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "Why updating your iPhone can improve your CarPlay experience",
+      "url": "https://www.engadget.com/2325979/iphone-update-improves-carplay-experience/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-28T16:00:00Z",
+      "category": "الهواتف والأجهزة",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "How you can give your old DJI drone new purpose",
+      "url": "https://www.engadget.com/2326178/give-old-dji-drone-device-new-purpose/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-28T15:45:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "What to do if your Apple apps start showing subscription retention messages",
+      "url": "https://www.engadget.com/2325809/what-to-do-apple-apps-show-subscription-retention-messages/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-28T15:30:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
+    {
+      "title": "What does the 33 percent rule mean for installing solar panels?",
+      "url": "https://www.engadget.com/2325541/what-does-33-percent-rule-mean-installing-solar-panels/",
+      "source": "engadget",
+      "source_name": "Engadget",
+      "published_at": "2026-11-28T15:15:00Z",
+      "category": "أخبار التقنية",
+      "title_ar": null,
+      "translation_status": "unavailable"
+    },
     {
       "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
       "url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
@@ -25,39 +115,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "Google has finally fixed the boot loop issue for Acer Googlebooks",
-      "url": "https://www.engadget.com/2325087/acer-googlebooks-boot-loop-issue-fixed-by-google/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-28T13:30:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أصلحت غوغل أخيرًا مشكلة حلقة إعادة التشغيل لأجهزة Acer Googlebooks",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "5 free Samsung Galaxy Watch apps every owner should know about",
-      "url": "https://www.engadget.com/2325008/free-samsung-galaxy-watch-apps-every-owner-should-know-about/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-28T13:15:00Z",
-      "category": "أخبار التقنية",
-      "title_ar": "5 تطبيقات مجانية لساعة سامسونج جالكسي يجب أن يعرفها كل مالك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "9 questions you shouldn't ask ChatGPT",
-      "url": "https://www.engadget.com/2324752/questions-avoid-asking-chatgpt-why/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-28T13:15:00Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "9 أسئلة لا يجب عليك طرحها على ChatGPT",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Here’s how to make that new Black Friday TV look its best",
       "url": "https://www.theverge.com/tech/1042700/change-these-tv-settings",
       "source": "theverge",
@@ -67,6 +124,16 @@
       "title_ar": "إليك كيفية جعل تلفاز الجمعة البيضاء الجديد يبدو في أفضل حالاته",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
+    },
+    {
+      "title": "المنصات تتفاعل مع إحباط تهريب سلاحف نادرة ومذاق قهوة الروبوتات",
+      "url": "https://www.aljazeera.net/video/networks/2026/11/28/%d8%a7%d9%84%d9%85%d9%86%d8%b5%d8%a7%d8%aa-%d8%aa%d8%aa%d9%81%d8%a7%d8%b9%d9%84-%d9%85%d8%b9-%d8%a5%d8%ad%d8%a8%d8%a7%d8%b7-%d8%aa%d9%87%d8%b1%d9%8a%d8%a8-%d8%b3%d9%84%d8%a7%d8%ad%d9%81?traffic_source=rss",
+      "source": "aljazeera",
+      "source_name": "الجزيرة نت",
+      "published_at": "2026-11-28T12:55:21Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "المنصات تتفاعل مع إحباط تهريب سلاحف نادرة ومذاق قهوة الروبوتات",
+      "translation_status": "original_ar"
     },
     {
       "title": "بينكيو توفر سبورة CP05 الذكية في الشرق الأوسط بمقاسين مختلفين",
@@ -90,13 +157,13 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "غوغل تحول محرك البحث إلى مساعد ذكي يعرف ملفاتك ونفقاتك",
-      "url": "https://www.aljazeera.net/tech/2026/11/28/%d8%ba%d9%88%d8%ba%d9%84-%d8%aa%d8%ad%d9%88%d9%84-%d9%85%d8%ad%d8%b1%d9%83-%d8%a7%d9%84%d8%a8%d8%ad%d8%ab-%d8%a5%d9%84%d9%89-%d9%85%d8%b3%d8%a7%d8%b9%d8%af-%d9%8a%d8%b9%d8%b1%d9%81?traffic_source=rss",
+      "title": "13.1 مليار دولار إنفاق الأمريكيين عبر الإنترنت في \"الجمعة السوداء\"",
+      "url": "https://www.aljazeera.net/ebusiness/2026/11/28/13-1-%d9%85%d9%84%d9%8a%d8%a7%d8%b1-%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d8%a5%d9%86%d9%81%d8%a7%d9%82-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d9%8a%d9%86-%d8%b9%d8%a8%d8%b1?traffic_source=rss",
       "source": "aljazeera",
       "source_name": "الجزيرة نت",
-      "published_at": "2026-11-28T10:31:22Z",
+      "published_at": "2026-11-28T11:49:52Z",
       "category": "البرامج والإنترنت",
-      "title_ar": "غوغل تحول محرك البحث إلى مساعد ذكي يعرف ملفاتك ونفقاتك",
+      "title_ar": "13.1 مليار دولار إنفاق الأمريكيين عبر الإنترنت في \"الجمعة السوداء\"",
       "translation_status": "original_ar"
     },
     {
@@ -107,16 +174,6 @@
       "published_at": "2026-11-28T08:12:51Z",
       "category": "الهواتف والأجهزة",
       "title_ar": "أي iPhone تشتري في 2026؟ دليل شامل لجميع الطرازات المتاحة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "تعديل الأجهزة المنزلية بالذكاء الاصطناعي.. مزايا أكثر ومخاطر أكبر",
-      "url": "https://www.aljazeera.net/tech/2026/11/28/%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d8%a7%d9%84%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d8%a7%d9%84%d9%85%d9%86%d8%b2%d9%84%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1?traffic_source=rss",
-      "source": "aljazeera",
-      "source_name": "الجزيرة نت",
-      "published_at": "2026-11-28T08:12:45Z",
-      "category": "الذكاء الاصطناعي",
-      "title_ar": "تعديل الأجهزة المنزلية بالذكاء الاصطناعي.. مزايا أكثر ومخاطر أكبر",
       "translation_status": "original_ar"
     },
     {
@@ -201,28 +258,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "5 ways to make sure your console isn't holding back your GTA 6 performance",
-      "url": "https://www.engadget.com/2329878/gta-6-performance-ways-make-sure-console-not-holding-back/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-27T22:46:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "5 طرق للتأكد من أن وحدة التحكم الخاصة بك لا تعيق أداء GTA 6 الخاص بك",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Hackers reportedly infiltrated the Air Force's cloud systems",
-      "url": "https://www.engadget.com/2329586/hackers-reportedly-infiltrated-the-air-force-cloud-systems/",
-      "source": "engadget",
-      "source_name": "Engadget",
-      "published_at": "2026-11-27T16:55:43Z",
-      "category": "أخبار التقنية",
-      "title_ar": "أفادت التقارير أن قراصنة اخترقوا أنظمة السحابة الخاصة بالقوات الجوية",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Android’s DIY widgets are a bit of vibe-coding fun",
       "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
       "source": "theverge",
@@ -286,16 +321,6 @@
       "translation_status": "original_ar"
     },
     {
-      "title": "اختراق 1Password يتسبب في تسريب بيانات عملاء دون الوصول إلى الخزائن",
-      "url": "https://arabhardware.net/post-55247",
-      "source": "hardware",
-      "source_name": "عرب هاردوير",
-      "published_at": "2026-11-27T08:56:56Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "اختراق 1Password يتسبب في تسريب بيانات عملاء دون الوصول إلى الخزائن",
-      "translation_status": "original_ar"
-    },
-    {
       "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
       "url": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
       "source": "arstechnica",
@@ -314,37 +339,6 @@
       "published_at": "2026-11-27T07:00:00Z",
       "category": "أخبار التقنية",
       "title_ar": "نوع جديد من الرقاقات يشغّل نماذج الذكاء الاصطناعي باستخدام موجات الضوء",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "تسريب: هواوي تعمل على هاتف عريض ثاني بشاشة مسطحة قياس 6.17 إنش",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d8%b9%d9%85%d9%84-%d8%b9%d9%84%d9%89-%d9%87%d8%a7%d8%aa%d9%81-%d8%b9%d8%b1%d9%8a%d8%b6-%d8%ab%d8%a7%d9%86%d9%8a-%d8%a8%d8%b4%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T20:54:16Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "تسريب: هواوي تعمل على هاتف عريض ثاني بشاشة مسطحة قياس 6.17 إنش",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "هواوي تقارن Mate X8 مباشرة مع iPhone Duo في التصميم والشاشة",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d9%87%d9%88%d8%a7%d9%88%d9%8a-%d8%aa%d9%82%d8%a7%d8%b1%d9%86-mate-x8-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1%d8%a9-%d9%85%d8%b9-iphone-duo-%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%88%d8%a7/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T20:48:52Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "هواوي تقارن Mate X8 مباشرة مع iPhone Duo في التصميم والشاشة",
-      "translation_status": "original_ar"
-    },
-    {
-      "title": "Android app developers will soon have to share their address publicly",
-      "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-      "source": "theverge",
-      "source_name": "The Verge",
-      "published_at": "2026-11-26T17:06:24Z",
-      "category": "الهواتف والأجهزة",
-      "title_ar": "سيتعين على مطوري تطبيقات أندرويد قريبًا مشاركة عناوينهم علنًا",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
     },
