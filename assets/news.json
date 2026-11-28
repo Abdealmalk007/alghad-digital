@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-28T07:52:05Z",
+  "generated_at": "2026-11-28T08:03:31Z",
   "articles": [
-    {
-      "title": "الكويت ترسم ملامح الحكومة المتصلة في NEXUS 2026.. الذكاء الاصطناعي والأمن السيبراني في المقدمة",
-      "url": "https://technologyarabia.com/archives/18175/kuwait-nexus-2026-connected-government-ai-cybersecurity/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-28T07:40:35Z",
-      "category": "الأمن السيبراني",
-      "title_ar": "الكويت ترسم ملامح الحكومة المتصلة في NEXUS 2026.. الذكاء الاصطناعي والأمن السيبراني في المقدمة",
-      "translation_status": "original_ar"
-    },
     {
       "title": "تسريب: Huawei MatePad Mini 2 يحمل ثلاثة تحسينات في الشاشة",
       "url": "https://www.tech-wd.com/wd/2026/11/28/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-huawei-matepad-mini-2-%d9%8a%d8%ad%d9%85%d9%84-%d8%ab%d9%84%d8%a7%d8%ab%d8%a9-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4/",
@@ -79,8 +69,9 @@
       "source_name": "The Verge",
       "published_at": "2026-11-27T23:30:32Z",
       "category": "أخبار التقنية",
-      "title_ar": null,
-      "translation_status": "unavailable"
+      "title_ar": "التحديث المجاني للعبة يووكا-لايلي يتخطى جهاز إكس بوكس",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "5 ways to make sure your console isn't holding back your GTA 6 performance",
@@ -89,8 +80,19 @@
       "source_name": "Engadget",
       "published_at": "2026-11-27T22:46:29Z",
       "category": "أخبار التقنية",
-      "title_ar": null,
-      "translation_status": "unavailable"
+      "title_ar": "5 طرق للتأكد من أن وحدة التحكم الخاصة بك لا تعيق أداء GTA 6 الخاص بك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "تايدال تحظر الموسيقى المولّدة بالكامل بالذكاء الاصطناعي وتعتزم إزالة ملايين المقاطع",
+      "url": "https://aitnews.com/2026/11/28/%d8%aa%d8%a7%d9%8a%d8%af%d8%a7%d9%84-%d8%ad%d8%b8%d8%b1-%d8%a7%d9%84%d9%85%d9%88%d8%b3%d9%8a%d9%82%d9%89-%d8%a7%d9%84%d9%85%d9%88%d9%84%d8%af%d8%a9/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-27T22:37:01Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "تايدال تحظر الموسيقى المولّدة بالكامل بالذكاء الاصطناعي وتعتزم إزالة ملايين المقاطع",
+      "translation_status": "original_ar"
     },
     {
       "title": "LA school district blocks Google's AI search features",
@@ -99,8 +101,9 @@
       "source_name": "Engadget",
       "published_at": "2026-11-27T22:00:08Z",
       "category": "أخبار التقنية",
-      "title_ar": null,
-      "translation_status": "unavailable"
+      "title_ar": "منطقة لوس أنجلوس التعليمية تحظر ميزات البحث بالذكاء الاصطناعي من جوجل",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "Allstate has been suffering an outage since Monday",
@@ -109,8 +112,19 @@
       "source_name": "The Verge",
       "published_at": "2026-11-27T21:52:42Z",
       "category": "أخبار التقنية",
-      "title_ar": null,
-      "translation_status": "unavailable"
+      "title_ar": "تعاني أليستيت من انقطاع الخدمة منذ يوم الاثنين",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
+    },
+    {
+      "title": "OpenAI تقاضي آبل بدعوى مضادة وتتهمها بسرقة أسرار تجارية وعرقلة التصنيع",
+      "url": "https://aitnews.com/2026/11/28/%d8%af%d8%b9%d9%88%d9%89-%d9%85%d8%b6%d8%a7%d8%af%d8%a9-%d8%b6%d8%af-%d8%a2%d8%a8%d9%84-%d9%88%d8%a3%d8%b3%d8%b1%d8%a7%d8%b1-%d8%a7%d9%84%d8%a3%d8%ac%d9%87%d8%b2%d8%a9/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-27T21:23:23Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "OpenAI تقاضي آبل بدعوى مضادة وتتهمها بسرقة أسرار تجارية وعرقلة التصنيع",
+      "translation_status": "original_ar"
     },
     {
       "title": "My favorite MPC beat maker is ready for your vibe-coded firmware and effects",
@@ -119,8 +133,9 @@
       "source_name": "The Verge",
       "published_at": "2026-11-27T20:48:04Z",
       "category": "أخبار التقنية",
-      "title_ar": null,
-      "translation_status": "unavailable"
+      "title_ar": "جهاز MPC المفضل لدي لصنع الإيقاعات جاهز للبرامج الثابتة والتأثيرات التي تتناسب مع أجواءك",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "Samsung is reportedly giving its camera app an AI mode",
@@ -129,8 +144,9 @@
       "source_name": "Engadget",
       "published_at": "2026-11-27T20:06:02Z",
       "category": "أخبار التقنية",
-      "title_ar": null,
-      "translation_status": "unavailable"
+      "title_ar": "ورد أن سامسونج تمنح تطبيق الكاميرا الخاص بها وضع الذكاء الاصطناعي",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "Restricted NVIDIA chips were installed at a Chinese data center linked to Alice Huang",
@@ -139,8 +155,9 @@
       "source_name": "Engadget",
       "published_at": "2026-11-27T19:45:23Z",
       "category": "أخبار التقنية",
-      "title_ar": null,
-      "translation_status": "unavailable"
+      "title_ar": "تم تركيب رقاقات NVIDIA الخاضعة للقيود في مركز بيانات صيني مرتبط بأليس هوانغ",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "Hackers reportedly infiltrated the Air Force's cloud systems",
@@ -154,6 +171,26 @@
       "translation_provider": "MyMemory"
     },
     {
+      "title": "رويترز: اختراق منصة Cloud One السحابية للقوات الجوية الأمريكية",
+      "url": "https://aitnews.com/2026/11/27/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d9%85%d9%86%d8%b5%d8%a9-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%88%d9%8a%d8%a9/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-27T16:53:58Z",
+      "category": "الأمن السيبراني",
+      "title_ar": "رويترز: اختراق منصة Cloud One السحابية للقوات الجوية الأمريكية",
+      "translation_status": "original_ar"
+    },
+    {
+      "title": "بلومبرغ: وثائق تكشف وجود رقاقات إنفيديا «بلاكويل» الخاضعة لقيود التصدير في الصين",
+      "url": "https://aitnews.com/2026/11/27/%d8%b1%d9%82%d8%a7%d9%82%d8%a7%d8%aa-%d8%a5%d9%86%d9%81%d9%8a%d8%af%d9%8a%d8%a7-%d8%a8%d9%84%d8%a7%d9%83%d9%88%d9%8a%d9%84-%d9%81%d9%8a-%d8%a7%d9%84%d8%b5%d9%8a%d9%86/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-27T16:53:07Z",
+      "category": "أخبار التقنية",
+      "title_ar": "بلومبرغ: وثائق تكشف وجود رقاقات إنفيديا «بلاكويل» الخاضعة لقيود التصدير في الصين",
+      "translation_status": "original_ar"
+    },
+    {
       "title": "Android’s DIY widgets are a bit of vibe-coding fun",
       "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
       "source": "theverge",
@@ -165,13 +202,13 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "قطر تقود المداولات العربية في مؤتمر ITU بالدوحة.. حماية الأطفال ومكافحة انتحال الهوية على الطاولة",
-      "url": "https://technologyarabia.com/archives/18170/qatar-itu-pp26-arab-group-telecom-policy-child-online-safety-2026/",
-      "source": "technologyarabia",
-      "source_name": "مجلة التقنية العربية",
-      "published_at": "2026-11-27T12:40:41Z",
-      "category": "أخبار التقنية",
-      "title_ar": "قطر تقود المداولات العربية في مؤتمر ITU بالدوحة.. حماية الأطفال ومكافحة انتحال الهوية على الطاولة",
+      "title": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
+      "url": "https://aitnews.com/2026/11/27/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%87%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a%d8%a9/",
+      "source": "aitnews",
+      "source_name": "البوابة التقنية",
+      "published_at": "2026-11-27T13:18:52Z",
+      "category": "الذكاء الاصطناعي",
+      "title_ar": "الصين تنظم الهوية الرقمية الموزعة وتشجع استخدامها لوكلاء الذكاء الاصطناعي",
       "translation_status": "original_ar"
     },
     {
@@ -291,28 +328,6 @@
       "translation_provider": "MyMemory"
     },
     {
-      "title": "X finally gets parental controls after 20 years",
-      "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
-      "source": "techcrunch",
-      "source_name": "TechCrunch",
-      "published_at": "2026-11-26T19:31:50Z",
-      "category": "أخبار التقنية",
-      "title_ar": "يحصل X أخيرًا على أدوات الرقابة الأبوية بعد 20 عامًا",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
-      "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
-      "url": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
-      "source": "arstechnica",
-      "source_name": "Ars Technica",
-      "published_at": "2026-11-26T18:00:29Z",
-      "category": "أخبار التقنية",
-      "title_ar": "فورد تكشف النقاب عن سيارة GT41 على أمل الفوز بسباق لو مان مرة أخرى",
-      "translation_status": "machine",
-      "translation_provider": "MyMemory"
-    },
-    {
       "title": "Android app developers will soon have to share their address publicly",
       "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
       "source": "theverge",
@@ -322,16 +337,6 @@
       "title_ar": "سيتعين على مطوري تطبيقات أندرويد قريبًا مشاركة عناوينهم علنًا",
       "translation_status": "machine",
       "translation_provider": "MyMemory"
-    },
-    {
-      "title": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
-      "url": "https://www.tech-wd.com/wd/2026/11/26/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%83%d8%a7%d9%85%d9%8a%d8%b1%d8%a7-tp-link-tapo-c825-%d8%a8%d8%b4%d8%a7%d8%b4%d8%a9-%d9%84%d9%85%d8%b3-%d9%84%d9%85%d9%83%d8%a7%d9%84%d9%85%d8%a7%d8%aa-%d8%a7%d9%84/",
-      "source": "techwd",
-      "source_name": "عالم التقنية",
-      "published_at": "2026-11-26T14:29:45Z",
-      "category": "أخبار التقنية",
-      "title_ar": "إطلاق كاميرا TP-Link Tapo C825 بشاشة لمس لمكالمات الفيديو بسعر 149.99 دولار",
-      "translation_status": "original_ar"
     },
     {
       "title": "Google search alternative Kagi launches Gmail rival",
@@ -362,8 +367,9 @@
       "source_name": "TechCrunch",
       "published_at": "2026-11-25T17:36:51Z",
       "category": "أخبار التقنية",
-      "title_ar": null,
-      "translation_status": "unavailable"
+      "title_ar": "تتهم وزارة العدل الأمريكية مسؤولًا سابقًا في مجال الأمن السيبراني بالاحتيال على ضحايا برامج الفدية من خلال دفع أموال سراً للقراصنة",
+      "translation_status": "machine",
+      "translation_provider": "MyMemory"
     },
     {
       "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
@@ -382,7 +388,7 @@
       "id": "aitnews",
       "name": "البوابة التقنية",
       "url": "https://aitnews.com/",
-      "active": false
+      "active": true
     },
     {
       "id": "techwd",
@@ -406,7 +412,7 @@
       "id": "technologyarabia",
       "name": "مجلة التقنية العربية",
       "url": "https://technologyarabia.com/",
-      "active": true
+      "active": false
     },
     {
       "id": "arrafni",
