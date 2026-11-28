@@ -71,3 +71,11 @@ with tempfile.TemporaryDirectory() as temp:
     assert row["title_ar"]==""
     assert not json.loads(cache_path.read_text(encoding="utf8"))["pairs"]
 print("TRANSLATION_NUMERIC_INTEGRITY_PASS")
+
+# Global uniqueness and specialist-first allocation.
+rows=[a for section in selected.values() for a in section]
+assert len(rows)==len({a["url"] for a in rows})
+assert len(rows)==len({app.normalized_title(a["original_title"]) for a in rows})
+assert all(a["url"] not in {x["url"] for x in windows} for a in selected["tech"])
+app.validate(cfg,{"topics":selected})
+print("TOP5_CROSS_CATEGORY_DEDUP_PASS")

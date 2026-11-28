@@ -51,6 +51,17 @@ def main()->int:
             print(f"::warning::No recent headlines in {name} feed snapshot; newest item is {article_age:.1f} hours old.",flush=True)
         if snapshot_age>12:
             print(f"::warning::Snapshot creation of {name} is {snapshot_age:.1f} hours old.",flush=True)
+    industry=json.loads(DATASETS["Official AI, companies and cars"].read_text(encoding="utf-8"))
+    lines += ["", "| Official topic | Articles | Latest age | Older than seven days |",
+              "|---|---:|---:|---:|"]
+    for topic, section in industry["topics"].items():
+        ages=[max(0.0,(NOW-date_of(a["published_at"])).total_seconds()/3600)
+              for a in section["articles"]]
+        newest=min(ages,default=float("inf"))
+        older=sum(age>168 for age in ages)
+        lines.append(f"| {topic} | {len(ages)} | {newest:.1f} h | {older} |")
+        if newest>168:
+            print(f"::warning::No verified {topic} headlines within seven days; retain original dates.")
     lines += ["","GitHub scheduled workflows are best-effort; the extra scheduled runs provide redundancy, not a guaranteed wall-clock execution time."]
     print("\n".join(lines),flush=True)
     summary=os.environ.get("GITHUB_STEP_SUMMARY")

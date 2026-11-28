@@ -188,7 +188,12 @@ def select(items: list[dict], cfg: dict) -> dict:
             continue
         good.append(a)
     result={}
-    for cat in categories:
+    # Allocate specialized sections before broad catch-all sections.
+    priority = ("windows", "android", "apple", "cars", "emerging", "ai",
+                "security", "smartphones", "software", "computers", "tech")
+    order = {name: i for i, name in enumerate(priority)}
+    assigned_urls, assigned_titles = set(), set()
+    for cat in sorted(categories, key=lambda c: order.get(c["id"], len(order))):
         candidates=[]
         for article in good:
             # Match headline, not broad article text: keeps categories topically precise.
@@ -215,11 +220,16 @@ def select(items: list[dict], cfg: dict) -> dict:
         used_sources={}
         # Prioritize the most recent bucket and diversify reliable publishers.
         for bucket,score,pub,a in candidates:
-            if used_sources.get(a["source"],0)>=2:
-                continue
-            used_sources[a["source"]]=used_sources.get(a["source"],0)+1
             if len(chosen)>=cfg["max_items"]:
                 break
+            url_key=a["url"].rstrip("/").lower()
+            title_key=normalized_title(a["original_title"])
+            if (url_key in assigned_urls or title_key in assigned_titles or
+                used_sources.get(a["source"],0)>=2):
+                continue
+            used_sources[a["source"]]=used_sources.get(a["source"],0)+1
+            assigned_urls.add(url_key)
+            assigned_titles.add(title_key)
             val={k:a.get(k, "") for k in ("url","source","source_name","published_at","fetched_at","original_title",
                 "title_en","title_ar","summary_en","summary_ar")}
             val["id"]=hashlib.sha256(a["url"].encode()).hexdigest()[:16]
@@ -227,18 +237,24 @@ def select(items: list[dict], cfg: dict) -> dict:
             val["image_url"]=None # No image license is assumed.
             chosen.append(val)
         result[cat["id"]]=chosen
-    return result
+    return {cat["id"]:result[cat["id"]] for cat in categories}
 def validate(cfg: dict, data: dict) -> None:
     cats=[c for c in cfg["categories"] if c.get("enabled",True)]
     assert len({c["id"] for c in cats})==len(cats)>=1
     assert all(re.fullmatch("[a-z0-9-]+",c["id"]) for c in cats)
     assert set(data["topics"])=={c["id"] for c in cats}
+    seen_urls, seen_titles = set(), set()
     for cat in cats:
         group=data["topics"][cat["id"]]
         assert len(group)<=5 and len({a["url"] for a in group})==len(group)
         for i,a in enumerate(group,1):
             assert a["rank"]==i and a["category"]==cat["id"]
             assert good_url(a["url"])==a["url"]
+            url_key=a["url"].rstrip("/").lower()
+            title_key=normalized_title(a["original_title"])
+            assert url_key not in seen_urls and title_key not in seen_titles, "Duplicate story across TOP5"
+            seen_urls.add(url_key)
+            seen_titles.add(title_key)
             published=date(a["published_at"])
             assert published and NOW-dt.timedelta(days=cfg["max_age_days"])<=published<=NOW+dt.timedelta(minutes=30)
             assert a["original_title"] and a["source_name"]
